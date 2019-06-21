@@ -47,5 +47,3 @@ For more details see [GitHub Flavored Markdown](https://guides.github.com/featur
 4. Email:
 - Поддержка Original: alert@goodmc.ru
 - Администрация сообщества: admin@goodmc.ru
-5.
-6.
