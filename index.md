@@ -35,6 +35,6 @@ For more details see [GitHub Flavored Markdown](https://guides.github.com/featur
 - В случае предложения изменений - вносите их в отдельную ветку
 - Не вносите изменения, если вы плохо знакомы с GitHub или с тем, что делаете
 
-### Support or Contact
+### Помощь и контакты
 
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
