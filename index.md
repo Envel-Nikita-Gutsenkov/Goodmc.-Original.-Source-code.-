@@ -1,8 +1,8 @@
-## Welcome to GitHub Pages
+## GoodMC Original. Добро пожаловать! 
 
-You can use the [editor on GitHub](https://github.com/Envel-Nikita-Gutsenkov/Goodmc.-Original.-Source-code.-/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+Репозиторий содержит карты, плагины, исныдный код и многое другое с проекта. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Репозиторий предназначен исключительно для сообщества Goodmc.ru 
 
 ### Markdown
 
