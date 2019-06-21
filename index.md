@@ -29,7 +29,7 @@ Syntax highlighted code block
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
 ### Правила
-
+#
 - Использование любых материалов на сторонних проектах должно сопровождаться примечаниями о принадлежности GoodMC.ru (игроки тоже должны это видеть)
 - Недопустимо использовать любые разработки GoodMC на проектах с донатом
 - В случае предложения изменений - вносите их в отдельную ветку
@@ -37,4 +37,15 @@ For more details see [GitHub Flavored Markdown](https://guides.github.com/featur
 
 ### Помощь и контакты
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+1. Сайт сообщества:
+- https://goodmc.ru
+2. Discord:
+- https://discord.gg/46KZd5Z
+3. Telegram:
+- Основной чат: https://t.me/goodmc_chat
+- Новостной чат: https://t.me/goodmc
+4. Email:
+- Поддержка Original: alert@goodmc.ru
+- Администрация сообщества: admin@goodmc.ru
+5.
+6.
