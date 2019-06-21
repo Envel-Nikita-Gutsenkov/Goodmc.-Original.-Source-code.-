@@ -28,9 +28,12 @@ Syntax highlighted code block
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
+### Правила
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Envel-Nikita-Gutsenkov/Goodmc.-Original.-Source-code.-/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+- Использование любых материалов на сторонних проектах должно сопровождаться примечаниями о принадлежности GoodMC.ru (игроки тоже должны это видеть)
+- Недопустимо использовать любые разработки GoodMC на проектах с донатом
+- В случае предложения изменений - вносите их в отдельную ветку
+- Не вносите изменения, если вы плохо знакомы с GitHub или с тем, что делаете
 
 ### Support or Contact
 
