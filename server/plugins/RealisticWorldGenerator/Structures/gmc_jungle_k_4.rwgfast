@@ -1,0 +1,26 @@
+positioning:
+  position: OVERWORLD
+  minY: 0
+  maxY: 256
+version: '1.0'
+schematic:
+  minecraftVersion: v1_13_2
+  version: '1.2'
+  basement:
+    build: false
+blocks:
+  '1_1_0': minecraft:jungle_leaves[distance=1,persistent=true]
+  0_2_-1: minecraft:jungle_leaves[distance=1,persistent=true]
+  '0_0_1': minecraft:jungle_leaves[distance=1,persistent=true]
+  -1_1_-1: minecraft:jungle_leaves[distance=1,persistent=true]
+  '1_2_1': minecraft:jungle_leaves[distance=1,persistent=true]
+  '1_2_0': minecraft:jungle_leaves[distance=1,persistent=true]
+  '0_0_0': minecraft:jungle_leaves[distance=1,persistent=true]
+  0_1_-1: minecraft:jungle_leaves[distance=1,persistent=true]
+  '-1_2_1': minecraft:jungle_leaves[distance=1,persistent=true]
+  0_3_-1: minecraft:jungle_leaves[distance=1,persistent=true]
+  '1_4_0': minecraft:jungle_leaves[distance=1,persistent=true]
+  '1_0_0': minecraft:jungle_leaves[distance=1,persistent=true]
+  '-1_1_1': minecraft:jungle_leaves[distance=1,persistent=true]
+  0_0_-1: minecraft:jungle_leaves[distance=1,persistent=true]
+  '1_3_0': minecraft:jungle_leaves[distance=1,persistent=true]

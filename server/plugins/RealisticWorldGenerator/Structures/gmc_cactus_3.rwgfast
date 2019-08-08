@@ -1,0 +1,13 @@
+positioning:
+  position: OVERWORLD
+  minY: 0
+  maxY: 256
+version: '312e30'
+schematic:
+  minecraftVersion: v1_13_2
+  version: '312e33'
+  basement:
+    build: false
+blocks:
+  '0_1_0': minecraft:cactus[age=0]
+  '0_2_0': minecraft:cactus[age=3]

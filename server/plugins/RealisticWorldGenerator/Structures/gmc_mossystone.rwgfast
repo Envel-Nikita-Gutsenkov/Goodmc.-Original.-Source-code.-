@@ -1,0 +1,67 @@
+positioning:
+  position: OVERWORLD
+  minY: 0
+  maxY: 256
+version: '312e30'
+schematic:
+  minecraftVersion: v1_13_2
+  version: '312e33'
+  basement:
+    build: false
+blocks:
+  1_-3_-2: minecraft:mossy_cobblestone
+  -1_-4_-2: minecraft:mossy_cobblestone
+  -1_-2_0: minecraft:mossy_cobblestone
+  2_-2_-1: minecraft:mossy_cobblestone
+  1_-3_0: minecraft:mossy_cobblestone
+  0_-2_0: minecraft:mossy_cobblestone
+  0_-3_1: minecraft:mossy_cobblestone
+  1_-2_-1: minecraft:mossy_cobblestone
+  -2_-2_-2: minecraft:mossy_cobblestone
+  1_-3_-1: minecraft:mossy_cobblestone
+  -1_-2_-1: minecraft:mossy_cobblestone
+  1_-1_1: minecraft:mossy_cobblestone
+  -2_-3_-2: minecraft:mossy_cobblestone
+  0_-2_1: minecraft:mossy_cobblestone
+  '1_0_0': minecraft:mossy_cobblestone
+  -1_0_-1: minecraft:mossy_cobblestone
+  2_-1_0: minecraft:mossy_cobblestone
+  -1_-1_-2: minecraft:mossy_cobblestone
+  1_-3_1: minecraft:mossy_cobblestone
+  1_-4_0: minecraft:mossy_cobblestone
+  -1_-3_-2: minecraft:mossy_cobblestone
+  -2_-1_-1: minecraft:mossy_cobblestone
+  2_-1_-1: minecraft:mossy_cobblestone
+  -1_-2_-2: minecraft:mossy_cobblestone
+  -2_-1_-2: minecraft:mossy_cobblestone
+  1_-2_0: minecraft:mossy_cobblestone
+  1_-1_0: minecraft:mossy_cobblestone
+  0_-4_0: minecraft:mossy_cobblestone
+  0_-1_-1: minecraft:mossy_cobblestone
+  -2_-2_-1: minecraft:mossy_cobblestone
+  -1_-3_0: minecraft:mossy_cobblestone
+  0_-3_-2: minecraft:mossy_cobblestone
+  0_-1_0: minecraft:mossy_cobblestone
+  -2_-4_-1: minecraft:mossy_cobblestone
+  0_-4_-2: minecraft:mossy_cobblestone
+  -1_-1_0: minecraft:mossy_cobblestone
+  2_-3_0: minecraft:mossy_cobblestone
+  2_-2_0: minecraft:mossy_cobblestone
+  2_-2_1: minecraft:mossy_cobblestone
+  0_0_-1: minecraft:mossy_cobblestone
+  0_-2_-2: minecraft:mossy_cobblestone
+  0_-4_-1: minecraft:mossy_cobblestone
+  -1_-1_-1: minecraft:mossy_cobblestone
+  1_-1_-1: minecraft:mossy_cobblestone
+  1_-4_1: minecraft:mossy_cobblestone
+  0_-3_0: minecraft:mossy_cobblestone
+  -2_-2_0: minecraft:mossy_cobblestone
+  -1_-4_-1: minecraft:mossy_cobblestone
+  -1_-4_0: minecraft:mossy_cobblestone
+  1_-4_-1: minecraft:mossy_cobblestone
+  -1_-3_-1: minecraft:mossy_cobblestone
+  0_-3_-1: minecraft:mossy_cobblestone
+  1_-2_1: minecraft:mossy_cobblestone
+  -2_-3_-1: minecraft:mossy_cobblestone
+  -2_-3_0: minecraft:mossy_cobblestone
+  0_-2_-1: minecraft:mossy_cobblestone

@@ -1,0 +1,48 @@
+positioning:
+  position: UNDERGROUND
+  minY: 0
+  maxY: 256
+version: '312e30'
+schematic:
+  minecraftVersion: v1_13_2
+  version: '312e33'
+  basement:
+    build: false
+blocks:
+  0_2_-1: minecraft:bone_block[axis=z]
+  -1_0_-5: minecraft:bone_block[axis=y]
+  0_2_-2: minecraft:bone_block[axis=z]
+  1_1_-1: minecraft:bone_block[axis=y]
+  0_2_-5: minecraft:bone_block[axis=z]
+  -1_1_-1: minecraft:bone_block[axis=y]
+  '-1_0_5': minecraft:bone_block[axis=y]
+  '0_2_1': minecraft:bone_block[axis=z]
+  '1_0_5': minecraft:bone_block[axis=y]
+  0_2_-3: minecraft:bone_block[axis=z]
+  '1_1_5': minecraft:bone_block[axis=y]
+  '1_1_3': minecraft:bone_block[axis=y]
+  1_0_-1: minecraft:bone_block[axis=y]
+  '-1_1_3': minecraft:bone_block[axis=y]
+  '0_2_6': minecraft:bone_block[axis=z]
+  -1_1_-5: minecraft:bone_block[axis=y]
+  '0_2_3': minecraft:bone_block[axis=z]
+  1_1_-5: minecraft:bone_block[axis=y]
+  -1_1_-3: minecraft:bone_block[axis=y]
+  '1_0_1': minecraft:bone_block[axis=y]
+  0_2_-6: minecraft:bone_block[axis=z]
+  '0_2_4': minecraft:bone_block[axis=z]
+  '-1_0_1': minecraft:bone_block[axis=y]
+  '0_2_2': minecraft:bone_block[axis=z]
+  -1_0_-3: minecraft:bone_block[axis=y]
+  '1_1_1': minecraft:bone_block[axis=y]
+  1_0_-3: minecraft:bone_block[axis=y]
+  1_0_-5: minecraft:bone_block[axis=y]
+  '0_2_5': minecraft:bone_block[axis=z]
+  '0_2_0': minecraft:bone_block[axis=z]
+  -1_0_-1: minecraft:bone_block[axis=y]
+  '-1_0_3': minecraft:bone_block[axis=y]
+  '1_0_3': minecraft:bone_block[axis=y]
+  '-1_1_5': minecraft:bone_block[axis=y]
+  '-1_1_1': minecraft:bone_block[axis=y]
+  0_2_-4: minecraft:bone_block[axis=z]
+  1_1_-3: minecraft:bone_block[axis=y]
