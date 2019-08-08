@@ -1,0 +1,234 @@
+#                       ┏━━━┓╋╋╋╋╋╋╋┏┳━┓┏━┳━━━┓
+#                       ┃┏━┓┃╋╋╋╋╋╋╋┃┃┃┗┛┃┃┏━┓┃
+#                       ┃┃╋┗╋━━┳━━┳━┛┃┏┓┏┓┃┃╋┗┛
+#                       ┃┃┏━┫┏┓┃┏┓┃┏┓┃┃┃┃┃┃┃╋┏┓
+#                       ┃┗┻━┃┗┛┃┗┛┃┗┛┃┃┃┃┃┃┗━┛┃
+# ∙∙·▫▫ᵒᴼᵒ▫ₒₒ▫ᵒᴼᵒ▫ₒₒ▫ᵒᴼᵒ┗━━━┻━━┻━━┻━━┻┛┗┛┗┻━━━┛ᵒᴼᵒ▫ₒₒ▫ᵒᴼᵒ▫ₒₒ▫ᵒᴼᵒ▫▫·∙∙
+#
+
+#Изменяем уровень здоровья и урона у всех мобов.
+
+Установка значений здоровья в -1 убивает моба при появлении:
+  '   ': ''
+Установка значений здоровья или урона на -2 отключает изменения:
+  '   ': ''
+Любые другие значения изменяют урон или здоровье этого моба на то, на что он установлен:
+  '    ': ''
+'ex: 2 = 1 heart - 7 = 3 and a half hearts':
+  '    ': ''
+Мобы, которые не могут атаковать, все еще имеют значения урона, но урон не будет применен к ним:
+  '    ': ''
+'DROPPED_ITEM health ': -2
+'DROPPED_ITEM damage ': -2
+'EXPERIENCE_ORB health ': -2
+'EXPERIENCE_ORB damage ': -2
+'AREA_EFFECT_CLOUD health ': -2
+'AREA_EFFECT_CLOUD damage ': -2
+'ELDER_GUARDIAN health ': 150
+'ELDER_GUARDIAN damage ': -2
+'WITHER_SKELETON health ': 60
+'WITHER_SKELETON damage ': 10
+'STRAY health ': -2
+'STRAY damage ': -2
+'EGG health ': -2
+'EGG damage ': -2
+'LEASH_HITCH health ': -2
+'LEASH_HITCH damage ': -2
+'PAINTING health ': -2
+'PAINTING damage ': -2
+'ARROW health ': -2
+'ARROW damage ': -2
+'SNOWBALL health ': -2
+'SNOWBALL damage ': -2
+'FIREBALL health ': -2
+'FIREBALL damage ': -2
+'SMALL_FIREBALL health ': -2
+'SMALL_FIREBALL damage ': -2
+'ENDER_PEARL health ': -2
+'ENDER_PEARL damage ': -2
+'ENDER_SIGNAL health ': -2
+'ENDER_SIGNAL damage ': -2
+'SPLASH_POTION health ': -2
+'SPLASH_POTION damage ': -2
+'THROWN_EXP_BOTTLE health ': -2
+'THROWN_EXP_BOTTLE damage ': -2
+'ITEM_FRAME health ': -2
+'ITEM_FRAME damage ': -2
+'WITHER_SKULL health ': -2
+'WITHER_SKULL damage ': -2
+'PRIMED_TNT health ': -2
+'PRIMED_TNT damage ': -2
+'FALLING_BLOCK health ': -2
+'FALLING_BLOCK damage ': -2
+'FIREWORK health ': -2
+'FIREWORK damage ': -2
+'HUSK health ': -2
+'HUSK damage ': -2
+'SPECTRAL_ARROW health ': -2
+'SPECTRAL_ARROW damage ': -2
+'SHULKER_BULLET health ': -2
+'SHULKER_BULLET damage ': -2
+'DRAGON_FIREBALL health ': -2
+'DRAGON_FIREBALL damage ': -2
+'ZOMBIE_VILLAGER health ': 40
+'ZOMBIE_VILLAGER damage ': 6
+'SKELETON_HORSE health ': 40
+'SKELETON_HORSE damage ': -2
+'ZOMBIE_HORSE health ': 40
+'ZOMBIE_HORSE damage ': 6
+'ARMOR_STAND health ': -2
+'ARMOR_STAND damage ': -2
+'DONKEY health ': -2
+'DONKEY damage ': -2
+'MULE health ': -2
+'MULE damage ': -2
+'EVOKER_FANGS health ': -2
+'EVOKER_FANGS damage ': -2
+'EVOKER health ': 34
+'EVOKER damage ': -2
+'VEX health ': 24
+'VEX damage ': -2
+'VINDICATOR health ': 40
+'VINDICATOR damage ': -2
+'ILLUSIONER health ': 65
+'ILLUSIONER damage ': -2
+'MINECART_COMMAND health ': -2
+'MINECART_COMMAND damage ': -2
+'BOAT health ': -2
+'BOAT damage ': -2
+'MINECART health ': -2
+'MINECART damage ': -2
+'MINECART_CHEST health ': -2
+'MINECART_CHEST damage ': -2
+'MINECART_FURNACE health ': -2
+'MINECART_FURNACE damage ': -2
+'MINECART_TNT health ': -2
+'MINECART_TNT damage ': -2
+'MINECART_HOPPER health ': -2
+'MINECART_HOPPER damage ': -2
+'MINECART_MOB_SPAWNER health ': -2
+'MINECART_MOB_SPAWNER damage ': -2
+'CREEPER health ': 40
+'CREEPER damage ': -2
+'SKELETON health ': 55
+'SKELETON damage ': 8
+'SPIDER health ': 60
+'SPIDER damage ': -2
+'GIANT health ': -2
+'GIANT damage ': -2
+'ZOMBIE health ': 35
+'ZOMBIE damage ': 4
+'SLIME health ': 24
+'SLIME damage ': -2
+'GHAST health ': 20
+'GHAST damage ': -2
+'PIG_ZOMBIE health ': 40
+'PIG_ZOMBIE damage ': 6
+'ENDERMAN health ': 60
+'ENDERMAN damage ': 12
+'CAVE_SPIDER health ': 34
+'CAVE_SPIDER damage ': -2
+'SILVERFISH health ': 6
+'SILVERFISH damage ': -2
+'BLAZE health ': 60
+'BLAZE damage ': -2
+'MAGMA_CUBE health ': 24
+'MAGMA_CUBE damage ': -2
+'ENDER_DRAGON health ': 1500
+'ENDER_DRAGON damage ': -2
+'WITHER health ': 1000
+'WITHER damage ': -2
+'BAT health ': 12
+'BAT damage ': -2
+'WITCH health ': -2
+'WITCH damage ': -2
+'ENDERMITE health ': 16
+'ENDERMITE damage ': -2
+'GUARDIAN health ': 50
+'GUARDIAN damage ': -2
+'SHULKER health ': 40
+'SHULKER damage ': -2
+'PIG health ': 30
+'PIG damage ': -2
+'SHEEP health ': 30
+'SHEEP damage ': -2
+'COW health ': 60
+'COW damage ': -2
+'CHICKEN health ': 14
+'CHICKEN damage ': 2
+'SQUID health ': -2
+'SQUID damage ': 20
+'WOLF health ': 16
+'WOLF damage ': -2
+'MUSHROOM_COW health ': 60
+'MUSHROOM_COW damage ': -2
+'SNOWMAN health ': 10
+'SNOWMAN damage ': -2
+'OCELOT health ': 20
+'OCELOT damage ': -2
+'IRON_GOLEM health ': -2
+'IRON_GOLEM damage ': -2
+'HORSE health ': 40
+'HORSE damage ': -2
+'RABBIT health ': 10
+'RABBIT damage ': -2
+'POLAR_BEAR health ': 80
+'POLAR_BEAR damage ': -2
+'LLAMA health ': -2
+'LLAMA damage ': -2
+'LLAMA_SPIT health ': -2
+'LLAMA_SPIT damage ': -2
+'PARROT health ': 12
+'PARROT damage ': -2
+'VILLAGER health ': 45
+'VILLAGER damage ': -2
+'ENDER_CRYSTAL health ': -2
+'ENDER_CRYSTAL damage ': -2
+'TURTLE health ': 50
+'TURTLE damage ': -2
+'PHANTOM health ': 40
+'PHANTOM damage ': -2
+'TRIDENT health ': -2
+'TRIDENT damage ': -2
+'COD health ': -2
+'COD damage ': -2
+'SALMON health ': -2
+'SALMON damage ': -2
+'PUFFERFISH health ': 6
+'PUFFERFISH damage ': -2
+'TROPICAL_FISH health ': 6
+'TROPICAL_FISH damage ': -2
+'DROWNED health ': 40
+'DROWNED damage ': -2
+'DOLPHIN health ': 30
+'DOLPHIN damage ': -2
+'LINGERING_POTION health ': -2
+'LINGERING_POTION damage ': -2
+'FISHING_HOOK health ': -2
+'FISHING_HOOK damage ': -2
+'LIGHTNING health ': -2
+'LIGHTNING damage ': -2
+'WEATHER health ': -2
+'WEATHER damage ': -2
+'PLAYER health ': -2
+'PLAYER damage ': -2
+'COMPLEX_PART health ': -2
+'COMPLEX_PART damage ': -2
+'TIPPED_ARROW health ': -2
+'TIPPED_ARROW damage ': -2
+'UNKNOWN health ': -2
+'UNKNOWN damage ': -2
+'Enabled Worlds - If Left Blank Will Just Use default world ':
+- world
+- world_nether
+- world_the_end
+- mine
+#
+# ░░░░░░░░░░░░░░░░▄▓▄
+# ░░░░▄█▄░░░░░░░░▄▓▓▓▄
+# ░░▄█████▄░░░░░▄▓▓▓▓▓▄
+# ░▀██┼█┼██▀░░░▄▓▓▓▓▓▓▓▄
+# ▄▄███████▄▄▄▄▄▄▄▄█▄▄▄▄
+# Developed by Envel
+# Nikita Gutsenkov
+# Ngucenkov@yandex.ru
