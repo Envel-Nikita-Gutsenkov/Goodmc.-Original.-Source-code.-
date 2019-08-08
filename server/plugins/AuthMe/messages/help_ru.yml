@@ -1,0 +1,165 @@
+#                       ┏━━━┓╋╋╋╋╋╋╋┏┳━┓┏━┳━━━┓
+#                       ┃┏━┓┃╋╋╋╋╋╋╋┃┃┃┗┛┃┃┏━┓┃
+#                       ┃┃╋┗╋━━┳━━┳━┛┃┏┓┏┓┃┃╋┗┛
+#                       ┃┃┏━┫┏┓┃┏┓┃┏┓┃┃┃┃┃┃┃╋┏┓
+#                       ┃┗┻━┃┗┛┃┗┛┃┗┛┃┃┃┃┃┃┗━┛┃
+# ∙∙·▫▫ᵒᴼᵒ▫ₒₒ▫ᵒᴼᵒ▫ₒₒ▫ᵒᴼᵒ┗━━━┻━━┻━━┻━━┻┛┗┛┗┻━━━┛ᵒᴼᵒ▫ₒₒ▫ᵒᴼᵒ▫ₒₒ▫ᵒᴼᵒ▫▫·∙∙
+#
+common:
+    header: '==========[ Авторизация. Помощь. ]=========='
+    optional: 'Необязательно'
+    hasPermission: 'Есть разрешение'
+    noPermission: 'Нет разрешения'
+    default: 'По умолчанию'
+    result: 'Разрешение'
+    defaultPermissions:
+        notAllowed: 'Нет разрешения'
+        opOnly: 'Только OP'
+        allowed: 'Разрешено всем'
+
+# -------------------------------------------------------
+# Titles of the individual help sections
+# Set the translation text to empty text to disable the section, e.g. to hide alternatives:
+#   alternatives: ''
+section:
+    command: 'Команда'
+    description: 'Краткое описание'
+    detailedDescription: 'Детальное описание'
+    arguments: 'Аргументы'
+    permissions: 'Разрешения'
+    alternatives: 'Альтернативы'
+    children: 'Команды'
+
+# -------------------------------------------------------
+# You can translate the data for all commands using the below pattern.
+# For example to translate /authme reload, create a section "authme.reload", or "login" for /login
+# If the command has arguments, you can use arg1 as below to translate the first argument, and so forth
+# Translations don't need to be complete; any missing section will be taken from the default silently
+# Important: Put main commands like "authme" before their children (e.g. "authme.reload")
+commands:
+    authme.register:
+        description: 'Регистрация игрока'
+        detailedDescription: 'Регистрация указанного игрока с указанным паролем.'
+        arg1:
+            label: 'player'
+            description: 'Ник игрока'
+        arg2:
+            label: 'password'
+            description: 'Пароль'
+    authme.unregister:
+        description: 'Удаление регистрации игрока'
+        detailedDescription: 'Удаление регистрации указанного игрока.'
+        arg1:
+            label: 'player'
+            description: 'Ник игрока'
+    authme.forcelogin:
+        description: 'Принудительный логин игрока'
+        detailedDescription: 'Принудительный логин указанного игрока.'
+        arg1:
+            label: 'player'
+            description: 'Ник игрока'
+    authme.password:
+        description: 'Сменить пароль игрока'
+        detailedDescription: 'Сменить пароль указанного игрока.'
+        arg1:
+            label: 'player'
+            description: 'Ник игрока'
+        arg2:
+            label: 'pwd'
+            description: 'Новый пароль'
+    authme.lastlogin:
+        description: 'Последний заход игрока'
+        detailedDescription: 'Просмотреть последний заход игрока.'
+        arg1:
+            label: 'player'
+            description: 'Ник игрока'
+    authme.accounts:
+        description: 'Показать аккаунты игрока'
+        detailedDescription: 'Показать все аккаунты игрока по имени или IP.'
+        arg1:
+            label: 'player'
+            description: 'Ник игрока или IP'
+    authme.email:
+        description: 'Показать Email игрока'
+        detailedDescription: 'Показать Email указаного игрока.'
+        arg1:
+            label: 'player'
+            description: 'Ник игрока'
+    authme.setemail:
+        description: 'Установить Email для игрока'
+        detailedDescription: 'Установить Email для указаного игрока.'
+        arg1:
+            label: 'player'
+            description: 'Ник игрока'
+        arg2:
+            label: 'email'
+            description: 'Email игрока'
+    authme.getip:
+        description: 'Показать IP игрока'
+        detailedDescription: 'Показать IP указаного игрока.'
+        arg1:
+            label: 'player'
+            description: 'Ник игрока'
+    authme.spawn:
+        description: 'Телепортироваться на спавн'
+        detailedDescription: 'Телепортироваться на спавн.'
+    authme.setspawn:
+        description: 'Установить спавн авторизации'
+        detailedDescription: 'Установить спавн авторизации в вашей позиции.'
+    authme.firstspawn:
+        description: 'Телепортироваться на первый спавн'
+        detailedDescription: 'Телепортироваться на первый спавн.'
+    authme.setfirstspawn:
+        description: 'Установить первый спавн авторизации'
+        detailedDescription: 'Установить первый спавн авторизации.'
+    authme.purge:
+        description: 'Очистить старые данные'
+        detailedDescription: 'Очистить старые данные AuthMeReloaded больше указанного количества дней назад.'
+        arg1:
+            label: 'days'
+            description: 'Количество дней'
+        arg2:
+            label: 'all'
+            description: 'Добавьте "all" в конце, чтобы также очистить игроков с lastlogin = 0'
+    authme.resetpos:
+        description: 'Сбросить последнюю позицию игрока'
+        detailedDescription: 'Сбросить последнюю позицию игрока или всех игроков.'
+        arg1:
+            label: 'player/*'
+            description: 'Ник игрока или * для выбора всех игроков'
+    authme.purgebannedplayers:
+        description: 'Очистить данные забаненных игроков'
+        detailedDescription: 'Очистить все данные AuthMeReloaded для забаненных игроков.'
+    authme.switchantibot:
+        description: 'Переключить режим АнтиБота'
+        detailedDescription: 'Переключить режим АнтиБота.'
+        arg1:
+            label: 'mode'
+            description: 'ON/OFF'
+    authme.reload:
+        description: 'Перезагрузка конфигурации'
+        detailedDescription: 'Перезагрузка конфигурации.'
+    authme.version:
+        description: 'Показать версию плагина'
+        detailedDescription: 'Показать версию плагина.'
+    authme.converter:
+        description: 'Конвентирование'
+        detailedDescription: 'Конвентирование для AuthMeReloaded.'
+        arg1:
+            label: 'job'
+            description: 'Преобразование: xauth/crazylogin/ramak/royalauth/vauth/sqliteToSql/mysqlToSqlite'
+    authme.messages:
+        description: 'Добавить недостающее сообщения'
+        detailedDescription: 'Добавить недостающее сообщения в текущем файле сообщений.'
+    authme.help:
+        description: 'Показать помощь'
+        detailedDescription: 'Показать деталmную помощь по команде /authme.'
+#
+# ░░░░░░░░░░░░░░░░▄▓▄
+# ░░░░▄█▄░░░░░░░░▄▓▓▓▄
+# ░░▄█████▄░░░░░▄▓▓▓▓▓▄
+# ░▀██┼█┼██▀░░░▄▓▓▓▓▓▓▓▄
+# ▄▄███████▄▄▄▄▄▄▄▄█▄▄▄▄
+# Developed by Envel
+# Nikita Gutsenkov
+# Ngucenkov@yandex.ru
