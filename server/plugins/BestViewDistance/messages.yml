@@ -1,0 +1,60 @@
+#                       ┏━━━┓╋╋╋╋╋╋╋┏┳━┓┏━┳━━━┓
+#                       ┃┏━┓┃╋╋╋╋╋╋╋┃┃┃┗┛┃┃┏━┓┃
+#                       ┃┃╋┗╋━━┳━━┳━┛┃┏┓┏┓┃┃╋┗┛
+#                       ┃┃┏━┫┏┓┃┏┓┃┏┓┃┃┃┃┃┃┃╋┏┓
+#                       ┃┗┻━┃┗┛┃┗┛┃┗┛┃┃┃┃┃┃┗━┛┃
+# ∙∙·▫▫ᵒᴼᵒ▫ₒₒ▫ᵒᴼᵒ▫ₒₒ▫ᵒᴼᵒ┗━━━┻━━┻━━┻━━┻┛┗┛┗┻━━━┛ᵒᴼᵒ▫ₒₒ▫ᵒᴼᵒ▫ₒₒ▫ᵒᴼᵒ▫▫·∙∙
+#
+# Customize your messages !
+#
+# Custom Placeholders :
+#
+# %PLAYER%            => The name of the player.
+# %VIEWDISTANCE%      => Actual view distance of player
+# %SETTINGS%          => View Distance in settings of player
+# %PINGVIEW%          => Maximum view distance supported by the ping
+# %REDUCTIONINDICE%   => The Reduction Indice in percentage
+# %PING%              => Ping of a player
+# %TPS%               => TPS of the server
+#
+# Minecraft color code is obviously supported.
+
+view:
+  update: "&f[GoodMC - динамическая прорисовка]&7 A new update is available at&a"
+  updateFail: "&f[GoodMC - динамическая прорисовка]&c Update checker failed!"
+  reload: "&aBest View Distance config reloaded!"
+  ping: "&aPing of %PLAYER%:&d %PING%ms"
+  tps: "&aTPS =>&d %TPS%"
+  server: "&aThe view distance is reduced by&d %REDUCTIONINDICE%%"
+  incorrectPing: "&c/view ping <player>"
+  incorrectView: "&c/view <player>"
+
+viewPlayer:
+  line1: "&aView Distance of %PLAYER% =>&d %VIEWDISTANCE% (Current)"
+  line2: "&aView Distance of %PLAYER% =>&d %PINGVIEW% (Supported)"
+  line3: "&aView Distance of %PLAYER% =>&d %SETTINGS% (Settings)"
+
+vdist:
+  line1: "&aView Distance =>&d %VIEWDISTANCE% (Current)"
+  line2: "&aView Distance =>&d %PINGVIEW% (Supported)"
+  line3: "&aView Distance =>&d %SETTINGS% (Settings)"
+  line4: "&aYour View Distance is reduced by&d %REDUCTIONINDICE%%"
+  vping: "&aYour ping :&d %PING%ms"
+
+help:
+  line1: "&d&l======= BestViewDistance By Lxct ======="
+  line2: "&d/vdist =>&a View your own view distance."
+  line3: "&d/view server =>&a Get reduction indice."
+  line4: "&d/view tps =>&a Get server's tps."
+  line5: "&d/view ping <player> =>&a Get player ping."
+  line6: "&d/view <player> =>&a Get player view distance info."
+  line7: "&d/view =>&a This message."
+#
+# ░░░░░░░░░░░░░░░░▄▓▄
+# ░░░░▄█▄░░░░░░░░▄▓▓▓▄
+# ░░▄█████▄░░░░░▄▓▓▓▓▓▄
+# ░▀██┼█┼██▀░░░▄▓▓▓▓▓▓▓▄
+# ▄▄███████▄▄▄▄▄▄▄▄█▄▄▄▄
+# Developed by Envel
+# Nikita Gutsenkov
+# Ngucenkov@yandex.ru
