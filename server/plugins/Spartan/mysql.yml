@@ -1,0 +1,6 @@
+host: ''
+user: ''
+password: ''
+database: ''
+table: spartan_logs
+port: '3306'

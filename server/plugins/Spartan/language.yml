@@ -1,0 +1,74 @@
+#                       ┏━━━┓╋╋╋╋╋╋╋┏┳━┓┏━┳━━━┓
+#                       ┃┏━┓┃╋╋╋╋╋╋╋┃┃┃┗┛┃┃┏━┓┃
+#                       ┃┃╋┗╋━━┳━━┳━┛┃┏┓┏┓┃┃╋┗┛
+#                       ┃┃┏━┫┏┓┃┏┓┃┏┓┃┃┃┃┃┃┃╋┏┓
+#                       ┃┗┻━┃┗┛┃┗┛┃┗┛┃┃┃┃┃┃┗━┛┃
+# ∙∙·▫▫ᵒᴼᵒ▫ₒₒ▫ᵒᴼᵒ▫ₒₒ▫ᵒᴼᵒ┗━━━┻━━┻━━┻━━┻┛┗┛┗┻━━━┛ᵒᴼᵒ▫ₒₒ▫ᵒᴼᵒ▫ₒₒ▫ᵒᴼᵒ▫▫·∙∙
+#
+verbose_enable: '&f&l[TERRA] &aYou enabled verbose.'
+verbose_disable: '&f&l[TERRA] &cYou disabled verbose.'
+violations_reset: '&f&l[TERRA] &cVLs &7have been reset&8!'
+config_reload: '&f&l[TERRA]&f Config successfully reloaded.'
+kick_reason: '&f&l[TERRA - защита GoodMC.ru]&c {reason}'
+kick_broadcast_message: '&f&l[TERRA]&c {player}&7 was kicked for&4 {reason}'
+command_no_access: '&fНеизвестная команда О_о'
+menu_gui_no_access: '&fНеизвестная команда О_о'
+ping_command_message: '&2{player}&7''s latency&8:&a {ping}ms'
+player_not_found_message: '&cPlayer not found.'
+non_console_command: '&cThis command can only be used by a player.'
+player_violation_reset_message: '&f&l[TERRA]&a Violations successfully reset for
+  player&8: &2{player}'
+blocked_command_message: '&cYou are not allowed to dispatch that command.'
+blocked_word_message: '&cYou are not allowed to type that.'
+verbose_message: '&f&l[TERRA] &c{player} failed {detection} (VL: {vls:detection})
+  &8[&7(&fVersion: {server:version}&7)&8, &7(&fSilent: {silent:detection}&7)&8, (&fPing:
+  {ping}ms&7)&8, &7(&fTPS: {tps}&7)&8, &7(&fPlib: {plib}&7)&8, &7(&fOnline: {online}&7)&8,
+  &7(&f{info}&7)&8]'
+non_existing_check: '&f&l[TERRA] &cThis check doesn''t exist.'
+massive_command_reason: '&cThe length of the reason is too big.'
+check_enable_message: '&f&l[TERRA] &aYou enabled the check&8:&7 {detection}'
+check_disable_message: '&f&l[TERRA] &cYou disabled the check&8:&7 {detection}'
+warning_message: '&f&l[TERRA]&c {reason}'
+warning_feedback_message: '&f&l[TERRA]&7 Получено предупреждение&8: &4{reason}'
+bypass_message: '&f&l[TERRA] &c{player} &7is now bypassing the &4{detection} &7check
+  for &f{time} &7seconds.'
+ban_message: '&f&l[TERRA]&7 You banned &c{player} &7for &4{reason}'
+unban_message: '&f&l[TERRA]&7 You unbanned &c{player}'
+player_not_banned: '&f&l[TERRA]&c This player is not banned.'
+ban_broadcast_message: '&f&l[TERRA]&c {player}&7 was banned for&4 {reason}'
+ban_reason: '&f&l[TERRA]&c {reason}'
+chat_cooldown_message: '&cPlease wait {time} second(s) until typing again.'
+mining_notifications_enable: '&f&l[TERRA] &aYou enabled mining notifications.'
+mining_notifications_disable: '&f&l[TERRA] &cYou disabled mining notifications.'
+reconnect_kick_message: '&f[TERRA - защита GoodMC.ru]&c Подождите 30 секунд, прежде чем пробовать войти повторно.'
+empty_ban_list: '&f&l[TERRA]&c There are currently no banned players.'
+command_cooldown_message: '&cPlease wait {time} second(s) until dispatching a command
+  again.'
+wave_start_message: '&f&l[TERRA]&c The wave is starting.'
+wave_end_message: '&f&l[TERRA]&c The wave has ended with a total of {total} action(s).'
+wave_clear_message: '&f&l[TERRA]&c The wave was cleared.'
+wave_add_message: '&f&l[TERRA]&a {player} was added to the wave.'
+wave_remove_message: '&f&l[TERRA]&c {player} was removed from the wave.'
+full_wave_list: '&f&l[TERRA]&c The wave list is full.'
+empty_wave_list: '&f&l[TERRA]&c The wave list is empty.'
+wave_not_added_message: '&f&l[TERRA]&c {player} is not added to the wave.'
+staff_chat_message: '&8[&4Staff Chat&8]&c {player} &f{message}'
+staff_chat_character: '@'
+report_message: '&a{player} &7reported &c{reported} &7for&8: &4{reason}'
+self_report_message: '&cYou can''t report yourself.'
+debug_player_message: '&f&l[TERRA]&7 Debugging &6{player}&7''s &f{type}&8: &f{info}'
+debug_enable_message: '&f&l[TERRA]&7 Enabled debugging for &6{player}&7''s &f{type}'
+debug_disable_message: '&f&l[TERRA]&7 Disabled debugging for &6{player}&7''s &f{type}'
+debug_disable_all_message: '&f&l[TERRA]&7 Disabled debugging for &6{player}'
+same_message_warning: '&f&l[TERRA]&c Please avoid sending the same message again.'
+player_ip_limit_kick_message: '&f&l[TERRA - защита GoodMC.ru]&c Превышен лимит количества игроков с 1 IP. Поддержка alert@goodmc.ru'
+#
+# ░░░░░░░░░░░░░░░░▄▓▄
+# ░░░░▄█▄░░░░░░░░▄▓▓▓▄
+# ░░▄█████▄░░░░░▄▓▓▓▓▓▄
+# ░▀██┼█┼██▀░░░▄▓▓▓▓▓▓▓▄
+# ▄▄███████▄▄▄▄▄▄▄▄█▄▄▄▄
+# Developed by Envel
+# Nikita Gutsenkov
+# Ngucenkov@yandex.ru
+
