@@ -1,0 +1,96 @@
+#                       ┏━━━┓╋╋╋╋╋╋╋┏┳━┓┏━┳━━━┓
+#                       ┃┏━┓┃╋╋╋╋╋╋╋┃┃┃┗┛┃┃┏━┓┃
+#                       ┃┃╋┗╋━━┳━━┳━┛┃┏┓┏┓┃┃╋┗┛
+#                       ┃┃┏━┫┏┓┃┏┓┃┏┓┃┃┃┃┃┃┃╋┏┓
+#                       ┃┗┻━┃┗┛┃┗┛┃┗┛┃┃┃┃┃┃┗━┛┃
+# ∙∙·▫▫ᵒᴼᵒ▫ₒₒ▫ᵒᴼᵒ▫ₒₒ▫ᵒᴼᵒ┗━━━┻━━┻━━┻━━┻┛┗┛┗┻━━━┛ᵒᴼᵒ▫ₒₒ▫ᵒᴼᵒ▫ₒₒ▫ᵒᴼᵒ▫▫·∙∙
+#
+## FirstJoinPlus Configuration -- Configuration Help: http://dev.bukkit.org/bukkit-plugins/firstjoinplus/ #
+settings:
+  allow-automatic-updating: false
+  every-join-is-first-join: false
+on-first-join:
+  delay-everything-below-by: 0
+  first-join-message:
+    enabled: false
+    message: '&d%player_name has joined for the first time!'
+  fun-stuff:
+    play-sound:
+      enabled: false
+      sound-name: entity_player_levelup
+      listen-permission: firstjoinplus.notify
+    smoke-effect:
+      enabled: false
+    launch-firework:
+      enabled: false
+  first-join-kit:
+    enabled: false
+    items:
+    - wood_sword
+    - wood_pickaxe
+    - wood_spade
+    - wood_axe
+    - bread:5
+  give-written-books:
+    enabled: true
+    book-files:
+    - hello.txt
+    - rules.txt
+    - lands.txt
+  give-experience:
+    enabled: false
+    level-amount: 0
+  modify-damage:
+    disable-pvp:
+      enabled: false
+      expire-after: 10
+    god-mode:
+      enabled: true
+      expire-after: 600
+  run-commands:
+    enabled: false
+    commands:
+    - me just joined for the first time!
+  run-console-commands:
+    enabled: true
+    commands:
+    - w %player_name Неуязвимость будет действовать 10 минут. 
+  apply-potion-effects:
+    enabled: false
+    effects:
+    - SPEED:1:15
+  send-messages:
+    enabled: false
+    messages:
+    - '&2Welcome to our server, %player_name! Customize this message in the FirstJoinPlus
+      configuration.'
+    - '&6http://dev.bukkit.org/server-mods/firstjoinplus/'
+  reset-state:
+    enabled: false
+  teleport:
+    enabled: false
+    x: 0
+    y: 64
+    z: 0
+    pitch: 0
+    yaw: 0
+    world: world
+other-messages:
+  join-message:
+    enabled: false
+    message: '&e%player_name joined the game.'
+  quit-message:
+    enabled: false
+    message: '&e%player_name left the game.'
+  kick-message:
+    enabled: false
+    message: '%none'
+#
+# ░░░░░░░░░░░░░░░░▄▓▄
+# ░░░░▄█▄░░░░░░░░▄▓▓▓▄
+# ░░▄█████▄░░░░░▄▓▓▓▓▓▄
+# ░▀██┼█┼██▀░░░▄▓▓▓▓▓▓▓▄
+# ▄▄███████▄▄▄▄▄▄▄▄█▄▄▄▄
+# Developed by Envel
+# Nikita Gutsenkov
+# Ngucenkov@yandex.ru

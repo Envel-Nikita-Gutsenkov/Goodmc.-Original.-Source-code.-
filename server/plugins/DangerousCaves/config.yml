@@ -1,0 +1,92 @@
+#                       ┏━━━┓╋╋╋╋╋╋╋┏┳━┓┏━┳━━━┓
+#                       ┃┏━┓┃╋╋╋╋╋╋╋┃┃┃┗┛┃┃┏━┓┃
+#                       ┃┃╋┗╋━━┳━━┳━┛┃┏┓┏┓┃┃╋┗┛
+#                       ┃┃┏━┫┏┓┃┏┓┃┏┓┃┃┃┃┃┃┃╋┏┓
+#                       ┃┗┻━┃┗┛┃┗┛┃┗┛┃┃┃┃┃┃┗━┛┃
+# ∙∙·▫▫ᵒᴼᵒ▫ₒₒ▫ᵒᴼᵒ▫ₒₒ▫ᵒᴼᵒ┗━━━┻━━┻━━┻━━┻┛┗┛┗┻━━━┛ᵒᴼᵒ▫ₒₒ▫ᵒᴼᵒ▫ₒₒ▫ᵒᴼᵒ▫▫·∙∙
+#
+'Enable Cave-Ins ': true
+'Enable Hungering Darkness ': true
+'Enable Ambient Sounds ': true
+'Enable Cave Temperature ': true
+'Enable Cave Aging ': true
+'Enable Cave Monsters ': true
+'Enable Cave Structures ': true
+'Enable Monster Fixing ': false
+'Enable Broken Monster Deletion ': false
+'::::Higher equals lower chance!::::': ''
+'Cave Aging Chance ': 2
+'Cave Aging Change Chance ': 39
+'Cave Ambience Chance ': 4
+'Cave Walk Temp Chance ': 3449
+'Cave Break Block Temp Chance ': 1450
+'Cave-In Chance ': 399
+'Darkness Spawn Chance ': 5
+'Cave Structure Chance ': 0
+'Hungering Darkness Damage ': 10
+'Monster Spawning Highest Y ': 50
+'Monster Spawning Lowest Y ': 0
+':::::::::::::::::::::::::::::::::::': ''
+'Traps Rate ': 0
+'Buildings Rate ': 0
+'Boulder Rate ': 0
+'Pillar Rate ': 0
+'Spawn Crying Bat ': true
+'Spawn Magma Monster ': true
+'Spawn Lava Creeper ': true
+'Spawn TnT Creeper ': true
+'Spawn Watcher ': true
+'Spawn Smoke Demon ': true
+'Spawn Alpha Spider ': true
+'Spawn Dead Miner ': true
+'Spawn Hexed Armor ': true
+':::::Monster Names - no Blanks:::::': ''
+'Crying Bat = ': Плачущая летучая мышь
+'Magma Monster = ': Магмовый монстр
+'Lava Creeper = ': Лавлвый крипер
+'TnT Creeper = ': Крипер с динамитом
+'Watcher = ': Наблюдатель
+'Smoke Demon = ': Демон дыма
+'Alpha Spider = ': Альфа-паук
+'Dead Miner = ': Мертвый шахтёр
+'Hexed Armor = ': Околдованная броня
+'Crying Bat Chance ': 1
+'Magma Monster Chance ': 1
+'Lava Creeper Chance ': 2
+'TnT Creeper Chance ': 2
+'Watcher Chance ': 1
+'Smoke Demon Chance ': 2
+'Alpha Spider Chance ': 1
+'Dead Miner Chance ': 1
+'Hexed Armor Chance ': 2
+'Temperature Messages ':
+- Ух, жарко здесь. Я лучше принесу что-нибудь в следующий раз, чтобы охладиться.
+- Здесь действительно жарко.
+- Мне понадобится что-нибудь, чтобы охладиться в следующий раз.
+- Здесь жарко или только мне кажется?
+- Мне действительно нужен лёд. Очень жарко из-за лавы.
+- Кажется, нужно было брать с собой воду.
+'Enabled Worlds - If Left Blank Will Just Use default world ':
+- world
+- mine
+'Items that can spawn in chests ':
+- TORCH
+- DIRT
+- GOLDEN_PICKAXE
+- STONE_PICKAXE
+- WOODEN_PICKAXE
+- WOODEN_SHOVEL
+- BUCKET
+- BOWL
+- FLINT
+- COBBLESTONE
+- CRAFTING_TABLE
+#
+# ░░░░░░░░░░░░░░░░▄▓▄
+# ░░░░▄█▄░░░░░░░░▄▓▓▓▄
+# ░░▄█████▄░░░░░▄▓▓▓▓▓▄
+# ░▀██┼█┼██▀░░░▄▓▓▓▓▓▓▓▄
+# ▄▄███████▄▄▄▄▄▄▄▄█▄▄▄▄
+# Developed by Envel
+# Nikita Gutsenkov
+# Ngucenkov@yandex.ru

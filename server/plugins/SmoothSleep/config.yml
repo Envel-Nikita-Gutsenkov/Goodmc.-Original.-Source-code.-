@@ -1,0 +1,53 @@
+# More info: https://www.spigotmc.org/resources/smoothsleep.32043
+enable-stats: true
+logging-settings:
+  log-debug: false
+  log-warning: false
+  log-info: false
+worlds:
+  world:
+    min-night-speed-mult: 1.2
+    max-night-speed-mult: 8
+    night-speed-curve: 0.2
+    morning-sound: ENTITY_PLAYER_LEVELUP
+    action-bar:
+      title: '&f&o{SLEEPERS}/{TOTAL} спят, ускорение {TIMESCALE}X'
+      enabled: true
+      show-if-awake: false
+    morning-particle-options:
+      particle: VILLAGER_HAPPY
+      amount: 30
+      radius: 4
+      enabled: true
+      delay-ticks: 5
+      pattern: RANDOM
+    clear-weather-when-morning: false
+    instant-day-if-all-sleeping: false
+    essentials-settings:
+      ignore-afk: true
+      ignore-vanish: true
+    replenish-settings:
+      heal-negative-statuses: true
+      hours-to-heal-negative: 3
+      heal-positive-statuses: false
+      hours-to-heal-positive: 3
+      ticks-per-feed: 1500
+      ticks-per-heal: 1000
+      feed-amount: -2
+      heal-amount: 1
+      heal-awake: false
+      feed-awake: false
+    titles:
+      enabled: false
+      sleep-title: '&b{12H}:{MIN} {MER_UPPER}'
+      sleep-subtitle: '&a{SLEEPERS}/{TOTAL} Sleeping &3({TIMESCALE}x speed)'
+      morning-title: '&e{12H}:{MIN} {MER_UPPER}'
+      morning-subtitle: '&aRise and shine, {USERNAME}!'
+      stay-ticks: 20
+      fade-ticks: 40
+    boss-bar:
+      enabled: false
+      show-if-awake: true
+      color: BLUE
+      title: '&a{SLEEPERS}/{TOTAL} Sleeping &3- &b{12H}:{MIN} {MER_UPPER}'
+update-notify-login: false

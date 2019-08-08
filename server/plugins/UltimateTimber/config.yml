@@ -1,0 +1,25 @@
+Max amount of logs that can be broken with one chop: 100
+The number of leaves required to detect a valid tree: 8
+Only break logs above the block broken: true
+Allow mixed log/leaf to be considered as one tree: false
+Only topple down trees cut down using axes: true
+Five second time out before you can break saplings: true
+Only topple down trees cut down while sneaking: false
+Lower durability proportionately to the amount of blocks toppled down: true
+Players in creative mode can't topple down trees: true
+Only allow players with the permission node to topple down trees: true
+Damage players when trees fall on them: true
+Replant sapling when tree is cut down: true
+Fallen leaves have a chance to plant saplings: true
+Use custom sounds for trees falling: true
+Show tree fall animation: true
+Valid worlds:
+  world: true
+  world_nether: false
+  world_the_end: false
+  mine: false
+Custom loot:
+- Material:STICK,Chance:0.8
+- Material:BROWN_MUSHROOM,Chance:0.05
+- Material:RED_MUSHROOM,Chance:0.05
+- Material:VINE,Chance:0.01
