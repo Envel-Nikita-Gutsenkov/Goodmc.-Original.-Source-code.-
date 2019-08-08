@@ -29,6 +29,7 @@ Syntax highlighted code block
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
 ### Правила
+#
 - Использование любых материалов на сторонних проектах должно сопровождаться примечаниями о принадлежности GoodMC.ru (игроки тоже должны это видеть)
 - Недопустимо использовать любые разработки GoodMC на проектах с донатом
 - В случае предложения изменений - вносите их в отдельную ветку
