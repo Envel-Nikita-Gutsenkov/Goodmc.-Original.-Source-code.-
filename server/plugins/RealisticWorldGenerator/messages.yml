@@ -1,0 +1,18 @@
+prefix: '&8[&2GoodMCWorldGenerator&8] &7'
+messages:
+  no_perm: '&cYou''re lacking the permission ''&4%perm%&c'' to do that!'
+  no_perm_cmd: '&cYou''re lacking the permission ''&4%perm%&c'' to perform the subcommand
+    ''&4%cmd%&c''!'
+  not_exists_cmd: '&cThe subcommand ''&4%cmd%&c'' doesn''t exist!'
+  no_alias_cmd: '&cThe subcommand ''&4%cmd%&c'' has no alias!'
+  only_player: '&cOnly a player can run the subcommand ''&4%cmd%&c''!'
+  player_not_online: The player "&c%name%&7" isn't online!
+  schem_saved: '&7Structure &e''%name%'' &7saved &asuccessfully&7!'
+  no_position_set: '&cCannot save a Structure which is not defined!'
+  not_enough_args: '&cNot enough arguments to run subcommand ''&4%cmd%&c''! &8[&eargs
+    missing: &6%number%&8]'
+  invalid_arg: Invalid argument -> "&c%argument%&7" &4(Argument [%number%])
+  schem_doesnt_exists: '&7Cannot find a Structure with the name &c''%name%''&7!'
+  toggle_pos_tool: '&7You can &e%stat%&7 use the Position tool.'
+  position_set: '&e%pos% &7position set.'
+  get_pos_tool: '&7You &e%stat%&7 the Position tool.'

@@ -1,0 +1,90 @@
+ores:
+  vines: true
+blocks:
+  stone:
+    min: 1
+    max: 256
+    chance: 3409
+  polished-diorite:
+    max: 120
+    min: 1
+    chance: 0
+  coal:
+    chance: 59
+    min: 5
+    max: 128
+  moss:
+    min: 1
+    max: 64
+    chance: 5
+  cobblestone:
+    min: 1
+    max: 256
+    chance: 15
+  diorite:
+    max: 256
+    chance: 196
+    min: 1
+  hardened-clay:
+    chance: 0
+    max: 120
+    min: 1
+  iron:
+    chance: 32
+    max: 64
+    min: 5
+  dirt:
+    min: 1
+    max: 120
+    chance: 10
+  emerald:
+    chance: 1
+    max: 40
+    min: 1
+  polished-granite:
+    chance: 0
+    max: 120
+    min: 1
+  polished-andesite:
+    chance: 0
+    max: 120
+    min: 1
+  diamond:
+    max: 12
+    min: 1
+    chance: 1
+  gravel:
+    max: 256
+    chance: 5
+    min: 1
+  granite:
+    chance: 211
+    min: 1
+    max: 256
+  andesite:
+    min: 1
+    max: 256
+    chance: 210
+  red-sand:
+    chance: 0
+    max: 120
+    min: 1
+  sand:
+    max: 120
+    chance: 0
+    min: 1
+  lapis:
+    chance: 1
+    min: 10
+    max: 25
+  clay:
+    max: 256
+    chance: 20
+  redstone:
+    max: 16
+    chance: 9
+    min: 1
+  gold:
+    chance: 3
+    min: 5
+    max: 32

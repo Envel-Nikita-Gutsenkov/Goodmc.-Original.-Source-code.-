@@ -1,0 +1,2182 @@
+biomes:
+  JUNGLE:
+    overlay:
+      chance: 2
+      blocks:
+      - minecraft:poppy;100
+      - minecraft:dandelion;50
+      - minecraft:grass;2500
+      - minecraft:fern;500
+      - minecraft:jungle_leaves[distance=7,persistent=false];2500
+      - minecraft:tall_grass;1906
+      - minecraft:large_fern;1906
+      - minecraft:blue_orchid;100
+    trees:
+      chance: 10
+      trees:
+      - SHEMATIC_gmc_jungle::4076
+      - SHEMATIC_gmc_jungle_1::4076
+      - SHEMATIC_gmc_jungle_2::4076
+      - SHEMATIC_gmc_jungle_3::4076
+      - SHEMATIC_gmc_jungle_4::4076
+      - SHEMATIC_gmc_jungle_5::4076
+      - SHEMATIC_gmc_jungle_6::4076
+      - SHEMATIC_gmc_jungle_7::4076
+      - SHEMATIC_gmc_jungle_8::4076
+      - SHEMATIC_gmc_jungle_a::4076
+      - SHEMATIC_gmc_jungle_a_0::3076
+      - SHEMATIC_gmc_jungle_a_1::3076
+      - SHEMATIC_gmc_jungle_k::10076
+      - SHEMATIC_gmc_jungle_k_0::10076
+      - SHEMATIC_gmc_jungle_k_1::10076
+      - SHEMATIC_gmc_jungle_k_2::10076
+      - SHEMATIC_gmc_jungle_k_3::10076
+      - SHEMATIC_gmc_jungle_k_4::10076
+      - SHEMATIC_gmc_stone_jungle_4::1076
+      - SHEMATIC_gmc_stone_jungle_5::1076
+      - SHEMATIC_gmc_stone_jungle_6::1076
+      - SHEMATIC_gmc_stone_jungle_7::1076
+      - SHEMATIC_gmc_stone_jungle_8::1076
+    structures:
+      chance: 20
+      structures:
+      - JUNGLE_TEMPLE_1::20
+      - DUNGEON::20
+      - JUNGLE_TEMPLE_2::20
+    layer:
+      '1':
+      - minecraft:coarse_dirt;15
+      - minecraft:terracotta;5
+      - minecraft:grass_block[snowy=false];170
+      - minecraft:diorite;2
+      '2':
+      - minecraft:stone;30
+      - minecraft:dirt;110
+      - minecraft:diorite;8
+      - minecraft:granite;8
+      '3':
+      - minecraft:stone;40
+      - minecraft:dirt;80
+      - minecraft:diorite;10
+      - minecraft:granite;10
+      '4':
+      - minecraft:stone;70
+      - minecraft:dirt;40
+      - minecraft:diorite;15
+      - minecraft:granite;15
+      '5':
+      - minecraft:stone;120
+      - minecraft:dirt;10
+      - minecraft:diorite;25
+      - minecraft:granite;25
+  JUNGLE_HILLS:
+    overlay:
+      chance: 2
+      blocks:
+      - minecraft:poppy;100
+      - minecraft:dandelion;50
+      - minecraft:grass;2500
+      - minecraft:fern;500
+      - minecraft:jungle_leaves[distance=7,persistent=false];2500
+      - minecraft:tall_grass;1906
+      - minecraft:large_fern;1906
+      - minecraft:blue_orchid;100
+    trees:
+      chance: 10
+      trees:
+      - SHEMATIC_gmc_jungle::4076
+      - SHEMATIC_gmc_jungle_1::4076
+      - SHEMATIC_gmc_jungle_2::4076
+      - SHEMATIC_gmc_jungle_3::4076
+      - SHEMATIC_gmc_jungle_4::4076
+      - SHEMATIC_gmc_jungle_5::4076
+      - SHEMATIC_gmc_jungle_6::4076
+      - SHEMATIC_gmc_jungle_7::4076
+      - SHEMATIC_gmc_jungle_8::4076
+      - SHEMATIC_gmc_jungle_a::4076
+      - SHEMATIC_gmc_jungle_a_0::3076
+      - SHEMATIC_gmc_jungle_a_1::3076
+      - SHEMATIC_gmc_jungle_k::10076
+      - SHEMATIC_gmc_jungle_k_0::10076
+      - SHEMATIC_gmc_jungle_k_1::10076
+      - SHEMATIC_gmc_jungle_k_2::10076
+      - SHEMATIC_gmc_jungle_k_3::10076
+      - SHEMATIC_gmc_jungle_k_4::10076
+      - SHEMATIC_gmc_stone_jungle_4::1076
+      - SHEMATIC_gmc_stone_jungle_5::1076
+      - SHEMATIC_gmc_stone_jungle_6::1076
+      - SHEMATIC_gmc_stone_jungle_7::1076
+      - SHEMATIC_gmc_stone_jungle_8::1076
+    structures:
+      chance: 20
+      structures:
+      - JUNGLE_TEMPLE_1::20
+      - DUNGEON::20
+      - JUNGLE_TEMPLE_2::20
+    layer:
+      '1':
+      - minecraft:coarse_dirt;15
+      - minecraft:terracotta;5
+      - minecraft:grass_block[snowy=false];170
+      - minecraft:diorite;2
+      '2':
+      - minecraft:stone;30
+      - minecraft:dirt;110
+      - minecraft:diorite;8
+      - minecraft:granite;8
+      '3':
+      - minecraft:stone;40
+      - minecraft:dirt;80
+      - minecraft:diorite;10
+      - minecraft:granite;10
+      '4':
+      - minecraft:stone;70
+      - minecraft:dirt;40
+      - minecraft:diorite;15
+      - minecraft:granite;15
+      '5':
+      - minecraft:stone;120
+      - minecraft:dirt;10
+      - minecraft:diorite;25
+      - minecraft:granite;25
+  JUNGLE_MOUNTAINS:
+    overlay:
+      chance: 2
+      blocks:
+      - minecraft:poppy;100
+      - minecraft:dandelion;50
+      - minecraft:grass;2500
+      - minecraft:fern;500
+      - minecraft:jungle_leaves[distance=7,persistent=false];2500
+      - minecraft:tall_grass;1906
+      - minecraft:large_fern;1906
+      - minecraft:blue_orchid;100
+    trees:
+      chance: 10
+      trees:
+      - SHEMATIC_gmc_jungle::4076
+      - SHEMATIC_gmc_jungle_1::4076
+      - SHEMATIC_gmc_jungle_2::4076
+      - SHEMATIC_gmc_jungle_3::4076
+      - SHEMATIC_gmc_jungle_4::4076
+      - SHEMATIC_gmc_jungle_5::4076
+      - SHEMATIC_gmc_jungle_6::4076
+      - SHEMATIC_gmc_jungle_7::4076
+      - SHEMATIC_gmc_jungle_8::4076
+      - SHEMATIC_gmc_jungle_a::4076
+      - SHEMATIC_gmc_jungle_a_0::3076
+      - SHEMATIC_gmc_jungle_a_1::3076
+      - SHEMATIC_gmc_jungle_k::10076
+      - SHEMATIC_gmc_jungle_k_0::10076
+      - SHEMATIC_gmc_jungle_k_1::10076
+      - SHEMATIC_gmc_jungle_k_2::10076
+      - SHEMATIC_gmc_jungle_k_3::10076
+      - SHEMATIC_gmc_jungle_k_4::10076
+      - SHEMATIC_gmc_stone_jungle_4::1076
+      - SHEMATIC_gmc_stone_jungle_5::1076
+      - SHEMATIC_gmc_stone_jungle_6::1076
+      - SHEMATIC_gmc_stone_jungle_7::1076
+      - SHEMATIC_gmc_stone_jungle_8::1076
+    structures:
+      chance: 20
+      structures:
+      - JUNGLE_TEMPLE_1::20
+      - DUNGEON::20
+      - JUNGLE_TEMPLE_2::20
+    layer:
+      '1':
+      - minecraft:coarse_dirt;15
+      - minecraft:terracotta;5
+      - minecraft:grass_block[snowy=false];170
+      - minecraft:diorite;2
+      '2':
+      - minecraft:stone;30
+      - minecraft:dirt;110
+      - minecraft:diorite;8
+      - minecraft:granite;8
+      '3':
+      - minecraft:stone;40
+      - minecraft:dirt;80
+      - minecraft:diorite;10
+      - minecraft:granite;10
+      '4':
+      - minecraft:stone;70
+      - minecraft:dirt;40
+      - minecraft:diorite;15
+      - minecraft:granite;15
+      '5':
+      - minecraft:stone;120
+      - minecraft:dirt;10
+      - minecraft:diorite;25
+      - minecraft:granite;25
+  FOREST:
+    overlay:
+      chance: 6
+      blocks:
+      - minecraft:poppy;10
+      - minecraft:dandelion;5
+      - minecraft:grass;60
+      - minecraft:fern;50
+      - minecraft:oak_leaves[distance=7,persistent=false];2
+    trees:
+      chance: 400
+      trees:
+      - BIG_OAK_TREE_4::4000
+      - OAK_TREE_4::4000
+      - OAK_TREE_3::4000
+      - OAK_TREE_5::4000
+      - OAK_TREE_2::4000
+      - OAK_TREE_1::4000
+      - BIG_OAK_TREE_3::4000
+      - BIG_OAK_TREE_2::4000
+      - BIG_OAK_TREE_1::4000
+      - SHEMATIC_gmc_birch::4000
+      - SHEMATIC_gmc_birch_0::4000
+      - SHEMATIC_gmc_birch_1::4000
+      - SHEMATIC_gmc_birch_2::4000
+      - SHEMATIC_gmc_oak::4000
+      - SHEMATIC_gmc_oak_0::4000
+      - SHEMATIC_gmc_oak_1::4000
+      - SHEMATIC_gmc_oak_2::4000
+      - SHEMATIC_gmc_oak_3::4000
+    structures:
+      chance: 6
+      structures:
+      - DUNGEON::6
+    layer:
+      '1':
+      - minecraft:coarse_dirt;5
+      - minecraft:podzol[snowy=false];10
+      - minecraft:grass_block[snowy=false];120
+      '2':
+      - minecraft:stone;30
+      - minecraft:dirt;90
+      - minecraft:andesite;8
+      - minecraft:granite;8
+      '3':
+      - minecraft:stone;40
+      - minecraft:dirt;60
+      - minecraft:andesite;10
+      - minecraft:granite;10
+      '4':
+      - minecraft:stone;70
+      - minecraft:dirt;20
+      - minecraft:andesite;15
+      - minecraft:granite;15
+      '5':
+      - minecraft:stone;120
+      - minecraft:dirt;2
+      - minecraft:andesite;25
+      - minecraft:granite;25
+  FOREST_HILLS:
+    overlay:
+      chance: 7
+      blocks:
+      - minecraft:poppy;10
+      - minecraft:dandelion;5
+      - minecraft:grass;60
+      - minecraft:fern;50
+      - minecraft:oak_leaves[distance=7,persistent=false];2
+      - minecraft:oxeye_daisy;5
+      - minecraft:azure_bluet;5
+    trees:
+      chance: 2666
+      trees:
+      - BIG_OAK_TREE_4::2666
+      - OAK_TREE_4::2666
+      - OAK_TREE_3::2666
+      - OAK_TREE_5::2666
+      - OAK_TREE_2::2666
+      - OAK_TREE_1::2666
+      - BIG_OAK_TREE_3::2666
+      - BIG_OAK_TREE_2::2666
+      - BIG_OAK_TREE_1::2666
+      - SHEMATIC_gmc_birch::2000
+      - SHEMATIC_gmc_birch_0::2000
+      - SHEMATIC_gmc_birch_1::2000
+      - SHEMATIC_gmc_birch_2::2000
+      - SHEMATIC_gmc_oak::4000
+      - SHEMATIC_gmc_oak_0::4000
+      - SHEMATIC_gmc_oak_1::4000
+      - SHEMATIC_gmc_oak_2::4000
+      - SHEMATIC_gmc_oak_3::4000
+    structures:
+      chance: 6
+      structures:
+      - DUNGEON::6
+    layer:
+      '1':
+      - minecraft:coarse_dirt;15
+      - minecraft:podzol[snowy=false];20
+      - minecraft:diorite;5
+      - minecraft:grass_block[snowy=false];120
+      '2':
+      - minecraft:stone;40
+      - minecraft:dirt;80
+      - minecraft:andesite;8
+      - minecraft:granite;8
+      '3':
+      - minecraft:stone;45
+      - minecraft:dirt;60
+      - minecraft:andesite;10
+      - minecraft:granite;10
+      '4':
+      - minecraft:stone;80
+      - minecraft:dirt;20
+      - minecraft:andesite;15
+      - minecraft:granite;15
+      '5':
+      - minecraft:stone;120
+      - minecraft:dirt;2
+      - minecraft:andesite;25
+      - minecraft:granite;25
+  SWAMPLAND:
+    overlay:
+      chance: 12
+      blocks:
+      - minecraft:poppy;10
+      - minecraft:dandelion;5
+      - minecraft:grass;60
+      - minecraft:fern;50
+      - minecraft:allium;10
+    trees:
+      chance: 8000
+      trees:
+      - SWAMP_TREE_3::4000
+      - SWAMP_TREE_2::4000
+      - SWAMP_TREE_4::4000
+      - SWAMP_TREE_1::4000
+      - SHEMATIC_gmc_mushroom::1000
+      - SHEMATIC_gmc_mushroom_0::1000
+      - SHEMATIC_gmc_mushroom_1::1000
+      - SHEMATIC_gmc_mushroom_2::1000
+      - SHEMATIC_gmc_mushroom_3::1000
+      - SHEMATIC_gmc_mushroom_4::1000
+    structures:
+      chance: 6
+      structures:
+      - DUNGEON::6
+    layer:
+      '1':
+      - minecraft:coarse_dirt;2
+      - minecraft:mycelium;15
+      - minecraft:grass_block[snowy=false];120
+      '2':
+      - minecraft:stone;30
+      - minecraft:dirt;90
+      - minecraft:andesite;8
+      - minecraft:granite;8
+      '3':
+      - minecraft:stone;40
+      - minecraft:dirt;60
+      - minecraft:andesite;10
+      - minecraft:granite;10
+      '4':
+      - minecraft:stone;70
+      - minecraft:dirt;20
+      - minecraft:andesite;15
+      - minecraft:granite;15
+      '5':
+      - minecraft:stone;120
+      - minecraft:dirt;2
+      - minecraft:andesite;25
+      - minecraft:granite;25
+  SWAMPLAND_HILLS:
+    overlay:
+      chance: 14
+      blocks:
+      - minecraft:poppy;10
+      - minecraft:dandelion;5
+      - minecraft:grass;60
+      - minecraft:fern;50
+    trees:
+      chance: 3666
+      trees:
+      - SWAMP_TREE_3::2666
+      - SWAMP_TREE_2::2666
+      - SWAMP_TREE_4::2666
+      - SWAMP_TREE_1::2666
+    structures:
+      chance: 6
+      structures:
+      - DUNGEON::6
+    layer:
+      '1':
+      - minecraft:coarse_dirt;2
+      - minecraft:mycelium;15
+      - minecraft:grass_block[snowy=false];120
+      - minecraft:granite;5
+      '2':
+      - minecraft:stone;30
+      - minecraft:dirt;80
+      - minecraft:andesite;8
+      - minecraft:granite;8
+      '3':
+      - minecraft:stone;45
+      - minecraft:dirt;60
+      - minecraft:andesite;10
+      - minecraft:granite;10
+      '4':
+      - minecraft:stone;75
+      - minecraft:dirt;20
+      - minecraft:andesite;15
+      - minecraft:granite;15
+      '5':
+      - minecraft:stone;125
+      - minecraft:dirt;2
+      - minecraft:andesite;25
+      - minecraft:granite;25
+  BEACH:
+    overlay:
+      chance: 3
+      blocks:
+      - minecraft:poppy;10
+      - minecraft:dandelion;5
+      - minecraft:grass;60
+      - minecraft:fern;50
+    trees:
+      chance: 4000
+      trees: []
+    structures:
+      chance: 6
+      structures:
+      - DUNGEON::6
+    layer:
+      '1':
+      - minecraft:sand;200
+      - minecraft:podzol[snowy=false];2
+      - minecraft:grass_block[snowy=false];5
+      - minecraft:coarse_dirt;2
+      - minecraft:red_sand;20
+      '2':
+      - minecraft:stone;10
+      - minecraft:red_sandstone;60
+      - minecraft:sandstone;60
+      - minecraft:sand;40
+      - minecraft:red_sand;40
+      - minecraft:granite;10
+      - minecraft:diorite;10
+      - minecraft:andesite;10
+      '3':
+      - minecraft:stone;30
+      - minecraft:red_sandstone;40
+      - minecraft:sandstone;40
+      - minecraft:sand;30
+      - minecraft:red_sand;30
+      - minecraft:granite;15
+      - minecraft:diorite;15
+      - minecraft:andesite;15
+      '4':
+      - minecraft:stone;50
+      - minecraft:red_sandstone;30
+      - minecraft:sandstone;30
+      - minecraft:sand;20
+      - minecraft:red_sand;20
+      - minecraft:granite;15
+      - minecraft:diorite;15
+      - minecraft:andesite;15
+      '5':
+      - minecraft:stone;90
+      - minecraft:red_sandstone;15
+      - minecraft:sandstone;15
+      - minecraft:sand;5
+      - minecraft:red_sand;5
+      - minecraft:granite;10
+      - minecraft:diorite;10
+      - minecraft:andesite;10
+  COLD_BEACH:
+    overlay:
+      chance: 3
+      blocks:
+      - minecraft:snow[layers=1];100
+      - minecraft:grass;60
+      - minecraft:fern;50
+    trees:
+      chance: 4000
+      trees: []
+    structures:
+      chance: 6
+      structures:
+      - DUNGEON::6
+    layer:
+      '1':
+      - minecraft:sand;200
+      - minecraft:podzol[snowy=false];2
+      - minecraft:grass_block[snowy=false];5
+      - minecraft:coarse_dirt;2
+      - minecraft:red_sand;20
+      '2':
+      - minecraft:stone;10
+      - minecraft:red_sandstone;60
+      - minecraft:sandstone;60
+      - minecraft:sand;40
+      - minecraft:red_sand;40
+      - minecraft:granite;10
+      - minecraft:diorite;10
+      - minecraft:andesite;10
+      '3':
+      - minecraft:stone;30
+      - minecraft:red_sandstone;40
+      - minecraft:sandstone;40
+      - minecraft:sand;30
+      - minecraft:red_sand;30
+      - minecraft:granite;15
+      - minecraft:diorite;15
+      - minecraft:andesite;15
+      '4':
+      - minecraft:stone;50
+      - minecraft:red_sandstone;30
+      - minecraft:sandstone;30
+      - minecraft:sand;20
+      - minecraft:red_sand;20
+      - minecraft:granite;15
+      - minecraft:diorite;15
+      - minecraft:andesite;15
+      '5':
+      - minecraft:stone;90
+      - minecraft:red_sandstone;15
+      - minecraft:sandstone;15
+      - minecraft:sand;5
+      - minecraft:red_sand;5
+      - minecraft:granite;10
+      - minecraft:diorite;10
+      - minecraft:andesite;10
+  OCEAN:
+    overlay:
+      chance: 12
+      blocks:
+      - minecraft:sea_pickle[pickles=1,waterlogged=true];5
+      - minecraft:seagrass;100
+      - minecraft:kelp_plant;15
+      - minecraft:brain_coral_fan[waterlogged=true];3
+      - minecraft:bubble_coral_fan[waterlogged=true];3
+      - minecraft:dead_brain_coral_fan[waterlogged=true];3
+      - minecraft:dead_bubble_coral_fan[waterlogged=true];3
+      - minecraft:dead_fire_coral_fan[waterlogged=true];3
+      - minecraft:dead_horn_coral_fan[waterlogged=true];3
+      - minecraft:dead_tube_coral_fan[waterlogged=true];3
+      - minecraft:fire_coral_fan[waterlogged=true];3
+      - minecraft:horn_coral_fan[waterlogged=true];3
+      - minecraft:tube_coral_fan[waterlogged=true];3
+    trees:
+      chance: 2666
+      trees: []
+    structures:
+      chance: 156
+      structures: []
+    layer:
+      '1':
+      - minecraft:sand;150
+      - minecraft:red_sand;25
+      - minecraft:clay;50
+      - minecraft:coarse_dirt;5
+      '2':
+      - minecraft:stone;10
+      - minecraft:red_sandstone;60
+      - minecraft:sandstone;60
+      - minecraft:sand;40
+      - minecraft:red_sand;40
+      - minecraft:granite;10
+      - minecraft:diorite;10
+      - minecraft:andesite;10
+      - minecraft:clay;50
+      '3':
+      - minecraft:stone;30
+      - minecraft:red_sandstone;40
+      - minecraft:sandstone;40
+      - minecraft:sand;30
+      - minecraft:red_sand;30
+      - minecraft:granite;15
+      - minecraft:diorite;15
+      - minecraft:andesite;15
+      '4':
+      - minecraft:stone;50
+      - minecraft:red_sandstone;30
+      - minecraft:sandstone;30
+      - minecraft:sand;20
+      - minecraft:red_sand;20
+      - minecraft:granite;15
+      - minecraft:diorite;15
+      - minecraft:andesite;15
+      '5':
+      - minecraft:stone;90
+      - minecraft:red_sandstone;15
+      - minecraft:sandstone;15
+      - minecraft:sand;5
+      - minecraft:red_sand;5
+      - minecraft:granite;10
+      - minecraft:diorite;10
+      - minecraft:andesite;10
+  LUKEWARM_OCEAN:
+    overlay:
+      chance: 12
+      blocks:
+      - minecraft:sea_pickle[pickles=1,waterlogged=true];5
+      - minecraft:seagrass;100
+      - minecraft:kelp_plant;15
+      - minecraft:brain_coral_fan[waterlogged=true];3
+      - minecraft:bubble_coral_fan[waterlogged=true];3
+      - minecraft:dead_brain_coral_fan[waterlogged=true];3
+      - minecraft:dead_bubble_coral_fan[waterlogged=true];3
+      - minecraft:dead_fire_coral_fan[waterlogged=true];3
+      - minecraft:dead_horn_coral_fan[waterlogged=true];3
+      - minecraft:dead_tube_coral_fan[waterlogged=true];3
+      - minecraft:fire_coral_fan[waterlogged=true];3
+      - minecraft:horn_coral_fan[waterlogged=true];3
+      - minecraft:tube_coral_fan[waterlogged=true];3
+    trees:
+      chance: 4000
+      trees: []
+    structures:
+      chance: 156
+      structures: []
+    layer:
+      '1':
+      - minecraft:sand;150
+      - minecraft:red_sand;25
+      - minecraft:clay;50
+      - minecraft:coarse_dirt;5
+      '2':
+      - minecraft:stone;10
+      - minecraft:red_sandstone;60
+      - minecraft:sandstone;60
+      - minecraft:sand;40
+      - minecraft:red_sand;40
+      - minecraft:granite;10
+      - minecraft:diorite;10
+      - minecraft:andesite;10
+      - minecraft:clay;50
+      '3':
+      - minecraft:stone;30
+      - minecraft:red_sandstone;40
+      - minecraft:sandstone;40
+      - minecraft:sand;30
+      - minecraft:red_sand;30
+      - minecraft:granite;15
+      - minecraft:diorite;15
+      - minecraft:andesite;15
+      '4':
+      - minecraft:stone;50
+      - minecraft:red_sandstone;30
+      - minecraft:sandstone;30
+      - minecraft:sand;20
+      - minecraft:red_sand;20
+      - minecraft:granite;15
+      - minecraft:diorite;15
+      - minecraft:andesite;15
+      '5':
+      - minecraft:stone;90
+      - minecraft:red_sandstone;15
+      - minecraft:sandstone;15
+      - minecraft:sand;5
+      - minecraft:red_sand;5
+      - minecraft:granite;10
+      - minecraft:diorite;10
+      - minecraft:andesite;10
+  WARM_OCEAN:
+    overlay:
+      chance: 12
+      blocks:
+      - minecraft:sea_pickle[pickles=1,waterlogged=true];5
+      - minecraft:seagrass;100
+      - minecraft:kelp_plant;15
+      - minecraft:brain_coral_fan[waterlogged=true];3
+      - minecraft:bubble_coral_fan[waterlogged=true];3
+      - minecraft:dead_brain_coral_fan[waterlogged=true];3
+      - minecraft:dead_bubble_coral_fan[waterlogged=true];3
+      - minecraft:dead_fire_coral_fan[waterlogged=true];3
+      - minecraft:dead_horn_coral_fan[waterlogged=true];3
+      - minecraft:dead_tube_coral_fan[waterlogged=true];3
+      - minecraft:fire_coral_fan[waterlogged=true];3
+      - minecraft:horn_coral_fan[waterlogged=true];3
+      - minecraft:tube_coral_fan[waterlogged=true];3
+    trees:
+      chance: 4000
+      trees: []
+    structures:
+      chance: 156
+      structures: []
+    layer:
+      '1':
+      - minecraft:sand;150
+      - minecraft:red_sand;25
+      - minecraft:clay;50
+      - minecraft:coarse_dirt;5
+      '2':
+      - minecraft:stone;10
+      - minecraft:red_sandstone;60
+      - minecraft:sandstone;60
+      - minecraft:sand;40
+      - minecraft:red_sand;40
+      - minecraft:granite;10
+      - minecraft:diorite;10
+      - minecraft:andesite;10
+      - minecraft:clay;50
+      '3':
+      - minecraft:stone;30
+      - minecraft:red_sandstone;40
+      - minecraft:sandstone;40
+      - minecraft:sand;30
+      - minecraft:red_sand;30
+      - minecraft:granite;15
+      - minecraft:diorite;15
+      - minecraft:andesite;15
+      '4':
+      - minecraft:stone;50
+      - minecraft:red_sandstone;30
+      - minecraft:sandstone;30
+      - minecraft:sand;20
+      - minecraft:red_sand;20
+      - minecraft:granite;15
+      - minecraft:diorite;15
+      - minecraft:andesite;15
+      '5':
+      - minecraft:stone;90
+      - minecraft:red_sandstone;15
+      - minecraft:sandstone;15
+      - minecraft:sand;5
+      - minecraft:red_sand;5
+      - minecraft:granite;10
+      - minecraft:diorite;10
+      - minecraft:andesite;10
+  COLD_OCEAN:
+    overlay:
+      chance: 12
+      blocks:
+      - minecraft:sea_pickle[pickles=1,waterlogged=true];5
+      - minecraft:seagrass;100
+      - minecraft:kelp_plant;15
+      - minecraft:brain_coral_fan[waterlogged=true];3
+      - minecraft:bubble_coral_fan[waterlogged=true];3
+      - minecraft:dead_brain_coral_fan[waterlogged=true];3
+      - minecraft:dead_bubble_coral_fan[waterlogged=true];3
+      - minecraft:dead_fire_coral_fan[waterlogged=true];3
+      - minecraft:dead_horn_coral_fan[waterlogged=true];3
+      - minecraft:dead_tube_coral_fan[waterlogged=true];3
+      - minecraft:fire_coral_fan[waterlogged=true];3
+      - minecraft:horn_coral_fan[waterlogged=true];3
+      - minecraft:tube_coral_fan[waterlogged=true];3
+    trees:
+      chance: 4000
+      trees: []
+    structures:
+      chance: 156
+      structures: []
+    layer:
+      '1':
+      - minecraft:sand;150
+      - minecraft:red_sand;25
+      - minecraft:clay;50
+      - minecraft:coarse_dirt;5
+      '2':
+      - minecraft:stone;10
+      - minecraft:red_sandstone;60
+      - minecraft:sandstone;60
+      - minecraft:sand;40
+      - minecraft:red_sand;40
+      - minecraft:granite;10
+      - minecraft:diorite;10
+      - minecraft:andesite;10
+      - minecraft:clay;50
+      '3':
+      - minecraft:stone;30
+      - minecraft:red_sandstone;40
+      - minecraft:sandstone;40
+      - minecraft:sand;30
+      - minecraft:red_sand;30
+      - minecraft:granite;15
+      - minecraft:diorite;15
+      - minecraft:andesite;15
+      '4':
+      - minecraft:stone;50
+      - minecraft:red_sandstone;30
+      - minecraft:sandstone;30
+      - minecraft:sand;20
+      - minecraft:red_sand;20
+      - minecraft:granite;15
+      - minecraft:diorite;15
+      - minecraft:andesite;15
+      '5':
+      - minecraft:stone;90
+      - minecraft:red_sandstone;15
+      - minecraft:sandstone;15
+      - minecraft:sand;5
+      - minecraft:red_sand;5
+      - minecraft:granite;10
+      - minecraft:diorite;10
+      - minecraft:andesite;10
+  FROZEN_OCEAN:
+    overlay:
+      chance: 12
+      blocks:
+      - minecraft:sea_pickle[pickles=1,waterlogged=true];5
+      - minecraft:seagrass;100
+      - minecraft:kelp_plant;15
+      - minecraft:brain_coral_fan[waterlogged=true];3
+      - minecraft:bubble_coral_fan[waterlogged=true];3
+      - minecraft:dead_brain_coral_fan[waterlogged=true];3
+      - minecraft:dead_bubble_coral_fan[waterlogged=true];3
+      - minecraft:dead_fire_coral_fan[waterlogged=true];3
+      - minecraft:dead_horn_coral_fan[waterlogged=true];3
+      - minecraft:dead_tube_coral_fan[waterlogged=true];3
+      - minecraft:fire_coral_fan[waterlogged=true];3
+      - minecraft:horn_coral_fan[waterlogged=true];3
+      - minecraft:tube_coral_fan[waterlogged=true];3
+    trees:
+      chance: 4000
+      trees: []
+    structures:
+      chance: 156
+      structures: []
+    layer:
+      '1':
+      - minecraft:sand;150
+      - minecraft:red_sand;25
+      - minecraft:clay;50
+      - minecraft:coarse_dirt;5
+      '2':
+      - minecraft:stone;10
+      - minecraft:red_sandstone;60
+      - minecraft:sandstone;60
+      - minecraft:sand;40
+      - minecraft:red_sand;40
+      - minecraft:granite;10
+      - minecraft:diorite;10
+      - minecraft:andesite;10
+      - minecraft:clay;50
+      '3':
+      - minecraft:stone;30
+      - minecraft:red_sandstone;40
+      - minecraft:sandstone;40
+      - minecraft:sand;30
+      - minecraft:red_sand;30
+      - minecraft:granite;15
+      - minecraft:diorite;15
+      - minecraft:andesite;15
+      '4':
+      - minecraft:stone;50
+      - minecraft:red_sandstone;30
+      - minecraft:sandstone;30
+      - minecraft:sand;20
+      - minecraft:red_sand;20
+      - minecraft:granite;15
+      - minecraft:diorite;15
+      - minecraft:andesite;15
+      '5':
+      - minecraft:stone;90
+      - minecraft:red_sandstone;15
+      - minecraft:sandstone;15
+      - minecraft:sand;5
+      - minecraft:red_sand;5
+      - minecraft:granite;10
+      - minecraft:diorite;10
+      - minecraft:andesite;10
+  DEEP_OCEAN:
+    overlay:
+      chance: 12
+      blocks:
+      - minecraft:sea_pickle[pickles=1,waterlogged=true];5
+      - minecraft:seagrass;100
+      - minecraft:kelp_plant;15
+      - minecraft:brain_coral_fan[waterlogged=true];3
+      - minecraft:bubble_coral_fan[waterlogged=true];3
+      - minecraft:dead_brain_coral_fan[waterlogged=true];3
+      - minecraft:dead_bubble_coral_fan[waterlogged=true];3
+      - minecraft:dead_fire_coral_fan[waterlogged=true];3
+      - minecraft:dead_horn_coral_fan[waterlogged=true];3
+      - minecraft:dead_tube_coral_fan[waterlogged=true];3
+      - minecraft:fire_coral_fan[waterlogged=true];3
+      - minecraft:horn_coral_fan[waterlogged=true];3
+      - minecraft:tube_coral_fan[waterlogged=true];3
+    trees:
+      chance: 8000
+      trees:
+      - CORAL_RED_2::8000
+      - CORAL_RED_3::8000
+      - CORAL_RED_0::8000
+      - CORAL_RED_1::8000
+      - CORAL_MAGENTA_0::8000
+      - CORAL_MAGENTA_1::8000
+      - CORAL_MAGENTA_2::8000
+      - CORAL_BLUE_3::8000
+      - CORAL_MAGENTA_3::8000
+      - CORAL_BLUE_2::8000
+      - CORAL_BLUE_1::8000
+      - CORAL_BLUE_0::8000
+      - CORAL_YELLOW_0::8000
+      - CORAL_YELLOW_1::8000
+      - CORAL_YELLOW_2::8000
+      - CORAL_PINK_3::8000
+      - CORAL_YELLOW_3::8000
+      - CORAL_PINK_1::8000
+      - CORAL_PINK_2::8000
+      - CORAL_PINK_0::8000
+    structures:
+      chance: 8
+      structures:
+      - UNDERWATER_TEMPLE_1::8
+    layer:
+      '1':
+      - minecraft:sand;150
+      - minecraft:red_sand;25
+      - minecraft:clay;50
+      - minecraft:coarse_dirt;5
+      '2':
+      - minecraft:stone;10
+      - minecraft:red_sandstone;60
+      - minecraft:sandstone;60
+      - minecraft:sand;40
+      - minecraft:red_sand;40
+      - minecraft:granite;10
+      - minecraft:diorite;10
+      - minecraft:andesite;10
+      - minecraft:clay;50
+      '3':
+      - minecraft:stone;30
+      - minecraft:red_sandstone;40
+      - minecraft:sandstone;40
+      - minecraft:sand;30
+      - minecraft:red_sand;30
+      - minecraft:granite;15
+      - minecraft:diorite;15
+      - minecraft:andesite;15
+      '4':
+      - minecraft:stone;50
+      - minecraft:red_sandstone;30
+      - minecraft:sandstone;30
+      - minecraft:sand;20
+      - minecraft:red_sand;20
+      - minecraft:granite;15
+      - minecraft:diorite;15
+      - minecraft:andesite;15
+      '5':
+      - minecraft:stone;90
+      - minecraft:red_sandstone;15
+      - minecraft:sandstone;15
+      - minecraft:sand;5
+      - minecraft:red_sand;5
+      - minecraft:granite;10
+      - minecraft:diorite;10
+      - minecraft:andesite;10
+  DEEP_LUKEWARM_OCEAN:
+    overlay:
+      chance: 12
+      blocks:
+      - minecraft:sea_pickle[pickles=1,waterlogged=true];5
+      - minecraft:seagrass;100
+      - minecraft:kelp_plant;15
+      - minecraft:brain_coral_fan[waterlogged=true];3
+      - minecraft:bubble_coral_fan[waterlogged=true];3
+      - minecraft:dead_brain_coral_fan[waterlogged=true];3
+      - minecraft:dead_bubble_coral_fan[waterlogged=true];3
+      - minecraft:dead_fire_coral_fan[waterlogged=true];3
+      - minecraft:dead_horn_coral_fan[waterlogged=true];3
+      - minecraft:dead_tube_coral_fan[waterlogged=true];3
+      - minecraft:fire_coral_fan[waterlogged=true];3
+      - minecraft:horn_coral_fan[waterlogged=true];3
+      - minecraft:tube_coral_fan[waterlogged=true];3
+    trees:
+      chance: 8000
+      trees:
+      - CORAL_RED_2::8000
+      - CORAL_RED_3::8000
+      - CORAL_RED_0::8000
+      - CORAL_RED_1::8000
+      - CORAL_MAGENTA_0::8000
+      - CORAL_MAGENTA_1::8000
+      - CORAL_MAGENTA_2::8000
+      - CORAL_BLUE_3::8000
+      - CORAL_MAGENTA_3::8000
+      - CORAL_BLUE_2::8000
+      - CORAL_BLUE_1::8000
+      - CORAL_BLUE_0::8000
+      - CORAL_YELLOW_0::8000
+      - CORAL_YELLOW_1::8000
+      - CORAL_YELLOW_2::8000
+      - CORAL_PINK_3::8000
+      - CORAL_YELLOW_3::8000
+      - CORAL_PINK_1::8000
+      - CORAL_PINK_2::8000
+      - CORAL_PINK_0::8000
+    structures:
+      chance: 8
+      structures:
+      - UNDERWATER_TEMPLE_1::8
+    layer:
+      '1':
+      - minecraft:sand;150
+      - minecraft:red_sand;25
+      - minecraft:clay;50
+      - minecraft:coarse_dirt;5
+      '2':
+      - minecraft:stone;10
+      - minecraft:red_sandstone;60
+      - minecraft:sandstone;60
+      - minecraft:sand;40
+      - minecraft:red_sand;40
+      - minecraft:granite;10
+      - minecraft:diorite;10
+      - minecraft:andesite;10
+      - minecraft:clay;50
+      '3':
+      - minecraft:stone;30
+      - minecraft:red_sandstone;40
+      - minecraft:sandstone;40
+      - minecraft:sand;30
+      - minecraft:red_sand;30
+      - minecraft:granite;15
+      - minecraft:diorite;15
+      - minecraft:andesite;15
+      '4':
+      - minecraft:stone;50
+      - minecraft:red_sandstone;30
+      - minecraft:sandstone;30
+      - minecraft:sand;20
+      - minecraft:red_sand;20
+      - minecraft:granite;15
+      - minecraft:diorite;15
+      - minecraft:andesite;15
+      '5':
+      - minecraft:stone;90
+      - minecraft:red_sandstone;15
+      - minecraft:sandstone;15
+      - minecraft:sand;5
+      - minecraft:red_sand;5
+      - minecraft:granite;10
+      - minecraft:diorite;10
+      - minecraft:andesite;10
+  DEEP_WARM_OCEAN:
+    overlay:
+      chance: 12
+      blocks:
+      - minecraft:sea_pickle[pickles=1,waterlogged=true];5
+      - minecraft:seagrass;100
+      - minecraft:kelp_plant;15
+      - minecraft:brain_coral_fan[waterlogged=true];3
+      - minecraft:bubble_coral_fan[waterlogged=true];3
+      - minecraft:dead_brain_coral_fan[waterlogged=true];3
+      - minecraft:dead_bubble_coral_fan[waterlogged=true];3
+      - minecraft:dead_fire_coral_fan[waterlogged=true];3
+      - minecraft:dead_horn_coral_fan[waterlogged=true];3
+      - minecraft:dead_tube_coral_fan[waterlogged=true];3
+      - minecraft:fire_coral_fan[waterlogged=true];3
+      - minecraft:horn_coral_fan[waterlogged=true];3
+      - minecraft:tube_coral_fan[waterlogged=true];3
+    trees:
+      chance: 8000
+      trees:
+      - CORAL_RED_2::8000
+      - CORAL_RED_3::8000
+      - CORAL_RED_0::8000
+      - CORAL_RED_1::8000
+      - CORAL_MAGENTA_0::8000
+      - CORAL_MAGENTA_1::8000
+      - CORAL_MAGENTA_2::8000
+      - CORAL_BLUE_3::8000
+      - CORAL_MAGENTA_3::8000
+      - CORAL_BLUE_2::8000
+      - CORAL_BLUE_1::8000
+      - CORAL_BLUE_0::8000
+      - CORAL_YELLOW_0::8000
+      - CORAL_YELLOW_1::8000
+      - CORAL_YELLOW_2::8000
+      - CORAL_PINK_3::8000
+      - CORAL_YELLOW_3::8000
+      - CORAL_PINK_1::8000
+      - CORAL_PINK_2::8000
+      - CORAL_PINK_0::8000
+    structures:
+      chance: 8
+      structures:
+      - UNDERWATER_TEMPLE_1::8
+    layer:
+      '1':
+      - minecraft:sand;150
+      - minecraft:red_sand;25
+      - minecraft:clay;50
+      - minecraft:coarse_dirt;5
+      '2':
+      - minecraft:stone;10
+      - minecraft:red_sandstone;60
+      - minecraft:sandstone;60
+      - minecraft:sand;40
+      - minecraft:red_sand;40
+      - minecraft:granite;10
+      - minecraft:diorite;10
+      - minecraft:andesite;10
+      - minecraft:clay;50
+      '3':
+      - minecraft:stone;30
+      - minecraft:red_sandstone;40
+      - minecraft:sandstone;40
+      - minecraft:sand;30
+      - minecraft:red_sand;30
+      - minecraft:granite;15
+      - minecraft:diorite;15
+      - minecraft:andesite;15
+      '4':
+      - minecraft:stone;50
+      - minecraft:red_sandstone;30
+      - minecraft:sandstone;30
+      - minecraft:sand;20
+      - minecraft:red_sand;20
+      - minecraft:granite;15
+      - minecraft:diorite;15
+      - minecraft:andesite;15
+      '5':
+      - minecraft:stone;90
+      - minecraft:red_sandstone;15
+      - minecraft:sandstone;15
+      - minecraft:sand;5
+      - minecraft:red_sand;5
+      - minecraft:granite;10
+      - minecraft:diorite;10
+      - minecraft:andesite;10
+  DEEP_COLD_OCEAN:
+    overlay:
+      chance: 12
+      blocks:
+      - minecraft:sea_pickle[pickles=1,waterlogged=true];5
+      - minecraft:seagrass;100
+      - minecraft:kelp_plant;15
+      - minecraft:brain_coral_fan[waterlogged=true];3
+      - minecraft:bubble_coral_fan[waterlogged=true];3
+      - minecraft:dead_brain_coral_fan[waterlogged=true];3
+      - minecraft:dead_bubble_coral_fan[waterlogged=true];3
+      - minecraft:dead_fire_coral_fan[waterlogged=true];3
+      - minecraft:dead_horn_coral_fan[waterlogged=true];3
+      - minecraft:dead_tube_coral_fan[waterlogged=true];3
+      - minecraft:fire_coral_fan[waterlogged=true];3
+      - minecraft:horn_coral_fan[waterlogged=true];3
+      - minecraft:tube_coral_fan[waterlogged=true];3
+    trees:
+      chance: 4000
+      trees: []
+    structures:
+      chance: 8
+      structures:
+      - UNDERWATER_TEMPLE_1::8
+    layer:
+      '1':
+      - minecraft:sand;150
+      - minecraft:red_sand;25
+      - minecraft:clay;50
+      - minecraft:coarse_dirt;5
+      '2':
+      - minecraft:stone;10
+      - minecraft:red_sandstone;60
+      - minecraft:sandstone;60
+      - minecraft:sand;40
+      - minecraft:red_sand;40
+      - minecraft:granite;10
+      - minecraft:diorite;10
+      - minecraft:andesite;10
+      - minecraft:clay;50
+      '3':
+      - minecraft:stone;30
+      - minecraft:red_sandstone;40
+      - minecraft:sandstone;40
+      - minecraft:sand;30
+      - minecraft:red_sand;30
+      - minecraft:granite;15
+      - minecraft:diorite;15
+      - minecraft:andesite;15
+      '4':
+      - minecraft:stone;50
+      - minecraft:red_sandstone;30
+      - minecraft:sandstone;30
+      - minecraft:sand;20
+      - minecraft:red_sand;20
+      - minecraft:granite;15
+      - minecraft:diorite;15
+      - minecraft:andesite;15
+      '5':
+      - minecraft:stone;90
+      - minecraft:red_sandstone;15
+      - minecraft:sandstone;15
+      - minecraft:sand;5
+      - minecraft:red_sand;5
+      - minecraft:granite;10
+      - minecraft:diorite;10
+      - minecraft:andesite;10
+  DEEP_FROZEN_OCEAN:
+    overlay:
+      chance: 12
+      blocks:
+      - minecraft:sea_pickle[pickles=1,waterlogged=true];5
+      - minecraft:seagrass;100
+      - minecraft:kelp_plant;15
+      - minecraft:brain_coral_fan[waterlogged=true];3
+      - minecraft:bubble_coral_fan[waterlogged=true];3
+      - minecraft:dead_brain_coral_fan[waterlogged=true];3
+      - minecraft:dead_bubble_coral_fan[waterlogged=true];3
+      - minecraft:dead_fire_coral_fan[waterlogged=true];3
+      - minecraft:dead_horn_coral_fan[waterlogged=true];3
+      - minecraft:dead_tube_coral_fan[waterlogged=true];3
+      - minecraft:fire_coral_fan[waterlogged=true];3
+      - minecraft:horn_coral_fan[waterlogged=true];3
+      - minecraft:tube_coral_fan[waterlogged=true];3
+    trees:
+      chance: 4000
+      trees:
+      - CORAL_RED_2::8000
+      - CORAL_RED_3::8000
+      - CORAL_RED_0::8000
+      - CORAL_RED_1::8000
+      - CORAL_MAGENTA_0::8000
+      - CORAL_MAGENTA_1::8000
+      - CORAL_MAGENTA_2::8000
+      - CORAL_BLUE_3::8000
+      - CORAL_MAGENTA_3::8000
+      - CORAL_BLUE_2::8000
+      - CORAL_BLUE_1::8000
+      - CORAL_BLUE_0::8000
+      - CORAL_YELLOW_0::8000
+      - CORAL_YELLOW_1::8000
+      - CORAL_YELLOW_2::8000
+      - CORAL_PINK_3::8000
+      - CORAL_YELLOW_3::8000
+      - CORAL_PINK_1::8000
+      - CORAL_PINK_2::8000
+      - CORAL_PINK_0::8000
+    structures:
+      chance: 8
+      structures:
+      - UNDERWATER_TEMPLE_1::8
+    layer:
+      '1':
+      - minecraft:sand;150
+      - minecraft:red_sand;25
+      - minecraft:clay;50
+      - minecraft:coarse_dirt;5
+      '2':
+      - minecraft:stone;10
+      - minecraft:red_sandstone;60
+      - minecraft:sandstone;60
+      - minecraft:sand;40
+      - minecraft:red_sand;40
+      - minecraft:granite;10
+      - minecraft:diorite;10
+      - minecraft:andesite;10
+      - minecraft:clay;50
+      '3':
+      - minecraft:stone;30
+      - minecraft:red_sandstone;40
+      - minecraft:sandstone;40
+      - minecraft:sand;30
+      - minecraft:red_sand;30
+      - minecraft:granite;15
+      - minecraft:diorite;15
+      - minecraft:andesite;15
+      '4':
+      - minecraft:stone;50
+      - minecraft:red_sandstone;30
+      - minecraft:sandstone;30
+      - minecraft:sand;20
+      - minecraft:red_sand;20
+      - minecraft:granite;15
+      - minecraft:diorite;15
+      - minecraft:andesite;15
+      '5':
+      - minecraft:stone;90
+      - minecraft:red_sandstone;15
+      - minecraft:sandstone;15
+      - minecraft:sand;5
+      - minecraft:red_sand;5
+      - minecraft:granite;10
+      - minecraft:diorite;10
+      - minecraft:andesite;10
+  DESERT:
+    overlay:
+      chance: 100
+      blocks:
+      - minecraft:dead_bush;10
+      - minecraft:dead_bush;15
+    trees:
+      chance: 8000
+      trees:
+      - SHEMATIC_gmc_cactus_3::24000
+      - SHEMATIC_gmc_cactus_2::26000
+      - SHEMATIC_gmc_cactus_1::24000
+      - SHEMATIC_gmc_desert_tree::200
+      - SHEMATIC_gmc_desert_tree_0::200
+      - SHEMATIC_gmc_desert_tree_1::200
+      - SHEMATIC_gmc_desert_tree_2::200
+    structures:
+      chance: 1000000
+      structures:
+      - PYRAMID::1000
+      - DESERT_TEMPLE_1::100
+      - DUNGEON::100
+      - DESERT_RESERVOIR::100
+      - gmc_skull::100000
+      - gmc_skull_0::100000
+      - gmc_skull_1::100000
+      - gmc_skull_2::100000
+      - gmc_skull_3::100000
+      - gmc_skull_4::100000
+      - gmc_skull_5::100000
+      - gmc_skull_6::100000
+    layer:
+      '1':
+      - minecraft:sand;250
+      - minecraft:red_sand;10
+      '2':
+      - minecraft:sand;250
+      '3':
+      - minecraft:sand;250
+      '4':
+      - minecraft:sand;250
+      - minecraft:sandstone;900
+      '5':
+      - minecraft:stone;10
+      - minecraft:red_sandstone;5
+      - minecraft:sandstone;90
+      - minecraft:sand;60
+      - minecraft:granite;10
+      - minecraft:diorite;10
+      - minecraft:andesite;10
+  DESERT_HILLS:
+    overlay:
+      chance: 100
+      blocks:
+      - minecraft:dead_bush;10
+      - minecraft:dead_bush;15
+    trees:
+      chance: 8000
+      trees:
+      - SHEMATIC_gmc_cactus_3::24000
+      - SHEMATIC_gmc_cactus_2::26000
+      - SHEMATIC_gmc_cactus_1::24000
+      - SHEMATIC_gmc_desert_tree::200
+      - SHEMATIC_gmc_desert_tree_0::200
+      - SHEMATIC_gmc_desert_tree_1::200
+      - SHEMATIC_gmc_desert_tree_2::200
+    structures:
+      chance: 1000000
+      structures:
+      - PYRAMID::1000
+      - DESERT_TEMPLE_1::100
+      - DUNGEON::100
+      - DESERT_RESERVOIR::100
+      - gmc_skull::100000
+      - gmc_skull_0::100000
+      - gmc_skull_1::100000
+      - gmc_skull_2::100000
+      - gmc_skull_3::100000
+      - gmc_skull_4::100000
+      - gmc_skull_5::100000
+      - gmc_skull_6::100000
+    layer:
+      '1':
+      - minecraft:sand;250
+      - minecraft:red_sand;10
+      '2':
+      - minecraft:sand;250
+      '3':
+      - minecraft:sand;250
+      '4':
+      - minecraft:sand;250
+      - minecraft:sandstone;900
+      '5':
+      - minecraft:stone;10
+      - minecraft:red_sandstone;5
+      - minecraft:sandstone;90
+      - minecraft:sand;60
+      - minecraft:granite;10
+      - minecraft:diorite;10
+      - minecraft:andesite;10
+  DESERT_MOUNTAINS:
+    overlay:
+      chance: 100
+      blocks:
+      - minecraft:dead_bush;10
+      - minecraft:dead_bush;15
+    trees:
+      chance: 8000
+      trees:
+      - SHEMATIC_gmc_cactus_3::24000
+      - SHEMATIC_gmc_cactus_2::26000
+      - SHEMATIC_gmc_cactus_1::24000
+      - SHEMATIC_gmc_desert_tree::200
+      - SHEMATIC_gmc_desert_tree_0::200
+      - SHEMATIC_gmc_desert_tree_1::200
+      - SHEMATIC_gmc_desert_tree_2::200
+    structures:
+      chance: 1000000
+      structures:
+      - PYRAMID::1000
+      - DESERT_TEMPLE_1::100
+      - DUNGEON::100
+      - DESERT_RESERVOIR::100
+      - gmc_skull::100000
+      - gmc_skull_0::100000
+      - gmc_skull_1::100000
+      - gmc_skull_2::100000
+      - gmc_skull_3::100000
+      - gmc_skull_4::100000
+      - gmc_skull_5::100000
+      - gmc_skull_6::100000
+    layer:
+      '1':
+      - minecraft:sand;250
+      - minecraft:red_sand;10
+      '2':
+      - minecraft:sand;250
+      '3':
+      - minecraft:sand;250
+      '4':
+      - minecraft:sand;250
+      - minecraft:sandstone;900
+      '5':
+      - minecraft:stone;10
+      - minecraft:red_sandstone;5
+      - minecraft:sandstone;90
+      - minecraft:sand;60
+      - minecraft:granite;10
+      - minecraft:diorite;10
+      - minecraft:andesite;10
+  PLAINS:
+    overlay:
+      chance: 5
+      blocks:
+      - minecraft:orange_tulip;5
+      - minecraft:pink_tulip;5
+      - minecraft:red_tulip;5
+      - minecraft:white_tulip;5
+      - minecraft:grass;80
+      - minecraft:fern;50
+      - minecraft:melon;1
+      - minecraft:sunflower[half=lower];1
+      - minecraft:tall_grass[half=lower];1
+      - minecraft:rose_bush[half=lower];1
+      - minecraft:large_fern[half=lower];1
+      - minecraft:lilac[half=lower];1
+    trees:
+      chance: 666
+      trees: []
+    structures:
+      chance: 6
+      structures:
+      - DUNGEON::6
+    layer:
+      '1':
+      - minecraft:coarse_dirt;2
+      - minecraft:podzol[snowy=false];5
+      - minecraft:grass_block[snowy=false];120
+      - minecraft:farmland[moisture=0];3
+      '2':
+      - minecraft:stone;30
+      - minecraft:dirt;90
+      - minecraft:andesite;8
+      - minecraft:granite;8
+      '3':
+      - minecraft:stone;40
+      - minecraft:dirt;60
+      - minecraft:andesite;10
+      - minecraft:granite;10
+      '4':
+      - minecraft:stone;70
+      - minecraft:dirt;20
+      - minecraft:andesite;15
+      - minecraft:granite;15
+      '5':
+      - minecraft:stone;120
+      - minecraft:dirt;2
+      - minecraft:andesite;25
+      - minecraft:granite;25
+  ICE_PLAINS:
+    overlay:
+      chance: 5
+      blocks:
+      - minecraft:snow[layers=1];15
+    trees:
+      chance: 163300
+      trees:
+      - SHEMATIC_gmc_icetree::10000
+      - SHEMATIC_gmc_icetree_0::10000
+      - SHEMATIC_gmc_icetree_1::4000
+      - SHEMATIC_gmc_icetree_2::4000
+      - SHEMATIC_gmc_icetree_3::10000
+      - SHEMATIC_gmc_icetree_4:10000
+      - SHEMATIC_gmc_icetree_5::10000
+    structures:
+      chance: 500000
+      structures:
+      - gmc_iglu::500000
+    layer:
+      '1':
+      - minecraft:packed_ice;100
+      - minecraft:snow_block;5
+      - minecraft:ice;30
+      '2':
+      - minecraft:packed_ice;50
+      - minecraft:snow_block;5
+      - minecraft:ice;30
+      '3':
+      - minecraft:packed_ice;50
+      - minecraft:ice;30
+      '4':
+      - minecraft:packed_ice;50
+      - minecraft:ice;30
+      '5':
+      - minecraft:stone;120
+      - minecraft:dirt;2
+      - minecraft:andesite;25
+      - minecraft:granite;25
+  BIRCH_FOREST:
+    overlay:
+      chance: 6
+      blocks:
+      - minecraft:poppy;10
+      - minecraft:dandelion;5
+      - minecraft:grass;60
+      - minecraft:fern;50
+      - minecraft:oak_leaves[distance=7,persistent=false];2
+    trees:
+      chance: 4000
+      trees:
+      - BIRCH_TREE_4::4000
+      - BIRCH_TREE_2::4000
+      - BIRCH_TREE_3::4000
+      - BIRCH_TREE_1::4000
+    structures:
+      chance: 6
+      structures:
+      - DUNGEON::6
+    layer:
+      '1':
+      - minecraft:coarse_dirt;10
+      - minecraft:podzol[snowy=false];5
+      - minecraft:grass_block[snowy=false];120
+      '2':
+      - minecraft:stone;30
+      - minecraft:dirt;90
+      - minecraft:andesite;8
+      - minecraft:granite;8
+      '3':
+      - minecraft:stone;40
+      - minecraft:dirt;60
+      - minecraft:andesite;10
+      - minecraft:granite;10
+      '4':
+      - minecraft:stone;70
+      - minecraft:dirt;20
+      - minecraft:andesite;15
+      - minecraft:granite;15
+      '5':
+      - minecraft:stone;120
+      - minecraft:dirt;2
+      - minecraft:andesite;25
+      - minecraft:granite;25
+  BIRCH_FOREST_HILLS:
+    overlay:
+      chance: 7
+      blocks:
+      - minecraft:poppy;10
+      - minecraft:dandelion;5
+      - minecraft:grass;60
+      - minecraft:fern;50
+      - minecraft:oak_leaves[distance=7,persistent=false];2
+    trees:
+      chance: 2666
+      trees:
+      - BIRCH_TREE_4::2666
+      - BIRCH_TREE_2::2666
+      - BIRCH_TREE_3::2666
+      - BIRCH_TREE_1::2666
+    structures:
+      chance: 6
+      structures:
+      - DUNGEON::6
+    layer:
+      '1':
+      - minecraft:coarse_dirt;25
+      - minecraft:podzol[snowy=false];5
+      - minecraft:diorite;5
+      - minecraft:grass_block[snowy=false];120
+      '2':
+      - minecraft:stone;40
+      - minecraft:dirt;80
+      - minecraft:andesite;8
+      - minecraft:granite;8
+      '3':
+      - minecraft:stone;45
+      - minecraft:dirt;60
+      - minecraft:andesite;10
+      - minecraft:granite;10
+      '4':
+      - minecraft:stone;80
+      - minecraft:dirt;20
+      - minecraft:andesite;15
+      - minecraft:granite;15
+      '5':
+      - minecraft:stone;120
+      - minecraft:dirt;2
+      - minecraft:andesite;25
+      - minecraft:granite;25
+  TAIGA:
+    overlay:
+      chance: 6
+      blocks:
+      - minecraft:oxeye_daisy;3
+      - minecraft:allium;6
+      - minecraft:grass;60
+      - minecraft:fern;50
+      - minecraft:brown_mushroom;10
+      - minecraft:red_mushroom;10
+      - minecraft:pumpkin;1
+      - minecraft:large_fern[half=lower];25
+    trees:
+      chance: 2300
+      trees:
+      - SHEMATIC_gmc_taiga::5000
+      - SHEMATIC_gmc_taiga_0::5000
+      - SHEMATIC_gmc_taiga_1::5000
+      - SHEMATIC_gmc_taiga_2::5000
+      - SHEMATIC_gmc_taiga_3::5000
+      - SHEMATIC_gmc_taiga_4::5000
+      - SHEMATIC_gmc_taiga_5::5000
+      - SHEMATIC_gmc_taiga_6::5000
+      - SHEMATIC_gmc_taiga_7::5000
+      - SHEMATIC_gmc_taiga_8::5000
+      - SHEMATIC_gmc_taiga_9::5000
+      - SHEMATIC_gmc_taiga_10::5000
+      - SHEMATIC_gmc_taiga_11::5000
+      - SHEMATIC_gmc_taiga_13::5000
+      - SHEMATIC_gmc_taiga_14::5000
+      - SHEMATIC_gmc_taiga_15::5000
+      - SHEMATIC_gmc_taiga_16::5000
+      - SHEMATIC_gmc_taiga_drop_2::300
+      - SHEMATIC_gmc_taiga_drop_3::1100
+      - SHEMATIC_gmc_taiga_drop_4::1100
+      - SHEMATIC_gmc_taiga_drop_5::1100
+      - SHEMATIC_gmc_taiga_drop_6::1100
+      - SHEMATIC_gmc_mossystone::2000
+      - SHEMATIC_gmc_mossystone_0::2000
+      - SHEMATIC_gmc_mossystone_1::2000
+    structures:
+      chance: 6
+      structures:
+      - DUNGEON::6
+    layer:
+      '1':
+      - minecraft:coarse_dirt;10
+      - minecraft:podzol[snowy=false];15
+      - minecraft:grass_block[snowy=false];100
+      '2':
+      - minecraft:stone;30
+      - minecraft:dirt;90
+      - minecraft:andesite;8
+      - minecraft:granite;8
+      '3':
+      - minecraft:stone;40
+      - minecraft:dirt;60
+      - minecraft:andesite;10
+      - minecraft:granite;10
+      '4':
+      - minecraft:stone;70
+      - minecraft:dirt;20
+      - minecraft:andesite;15
+      - minecraft:granite;15
+      '5':
+      - minecraft:stone;120
+      - minecraft:dirt;2
+      - minecraft:andesite;25
+      - minecraft:granite;25
+  TAIGA_HILLS:
+    overlay:
+      chance: 6
+      blocks:
+      - minecraft:oxeye_daisy;3
+      - minecraft:allium;6
+      - minecraft:grass;60
+      - minecraft:fern;50
+      - minecraft:brown_mushroom;10
+      - minecraft:red_mushroom;10
+      - minecraft:pumpkin;1
+      - minecraft:large_fern[half=lower];25
+    trees:
+      chance: 2300
+      trees:
+      - SHEMATIC_gmc_taiga::5000
+      - SHEMATIC_gmc_taiga_0::5000
+      - SHEMATIC_gmc_taiga_1::5000
+      - SHEMATIC_gmc_taiga_2::5000
+      - SHEMATIC_gmc_taiga_3::5000
+      - SHEMATIC_gmc_taiga_4::5000
+      - SHEMATIC_gmc_taiga_5::5000
+      - SHEMATIC_gmc_taiga_6::5000
+      - SHEMATIC_gmc_taiga_7::5000
+      - SHEMATIC_gmc_taiga_8::5000
+      - SHEMATIC_gmc_taiga_9::5000
+      - SHEMATIC_gmc_taiga_10::5000
+      - SHEMATIC_gmc_taiga_11::5000
+      - SHEMATIC_gmc_taiga_13::5000
+      - SHEMATIC_gmc_taiga_14::5000
+      - SHEMATIC_gmc_taiga_15::5000
+      - SHEMATIC_gmc_taiga_16::5000
+      - SHEMATIC_gmc_taiga_drop_2::300
+      - SHEMATIC_gmc_taiga_drop_3::1100
+      - SHEMATIC_gmc_taiga_drop_4::1100
+      - SHEMATIC_gmc_taiga_drop_5::1100
+      - SHEMATIC_gmc_taiga_drop_6::1100
+      - SHEMATIC_gmc_mossystone::2000
+      - SHEMATIC_gmc_mossystone_0::2000
+      - SHEMATIC_gmc_mossystone_1::2000
+    structures:
+      chance: 6
+      structures:
+      - DUNGEON::6
+    layer:
+      '1':
+      - minecraft:coarse_dirt;10
+      - minecraft:podzol[snowy=false];15
+      - minecraft:grass_block[snowy=false];100
+      '2':
+      - minecraft:stone;30
+      - minecraft:dirt;90
+      - minecraft:andesite;8
+      - minecraft:granite;8
+      '3':
+      - minecraft:stone;40
+      - minecraft:dirt;60
+      - minecraft:andesite;10
+      - minecraft:granite;10
+      '4':
+      - minecraft:stone;70
+      - minecraft:dirt;20
+      - minecraft:andesite;15
+      - minecraft:granite;15
+      '5':
+      - minecraft:stone;120
+      - minecraft:dirt;2
+      - minecraft:andesite;25
+      - minecraft:granite;25
+  TAIGA_MOUNTAINS:
+    overlay:
+      chance: 6
+      blocks:
+      - minecraft:oxeye_daisy;3
+      - minecraft:allium;6
+      - minecraft:grass;60
+      - minecraft:fern;50
+      - minecraft:brown_mushroom;10
+      - minecraft:red_mushroom;10
+      - minecraft:pumpkin;1
+      - minecraft:large_fern[half=lower];25
+    trees:
+      chance: 2200
+      trees:
+      - SHEMATIC_gmc_taiga::5000
+      - SHEMATIC_gmc_taiga_0::5000
+      - SHEMATIC_gmc_taiga_1::5000
+      - SHEMATIC_gmc_taiga_2::5000
+      - SHEMATIC_gmc_taiga_3::5000
+      - SHEMATIC_gmc_taiga_4::5000
+      - SHEMATIC_gmc_taiga_5::5000
+      - SHEMATIC_gmc_taiga_6::5000
+      - SHEMATIC_gmc_taiga_7::5000
+      - SHEMATIC_gmc_taiga_8::5000
+      - SHEMATIC_gmc_taiga_9::5000
+      - SHEMATIC_gmc_taiga_10::5000
+      - SHEMATIC_gmc_taiga_11::5000
+      - SHEMATIC_gmc_taiga_13::5000
+      - SHEMATIC_gmc_taiga_14::5000
+      - SHEMATIC_gmc_taiga_15::5000
+      - SHEMATIC_gmc_taiga_16::5000
+      - SHEMATIC_gmc_taiga_drop_2::300
+      - SHEMATIC_gmc_taiga_drop_3::1100
+      - SHEMATIC_gmc_taiga_drop_4::1100
+      - SHEMATIC_gmc_taiga_drop_5::1100
+      - SHEMATIC_gmc_taiga_drop_6::1100
+      - SHEMATIC_gmc_mossystone::2000
+      - SHEMATIC_gmc_mossystone_0::2000
+      - SHEMATIC_gmc_mossystone_1::2000
+    structures:
+      chance: 6
+      structures:
+      - DUNGEON::6
+    layer:
+      '1':
+      - minecraft:coarse_dirt;10
+      - minecraft:podzol[snowy=false];15
+      - minecraft:grass_block[snowy=false];100
+      '2':
+      - minecraft:stone;30
+      - minecraft:dirt;90
+      - minecraft:andesite;8
+      - minecraft:granite;8
+      '3':
+      - minecraft:stone;40
+      - minecraft:dirt;60
+      - minecraft:andesite;10
+      - minecraft:granite;10
+      '4':
+      - minecraft:stone;70
+      - minecraft:dirt;20
+      - minecraft:andesite;15
+      - minecraft:granite;15
+      '5':
+      - minecraft:stone;120
+      - minecraft:dirt;2
+      - minecraft:andesite;25
+      - minecraft:granite;25
+  COLD_TAIGA:
+    overlay:
+      chance: 1
+      blocks:
+      - minecraft:snow[layers=4];700
+      - minecraft:snow[layers=5];800
+      - minecraft:snow[layers=6];900
+      - minecraft:snow[layers=7];800
+    trees:
+      chance: 4000
+      trees:
+      - SHEMATIC_gmc_snowspruce::4000
+      - SHEMATIC_gmc_snowspruce_0::4000
+      - SHEMATIC_gmc_snowspruce_1::4000
+    structures:
+      chance: 6
+      structures:
+      - DUNGEON::6
+    layer:
+      '1':
+      - minecraft:snow_block;300
+      - minecraft:packed_ice;15
+      - minecraft:ice;10
+      '2':
+      - minecraft:snow_block;600
+      - minecraft:packed_ice;20
+      '3':
+      - minecraft:snow_block;600
+      - minecraft:packed_ice;10
+      '4':
+      - minecraft:snow_block;600
+      '5':
+      - minecraft:snow_block;200
+      - minecraft:stone;120
+      - minecraft:andesite;45
+      - minecraft:granite;45
+  COLD_TAIGA_HILLS:
+    overlay:
+      chance: 1
+      blocks:
+      - minecraft:snow[layers=4];700
+      - minecraft:snow[layers=5];800
+      - minecraft:snow[layers=6];900
+      - minecraft:snow[layers=7];800
+    trees:
+      chance: 4000
+      trees:
+      - SHEMATIC_gmc_snowspruce::4000
+      - SHEMATIC_gmc_snowspruce_0::4000
+      - SHEMATIC_gmc_snowspruce_1::4000
+    structures:
+      chance: 6
+      structures:
+      - DUNGEON::6
+    layer:
+      '1':
+      - minecraft:snow_block;300
+      - minecraft:packed_ice;15
+      - minecraft:ice;10
+      '2':
+      - minecraft:snow_block;600
+      - minecraft:packed_ice;20
+      '3':
+      - minecraft:snow_block;600
+      - minecraft:packed_ice;10
+      '4':
+      - minecraft:snow_block;600
+      '5':
+      - minecraft:snow_block;200
+      - minecraft:stone;120
+      - minecraft:andesite;45
+      - minecraft:granite;45
+  COLD_TAIGA_MOUNTAINS:
+    overlay:
+      chance: 1
+      blocks:
+      - minecraft:snow[layers=4];700
+      - minecraft:snow[layers=5];800
+      - minecraft:snow[layers=6];900
+      - minecraft:snow[layers=7];800
+    trees:
+      chance: 4000
+      trees:
+      - SHEMATIC_gmc_snowspruce::4000
+      - SHEMATIC_gmc_snowspruce_0::4000
+      - SHEMATIC_gmc_snowspruce_1::4000
+    structures:
+      chance: 6
+      structures:
+      - DUNGEON::6
+    layer:
+      '1':
+      - minecraft:snow_block;300
+      - minecraft:packed_ice;15
+      - minecraft:ice;10
+      '2':
+      - minecraft:snow_block;600
+      - minecraft:packed_ice;20
+      '3':
+      - minecraft:snow_block;600
+      - minecraft:packed_ice;10
+      '4':
+      - minecraft:snow_block;600
+      '5':
+      - minecraft:snow_block;200
+      - minecraft:stone;120
+      - minecraft:andesite;45
+      - minecraft:granite;45
+  EXTREME_HILLS:
+    overlay:
+      chance: 100
+      blocks:
+      - minecraft:grass;100
+      - minecraft:brown_mushroom;5
+      - minecraft:red_mushroom;5
+    trees:
+      chance: 500
+      trees:
+      - SHEMATIC_gmc_dark_oak::4000
+      - SHEMATIC_gmc_dark_oak_0::4000
+      - SHEMATIC_gmc_dark_oak_1::4000
+      - SHEMATIC_gmc_dark_oak_2::4000
+      - SHEMATIC_gmc_dark_oak_3::4000
+      - SHEMATIC_gmc_dark_oak_4::4000
+      - OAK_TREE_4::4000
+      - OAK_TREE_3::4000
+      - OAK_TREE_5::4000
+      - OAK_TREE_2::4000
+      - OAK_TREE_1::4000
+    structures:
+      chance: 6
+      structures:
+      - DUNGEON::6
+    layer:
+      '1':
+      - minecraft:coarse_dirt;10
+      - minecraft:podzol[snowy=false];15
+      - minecraft:grass_block[snowy=false];100
+      '2':
+      - minecraft:stone;30
+      - minecraft:dirt;90
+      - minecraft:andesite;8
+      - minecraft:granite;8
+      '3':
+      - minecraft:stone;40
+      - minecraft:dirt;60
+      - minecraft:andesite;10
+      - minecraft:granite;10
+      '4':
+      - minecraft:stone;70
+      - minecraft:dirt;20
+      - minecraft:andesite;15
+      - minecraft:granite;15
+      '5':
+      - minecraft:stone;120
+      - minecraft:dirt;2
+      - minecraft:andesite;25
+      - minecraft:granite;25
+  EXTREME_MOUNTAINS:
+    overlay:
+      chance: 100
+      blocks:
+      - minecraft:grass;100
+      - minecraft:brown_mushroom;5
+      - minecraft:red_mushroom;5
+    trees:
+      chance: 300
+      trees:
+      - SHEMATIC_gmc_dark_oak::4000
+      - SHEMATIC_gmc_dark_oak_0::4000
+      - SHEMATIC_gmc_dark_oak_1::4000
+      - SHEMATIC_gmc_dark_oak_2::4000
+      - SHEMATIC_gmc_dark_oak_3::4000
+      - SHEMATIC_gmc_dark_oak_4::4000
+      - OAK_TREE_4::4000
+      - OAK_TREE_3::4000
+      - OAK_TREE_5::4000
+      - OAK_TREE_2::4000
+      - OAK_TREE_1::4000
+    structures:
+      chance: 6
+      structures:
+      - DUNGEON::6
+    layer:
+      '1':
+      - minecraft:grass_block[snowy=false];30
+      - minecraft:coarse_dirt;10
+      - minecraft:podzol[snowy=false];15
+      '2':
+      - minecraft:stone;30
+      - minecraft:dirt;90
+      - minecraft:andesite;8
+      - minecraft:granite;8
+      '3':
+      - minecraft:stone;40
+      - minecraft:dirt;60
+      - minecraft:andesite;10
+      - minecraft:granite;10
+      '4':
+      - minecraft:stone;70
+      - minecraft:dirt;20
+      - minecraft:andesite;15
+      - minecraft:granite;15
+      '5':
+      - minecraft:stone;120
+      - minecraft:dirt;2
+      - minecraft:andesite;25
+      - minecraft:granite;25
+  SAVANNA:
+    overlay:
+      chance: 2
+      blocks:
+      - minecraft:poppy;10
+      - minecraft:dandelion;5
+      - minecraft:tall_grass;400
+      - minecraft:grass;50
+      - minecraft:fern;50
+      - minecraft:dead_bush;20
+    trees:
+      chance: 2666
+      trees:
+      - SHEMATIC_gmc_savanna::2666
+      - SHEMATIC_gmc_savanna_0::2666
+      - SHEMATIC_gmc_savanna_1::2666
+      - SHEMATIC_gmc_savanna_2::2666
+      - SHEMATIC_gmc_savanna_3::2666
+      - SHEMATIC_gmc_savanna_4::2666
+      - SHEMATIC_gmc_savanna_5::2666
+    structures:
+      chance: 6
+      structures:
+      - DUNGEON::6
+    layer:
+      '1':
+      - minecraft:coarse_dirt;10
+      - minecraft:podzol[snowy=false];5
+      - minecraft:grass_block[snowy=false];100
+      - minecraft:red_sand;5
+      '2':
+      - minecraft:stone;30
+      - minecraft:dirt;90
+      - minecraft:andesite;8
+      - minecraft:granite;8
+      '3':
+      - minecraft:stone;40
+      - minecraft:dirt;60
+      - minecraft:andesite;10
+      - minecraft:granite;10
+      '4':
+      - minecraft:stone;70
+      - minecraft:dirt;20
+      - minecraft:andesite;15
+      - minecraft:granite;15
+      '5':
+      - minecraft:stone;120
+      - minecraft:dirt;2
+      - minecraft:andesite;25
+      - minecraft:granite;25
+  SAVANNA_HILLS:
+    overlay:
+      chance: 2
+      blocks:
+      - minecraft:poppy;10
+      - minecraft:dandelion;5
+      - minecraft:tall_grass;400
+      - minecraft:grass;50
+      - minecraft:fern;50
+      - minecraft:dead_bush;20
+    trees:
+      chance: 2400
+      trees:
+      - SHEMATIC_gmc_savanna::2666
+      - SHEMATIC_gmc_savanna_0::2666
+      - SHEMATIC_gmc_savanna_1::2666
+      - SHEMATIC_gmc_savanna_2::2666
+      - SHEMATIC_gmc_savanna_3::2666
+      - SHEMATIC_gmc_savanna_4::2666
+      - SHEMATIC_gmc_savanna_5::2666
+    structures:
+      chance: 6
+      structures:
+      - DUNGEON::6
+    layer:
+      '1':
+      - minecraft:coarse_dirt;10
+      - minecraft:podzol[snowy=false];5
+      - minecraft:grass_block[snowy=false];100
+      - minecraft:red_sand;5
+      '2':
+      - minecraft:stone;30
+      - minecraft:dirt;90
+      - minecraft:andesite;8
+      - minecraft:granite;8
+      '3':
+      - minecraft:stone;40
+      - minecraft:dirt;60
+      - minecraft:andesite;10
+      - minecraft:granite;10
+      '4':
+      - minecraft:stone;70
+      - minecraft:dirt;20
+      - minecraft:andesite;15
+      - minecraft:granite;15
+      '5':
+      - minecraft:stone;120
+      - minecraft:dirt;2
+      - minecraft:andesite;25
+      - minecraft:granite;25
+  DEATH_LAND:
+    overlay:
+      chance: 17
+      blocks:
+      - minecraft:poppy;10
+      - minecraft:dandelion;5
+      - minecraft:grass;60
+      - minecraft:fern;50
+      - minecraft:dead_bush;10
+      - minecraft:dead_bush;10
+      - minecraft:brown_mushroom;12
+      - minecraft:red_mushroom;12
+    trees:
+      chance: 2000
+      trees:
+      - DEATH_TREE_3::2000
+      - DEATH_TREE_2::2000
+      - DEATH_TREE_4::2000
+      - DEATH_TREE_1::2000
+    structures:
+      chance: 6
+      structures:
+      - DUNGEON::6
+    layer:
+      '1':
+      - minecraft:coarse_dirt;20
+      - minecraft:podzol[snowy=false];35
+      - minecraft:grass_block[snowy=false];70
+      - minecraft:mycelium[snowy=false];15
+      - minecraft:cyan_terracotta;1
+      '2':
+      - minecraft:stone;30
+      - minecraft:dirt;90
+      - minecraft:andesite;8
+      - minecraft:granite;8
+      '3':
+      - minecraft:stone;40
+      - minecraft:dirt;60
+      - minecraft:andesite;10
+      - minecraft:granite;10
+      '4':
+      - minecraft:stone;70
+      - minecraft:dirt;20
+      - minecraft:andesite;15
+      - minecraft:granite;15
+      '5':
+      - minecraft:stone;120
+      - minecraft:dirt;2
+      - minecraft:andesite;25
+      - minecraft:granite;25

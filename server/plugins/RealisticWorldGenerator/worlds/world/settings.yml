@@ -1,0 +1,10 @@
+Customization:
+  Generation-Version: 1
+  Biome-Size: 3000
+  New-Generation: true
+  Minecraft-Biomes: true
+  One-Biome:
+    Enabled: false
+    Biome: JUNGLE
+Information:
+  Plugin-Version: 4.1.8

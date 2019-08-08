@@ -1,0 +1,16 @@
+# RealisticWorld's Cave-Config let you select the cave-type you want for your world. 
+# Just configure it to your needs!
+caves:
+  type: 5
+  enabled: true
+  spawnrate: 60
+  cave-3:
+    frequenzy: 1
+    octaves: 1
+    amplitude: 1
+  cave-4:
+    frequenzy: 2
+    max-noise: 200
+  cave-5:
+    radius: 3
+    iterations: 2
