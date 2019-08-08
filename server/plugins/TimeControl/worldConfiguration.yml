@@ -12,10 +12,10 @@ world:
   night-time: 10000
   allow-sleep: true
 mine:
-  use-specific-values: false
+  use-specific-values: true
   day-starts-at: 0
-  day-time: 24000
-  night-time: 7000
+  day-time: 26000
+  night-time: 10000
   allow-sleep: true
 #
 #
