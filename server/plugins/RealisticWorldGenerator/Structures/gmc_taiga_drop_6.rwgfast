@@ -1,0 +1,62 @@
+positioning:
+  position: OVERWORLD
+  minY: 0
+  maxY: 256
+version: '1.0'
+schematic:
+  minecraftVersion: v1_13_2
+  version: '1.2'
+  basement:
+    build: false
+blocks:
+  0_9_-1: minecraft:spruce_wood[axis=y]
+  '0_4_0': minecraft:spruce_wood[axis=y]
+  '-2_7_1': minecraft:spruce_fence[east=false,north=true,south=false,waterlogged=false,west=false]
+  '0_3_0': minecraft:spruce_wood[axis=y]
+  '-3_7_0': minecraft:spruce_fence[east=true,north=false,south=false,waterlogged=false,west=false]
+  '0_5_0': minecraft:spruce_wood[axis=y]
+  '0_8_0': minecraft:spruce_wood[axis=y]
+  '0_11_0': minecraft:spruce_wood[axis=y]
+  '1_7_0': minecraft:spruce_fence[east=false,north=false,south=false,waterlogged=false,west=true]
+  '1_11_1': minecraft:spruce_wood[axis=y]
+  '-2_8_0': minecraft:spruce_fence[east=false,north=false,south=false,waterlogged=false,west=false]
+  '0_0_0': minecraft:spruce_wood[axis=y]
+  '0_10_0': minecraft:spruce_wood[axis=y]
+  '-1_7_0': minecraft:spruce_wood[axis=y]
+  '0_2_0': minecraft:spruce_wood[axis=y]
+  '0_12_0': minecraft:spruce_wood[axis=y]
+  '0_8_1': minecraft:spruce_wood[axis=y]
+  '2_10_0': minecraft:spruce_wood[axis=y]
+  -2_8_-2: minecraft:spruce_fence[east=true,north=false,south=false,waterlogged=false,west=false]
+  -1_9_-3: minecraft:spruce_fence[east=false,north=false,south=false,waterlogged=false,west=false]
+  '0_14_0': minecraft:spruce_fence[east=false,north=false,south=false,waterlogged=false,west=false]
+  1_-2_1: minecraft:spruce_log[axis=x]
+  -1_-1_0: minecraft:spruce_log[axis=y]
+  0_9_-2: minecraft:spruce_fence[east=false,north=false,south=true,waterlogged=false,west=false]
+  '-1_13_0': minecraft:spruce_fence[east=true,north=false,south=false,waterlogged=false,west=false]
+  1_-2_0: minecraft:coarse_dirt
+  '0_7_0': minecraft:spruce_wood[axis=y]
+  0_-1_1: minecraft:spruce_wood[axis=y]
+  '0_1_0': minecraft:spruce_wood[axis=y]
+  '0_13_0': minecraft:spruce_log[axis=y]
+  0_-2_1: minecraft:spruce_wood[axis=y]
+  0_-2_0: minecraft:spruce_wood[axis=y]
+  '1_11_2': minecraft:spruce_fence[east=false,north=true,south=false,waterlogged=false,west=false]
+  '0_0_1': minecraft:spruce_log[axis=y]
+  -1_8_-4: minecraft:spruce_fence[east=false,north=false,south=true,waterlogged=false,west=false]
+  '0_15_0': minecraft:spruce_fence[east=false,north=false,south=false,waterlogged=false,west=false]
+  0_-1_0: minecraft:spruce_wood[axis=y]
+  '-1_11_0': minecraft:spruce_log[axis=x]
+  '1_7_3': minecraft:spruce_fence[east=false,north=true,south=false,waterlogged=false,west=false]
+  '-1_11_1': minecraft:spruce_fence[east=false,north=true,south=false,waterlogged=false,west=false]
+  -1_2_-1: minecraft:spruce_wood[axis=y]
+  -1_8_-3: minecraft:spruce_fence[east=false,north=true,south=true,waterlogged=false,west=false]
+  '0_6_0': minecraft:spruce_wood[axis=y]
+  '1_6_2': minecraft:spruce_fence[east=false,north=false,south=false,waterlogged=false,west=false]
+  '2_7_2': minecraft:spruce_fence[east=false,north=false,south=false,waterlogged=false,west=true]
+  '0_9_0': minecraft:spruce_wood[axis=y]
+  '1_11_0': minecraft:spruce_wood[axis=y]
+  -1_8_-2: minecraft:spruce_wood[axis=y]
+  '-2_7_0': minecraft:spruce_log[axis=x]
+  -1_-2_0: minecraft:coarse_dirt
+  '1_7_2': minecraft:spruce_wood[axis=y]
