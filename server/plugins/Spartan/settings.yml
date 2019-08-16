@@ -7,7 +7,7 @@
 #
 Punishments:
   broadcast_on_kick: true
-  broadcast_on_ban: false
+  broadcast_on_ban: true
   wave_broadcast_message: true
   run_wave_if_its_full: false
   max_wave_size: 100
