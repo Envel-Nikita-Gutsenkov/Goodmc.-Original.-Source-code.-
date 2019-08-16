@@ -56,3 +56,5 @@ saplings:
   - gmc_savanna_3
   - gmc_savanna_4
   - gmc_savanna_5
+grow:
+  replaceBlocks: true
