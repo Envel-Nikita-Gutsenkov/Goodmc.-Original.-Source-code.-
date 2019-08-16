@@ -15,6 +15,8 @@ ignore-vanilla-permissions: false
 aliases:
     pl:
     - []
+    restart:
+    - []
     plugins:
     - []
     version:
@@ -29,5 +31,69 @@ aliases:
     - []
     '?':
     - []
-    
-
+    about:
+    - []
+    bukkit:about:
+    - []
+    bukkit:help:
+    - []
+    bukkit:?:
+    - []
+    bukkit:me:
+    - []
+    bukkit:pl:
+    - []
+    bukkit:plugins:
+    - []
+    bukkit:ver:
+    - []
+    bukkit:version:
+    - []
+    bukkit:ehelp:
+    - []
+    bu:
+    - []
+    buk:
+    - []
+    bukk:
+    - []
+    bukki:
+    - []
+    bukkit:
+    - []
+    bukkit:p:
+    - []
+    bukkit:plu:
+    - []
+    bukkit:plug:
+    - []
+    bukkit:plugi:
+    - []
+    bukkit:plugin:
+    - []
+    help:
+    - []
+    icanhasbukkit:
+    - []
+    icanhasspigot:
+    - []
+    info:
+    - []
+    pl:
+    - []
+    eabout:
+    - []
+    plugins:
+    - []
+    ver:
+    - []
+    version:
+    - []
+    mc:help:
+    - []
+    minecraft:help:
+    - []
+    essentials:help:
+    - []
+    essentials:ehelp:
+    - []
