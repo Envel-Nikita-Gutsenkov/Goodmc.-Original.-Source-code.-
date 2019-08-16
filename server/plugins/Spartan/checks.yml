@@ -115,7 +115,7 @@ IrregularMovements:
   check_jump_movement: true
 Jesus:
   check_speed: true
-  check_repeated_movement: true
+  check_repeated_movement: false
   check_horizontal_movement: true
   check_swimming: true
   check_walking: true
