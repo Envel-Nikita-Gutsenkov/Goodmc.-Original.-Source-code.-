@@ -147,8 +147,9 @@ MorePackets:
   check_timer: true
   check_blink: true
   check_overall: true
-  check_difference: true
+  check_difference: false
   check_delay: true
+  check_instant: false
 #
 # ░░░░░░░░░░░░░░░░▄▓▄
 # ░░░░▄█▄░░░░░░░░▄▓▓▓▄

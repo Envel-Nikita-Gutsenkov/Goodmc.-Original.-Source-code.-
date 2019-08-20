@@ -25,7 +25,7 @@ Notifications:
   violations_reset_message: true
   staff_chat: true
 Teleportation:
-  fall_damage_on_teleport: true
+  fall_damage_on_teleport: false
   ground_teleport_on_detection: true
 Protections:
   chat_cooldown: 0
