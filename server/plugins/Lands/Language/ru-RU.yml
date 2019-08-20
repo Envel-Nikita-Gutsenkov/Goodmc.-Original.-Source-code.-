@@ -118,8 +118,8 @@ help:
       safezone: '&8/&7Lands safezone &8- &eКонфигурировать зону безопастности.'
       reload: '&8/&7Lands reload &8<&aValue&8> &8- &eПерезагрузить конфиг и\или сообщения.'
       about: '&8/&7Lands about &8- &eПоказать информацию о плагине.'
-    player: '&8/&7Lands player &8<&aPlayer&8> - &eView information about player'
-    map: '&8/&aLands map &8- &7View map'
+    player: '&8/&7Lands player &8<&aPlayer&8> - &eИнформация о игроке'
+    map: '&8/&aLands map &8- &7Посмотреть карту'
     balance: '&8/&aLands balance &8[&aland&8] - &7Check land balance'
     deposit: '&8/&aLands deposit &8<&aamount&8> - &7Deposit money to land bank'
     withdraw: '&8/&aLands withdraw &8<&aamount&8> - &7Withdraw money from land bank'
@@ -270,12 +270,9 @@ command:
       &7Please check your input.'
     banks-disabled: '&7Banks were disabled by a administrator. &7Contact one for help.
       Setting: taxes.banks'
-    land-not-trusted: '&cYou can''t do that. &7Player&b {player} &7isn''t part of
-      this land &8(&7Land:&e {land}&8)&7. You need to trust him first using &8/&aLands
+    land-not-trusted: '&cНельзя это сделать. &7Игрок&b {player} &7не является поселенцем &8(&7Land:&e {land}&8)&7. Пригласите его, используя &8/&aLands
       trust&7.'
-    land-max-members: '&cCouldn''t trust you in land&e {land}&c. &7This land reached
-      their maximum of&b {members} &7members. The land needs more lands.members.NUMBER
-      permission.'
+    land-max-members: '&cНе удается пригласить в поселение&e {land}&c. &7оно достигло максимума поселенцев&b {members}&7. ЭТО ОШИБКА! СООБЩИТЕ НАМ!'
   help:
     help: '&8[&aLands&8] &7Use &8/&aLand help &7for help.'
     cmd-not-exist: '&8[&aLands&8] &cЭтой подкоманды не существует. &7Команда&b {command}
@@ -474,10 +471,8 @@ command:
     no-permission-other: '&8[&aLands&8] &cУвы, но вам не разрешено открывать графический
       интерфейс других пользователей.'
   chat:
-    activated: '&7Activated land chat. Send a message in public chat to chat with
-      your land. &5NOTE: &7Lands will take your &8/&aLands edit &7land as the chat
-      land.'
-    deactivated: '&7Successfully deactivated land chat.'
+    activated: '&7Активировали чатик поселения. Теперь все, что вы напишите в чат будет видно только участникам поселения. Выключить чат поселения и перейти в обычный чат можно этой же командой.'
+    deactivated: '&7Выключили чатик поселения.'
     formats: '&8{land} &8| &f&l{player} &f&l➛&7&o {message}'
   deposit:
     number: '&7You need to specify an amount of money. Use &8/&aLand deposit &8<&aAmount&8>

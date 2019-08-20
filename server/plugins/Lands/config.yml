@@ -99,7 +99,7 @@ land:
     # The cost to create a land (/Lands create).
     costs: 4000.0
     # Max land name length
-    name-length: 15
+    name-length: 16
 
   # Set the minimum distance in chunks between lands that don't belong to the same owner.
   chunk-distance: 1
