@@ -26,13 +26,13 @@ general:
     admin: '&cСоруководитель'
     member: '&eПоселенец'
     visitor: '&5Гость'
-    all: '&dAll'
+    all: '&dВсе'
   top:
     title: '&7---------<- &6&lТоп 10 поселений &7->---------'
     last-updated: '&7Последнее обновление:&e {time}'
     footer: '&7---------<- &6&lТоп 10 поселений &7->---------'
     land-size: '&c#{pos} &a{land} &7Size:&e {size}'
-    land-money: '&c#{pos} &a{land} &7Balance:&e ${balance}'
+    land-money: '&c#{pos} &a{land} &7Balance:&e {balance}'
   integration:
     dynmap:
       chunk:
@@ -41,10 +41,10 @@ general:
           <span style="font-weight:bold;">{admins}</span><br/>Members: <span style="font-weight:bold;">{members}</span><br/></div>'
   sign:
     noLand:
-      line-1: ' '
+      line-1: ''
       line-2: '&cНет поселений'
       line-3: '&cдля просмотра.'
-      line-4: ' '
+      line-4: ''
     topLand-size:
       line-1: '&c#&l{place}'
       line-2: '&8<&a {land} &8>'
@@ -54,12 +54,12 @@ general:
       line-1: '&c#&l{place}'
       line-2: '&8<&a {land} &8>'
       line-3: '&7by {owner}'
-      line-4: '&7Balance:&2 ${balance}'
+      line-4: '&7Balance:&2 {balance}'
   autoAction:
     claim: '&aПрисоединить чанк'
   prefix: '&8[&aLands&8] '
   title:
-    land: '&7Owned by&b %owner%&7.'
+    land: ''
     safezone: '&7You''re safe now.'
   map:
     yours: '&a▉ '
@@ -69,12 +69,13 @@ general:
     wilderness: '&2▉ '
     top: '&7-<------------<- &6Lands Map &7->------------>-'
     info:
-      wilderness: ' &2▉ &7= Wilderness'
-      yours: ' &a▉ &7= Yours'
-      trusted: ' &5▉ &7= Friendly'
-      others: ' &c▉ &7= Others'
-      position: ' &e▉ &7= Position'
+      wilderness: '&2▉ &7= Wilderness'
+      yours: '&a▉ &7= Yours'
+      trusted: '&5▉ &7= Friendly'
+      others: '&c▉ &7= Others'
+      position: '&e▉ &7= Position'
     bottom: '&7-<------------<- &6Lands Map &7->------------>-'
+  disabled: '&cDisabled'
 help:
   general:
     header: '&7------------<- &5Lands Help &7Страница&6 {page} &8/&e {pages} &7->------------'
@@ -124,59 +125,64 @@ help:
     deposit: '&8/&aLands deposit &8<&aamount&8> - &7Deposit money to land bank'
     withdraw: '&8/&aLands withdraw &8<&aamount&8> - &7Withdraw money from land bank'
 message:
-  no-permission: '&8[&aLands&8] &fЭто действие игрокам недоступно.'
-  world-invalid: '&8[&aLands&8] &cУказанного мира не существует.'
-  feature-disabled: '&8[&aLands&8] &cЭта функция была отключена администратором. &7Администратору
+  no-permission: '&fЭто действие игрокам недоступно.'
+  world-invalid: '&cУказанного мира не существует.'
+  feature-disabled: '&cЭта функция была отключена администратором. &7Администратору
     нужно включить &b {setting} в конфигурации, для возможности использование этой
     функции игроками.'
   noaccess:
-    chunk: '&8[&aLands&8] &cУ вас нет доступа к этому чанку.Он принадлежит &8(&7поселению:&e
-      {land} &7X:&e {x} &7Z:&e {z}&8)&c.'
-    land: '&8[&aLands&8] &cВы не можете делать это на этом участке.Он принадлежит
-      &8(&7поселению:&e {land}&8)&7.'
-    role-weight: '&8[&aLands&8] &cТы не можешь редактировать роль и права этого игрока.
-      &7Он имеет роль, которая по рангу выше, чем ваша. Свяжитесь с управляющим участка
-      для помощи.'
-    place: '&8[&aLands&8] &cВы не можете ставить тут блоки.'
-    break: '&8[&aLands&8] &cВы не можете ломать тут блоки.'
-    interact: '&8[&aLands&8] &cВы не имеете достаточных прав для взаимодействии с
-      этим чанком.'
-    ignite: '&8[&aLands&8] &cВы не имеете достаточных прав для поджигания блоков в
-      этом чанке.'
-    edit: '&8[&aLands&8] &cВы не имеете достаточных прав для редактирования этого
-      участка.'
+    chunk: '&cУ вас нет доступа к этому чанку.Он принадлежит &8(&7поселению:&e {land}
+      &7X:&e {x} &7Z:&e {z}&8)&c.'
+    land: '&cВы не можете делать это на этом участке.Он принадлежит &8(&7поселению:&e
+      {land}&8)&7.'
+    role-weight: '&cТы не можешь редактировать роль и права этого игрока. &7Он имеет
+      роль, которая по рангу выше, чем ваша. Свяжитесь с управляющим участка для помощи.'
+    place: '&cВы не можете ставить тут блоки.'
+    break: '&cВы не можете ломать тут блоки.'
+    interact:
+      general: '&cYou''re not allowed to interact here. &7This chunk belongs to land&b
+        {land}&7.'
+      door: '&cYou''re not allowed to open doors here. &7This chunk belongs to land&b
+        {land}&7.'
+      mechanism: '&cYou''re not allowed to use mechanisms here. &7This chunk belongs
+        to land&b {land}&7.'
+      container: '&cYou''re not allowed to open containers here. &7This chunk belongs
+        to land&b {land}&7.'
+    ignite: '&cВы не имеете достаточных прав для поджигания блоков в этом чанке.'
+    edit: '&cВы не имеете достаточных прав для редактирования этого участка.'
     player:
-      chunk-trust: '&8[&aLands&8] &cВы не можете добовлять игроков в данный чанк:
-        &8(&7X:&e {x} &7Z:&e {z}&8)&c.'
-      chunk-setRole: '&8[&aLands&8] &cВы не имеете достаточных прав для назначение
-        ролей для игроков в этом чанке: &8(&7X:&e {x} &7Z:&e {z}&8)&c.'
-      chunk-untrust: '&8[&aLands&8] &cВы не имеете достаточных прав для удаления игроков
-        с этого чанка: &8(&7X:&e {x} &7Z:&e {z}&8)&c.'
-      land-trust: '&8[&aLands&8] &cУ вас недостаточно прав для добаления игроков в
-        это &8(&7поселение: &e{land}&8)&c.'
-      land-untrust: '&8[&aLands&8] &cДосада, но у вы не можете удалить игрока с этого
-        &8(&7поселения: &e{land}&8)&c.'
-      land-setrole: '&8[&aLands&8] &cВы не имеете достаточных прав для назначение
-        ролей для игроков в этом участке: land &8(&e{&7Land: land}&8)&c.'
+      chunk-trust: '&cВы не можете добовлять игроков в данный чанк: &8(&7X:&e {x}
+        &7Z:&e {z}&8)&c.'
+      chunk-setRole: '&cВы не имеете достаточных прав для назначение ролей для игроков
+        в этом чанке: &8(&7X:&e {x} &7Z:&e {z}&8)&c.'
+      chunk-untrust: '&cВы не имеете достаточных прав для удаления игроков с этого
+        чанка: &8(&7X:&e {x} &7Z:&e {z}&8)&c.'
+      land-trust: '&cУ вас недостаточно прав для добаления игроков в это &8(&7поселение:
+        &e{land}&8)&c.'
+      land-untrust: '&cДосада, но у вы не можете удалить игрока с этого &8(&7поселения:
+        &e{land}&8)&c.'
+      land-setrole: '&cВы не имеете достаточных прав для назначение ролей для игроков
+        в этом участке: land &8(&e{&7Land: land}&8)&c.'
     combat:
-      animal: '&8[&aLands&8] &cВы не можете атаковать животных тут.'
-      pvp-attacker: '&8[&aLands&8] &cВы не можете атаковать игроков тут.'
-      pvp-target: '&8[&aLands&8] &cВаш противник не может атаковать других тут.'
+      animal: '&cВы не можете атаковать животных тут.'
+      pvp-target: '&cВаш противник не может атаковать других тут.'
+      pvp: '&cYou''re not allowed to attack players here. &7This chunk belongs to
+        land&b {land}&7.'
     plugin: '&cYou can''t claim land here. &7This chunk belongs to a other management
       plugin. Name:&b {plugin}'
   event:
     fly:
       warning: '&7You''re not allowed to fly here. Flight mode will be disabled in
         a few seconds. Bypass permission:&b {permission}'
-      count: '#t#&cFly mode disabling in;;&e{sec} &csecond(s)'
       disabled: '&cYour fly mode was disabled. &7You''re not allowed to fly here.'
       disallowed: '&cYou''re not allowed to fly in this land. &7Contact the land owner.
         Bypass permission: &blands.bypass.fly'
       disallowed-wilderness: '&cYou''re not allowed to fly in wilderness. &7Bypass
         permission: &blands.bypass.wilderness.fly'
+      counter: '#t#&cFly-Mode disabling{newline}&cin &e{sec} &cSecond(s)'
     lands:
-      enter: '#t#&a&l{land}{newline}{title}'
-      leave: '#t#&2&lWilderness{newline}&7Feel the wild.'
+      enter: ''
+      leave: ''
     safezones:
       enter: '#t#&e&l{land}{newline}{title}'
       leave: '#t#&2&lWilderness{newline}&7Feel the wild.'
@@ -187,119 +193,108 @@ message:
         Please don''t move.'
       cancelled: '&cYour teleportation has been cancelled. &7Please don''t move while
         you''re waiting&b {sec} &7seconds for teleportation.'
-      chunk: '#t#&9&lTeleported{newline}&7X: {x} Z: {z} Cost:&a ${cost}'
-  disallowWilderness:
-    break: '&8[&aLands&8] &cВы не можете ломать блоки в дикой местности. &7Вы можете
-      это делать только в заприваченном участке.'
-    place: '&8[&aLands&8] &cВы не можете ставить блоки в дикой местности. &7Вы можете
-      это делать только в заприваченном участке.'
-    interact: '&8[&aLands&8] &cВы не можете взаимодействовать с дикой местностью.
-      &7Вы можете это делать только в заприваченном участке.'
+      chunk: '#t#&9&lTeleported{newline}&7X: {x} Z: {z} Cost:&a {cost} алмазов'
   claimblock:
-    dropped: '&8[&aLands&8] &cНекоторые "блоки привата" остались на земле. &7У вас
-      не оставалось места в инвенторе.'
-    success: '&8[&aLands&8] &7 У вас &b {blocks} &7 "блок(-ов/-а) привата". &7Поставте
-      их в периметре чанка который вы хотите добавить к своему участку.'
+    dropped: '&cНекоторые "блоки привата" остались на земле. &7У вас не оставалось
+      места в инвенторе.'
+    success: '&7 У вас &b {blocks} &7 "блок(-ов/-а) привата". &7Поставте их в периметре
+      чанка который вы хотите добавить к своему участку.'
     not-owner: '&cYou''re not allowed use this claimblock. &7It''s not yours. This
       claimblock belongs to&b {owner}&7.'
   blacklist:
-    untrusted: '&8[&aLands&8] &cУ вас недостаточно прав для использования это команды
-      здесь. &7Вы не имеете доступ к этому участку.'
-    general: '&8[&aLands&8] &cВам нельзя использовать эту команду в чужих участках.'
+    untrusted: '&cУ вас недостаточно прав для использования это команды здесь. &7Вы
+      не имеете доступ к этому участку.'
+    general: '&cВам нельзя использовать эту команду в чужих участках.'
   autoAction:
-    stopped: '&8[&aLands&8] &cОстановленна автоматическая структура заданий. &7Достигнута
-      макс. кол-во оборотов. Name:&b {name}'
-    started: '&8[&aLands&8] &7Успешно начата автоматическая структура заданий. Name:&b
-      {name}'
-    removed: '&8[&aLands&8] &7Успешно закончена автоматическая структура заданий.
-      &7Name:&b {name}'
+    stopped: '&cОстановленна автоматическая структура заданий. &7Достигнута макс.
+      кол-во оборотов. Name:&b {name}'
+    started: '&7Успешно начата автоматическая структура заданий. Name:&b {name}'
+    removed: '&7Успешно закончена автоматическая структура заданий. &7Name:&b {name}'
   gui:
     chats:
-      title: '#t#&e&lEnter new{newline}&e&lTitle in Chat'
-      title-done: '#t#&a&lSuccessful set{newline}&7&lLand Title.'
-      name: '#t#&e&lEnter new{newline}&e&lName in Chat'
-      name-done: '#t#&2&lSuccessful set{newline}&7&lLand Name'
-      cancel: '&7Type &bcancel &7in chat to cancel this action.'
-      cancelled: '#t#&c&lCancelled{newline}&c&lChat Action'
+      title: '#t#&e&lВведи новый{newline}&e&lтитл в чат.'
+      title-done: '#t#&a&lУспешно установили{newline}&7&lновый титл.'
+      name: '#t#&e&lВведи новое{newline}&e&lимя в чат.'
+      name-done: '#t#&2&lУспешно установили{newline}&7&lновое имя.'
+      cancel: '&7Пиши новый текст прямо в чат! Напиши &bcancel &7в чат для отмены
+        этого действия.'
+      cancelled: '#t#&c&lОтменили{newline}&c&lдействие в чате.'
 command:
   general:
-    land-not-exist: '&8[&aLands&8] &cУчасток &e {land} &cне существует. &7В мире не
-      существует участок с таким именем: e&b {land}'
-    land-not-member: '&8[&aLands&8] &cВы не являетесь участником &e {land}&c. &7Используйте
-      &8/&aLands menu &7чтобы увидеть к каким участкам вы всё-таки относитесь.'
-    land-no-action: '&8[&aLands&8] &cУ вас нет участков, в которых вам разрешается
-      делать это. &7Используйте &8/&aLand create &7 чтобы создать свой участок.'
-    name-exists: '&8[&aLands&8] &cЭто имя уже используется другим участком. &7Вам
-      придется придумать другое.'
-    money-cost: '&8[&aLands&8] &cУпс, кажется у вас недостаточно денег. &7Вам нужно
-      иметь &b ${cost}&7.'
-    lands-max: '&8[&aLands&8] &cВам нельзя вступить в ещё одно поселение. &7Вы достигли
-      своего лимита в&b {max} &7lands.'
-    name-numbers: '&8[&aLands&8] &cНельзя использовать цифры в названии. &7Будьте
-      добры, используйте только латинские буквы.'
-    name-accent: '&8[&aLands&8] &cУвы, но использовать некоторые символы нельзя. &7Будьте
-      добры, используйте только латинские буквы.'
-    name-length: '&8[&aLands&8] &cК сожалению в названии слишком много букв. &7Максимальная
-      длина &b {max} &7символов.'
-    action-cooldown: '&8[&aLands&8] &cВы не можете сделать это сейчас. &7Подождите
-      &b {time} &7минуток.'
-    land-none: '&8[&aLands&8] &cКажется вы не являетесь частью поселения. &7Используйте
-      &8/&aLands create &7 чтобы создать своё.'
-    land-no-own: '&8[&aLands&8] &cУвы, но вы не владеете поселением. &7Используйте
-      &8/&aLands create &7чтобы создать своё.'
-    world-invalid: '&8[&aLands&8] &cЗазря стараетесь, в этом мире это сделать нельзя.
-      &7Попробуйте повторить в другом мире.'
-    wilderness: '&8[&aLands&8] &cЭтот чанк не заселён. &7Вам следует проследовать
-      в заприваченный чанк. &7Команда &8/&aLands menu &7поможет увидеть список ваших
-      поселений.'
-    player-not-exist: '&8[&aLands&8] &cВот незадача, пользователя с именем &e {player}&c
-      нет. &7Пожалуйста, перепроверьте введёные данные.'
-    role-weight: '&8[&aLands&8] &cВы не можете редактировать эту роль. &7 В иерархии
-      она находится выше или на вашем же уровне. &8(&7Ваша роль:&e {role}&8) &7в &8(&7поселении:&e
+    land-not-exist: '&cУчасток &e {land} &cне существует. &7В мире не существует участок
+      с таким именем: e&b {land}'
+    land-not-member: '&cВы не являетесь участником &e {land}&c. &7Используйте &8/&aLands
+      menu &7чтобы увидеть к каким участкам вы всё-таки относитесь.'
+    land-no-action: '&cУ вас нет участков, в которых вам разрешается делать это. &7Используйте
+      &8/&aLand create &7 чтобы создать свой участок.'
+    name-exists: '&cЭто имя уже используется другим участком. &7Вам придется придумать
+      другое.'
+    money-cost: '&cУпс, кажется у вас недостаточно денег. &7Вам нужно иметь &b {cost}
+      алмазов&7.'
+    lands-max: '&cВам нельзя вступить в ещё одно поселение. &7Вы достигли своего лимита
+      в&b {max} &7lands.'
+    name-numbers: '&cНельзя использовать цифры в названии. &7Будьте добры, используйте
+      только латинские буквы.'
+    name-accent: '&cУвы, но использовать некоторые символы нельзя. &7Будьте добры,
+      используйте только латинские буквы.'
+    name-length: '&cК сожалению в названии слишком много букв. &7Максимальная длина
+      &b {max} &7символов.'
+    action-cooldown: '&cВы не можете сделать это сейчас. &7Подождите &b {time} &7минуток.'
+    land-none: '&cКажется вы не являетесь частью поселения. &7Используйте &8/&aLands
+      create &7 чтобы создать своё.'
+    land-no-own: '&cУвы, но вы не владеете поселением. &7Используйте &8/&aLands create
+      &7чтобы создать своё.'
+    world-invalid: '&cЗазря стараетесь, в этом мире это сделать нельзя. &7Попробуйте
+      повторить в другом мире.'
+    wilderness: '&cЭтот чанк не заселён. &7Вам следует проследовать в присоединенный
+      к поселению чанк. &7Команда &8/&aLands menu &7поможет увидеть список ваших поселений.'
+    player-not-exist: '&cВот незадача, пользователя с именем &e {player}&c нет. &7Пожалуйста,
+      перепроверьте введёные данные.'
+    role-weight: '&cВы не можете редактировать эту роль. &7 В иерархии она находится
+      выше или на вашем же уровне. &8(&7Ваша роль:&e {role}&8) &7в &8(&7поселении:&e
       {land}&8)&7.'
-    player-self: '&8[&aLands&8] &cХех, забавно, но вы не можете делать это с собой.
-      &7Ты забавный. :)'
-    cooldown: '&8[&aLands&8] &c Увы , но сейчас вы не можете сделать это снова. &7Потерпите
-      ещё &b {time} &7минуток.'
-    chunk-is-claimed: '&8[&aLands&8] &cОй, вы не можете заприватить этот чанк. &7Он
-      уже принадлежит поселению &b {land}&7.'
-    money-cost-bank: '&cYou don''t have enough to pay the cost. &7You need&b ${cost}&7.
-      If banks are enabled, you need to deposit money into your land bank: &8/&aLands
-      deposit'
+    player-self: '&cХех, забавно, но вы не можете делать это с собой. &7Ты забавный.
+      :)'
+    cooldown: '&c Увы , но сейчас вы не можете сделать это снова. &7Потерпите ещё
+      &b {time} &7минуток.'
+    chunk-is-claimed: '&7Ой, вы не можете присоединить этот чанк. &7Он уже принадлежит
+      поселению &b{land}&7.'
+    money-cost-bank: '&7Ой, недостаточно алмазов! &7Необходимо &b{cost} алмазов&7.
+      Беда, бежим копать!'
     player-not-online: '&cThere''s currently no player with the name&e {player} &conline.
       &7Please check your input.'
     banks-disabled: '&7Banks were disabled by a administrator. &7Contact one for help.
       Setting: taxes.banks'
-    land-not-trusted: '&cНельзя это сделать. &7Игрок&b {player} &7не является поселенцем &8(&7Land:&e {land}&8)&7. Пригласите его, используя &8/&aLands
-      trust&7.'
-    land-max-members: '&cНе удается пригласить в поселение&e {land}&c. &7оно достигло максимума поселенцев&b {members}&7. ЭТО ОШИБКА! СООБЩИТЕ НАМ!'
+    land-not-trusted: '&cНельзя это сделать. &7Игрок&b {player} &7не является поселенцем
+      &8(&7Land:&e {land}&8)&7. Пригласите его, используя &8/&aLands trust&7.'
+    land-max-members: '&cНе удается пригласить в поселение&e {land}&c. &7оно достигло
+      максимума поселенцев&b {members}&7. ЭТО ОШИБКА! СООБЩИТЕ НАМ!'
   help:
-    help: '&8[&aLands&8] &7Use &8/&aLand help &7for help.'
-    cmd-not-exist: '&8[&aLands&8] &cЭтой подкоманды не существует. &7Команда&b {command}
-      &7не найдена.'
+    help: '&7Use &8/&aLand help &7for help.'
+    cmd-not-exist: '&cЭтой подкоманды не существует. &7Команда&b {command} &7не найдена.'
     page-not-exist: '&8[&eProtect&8] &cСТраница&e {page} &cне существует. &7Typo?'
   create:
-    max-own: '&8[&aLands&8] &cУпс, но вы не можете создать ещё одно поселение. &7Вы
-      достигли максимума в &b {max} &7поселений.'
-    success: '&8[&aLands&8] &7Успешно создали ваше поселение &b {land} &7за&b {cost}&7.Теперь
-      вы можете заприватить чанки командой &8/&aLands claim&7.'
-    broadcast: '&8[&aLands&8] &7Поселение&b {land} &7создано&b {player}&7.'
-    land-other: '&8[&aLands&8] &cНезадача! Вам нельзя иметь в имении своё поселение
-      и быть частью другого. &7Для начала покиньте поселение&b {land} &7. Администратор
-      может отключить эту функцию в конфигах.'
+    max-own: '&cУпс, но вы не можете создать ещё одно поселение. &7Вы достигли максимума
+      в &b {max} &7поселений.'
+    success: '&7Успешно создали ваше поселение &b{land}&7. Теперь вы можете присоединить
+      чанки командой &8/&aLands claim&7.'
+    broadcast: '&7Поселение&b {land} &7создано&b {player}&7.'
+    land-other: '&cНезадача! Вам нельзя иметь в имении своё поселение и быть частью
+      другого. &7Для начала покиньте поселение&b {land} &7. Администратор может отключить
+      эту функцию в конфигах.'
   rename:
-    success: '&8[&aLands&8] &7Успешно переименовали ваше поселение. Раньше оно называлось
-      &b {name} &7, а теперь &8(&7:&e {land}&8)&7. Вы потратили&b ${cost}&7.'
+    success: '&7Успешно переименовали ваше поселение. Раньше оно называлось &c{land}&7,
+      а теперь &b{name}&7. Действительно лучше!'
   edit:
-    success: '&8[&aLands&8] &7Вы используете режим изменения для &8(&7поселения:&e
-      {land}&8)&7. Следующие действия, как &8/&aLands claim &7или &8/&aLands trust&7,
-      будут изменять это поселение.'
+    success: '&7Вы используете режим изменения для &8(&7поселения:&e {land}&8)&7.
+      Следующие действия, как &8/&aLands claim &7или &8/&aLands trust&7, будут изменять
+      это поселение.'
   selection:
-    disabled-config: '&8[&aLands&8] &cАдминистратор выключил эту возможность. &7Вам
-      следует включить параметр &bland.selection.enabled&7.'
+    disabled-config: '&cАдминистратор выключил эту возможность. &7Вам следует включить
+      параметр &bland.selection.enabled&7.'
     disabled: '#t#!!1!!1!!1!!&7Режим выбора:;;&cДеактивирован'
-    max: '&8[&aLands&8] &cВыбранная вами территория содержит слишком много чанков.
-      &7Size:&b {current} &7Вам разрешено иметь:&b {max}'
+    max: '&cВыбранная вами территория содержит слишком много чанков. &7Size:&b {current}
+      &7Вам разрешено иметь:&b {max}'
     pos:
       cancelled: '&cYou can''t set a selection here. &7This chunk belongs to a other
         management plugin. Name:&b {plugin}'
@@ -312,19 +307,19 @@ command:
     world: '&cBoth positions must be in the same world. &7Please set position one
       and position two in the same world.'
   claim:
-    auto-create: '&8[&aLands&8] &7Пытаемся автоматически создать для вас поселение,
-      потому как у вас в этом мире нет ни одного. Прописав команду &8/&aLands rename&7
-      вы можете изменить его имя.'
-    auto-create-fail: '&8[&aLands&8] &cВот же несчастье! Не удалось создать поселение
-      для вас. &7Пожалуйста, прочтите вышенасписанное и попросите у кого-нибудь помощи.'
-    near-other: '&8[&aLands&8] &cСлишком близко к поселению &e {land}&c. &7Вам следует
-      удалиться на некоторое расстояние. минимальная дистанция основания новго поселения:&b
+    auto-create: '&7Пытаемся автоматически создать для вас поселение, потому как у
+      вас в этом мире нет ни одного. Прописав команду &8/&aLands rename&7 вы можете
+      изменить его имя.'
+    auto-create-fail: '&cВот же несчастье! Не удалось создать поселение для вас. &7Пожалуйста,
+      прочтите вышенасписанное и попросите у кого-нибудь помощи.'
+    near-other: '&cСлишком близко к поселению &e {land}&c. &7Вам следует удалиться
+      на некоторое расстояние. минимальная дистанция основания новго поселения:&b
       {distance}&7.'
-    far-land: '&8[&aLands&8] &cВы не можете заприватить этот чанк. &7Он должен помещаться
-      в ваше  &8(&7поселение:&e {land}&8)&7.'
-    success: '&8[&aLands&8] &7Успех! Вы присоединили чанк к  &8(&7поселению:&e {land}
-      &7X:&e {x} &7Z:&e {z}&8) &7,заплатив&b {cost}&7. Следующее присоединение обойдётся
-      в&b {next}&7.'
+    far-land: '&cВы не можете присоединить этот чанк. &7Он должен помещаться в ваше  &8(&7поселение:&e
+      {land}&8)&7.'
+    success: '&7Ура! Вы присоединили чанк &8(&7к поселению:&e {land} &7X:&e {x} &7Z:&e
+      {z}&8)&7, заплатив&b {cost}&7 алмазов. Следующее присоединение обойдётся в&b
+      {next}&7 алмазов.'
     max-chunk: '&cYou can''t claim&e {chunks} &cmore chunks for this land. &7The maximum
       for land&b {land} &7is&b {max} &7chunks. Permission: &2lands.chunks.NUMBER &8|
       &7If chunks-addition enabled: &2lands.chunks.support.NUMBER &7(for land members,
@@ -332,47 +327,44 @@ command:
     world: '&cYou can''t claim for this land in this world. &7Land&b {land} &7can
       only have claims in world&b {world}&7.'
     selection: '&7You successfully claimed&b {chunks} &7chunks for this land &8(&7Land:&e
-      {land}&8)&7. You paid&b ${cost}&7. Please note that only chunks which aren''t
-      already claimed got claimed.'
+      {land}&8)&7. You paid&b {cost} алмазов&7. Please note that only chunks which
+      aren''t already claimed got claimed.'
   leave:
-    land-owner: '&8[&aLands&8] &cВы не можете покинуть это поселение. &7Как владельцу
-      вам следует удалить его. Вам поможет команда &8/&aLands delete&7.'
-    land-success: '&8[&aLands&8] &7Вы успешно покинули поселение&b {land}&7. Доступ
-      к поселению и его чанкам более для вас потерян.'
-    chunk-success: '&8[&aLands&8] &7Успешно удалены права на этот чанк. &7Теперь у
-      вас нет доступа к этому чанку.'
+    land-owner: '&cВы не можете покинуть это поселение. &7Как владельцу вам следует
+      удалить его. Вам поможет команда &8/&aLands delete&7.'
+    land-success: '&7Вы успешно покинули поселение&b {land}&7. Доступ к поселению
+      и его чанкам более для вас потерян.'
+    chunk-success: '&7Успешно удалены права на этот чанк. &7Теперь у вас нет доступа
+      к этому чанку.'
     selection: '&7You successfully left&b {chunks} &7from your selection. The chunks,
       in which you were the owner, got deleted.'
   unclaim:
-    success: '&8[&aLands&8] &7Успешно распривачен чанк &8(&7X:&e {x} &7Z:&e {z}&8)&7.
-      Возвращённая валюта составляет&b ${back} &7back.'
+    success: '&7Успешно удален чанк &8(&7X:&e {x} &7Z:&e {z}&8)&7.'
     selection: '&7You successfully unclaimed this selection. Please note that only
       chunks got unclaimed in which you were the owner.'
   delete:
-    confirm: '&8[&aLands&8] &cВам нужно подтвердить это действие. &7Используйте команду
-      &8/&aLand delete {land} confirm&7.'
-    success: '&8[&aLands&8] &7Поселение с названием  &8(&7&e {land}&8)&7 теперь история.'
-    broadcast: '&8[&aLands&8] &7Поселение&b {land} &7было удалено его владельцем&b
-      {player}&7.'
+    confirm: '&cВам нужно подтвердить это действие. &7Используйте команду &8/&aLand
+      delete {land} confirm&7.'
+    success: '&7Поселение с названием  &8(&7&e {land}&8)&7 теперь история.'
+    broadcast: '&7Поселение&b {land} &7было удалено его владельцем&b {player}&7.'
   trust:
-    own-land: '&8[&aLands&8] &cЭтому игроку запрещено иметь во владении поселение
-      и быть частью чьего-либо поселения. &7Сначала ему нужно покинуть то, в котором
-      он уже состоит.'
-    land-already: '&8[&aLands&8] &cЭтот пользователь уже имеет права доступа к &8(&7поселению:&e
+    own-land: '&cЭтому игроку запрещено иметь во владении поселение и быть частью
+      чьего-либо поселения. &7Сначала ему нужно покинуть то, в котором он уже состоит.'
+    land-already: '&cЭтот пользователь уже имеет права доступа к &8(&7поселению:&e
       {land}&8)&7.'
-    chunk-already: '&8[&aLands&8] &cЭтот игрок уже имеет права доступа к чанку &8(&7X:&e
-      {x} &7Z:&e {z}&8)&7.'
-    invited: '&8[&aLands&8] &cИгрок уже приглашён. &7Пожалуйста, подождите пока он
-      примет приглашение в &8(&7поселение:&e {land}&8)&7.'
-    land-target: '&8[&aLands&8] &7Житель&b {player} &7пригласил тебя в своё поселение
-      &b {land}&7. Используй команду &8/&aLand accept {land} &7, чтобы принять приглашение.'
-    chunk-target: '&8[&aLands&8] &7Игрок&b {player} &7предложил получить доступ к
-      чанку &8(&7X:&e {x} &7Z:&e {z}) &7Используй команду &8/&aLands accept {land}
-      &7, чтобы принять приглашение.'
-    chunk-success: '&8[&aLands&8] &7Успешно создано приглашение для игрока &b {player}
-      &7для чанка &8(&7X:&e {x} &7Z:&e {z}&8)&7.'
-    land-success: '&8[&aLands&8] &7Успешно создано приглашение для игрока &b {player}
-      &7для всего &8(&7поселения:&e {land}&8)&7. Ему нужно только принять приглашение.'
+    chunk-already: '&cЭтот игрок уже имеет права доступа к чанку &8(&7X:&e {x} &7Z:&e
+      {z}&8)&7.'
+    invited: '&cИгрок уже приглашён. &7Пожалуйста, подождите пока он примет приглашение
+      в &8(&7поселение:&e {land}&8)&7.'
+    land-target: '&7Житель&b {player} &7пригласил тебя в своё поселение &b {land}&7.
+      Используй команду &8/&aLand accept {land} &7, чтобы принять приглашение.'
+    chunk-target: '&7Игрок&b {player} &7предложил получить доступ к чанку &8(&7X:&e
+      {x} &7Z:&e {z}) &7Используй команду &8/&aLands accept {land} &7, чтобы принять
+      приглашение.'
+    chunk-success: '&7Успешно создано приглашение для игрока &b {player} &7для чанка
+      &8(&7X:&e {x} &7Z:&e {z}&8)&7.'
+    land-success: '&7Успешно создано приглашение для игрока &b {player} &7для всего
+      &8(&7поселения:&e {land}&8)&7. Ему нужно только принять приглашение.'
     lands-max: '&7Player&b {player} &7has already reached the maximum amount of lands.
       An administrator can give them permission to be part of more lands.'
     land-fail: '&cCouldn''t trust player&e {player} &cin land&e {land}&c. &7The owner
@@ -387,106 +379,105 @@ command:
       in which you have permission to trust players. This action only does changes
       to your selected land (/Lands edit): {land}'
   untrust:
-    land-already: '&8[&aLands&8] &cПрава доступа к &8(&7поселению :&e {land}&8)&7
-      уже отобраны у игрока.'
-    chunk-already: '&8[&aLands&8] &cПрава доступа к чанку &8(&7X:&e {x} &7Z:&e {z}&8)&7
-      уже отобраны у игрока.'
-    invite-removed: '&8[&aLands&8] &7Приглашение успешно испепелено. &8(&7Оно было
-      в поселение&e {land}&8)&7.'
-    chunk-success: '&8[&aLands&8] &7Успешно отобраны права доступа у игрока &b {player}
-      &7к этому чанку &8(&7X:&e {x} &7Z:&e {z}&8)&7.'
-    land-success: '&8[&aLands&8] &7Успешно отобраны права доступа у игрока&b {player}
-      &7к этому &8(&7поселению:&e {land}&8)&7.'
+    land-already: '&cПрава доступа к &8(&7поселению :&e {land}&8)&7 уже отобраны у
+      игрока.'
+    chunk-already: '&cПрава доступа к чанку &8(&7X:&e {x} &7Z:&e {z}&8)&7 уже отобраны
+      у игрока.'
+    invite-removed: '&7Приглашение успешно испепелено. &8(&7Оно было в поселение&e
+      {land}&8)&7.'
+    chunk-success: '&7Успешно отобраны права доступа у игрока &b {player} &7к этому
+      чанку &8(&7X:&e {x} &7Z:&e {z}&8)&7.'
+    land-success: '&7Успешно отобраны права доступа у игрока&b {player} &7к этому
+      &8(&7поселению:&e {land}&8)&7.'
     selection: '&7You successfully untrusted player&b {player} &7from this selection
       &8(&7Land:&e {land}&8)&7. Please note that they only got untrusted at chunks
       in which you have the permission to untrust players. This action only does changes
       to your selected land (/Lands edit): {land}'
   setRole:
-    role-not-exist: '&8[&aLands&8] &cЭта роль&e {role} &cНе существует. &7Typo? &8(&aДоступные
-      роли: &cСоруководитель&7, &eПоселенец&8)'
-    land-not-trusted: '&8[&aLands&8] &cИгрок&e {player} &cне входит в доверенный список
-      &8(&7поселения:&e {land}&8)&7. Пожалуйста, проверьте введённую информацию.'
-    chunk-success: '&8[&aLands&8] &7Успешно выдана роль &b {role} &7для игрока&b {player}
-      &7в этом чанке &8(&7X:&e {x} &7Z:&e {z}&8)&7.'
-    land-success: '&8[&aLands&8] &7Успешно установлена роль&b {role} &7для игрока&b
-      {player} &7во всём &8(&7поселении:&e {land}&8)&7.'
+    role-not-exist: '&cЭта роль&e {role} &cНе существует. &7Typo? &8(&aДоступные роли:
+      &cСоруководитель&7, &eПоселенец&8)'
+    land-not-trusted: '&cИгрок&e {player} &cне входит в доверенный список &8(&7поселения:&e
+      {land}&8)&7. Пожалуйста, проверьте введённую информацию.'
+    chunk-success: '&7Успешно выдана роль &b {role} &7для игрока&b {player} &7в этом
+      чанке &8(&7X:&e {x} &7Z:&e {z}&8)&7.'
+    land-success: '&7Успешно установлена роль&b {role} &7для игрока&b {player} &7во
+      всём &8(&7поселении:&e {land}&8)&7.'
     selection: '&7You successfully set the role {role} &7for player&b {player} &7in
       this selection. Please note that the role only applied to chunks where they''re
       trusted and where you have the permission to set the role &8(&7Land:&e {land}&8)&7.
       This action only does changes to your selected land (/Lands edit): {land}'
   accept:
-    not-exist: '&8[&aLands&8] &cУ вас отсутствует приглашение в поселение&e {land}
-      &cили у него кончился "срок годности". &7Будьте добры, проверьте введённое.'
-    own-land: '&8[&aLands&8] &cУпс! У вас недостаточно прав чтобы основать своё поселение
-      или быть частью чьего-либо. &7Прежде следует покинуть прежнее поселение.'
-    max-reached: '&8[&aLands&8] &cДосада, но вы не можете стать жителем ещё одного
-      поселения. &7Вы можете иметь/быть частью&b {max} &7поселений.'
-    land-tax-confirm: '&8[&aLands&8] &cРуководитель установил налог на вход в поселение
-      в размере&e {tax} &7. &7Пожалуйста подтвердите действие командой &8/&aLands
-      accept {land} confirm&7.'
-    chunk-tax-confirm: '&8[&aLands&8] &7Придётся заплатить &b{tax} &7 валюты, чтобы
-      посетить этот чанк. &7Пожалуйста подтвердите действие командой &8/&aLand accept
-      {land} confirm&7.'
-    land-success: '&8[&aLands&8] &7Отлично! Приняв приглашение вы стали частью &b
-      {land}&7. Теперь у вас есть доступ ко всему поселению.'
-    chunk-success: '&8[&aLands&8] &7Успешно принято приглашение в чанк поселения&b
-      {land} &7, координаты чанка &8(&7X:&e {x} &7Z:&e {z}&8)&7.'
-    chunk-broadcast: '&8[&aLands&8] &b{land} &8| &7У нас пополнение! Нового жителя
-      зовут &b {player} &7, а координаты его чанка в нашем поселении &8(&7X:&e {x}
-      &7Z:&e {z}&8)&7.'
-    land-broadcast: '&8[&aLands&8] &b{land} &8| &7Ура! У нас новый житель, его зовут
-      &b {player} &7, поприветствуем же его!&7.'
-    notification: '&8[&aLands&8] &7У вас есть несколько писем-приглашений в количестве&b
-      {invites} &7. Используйте команду &8/&aLand invites &7чтобы увидеть список приглашений.'
+    not-exist: '&cУ вас отсутствует приглашение в поселение&e {land} &cили у него
+      кончился "срок годности". &7Будьте добры, проверьте введённое.'
+    own-land: '&cУпс! У вас недостаточно прав чтобы основать своё поселение или быть
+      частью чьего-либо. &7Прежде следует покинуть прежнее поселение.'
+    max-reached: '&cДосада, но вы не можете стать жителем ещё одного поселения. &7Вы
+      можете иметь/быть частью&b {max} &7поселений.'
+    land-tax-confirm: '&cРуководитель установил налог на вход в поселение в размере&e
+      {tax} &7. &7Пожалуйста подтвердите действие командой &8/&aLands accept {land}
+      confirm&7.'
+    chunk-tax-confirm: '&7Придётся заплатить &b{tax} &7 валюты, чтобы посетить этот
+      чанк. &7Пожалуйста подтвердите действие командой &8/&aLand accept {land} confirm&7.'
+    land-success: '&7Отлично! Приняв приглашение вы стали частью &b {land}&7. Теперь
+      у вас есть доступ ко всему поселению.'
+    chunk-success: '&7Успешно принято приглашение в чанк поселения&b {land} &7, координаты
+      чанка &8(&7X:&e {x} &7Z:&e {z}&8)&7.'
+    chunk-broadcast: '&b{land} &8| &7У нас пополнение! Нового жителя зовут &b {player}
+      &7, а координаты его чанка в нашем поселении &8(&7X:&e {x} &7Z:&e {z}&8)&7.'
+    land-broadcast: '&b{land} &8| &7Ура! У нас новый житель, его зовут &b {player}
+      &7, поприветствуем же его!&7.'
+    notification: '&7У вас есть несколько писем-приглашений в количестве&b {invites}
+      &7. Используйте команду &8/&aLand invites &7чтобы увидеть список приглашений.'
     selection: You successfully joined&b {chunks} &7chunks of land&b {land}&7.
   deny:
-    not-exist: '&8[&aLands&8] &cУ вас отсутствует приглашение в поселение&e {land}
-      &cили оно "прокисло". &7Будьте добры, проверьте введённое.'
+    not-exist: '&cУ вас отсутствует приглашение в поселение&e {land} &cили оно "прокисло".
+      &7Будьте добры, проверьте введённое.'
     success: '&7You successfully denied invite from land&b {land}&7.'
   teleport:
-    world-not-exist: '&8[&aLands&8] &cЭтот мир ещё не существует.'
-    chunk-not-exist: '&8[&aLands&8] &cОшибочка, всевидящее око не нашло такого чанка.
-      &7Пожалуйста проверьте то, что ввели.'
-    success: '&8[&aLands&8] &7Успешная телепортация в чанк &8(&7X:&e {x} &7Z:&e {z}
-      &7Claimed: {claimed}&8)&7.'
+    world-not-exist: '&cЭтот мир ещё не существует.'
+    chunk-not-exist: '&cОшибочка, всевидящее око не нашло такого чанка. &7Пожалуйста
+      проверьте то, что ввели.'
+    success: '&7Успешная телепортация в чанк &8(&7X:&e {x} &7Z:&e {z} &7Claimed: {claimed}&8)&7.'
   setSpawn:
-    force-land: '&8[&aLands&8] &cВы можете установить спавн жителей поселения только
-      в своих владениях. &7Вернитесь для начала в своё поселение.'
-    successs: '#t#&a&lSpawn set{newline}&7&lCost:&b&l ${cost}'
+    force-land: '&cВы можете установить спавн жителей поселения только в своих владениях.
+      &7Вернитесь для начала в своё поселение.'
+    successs: '#t#&a&lSpawn set{newline}&7&lCost:&b&l {cost} алмазов'
   spawn:
-    not-exist: '&8[&aLands&8] &cНезадача, точки появления поселения не найдено.&e
-      {land}&c. &7Кто-то обязан установить её при помощи команды &8/&aLand setSpawn&7.'
-    not-allowed: '&8[&aLands&8] &cВам не разрешено телепортироваться на точку возрождения
-      этого поселения. &Руководитель должен сначала выдать вам права на это действие.
-      Напишите ему об этом. &8(&7 Поселение:&e {land}&8)&7.'
-    successs: '#t#&9&lTeleported{newline}&7&lLand&a {land} &7&lCost:&a ${cost}'
+    not-exist: '&cНезадача, точки появления поселения не найдено.&e {land}&c. &7Кто-то
+      обязан установить её при помощи команды &8/&aLand setSpawn&7.'
+    not-allowed: '&cВам не разрешено телепортироваться на точку возрождения этого
+      поселения. &Руководитель должен сначала выдать вам права на это действие. Напишите
+      ему об этом. &8(&7 Поселение:&e {land}&8)&7.'
+    successs: '#t#&9&lTeleported{newline}&7&lLand&a {land} &7&lCost:&a {cost} алмазов'
   wild:
-    loc-unsafe: '&8[&aLands&8] &cОко Саурона не нашло безопасного места для вас. &7Пожалуйста,
-      попробуйте позже. Если всё же ничего не выйдет, то обратитесь к администратору.'
-    success: '&8[&aLands&8] &7Бросив кубики, вы отправляетесь на координаты &8(&7X:&e
-      {x} &7Z:&e {z}&8)&7.'
+    loc-unsafe: '&cОко Саурона не нашло безопасного места для вас. &7Пожалуйста, попробуйте
+      позже. Если всё же ничего не выйдет, то обратитесь к администратору.'
+    success: '&7Бросив кубики, вы отправляетесь на координаты &8(&7X:&e {x} &7Z:&e
+      {z}&8)&7.'
     searchingg: '#t#&9&lSearching{newline}&7&lRandom Location'
   menu:
-    notExist: '&8[&aLands&8] &cОб этом игроке не найдено никакой информации.'
-    no-permission-other: '&8[&aLands&8] &cУвы, но вам не разрешено открывать графический
-      интерфейс других пользователей.'
+    notExist: '&cОб этом игроке не найдено никакой информации.'
+    no-permission-other: '&cУвы, но вам не разрешено открывать графический интерфейс
+      других пользователей.'
   chat:
-    activated: '&7Активировали чатик поселения. Теперь все, что вы напишите в чат будет видно только участникам поселения. Выключить чат поселения и перейти в обычный чат можно этой же командой.'
+    activated: '&7Активировали чатик поселения. Теперь все, что вы напишите в чат
+      будет видно только участникам поселения. Выключить чат поселения и перейти в
+      обычный чат можно этой же командой.'
     deactivated: '&7Выключили чатик поселения.'
     formats: '&8{land} &8| &f&l{player} &f&l➛&7&o {message}'
   deposit:
     number: '&7You need to specify an amount of money. Use &8/&aLand deposit &8<&aAmount&8>
       &7or &8/&aLand deposit &8<&aLand&8> <&aAmount&8>&7.'
-    success: '&7You successful put&b ${cost} &7in the land bank. &7New balance of
-      bank:&b ${bank} &8(&7Land:&e {land}&8)'
+    success: '&7You successful put&b {cost} алмазов &7in the land bank. &7New balance
+      of bank:&b {bank} &8(&7Land:&e {land}&8)'
   withdraw:
     number: '&7You need to specify an amount of money. Use &8/&aLand withdraw &8<&aAmount&8>
       &7or &8/&aLand withdraw &8<&aLand&8> <&aAmount&8>&7.'
-    balance: '&7There''s not enough money in the land bank. There''s only&b ${bank}
-      &7in the land bank. Expected:&b ${take} &8(&7Land:&e {land}&8)'
-    success: '&7You successfully took&b ${cost} &7out of the land bank. &7New balance
-      of bank:&b ${bank} &8(&7Land:&e {land}&8)'
-  balance: '&7The balance is&b ${balance} &8(&7Land:&e {land}&8)&7.'
+    balance: '&7There''s not enough money in the land bank. There''s only&b {bank}
+      &7in the land bank. Expected:&b {take} &8(&7Land:&e {land}&8)'
+    success: '&7You successfully took&b {cost} алмазов &7out of the land bank. &7New
+      balance of bank:&b {bank} &8(&7Land:&e {land}&8)'
+  balance: '&7The balance is&b {balance} &8(&7Land:&e {land}&8)&7.'
 list:
   view:
   - '&7---------<- &5&lО поселении &7->---------'
