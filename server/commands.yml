@@ -13,6 +13,10 @@
 command-block-overrides: []
 ignore-vanilla-permissions: false
 aliases:
+    ban:
+    - "essentials:ban $$1 $2-"
+    - "essentials:banip $$1 $2-"
+    - "say Прекращен доступ к серверам GoodMC для $$1"
     pl:
     - []
     restart:
