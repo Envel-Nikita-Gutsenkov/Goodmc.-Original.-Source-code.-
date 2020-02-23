@@ -1,4 +1,4 @@
-prefix: '&8[&2GoodMCWorldGenerator&8] &7'
+prefix: '&8[&6RWG&8] &7'
 messages:
   no_perm: '&cYou''re lacking the permission ''&4%perm%&c'' to do that!'
   no_perm_cmd: '&cYou''re lacking the permission ''&4%perm%&c'' to perform the subcommand

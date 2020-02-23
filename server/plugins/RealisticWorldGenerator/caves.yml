@@ -1,16 +1,51 @@
-# RealisticWorld's Cave-Config let you select the cave-type you want for your world. 
-# Just configure it to your needs!
+#                       ┏━━━┓╋╋╋╋╋╋╋┏┳━┓┏━┳━━━┓
+#                       ┃┏━┓┃╋╋╋╋╋╋╋┃┃┃┗┛┃┃┏━┓┃
+#                       ┃┃╋┗╋━━┳━━┳━┛┃┏┓┏┓┃┃╋┗┛
+#                       ┃┃┏━┫┏┓┃┏┓┃┏┓┃┃┃┃┃┃┃╋┏┓
+#                       ┃┗┻━┃┗┛┃┗┛┃┗┛┃┃┃┃┃┃┗━┛┃
+# ∙∙·▫▫ᵒᴼᵒ▫ₒₒ▫ᵒᴼᵒ▫ₒₒ▫ᵒᴼᵒ┗━━━┻━━┻━━┻━━┻┛┗┛┗┻━━━┛ᵒᴼᵒ▫ₒₒ▫ᵒᴼᵒ▫ₒₒ▫ᵒᴼᵒ▫▫·∙∙
+#
+# --- EN ---
+#
+# This configuration is developed on GoodMC.ru
+# GoodMC is a non-commercial game server project.
+# May contain structures that are protected by copyright.
+#
+# Please indicate to the players that the generation belongs to GoodMC for the purpose of gratitude.
+#
+# Have a nice game!
+#
+#  --- RU ---
+#
+# Эта конфигурация пренадлежит GoodMC.ru
+# GoodMC - некоммерческий проект игровых серверов.
+# Структуры могут быть защищены авторским правом.
+# 
+# Пожалуйста, указывайте игрокам принадлежность генерации к GoodMC в целях благодарности.
+#
+# Приятной игры!
+#
 caves:
   type: 5
   enabled: true
-  spawnrate: 60
+  spawnrate: 3000
   cave-3:
     frequenzy: 1
     octaves: 1
     amplitude: 1
   cave-4:
     frequenzy: 2
-    max-noise: 200
+    max-noise: 256
   cave-5:
     radius: 3
     iterations: 2
+#
+#
+# ░░░░░░░░░░░░░░░░▄▓▄
+# ░░░░▄█▄░░░░░░░░▄▓▓▓▄
+# ░░▄█████▄░░░░░▄▓▓▓▓▓▄
+# ░▀██┼█┼██▀░░░▄▓▓▓▓▓▓▓▄
+# ▄▄███████▄▄▄▄▄▄▄▄█▄▄▄▄
+# Developed by Envel
+# Nikita Gutsenkov
+# n.gucenkov@gmail.com
