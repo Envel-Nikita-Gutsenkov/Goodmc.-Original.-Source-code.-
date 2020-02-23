@@ -13,8 +13,6 @@
 #
 # Please indicate to the players that the generation belongs to GoodMC for the purpose of gratitude.
 #
-# If the configuration is used on servers for profit, you must buy it from us.
-#
 # RWG is used together with proprietary plugins and textures, 
 # so the result will be different from our servers and screenshots.
 #
