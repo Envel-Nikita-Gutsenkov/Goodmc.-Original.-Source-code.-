@@ -13,6 +13,8 @@
 #
 # Please indicate to the players that the generation belongs to GoodMC for the purpose of gratitude.
 #
+# If the configuration is used on servers for profit, you must buy it from us.
+#
 # Have a nice game!
 #
 #  --- RU ---
@@ -22,6 +24,8 @@
 # Структуры могут быть защищены авторским правом.
 # 
 # Пожалуйста, указывайте игрокам принадлежность генерации к GoodMC в целях благодарности.
+#
+# Если конфигурация используется на серверах для получения прибыли, ее необходимо у нас купить.
 #
 # Приятной игры!
 #
