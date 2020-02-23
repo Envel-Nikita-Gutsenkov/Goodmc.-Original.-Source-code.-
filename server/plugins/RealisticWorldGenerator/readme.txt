@@ -15,6 +15,9 @@
 #
 # If the configuration is used on servers for profit, you must buy it from us.
 #
+# RWG is used together with proprietary plugins and textures, 
+# so the result will be different from our servers and screenshots.
+#
 # Have a nice game!
 #
 #  --- RU ---
@@ -26,6 +29,9 @@
 # Пожалуйста, указывайте игрокам принадлежность генерации к GoodMC в целях благодарности.
 #
 # Если конфигурация используется на серверах для получения прибыли, ее необходимо у нас купить.
+#
+# RWG используется вместе с проприетарными плагинами и текстурами, 
+# так что результат будет отличаться от наших серверов и скриншотов.
 #
 # Приятной игры!
 #
