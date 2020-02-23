@@ -1,0 +1,8 @@
+positioning:
+  position: OVERWORLD
+  minY: 0
+  maxY: 256
+blocks:
+  '0_0_0': minecraft:cactus[age=0]
+  '0_1_0': minecraft:cactus[age=0]
+  '0_2_0': minecraft:cactus[age=0]

@@ -1,0 +1,51 @@
+positioning:
+  position: OVERWORLD
+  minY: 0
+  maxY: 256
+version: '1.0'
+schematic:
+  minecraftVersion: v1_13
+  version: '1.1'
+  basement:
+    build: false
+blocks:
+  1_6_-1: minecraft:horn_coral_block
+  '1_2_1': minecraft:horn_coral_block
+  1_5_-2: minecraft:horn_coral_block
+  1_4_-1: minecraft:horn_coral_block
+  '0_1_0': minecraft:horn_coral_block
+  '2_7_2': minecraft:horn_coral[waterlogged=true]
+  '2_4_1': minecraft:horn_coral_block
+  1_5_-1: minecraft:horn_coral_block
+  1_7_-1: minecraft:horn_coral_block
+  '-1_6_0': minecraft:horn_coral_block
+  1_8_-1: minecraft:horn_coral[waterlogged=true]
+  '-1_3_1': minecraft:horn_coral_wall_fan[facing=south,waterlogged=true]
+  0_3_-1: minecraft:horn_coral_wall_fan[facing=north,waterlogged=true]
+  '-1_5_0': minecraft:horn_coral_block
+  '2_5_1': minecraft:horn_coral_fan[waterlogged=true]
+  '3_5_2': minecraft:horn_coral_wall_fan[facing=east,waterlogged=true]
+  '2_6_2': minecraft:horn_coral_block
+  '2_5_2': minecraft:horn_coral_block
+  '0_5_0': minecraft:horn_coral_wall_fan[facing=east,waterlogged=true]
+  '0_3_0': minecraft:horn_coral_block
+  '2_3_2': minecraft:horn_coral_wall_fan[facing=south,waterlogged=true]
+  '2_3_1': minecraft:horn_coral_block
+  '-2_4_0': minecraft:horn_coral_block
+  '0_4_0': minecraft:horn_coral_fan[waterlogged=true]
+  '-1_3_0': minecraft:horn_coral_block
+  '-3_4_0': minecraft:horn_coral_wall_fan[facing=west,waterlogged=true]
+  -1_5_-1: minecraft:horn_coral_wall_fan[facing=north,waterlogged=true]
+  '3_4_1': minecraft:horn_coral_wall_fan[facing=east,waterlogged=true]
+  1_7_-2: minecraft:horn_coral_wall_fan[facing=north,waterlogged=true]
+  '-1_5_2': minecraft:horn_coral_wall_fan[facing=south,waterlogged=true]
+  1_6_-2: minecraft:horn_coral_fan[waterlogged=true]
+  '-1_7_0': minecraft:horn_coral[waterlogged=true]
+  '1_3_1': minecraft:horn_coral_fan[waterlogged=true]
+  '0_2_0': minecraft:horn_coral_block
+  '1_3_0': minecraft:horn_coral_wall_fan[facing=east,waterlogged=true]
+  -1_4_-1: minecraft:horn_coral_wall_fan[facing=north,waterlogged=true]
+  2_5_-1: minecraft:horn_coral_wall_fan[facing=east,waterlogged=true]
+  '-1_4_0': minecraft:horn_coral_block
+  '1_2_2': minecraft:horn_coral_wall_fan[facing=south,waterlogged=true]
+  '-1_5_1': minecraft:horn_coral_block

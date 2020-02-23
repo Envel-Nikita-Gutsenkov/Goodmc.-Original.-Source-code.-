@@ -1,0 +1,33 @@
+positioning:
+  position: OVERWORLD
+  minY: 0
+  maxY: 256
+version: '1.0'
+schematic:
+  minecraftVersion: v1_13
+  version: '1.1'
+  basement:
+    build: false
+blocks:
+  '-1_1_0': minecraft:tube_coral_block
+  '-1_1_1': minecraft:tube_coral_wall_fan[facing=west,waterlogged=true]
+  '0_1_2': minecraft:tube_coral_wall_fan[facing=south,waterlogged=true]
+  '0_1_0': minecraft:tube_coral_block
+  '1_3_0': minecraft:tube_coral_block
+  -1_3_-1: minecraft:tube_coral_block
+  '0_1_1': minecraft:tube_coral_block
+  -1_4_-1: minecraft:tube_coral_block
+  -2_3_-1: minecraft:tube_coral_wall_fan[facing=west,waterlogged=true]
+  '0_4_2': minecraft:tube_coral_block
+  '0_2_2': minecraft:tube_coral_block
+  '-1_4_2': minecraft:tube_coral_wall_fan[facing=west,waterlogged=true]
+  '-1_2_0': minecraft:tube_coral_fan[waterlogged=true]
+  -1_4_-2: minecraft:tube_coral_wall_fan[facing=north,waterlogged=true]
+  -1_2_-1: minecraft:tube_coral_block
+  '0_3_2': minecraft:tube_coral_block
+  '1_4_0': minecraft:tube_coral[waterlogged=true]
+  '-1_2_2': minecraft:tube_coral_wall_fan[facing=west,waterlogged=true]
+  1_3_-1: minecraft:tube_coral_wall_fan[facing=north,waterlogged=true]
+  '1_2_0': minecraft:tube_coral_block
+  -1_5_-1: minecraft:tube_coral[waterlogged=true]
+  '0_5_2': minecraft:tube_coral[waterlogged=true]

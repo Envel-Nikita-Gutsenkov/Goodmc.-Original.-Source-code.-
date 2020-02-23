@@ -1,0 +1,34 @@
+positioning:
+  position: OVERWORLD
+  minY: 0
+  maxY: 256
+version: '1.0'
+schematic:
+  minecraftVersion: v1_13
+  version: '1.2'
+  basement:
+    build: false
+blocks:
+  0_0_-1: minecraft:brain_coral_wall_fan[facing=north,waterlogged=true]
+  -1_3_-2: minecraft:brain_coral_block
+  '1_2_0': minecraft:brain_coral_wall_fan[facing=north,waterlogged=true]
+  '-2_4_0': minecraft:brain_coral_block
+  1_4_-1: minecraft:brain_coral_block
+  '-1_2_1': minecraft:brain_coral_wall_fan[facing=south,waterlogged=true]
+  -1_5_-2: minecraft:brain_coral_block
+  '1_4_2': minecraft:brain_coral_block
+  '-1_3_0': minecraft:brain_coral[waterlogged=true]
+  '1_3_1': minecraft:brain_coral_block
+  1_3_-1: minecraft:brain_coral_block
+  1_5_-1: minecraft:brain_coral[waterlogged=true]
+  '-2_3_0': minecraft:brain_coral_block
+  '0_0_0': minecraft:brain_coral_block
+  -1_4_-3: minecraft:brain_coral_wall_fan[facing=north,waterlogged=true]
+  0_2_-1: minecraft:brain_coral_block
+  1_3_-2: minecraft:brain_coral_wall_fan[facing=north,waterlogged=true]
+  '1_2_1': minecraft:brain_coral_block
+  '-3_4_0': minecraft:brain_coral_wall_fan[facing=west,waterlogged=true]
+  -1_4_-2: minecraft:brain_coral_block
+  '0_1_0': minecraft:brain_coral_block
+  '-1_2_0': minecraft:brain_coral_block
+  '1_4_1': minecraft:brain_coral[waterlogged=true]

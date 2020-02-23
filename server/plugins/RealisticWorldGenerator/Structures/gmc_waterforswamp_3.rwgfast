@@ -1,0 +1,14 @@
+positioning:
+  position: OVERWORLD
+  minY: 0
+  maxY: 256
+version: '1.0'
+schematic:
+  minecraftVersion: v1_14_4
+  version: '1.3'
+  basement:
+    build: false
+  spawner: false
+blocks:
+  0_-2_0: minecraft:water[level=0]
+  0_-1_0: minecraft:water[level=0]
