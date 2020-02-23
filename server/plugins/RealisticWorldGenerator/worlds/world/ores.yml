@@ -1,90 +1,210 @@
+#                       ┏━━━┓╋╋╋╋╋╋╋┏┳━┓┏━┳━━━┓
+#                       ┃┏━┓┃╋╋╋╋╋╋╋┃┃┃┗┛┃┃┏━┓┃
+#                       ┃┃╋┗╋━━┳━━┳━┛┃┏┓┏┓┃┃╋┗┛
+#                       ┃┃┏━┫┏┓┃┏┓┃┏┓┃┃┃┃┃┃┃╋┏┓
+#                       ┃┗┻━┃┗┛┃┗┛┃┗┛┃┃┃┃┃┃┗━┛┃
+# ∙∙·▫▫ᵒᴼᵒ▫ₒₒ▫ᵒᴼᵒ▫ₒₒ▫ᵒᴼᵒ┗━━━┻━━┻━━┻━━┻┛┗┛┗┻━━━┛ᵒᴼᵒ▫ₒₒ▫ᵒᴼᵒ▫ₒₒ▫ᵒᴼᵒ▫▫·∙∙
+#
+# --- EN ---
+#
+# This configuration is developed on GoodMC.ru
+# GoodMC is a non-commercial game server project.
+# May contain structures that are protected by copyright.
+#
+# Please indicate to the players that the generation belongs to GoodMC for the purpose of gratitude.
+#
+# Have a nice game!
+#
+#  --- RU ---
+#
+# Эта конфигурация пренадлежит GoodMC.ru
+# GoodMC - некоммерческий проект игровых серверов.
+# Структуры могут быть защищены авторским правом.
+# 
+# Пожалуйста, указывайте игрокам принадлежность генерации к GoodMC в целях благодарности.
+#
+# Приятной игры!
+#
 ores:
-  vines: true
+  veins:
+    type: 1
+    enabled: true
 blocks:
-  stone:
-    min: 1
-    max: 256
-    chance: 3409
   polished-diorite:
+    min: 0
+    chance: 0.0
+    spawn:
+      min: 1
+      max: 1
+    material: minecraft:polished_diorite
     max: 120
-    min: 1
-    chance: 0
-  coal:
-    chance: 59
-    min: 5
-    max: 128
-  moss:
-    min: 1
-    max: 64
-    chance: 5
-  cobblestone:
-    min: 1
-    max: 256
-    chance: 15
-  diorite:
-    max: 256
-    chance: 196
-    min: 1
-  hardened-clay:
-    chance: 0
-    max: 120
-    min: 1
-  iron:
-    chance: 32
-    max: 64
-    min: 5
   dirt:
-    min: 1
+    min: 0
+    chance: 25.0
+    spawn:
+      min: 10
+      max: 20
+    material: minecraft:dirt
     max: 120
-    chance: 10
-  emerald:
-    chance: 1
-    max: 40
-    min: 1
-  polished-granite:
-    chance: 0
-    max: 120
-    min: 1
   polished-andesite:
-    chance: 0
+    min: 0
+    chance: 0.0
+    spawn:
+      min: 1
+      max: 1
+    material: minecraft:polished_andesite
     max: 120
-    min: 1
-  diamond:
-    max: 12
-    min: 1
-    chance: 1
-  gravel:
-    max: 256
-    chance: 5
-    min: 1
-  granite:
-    chance: 211
-    min: 1
-    max: 256
-  andesite:
-    min: 1
-    max: 256
-    chance: 210
-  red-sand:
-    chance: 0
+  hardened-clay:
+    min: 0
+    chance: 0.0
+    spawn:
+      min: 1
+      max: 1
+    material: minecraft:terracotta
     max: 120
-    min: 1
-  sand:
-    max: 120
-    chance: 0
-    min: 1
-  lapis:
-    chance: 1
-    min: 10
-    max: 25
   clay:
+    min: 0
+    chance: 20.0
+    spawn:
+      min: 4
+      max: 20
+    material: minecraft:clay
     max: 256
-    chance: 20
-  redstone:
-    max: 16
-    chance: 9
-    min: 1
+  red-sand:
+    min: 0
+    chance: 0.0
+    spawn:
+      min: 1
+      max: 1
+    material: minecraft:red_sand
+    max: 120
   gold:
-    chance: 3
-    min: 5
+    min: 0
+    chance: 10.0
+    spawn:
+      min: 4
+      max: 9
+    material: minecraft:gold_ore
     max: 32
+  gravel:
+    min: 0
+    chance: 35.0
+    spawn:
+      min: 3
+      max: 20
+    material: minecraft:gravel
+    max: 256
+  moss:
+    min: 0
+    chance: 5.0
+    spawn:
+      min: 1
+      max: 5
+    material: minecraft:mossy_cobblestone
+    max: 64
+  sand:
+    min: 0
+    chance: 0.0
+    spawn:
+      min: 1
+      max: 5
+    material: minecraft:sand
+    max: 120
+  diamond:
+    min: 0
+    chance: 8.0
+    spawn:
+      min: 1
+      max: 8
+    material: minecraft:diamond_ore
+    max: 16
+  polished-granite:
+    min: 0
+    chance: 0.0
+    spawn:
+      min: 1
+      max: 1
+    material: minecraft:polished_granite
+    max: 120
+  cobblestone:
+    min: 0
+    chance: 15.0
+    spawn:
+      min: 5
+      max: 15
+    material: minecraft:cobblestone
+    max: 256
+  granite:
+    min: 0
+    chance: 211.0
+    spawn:
+      min: 5
+      max: 15
+    material: minecraft:granite
+    max: 256
+  iron:
+    min: 0
+    chance: 40.0
+    spawn:
+      min: 4
+      max: 9
+    material: minecraft:iron_ore
+    max: 67
+  coal:
+    min: 0
+    chance: 70.0
+    spawn:
+      min: 4
+      max: 17
+    material: minecraft:coal_ore
+    max: 128
+  lapis:
+    min: 0
+    chance: 4.0
+    spawn:
+      min: 4
+      max: 7
+    material: minecraft:lapis_ore
+    max: 32
+  andesite:
+    min: 0
+    chance: 210.0
+    spawn:
+      min: 5
+      max: 15
+    material: minecraft:andesite
+    max: 256
+  redstone:
+    min: 0
+    chance: 25.0
+    spawn:
+      min: 4
+      max: 8
+    material: minecraft:redstone_ore[lit=false]
+    max: 16
+  emerald:
+    min: 0
+    chance: 0.5
+    spawn:
+      min: 1
+      max: 1
+    material: minecraft:emerald_ore
+    max: 32
+  diorite:
+    min: 0
+    chance: 196.0
+    spawn:
+      min: 5
+      max: 15
+    material: minecraft:diorite
+    max: 256
+#
+#
+# ░░░░░░░░░░░░░░░░▄▓▄
+# ░░░░▄█▄░░░░░░░░▄▓▓▓▄
+# ░░▄█████▄░░░░░▄▓▓▓▓▓▄
+# ░▀██┼█┼██▀░░░▄▓▓▓▓▓▓▓▄
+# ▄▄███████▄▄▄▄▄▄▄▄█▄▄▄▄
+# Developed by Envel
+# Nikita Gutsenkov
+# n.gucenkov@gmail.com

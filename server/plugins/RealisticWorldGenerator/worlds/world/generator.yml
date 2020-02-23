@@ -1,22 +1,164 @@
 generators:
-  noises:
-  - SIMPLEX_OCTAVE:RAND_1:1:9.999999999999999E-26:9.999999999999999E-26:1.0:1.0:30.0:320.0:1
-  - SIMPLEX_OCTAVE:RAND_1:1:9.999999999999999E-26:9.999999999999999E-26:1.0:1.0:25.0:430.0:1
-  - SIMPLEX_OCTAVE:RAND_1:1:0.5:0.5:1.0:1.0:3.0:430.0:1
-  - SIMPLEX_OCTAVE:RAND_1:1:5.0E-5:5.0E-5:1.0:1.0:3.5:430.0:1
-  - SIMPLEX_OCTAVE:RAND_1:1:5.0E-11:5.0E-11:1.0:1.0:5.6000000000000005:430.0:1
-  - SIMPLEX_OCTAVE:RAND_1:1:0.03:0.03:1.0:1.0:9.0:430.0:1
-  - SIMPLEX_OCTAVE:RAND_1:1:0.03:0.03:1.0:1.0:12.5:75.0:8
-  - SIMPLEX_OCTAVE:RAND_1:1:0.03:0.03:1.0:1.0:24.0:84.0:4
-  - PERLIN_NOISE:RAND_1:1:1.0:1.0:0.01:0.01:2.0:0.0:0
-  - PERLIN_NOISE:RAND_1:1:1.0:1.0:0.02:0.02:1.0:0.0:0
-  - PERLIN_NOISE:RAND_1:1:1.0:1.0:0.04:0.04:0.5:0.0:0
-  - PERLIN_NOISE:RAND_1:1:1.0:1.0:0.001:0.001:4.0:0.0:0
-  - PERLIN_NOISE:RAND_1:1:1.0:1.0:0.002:0.002:2.0:0.0:0
-  - PERLIN_NOISE:RAND_1:1:1.0:1.0:0.004:0.004:3.0:0.0:0
-  height:
-    min: 54
-  change-settings: false
+  change_settings: true
   eroded: false
+  noises:
+    '11':
+      octaves: 1
+      random: RAND_1
+      simplex_height: 0.0
+      amplitude: 1.0
+      x_multiplier: 0.001
+      additional: 0
+      z_multiplier: 0.001
+      type: PERLIN_NOISE
+      frequency: 1.0
+      height: 4.0
+    '12':
+      octaves: 1
+      random: RAND_1
+      simplex_height: 0.0
+      amplitude: 1.0
+      x_multiplier: 0.002
+      additional: 0
+      z_multiplier: 0.002
+      type: PERLIN_NOISE
+      frequency: 1.0
+      height: 2.0
+    '13':
+      octaves: 1
+      random: RAND_1
+      simplex_height: 0.0
+      amplitude: 1.0
+      x_multiplier: 0.004
+      additional: 0
+      z_multiplier: 0.004
+      type: PERLIN_NOISE
+      frequency: 1.0
+      height: 3.0
+    '0':
+      octaves: 1
+      random: RAND_1
+      simplex_height: 320.0
+      amplitude: 9.999999999999999E-26
+      x_multiplier: 1.0
+      additional: 1
+      z_multiplier: 1.0
+      type: SIMPLEX_OCTAVE
+      frequency: 9.999999999999999E-26
+      height: 17.0
+    '1':
+      octaves: 1
+      random: RAND_1
+      simplex_height: 430.0
+      amplitude: 9.999999999999999E-26
+      x_multiplier: 1.0
+      additional: 1
+      z_multiplier: 1.0
+      type: SIMPLEX_OCTAVE
+      frequency: 9.999999999999999E-26
+      height: 12.0
+    '2':
+      octaves: 1
+      random: RAND_1
+      simplex_height: 430.0
+      amplitude: 0.5
+      x_multiplier: 1.0
+      additional: 1
+      z_multiplier: 1.0
+      type: SIMPLEX_OCTAVE
+      frequency: 0.5
+      height: 4.0
+    '3':
+      octaves: 1
+      random: RAND_1
+      simplex_height: 430.0
+      amplitude: 5.0E-5
+      x_multiplier: 1.0
+      additional: 1
+      z_multiplier: 1.0
+      type: SIMPLEX_OCTAVE
+      frequency: 5.0E-5
+      height: 3.5
+    '4':
+      octaves: 1
+      random: RAND_1
+      simplex_height: 430.0
+      amplitude: 5.0E-11
+      x_multiplier: 1.0
+      additional: 1
+      z_multiplier: 1.0
+      type: SIMPLEX_OCTAVE
+      frequency: 5.0E-11
+      height: 5.6
+    '5':
+      octaves: 1
+      random: RAND_1
+      simplex_height: 430.0
+      amplitude: 0.03
+      x_multiplier: 1.0
+      additional: 1
+      z_multiplier: 1.0
+      type: SIMPLEX_OCTAVE
+      frequency: 0.03
+      height: 5.0
+    '6':
+      octaves: 1
+      random: RAND_1
+      simplex_height: 75.0
+      amplitude: 0.03
+      x_multiplier: 1.0
+      additional: 8
+      z_multiplier: 1.0
+      type: SIMPLEX_OCTAVE
+      frequency: 0.03
+      height: 7.5
+    '7':
+      octaves: 1
+      random: RAND_1
+      simplex_height: 84.0
+      amplitude: 0.03
+      x_multiplier: 1.0
+      additional: 4
+      z_multiplier: 1.0
+      type: SIMPLEX_OCTAVE
+      frequency: 0.03
+      height: 12.0
+    '8':
+      octaves: 1
+      random: RAND_1
+      simplex_height: 0.0
+      amplitude: 1.0
+      x_multiplier: 0.01
+      additional: 0
+      z_multiplier: 0.01
+      type: PERLIN_NOISE
+      frequency: 1.0
+      height: 2.0
+    '9':
+      octaves: 1
+      random: RAND_1
+      simplex_height: 0.0
+      amplitude: 1.0
+      x_multiplier: 0.02
+      additional: 0
+      z_multiplier: 0.02
+      type: PERLIN_NOISE
+      frequency: 1.0
+      height: 1.0
+    '10':
+      octaves: 1
+      random: RAND_1
+      simplex_height: 0.0
+      amplitude: 1.0
+      x_multiplier: 0.04
+      additional: 0
+      z_multiplier: 0.04
+      type: PERLIN_NOISE
+      frequency: 1.0
+      height: 0.5
   generate:
     villages: true
+  sea:
+    level: 64
+  height:
+    min: 67

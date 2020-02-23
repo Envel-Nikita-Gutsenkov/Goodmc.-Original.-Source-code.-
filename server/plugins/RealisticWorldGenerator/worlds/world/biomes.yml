@@ -1,3 +1,30 @@
+#                       ┏━━━┓╋╋╋╋╋╋╋┏┳━┓┏━┳━━━┓
+#                       ┃┏━┓┃╋╋╋╋╋╋╋┃┃┃┗┛┃┃┏━┓┃
+#                       ┃┃╋┗╋━━┳━━┳━┛┃┏┓┏┓┃┃╋┗┛
+#                       ┃┃┏━┫┏┓┃┏┓┃┏┓┃┃┃┃┃┃┃╋┏┓
+#                       ┃┗┻━┃┗┛┃┗┛┃┗┛┃┃┃┃┃┃┗━┛┃
+# ∙∙·▫▫ᵒᴼᵒ▫ₒₒ▫ᵒᴼᵒ▫ₒₒ▫ᵒᴼᵒ┗━━━┻━━┻━━┻━━┻┛┗┛┗┻━━━┛ᵒᴼᵒ▫ₒₒ▫ᵒᴼᵒ▫ₒₒ▫ᵒᴼᵒ▫▫·∙∙
+#
+# --- EN ---
+#
+# This configuration is developed on GoodMC.ru
+# GoodMC is a non-commercial game server project.
+# May contain structures that are protected by copyright.
+#
+# Please indicate to the players that the generation belongs to GoodMC for the purpose of gratitude.
+#
+# Have a nice game!
+#
+#  --- RU ---
+#
+# Эта конфигурация пренадлежит GoodMC.ru
+# GoodMC - некоммерческий проект игровых серверов.
+# Структуры могут быть защищены авторским правом.
+# 
+# Пожалуйста, указывайте игрокам принадлежность генерации к GoodMC в целях благодарности.
+#
+# Приятной игры!
+#
 biomes:
   JUNGLE:
     overlay:
@@ -5,27 +32,31 @@ biomes:
       blocks:
       - minecraft:poppy;100
       - minecraft:dandelion;50
-      - minecraft:grass;2500
+      - minecraft:grass;5000
       - minecraft:fern;500
-      - minecraft:jungle_leaves[distance=7,persistent=false];2500
-      - minecraft:tall_grass;1906
-      - minecraft:large_fern;1906
+      - minecraft:jungle_leaves[distance=7,persistent=true];2500
+      - minecraft:tall_grass;2100
+      - minecraft:large_fern;2100
       - minecraft:blue_orchid;100
     trees:
-      chance: 10
+      chance:
+        weight: 1.0
+        random: 1.0E7
+        min: 0.0
+        max: 155000.0
       trees:
-      - SHEMATIC_gmc_jungle::4076
-      - SHEMATIC_gmc_jungle_1::4076
-      - SHEMATIC_gmc_jungle_2::4076
-      - SHEMATIC_gmc_jungle_3::4076
-      - SHEMATIC_gmc_jungle_4::4076
-      - SHEMATIC_gmc_jungle_5::4076
-      - SHEMATIC_gmc_jungle_6::4076
-      - SHEMATIC_gmc_jungle_7::4076
-      - SHEMATIC_gmc_jungle_8::4076
-      - SHEMATIC_gmc_jungle_a::4076
-      - SHEMATIC_gmc_jungle_a_0::3076
-      - SHEMATIC_gmc_jungle_a_1::3076
+      - SHEMATIC_gmc_jungle_v2::4076
+      - SHEMATIC_gmc_jungle_1_v2::4076
+      - SHEMATIC_gmc_jungle_2_v2::4076
+      - SHEMATIC_gmc_jungle_3_v2::4076
+      - SHEMATIC_gmc_jungle_4_v2::4076
+      - SHEMATIC_gmc_jungle_5_v2::4076
+      - SHEMATIC_gmc_jungle_6_v2::4076
+      - SHEMATIC_gmc_jungle_7_v2::4076
+      - SHEMATIC_gmc_jungle_8_v2::4076
+      - SHEMATIC_gmc_jungle_a_v2::4076
+      - SHEMATIC_gmc_jungle_a_0_v2::3076
+      - SHEMATIC_gmc_jungle_a_1_v2:3076
       - SHEMATIC_gmc_jungle_k::10076
       - SHEMATIC_gmc_jungle_k_0::10076
       - SHEMATIC_gmc_jungle_k_1::10076
@@ -38,7 +69,11 @@ biomes:
       - SHEMATIC_gmc_stone_jungle_7::1076
       - SHEMATIC_gmc_stone_jungle_8::1076
     structures:
-      chance: 20
+      chance:
+        weight: 1.0
+        random: 1.0E7
+        min: 0.0
+        max: 20.0
       structures:
       - JUNGLE_TEMPLE_1::20
       - DUNGEON::20
@@ -75,27 +110,32 @@ biomes:
       blocks:
       - minecraft:poppy;100
       - minecraft:dandelion;50
-      - minecraft:grass;2500
+      - minecraft:grass;5000
       - minecraft:fern;500
-      - minecraft:jungle_leaves[distance=7,persistent=false];2500
-      - minecraft:tall_grass;1906
-      - minecraft:large_fern;1906
+      - minecraft:jungle_leaves[distance=7,persistent=true];2500
+      - minecraft:tall_grass;2100
+      - minecraft:large_fern;2100
       - minecraft:blue_orchid;100
+      - minecraft:bamboo_sapling;300
     trees:
-      chance: 10
+      chance:
+        weight: 1.0
+        random: 1.0E7
+        min: 0.0
+        max: 145000.0
       trees:
-      - SHEMATIC_gmc_jungle::4076
-      - SHEMATIC_gmc_jungle_1::4076
-      - SHEMATIC_gmc_jungle_2::4076
-      - SHEMATIC_gmc_jungle_3::4076
-      - SHEMATIC_gmc_jungle_4::4076
-      - SHEMATIC_gmc_jungle_5::4076
-      - SHEMATIC_gmc_jungle_6::4076
-      - SHEMATIC_gmc_jungle_7::4076
-      - SHEMATIC_gmc_jungle_8::4076
-      - SHEMATIC_gmc_jungle_a::4076
-      - SHEMATIC_gmc_jungle_a_0::3076
-      - SHEMATIC_gmc_jungle_a_1::3076
+      - SHEMATIC_gmc_jungle_v2::4076
+      - SHEMATIC_gmc_jungle_1_v2::4076
+      - SHEMATIC_gmc_jungle_2_v2::4076
+      - SHEMATIC_gmc_jungle_3_v2::4076
+      - SHEMATIC_gmc_jungle_4_v2::4076
+      - SHEMATIC_gmc_jungle_5_v2::4076
+      - SHEMATIC_gmc_jungle_6_v2::4076
+      - SHEMATIC_gmc_jungle_7_v2::4076
+      - SHEMATIC_gmc_jungle_8_v2::4076
+      - SHEMATIC_gmc_jungle_a_v2::4076
+      - SHEMATIC_gmc_jungle_a_0_v2::3076
+      - SHEMATIC_gmc_jungle_a_1_v2:3076
       - SHEMATIC_gmc_jungle_k::10076
       - SHEMATIC_gmc_jungle_k_0::10076
       - SHEMATIC_gmc_jungle_k_1::10076
@@ -108,7 +148,11 @@ biomes:
       - SHEMATIC_gmc_stone_jungle_7::1076
       - SHEMATIC_gmc_stone_jungle_8::1076
     structures:
-      chance: 20
+      chance:
+        weight: 1.0
+        random: 1.0E7
+        min: 0.0
+        max: 600.0
       structures:
       - JUNGLE_TEMPLE_1::20
       - DUNGEON::20
@@ -145,27 +189,31 @@ biomes:
       blocks:
       - minecraft:poppy;100
       - minecraft:dandelion;50
-      - minecraft:grass;2500
+      - minecraft:grass;5000
       - minecraft:fern;500
-      - minecraft:jungle_leaves[distance=7,persistent=false];2500
-      - minecraft:tall_grass;1906
-      - minecraft:large_fern;1906
+      - minecraft:jungle_leaves[distance=7,persistent=true];2500
+      - minecraft:tall_grass;2100
+      - minecraft:large_fern;2100
       - minecraft:blue_orchid;100
     trees:
-      chance: 10
+      chance:
+        weight: 1.0
+        random: 1.0E7
+        min: 0.0
+        max: 145000.0
       trees:
-      - SHEMATIC_gmc_jungle::4076
-      - SHEMATIC_gmc_jungle_1::4076
-      - SHEMATIC_gmc_jungle_2::4076
-      - SHEMATIC_gmc_jungle_3::4076
-      - SHEMATIC_gmc_jungle_4::4076
-      - SHEMATIC_gmc_jungle_5::4076
-      - SHEMATIC_gmc_jungle_6::4076
-      - SHEMATIC_gmc_jungle_7::4076
-      - SHEMATIC_gmc_jungle_8::4076
-      - SHEMATIC_gmc_jungle_a::4076
-      - SHEMATIC_gmc_jungle_a_0::3076
-      - SHEMATIC_gmc_jungle_a_1::3076
+      - SHEMATIC_gmc_jungle_v2::4076
+      - SHEMATIC_gmc_jungle_1_v2::4076
+      - SHEMATIC_gmc_jungle_2_v2::4076
+      - SHEMATIC_gmc_jungle_3_v2::4076
+      - SHEMATIC_gmc_jungle_4_v2::4076
+      - SHEMATIC_gmc_jungle_5_v2::4076
+      - SHEMATIC_gmc_jungle_6_v2::4076
+      - SHEMATIC_gmc_jungle_7_v2::4076
+      - SHEMATIC_gmc_jungle_8_v2::4076
+      - SHEMATIC_gmc_jungle_a_v2::4076
+      - SHEMATIC_gmc_jungle_a_0_v2::3076
+      - SHEMATIC_gmc_jungle_a_1_v2:3076
       - SHEMATIC_gmc_jungle_k::10076
       - SHEMATIC_gmc_jungle_k_0::10076
       - SHEMATIC_gmc_jungle_k_1::10076
@@ -178,7 +226,11 @@ biomes:
       - SHEMATIC_gmc_stone_jungle_7::1076
       - SHEMATIC_gmc_stone_jungle_8::1076
     structures:
-      chance: 20
+      chance:
+        weight: 1.0
+        random: 1.0E7
+        min: 0.0
+        max: 600.0
       structures:
       - JUNGLE_TEMPLE_1::20
       - DUNGEON::20
@@ -211,36 +263,47 @@ biomes:
       - minecraft:granite;25
   FOREST:
     overlay:
-      chance: 6
+      chance: 4
       blocks:
       - minecraft:poppy;10
       - minecraft:dandelion;5
-      - minecraft:grass;60
-      - minecraft:fern;50
-      - minecraft:oak_leaves[distance=7,persistent=false];2
+      - minecraft:grass;85
+      - minecraft:fern;55
+      - minecraft:oak_leaves[distance=7,persistent=true];12
+      - minecraft:oxeye_daisy;5
+      - minecraft:azure_bluet;5
+      - minecraft:lily_of_the_valley;5
     trees:
-      chance: 400
+      chance:
+        weight: 1.0
+        random: 1.0E7
+        min: 0.0
+        max: 55000.0
       trees:
       - BIG_OAK_TREE_4::4000
-      - OAK_TREE_4::4000
-      - OAK_TREE_3::4000
-      - OAK_TREE_5::4000
-      - OAK_TREE_2::4000
-      - OAK_TREE_1::4000
+      - SHEMATIC_gmc_OAK_TREE_4::4000
+      - SHEMATIC_gmc_OAK_TREE_3::4000
+      - SHEMATIC_gmc_OAK_TREE_5::4000
+      - SHEMATIC_gmc_OAK_TREE_2::4000
+      - SHEMATIC_gmc_OAK_TREE_1::4000
       - BIG_OAK_TREE_3::4000
       - BIG_OAK_TREE_2::4000
       - BIG_OAK_TREE_1::4000
-      - SHEMATIC_gmc_birch::4000
-      - SHEMATIC_gmc_birch_0::4000
-      - SHEMATIC_gmc_birch_1::4000
-      - SHEMATIC_gmc_birch_2::4000
       - SHEMATIC_gmc_oak::4000
       - SHEMATIC_gmc_oak_0::4000
       - SHEMATIC_gmc_oak_1::4000
       - SHEMATIC_gmc_oak_2::4000
       - SHEMATIC_gmc_oak_3::4000
+      - gmc_BIRCH_TREE_4::1666
+      - gmc_BIRCH_TREE_3::1666
+      - gmc_BIRCH_TREE_2::1666
+      - gmc_BIRCH_TREE_1::1666
     structures:
-      chance: 6
+      chance:
+        weight: 1.0
+        random: 1.0E7
+        min: 0.0
+        max: 600.0
       structures:
       - DUNGEON::6
     layer:
@@ -270,38 +333,47 @@ biomes:
       - minecraft:granite;25
   FOREST_HILLS:
     overlay:
-      chance: 7
+      chance: 4
       blocks:
       - minecraft:poppy;10
       - minecraft:dandelion;5
-      - minecraft:grass;60
-      - minecraft:fern;50
-      - minecraft:oak_leaves[distance=7,persistent=false];2
+      - minecraft:grass;85
+      - minecraft:fern;55
+      - minecraft:oak_leaves[distance=7,persistent=true];12
       - minecraft:oxeye_daisy;5
       - minecraft:azure_bluet;5
+      - minecraft:lily_of_the_valley;5
     trees:
-      chance: 2666
+      chance:
+        weight: 1.0
+        random: 1.0E7
+        min: 0.0
+        max: 65000.0
       trees:
-      - BIG_OAK_TREE_4::2666
-      - OAK_TREE_4::2666
-      - OAK_TREE_3::2666
-      - OAK_TREE_5::2666
-      - OAK_TREE_2::2666
-      - OAK_TREE_1::2666
-      - BIG_OAK_TREE_3::2666
-      - BIG_OAK_TREE_2::2666
-      - BIG_OAK_TREE_1::2666
-      - SHEMATIC_gmc_birch::2000
-      - SHEMATIC_gmc_birch_0::2000
-      - SHEMATIC_gmc_birch_1::2000
-      - SHEMATIC_gmc_birch_2::2000
+      - BIG_OAK_TREE_4::4000
+      - SHEMATIC_gmc_OAK_TREE_4::4000
+      - SHEMATIC_gmc_OAK_TREE_3::4000
+      - SHEMATIC_gmc_OAK_TREE_5::4000
+      - SHEMATIC_gmc_OAK_TREE_2::4000
+      - SHEMATIC_gmc_OAK_TREE_1::4000
+      - BIG_OAK_TREE_3::4000
+      - BIG_OAK_TREE_2::4000
+      - BIG_OAK_TREE_1::4000
       - SHEMATIC_gmc_oak::4000
       - SHEMATIC_gmc_oak_0::4000
       - SHEMATIC_gmc_oak_1::4000
       - SHEMATIC_gmc_oak_2::4000
       - SHEMATIC_gmc_oak_3::4000
+      - gmc_BIRCH_TREE_4::1666
+      - gmc_BIRCH_TREE_3::1666
+      - gmc_BIRCH_TREE_2::1666
+      - gmc_BIRCH_TREE_1::1666
     structures:
-      chance: 6
+      chance:
+        weight: 1.0
+        random: 1.0E7
+        min: 0.0
+        max: 600.0
       structures:
       - DUNGEON::6
     layer:
@@ -332,44 +404,56 @@ biomes:
       - minecraft:granite;25
   SWAMPLAND:
     overlay:
-      chance: 12
+      chance: 3
       blocks:
       - minecraft:poppy;10
       - minecraft:dandelion;5
-      - minecraft:grass;60
+      - minecraft:grass;100
       - minecraft:fern;50
-      - minecraft:allium;10
+      - minecraft:tall_grass[half=lower];20
+      - minecraft:dark_oak_leaves[distance=7,persistent=true];400
     trees:
-      chance: 8000
+      chance:
+        weight: 1.0
+        random: 1.0E7
+        min: 0.0
+        max: 15000.0
       trees:
       - SWAMP_TREE_3::4000
       - SWAMP_TREE_2::4000
       - SWAMP_TREE_4::4000
       - SWAMP_TREE_1::4000
-      - SHEMATIC_gmc_mushroom::1000
-      - SHEMATIC_gmc_mushroom_0::1000
-      - SHEMATIC_gmc_mushroom_1::1000
-      - SHEMATIC_gmc_mushroom_2::1000
-      - SHEMATIC_gmc_mushroom_3::1000
-      - SHEMATIC_gmc_mushroom_4::1000
+      - SHEMATIC_gmc_mushroom::800
+      - SHEMATIC_gmc_mushroom_0::800
+      - SHEMATIC_gmc_mushroom_1::800
+      - SHEMATIC_gmc_mushroom_2::800
+      - SHEMATIC_gmc_mushroom_3::800
+      - SHEMATIC_gmc_mushroom_4::800
     structures:
-      chance: 6
+      chance:
+        weight: 1.0
+        random: 1.0E7
+        min: 0.0
+        max: 260000.0
       structures:
-      - DUNGEON::6
+      - gmc_waterforswamp_7::6
+      - gmc_waterforswamp_2_2::2
     layer:
       '1':
+      - minecraft:dark_oak_leaves;50 
       - minecraft:coarse_dirt;2
       - minecraft:mycelium;15
       - minecraft:grass_block[snowy=false];120
       '2':
-      - minecraft:stone;30
+      - minecraft:coarse_dirt;30
       - minecraft:dirt;90
-      - minecraft:andesite;8
+      - minecraft:water;20
       - minecraft:granite;8
       '3':
       - minecraft:stone;40
       - minecraft:dirt;60
       - minecraft:andesite;10
+      - minecraft:water;5
       - minecraft:granite;10
       '4':
       - minecraft:stone;70
@@ -383,46 +467,64 @@ biomes:
       - minecraft:granite;25
   SWAMPLAND_HILLS:
     overlay:
-      chance: 14
+      chance: 3
       blocks:
       - minecraft:poppy;10
       - minecraft:dandelion;5
-      - minecraft:grass;60
+      - minecraft:grass;100
       - minecraft:fern;50
+      - minecraft:tall_grass[half=lower];20
+      - minecraft:dark_oak_leaves[distance=7,persistent=true];400
     trees:
-      chance: 3666
+      chance:
+        weight: 1.0
+        random: 1.0E7
+        min: 0.0
+        max: 15000.0
       trees:
-      - SWAMP_TREE_3::2666
-      - SWAMP_TREE_2::2666
-      - SWAMP_TREE_4::2666
-      - SWAMP_TREE_1::2666
+      - SWAMP_TREE_3::4000
+      - SWAMP_TREE_2::4000
+      - SWAMP_TREE_4::4000
+      - SWAMP_TREE_1::4000
+      - SHEMATIC_gmc_mushroom::800
+      - SHEMATIC_gmc_mushroom_0::800
+      - SHEMATIC_gmc_mushroom_1::800
+      - SHEMATIC_gmc_mushroom_2::800
+      - SHEMATIC_gmc_mushroom_3::800
+      - SHEMATIC_gmc_mushroom_4::800
     structures:
-      chance: 6
+      chance:
+        weight: 1.0
+        random: 1.0E7
+        min: 0.0
+        max: 260000.0
       structures:
-      - DUNGEON::6
+      - gmc_waterforswamp_7::6
+      - gmc_waterforswamp_2_2::2
     layer:
       '1':
+      - minecraft:dark_oak_leaves;50 
       - minecraft:coarse_dirt;2
       - minecraft:mycelium;15
       - minecraft:grass_block[snowy=false];120
-      - minecraft:granite;5
       '2':
-      - minecraft:stone;30
-      - minecraft:dirt;80
-      - minecraft:andesite;8
+      - minecraft:coarse_dirt;30
+      - minecraft:dirt;90
+      - minecraft:water;20
       - minecraft:granite;8
       '3':
-      - minecraft:stone;45
+      - minecraft:stone;40
       - minecraft:dirt;60
       - minecraft:andesite;10
+      - minecraft:water;5
       - minecraft:granite;10
       '4':
-      - minecraft:stone;75
+      - minecraft:stone;70
       - minecraft:dirt;20
       - minecraft:andesite;15
       - minecraft:granite;15
       '5':
-      - minecraft:stone;125
+      - minecraft:stone;120
       - minecraft:dirt;2
       - minecraft:andesite;25
       - minecraft:granite;25
@@ -435,10 +537,18 @@ biomes:
       - minecraft:grass;60
       - minecraft:fern;50
     trees:
-      chance: 4000
+      chance:
+        weight: 1.0
+        random: 1.0E7
+        min: 0.0
+        max: 55000.0
       trees: []
     structures:
-      chance: 6
+      chance:
+        weight: 1.0
+        random: 1.0E7
+        min: 0.0
+        max: 600.0
       structures:
       - DUNGEON::6
     layer:
@@ -492,10 +602,18 @@ biomes:
       - minecraft:grass;60
       - minecraft:fern;50
     trees:
-      chance: 4000
+      chance:
+        weight: 1.0
+        random: 1.0E7
+        min: 0.0
+        max: 55000.0
       trees: []
     structures:
-      chance: 6
+      chance:
+        weight: 1.0
+        random: 1.0E7
+        min: 0.0
+        max: 600.0
       structures:
       - DUNGEON::6
     layer:
@@ -543,26 +661,23 @@ biomes:
       - minecraft:andesite;10
   OCEAN:
     overlay:
-      chance: 12
+      chance: 8
       blocks:
-      - minecraft:sea_pickle[pickles=1,waterlogged=true];5
       - minecraft:seagrass;100
       - minecraft:kelp_plant;15
-      - minecraft:brain_coral_fan[waterlogged=true];3
-      - minecraft:bubble_coral_fan[waterlogged=true];3
-      - minecraft:dead_brain_coral_fan[waterlogged=true];3
-      - minecraft:dead_bubble_coral_fan[waterlogged=true];3
-      - minecraft:dead_fire_coral_fan[waterlogged=true];3
-      - minecraft:dead_horn_coral_fan[waterlogged=true];3
-      - minecraft:dead_tube_coral_fan[waterlogged=true];3
-      - minecraft:fire_coral_fan[waterlogged=true];3
-      - minecraft:horn_coral_fan[waterlogged=true];3
-      - minecraft:tube_coral_fan[waterlogged=true];3
     trees:
-      chance: 2666
+      chance:
+        weight: 1.0
+        random: 1.0E7
+        min: 0.0
+        max: 6000.0
       trees: []
     structures:
-      chance: 156
+      chance:
+        weight: 1.0
+        random: 1.0E7
+        min: 0.0
+        max: 156.0
       structures: []
     layer:
       '1':
@@ -609,7 +724,7 @@ biomes:
       - minecraft:andesite;10
   LUKEWARM_OCEAN:
     overlay:
-      chance: 12
+      chance: 7
       blocks:
       - minecraft:sea_pickle[pickles=1,waterlogged=true];5
       - minecraft:seagrass;100
@@ -624,11 +739,29 @@ biomes:
       - minecraft:fire_coral_fan[waterlogged=true];3
       - minecraft:horn_coral_fan[waterlogged=true];3
       - minecraft:tube_coral_fan[waterlogged=true];3
+      - minecraft:tube_coral[waterlogged=true];3
+      - minecraft:brain_coral[waterlogged=true];3
+      - minecraft:bubble_coral[waterlogged=true];3
+      - minecraft:fire_coral[waterlogged=true];3
+      - minecraft:horn_coral[waterlogged=true];3
+      - minecraft:dead_brain_coral[waterlogged=true];3
+      - minecraft:dead_bubble_coral[waterlogged=true];3
+      - minecraft:dead_fire_coral[waterlogged=true];3
+      - minecraft:dead_horn_coral[waterlogged=true];3
+      - minecraft:dead_tube_coral[waterlogged=true];3
     trees:
-      chance: 4000
+      chance:
+        weight: 1.0
+        random: 1.0E7
+        min: 0.0
+        max: 55000.0
       trees: []
     structures:
-      chance: 156
+      chance:
+        weight: 1.0
+        random: 1.0E7
+        min: 0.0
+        max: 156.0
       structures: []
     layer:
       '1':
@@ -675,7 +808,7 @@ biomes:
       - minecraft:andesite;10
   WARM_OCEAN:
     overlay:
-      chance: 12
+      chance: 6
       blocks:
       - minecraft:sea_pickle[pickles=1,waterlogged=true];5
       - minecraft:seagrass;100
@@ -690,11 +823,29 @@ biomes:
       - minecraft:fire_coral_fan[waterlogged=true];3
       - minecraft:horn_coral_fan[waterlogged=true];3
       - minecraft:tube_coral_fan[waterlogged=true];3
+      - minecraft:tube_coral[waterlogged=true];3
+      - minecraft:brain_coral[waterlogged=true];3
+      - minecraft:bubble_coral[waterlogged=true];3
+      - minecraft:fire_coral[waterlogged=true];3
+      - minecraft:horn_coral[waterlogged=true];3
+      - minecraft:dead_brain_coral[waterlogged=true];3
+      - minecraft:dead_bubble_coral[waterlogged=true];3
+      - minecraft:dead_fire_coral[waterlogged=true];3
+      - minecraft:dead_horn_coral[waterlogged=true];3
+      - minecraft:dead_tube_coral[waterlogged=true];3
     trees:
-      chance: 4000
+      chance:
+        weight: 1.0
+        random: 1.0E7
+        min: 0.0
+        max: 55000.0
       trees: []
     structures:
-      chance: 156
+      chance:
+        weight: 1.0
+        random: 1.0E7
+        min: 0.0
+        max: 156.0
       structures: []
     layer:
       '1':
@@ -743,24 +894,31 @@ biomes:
     overlay:
       chance: 12
       blocks:
-      - minecraft:sea_pickle[pickles=1,waterlogged=true];5
       - minecraft:seagrass;100
-      - minecraft:kelp_plant;15
-      - minecraft:brain_coral_fan[waterlogged=true];3
-      - minecraft:bubble_coral_fan[waterlogged=true];3
-      - minecraft:dead_brain_coral_fan[waterlogged=true];3
-      - minecraft:dead_bubble_coral_fan[waterlogged=true];3
-      - minecraft:dead_fire_coral_fan[waterlogged=true];3
-      - minecraft:dead_horn_coral_fan[waterlogged=true];3
-      - minecraft:dead_tube_coral_fan[waterlogged=true];3
-      - minecraft:fire_coral_fan[waterlogged=true];3
-      - minecraft:horn_coral_fan[waterlogged=true];3
-      - minecraft:tube_coral_fan[waterlogged=true];3
+      - minecraft:kelp_plant;5
+      - minecraft:dead_brain_coral_fan[waterlogged=true];1
+      - minecraft:dead_bubble_coral_fan[waterlogged=true];1
+      - minecraft:dead_fire_coral_fan[waterlogged=true];1
+      - minecraft:dead_horn_coral_fan[waterlogged=true];1
+      - minecraft:dead_tube_coral_fan[waterlogged=true];1
+      - minecraft:dead_brain_coral[waterlogged=true];1
+      - minecraft:dead_bubble_coral[waterlogged=true];1
+      - minecraft:dead_fire_coral[waterlogged=true];1
+      - minecraft:dead_horn_coral[waterlogged=true];1
+      - minecraft:dead_tube_coral[waterlogged=true];1
     trees:
-      chance: 4000
+      chance:
+        weight: 1.0
+        random: 1.0E7
+        min: 0.0
+        max: 55000.0
       trees: []
     structures:
-      chance: 156
+      chance:
+        weight: 1.0
+        random: 1.0E7
+        min: 0.0
+        max: 156.0
       structures: []
     layer:
       '1':
@@ -809,24 +967,31 @@ biomes:
     overlay:
       chance: 12
       blocks:
-      - minecraft:sea_pickle[pickles=1,waterlogged=true];5
       - minecraft:seagrass;100
-      - minecraft:kelp_plant;15
-      - minecraft:brain_coral_fan[waterlogged=true];3
-      - minecraft:bubble_coral_fan[waterlogged=true];3
-      - minecraft:dead_brain_coral_fan[waterlogged=true];3
-      - minecraft:dead_bubble_coral_fan[waterlogged=true];3
-      - minecraft:dead_fire_coral_fan[waterlogged=true];3
-      - minecraft:dead_horn_coral_fan[waterlogged=true];3
-      - minecraft:dead_tube_coral_fan[waterlogged=true];3
-      - minecraft:fire_coral_fan[waterlogged=true];3
-      - minecraft:horn_coral_fan[waterlogged=true];3
-      - minecraft:tube_coral_fan[waterlogged=true];3
+      - minecraft:kelp_plant;5
+      - minecraft:dead_brain_coral_fan[waterlogged=true];1
+      - minecraft:dead_bubble_coral_fan[waterlogged=true];1
+      - minecraft:dead_fire_coral_fan[waterlogged=true];1
+      - minecraft:dead_horn_coral_fan[waterlogged=true];1
+      - minecraft:dead_tube_coral_fan[waterlogged=true];1
+      - minecraft:dead_brain_coral[waterlogged=true];1
+      - minecraft:dead_bubble_coral[waterlogged=true];1
+      - minecraft:dead_fire_coral[waterlogged=true];1
+      - minecraft:dead_horn_coral[waterlogged=true];1
+      - minecraft:dead_tube_coral[waterlogged=true];1
     trees:
-      chance: 4000
+      chance:
+        weight: 1.0
+        random: 1.0E7
+        min: 0.0
+        max: 55000.0
       trees: []
     structures:
-      chance: 156
+      chance:
+        weight: 1.0
+        random: 1.0E7
+        min: 0.0
+        max: 156.0
       structures: []
     layer:
       '1':
@@ -873,46 +1038,23 @@ biomes:
       - minecraft:andesite;10
   DEEP_OCEAN:
     overlay:
-      chance: 12
-      blocks:
-      - minecraft:sea_pickle[pickles=1,waterlogged=true];5
-      - minecraft:seagrass;100
-      - minecraft:kelp_plant;15
-      - minecraft:brain_coral_fan[waterlogged=true];3
-      - minecraft:bubble_coral_fan[waterlogged=true];3
-      - minecraft:dead_brain_coral_fan[waterlogged=true];3
-      - minecraft:dead_bubble_coral_fan[waterlogged=true];3
-      - minecraft:dead_fire_coral_fan[waterlogged=true];3
-      - minecraft:dead_horn_coral_fan[waterlogged=true];3
-      - minecraft:dead_tube_coral_fan[waterlogged=true];3
-      - minecraft:fire_coral_fan[waterlogged=true];3
-      - minecraft:horn_coral_fan[waterlogged=true];3
-      - minecraft:tube_coral_fan[waterlogged=true];3
-    trees:
-      chance: 8000
-      trees:
-      - CORAL_RED_2::8000
-      - CORAL_RED_3::8000
-      - CORAL_RED_0::8000
-      - CORAL_RED_1::8000
-      - CORAL_MAGENTA_0::8000
-      - CORAL_MAGENTA_1::8000
-      - CORAL_MAGENTA_2::8000
-      - CORAL_BLUE_3::8000
-      - CORAL_MAGENTA_3::8000
-      - CORAL_BLUE_2::8000
-      - CORAL_BLUE_1::8000
-      - CORAL_BLUE_0::8000
-      - CORAL_YELLOW_0::8000
-      - CORAL_YELLOW_1::8000
-      - CORAL_YELLOW_2::8000
-      - CORAL_PINK_3::8000
-      - CORAL_YELLOW_3::8000
-      - CORAL_PINK_1::8000
-      - CORAL_PINK_2::8000
-      - CORAL_PINK_0::8000
-    structures:
       chance: 8
+      blocks:
+      - minecraft:seagrass;100
+      - minecraft:kelp_plant;40
+    trees:
+      chance:
+        weight: 1.0
+        random: 1.0E7
+        min: 0.0
+        max: 10.0
+      trees: []
+    structures:
+      chance:
+        weight: 1.0
+        random: 1.0E7
+        min: 0.0
+        max: 80.0
       structures:
       - UNDERWATER_TEMPLE_1::8
     layer:
@@ -960,7 +1102,7 @@ biomes:
       - minecraft:andesite;10
   DEEP_LUKEWARM_OCEAN:
     overlay:
-      chance: 12
+      chance: 5
       blocks:
       - minecraft:sea_pickle[pickles=1,waterlogged=true];5
       - minecraft:seagrass;100
@@ -975,8 +1117,22 @@ biomes:
       - minecraft:fire_coral_fan[waterlogged=true];3
       - minecraft:horn_coral_fan[waterlogged=true];3
       - minecraft:tube_coral_fan[waterlogged=true];3
+      - minecraft:tube_coral[waterlogged=true];3
+      - minecraft:brain_coral[waterlogged=true];3
+      - minecraft:bubble_coral[waterlogged=true];3
+      - minecraft:fire_coral[waterlogged=true];3
+      - minecraft:horn_coral[waterlogged=true];3
+      - minecraft:dead_brain_coral[waterlogged=true];3
+      - minecraft:dead_bubble_coral[waterlogged=true];3
+      - minecraft:dead_fire_coral[waterlogged=true];3
+      - minecraft:dead_horn_coral[waterlogged=true];3
+      - minecraft:dead_tube_coral[waterlogged=true];3
     trees:
-      chance: 8000
+      chance:
+        weight: 1.0
+        random: 1.0E7
+        min: 0.0
+        max: 90000.0
       trees:
       - CORAL_RED_2::8000
       - CORAL_RED_3::8000
@@ -999,7 +1155,11 @@ biomes:
       - CORAL_PINK_2::8000
       - CORAL_PINK_0::8000
     structures:
-      chance: 8
+      chance:
+        weight: 1.0
+        random: 1.0E7
+        min: 0.0
+        max: 80.0
       structures:
       - UNDERWATER_TEMPLE_1::8
     layer:
@@ -1047,7 +1207,7 @@ biomes:
       - minecraft:andesite;10
   DEEP_WARM_OCEAN:
     overlay:
-      chance: 12
+      chance: 5
       blocks:
       - minecraft:sea_pickle[pickles=1,waterlogged=true];5
       - minecraft:seagrass;100
@@ -1062,8 +1222,22 @@ biomes:
       - minecraft:fire_coral_fan[waterlogged=true];3
       - minecraft:horn_coral_fan[waterlogged=true];3
       - minecraft:tube_coral_fan[waterlogged=true];3
+      - minecraft:tube_coral[waterlogged=true];3
+      - minecraft:brain_coral[waterlogged=true];3
+      - minecraft:bubble_coral[waterlogged=true];3
+      - minecraft:fire_coral[waterlogged=true];3
+      - minecraft:horn_coral[waterlogged=true];3
+      - minecraft:dead_brain_coral[waterlogged=true];3
+      - minecraft:dead_bubble_coral[waterlogged=true];3
+      - minecraft:dead_fire_coral[waterlogged=true];3
+      - minecraft:dead_horn_coral[waterlogged=true];3
+      - minecraft:dead_tube_coral[waterlogged=true];3
     trees:
-      chance: 8000
+      chance:
+        weight: 1.0
+        random: 1.0E7
+        min: 0.0
+        max: 90000.0
       trees:
       - CORAL_RED_2::8000
       - CORAL_RED_3::8000
@@ -1086,7 +1260,11 @@ biomes:
       - CORAL_PINK_2::8000
       - CORAL_PINK_0::8000
     structures:
-      chance: 8
+      chance:
+        weight: 1.0
+        random: 1.0E7
+        min: 0.0
+        max: 80.0
       structures:
       - UNDERWATER_TEMPLE_1::8
     layer:
@@ -1136,24 +1314,31 @@ biomes:
     overlay:
       chance: 12
       blocks:
-      - minecraft:sea_pickle[pickles=1,waterlogged=true];5
       - minecraft:seagrass;100
-      - minecraft:kelp_plant;15
-      - minecraft:brain_coral_fan[waterlogged=true];3
-      - minecraft:bubble_coral_fan[waterlogged=true];3
-      - minecraft:dead_brain_coral_fan[waterlogged=true];3
-      - minecraft:dead_bubble_coral_fan[waterlogged=true];3
-      - minecraft:dead_fire_coral_fan[waterlogged=true];3
-      - minecraft:dead_horn_coral_fan[waterlogged=true];3
-      - minecraft:dead_tube_coral_fan[waterlogged=true];3
-      - minecraft:fire_coral_fan[waterlogged=true];3
-      - minecraft:horn_coral_fan[waterlogged=true];3
-      - minecraft:tube_coral_fan[waterlogged=true];3
+      - minecraft:kelp_plant;5
+      - minecraft:dead_brain_coral_fan[waterlogged=true];1
+      - minecraft:dead_bubble_coral_fan[waterlogged=true];1
+      - minecraft:dead_fire_coral_fan[waterlogged=true];1
+      - minecraft:dead_horn_coral_fan[waterlogged=true];1
+      - minecraft:dead_tube_coral_fan[waterlogged=true];1
+      - minecraft:dead_brain_coral[waterlogged=true];1
+      - minecraft:dead_bubble_coral[waterlogged=true];1
+      - minecraft:dead_fire_coral[waterlogged=true];1
+      - minecraft:dead_horn_coral[waterlogged=true];1
+      - minecraft:dead_tube_coral[waterlogged=true];1
     trees:
-      chance: 4000
+      chance:
+        weight: 1.0
+        random: 1.0E7
+        min: 0.0
+        max: 55000.0
       trees: []
     structures:
-      chance: 8
+      chance:
+        weight: 1.0
+        random: 1.0E7
+        min: 0.0
+        max: 80.0
       structures:
       - UNDERWATER_TEMPLE_1::8
     layer:
@@ -1203,21 +1388,24 @@ biomes:
     overlay:
       chance: 12
       blocks:
-      - minecraft:sea_pickle[pickles=1,waterlogged=true];5
       - minecraft:seagrass;100
-      - minecraft:kelp_plant;15
-      - minecraft:brain_coral_fan[waterlogged=true];3
-      - minecraft:bubble_coral_fan[waterlogged=true];3
-      - minecraft:dead_brain_coral_fan[waterlogged=true];3
-      - minecraft:dead_bubble_coral_fan[waterlogged=true];3
-      - minecraft:dead_fire_coral_fan[waterlogged=true];3
-      - minecraft:dead_horn_coral_fan[waterlogged=true];3
-      - minecraft:dead_tube_coral_fan[waterlogged=true];3
-      - minecraft:fire_coral_fan[waterlogged=true];3
-      - minecraft:horn_coral_fan[waterlogged=true];3
-      - minecraft:tube_coral_fan[waterlogged=true];3
+      - minecraft:kelp_plant;5
+      - minecraft:dead_brain_coral_fan[waterlogged=true];1
+      - minecraft:dead_bubble_coral_fan[waterlogged=true];1
+      - minecraft:dead_fire_coral_fan[waterlogged=true];1
+      - minecraft:dead_horn_coral_fan[waterlogged=true];1
+      - minecraft:dead_tube_coral_fan[waterlogged=true];1
+      - minecraft:dead_brain_coral[waterlogged=true];1
+      - minecraft:dead_bubble_coral[waterlogged=true];1
+      - minecraft:dead_fire_coral[waterlogged=true];1
+      - minecraft:dead_horn_coral[waterlogged=true];1
+      - minecraft:dead_tube_coral[waterlogged=true];1
     trees:
-      chance: 4000
+      chance:
+        weight: 1.0
+        random: 1.0E7
+        min: 0.0
+        max: 55000.0
       trees:
       - CORAL_RED_2::8000
       - CORAL_RED_3::8000
@@ -1240,7 +1428,11 @@ biomes:
       - CORAL_PINK_2::8000
       - CORAL_PINK_0::8000
     structures:
-      chance: 8
+      chance:
+        weight: 1.0
+        random: 1.0E7
+        min: 0.0
+        max: 80.0
       structures:
       - UNDERWATER_TEMPLE_1::8
     layer:
@@ -1290,33 +1482,40 @@ biomes:
     overlay:
       chance: 100
       blocks:
-      - minecraft:dead_bush;10
-      - minecraft:dead_bush;15
+      - minecraft:dead_bush;4
     trees:
-      chance: 8000
+      chance:
+        weight: 1.0
+        random: 1.0E7
+        min: 0.0
+        max: 60000.0
       trees:
-      - SHEMATIC_gmc_cactus_3::24000
-      - SHEMATIC_gmc_cactus_2::26000
-      - SHEMATIC_gmc_cactus_1::24000
+      - SHEMATIC_gmc_cactus_3::20000
+      - SHEMATIC_gmc_cactus_2::22000
+      - SHEMATIC_gmc_cactus_1::20000
       - SHEMATIC_gmc_desert_tree::200
       - SHEMATIC_gmc_desert_tree_0::200
       - SHEMATIC_gmc_desert_tree_1::200
       - SHEMATIC_gmc_desert_tree_2::200
     structures:
-      chance: 1000000
+      chance:
+        weight: 1.0
+        random: 1.0E7
+        min: 0.0
+        max: 2000.0
       structures:
-      - PYRAMID::1000
-      - DESERT_TEMPLE_1::100
-      - DUNGEON::100
-      - DESERT_RESERVOIR::100
-      - gmc_skull::100000
-      - gmc_skull_0::100000
-      - gmc_skull_1::100000
-      - gmc_skull_2::100000
-      - gmc_skull_3::100000
-      - gmc_skull_4::100000
-      - gmc_skull_5::100000
-      - gmc_skull_6::100000
+      - PYRAMID::10
+      - DESERT_TEMPLE_1::10
+      - DUNGEON::10
+      - DESERT_RESERVOIR::10
+      - gmc_skull::700
+      - gmc_skull_0::700
+      - gmc_skull_1::700
+      - gmc_skull_2::700
+      - gmc_skull_3::700
+      - gmc_skull_4::700
+      - gmc_skull_5::700
+      - gmc_skull_6::700
     layer:
       '1':
       - minecraft:sand;250
@@ -1340,33 +1539,40 @@ biomes:
     overlay:
       chance: 100
       blocks:
-      - minecraft:dead_bush;10
-      - minecraft:dead_bush;15
+      - minecraft:dead_bush;4
     trees:
-      chance: 8000
+      chance:
+        weight: 1.0
+        random: 1.0E7
+        min: 0.0
+        max: 60000.0
       trees:
-      - SHEMATIC_gmc_cactus_3::24000
-      - SHEMATIC_gmc_cactus_2::26000
-      - SHEMATIC_gmc_cactus_1::24000
+      - SHEMATIC_gmc_cactus_3::20000
+      - SHEMATIC_gmc_cactus_2::22000
+      - SHEMATIC_gmc_cactus_1::20000
       - SHEMATIC_gmc_desert_tree::200
       - SHEMATIC_gmc_desert_tree_0::200
       - SHEMATIC_gmc_desert_tree_1::200
       - SHEMATIC_gmc_desert_tree_2::200
     structures:
-      chance: 1000000
+      chance:
+        weight: 1.0
+        random: 1.0E7
+        min: 0.0
+        max: 2000.0
       structures:
-      - PYRAMID::1000
-      - DESERT_TEMPLE_1::100
-      - DUNGEON::100
-      - DESERT_RESERVOIR::100
-      - gmc_skull::100000
-      - gmc_skull_0::100000
-      - gmc_skull_1::100000
-      - gmc_skull_2::100000
-      - gmc_skull_3::100000
-      - gmc_skull_4::100000
-      - gmc_skull_5::100000
-      - gmc_skull_6::100000
+      - PYRAMID::10
+      - DESERT_TEMPLE_1::10
+      - DUNGEON::10
+      - DESERT_RESERVOIR::10
+      - gmc_skull::700
+      - gmc_skull_0::700
+      - gmc_skull_1::700
+      - gmc_skull_2::700
+      - gmc_skull_3::700
+      - gmc_skull_4::700
+      - gmc_skull_5::700
+      - gmc_skull_6::700
     layer:
       '1':
       - minecraft:sand;250
@@ -1390,33 +1596,40 @@ biomes:
     overlay:
       chance: 100
       blocks:
-      - minecraft:dead_bush;10
-      - minecraft:dead_bush;15
+      - minecraft:dead_bush;4
     trees:
-      chance: 8000
+      chance:
+        weight: 1.0
+        random: 1.0E7
+        min: 0.0
+        max: 60000.0
       trees:
-      - SHEMATIC_gmc_cactus_3::24000
-      - SHEMATIC_gmc_cactus_2::26000
-      - SHEMATIC_gmc_cactus_1::24000
+      - SHEMATIC_gmc_cactus_3::20000
+      - SHEMATIC_gmc_cactus_2::22000
+      - SHEMATIC_gmc_cactus_1::20000
       - SHEMATIC_gmc_desert_tree::200
       - SHEMATIC_gmc_desert_tree_0::200
       - SHEMATIC_gmc_desert_tree_1::200
       - SHEMATIC_gmc_desert_tree_2::200
     structures:
-      chance: 1000000
+      chance:
+        weight: 1.0
+        random: 1.0E7
+        min: 0.0
+        max: 2000.0
       structures:
-      - PYRAMID::1000
-      - DESERT_TEMPLE_1::100
-      - DUNGEON::100
-      - DESERT_RESERVOIR::100
-      - gmc_skull::100000
-      - gmc_skull_0::100000
-      - gmc_skull_1::100000
-      - gmc_skull_2::100000
-      - gmc_skull_3::100000
-      - gmc_skull_4::100000
-      - gmc_skull_5::100000
-      - gmc_skull_6::100000
+      - PYRAMID::10
+      - DESERT_TEMPLE_1::10
+      - DUNGEON::10
+      - DESERT_RESERVOIR::10
+      - gmc_skull::700
+      - gmc_skull_0::700
+      - gmc_skull_1::700
+      - gmc_skull_2::700
+      - gmc_skull_3::700
+      - gmc_skull_4::700
+      - gmc_skull_5::700
+      - gmc_skull_6::700
     layer:
       '1':
       - minecraft:sand;250
@@ -1438,25 +1651,35 @@ biomes:
       - minecraft:andesite;10
   PLAINS:
     overlay:
-      chance: 5
+      chance: 4
       blocks:
-      - minecraft:orange_tulip;5
-      - minecraft:pink_tulip;5
-      - minecraft:red_tulip;5
-      - minecraft:white_tulip;5
-      - minecraft:grass;80
-      - minecraft:fern;50
-      - minecraft:melon;1
-      - minecraft:sunflower[half=lower];1
-      - minecraft:tall_grass[half=lower];1
-      - minecraft:rose_bush[half=lower];1
-      - minecraft:large_fern[half=lower];1
-      - minecraft:lilac[half=lower];1
+      - minecraft:orange_tulip;50
+      - minecraft:pink_tulip;50
+      - minecraft:red_tulip;50
+      - minecraft:white_tulip;50
+      - minecraft:grass;1000
+      - minecraft:fern;500
+      - minecraft:melon;2
+      - minecraft:cornflower;20
+      - minecraft:sunflower[half=lower];50
+      - minecraft:tall_grass[half=lower];40
+      - minecraft:rose_bush[half=lower];10
+      - minecraft:large_fern[half=lower];10
+      - minecraft:lilac[half=lower];4
+      - minecraft:peony[half=lower];4
     trees:
-      chance: 666
+      chance:
+        weight: 1.0
+        random: 1.0E7
+        min: 0.0
+        max: 666.0
       trees: []
     structures:
-      chance: 6
+      chance:
+        weight: 1.0
+        random: 1.0E7
+        min: 0.0
+        max: 600.0
       structures:
       - DUNGEON::6
     layer:
@@ -1491,7 +1714,11 @@ biomes:
       blocks:
       - minecraft:snow[layers=1];15
     trees:
-      chance: 163300
+      chance:
+        weight: 1.0
+        random: 1.0E7
+        min: 0.0
+        max: 23330.0
       trees:
       - SHEMATIC_gmc_icetree::10000
       - SHEMATIC_gmc_icetree_0::10000
@@ -1501,9 +1728,13 @@ biomes:
       - SHEMATIC_gmc_icetree_4:10000
       - SHEMATIC_gmc_icetree_5::10000
     structures:
-      chance: 500000
+      chance:
+        weight: 1.0
+        random: 1.0E7
+        min: 0.0
+        max: 600.0
       structures:
-      - gmc_iglu::500000
+      - gmc_iglu_2::500000
     layer:
       '1':
       - minecraft:packed_ice;100
@@ -1526,22 +1757,32 @@ biomes:
       - minecraft:granite;25
   BIRCH_FOREST:
     overlay:
-      chance: 6
+      chance: 5
       blocks:
       - minecraft:poppy;10
       - minecraft:dandelion;5
       - minecraft:grass;60
       - minecraft:fern;50
-      - minecraft:oak_leaves[distance=7,persistent=false];2
+      - minecraft:lily_of_the_valley;5
+      - minecraft:birch_leaves[distance=7,persistent=true];100
     trees:
-      chance: 4000
+      chance:
+        weight: 1.0
+        random: 1.0E7
+        min: 0.0
+        max: 55000.0
       trees:
-      - BIRCH_TREE_4::4000
-      - BIRCH_TREE_2::4000
-      - BIRCH_TREE_3::4000
-      - BIRCH_TREE_1::4000
+      - gmc_BIRCH_TREE_5::800
+      - gmc_BIRCH_TREE_4::2666
+      - gmc_BIRCH_TREE_3::2666
+      - gmc_BIRCH_TREE_2::2666
+      - gmc_BIRCH_TREE_1::2666
     structures:
-      chance: 6
+      chance:
+        weight: 1.0
+        random: 1.0E7
+        min: 0.0
+        max: 600.0
       structures:
       - DUNGEON::6
     layer:
@@ -1571,22 +1812,32 @@ biomes:
       - minecraft:granite;25
   BIRCH_FOREST_HILLS:
     overlay:
-      chance: 7
+      chance: 6
       blocks:
       - minecraft:poppy;10
       - minecraft:dandelion;5
       - minecraft:grass;60
       - minecraft:fern;50
-      - minecraft:oak_leaves[distance=7,persistent=false];2
+      - minecraft:lily_of_the_valley;5
+      - minecraft:birch_leaves[distance=7,persistent=true];100
     trees:
-      chance: 2666
+      chance:
+        weight: 1.0
+        random: 1.0E7
+        min: 0.0
+        max: 26660.0
       trees:
-      - BIRCH_TREE_4::2666
-      - BIRCH_TREE_2::2666
-      - BIRCH_TREE_3::2666
-      - BIRCH_TREE_1::2666
+      - gmc_BIRCH_TREE_5::800
+      - gmc_BIRCH_TREE_4::2666
+      - gmc_BIRCH_TREE_3::2666
+      - gmc_BIRCH_TREE_2::2666
+      - gmc_BIRCH_TREE_1::2666
     structures:
-      chance: 6
+      chance:
+        weight: 1.0
+        random: 1.0E7
+        min: 0.0
+        max: 600.0
       structures:
       - DUNGEON::6
     layer:
@@ -1617,18 +1868,24 @@ biomes:
       - minecraft:granite;25
   TAIGA:
     overlay:
-      chance: 6
+      chance: 4
       blocks:
-      - minecraft:oxeye_daisy;3
-      - minecraft:allium;6
-      - minecraft:grass;60
-      - minecraft:fern;50
-      - minecraft:brown_mushroom;10
-      - minecraft:red_mushroom;10
-      - minecraft:pumpkin;1
-      - minecraft:large_fern[half=lower];25
+      - minecraft:oxeye_daisy;30
+      - minecraft:allium;60
+      - minecraft:grass;900
+      - minecraft:fern;1000
+      - minecraft:brown_mushroom;50
+      - minecraft:red_mushroom;50
+      - minecraft:pumpkin;6
+      - minecraft:sweet_berry_bush[age=2];15
+      - minecraft:large_fern[half=lower];800
+      - minecraft:tall_grass[half=lower];200
     trees:
-      chance: 2300
+      chance:
+        weight: 1.0
+        random: 1.0E7
+        min: 0.0
+        max: 100000.0
       trees:
       - SHEMATIC_gmc_taiga::5000
       - SHEMATIC_gmc_taiga_0::5000
@@ -1647,16 +1904,20 @@ biomes:
       - SHEMATIC_gmc_taiga_14::5000
       - SHEMATIC_gmc_taiga_15::5000
       - SHEMATIC_gmc_taiga_16::5000
-      - SHEMATIC_gmc_taiga_drop_2::300
+#      - SHEMATIC_gmc_taiga_drop_2::300
       - SHEMATIC_gmc_taiga_drop_3::1100
-      - SHEMATIC_gmc_taiga_drop_4::1100
+#      - SHEMATIC_gmc_taiga_drop_4::1100
       - SHEMATIC_gmc_taiga_drop_5::1100
       - SHEMATIC_gmc_taiga_drop_6::1100
       - SHEMATIC_gmc_mossystone::2000
       - SHEMATIC_gmc_mossystone_0::2000
       - SHEMATIC_gmc_mossystone_1::2000
     structures:
-      chance: 6
+      chance:
+        weight: 1.0
+        random: 1.0E7
+        min: 0.0
+        max: 600.0
       structures:
       - DUNGEON::6
     layer:
@@ -1686,18 +1947,24 @@ biomes:
       - minecraft:granite;25
   TAIGA_HILLS:
     overlay:
-      chance: 6
+      chance: 4
       blocks:
-      - minecraft:oxeye_daisy;3
-      - minecraft:allium;6
-      - minecraft:grass;60
-      - minecraft:fern;50
-      - minecraft:brown_mushroom;10
-      - minecraft:red_mushroom;10
-      - minecraft:pumpkin;1
-      - minecraft:large_fern[half=lower];25
+      - minecraft:oxeye_daisy;30
+      - minecraft:allium;60
+      - minecraft:grass;900
+      - minecraft:fern;1000
+      - minecraft:brown_mushroom;50
+      - minecraft:red_mushroom;50
+      - minecraft:pumpkin;6
+      - minecraft:sweet_berry_bush[age=2];15
+      - minecraft:large_fern[half=lower];800
+      - minecraft:tall_grass[half=lower];200
     trees:
-      chance: 2300
+      chance:
+        weight: 1.0
+        random: 1.0E7
+        min: 0.0
+        max: 100000.0
       trees:
       - SHEMATIC_gmc_taiga::5000
       - SHEMATIC_gmc_taiga_0::5000
@@ -1716,16 +1983,20 @@ biomes:
       - SHEMATIC_gmc_taiga_14::5000
       - SHEMATIC_gmc_taiga_15::5000
       - SHEMATIC_gmc_taiga_16::5000
-      - SHEMATIC_gmc_taiga_drop_2::300
+#      - SHEMATIC_gmc_taiga_drop_2::300
       - SHEMATIC_gmc_taiga_drop_3::1100
-      - SHEMATIC_gmc_taiga_drop_4::1100
+#      - SHEMATIC_gmc_taiga_drop_4::1100
       - SHEMATIC_gmc_taiga_drop_5::1100
       - SHEMATIC_gmc_taiga_drop_6::1100
       - SHEMATIC_gmc_mossystone::2000
       - SHEMATIC_gmc_mossystone_0::2000
       - SHEMATIC_gmc_mossystone_1::2000
     structures:
-      chance: 6
+      chance:
+        weight: 1.0
+        random: 1.0E7
+        min: 0.0
+        max: 600.0
       structures:
       - DUNGEON::6
     layer:
@@ -1755,18 +2026,24 @@ biomes:
       - minecraft:granite;25
   TAIGA_MOUNTAINS:
     overlay:
-      chance: 6
+      chance: 4
       blocks:
-      - minecraft:oxeye_daisy;3
-      - minecraft:allium;6
-      - minecraft:grass;60
-      - minecraft:fern;50
-      - minecraft:brown_mushroom;10
-      - minecraft:red_mushroom;10
-      - minecraft:pumpkin;1
-      - minecraft:large_fern[half=lower];25
+      - minecraft:oxeye_daisy;30
+      - minecraft:allium;60
+      - minecraft:grass;900
+      - minecraft:fern;1000
+      - minecraft:brown_mushroom;50
+      - minecraft:red_mushroom;50
+      - minecraft:pumpkin;6
+      - minecraft:sweet_berry_bush[age=2];15
+      - minecraft:large_fern[half=lower];800
+      - minecraft:tall_grass[half=lower];200
     trees:
-      chance: 2200
+      chance:
+        weight: 1.0
+        random: 1.0E7
+        min: 0.0
+        max: 100000.0
       trees:
       - SHEMATIC_gmc_taiga::5000
       - SHEMATIC_gmc_taiga_0::5000
@@ -1785,16 +2062,20 @@ biomes:
       - SHEMATIC_gmc_taiga_14::5000
       - SHEMATIC_gmc_taiga_15::5000
       - SHEMATIC_gmc_taiga_16::5000
-      - SHEMATIC_gmc_taiga_drop_2::300
+#      - SHEMATIC_gmc_taiga_drop_2::300
       - SHEMATIC_gmc_taiga_drop_3::1100
-      - SHEMATIC_gmc_taiga_drop_4::1100
+#      - SHEMATIC_gmc_taiga_drop_4::1100
       - SHEMATIC_gmc_taiga_drop_5::1100
       - SHEMATIC_gmc_taiga_drop_6::1100
       - SHEMATIC_gmc_mossystone::2000
       - SHEMATIC_gmc_mossystone_0::2000
       - SHEMATIC_gmc_mossystone_1::2000
     structures:
-      chance: 6
+      chance:
+        weight: 1.0
+        random: 1.0E7
+        min: 0.0
+        max: 600.0
       structures:
       - DUNGEON::6
     layer:
@@ -1831,13 +2112,21 @@ biomes:
       - minecraft:snow[layers=6];900
       - minecraft:snow[layers=7];800
     trees:
-      chance: 4000
+      chance:
+        weight: 1.0
+        random: 1.0E7
+        min: 0.0
+        max: 45000.0
       trees:
       - SHEMATIC_gmc_snowspruce::4000
       - SHEMATIC_gmc_snowspruce_0::4000
       - SHEMATIC_gmc_snowspruce_1::4000
     structures:
-      chance: 6
+      chance:
+        weight: 1.0
+        random: 1.0E7
+        min: 0.0
+        max: 600.0
       structures:
       - DUNGEON::6
     layer:
@@ -1867,13 +2156,21 @@ biomes:
       - minecraft:snow[layers=6];900
       - minecraft:snow[layers=7];800
     trees:
-      chance: 4000
+      chance:
+        weight: 1.0
+        random: 1.0E7
+        min: 0.0
+        max: 35000.0
       trees:
       - SHEMATIC_gmc_snowspruce::4000
       - SHEMATIC_gmc_snowspruce_0::4000
       - SHEMATIC_gmc_snowspruce_1::4000
     structures:
-      chance: 6
+      chance:
+        weight: 1.0
+        random: 1.0E7
+        min: 0.0
+        max: 600.0
       structures:
       - DUNGEON::6
     layer:
@@ -1903,13 +2200,21 @@ biomes:
       - minecraft:snow[layers=6];900
       - minecraft:snow[layers=7];800
     trees:
-      chance: 4000
+      chance:
+        weight: 1.0
+        random: 1.0E7
+        min: 0.0
+        max: 30000.0
       trees:
       - SHEMATIC_gmc_snowspruce::4000
       - SHEMATIC_gmc_snowspruce_0::4000
       - SHEMATIC_gmc_snowspruce_1::4000
     structures:
-      chance: 6
+      chance:
+        weight: 1.0
+        random: 1.0E7
+        min: 0.0
+        max: 600.0
       structures:
       - DUNGEON::6
     layer:
@@ -1932,13 +2237,17 @@ biomes:
       - minecraft:granite;45
   EXTREME_HILLS:
     overlay:
-      chance: 100
+      chance: 6
       blocks:
       - minecraft:grass;100
       - minecraft:brown_mushroom;5
       - minecraft:red_mushroom;5
     trees:
-      chance: 500
+      chance:
+        weight: 1.0
+        random: 1.0E7
+        min: 0.0
+        max: 5000.0
       trees:
       - SHEMATIC_gmc_dark_oak::4000
       - SHEMATIC_gmc_dark_oak_0::4000
@@ -1952,7 +2261,11 @@ biomes:
       - OAK_TREE_2::4000
       - OAK_TREE_1::4000
     structures:
-      chance: 6
+      chance:
+        weight: 1.0
+        random: 1.0E7
+        min: 0.0
+        max: 600.0
       structures:
       - DUNGEON::6
     layer:
@@ -1982,13 +2295,17 @@ biomes:
       - minecraft:granite;25
   EXTREME_MOUNTAINS:
     overlay:
-      chance: 100
+      chance: 6
       blocks:
       - minecraft:grass;100
       - minecraft:brown_mushroom;5
       - minecraft:red_mushroom;5
     trees:
-      chance: 300
+      chance:
+        weight: 1.0
+        random: 1.0E7
+        min: 0.0
+        max: 26660.0
       trees:
       - SHEMATIC_gmc_dark_oak::4000
       - SHEMATIC_gmc_dark_oak_0::4000
@@ -2002,7 +2319,11 @@ biomes:
       - OAK_TREE_2::4000
       - OAK_TREE_1::4000
     structures:
-      chance: 6
+      chance:
+        weight: 1.0
+        random: 1.0E7
+        min: 0.0
+        max: 600.0
       structures:
       - DUNGEON::6
     layer:
@@ -2041,7 +2362,11 @@ biomes:
       - minecraft:fern;50
       - minecraft:dead_bush;20
     trees:
-      chance: 2666
+      chance:
+        weight: 1.0
+        random: 1.0E7
+        min: 0.0
+        max: 8000.0
       trees:
       - SHEMATIC_gmc_savanna::2666
       - SHEMATIC_gmc_savanna_0::2666
@@ -2051,7 +2376,11 @@ biomes:
       - SHEMATIC_gmc_savanna_4::2666
       - SHEMATIC_gmc_savanna_5::2666
     structures:
-      chance: 6
+      chance:
+        weight: 1.0
+        random: 1.0E7
+        min: 0.0
+        max: 600.0
       structures:
       - DUNGEON::6
     layer:
@@ -2091,7 +2420,11 @@ biomes:
       - minecraft:fern;50
       - minecraft:dead_bush;20
     trees:
-      chance: 2400
+      chance:
+        weight: 1.0
+        random: 1.0E7
+        min: 0.0
+        max: 8000.0
       trees:
       - SHEMATIC_gmc_savanna::2666
       - SHEMATIC_gmc_savanna_0::2666
@@ -2101,7 +2434,11 @@ biomes:
       - SHEMATIC_gmc_savanna_4::2666
       - SHEMATIC_gmc_savanna_5::2666
     structures:
-      chance: 6
+      chance:
+        weight: 1.0
+        random: 1.0E7
+        min: 0.0
+        max: 600.0
       structures:
       - DUNGEON::6
     layer:
@@ -2143,14 +2480,22 @@ biomes:
       - minecraft:brown_mushroom;12
       - minecraft:red_mushroom;12
     trees:
-      chance: 2000
+      chance:
+        weight: 1.0
+        random: 1.0E7
+        min: 0.0
+        max: 20000.0
       trees:
       - DEATH_TREE_3::2000
       - DEATH_TREE_2::2000
       - DEATH_TREE_4::2000
       - DEATH_TREE_1::2000
     structures:
-      chance: 6
+      chance:
+        weight: 1.0
+        random: 1.0E7
+        min: 0.0
+        max: 600.0
       structures:
       - DUNGEON::6
     layer:
@@ -2180,3 +2525,13 @@ biomes:
       - minecraft:dirt;2
       - minecraft:andesite;25
       - minecraft:granite;25
+#
+#
+# ░░░░░░░░░░░░░░░░▄▓▄
+# ░░░░▄█▄░░░░░░░░▄▓▓▓▄
+# ░░▄█████▄░░░░░▄▓▓▓▓▓▄
+# ░▀██┼█┼██▀░░░▄▓▓▓▓▓▓▓▄
+# ▄▄███████▄▄▄▄▄▄▄▄█▄▄▄▄
+# Developed by Envel
+# Nikita Gutsenkov
+# n.gucenkov@gmail.com

@@ -1,10 +1,9 @@
-Customization:
-  Generation-Version: 1
-  Biome-Size: 3000
-  New-Generation: true
-  Minecraft-Biomes: true
-  One-Biome:
-    Enabled: false
-    Biome: JUNGLE
-Information:
-  Plugin-Version: 4.1.8
+customization:
+  one_biome:
+    biome: LUKEWARM_OCEAN
+    enabled: false
+  flat_spawn:
+    radius: 40
+    fading: 20
+    enabled: false
+    height: 70

@@ -1,3 +1,30 @@
+#                       ┏━━━┓╋╋╋╋╋╋╋┏┳━┓┏━┳━━━┓
+#                       ┃┏━┓┃╋╋╋╋╋╋╋┃┃┃┗┛┃┃┏━┓┃
+#                       ┃┃╋┗╋━━┳━━┳━┛┃┏┓┏┓┃┃╋┗┛
+#                       ┃┃┏━┫┏┓┃┏┓┃┏┓┃┃┃┃┃┃┃╋┏┓
+#                       ┃┗┻━┃┗┛┃┗┛┃┗┛┃┃┃┃┃┃┗━┛┃
+# ∙∙·▫▫ᵒᴼᵒ▫ₒₒ▫ᵒᴼᵒ▫ₒₒ▫ᵒᴼᵒ┗━━━┻━━┻━━┻━━┻┛┗┛┗┻━━━┛ᵒᴼᵒ▫ₒₒ▫ᵒᴼᵒ▫ₒₒ▫ᵒᴼᵒ▫▫·∙∙
+#
+# --- EN ---
+#
+# This configuration is developed on GoodMC.ru
+# GoodMC is a non-commercial game server project.
+# May contain structures that are protected by copyright.
+#
+# Please indicate to the players that the generation belongs to GoodMC for the purpose of gratitude.
+#
+# Have a nice game!
+#
+#  --- RU ---
+#
+# Эта конфигурация пренадлежит GoodMC.ru
+# GoodMC - некоммерческий проект игровых серверов.
+# Структуры могут быть защищены авторским правом.
+# 
+# Пожалуйста, указывайте игрокам принадлежность генерации к GoodMC в целях благодарности.
+#
+# Приятной игры!
+#
 saplings:
   oak:
   - OAK_TREE_1
@@ -10,10 +37,10 @@ saplings:
   - BIG_OAK_TREE_3
   - BIG_OAK_TREE_4
   birch:
-  - gmc_birch
-  - gmc_birch_0
-  - gmc_birch_1
-  - gmc_birch_2
+  - gmc_BIRCH_TREE_4
+  - gmc_BIRCH_TREE_3
+  - gmc_BIRCH_TREE_2
+  - gmc_BIRCH_TREE_1
   pine:
   - gmc_taiga
   - gmc_taiga_0
@@ -32,15 +59,15 @@ saplings:
   - gmc_taiga_15
   - gmc_taiga_16
   jungle:
-  - gmc_jungle
-  - gmc_jungle_1
-  - gmc_jungle_2
-  - gmc_jungle_3
-  - gmc_jungle_4
-  - gmc_jungle_5
-  - gmc_jungle_6
-  - gmc_jungle_7
-  - gmc_jungle_8
+  - SHEMATIC_gmc_jungle_v2
+  - SHEMATIC_gmc_jungle_1_v2
+  - SHEMATIC_gmc_jungle_2_v2
+  - SHEMATIC_gmc_jungle_3_v2
+  - SHEMATIC_gmc_jungle_4_v2
+  - SHEMATIC_gmc_jungle_5_v2
+  - SHEMATIC_gmc_jungle_6_v2
+  - SHEMATIC_gmc_jungle_7_v2
+  - SHEMATIC_gmc_jungle_8_v2
   dark:
   - gmc_dark_oak
   - gmc_dark_oak_0
@@ -58,3 +85,13 @@ saplings:
   - gmc_savanna_5
 grow:
   replaceBlocks: true
+#
+#
+# ░░░░░░░░░░░░░░░░▄▓▄
+# ░░░░▄█▄░░░░░░░░▄▓▓▓▄
+# ░░▄█████▄░░░░░▄▓▓▓▓▓▄
+# ░▀██┼█┼██▀░░░▄▓▓▓▓▓▓▓▄
+# ▄▄███████▄▄▄▄▄▄▄▄█▄▄▄▄
+# Developed by Envel
+# Nikita Gutsenkov
+# n.gucenkov@gmail.com
