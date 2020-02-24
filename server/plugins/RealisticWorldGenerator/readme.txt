@@ -13,9 +13,6 @@
 #
 # Please indicate to the players that the generation belongs to GoodMC for the purpose of gratitude.
 #
-# RWG is used together with proprietary plugins and textures, 
-# so the result will be different from our servers and screenshots.
-#
 # Have a nice game!
 #
 #  --- RU ---
