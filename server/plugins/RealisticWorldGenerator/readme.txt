@@ -34,7 +34,9 @@
 #
 # Game version: 1.14.4
 # RWG version: 4.6.7
+# Configuration version: 2.0 BETA
 # Server: 3+GB RAM, 2+ cores
+# Others: It is recommended to use only on maps with the "large biomes" parameter.
 #
 # ░░░░░░░░░░░░░░░░▄▓▄
 # ░░░░▄█▄░░░░░░░░▄▓▓▓▄
