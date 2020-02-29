@@ -1,0 +1,209 @@
+entity:
+  default:
+    enable: false
+    delay: 1200
+    period: 20
+    instantRegen: false
+    disableBlockDamage: false
+    particles:
+      blockRegen:
+        particle: heart
+        enable: false
+      blockToBeRegen:
+        particle: flame
+        enable: false
+    sound:
+      enable: false
+      sound: BLOCK_GRASS_PLACE
+      volume: 1.0
+      pitch: 2.0
+    triggers:
+      defaultWorld0:
+        minY: 50.0
+        maxY: 256.0
+      defaultWorld1:
+        minY: 50.0
+        maxY: 256.0
+      defaultWorld2:
+        minY: 50.0
+        maxY: 256.0
+  fireball:
+    enable: false
+    delay: 1200
+    period: 20
+    instantRegen: false
+    disableBlockDamage: false
+    particles:
+      blockRegen:
+        particle: heart
+        enable: false
+      blockToBeRegen:
+        particle: flame
+        enable: false
+    sound:
+      enable: false
+      sound: BLOCK_GRASS_PLACE
+      volume: 1.0
+      pitch: 2.0
+  small_fireball:
+    enable: false
+    delay: 1200
+    period: 20
+    instantRegen: false
+    disableBlockDamage: false
+    particles:
+      blockRegen:
+        particle: heart
+        enable: false
+      blockToBeRegen:
+        particle: flame
+        enable: false
+    sound:
+      enable: false
+      sound: BLOCK_GRASS_PLACE
+      volume: 1.0
+      pitch: 2.0
+    triggers:
+      world:
+        minY: 50.0
+        maxY: 256.0
+  wither_skull:
+    enable: true
+    delay: 6000
+    period: 20
+    instantRegen: false
+    disableBlockDamage: false
+    particles:
+      blockRegen:
+        particle: heart
+        enable: false
+      blockToBeRegen:
+        particle: flame
+        enable: false
+    sound:
+      enable: false
+      sound: BLOCK_GRASS_PLACE
+      volume: 1.0
+      pitch: 2.0
+    triggers:
+      world:
+        minY: 50.0
+        maxY: 256.0
+  primed_tnt:
+    enable: false
+    delay: 1200
+    period: 20
+    instantRegen: false
+    disableBlockDamage: false
+    particles:
+      blockRegen:
+        particle: heart
+        enable: false
+      blockToBeRegen:
+        particle: flame
+        enable: false
+    sound:
+      enable: false
+      sound: BLOCK_GRASS_PLACE
+      volume: 1.0
+      pitch: 2.0
+    triggers:
+      world:
+        minY: 50.0
+        maxY: 256.0
+  dragon_fireball:
+    enable: false
+    delay: 1200
+    period: 20
+    instantRegen: false
+    disableBlockDamage: false
+    particles:
+      blockRegen:
+        particle: heart
+        enable: false
+      blockToBeRegen:
+        particle: flame
+        enable: false
+    sound:
+      enable: false
+      sound: BLOCK_GRASS_PLACE
+      volume: 1.0
+      pitch: 2.0
+    triggers:
+      world:
+        minY: 50.0
+        maxY: 256.0
+  minecart_tnt:
+    enable: true
+    delay: 6000
+    period: 20
+    instantRegen: false
+    disableBlockDamage: false
+    particles:
+      blockRegen:
+        particle: heart
+        enable: false
+      blockToBeRegen:
+        particle: flame
+        enable: false
+    sound:
+      enable: false
+      sound: BLOCK_GRASS_PLACE
+      volume: 1.0
+      pitch: 2.0
+    triggers:
+      world:
+        minY: 50.0
+        maxY: 256.0
+  creeper:
+    enable: true
+    delay: 6000
+    period: 20
+    instantRegen: false
+    disableBlockDamage: false
+    particles:
+      blockRegen:
+        particle: heart
+        enable: false
+      blockToBeRegen:
+        particle: flame
+        enable: false
+    sound:
+      enable: false
+      sound: BLOCK_GRASS_PLACE
+      volume: 1.0
+      pitch: 2.0
+    triggers:
+      world:
+        minY: 50.0
+        maxY: 256.0
+  ender_crystal:
+    enable: false
+    delay: 1200
+    period: 20
+    instantRegen: false
+    disableBlockDamage: false
+    particles:
+      blockRegen:
+        particle: heart
+        enable: false
+      blockToBeRegen:
+        particle: flame
+        enable: false
+    sound:
+      enable: false
+      sound: BLOCK_GRASS_PLACE
+      volume: 1.0
+      pitch: 2.0
+    triggers:
+      world:
+        minY: 50.0
+        maxY: 256.0
+other:
+  enablePlugin: true
+  forceBlockToRegen: false
+  griefPreventionPluginAllowExplosionRegen: false
+  gravity:
+    shiftGravityUp: true
+    maxShiftGravityUp: 5
+  NoPermMsg: '&c[TnTRegen] You do not have permission to use this command!'

@@ -1,0 +1,17 @@
+# Основные сообщения
+
+prefix: "&f[Рубка деревьев] "
+no-permission: "&fУ вас недостаточно прав."
+
+# Ответы на команды(при использовании команд)
+
+command-reload-description: "&8 - &a/ut reload &7 - Перезагрузка конфигурации."
+command-reload-reloaded: "&fКонфигурация и локальные файлы были перезагружены."
+
+command-toggle-description: "&f - &a/ut toggle &f - Включить/выключить режим измельчения."
+command-toggle-enabled: "&fРежим измельчения: &aВключен"
+command-toggle-disabled: "&fРежим измельчения: &cВыключен"
+
+# Разное
+
+on-cooldown: "&fВы не можете срубать деревья так часто."

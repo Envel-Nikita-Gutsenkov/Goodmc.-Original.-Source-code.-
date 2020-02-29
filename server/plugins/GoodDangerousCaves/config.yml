@@ -4,7 +4,14 @@
 #                       ┃┃┏━┫┏┓┃┏┓┃┏┓┃┃┃┃┃┃┃╋┏┓
 #                       ┃┗┻━┃┗┛┃┗┛┃┗┛┃┃┃┃┃┃┗━┛┃
 # ∙∙·▫▫ᵒᴼᵒ▫ₒₒ▫ᵒᴼᵒ▫ₒₒ▫ᵒᴼᵒ┗━━━┻━━┻━━┻━━┻┛┗┛┗┻━━━┛ᵒᴼᵒ▫ₒₒ▫ᵒᴼᵒ▫ₒₒ▫ᵒᴼᵒ▫▫·∙∙
-#
+'Cave Skulls ': true
+'Enable Easter Egg ': true
+:Below is used to store information: 1
+:Do Not Modify Anything Below This: 1
+:Doing So Can Result in Messed up Worlds: 1
+002roomx: -1
+002roomy: -1
+002roomz: -1
 'Enable Cave-Ins ': true
 'Enable Hungering Darkness ': true
 'Enable Ambient Sounds ': true
@@ -24,7 +31,7 @@
 'Darkness Spawn Chance ': 5
 'Cave Structure Chance ': 0
 'Hungering Darkness Damage ': 10
-'Monster Spawning Highest Y ': 50
+'Monster Spawning Highest Y ': 40
 'Monster Spawning Lowest Y ': 0
 ':::::::::::::::::::::::::::::::::::': ''
 'Traps Rate ': 0
@@ -54,7 +61,7 @@
 'Magma Monster Chance ': 1
 'Lava Creeper Chance ': 2
 'TnT Creeper Chance ': 2
-'Watcher Chance ': 1
+'Watcher Chance ': 3
 'Smoke Demon Chance ': 2
 'Alpha Spider Chance ': 1
 'Dead Miner Chance ': 1
@@ -81,12 +88,3 @@
 - FLINT
 - COBBLESTONE
 - CRAFTING_TABLE
-#
-# ░░░░░░░░░░░░░░░░▄▓▄
-# ░░░░▄█▄░░░░░░░░▄▓▓▓▄
-# ░░▄█████▄░░░░░▄▓▓▓▓▓▄
-# ░▀██┼█┼██▀░░░▄▓▓▓▓▓▓▓▄
-# ▄▄███████▄▄▄▄▄▄▄▄█▄▄▄▄
-# Developed by Envel
-# Nikita Gutsenkov
-# Ngucenkov@yandex.ru

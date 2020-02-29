@@ -1,0 +1,4742 @@
+acacia_button:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: acacia_button
+  chance: 30
+acacia_door:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: acacia_door
+  chance: 30
+acacia_fence:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: acacia_fence
+  chance: 30
+acacia_fence_gate:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: acacia_fence_gate
+  chance: 30
+acacia_leaves:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: acacia_leaves
+  chance: 30
+acacia_log:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: acacia_log
+  chance: 30
+acacia_planks:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: acacia_planks
+  chance: 30
+acacia_pressure_plate:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: acacia_pressure_plate
+  chance: 30
+acacia_sapling:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: acacia_sapling
+  chance: 30
+acacia_sign:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: acacia_sign
+  chance: 30
+acacia_slab:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: acacia_slab
+  chance: 30
+acacia_stairs:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: acacia_stairs
+  chance: 30
+acacia_trapdoor:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: acacia_trapdoor
+  chance: 30
+acacia_wall_sign:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: acacia_wall_sign
+  chance: 30
+acacia_wood:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: acacia_wood
+  chance: 30
+activator_rail:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: activator_rail
+  chance: 30
+air:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: air
+  chance: 30
+allium:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: allium
+  chance: 30
+andesite:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: andesite
+  chance: 30
+andesite_slab:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: andesite_slab
+  chance: 30
+andesite_stairs:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: andesite_stairs
+  chance: 30
+andesite_wall:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: andesite_wall
+  chance: 30
+anvil:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: anvil
+  chance: 30
+attached_melon_stem:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: attached_melon_stem
+  chance: 30
+attached_pumpkin_stem:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: attached_pumpkin_stem
+  chance: 30
+azure_bluet:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: azure_bluet
+  chance: 30
+bamboo:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: bamboo
+  chance: 30
+bamboo_sapling:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: bamboo_sapling
+  chance: 30
+barrel:
+  doPreventDamage: false
+  regen: true
+  saveItems: true
+  replace:
+    doReplace: false
+    replaceWith: barrel
+  chance: 30
+barrier:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: barrier
+  chance: 30
+beacon:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: beacon
+  chance: 30
+bedrock:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: bedrock
+  chance: 30
+beetroots:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: beetroots
+  chance: 30
+bell:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: bell
+  chance: 30
+birch_button:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: birch_button
+  chance: 30
+birch_door:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: birch_door
+  chance: 30
+birch_fence:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: birch_fence
+  chance: 30
+birch_fence_gate:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: birch_fence_gate
+  chance: 30
+birch_leaves:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: birch_leaves
+  chance: 30
+birch_log:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: birch_log
+  chance: 30
+birch_planks:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: birch_planks
+  chance: 30
+birch_pressure_plate:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: birch_pressure_plate
+  chance: 30
+birch_sapling:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: birch_sapling
+  chance: 30
+birch_sign:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: birch_sign
+  chance: 30
+birch_slab:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: birch_slab
+  chance: 30
+birch_stairs:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: birch_stairs
+  chance: 30
+birch_trapdoor:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: birch_trapdoor
+  chance: 30
+birch_wall_sign:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: birch_wall_sign
+  chance: 30
+birch_wood:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: birch_wood
+  chance: 30
+black_banner:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: black_banner
+  chance: 30
+black_bed:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: black_bed
+  chance: 30
+black_carpet:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: black_carpet
+  chance: 30
+black_concrete:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: black_concrete
+  chance: 30
+black_concrete_powder:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: black_concrete_powder
+  chance: 30
+black_glazed_terracotta:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: black_glazed_terracotta
+  chance: 30
+black_shulker_box:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: black_shulker_box
+  chance: 30
+black_stained_glass:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: black_stained_glass
+  chance: 30
+black_stained_glass_pane:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: black_stained_glass_pane
+  chance: 30
+black_terracotta:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: black_terracotta
+  chance: 30
+black_wall_banner:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: black_wall_banner
+  chance: 30
+black_wool:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: black_wool
+  chance: 30
+blast_furnace:
+  doPreventDamage: false
+  regen: true
+  saveItems: true
+  replace:
+    doReplace: false
+    replaceWith: blast_furnace
+  chance: 30
+blue_banner:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: blue_banner
+  chance: 30
+blue_bed:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: blue_bed
+  chance: 30
+blue_carpet:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: blue_carpet
+  chance: 30
+blue_concrete:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: blue_concrete
+  chance: 30
+blue_concrete_powder:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: blue_concrete_powder
+  chance: 30
+blue_glazed_terracotta:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: blue_glazed_terracotta
+  chance: 30
+blue_ice:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: blue_ice
+  chance: 30
+blue_orchid:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: blue_orchid
+  chance: 30
+blue_shulker_box:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: blue_shulker_box
+  chance: 30
+blue_stained_glass:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: blue_stained_glass
+  chance: 30
+blue_stained_glass_pane:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: blue_stained_glass_pane
+  chance: 30
+blue_terracotta:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: blue_terracotta
+  chance: 30
+blue_wall_banner:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: blue_wall_banner
+  chance: 30
+blue_wool:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: blue_wool
+  chance: 30
+bone_block:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: bone_block
+  chance: 30
+bookshelf:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: bookshelf
+  chance: 30
+brain_coral:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: brain_coral
+  chance: 30
+brain_coral_block:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: brain_coral_block
+  chance: 30
+brain_coral_fan:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: brain_coral_fan
+  chance: 30
+brain_coral_wall_fan:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: brain_coral_wall_fan
+  chance: 30
+brewing_stand:
+  doPreventDamage: false
+  regen: true
+  saveItems: true
+  replace:
+    doReplace: false
+    replaceWith: brewing_stand
+  chance: 30
+bricks:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: bricks
+  chance: 30
+brick_slab:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: brick_slab
+  chance: 30
+brick_stairs:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: brick_stairs
+  chance: 30
+brick_wall:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: brick_wall
+  chance: 30
+brown_banner:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: brown_banner
+  chance: 30
+brown_bed:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: brown_bed
+  chance: 30
+brown_carpet:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: brown_carpet
+  chance: 30
+brown_concrete:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: brown_concrete
+  chance: 30
+brown_concrete_powder:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: brown_concrete_powder
+  chance: 30
+brown_glazed_terracotta:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: brown_glazed_terracotta
+  chance: 30
+brown_mushroom:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: brown_mushroom
+  chance: 30
+brown_mushroom_block:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: brown_mushroom_block
+  chance: 30
+brown_shulker_box:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: brown_shulker_box
+  chance: 30
+brown_stained_glass:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: brown_stained_glass
+  chance: 30
+brown_stained_glass_pane:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: brown_stained_glass_pane
+  chance: 30
+brown_terracotta:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: brown_terracotta
+  chance: 30
+brown_wall_banner:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: brown_wall_banner
+  chance: 30
+brown_wool:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: brown_wool
+  chance: 30
+bubble_column:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: bubble_column
+  chance: 30
+bubble_coral:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: bubble_coral
+  chance: 30
+bubble_coral_block:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: bubble_coral_block
+  chance: 30
+bubble_coral_fan:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: bubble_coral_fan
+  chance: 30
+bubble_coral_wall_fan:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: bubble_coral_wall_fan
+  chance: 30
+cactus:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: cactus
+  chance: 30
+cake:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: cake
+  chance: 30
+campfire:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: campfire
+  chance: 30
+carrots:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: carrots
+  chance: 30
+cartography_table:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: cartography_table
+  chance: 30
+carved_pumpkin:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: carved_pumpkin
+  chance: 30
+cauldron:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: cauldron
+  chance: 30
+cave_air:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: cave_air
+  chance: 30
+chain_command_block:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: chain_command_block
+  chance: 30
+chest:
+  doPreventDamage: false
+  regen: true
+  saveItems: true
+  replace:
+    doReplace: false
+    replaceWith: chest
+  chance: 30
+chipped_anvil:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: chipped_anvil
+  chance: 30
+chiseled_quartz_block:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: chiseled_quartz_block
+  chance: 30
+chiseled_red_sandstone:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: chiseled_red_sandstone
+  chance: 30
+chiseled_sandstone:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: chiseled_sandstone
+  chance: 30
+chiseled_stone_bricks:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: chiseled_stone_bricks
+  chance: 30
+chorus_flower:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: chorus_flower
+  chance: 30
+chorus_plant:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: chorus_plant
+  chance: 30
+clay:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: clay
+  chance: 30
+coal_block:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: coal_block
+  chance: 30
+coal_ore:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: coal_ore
+  chance: 30
+coarse_dirt:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: coarse_dirt
+  chance: 30
+cobblestone:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: cobblestone
+  chance: 30
+cobblestone_slab:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: cobblestone_slab
+  chance: 30
+cobblestone_stairs:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: cobblestone_stairs
+  chance: 30
+cobblestone_wall:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: cobblestone_wall
+  chance: 30
+cobweb:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: cobweb
+  chance: 30
+cocoa:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: cocoa
+  chance: 30
+command_block:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: command_block
+  chance: 30
+comparator:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: comparator
+  chance: 30
+composter:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: composter
+  chance: 30
+conduit:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: conduit
+  chance: 30
+cornflower:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: cornflower
+  chance: 30
+cracked_stone_bricks:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: cracked_stone_bricks
+  chance: 30
+crafting_table:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: crafting_table
+  chance: 30
+creeper_head:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: creeper_head
+  chance: 30
+creeper_wall_head:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: creeper_wall_head
+  chance: 30
+cut_red_sandstone:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: cut_red_sandstone
+  chance: 30
+cut_red_sandstone_slab:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: cut_red_sandstone_slab
+  chance: 30
+cut_sandstone:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: cut_sandstone
+  chance: 30
+cut_sandstone_slab:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: cut_sandstone_slab
+  chance: 30
+cyan_banner:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: cyan_banner
+  chance: 30
+cyan_bed:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: cyan_bed
+  chance: 30
+cyan_carpet:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: cyan_carpet
+  chance: 30
+cyan_concrete:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: cyan_concrete
+  chance: 30
+cyan_concrete_powder:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: cyan_concrete_powder
+  chance: 30
+cyan_glazed_terracotta:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: cyan_glazed_terracotta
+  chance: 30
+cyan_shulker_box:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: cyan_shulker_box
+  chance: 30
+cyan_stained_glass:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: cyan_stained_glass
+  chance: 30
+cyan_stained_glass_pane:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: cyan_stained_glass_pane
+  chance: 30
+cyan_terracotta:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: cyan_terracotta
+  chance: 30
+cyan_wall_banner:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: cyan_wall_banner
+  chance: 30
+cyan_wool:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: cyan_wool
+  chance: 30
+damaged_anvil:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: damaged_anvil
+  chance: 30
+dandelion:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: dandelion
+  chance: 30
+dark_oak_button:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: dark_oak_button
+  chance: 30
+dark_oak_door:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: dark_oak_door
+  chance: 30
+dark_oak_fence:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: dark_oak_fence
+  chance: 30
+dark_oak_fence_gate:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: dark_oak_fence_gate
+  chance: 30
+dark_oak_leaves:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: dark_oak_leaves
+  chance: 30
+dark_oak_log:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: dark_oak_log
+  chance: 30
+dark_oak_planks:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: dark_oak_planks
+  chance: 30
+dark_oak_pressure_plate:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: dark_oak_pressure_plate
+  chance: 30
+dark_oak_sapling:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: dark_oak_sapling
+  chance: 30
+dark_oak_sign:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: dark_oak_sign
+  chance: 30
+dark_oak_slab:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: dark_oak_slab
+  chance: 30
+dark_oak_stairs:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: dark_oak_stairs
+  chance: 30
+dark_oak_trapdoor:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: dark_oak_trapdoor
+  chance: 30
+dark_oak_wall_sign:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: dark_oak_wall_sign
+  chance: 30
+dark_oak_wood:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: dark_oak_wood
+  chance: 30
+dark_prismarine:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: dark_prismarine
+  chance: 30
+dark_prismarine_slab:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: dark_prismarine_slab
+  chance: 30
+dark_prismarine_stairs:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: dark_prismarine_stairs
+  chance: 30
+daylight_detector:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: daylight_detector
+  chance: 30
+dead_brain_coral:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: dead_brain_coral
+  chance: 30
+dead_brain_coral_block:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: dead_brain_coral_block
+  chance: 30
+dead_brain_coral_fan:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: dead_brain_coral_fan
+  chance: 30
+dead_brain_coral_wall_fan:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: dead_brain_coral_wall_fan
+  chance: 30
+dead_bubble_coral:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: dead_bubble_coral
+  chance: 30
+dead_bubble_coral_block:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: dead_bubble_coral_block
+  chance: 30
+dead_bubble_coral_fan:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: dead_bubble_coral_fan
+  chance: 30
+dead_bubble_coral_wall_fan:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: dead_bubble_coral_wall_fan
+  chance: 30
+dead_bush:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: dead_bush
+  chance: 30
+dead_fire_coral:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: dead_fire_coral
+  chance: 30
+dead_fire_coral_block:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: dead_fire_coral_block
+  chance: 30
+dead_fire_coral_fan:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: dead_fire_coral_fan
+  chance: 30
+dead_fire_coral_wall_fan:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: dead_fire_coral_wall_fan
+  chance: 30
+dead_horn_coral:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: dead_horn_coral
+  chance: 30
+dead_horn_coral_block:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: dead_horn_coral_block
+  chance: 30
+dead_horn_coral_fan:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: dead_horn_coral_fan
+  chance: 30
+dead_horn_coral_wall_fan:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: dead_horn_coral_wall_fan
+  chance: 30
+dead_tube_coral:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: dead_tube_coral
+  chance: 30
+dead_tube_coral_block:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: dead_tube_coral_block
+  chance: 30
+dead_tube_coral_fan:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: dead_tube_coral_fan
+  chance: 30
+dead_tube_coral_wall_fan:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: dead_tube_coral_wall_fan
+  chance: 30
+detector_rail:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: detector_rail
+  chance: 30
+diamond_block:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: diamond_block
+  chance: 30
+diamond_ore:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: diamond_ore
+  chance: 30
+diorite:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: diorite
+  chance: 30
+diorite_slab:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: diorite_slab
+  chance: 30
+diorite_stairs:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: diorite_stairs
+  chance: 30
+diorite_wall:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: diorite_wall
+  chance: 30
+dirt:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: dirt
+  chance: 30
+dispenser:
+  doPreventDamage: false
+  regen: true
+  saveItems: true
+  replace:
+    doReplace: false
+    replaceWith: dispenser
+  chance: 30
+dragon_egg:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: dragon_egg
+  chance: 30
+dragon_head:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: dragon_head
+  chance: 30
+dragon_wall_head:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: dragon_wall_head
+  chance: 30
+dried_kelp_block:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: dried_kelp_block
+  chance: 30
+dropper:
+  doPreventDamage: false
+  regen: true
+  saveItems: true
+  replace:
+    doReplace: false
+    replaceWith: dropper
+  chance: 30
+emerald_block:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: emerald_block
+  chance: 30
+emerald_ore:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: emerald_ore
+  chance: 30
+enchanting_table:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: enchanting_table
+  chance: 30
+ender_chest:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: ender_chest
+  chance: 30
+end_gateway:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: end_gateway
+  chance: 30
+end_portal:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: end_portal
+  chance: 30
+end_portal_frame:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: end_portal_frame
+  chance: 30
+end_rod:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: end_rod
+  chance: 30
+end_stone:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: end_stone
+  chance: 30
+end_stone_bricks:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: end_stone_bricks
+  chance: 30
+end_stone_brick_slab:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: end_stone_brick_slab
+  chance: 30
+end_stone_brick_stairs:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: end_stone_brick_stairs
+  chance: 30
+end_stone_brick_wall:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: end_stone_brick_wall
+  chance: 30
+farmland:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: farmland
+  chance: 30
+fern:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: fern
+  chance: 30
+fire:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: fire
+  chance: 30
+fire_coral:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: fire_coral
+  chance: 30
+fire_coral_block:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: fire_coral_block
+  chance: 30
+fire_coral_fan:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: fire_coral_fan
+  chance: 30
+fire_coral_wall_fan:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: fire_coral_wall_fan
+  chance: 30
+fletching_table:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: fletching_table
+  chance: 30
+flower_pot:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: flower_pot
+  chance: 30
+frosted_ice:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: frosted_ice
+  chance: 30
+furnace:
+  doPreventDamage: false
+  regen: true
+  saveItems: true
+  replace:
+    doReplace: false
+    replaceWith: furnace
+  chance: 30
+glass:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: glass
+  chance: 30
+glass_pane:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: glass_pane
+  chance: 30
+glowstone:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: glowstone
+  chance: 30
+gold_block:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: gold_block
+  chance: 30
+gold_ore:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: gold_ore
+  chance: 30
+granite:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: granite
+  chance: 30
+granite_slab:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: granite_slab
+  chance: 30
+granite_stairs:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: granite_stairs
+  chance: 30
+granite_wall:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: granite_wall
+  chance: 30
+grass:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: grass
+  chance: 30
+grass_block:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: grass_block
+  chance: 30
+grass_path:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: grass_path
+  chance: 30
+gravel:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: gravel
+  chance: 30
+gray_banner:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: gray_banner
+  chance: 30
+gray_bed:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: gray_bed
+  chance: 30
+gray_carpet:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: gray_carpet
+  chance: 30
+gray_concrete:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: gray_concrete
+  chance: 30
+gray_concrete_powder:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: gray_concrete_powder
+  chance: 30
+gray_glazed_terracotta:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: gray_glazed_terracotta
+  chance: 30
+gray_shulker_box:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: gray_shulker_box
+  chance: 30
+gray_stained_glass:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: gray_stained_glass
+  chance: 30
+gray_stained_glass_pane:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: gray_stained_glass_pane
+  chance: 30
+gray_terracotta:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: gray_terracotta
+  chance: 30
+gray_wall_banner:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: gray_wall_banner
+  chance: 30
+gray_wool:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: gray_wool
+  chance: 30
+green_banner:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: green_banner
+  chance: 30
+green_bed:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: green_bed
+  chance: 30
+green_carpet:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: green_carpet
+  chance: 30
+green_concrete:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: green_concrete
+  chance: 30
+green_concrete_powder:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: green_concrete_powder
+  chance: 30
+green_glazed_terracotta:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: green_glazed_terracotta
+  chance: 30
+green_shulker_box:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: green_shulker_box
+  chance: 30
+green_stained_glass:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: green_stained_glass
+  chance: 30
+green_stained_glass_pane:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: green_stained_glass_pane
+  chance: 30
+green_terracotta:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: green_terracotta
+  chance: 30
+green_wall_banner:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: green_wall_banner
+  chance: 30
+green_wool:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: green_wool
+  chance: 30
+grindstone:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: grindstone
+  chance: 30
+hay_block:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: hay_block
+  chance: 30
+heavy_weighted_pressure_plate:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: heavy_weighted_pressure_plate
+  chance: 30
+hopper:
+  doPreventDamage: false
+  regen: true
+  saveItems: true
+  replace:
+    doReplace: false
+    replaceWith: hopper
+  chance: 30
+horn_coral:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: horn_coral
+  chance: 30
+horn_coral_block:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: horn_coral_block
+  chance: 30
+horn_coral_fan:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: horn_coral_fan
+  chance: 30
+horn_coral_wall_fan:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: horn_coral_wall_fan
+  chance: 30
+ice:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: ice
+  chance: 30
+infested_chiseled_stone_bricks:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: infested_chiseled_stone_bricks
+  chance: 30
+infested_cobblestone:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: infested_cobblestone
+  chance: 30
+infested_cracked_stone_bricks:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: infested_cracked_stone_bricks
+  chance: 30
+infested_mossy_stone_bricks:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: infested_mossy_stone_bricks
+  chance: 30
+infested_stone:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: infested_stone
+  chance: 30
+infested_stone_bricks:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: infested_stone_bricks
+  chance: 30
+iron_bars:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: iron_bars
+  chance: 30
+iron_block:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: iron_block
+  chance: 30
+iron_door:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: iron_door
+  chance: 30
+iron_ore:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: iron_ore
+  chance: 30
+iron_trapdoor:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: iron_trapdoor
+  chance: 30
+jack_o_lantern:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: jack_o_lantern
+  chance: 30
+jigsaw:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: jigsaw
+  chance: 30
+jukebox:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: jukebox
+  chance: 30
+jungle_button:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: jungle_button
+  chance: 30
+jungle_door:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: jungle_door
+  chance: 30
+jungle_fence:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: jungle_fence
+  chance: 30
+jungle_fence_gate:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: jungle_fence_gate
+  chance: 30
+jungle_leaves:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: jungle_leaves
+  chance: 30
+jungle_log:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: jungle_log
+  chance: 30
+jungle_planks:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: jungle_planks
+  chance: 30
+jungle_pressure_plate:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: jungle_pressure_plate
+  chance: 30
+jungle_sapling:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: jungle_sapling
+  chance: 30
+jungle_sign:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: jungle_sign
+  chance: 30
+jungle_slab:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: jungle_slab
+  chance: 30
+jungle_stairs:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: jungle_stairs
+  chance: 30
+jungle_trapdoor:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: jungle_trapdoor
+  chance: 30
+jungle_wall_sign:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: jungle_wall_sign
+  chance: 30
+jungle_wood:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: jungle_wood
+  chance: 30
+kelp:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: kelp
+  chance: 30
+kelp_plant:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: kelp_plant
+  chance: 30
+ladder:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: ladder
+  chance: 30
+lantern:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: lantern
+  chance: 30
+lapis_block:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: lapis_block
+  chance: 30
+lapis_ore:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: lapis_ore
+  chance: 30
+large_fern:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: large_fern
+  chance: 30
+lava:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: lava
+  chance: 30
+lectern:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: lectern
+  chance: 30
+lever:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: lever
+  chance: 30
+light_blue_banner:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: light_blue_banner
+  chance: 30
+light_blue_bed:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: light_blue_bed
+  chance: 30
+light_blue_carpet:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: light_blue_carpet
+  chance: 30
+light_blue_concrete:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: light_blue_concrete
+  chance: 30
+light_blue_concrete_powder:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: light_blue_concrete_powder
+  chance: 30
+light_blue_glazed_terracotta:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: light_blue_glazed_terracotta
+  chance: 30
+light_blue_shulker_box:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: light_blue_shulker_box
+  chance: 30
+light_blue_stained_glass:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: light_blue_stained_glass
+  chance: 30
+light_blue_stained_glass_pane:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: light_blue_stained_glass_pane
+  chance: 30
+light_blue_terracotta:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: light_blue_terracotta
+  chance: 30
+light_blue_wall_banner:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: light_blue_wall_banner
+  chance: 30
+light_blue_wool:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: light_blue_wool
+  chance: 30
+light_gray_banner:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: light_gray_banner
+  chance: 30
+light_gray_bed:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: light_gray_bed
+  chance: 30
+light_gray_carpet:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: light_gray_carpet
+  chance: 30
+light_gray_concrete:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: light_gray_concrete
+  chance: 30
+light_gray_concrete_powder:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: light_gray_concrete_powder
+  chance: 30
+light_gray_glazed_terracotta:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: light_gray_glazed_terracotta
+  chance: 30
+light_gray_shulker_box:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: light_gray_shulker_box
+  chance: 30
+light_gray_stained_glass:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: light_gray_stained_glass
+  chance: 30
+light_gray_stained_glass_pane:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: light_gray_stained_glass_pane
+  chance: 30
+light_gray_terracotta:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: light_gray_terracotta
+  chance: 30
+light_gray_wall_banner:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: light_gray_wall_banner
+  chance: 30
+light_gray_wool:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: light_gray_wool
+  chance: 30
+light_weighted_pressure_plate:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: light_weighted_pressure_plate
+  chance: 30
+lilac:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: lilac
+  chance: 30
+lily_of_the_valley:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: lily_of_the_valley
+  chance: 30
+lily_pad:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: lily_pad
+  chance: 30
+lime_banner:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: lime_banner
+  chance: 30
+lime_bed:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: lime_bed
+  chance: 30
+lime_carpet:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: lime_carpet
+  chance: 30
+lime_concrete:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: lime_concrete
+  chance: 30
+lime_concrete_powder:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: lime_concrete_powder
+  chance: 30
+lime_glazed_terracotta:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: lime_glazed_terracotta
+  chance: 30
+lime_shulker_box:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: lime_shulker_box
+  chance: 30
+lime_stained_glass:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: lime_stained_glass
+  chance: 30
+lime_stained_glass_pane:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: lime_stained_glass_pane
+  chance: 30
+lime_terracotta:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: lime_terracotta
+  chance: 30
+lime_wall_banner:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: lime_wall_banner
+  chance: 30
+lime_wool:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: lime_wool
+  chance: 30
+loom:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: loom
+  chance: 30
+magenta_banner:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: magenta_banner
+  chance: 30
+magenta_bed:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: magenta_bed
+  chance: 30
+magenta_carpet:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: magenta_carpet
+  chance: 30
+magenta_concrete:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: magenta_concrete
+  chance: 30
+magenta_concrete_powder:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: magenta_concrete_powder
+  chance: 30
+magenta_glazed_terracotta:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: magenta_glazed_terracotta
+  chance: 30
+magenta_shulker_box:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: magenta_shulker_box
+  chance: 30
+magenta_stained_glass:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: magenta_stained_glass
+  chance: 30
+magenta_stained_glass_pane:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: magenta_stained_glass_pane
+  chance: 30
+magenta_terracotta:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: magenta_terracotta
+  chance: 30
+magenta_wall_banner:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: magenta_wall_banner
+  chance: 30
+magenta_wool:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: magenta_wool
+  chance: 30
+magma_block:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: magma_block
+  chance: 30
+melon:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: melon
+  chance: 30
+melon_stem:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: melon_stem
+  chance: 30
+mossy_cobblestone:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: mossy_cobblestone
+  chance: 30
+mossy_cobblestone_slab:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: mossy_cobblestone_slab
+  chance: 30
+mossy_cobblestone_stairs:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: mossy_cobblestone_stairs
+  chance: 30
+mossy_cobblestone_wall:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: mossy_cobblestone_wall
+  chance: 30
+mossy_stone_bricks:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: mossy_stone_bricks
+  chance: 30
+mossy_stone_brick_slab:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: mossy_stone_brick_slab
+  chance: 30
+mossy_stone_brick_stairs:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: mossy_stone_brick_stairs
+  chance: 30
+mossy_stone_brick_wall:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: mossy_stone_brick_wall
+  chance: 30
+moving_piston:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: moving_piston
+  chance: 30
+mushroom_stem:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: mushroom_stem
+  chance: 30
+mycelium:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: mycelium
+  chance: 30
+netherrack:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: netherrack
+  chance: 30
+nether_bricks:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: nether_bricks
+  chance: 30
+nether_brick_fence:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: nether_brick_fence
+  chance: 30
+nether_brick_slab:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: nether_brick_slab
+  chance: 30
+nether_brick_stairs:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: nether_brick_stairs
+  chance: 30
+nether_brick_wall:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: nether_brick_wall
+  chance: 30
+nether_portal:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: nether_portal
+  chance: 30
+nether_quartz_ore:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: nether_quartz_ore
+  chance: 30
+nether_wart:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: nether_wart
+  chance: 30
+nether_wart_block:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: nether_wart_block
+  chance: 30
+note_block:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: note_block
+  chance: 30
+oak_button:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: oak_button
+  chance: 30
+oak_door:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: oak_door
+  chance: 30
+oak_fence:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: oak_fence
+  chance: 30
+oak_fence_gate:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: oak_fence_gate
+  chance: 30
+oak_leaves:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: oak_leaves
+  chance: 30
+oak_log:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: oak_log
+  chance: 30
+oak_planks:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: oak_planks
+  chance: 30
+oak_pressure_plate:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: oak_pressure_plate
+  chance: 30
+oak_sapling:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: oak_sapling
+  chance: 30
+oak_sign:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: oak_sign
+  chance: 30
+oak_slab:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: oak_slab
+  chance: 30
+oak_stairs:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: oak_stairs
+  chance: 30
+oak_trapdoor:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: oak_trapdoor
+  chance: 30
+oak_wall_sign:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: oak_wall_sign
+  chance: 30
+oak_wood:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: oak_wood
+  chance: 30
+observer:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: observer
+  chance: 30
+obsidian:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: obsidian
+  chance: 30
+orange_banner:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: orange_banner
+  chance: 30
+orange_bed:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: orange_bed
+  chance: 30
+orange_carpet:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: orange_carpet
+  chance: 30
+orange_concrete:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: orange_concrete
+  chance: 30
+orange_concrete_powder:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: orange_concrete_powder
+  chance: 30
+orange_glazed_terracotta:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: orange_glazed_terracotta
+  chance: 30
+orange_shulker_box:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: orange_shulker_box
+  chance: 30
+orange_stained_glass:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: orange_stained_glass
+  chance: 30
+orange_stained_glass_pane:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: orange_stained_glass_pane
+  chance: 30
+orange_terracotta:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: orange_terracotta
+  chance: 30
+orange_tulip:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: orange_tulip
+  chance: 30
+orange_wall_banner:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: orange_wall_banner
+  chance: 30
+orange_wool:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: orange_wool
+  chance: 30
+oxeye_daisy:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: oxeye_daisy
+  chance: 30
+packed_ice:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: packed_ice
+  chance: 30
+peony:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: peony
+  chance: 30
+petrified_oak_slab:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: petrified_oak_slab
+  chance: 30
+pink_banner:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: pink_banner
+  chance: 30
+pink_bed:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: pink_bed
+  chance: 30
+pink_carpet:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: pink_carpet
+  chance: 30
+pink_concrete:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: pink_concrete
+  chance: 30
+pink_concrete_powder:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: pink_concrete_powder
+  chance: 30
+pink_glazed_terracotta:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: pink_glazed_terracotta
+  chance: 30
+pink_shulker_box:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: pink_shulker_box
+  chance: 30
+pink_stained_glass:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: pink_stained_glass
+  chance: 30
+pink_stained_glass_pane:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: pink_stained_glass_pane
+  chance: 30
+pink_terracotta:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: pink_terracotta
+  chance: 30
+pink_tulip:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: pink_tulip
+  chance: 30
+pink_wall_banner:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: pink_wall_banner
+  chance: 30
+pink_wool:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: pink_wool
+  chance: 30
+piston:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: piston
+  chance: 30
+piston_head:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: piston_head
+  chance: 30
+player_head:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: player_head
+  chance: 30
+player_wall_head:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: player_wall_head
+  chance: 30
+podzol:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: podzol
+  chance: 30
+polished_andesite:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: polished_andesite
+  chance: 30
+polished_andesite_slab:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: polished_andesite_slab
+  chance: 30
+polished_andesite_stairs:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: polished_andesite_stairs
+  chance: 30
+polished_diorite:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: polished_diorite
+  chance: 30
+polished_diorite_slab:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: polished_diorite_slab
+  chance: 30
+polished_diorite_stairs:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: polished_diorite_stairs
+  chance: 30
+polished_granite:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: polished_granite
+  chance: 30
+polished_granite_slab:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: polished_granite_slab
+  chance: 30
+polished_granite_stairs:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: polished_granite_stairs
+  chance: 30
+poppy:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: poppy
+  chance: 30
+potatoes:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: potatoes
+  chance: 30
+potted_acacia_sapling:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: potted_acacia_sapling
+  chance: 30
+potted_allium:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: potted_allium
+  chance: 30
+potted_azure_bluet:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: potted_azure_bluet
+  chance: 30
+potted_bamboo:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: potted_bamboo
+  chance: 30
+potted_birch_sapling:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: potted_birch_sapling
+  chance: 30
+potted_blue_orchid:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: potted_blue_orchid
+  chance: 30
+potted_brown_mushroom:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: potted_brown_mushroom
+  chance: 30
+potted_cactus:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: potted_cactus
+  chance: 30
+potted_cornflower:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: potted_cornflower
+  chance: 30
+potted_dandelion:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: potted_dandelion
+  chance: 30
+potted_dark_oak_sapling:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: potted_dark_oak_sapling
+  chance: 30
+potted_dead_bush:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: potted_dead_bush
+  chance: 30
+potted_fern:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: potted_fern
+  chance: 30
+potted_jungle_sapling:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: potted_jungle_sapling
+  chance: 30
+potted_lily_of_the_valley:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: potted_lily_of_the_valley
+  chance: 30
+potted_oak_sapling:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: potted_oak_sapling
+  chance: 30
+potted_orange_tulip:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: potted_orange_tulip
+  chance: 30
+potted_oxeye_daisy:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: potted_oxeye_daisy
+  chance: 30
+potted_pink_tulip:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: potted_pink_tulip
+  chance: 30
+potted_poppy:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: potted_poppy
+  chance: 30
+potted_red_mushroom:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: potted_red_mushroom
+  chance: 30
+potted_red_tulip:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: potted_red_tulip
+  chance: 30
+potted_spruce_sapling:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: potted_spruce_sapling
+  chance: 30
+potted_white_tulip:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: potted_white_tulip
+  chance: 30
+potted_wither_rose:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: potted_wither_rose
+  chance: 30
+powered_rail:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: powered_rail
+  chance: 30
+prismarine:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: prismarine
+  chance: 30
+prismarine_bricks:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: prismarine_bricks
+  chance: 30
+prismarine_brick_slab:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: prismarine_brick_slab
+  chance: 30
+prismarine_brick_stairs:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: prismarine_brick_stairs
+  chance: 30
+prismarine_slab:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: prismarine_slab
+  chance: 30
+prismarine_stairs:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: prismarine_stairs
+  chance: 30
+prismarine_wall:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: prismarine_wall
+  chance: 30
+pumpkin:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: pumpkin
+  chance: 30
+pumpkin_stem:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: pumpkin_stem
+  chance: 30
+purple_banner:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: purple_banner
+  chance: 30
+purple_bed:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: purple_bed
+  chance: 30
+purple_carpet:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: purple_carpet
+  chance: 30
+purple_concrete:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: purple_concrete
+  chance: 30
+purple_concrete_powder:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: purple_concrete_powder
+  chance: 30
+purple_glazed_terracotta:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: purple_glazed_terracotta
+  chance: 30
+purple_shulker_box:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: purple_shulker_box
+  chance: 30
+purple_stained_glass:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: purple_stained_glass
+  chance: 30
+purple_stained_glass_pane:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: purple_stained_glass_pane
+  chance: 30
+purple_terracotta:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: purple_terracotta
+  chance: 30
+purple_wall_banner:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: purple_wall_banner
+  chance: 30
+purple_wool:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: purple_wool
+  chance: 30
+purpur_block:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: purpur_block
+  chance: 30
+purpur_pillar:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: purpur_pillar
+  chance: 30
+purpur_slab:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: purpur_slab
+  chance: 30
+purpur_stairs:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: purpur_stairs
+  chance: 30
+quartz_block:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: quartz_block
+  chance: 30
+quartz_pillar:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: quartz_pillar
+  chance: 30
+quartz_slab:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: quartz_slab
+  chance: 30
+quartz_stairs:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: quartz_stairs
+  chance: 30
+rail:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: rail
+  chance: 30
+redstone_block:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: redstone_block
+  chance: 30
+redstone_lamp:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: redstone_lamp
+  chance: 30
+redstone_ore:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: redstone_ore
+  chance: 30
+redstone_torch:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: redstone_torch
+  chance: 30
+redstone_wall_torch:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: redstone_wall_torch
+  chance: 30
+redstone_wire:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: redstone_wire
+  chance: 30
+red_banner:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: red_banner
+  chance: 30
+red_bed:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: red_bed
+  chance: 30
+red_carpet:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: red_carpet
+  chance: 30
+red_concrete:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: red_concrete
+  chance: 30
+red_concrete_powder:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: red_concrete_powder
+  chance: 30
+red_glazed_terracotta:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: red_glazed_terracotta
+  chance: 30
+red_mushroom:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: red_mushroom
+  chance: 30
+red_mushroom_block:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: red_mushroom_block
+  chance: 30
+red_nether_bricks:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: red_nether_bricks
+  chance: 30
+red_nether_brick_slab:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: red_nether_brick_slab
+  chance: 30
+red_nether_brick_stairs:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: red_nether_brick_stairs
+  chance: 30
+red_nether_brick_wall:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: red_nether_brick_wall
+  chance: 30
+red_sand:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: red_sand
+  chance: 30
+red_sandstone:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: red_sandstone
+  chance: 30
+red_sandstone_slab:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: red_sandstone_slab
+  chance: 30
+red_sandstone_stairs:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: red_sandstone_stairs
+  chance: 30
+red_sandstone_wall:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: red_sandstone_wall
+  chance: 30
+red_shulker_box:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: red_shulker_box
+  chance: 30
+red_stained_glass:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: red_stained_glass
+  chance: 30
+red_stained_glass_pane:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: red_stained_glass_pane
+  chance: 30
+red_terracotta:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: red_terracotta
+  chance: 30
+red_tulip:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: red_tulip
+  chance: 30
+red_wall_banner:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: red_wall_banner
+  chance: 30
+red_wool:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: red_wool
+  chance: 30
+repeater:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: repeater
+  chance: 30
+repeating_command_block:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: repeating_command_block
+  chance: 30
+rose_bush:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: rose_bush
+  chance: 30
+sand:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: sand
+  chance: 30
+sandstone:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: sandstone
+  chance: 30
+sandstone_slab:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: sandstone_slab
+  chance: 30
+sandstone_stairs:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: sandstone_stairs
+  chance: 30
+sandstone_wall:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: sandstone_wall
+  chance: 30
+scaffolding:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: scaffolding
+  chance: 30
+seagrass:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: seagrass
+  chance: 30
+sea_lantern:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: sea_lantern
+  chance: 30
+sea_pickle:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: sea_pickle
+  chance: 30
+shulker_box:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: shulker_box
+  chance: 30
+skeleton_skull:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: skeleton_skull
+  chance: 30
+skeleton_wall_skull:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: skeleton_wall_skull
+  chance: 30
+slime_block:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: slime_block
+  chance: 30
+smithing_table:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: smithing_table
+  chance: 30
+smoker:
+  doPreventDamage: false
+  regen: true
+  saveItems: true
+  replace:
+    doReplace: false
+    replaceWith: smoker
+  chance: 30
+smooth_quartz:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: smooth_quartz
+  chance: 30
+smooth_quartz_slab:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: smooth_quartz_slab
+  chance: 30
+smooth_quartz_stairs:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: smooth_quartz_stairs
+  chance: 30
+smooth_red_sandstone:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: smooth_red_sandstone
+  chance: 30
+smooth_red_sandstone_slab:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: smooth_red_sandstone_slab
+  chance: 30
+smooth_red_sandstone_stairs:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: smooth_red_sandstone_stairs
+  chance: 30
+smooth_sandstone:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: smooth_sandstone
+  chance: 30
+smooth_sandstone_slab:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: smooth_sandstone_slab
+  chance: 30
+smooth_sandstone_stairs:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: smooth_sandstone_stairs
+  chance: 30
+smooth_stone:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: smooth_stone
+  chance: 30
+smooth_stone_slab:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: smooth_stone_slab
+  chance: 30
+snow:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: snow
+  chance: 30
+snow_block:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: snow_block
+  chance: 30
+soul_sand:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: soul_sand
+  chance: 30
+spawner:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: spawner
+  chance: 30
+sponge:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: sponge
+  chance: 30
+spruce_button:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: spruce_button
+  chance: 30
+spruce_door:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: spruce_door
+  chance: 30
+spruce_fence:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: spruce_fence
+  chance: 30
+spruce_fence_gate:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: spruce_fence_gate
+  chance: 30
+spruce_leaves:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: spruce_leaves
+  chance: 30
+spruce_log:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: spruce_log
+  chance: 30
+spruce_planks:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: spruce_planks
+  chance: 30
+spruce_pressure_plate:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: spruce_pressure_plate
+  chance: 30
+spruce_sapling:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: spruce_sapling
+  chance: 30
+spruce_sign:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: spruce_sign
+  chance: 30
+spruce_slab:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: spruce_slab
+  chance: 30
+spruce_stairs:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: spruce_stairs
+  chance: 30
+spruce_trapdoor:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: spruce_trapdoor
+  chance: 30
+spruce_wall_sign:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: spruce_wall_sign
+  chance: 30
+spruce_wood:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: spruce_wood
+  chance: 30
+sticky_piston:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: sticky_piston
+  chance: 30
+stone:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: stone
+  chance: 30
+stonecutter:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: stonecutter
+  chance: 30
+stone_bricks:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: stone_bricks
+  chance: 30
+stone_brick_slab:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: stone_brick_slab
+  chance: 30
+stone_brick_stairs:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: stone_brick_stairs
+  chance: 30
+stone_brick_wall:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: stone_brick_wall
+  chance: 30
+stone_button:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: stone_button
+  chance: 30
+stone_pressure_plate:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: stone_pressure_plate
+  chance: 30
+stone_slab:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: stone_slab
+  chance: 30
+stone_stairs:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: stone_stairs
+  chance: 30
+stripped_acacia_log:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: stripped_acacia_log
+  chance: 30
+stripped_acacia_wood:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: stripped_acacia_wood
+  chance: 30
+stripped_birch_log:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: stripped_birch_log
+  chance: 30
+stripped_birch_wood:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: stripped_birch_wood
+  chance: 30
+stripped_dark_oak_log:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: stripped_dark_oak_log
+  chance: 30
+stripped_dark_oak_wood:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: stripped_dark_oak_wood
+  chance: 30
+stripped_jungle_log:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: stripped_jungle_log
+  chance: 30
+stripped_jungle_wood:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: stripped_jungle_wood
+  chance: 30
+stripped_oak_log:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: stripped_oak_log
+  chance: 30
+stripped_oak_wood:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: stripped_oak_wood
+  chance: 30
+stripped_spruce_log:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: stripped_spruce_log
+  chance: 30
+stripped_spruce_wood:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: stripped_spruce_wood
+  chance: 30
+structure_block:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: structure_block
+  chance: 30
+structure_void:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: structure_void
+  chance: 30
+sugar_cane:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: sugar_cane
+  chance: 30
+sunflower:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: sunflower
+  chance: 30
+sweet_berry_bush:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: sweet_berry_bush
+  chance: 30
+tall_grass:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: tall_grass
+  chance: 30
+tall_seagrass:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: tall_seagrass
+  chance: 30
+terracotta:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: terracotta
+  chance: 30
+tnt:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: tnt
+  chance: 30
+torch:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: torch
+  chance: 30
+trapped_chest:
+  doPreventDamage: false
+  regen: true
+  saveItems: true
+  replace:
+    doReplace: false
+    replaceWith: trapped_chest
+  chance: 30
+tripwire:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: tripwire
+  chance: 30
+tripwire_hook:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: tripwire_hook
+  chance: 30
+tube_coral:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: tube_coral
+  chance: 30
+tube_coral_block:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: tube_coral_block
+  chance: 30
+tube_coral_fan:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: tube_coral_fan
+  chance: 30
+tube_coral_wall_fan:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: tube_coral_wall_fan
+  chance: 30
+turtle_egg:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: turtle_egg
+  chance: 30
+vine:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: vine
+  chance: 30
+void_air:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: void_air
+  chance: 30
+wall_torch:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: wall_torch
+  chance: 30
+water:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: water
+  chance: 30
+wet_sponge:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: wet_sponge
+  chance: 30
+wheat:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: wheat
+  chance: 30
+white_banner:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: white_banner
+  chance: 30
+white_bed:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: white_bed
+  chance: 30
+white_carpet:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: white_carpet
+  chance: 30
+white_concrete:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: white_concrete
+  chance: 30
+white_concrete_powder:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: white_concrete_powder
+  chance: 30
+white_glazed_terracotta:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: white_glazed_terracotta
+  chance: 30
+white_shulker_box:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: white_shulker_box
+  chance: 30
+white_stained_glass:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: white_stained_glass
+  chance: 30
+white_stained_glass_pane:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: white_stained_glass_pane
+  chance: 30
+white_terracotta:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: white_terracotta
+  chance: 30
+white_tulip:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: white_tulip
+  chance: 30
+white_wall_banner:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: white_wall_banner
+  chance: 30
+white_wool:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: white_wool
+  chance: 30
+wither_rose:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: wither_rose
+  chance: 30
+wither_skeleton_skull:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: wither_skeleton_skull
+  chance: 30
+wither_skeleton_wall_skull:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: wither_skeleton_wall_skull
+  chance: 30
+yellow_banner:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: yellow_banner
+  chance: 30
+yellow_bed:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: yellow_bed
+  chance: 30
+yellow_carpet:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: yellow_carpet
+  chance: 30
+yellow_concrete:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: yellow_concrete
+  chance: 30
+yellow_concrete_powder:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: yellow_concrete_powder
+  chance: 30
+yellow_glazed_terracotta:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: yellow_glazed_terracotta
+  chance: 30
+yellow_shulker_box:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: yellow_shulker_box
+  chance: 30
+yellow_stained_glass:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: yellow_stained_glass
+  chance: 30
+yellow_stained_glass_pane:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: yellow_stained_glass_pane
+  chance: 30
+yellow_terracotta:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: yellow_terracotta
+  chance: 30
+yellow_wall_banner:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: yellow_wall_banner
+  chance: 30
+yellow_wool:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: yellow_wool
+  chance: 30
+zombie_head:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: zombie_head
+  chance: 30
+zombie_wall_head:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: zombie_wall_head
+  chance: 30

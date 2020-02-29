@@ -1,0 +1,12 @@
+world:
+  Day: 0.5
+  Night: 0.5
+world_nether:
+  Day: 1.0
+  Night: 1.0
+world_the_end:
+  Day: 1.0
+  Night: 1.0
+mine:
+  Day: 0.5
+  Night: 0.5

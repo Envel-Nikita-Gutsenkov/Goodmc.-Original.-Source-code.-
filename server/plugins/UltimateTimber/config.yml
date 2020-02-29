@@ -93,7 +93,7 @@ player-tree-topple-cooldown: false
 # Does nothing if player-tree-topple-cooldown is false
 # The time is in seconds and must be a postive whole number
 # Default: 5
-player-tree-topple-cooldown-length: 1
+player-tree-topple-cooldown-length: 2
 
 # Allow players to topple trees regardless of what they are holding in their hand
 # Default: false
@@ -122,7 +122,7 @@ falling-blocks-replant-saplings: true
 # Does nothing if falling-blocks-replant-saplings is false
 # The chance is out of 100 and may contain decimals
 # Default: 1
-falling-blocks-replant-saplings-chance: 1
+falling-blocks-replant-saplings-chance: 0.08
 
 # Make falling tree blocks deal damage to players if they get hit
 # Default: true
@@ -160,7 +160,7 @@ ignore-placed-blocks: true
 # The maximum number of blocks to keep track of in memory at once
 # Use a lower number if this starts to take up too much memory or trees start taking too long to detect
 # Default: 5000
-ignore-placed-blocks-memory-size: 5000
+ignore-placed-blocks-memory-size: 1000
 
 # Applies experience when using Jobs/mcMMO
 # Only does something if Jobs or mcMMO is installed
@@ -203,8 +203,8 @@ trees:
       - SPRUCE_FENCE
     sapling: OAK_SAPLING
     plantable-soil: []
-    max-log-distance-from-trunk: 30
-    max-leaf-distance-from-log: 40
+    max-log-distance-from-trunk: 35
+    max-leaf-distance-from-log: 25
     search-for-leaves-diagonally: true
     drop-original-log: true
     drop-original-leaf: false
@@ -232,8 +232,8 @@ trees:
       - SPRUCE_FENCE
     sapling: SPRUCE_SAPLING
     plantable-soil: []
-    max-log-distance-from-trunk: 80
-    max-leaf-distance-from-log: 80
+    max-log-distance-from-trunk: 110
+    max-leaf-distance-from-log: 30
     search-for-leaves-diagonally: true
     drop-original-log: true
     drop-original-leaf: false
@@ -257,11 +257,12 @@ trees:
       - OAK_LEAVES
       - BIRCH_LEAVES
       - BIRCH_FENCE
+      - oak_fence
     sapling: BIRCH_SAPLING
     plantable-soil: []
-    max-log-distance-from-trunk: 15
-    max-leaf-distance-from-log: 10
-    search-for-leaves-diagonally: false
+    max-log-distance-from-trunk: 25
+    max-leaf-distance-from-log: 15
+    search-for-leaves-diagonally: true
     drop-original-log: true
     drop-original-leaf: false
     log-loot: []
@@ -346,9 +347,9 @@ trees:
       - OAK_FENCE
     sapling: DARK_OAK_SAPLING
     plantable-soil: []
-    max-log-distance-from-trunk: 15
+    max-log-distance-from-trunk: 20
     max-leaf-distance-from-log: 30
-    search-for-leaves-diagonally: false
+    search-for-leaves-diagonally: true
     drop-original-log: true
     drop-original-leaf: false
     log-loot: []
@@ -458,7 +459,6 @@ global-required-tools:
   - IRON_AXE
   - GOLDEN_AXE
   - DIAMOND_AXE
-
 #
 #
 # ░░░░░░░░░░░░░░░░▄▓▄
@@ -468,4 +468,3 @@ global-required-tools:
 # ▄▄███████▄▄▄▄▄▄▄▄█▄▄▄▄
 # Developed by Envel
 # Nikita Gutsenkov
-# Ngucenkov@yandex.ru
