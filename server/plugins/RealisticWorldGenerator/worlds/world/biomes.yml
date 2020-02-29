@@ -436,8 +436,8 @@ biomes:
         min: 0.0
         max: 260000.0
       structures:
-      - gmc_waterforswamp_7::6
-      - gmc_waterforswamp_2_2::2
+      - gmc_waterforswamp_8::6
+      - gmc_waterforswamp_2_3::2
     layer:
       '1':
       - minecraft:dark_oak_leaves;50 
@@ -499,8 +499,8 @@ biomes:
         min: 0.0
         max: 260000.0
       structures:
-      - gmc_waterforswamp_7::6
-      - gmc_waterforswamp_2_2::2
+      - gmc_waterforswamp_8::6
+      - gmc_waterforswamp_2_3::2
     layer:
       '1':
       - minecraft:dark_oak_leaves;50 
@@ -1732,7 +1732,7 @@ biomes:
         weight: 1.0
         random: 1.0E7
         min: 0.0
-        max: 600.0
+        max: 15.0
       structures:
       - gmc_iglu_2::500000
     layer:
@@ -1922,9 +1922,9 @@ biomes:
       - DUNGEON::6
     layer:
       '1':
-      - minecraft:coarse_dirt;10
+      - minecraft:coarse_dirt;20
       - minecraft:podzol[snowy=false];15
-      - minecraft:grass_block[snowy=false];100
+      - minecraft:grass_block[snowy=false];30
       '2':
       - minecraft:stone;30
       - minecraft:dirt;90
@@ -2001,9 +2001,9 @@ biomes:
       - DUNGEON::6
     layer:
       '1':
-      - minecraft:coarse_dirt;10
+      - minecraft:coarse_dirt;25
       - minecraft:podzol[snowy=false];15
-      - minecraft:grass_block[snowy=false];100
+      - minecraft:grass_block[snowy=false];10
       '2':
       - minecraft:stone;30
       - minecraft:dirt;90
@@ -2080,9 +2080,9 @@ biomes:
       - DUNGEON::6
     layer:
       '1':
-      - minecraft:coarse_dirt;10
+      - minecraft:coarse_dirt;20
       - minecraft:podzol[snowy=false];15
-      - minecraft:grass_block[snowy=false];100
+      - minecraft:grass_block[snowy=false];40
       '2':
       - minecraft:stone;30
       - minecraft:dirt;90
