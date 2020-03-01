@@ -4,31 +4,45 @@
 #                       ┃┃┏━┫┏┓┃┏┓┃┏┓┃┃┃┃┃┃┃╋┏┓
 #                       ┃┗┻━┃┗┛┃┗┛┃┗┛┃┃┃┃┃┃┗━┛┃
 # ∙∙·▫▫ᵒᴼᵒ▫ₒₒ▫ᵒᴼᵒ▫ₒₒ▫ᵒᴼᵒ┗━━━┻━━┻━━┻━━┻┛┗┛┗┻━━━┛ᵒᴼᵒ▫ₒₒ▫ᵒᴼᵒ▫ₒₒ▫ᵒᴼᵒ▫▫·∙∙
-#
+#                       
+# This plugin is developed on GoodMC.ru
+# GoodMC is a non-commercial game server project.
+#                             
+# Setting values to health values to -1 kills the mob on spawn.
+# Setting values to health or damage values to -2 disables the changes.
+# Any other values changes the damage or health of that mob to what it's set to.
+# ex: 2 = 1 heart - 7 = 3 and a half hearts.
+# Mobs that can't attack still have damage values but the damage won't get applied to them.
+#                          
+# Have a nice game!
 
-#Изменяем уровень здоровья и урона у всех мобов.
-
-Установка значений здоровья в -1 убивает моба при появлении:
-  '   ': ''
-Установка значений здоровья или урона на -2 отключает изменения:
-  '   ': ''
-Любые другие значения изменяют урон или здоровье этого моба на то, на что он установлен:
-  '    ': ''
-'ex: 2 = 1 heart - 7 = 3 and a half hearts':
-  '    ': ''
-Мобы, которые не могут атаковать, все еще имеют значения урона, но урон не будет применен к ним:
-  '    ': ''
+'BEE health ': -2
+'BEE damage ': -2
+'CAT health ': 30
+'CAT damage ': -2
+'PANDA health ': 80
+'PANDA damage ': -2
+'PILLAGER health ': 40
+'PILLAGER damage ': -2
+'RAVAGER health ': 40
+'RAVAGER damage ': -2
+'TRADER_LLAMA health ': 40
+'TRADER_LLAMA damage ': -2
+'WANDERING_TRADER health ': 40
+'WANDERING_TRADER damage ': -2
+'FOX health ': 45
+'FOX damage ': -2
 'DROPPED_ITEM health ': -2
 'DROPPED_ITEM damage ': -2
 'EXPERIENCE_ORB health ': -2
 'EXPERIENCE_ORB damage ': -2
 'AREA_EFFECT_CLOUD health ': -2
 'AREA_EFFECT_CLOUD damage ': -2
-'ELDER_GUARDIAN health ': 150
+'ELDER_GUARDIAN health ': 250
 'ELDER_GUARDIAN damage ': -2
 'WITHER_SKELETON health ': 60
 'WITHER_SKELETON damage ': 10
-'STRAY health ': -2
+'STRAY health ': 45
 'STRAY damage ': -2
 'EGG health ': -2
 'EGG damage ': -2
@@ -62,7 +76,7 @@
 'FALLING_BLOCK damage ': -2
 'FIREWORK health ': -2
 'FIREWORK damage ': -2
-'HUSK health ': -2
+'HUSK health ': 45
 'HUSK damage ': -2
 'SPECTRAL_ARROW health ': -2
 'SPECTRAL_ARROW damage ': -2
@@ -70,7 +84,7 @@
 'SHULKER_BULLET damage ': -2
 'DRAGON_FIREBALL health ': -2
 'DRAGON_FIREBALL damage ': -2
-'ZOMBIE_VILLAGER health ': 40
+'ZOMBIE_VILLAGER health ': 70
 'ZOMBIE_VILLAGER damage ': 6
 'SKELETON_HORSE health ': 40
 'SKELETON_HORSE damage ': -2
@@ -80,7 +94,7 @@
 'ARMOR_STAND damage ': -2
 'DONKEY health ': -2
 'DONKEY damage ': -2
-'MULE health ': -2
+'MULE health ': 60
 'MULE damage ': -2
 'EVOKER_FANGS health ': -2
 'EVOKER_FANGS damage ': -2
@@ -88,7 +102,7 @@
 'EVOKER damage ': -2
 'VEX health ': 24
 'VEX damage ': -2
-'VINDICATOR health ': 40
+'VINDICATOR health ': 60
 'VINDICATOR damage ': -2
 'ILLUSIONER health ': 65
 'ILLUSIONER damage ': -2
@@ -110,31 +124,31 @@
 'MINECART_MOB_SPAWNER damage ': -2
 'CREEPER health ': 40
 'CREEPER damage ': -2
-'SKELETON health ': 55
+'SKELETON health ': 40
 'SKELETON damage ': 8
 'SPIDER health ': 60
 'SPIDER damage ': -2
 'GIANT health ': -2
 'GIANT damage ': -2
-'ZOMBIE health ': 35
+'ZOMBIE health ': 55
 'ZOMBIE damage ': 4
 'SLIME health ': 24
 'SLIME damage ': -2
-'GHAST health ': 20
+'GHAST health ': 25
 'GHAST damage ': -2
-'PIG_ZOMBIE health ': 40
+'PIG_ZOMBIE health ': 55
 'PIG_ZOMBIE damage ': 6
 'ENDERMAN health ': 60
 'ENDERMAN damage ': 12
 'CAVE_SPIDER health ': 34
 'CAVE_SPIDER damage ': -2
-'SILVERFISH health ': 6
+'SILVERFISH health ': 8
 'SILVERFISH damage ': -2
 'BLAZE health ': 60
 'BLAZE damage ': -2
-'MAGMA_CUBE health ': 24
+'MAGMA_CUBE health ': 26
 'MAGMA_CUBE damage ': -2
-'ENDER_DRAGON health ': 1500
+'ENDER_DRAGON health ': 2000
 'ENDER_DRAGON damage ': -2
 'WITHER health ': 1000
 'WITHER damage ': -2
@@ -150,7 +164,7 @@
 'SHULKER damage ': -2
 'PIG health ': 50
 'PIG damage ': -2
-'SHEEP health ': 30
+'SHEEP health ': 35
 'SHEEP damage ': -2
 'COW health ': 80
 'COW damage ': -2
@@ -158,7 +172,7 @@
 'CHICKEN damage ': -2
 'SQUID health ': 25
 'SQUID damage ': -2
-'WOLF health ': 16
+'WOLF health ': 20
 'WOLF damage ': -2
 'MUSHROOM_COW health ': 60
 'MUSHROOM_COW damage ': -2
@@ -186,7 +200,7 @@
 'ENDER_CRYSTAL damage ': -2
 'TURTLE health ': 50
 'TURTLE damage ': -2
-'PHANTOM health ': 40
+'PHANTOM health ': 35
 'PHANTOM damage ': -2
 'TRIDENT health ': -2
 'TRIDENT damage ': -2
@@ -194,11 +208,11 @@
 'COD damage ': -2
 'SALMON health ': -2
 'SALMON damage ': -2
-'PUFFERFISH health ': 6
+'PUFFERFISH health ': 8
 'PUFFERFISH damage ': -2
-'TROPICAL_FISH health ': 6
+'TROPICAL_FISH health ': 8
 'TROPICAL_FISH damage ': -2
-'DROWNED health ': 40
+'DROWNED health ': 55
 'DROWNED damage ': -2
 'DOLPHIN health ': 30
 'DOLPHIN damage ': -2
@@ -223,12 +237,3 @@
 - world_nether
 - world_the_end
 - mine
-#
-# ░░░░░░░░░░░░░░░░▄▓▄
-# ░░░░▄█▄░░░░░░░░▄▓▓▓▄
-# ░░▄█████▄░░░░░▄▓▓▓▓▓▄
-# ░▀██┼█┼██▀░░░▄▓▓▓▓▓▓▓▄
-# ▄▄███████▄▄▄▄▄▄▄▄█▄▄▄▄
-# Developed by Envel
-# Nikita Gutsenkov
-# for GoodMC.ru in 2019.
