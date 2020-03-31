@@ -1,298 +1,165 @@
-# !-----------------------------------------------------------------------------------------!
-#                  Welcome to ChatControl's Chat Formatting Configuration
-#
-#   In this configuration you can setup how the message in the chat should look like.
+# -------------------------------------------------------------------------------------------
 # 
-#   Since we support different message formats per different permissions,
-#   per channels, or many other places in the plugin, you can create a so-called
-#   formats that can be reused multiple times.
-#
-#   For configuration, see:
-#   - https://github.com/kangarko/ChatControl-Pro/wiki/Formats
-#
-#   For variables, see:
-#   - https://github.com/kangarko/ChatControl-Pro/wiki/Variables
-#
-#   Remember, you can remove or edit all formats below, and create your own ones!
-#
-# !-----------------------------------------------------------------------------------------!
+#  Your file has been automatically updated at 09.08.2019 14:57:54
+#  to ChatControl 8.0.7
+# 
+#  Unfortunatelly, due to how Bukkit saves all .yml files, it was not possible
+#  preserve the documentation comments in your file. We apologize.
+# 
+#  If you'd like to view the default file, you can either:
+#  a) Open the ChatControl-8.0.7.jar with a WinRar or similar
+#  b) or, visit: https://github.com/kangarko/ChatControl/wiki
+# 
+# -------------------------------------------------------------------------------------------
 
-# -----------------------------------------------------------------------------------------
-# Enable chat formatting?
-# -----------------------------------------------------------------------------------------
 Enabled: false
- 
-# -----------------------------------------------------------------------------------------
-# Configuration of the default chat types in the game.
-# -----------------------------------------------------------------------------------------
-Formatting: 
-  #
-  # The default chat format applied over all worlds.
-  #
+Formatting:
   Default: Chat
-  #
-  # If range mode is enabled, used if the ranged message starts with and "!".
-  # Such messages are send to everyone (if the sender has "chatcontrol.chat.global" permission).
-  #
   Global: Global_Chat
-  #
-  # A format used in the /me command.
-  #
   Me: Me
-  #
-  # If range mode is enabled, used to send messages to players with "chatcontrol.chat.spy"
-  # permission that they normally shouldn't see (because it's outside their range).
-  #
-  # To spy on private messages (e.g. /tell or /mail), use /spy feature.
-  #
   Spy: Spy_Chat
-  #
-  # If party chat is enabled, you can then spy on the messages with "chatcontrol.chat.spy" permission.
-  # Requires mcMMO.
-  #
   Party_Spy: Spy_Party_Chat
-  #
-  # Used in admin chat via "/chc ach" command, used by staff to communicate with each other.
-  #
   Admin: Admin_Chat
-  #      
-  # Used in "/chc global" command which sends messages over bungee.
-  #
-  # Requires BungeeCords support.
-  #
   Bungee: Bungee_Chat
-  
-# -----------------------------------------------------------------------------------------
-# If TownyChat is installed, let it format your Towny channels while letting ChatControl
-# format the normal chat.
-# -----------------------------------------------------------------------------------------
-Towny_Chat: 
-  #
-  # Should formatting for listed channels be handled by Towny or ignored?
-  # (Channels not listed will do the opposite)
-  #
+Towny_Chat:
   Channel_Mode_Replace: true
-  #
-  # What channels should we format (or not format)?
-  # The * channel is a placeholder for when a player is not speaking in a channel
-  #
-  Channels: 
-    - '*'
-    - general
-
-# -----------------------------------------------------------------------------------------
-# You can optionally enable or disable the formatter depending on the world
-# that the player speaking is in
-# -----------------------------------------------------------------------------------------
+  Channels:
+  - '*'
+  - general
 World_Settings:
-  #
-  # Should the listed worlds be the only worlds where the formatter runs?
-  # The default (false) treats the listed worlds as a list of where the formatter does not run.
-  #
   Use_As_Whitelist: false
-  #
-  # List of worlds to disable (or enable) the formatter
-  #
   Worlds:
-    - World_to_disable_formatter_on
-
-# -----------------------------------------------------------------------------------------
-# Ranged mode limits the reach of player's message.
-#
-# For per-world chat, give everyone 'chatcontrol.chat.overrideranged' permission.
-# -----------------------------------------------------------------------------------------
-Range: 
-  #
-  # Enable ranged mode?
-  #
+  - World_to_disable_formatter_on
+Range:
   Enabled: false
-  #
-  # How many blocks around the sender should the players see their message?
-  #
   Distance: 100.0
-  # 
-  # Worlds that shares the same chat.
-  #
-  # The ignore the Distance above, and every player in the other world will see the message.
-  #
-  Linked_Worlds: 
-      normal:
-        - world
-        - world_nether
-      skyland:
-        - skyland
-        - skyland_nether
-
-# -----------------------------------------------------------------------------------------
-# Here are the actual formats. A format represents how a message should look like.
-# Each format consists of Parts (each part is configured individually).
-#
-# You can re-use them in different parts of the plugin, for example in chat channels.
-#
-# For tutorial, see https://github.com/kangarko/ChatControl-Pro/wiki/Formats
-# -----------------------------------------------------------------------------------------
+  Linked_Worlds:
+    normal:
+    - world
+    - world_nether
+    skyland:
+    - skyland
+    - skyland_nether
 Formats:
-  #
-  # This is the default main chat format.
-  #
-  # You can use it in other parts of the plugin by calling the 'Chat' format.
-  #
-  Chat: 
-    #
-    # This is a part. That means, we split the message into as many parts
-    # as you'd like, giving each part different interactive properties.
-    #
-    # Options such as Sender_Permission or Hover_Event are not obligatory, you can remove
-    # them or add them at your will. For tutorial and all available options, see the link above.
-    #
-    Vip: 
-      Message: "&6[VIP] "
-      Sender_Permission: "chatcontrol.groups.vip"
-      Hover_Event: 
-        Action: SHOW_TEXT
-        Values: 
-          - "&6This player is VIP"
-          - "&6Check out &e/web &6to obtain VIP"
-    Prefix: 
-      Message: "&f{pl_prefix}"       
-      Hover_Event: 
-        Action: SHOW_TEXT
-        Values: 
-          - "&8*-----* &f{player} &8*-----*"
-          - "&7Prefix&8: &7{pl_prefix}"
-          - "&7Group&8: &b{pl_group}"
-    Player: 
-      Message: "{player}:"                 
-      Hover_Event: 
-        Action: SHOW_TEXT
-        Values: 
-          - "&7Message issued: &b{timestamp}"
-          - "&7Click to send a PM"
-      Click_Event: 
-        Action: SUGGEST_COMMAND
-        Value: "/tell {player} "            
-    The_Rest: 
-      Message: "{pl_suffix} {message}"
-  #
-  # This example format is used in private messages for the sender.
-  #
-  Private_Message_Sender: 
-    Everything:
-      Message: "&7✉ &2has been sent!"
+  Chat:
+    Vip:
+      Message: '&6[VIP] '
+      Sender_Permission: chatcontrol.groups.vip
       Hover_Event:
         Action: SHOW_TEXT
         Values:
-          - "     &8~ &3Private Message &8~     "
-          - "&8&oSent {timestamp}"
-          - "&3Receiver: &f{receiver}"
-          - "&3Body: &f{message}"
+        - '&6This player is VIP'
+        - '&6Check out &e/web &6to obtain VIP'
+    Prefix:
+      Message: '&f{pl_prefix}'
+      Hover_Event:
+        Action: SHOW_TEXT
+        Values:
+        - '&8*-----* &f{player} &8*-----*'
+        - '&7Prefix&8: &7{pl_prefix}'
+        - '&7Group&8: &b{pl_group}'
+    Player:
+      Message: '{player}:'
+      Hover_Event:
+        Action: SHOW_TEXT
+        Values:
+        - '&7Message issued: &b{timestamp}'
+        - '&7Click to send a PM'
       Click_Event:
         Action: SUGGEST_COMMAND
-        Value: "/tell {player} "
-  #
-  # This example format is used in private messages for the receiver.
-  #
+        Value: '/tell {player} '
+    The_Rest:
+      Message: '{pl_suffix} {message}'
+  Private_Message_Sender:
+    Everything:
+      Message: '&7✉ &2has been sent!'
+      Hover_Event:
+        Action: SHOW_TEXT
+        Values:
+        - '     &8~ &3Private Message &8~     '
+        - '&8&oSent {timestamp}'
+        - '&3Receiver: &f{receiver}'
+        - '&3Body: &f{message}'
+      Click_Event:
+        Action: SUGGEST_COMMAND
+        Value: '/tell {player} '
   Private_Message_Receiver:
     Everything:
-      Message: "&7✉ &6from {sender}: &f{message}"
+      Message: '&7✉ &6from {sender}: &f{message}'
       Hover_Event:
         Action: SHOW_TEXT
         Values:
-          - "     &8~ &3Private Message &8~     "
-          - "&8&oReceived {timestamp}"
-          - "&3Sender: &f{sender}"
-          - ""
-          - "&7Click for a reply."
+        - '     &8~ &3Private Message &8~     '
+        - '&8&oReceived {timestamp}'
+        - '&3Sender: &f{sender}'
+        - ''
+        - '&7Click for a reply.'
       Click_Event:
         Action: SUGGEST_COMMAND
-        Value: "/r "
-  #
-  # This example format is used in admin chat with "/chc ach".
-  #
-  Admin_Chat: 
-    Bracket_Start: 
-      Message: "&8[&2A-Chat "
-    Player: 
-      Message: "{player}"
-    Bracket_End: 
-      Message: "&8] &2"
-    Message: 
-      Message: "{message}"
-  #
-  # This example format is used in global bungee chat with "/chc g".
-  #
-  Bungee_Chat:  
-    Everything: 
-      Message: "&8[&fG&8] {player} &7>&f {message}"
-  #
-  # This example format is used when you send a message from Discord.
-  # Only works if you have DiscordSRV plugin installed and configured properly.
-  #
-  Discord_Chat: 
-    Everything: 
-      Message: "&8[&3Discord&8] &7{player}: &f"
-  #
-  # This example format is used in global chat when ranged mode is enabled.
-  #
-  Global_Chat: 
-    Everything: 
-      Message: "&7[GLOBAL] {pl_prefix}{player}:{pl_suffix} {message}"
-  #
-  # This example format is used in spy chat for admins, when ranged mode is enabled.
-  #
-  Spy_Chat: 
-    Everything: 
-      Message: "&8SPY: [{world}&8]&f {pl_prefix}{player}:{pl_suffix} {message}"    
-  #
-  # This example format is used in spy chat when party mode is enabled.
-  #
-  Spy_Party_Chat: 
-    Everything: 
-      Message: "&8SPY: [{party}&8]&f {pl_prefix}{player}:{pl_suffix} {message}"    
-  #
-  # This example format is used in /me
-  #
+        Value: '/r '
+  Admin_Chat:
+    Bracket_Start:
+      Message: '&8[&2A-Chat '
+    Player:
+      Message: '{player}'
+    Bracket_End:
+      Message: '&8] &2'
+    Message:
+      Message: '{message}'
+  Bungee_Chat:
+    Everything:
+      Message: '&8[&fG&8] {player} &7>&f {message}'
+  Discord_Chat:
+    Everything:
+      Message: '&8[&3Discord&8] &7{player}: &f'
+  Global_Chat:
+    Everything:
+      Message: '&7[GLOBAL] {pl_prefix}{player}:{pl_suffix} {message}'
+  Spy_Chat:
+    Everything:
+      Message: '&8SPY: [{world}&8]&f {pl_prefix}{player}:{pl_suffix} {message}'
+  Spy_Party_Chat:
+    Everything:
+      Message: '&8SPY: [{party}&8]&f {pl_prefix}{player}:{pl_suffix} {message}'
   Me:
-    Vip: 
-      Message: "&6* "
-      Condition: 'player.hasPermission("chatcontrol.groups.vip")'
-      Hover_Event: 
-        Action: SHOW_TEXT
-        Values: 
-          - "&6This player is VIP"
-          - "&6Check out &e/web &6to obtain VIP"
-    Normal: 
-      Message: "&f* "
-      Condition: '!player.hasPermission("chatcontrol.groups.vip")'
-    Player: 
-      Message: "{player} "
-      Click_Event: 
-        Action: SUGGEST_COMMAND
-        Value: "/tell {player} "            
-    The_Rest: 
-      Message: "{message}"
-  #
-  # This example format is used for admins when an advertising message is caught.
-  #  
-  Ad_Info: 
-    Info: 
-      Message: |-
-               &6&m----------------------------------------------
-               &r              &7&o(( Advertisement! ))
-               
-                 &6x &ePlayer: &f{player}
-                 &6x &eMessage: &f{message}
-    
-    More_Info: 
-      Message: |- 
-               &r
-                 &8[&9x&8] Hover for more information."
-               &6&m----------------------------------------------
-      Hover_Event: 
+    Vip:
+      Message: '&6* '
+      Condition: player.hasPermission("chatcontrol.groups.vip")
+      Hover_Event:
         Action: SHOW_TEXT
         Values:
-          - "     &8~ &3Information &8~     " 
-          - "&3Time: &f{timestamp}"
-      Click_Event: 
+        - '&6This player is VIP'
+        - '&6Check out &e/web &6to obtain VIP'
+    Normal:
+      Message: '&f* '
+      Condition: '!player.hasPermission("chatcontrol.groups.vip")'
+    Player:
+      Message: '{player} '
+      Click_Event:
         Action: SUGGEST_COMMAND
-        Value: "/tempban {player} 10m Advertising is not allowed!"
+        Value: '/tell {player} '
+    The_Rest:
+      Message: '{message}'
+  Ad_Info:
+    Info:
+      Message: |-
+        &6&m----------------------------------------------
+        &r              &7&o(( Advertisement! ))
+
+          &6x &ePlayer: &f{player}
+          &6x &eMessage: &f{message}
+    More_Info:
+      Message: |-
+        &r
+          &8[&9x&8] Hover for more information."
+        &6&m----------------------------------------------
+      Hover_Event:
+        Action: SHOW_TEXT
+        Values:
+        - '     &8~ &3Information &8~     '
+        - '&3Time: &f{timestamp}'
+      Click_Event:
+        Action: SUGGEST_COMMAND
+        Value: /tempban {player} 10m Advertising is not allowed!
+Integration:
+  Discord_Channel: ''

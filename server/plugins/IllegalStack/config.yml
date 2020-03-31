@@ -1,35 +1,116 @@
-#                       ┏━━━┓╋╋╋╋╋╋╋┏┳━┓┏━┳━━━┓
-#                       ┃┏━┓┃╋╋╋╋╋╋╋┃┃┃┗┛┃┃┏━┓┃
-#                       ┃┃╋┗╋━━┳━━┳━┛┃┏┓┏┓┃┃╋┗┛
-#                       ┃┃┏━┫┏┓┃┏┓┃┏┓┃┃┃┃┃┃┃╋┏┓
-#                       ┃┗┻━┃┗┛┃┗┛┃┗┛┃┃┃┃┃┃┗━┛┃
-# ∙∙·▫▫ᵒᴼᵒ▫ₒₒ▫ᵒᴼᵒ▫ₒₒ▫ᵒᴼᵒ┗━━━┻━━┻━━┻━━┻┛┗┛┗┻━━━┛ᵒᴼᵒ▫ₒₒ▫ᵒᴼᵒ▫ₒₒ▫ᵒᴼᵒ▫▫·∙∙
-#
-Settings:
-  RemoveBadSignsOnChunkLoad: true
+ConfigVersion: '2.0'
+Exploits:
+  Other:
+    PreventInvalidElytraFlight: true
+    PreventInvalidPotions: true
+    PreventNestedShulkers: true
+    DisableChestsOnMobs: true
+    PreventItemSwapLagExploit: true
+    PreventHoppersToUnloadedChunks: true
+    PreventRailDupe: true
+    PreventZeroTickExploit: true
+    PreventBedrockDestruction: true
+  1_14_Exploits:
+    Traders:
+      VillagerRestockTime: 10
+      ZombieVillagerTransformChance: 100
+      BlockVillagerTradeCheesing: true
+  Fishing:
+    KickForAutoClickerFishing: true
+  Enchants:
+    RemoveCustomAttributes: false
+    OnlyFunctionInWorlds: []
+    AllowBypass: false
+    EnchantedItemWhitelist: []
+    FixIllegalEnchants: false
+    CustomEnchantOverride: []
+    RemoveUnbreakableFlag: false
+  FishMod:
+    MaxFishAllowedBeforeKick: 5
+    MaxFishToNotifyStaffThenBlock: 5
+    WatchForAutoFishMod: true
+    WarnPlayerThenKickInsteadOfNotify: true
+  BookExploit:
+    DisableBookWriting: false
+    LimitNumberOfPages: 0
+    ValidCharset: US-ASCII
+    PageCountThreshold: 5
+    BookAuthorWhitelist: []
+    RemoveBooksNotMatchingCharset: true
+  Teleport:
+    PearlPhasing: true
+  OverStack:
+    RemoveItemsOfType: []
+    FixOverstackedItemInstead: false
+    PreventOverStackedItemInHoppers: true
+    AllowStack:
+    - POTION
+    RemoveOverstackedItems: true
+    GroupStack: []
+    StackWhiteListMode: true
+  PortalDupe:
+    NotifyBlockedPortalAttempts: false
+    BlockNonPlayersInNetherPortal: true
+    NetherWhiteListMode: true
+    EndWhiteListMode: true
+    NetherWhiteList: []
+    BlockNonPlayersInEndPortal: true
+    EndWhiteList: []
+  DropperDupe:
+    BlockLoopedDroppers: false
+  3rdParty:
+    BlockCMIShulkerStacking: true
+  1_15_Exploits:
+    Dupes:
+      PreventTripwireDupe: true
+  MineCart:
+    RemoveExistingGlitchedMinecarts: false
+    MinecartBlockWhiteList: []
+    PreventMinecartGlitch: true
+  Nether:
+    NetherYLevel: 128
+    BlockPlayersAboveNether: true
+    ExcludeNetherWorldFromHeightCheck: []
+  TNTDupe:
+    PreventIndirectTNTPowerDupe: true
+  SignExploit:
+    DestroyBadSignsOnChunkLoad: false
+  RNGEnchant:
+    PreventRNGEnchant: true
+Misc:
+  NotifyNearbyPlayers: false
   LogOffensesInSeparateFile: true
   InGameOffenseNotifications: true
-  RemoveBooksNotMatchingCharset: false
-  ValidCharset: US-ASCII
-  PageCountThreshold: 5
-  AllowStack:
-  - POTION
-  RemovePistonIfHeadIsExploded: true
-  PreventRailDupe: true
-  PreventOverStackedItemInHoppers: true
-  PreventRecipeDupe: true
-  RemoveOverstackedItems: true
-  PreventNestedShulkers: true
-  PreventHoppersToUnloadedChunks: true
-  PreventCactusDupe: true
-  RestoreInventoryOnGameModeChange: true
-  PreventItemFramePistonDupe: true
-#
-# ░░░░░░░░░░░░░░░░▄▓▄
-# ░░░░▄█▄░░░░░░░░▄▓▓▓▄
-# ░░▄█████▄░░░░░▄▓▓▓▓▓▄
-# ░▀██┼█┼██▀░░░▄▓▓▓▓▓▓▓▄
-# ▄▄███████▄▄▄▄▄▄▄▄█▄▄▄▄
-# Developed by Envel
-# Nikita Gutsenkov
-# Ngucenkov@yandex.ru
+  ItemScanTimer: 10
+  BreakMachinesInsteadOfDroppingItems: true
+  DisableInWorlds: []
+UserRequested:
+  Obscure:
+    HackedShulker:
+      DestroyInvalidShulkers: false
+      CheckGroundForBadShulkerAtLogin: false
+    BlockBadItemsFromCreativeTab: false
+    HopperCheck:
+      IgnoreAllHopperChecks: false
+  ItemRemoval:
+    ItemLoresToRemove: []
+    BlockEnchantingInstead: false
+    RemoveItemsMatchingName: false
+    ItemNamesToRemove: []
+    BlockRepairsInstead: false
+    NameLoreStrictMatchMode: false
+  Misc:
+    NotifyInsteadOfBlock: []
+  Cobble:
+    PreventCobbleGenerators: false
+  Mobs:
+    PreventZombieItemPickup: false
+  Obsure:
+    Misc:
+      RemoveAllRenamedItems: false
+Exploit:
+  Teleport:
+    CorrectionNotify: false
+  LagMachines:
+    End Crystal: true
+    ArmorStand: true
