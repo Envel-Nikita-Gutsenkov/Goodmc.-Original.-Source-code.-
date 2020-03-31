@@ -1,0 +1,15 @@
+positioning:
+  position: OVERWORLD
+  minY: 0
+  maxY: 256
+version: '312e30'
+schematic:
+  minecraftVersion: v1_13_2
+  version: '312e33'
+  basement:
+    build: false
+blocks:
+  0_-2_0: minecraft:structure_block[mode=data]
+  0_-4_0: minecraft:dirt
+  0_-3_0: minecraft:water[level=0]
+  0_-1_0: minecraft:structure_block[mode=data]

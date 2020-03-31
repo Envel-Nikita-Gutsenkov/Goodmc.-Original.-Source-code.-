@@ -269,7 +269,7 @@ biomes:
       - minecraft:dandelion;5
       - minecraft:grass;85
       - minecraft:fern;55
-      - minecraft:oak_leaves[distance=7,persistent=true];12
+      - minecraft:oak_leaves[distance=7,persistent=true];18
       - minecraft:oxeye_daisy;5
       - minecraft:azure_bluet;5
       - minecraft:lily_of_the_valley;5
@@ -278,26 +278,22 @@ biomes:
         weight: 1.0
         random: 1.0E7
         min: 0.0
-        max: 55000.0
+        max: 40000.0
       trees:
-      - BIG_OAK_TREE_4::4000
-      - SHEMATIC_gmc_OAK_TREE_4::4000
-      - SHEMATIC_gmc_OAK_TREE_3::4000
-      - SHEMATIC_gmc_OAK_TREE_5::4000
-      - SHEMATIC_gmc_OAK_TREE_2::4000
-      - SHEMATIC_gmc_OAK_TREE_1::4000
-      - BIG_OAK_TREE_3::4000
-      - BIG_OAK_TREE_2::4000
-      - BIG_OAK_TREE_1::4000
-      - SHEMATIC_gmc_oak::4000
-      - SHEMATIC_gmc_oak_0::4000
-      - SHEMATIC_gmc_oak_1::4000
-      - SHEMATIC_gmc_oak_2::4000
-      - SHEMATIC_gmc_oak_3::4000
-      - gmc_BIRCH_TREE_4::1666
-      - gmc_BIRCH_TREE_3::1666
-      - gmc_BIRCH_TREE_2::1666
-      - gmc_BIRCH_TREE_1::1666
+      - gmc_newdarkoak_1::4000
+      - gmc_newdarkoak_2::4000
+      - gmc_newdarkoak_3_1::4000
+      - gmc_newdarkoak_4::4000
+      - gmc_newdarkoak_5::4000
+      - gmc_newoak_1_1::2000
+      - gmc_newoak_2_3::2000
+      - gmc_newoak_3_2::2000
+      - gmc_newoak_4_2::2000
+      - gmc_newoak_5_1::6000
+      - gmc_newoak_6_3::6000
+      - gmc_newoak_7_3::6000
+      - gmc_newoak_8_6::5000
+      - gmc_newoak_9_2::1000
     structures:
       chance:
         weight: 1.0
@@ -339,7 +335,7 @@ biomes:
       - minecraft:dandelion;5
       - minecraft:grass;85
       - minecraft:fern;55
-      - minecraft:oak_leaves[distance=7,persistent=true];12
+      - minecraft:oak_leaves[distance=7,persistent=true];18
       - minecraft:oxeye_daisy;5
       - minecraft:azure_bluet;5
       - minecraft:lily_of_the_valley;5
@@ -348,26 +344,22 @@ biomes:
         weight: 1.0
         random: 1.0E7
         min: 0.0
-        max: 65000.0
+        max: 40000.0
       trees:
-      - BIG_OAK_TREE_4::4000
-      - SHEMATIC_gmc_OAK_TREE_4::4000
-      - SHEMATIC_gmc_OAK_TREE_3::4000
-      - SHEMATIC_gmc_OAK_TREE_5::4000
-      - SHEMATIC_gmc_OAK_TREE_2::4000
-      - SHEMATIC_gmc_OAK_TREE_1::4000
-      - BIG_OAK_TREE_3::4000
-      - BIG_OAK_TREE_2::4000
-      - BIG_OAK_TREE_1::4000
-      - SHEMATIC_gmc_oak::4000
-      - SHEMATIC_gmc_oak_0::4000
-      - SHEMATIC_gmc_oak_1::4000
-      - SHEMATIC_gmc_oak_2::4000
-      - SHEMATIC_gmc_oak_3::4000
-      - gmc_BIRCH_TREE_4::1666
-      - gmc_BIRCH_TREE_3::1666
-      - gmc_BIRCH_TREE_2::1666
-      - gmc_BIRCH_TREE_1::1666
+      - gmc_newdarkoak_1::4000
+      - gmc_newdarkoak_2::4000
+      - gmc_newdarkoak_3_1::4000
+      - gmc_newdarkoak_4::4000
+      - gmc_newdarkoak_5::4000
+      - gmc_newoak_1_1::2000
+      - gmc_newoak_2_1::2000
+      - gmc_newoak_3_1::2000
+      - gmc_newoak_4_1::2000
+      - gmc_newoak_5_1::6000
+      - gmc_newoak_6_1::6000
+      - gmc_newoak_7_1::6000
+      - gmc_newoak_8_2::5000
+      - gmc_newoak_9_1::1000
     structures:
       chance:
         weight: 1.0
@@ -1868,24 +1860,24 @@ biomes:
       - minecraft:granite;25
   TAIGA:
     overlay:
-      chance: 4
+      chance: 3
       blocks:
       - minecraft:oxeye_daisy;30
       - minecraft:allium;60
-      - minecraft:grass;900
+      - minecraft:grass;1000
       - minecraft:fern;1000
       - minecraft:brown_mushroom;50
       - minecraft:red_mushroom;50
       - minecraft:pumpkin;6
       - minecraft:sweet_berry_bush[age=2];15
       - minecraft:large_fern[half=lower];800
-      - minecraft:tall_grass[half=lower];200
+      - minecraft:tall_grass[half=lower];600
     trees:
       chance:
         weight: 1.0
         random: 1.0E7
         min: 0.0
-        max: 100000.0
+        max: 80000.0
       trees:
       - SHEMATIC_gmc_taiga::5000
       - SHEMATIC_gmc_taiga_0::5000
@@ -1947,24 +1939,24 @@ biomes:
       - minecraft:granite;25
   TAIGA_HILLS:
     overlay:
-      chance: 4
+      chance: 3
       blocks:
       - minecraft:oxeye_daisy;30
       - minecraft:allium;60
-      - minecraft:grass;900
+      - minecraft:grass;1000
       - minecraft:fern;1000
       - minecraft:brown_mushroom;50
       - minecraft:red_mushroom;50
       - minecraft:pumpkin;6
       - minecraft:sweet_berry_bush[age=2];15
       - minecraft:large_fern[half=lower];800
-      - minecraft:tall_grass[half=lower];200
+      - minecraft:tall_grass[half=lower];600
     trees:
       chance:
         weight: 1.0
         random: 1.0E7
         min: 0.0
-        max: 100000.0
+        max: 80000.0
       trees:
       - SHEMATIC_gmc_taiga::5000
       - SHEMATIC_gmc_taiga_0::5000
@@ -2026,24 +2018,24 @@ biomes:
       - minecraft:granite;25
   TAIGA_MOUNTAINS:
     overlay:
-      chance: 4
+      chance: 3
       blocks:
       - minecraft:oxeye_daisy;30
       - minecraft:allium;60
-      - minecraft:grass;900
+      - minecraft:grass;1000
       - minecraft:fern;1000
       - minecraft:brown_mushroom;50
       - minecraft:red_mushroom;50
       - minecraft:pumpkin;6
       - minecraft:sweet_berry_bush[age=2];15
       - minecraft:large_fern[half=lower];800
-      - minecraft:tall_grass[half=lower];200
+      - minecraft:tall_grass[half=lower];600
     trees:
       chance:
         weight: 1.0
         random: 1.0E7
         min: 0.0
-        max: 100000.0
+        max: 80000.0
       trees:
       - SHEMATIC_gmc_taiga::5000
       - SHEMATIC_gmc_taiga_0::5000
@@ -2366,7 +2358,7 @@ biomes:
         weight: 1.0
         random: 1.0E7
         min: 0.0
-        max: 8000.0
+        max: 7000.0
       trees:
       - SHEMATIC_gmc_savanna::2666
       - SHEMATIC_gmc_savanna_0::2666
@@ -2424,7 +2416,7 @@ biomes:
         weight: 1.0
         random: 1.0E7
         min: 0.0
-        max: 8000.0
+        max: 7000.0
       trees:
       - SHEMATIC_gmc_savanna::2666
       - SHEMATIC_gmc_savanna_0::2666
