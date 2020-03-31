@@ -1,0 +1,19 @@
+# General Messages
+
+general:
+  nametag:
+    prefix: '&8[&6UltimateTimber&8] '
+  nopermission: '&cYou don''t have permission for that!'
+# Command Messages
+command:
+  reload:
+    description: '&8 - &a/ut reload &7 - Reloads the config.'
+    reloaded: '&7Configuration and locale files have been reloaded.'
+  toggle:
+    description: '&8 - &a/ut toggle &7 - Toggles your chopping mode'
+    enabled: '&7Chopping Mode: &aEnabled'
+    disabled: '&7Chopping Mode: &cDisabled'
+# Event Messages
+event:
+  'on':
+    cooldown: '&eYou are on cooldown and cannot topple trees right now.'

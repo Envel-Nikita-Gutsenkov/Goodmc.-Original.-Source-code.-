@@ -14,18 +14,12 @@ entity:
         enable: false
     sound:
       enable: false
-      sound: BLOCK_GRASS_PLACE
+      sound: block_grass_place
       volume: 1.0
       pitch: 2.0
     triggers:
-      defaultWorld0:
-        minY: 50.0
-        maxY: 256.0
-      defaultWorld1:
-        minY: 50.0
-        maxY: 256.0
-      defaultWorld2:
-        minY: 50.0
+      defaultWorld:
+        minY: 0.0
         maxY: 256.0
   fireball:
     enable: false
@@ -42,9 +36,22 @@ entity:
         enable: false
     sound:
       enable: false
-      sound: BLOCK_GRASS_PLACE
+      sound: block_grass_place
       volume: 1.0
       pitch: 2.0
+    triggers:
+      world:
+        minY: 0.0
+        maxY: 256.0
+      world_nether:
+        minY: 0.0
+        maxY: 256.0
+      world_the_end:
+        minY: 0.0
+        maxY: 256.0
+      Tree355:
+        minY: 0.0
+        maxY: 256.0
   small_fireball:
     enable: false
     delay: 1200
@@ -60,16 +67,25 @@ entity:
         enable: false
     sound:
       enable: false
-      sound: BLOCK_GRASS_PLACE
+      sound: block_grass_place
       volume: 1.0
       pitch: 2.0
     triggers:
       world:
-        minY: 50.0
+        minY: 0.0
+        maxY: 256.0
+      world_nether:
+        minY: 0.0
+        maxY: 256.0
+      world_the_end:
+        minY: 0.0
+        maxY: 256.0
+      Tree355:
+        minY: 0.0
         maxY: 256.0
   wither_skull:
-    enable: true
-    delay: 6000
+    enable: false
+    delay: 1200
     period: 20
     instantRegen: false
     disableBlockDamage: false
@@ -82,12 +98,21 @@ entity:
         enable: false
     sound:
       enable: false
-      sound: BLOCK_GRASS_PLACE
+      sound: block_grass_place
       volume: 1.0
       pitch: 2.0
     triggers:
       world:
-        minY: 50.0
+        minY: 0.0
+        maxY: 256.0
+      world_nether:
+        minY: 0.0
+        maxY: 256.0
+      world_the_end:
+        minY: 0.0
+        maxY: 256.0
+      Tree355:
+        minY: 0.0
         maxY: 256.0
   primed_tnt:
     enable: false
@@ -104,12 +129,21 @@ entity:
         enable: false
     sound:
       enable: false
-      sound: BLOCK_GRASS_PLACE
+      sound: block_grass_place
       volume: 1.0
       pitch: 2.0
     triggers:
       world:
-        minY: 50.0
+        minY: 0.0
+        maxY: 256.0
+      world_nether:
+        minY: 0.0
+        maxY: 256.0
+      world_the_end:
+        minY: 0.0
+        maxY: 256.0
+      Tree355:
+        minY: 0.0
         maxY: 256.0
   dragon_fireball:
     enable: false
@@ -126,16 +160,25 @@ entity:
         enable: false
     sound:
       enable: false
-      sound: BLOCK_GRASS_PLACE
+      sound: block_grass_place
       volume: 1.0
       pitch: 2.0
     triggers:
       world:
-        minY: 50.0
+        minY: 0.0
+        maxY: 256.0
+      world_nether:
+        minY: 0.0
+        maxY: 256.0
+      world_the_end:
+        minY: 0.0
+        maxY: 256.0
+      Tree355:
+        minY: 0.0
         maxY: 256.0
   minecart_tnt:
-    enable: true
-    delay: 6000
+    enable: false
+    delay: 1200
     period: 20
     instantRegen: false
     disableBlockDamage: false
@@ -148,16 +191,25 @@ entity:
         enable: false
     sound:
       enable: false
-      sound: BLOCK_GRASS_PLACE
+      sound: block_grass_place
       volume: 1.0
       pitch: 2.0
     triggers:
       world:
-        minY: 50.0
+        minY: 0.0
+        maxY: 256.0
+      world_nether:
+        minY: 0.0
+        maxY: 256.0
+      world_the_end:
+        minY: 0.0
+        maxY: 256.0
+      Tree355:
+        minY: 0.0
         maxY: 256.0
   creeper:
     enable: true
-    delay: 6000
+    delay: 4200
     period: 20
     instantRegen: false
     disableBlockDamage: false
@@ -170,12 +222,21 @@ entity:
         enable: false
     sound:
       enable: false
-      sound: BLOCK_GRASS_PLACE
+      sound: block_grass_place
       volume: 1.0
       pitch: 2.0
     triggers:
       world:
-        minY: 50.0
+        minY: 0.0
+        maxY: 256.0
+      world_nether:
+        minY: 0.0
+        maxY: 256.0
+      world_the_end:
+        minY: 0.0
+        maxY: 256.0
+      Tree355:
+        minY: 0.0
         maxY: 256.0
   ender_crystal:
     enable: false
@@ -192,12 +253,540 @@ entity:
         enable: false
     sound:
       enable: false
-      sound: BLOCK_GRASS_PLACE
+      sound: block_grass_place
       volume: 1.0
       pitch: 2.0
     triggers:
       world:
-        minY: 50.0
+        minY: 0.0
+        maxY: 256.0
+      world_nether:
+        minY: 0.0
+        maxY: 256.0
+      world_the_end:
+        minY: 0.0
+        maxY: 256.0
+      Tree355:
+        minY: 0.0
+        maxY: 256.0
+block:
+  default:
+    enable: false
+    delay: 1200
+    period: 20
+    instantRegen: false
+    disableBlockDamage: false
+    particles:
+      blockRegen:
+        particle: heart
+        enable: false
+      blockToBeRegen:
+        particle: flame
+        enable: false
+    sound:
+      enable: false
+      sound: block_grass_place
+      volume: 1.0
+      pitch: 2.0
+    triggers:
+      defaultWorld:
+        minY: 0.0
+        maxY: 256.0
+  black_bed:
+    enable: false
+    delay: 1200
+    period: 20
+    instantRegen: false
+    disableBlockDamage: false
+    particles:
+      blockRegen:
+        particle: heart
+        enable: false
+      blockToBeRegen:
+        particle: flame
+        enable: false
+    sound:
+      enable: false
+      sound: block_grass_place
+      volume: 1.0
+      pitch: 2.0
+    triggers:
+      world:
+        minY: 0.0
+        maxY: 256.0
+      world_nether:
+        minY: 0.0
+        maxY: 256.0
+      world_the_end:
+        minY: 0.0
+        maxY: 256.0
+      Tree355:
+        minY: 0.0
+        maxY: 256.0
+  blue_bed:
+    enable: false
+    delay: 1200
+    period: 20
+    instantRegen: false
+    disableBlockDamage: false
+    particles:
+      blockRegen:
+        particle: heart
+        enable: false
+      blockToBeRegen:
+        particle: flame
+        enable: false
+    sound:
+      enable: false
+      sound: block_grass_place
+      volume: 1.0
+      pitch: 2.0
+    triggers:
+      world:
+        minY: 0.0
+        maxY: 256.0
+      world_nether:
+        minY: 0.0
+        maxY: 256.0
+      world_the_end:
+        minY: 0.0
+        maxY: 256.0
+      Tree355:
+        minY: 0.0
+        maxY: 256.0
+  brown_bed:
+    enable: false
+    delay: 1200
+    period: 20
+    instantRegen: false
+    disableBlockDamage: false
+    particles:
+      blockRegen:
+        particle: heart
+        enable: false
+      blockToBeRegen:
+        particle: flame
+        enable: false
+    sound:
+      enable: false
+      sound: block_grass_place
+      volume: 1.0
+      pitch: 2.0
+    triggers:
+      world:
+        minY: 0.0
+        maxY: 256.0
+      world_nether:
+        minY: 0.0
+        maxY: 256.0
+      world_the_end:
+        minY: 0.0
+        maxY: 256.0
+      Tree355:
+        minY: 0.0
+        maxY: 256.0
+  cyan_bed:
+    enable: false
+    delay: 1200
+    period: 20
+    instantRegen: false
+    disableBlockDamage: false
+    particles:
+      blockRegen:
+        particle: heart
+        enable: false
+      blockToBeRegen:
+        particle: flame
+        enable: false
+    sound:
+      enable: false
+      sound: block_grass_place
+      volume: 1.0
+      pitch: 2.0
+    triggers:
+      world:
+        minY: 0.0
+        maxY: 256.0
+      world_nether:
+        minY: 0.0
+        maxY: 256.0
+      world_the_end:
+        minY: 0.0
+        maxY: 256.0
+      Tree355:
+        minY: 0.0
+        maxY: 256.0
+  gray_bed:
+    enable: false
+    delay: 1200
+    period: 20
+    instantRegen: false
+    disableBlockDamage: false
+    particles:
+      blockRegen:
+        particle: heart
+        enable: false
+      blockToBeRegen:
+        particle: flame
+        enable: false
+    sound:
+      enable: false
+      sound: block_grass_place
+      volume: 1.0
+      pitch: 2.0
+    triggers:
+      world:
+        minY: 0.0
+        maxY: 256.0
+      world_nether:
+        minY: 0.0
+        maxY: 256.0
+      world_the_end:
+        minY: 0.0
+        maxY: 256.0
+      Tree355:
+        minY: 0.0
+        maxY: 256.0
+  green_bed:
+    enable: false
+    delay: 1200
+    period: 20
+    instantRegen: false
+    disableBlockDamage: false
+    particles:
+      blockRegen:
+        particle: heart
+        enable: false
+      blockToBeRegen:
+        particle: flame
+        enable: false
+    sound:
+      enable: false
+      sound: block_grass_place
+      volume: 1.0
+      pitch: 2.0
+    triggers:
+      world:
+        minY: 0.0
+        maxY: 256.0
+      world_nether:
+        minY: 0.0
+        maxY: 256.0
+      world_the_end:
+        minY: 0.0
+        maxY: 256.0
+      Tree355:
+        minY: 0.0
+        maxY: 256.0
+  light_blue_bed:
+    enable: false
+    delay: 1200
+    period: 20
+    instantRegen: false
+    disableBlockDamage: false
+    particles:
+      blockRegen:
+        particle: heart
+        enable: false
+      blockToBeRegen:
+        particle: flame
+        enable: false
+    sound:
+      enable: false
+      sound: block_grass_place
+      volume: 1.0
+      pitch: 2.0
+    triggers:
+      world:
+        minY: 0.0
+        maxY: 256.0
+      world_nether:
+        minY: 0.0
+        maxY: 256.0
+      world_the_end:
+        minY: 0.0
+        maxY: 256.0
+      Tree355:
+        minY: 0.0
+        maxY: 256.0
+  light_gray_bed:
+    enable: false
+    delay: 1200
+    period: 20
+    instantRegen: false
+    disableBlockDamage: false
+    particles:
+      blockRegen:
+        particle: heart
+        enable: false
+      blockToBeRegen:
+        particle: flame
+        enable: false
+    sound:
+      enable: false
+      sound: block_grass_place
+      volume: 1.0
+      pitch: 2.0
+    triggers:
+      world:
+        minY: 0.0
+        maxY: 256.0
+      world_nether:
+        minY: 0.0
+        maxY: 256.0
+      world_the_end:
+        minY: 0.0
+        maxY: 256.0
+      Tree355:
+        minY: 0.0
+        maxY: 256.0
+  lime_bed:
+    enable: false
+    delay: 1200
+    period: 20
+    instantRegen: false
+    disableBlockDamage: false
+    particles:
+      blockRegen:
+        particle: heart
+        enable: false
+      blockToBeRegen:
+        particle: flame
+        enable: false
+    sound:
+      enable: false
+      sound: block_grass_place
+      volume: 1.0
+      pitch: 2.0
+    triggers:
+      world:
+        minY: 0.0
+        maxY: 256.0
+      world_nether:
+        minY: 0.0
+        maxY: 256.0
+      world_the_end:
+        minY: 0.0
+        maxY: 256.0
+      Tree355:
+        minY: 0.0
+        maxY: 256.0
+  magenta_bed:
+    enable: false
+    delay: 1200
+    period: 20
+    instantRegen: false
+    disableBlockDamage: false
+    particles:
+      blockRegen:
+        particle: heart
+        enable: false
+      blockToBeRegen:
+        particle: flame
+        enable: false
+    sound:
+      enable: false
+      sound: block_grass_place
+      volume: 1.0
+      pitch: 2.0
+    triggers:
+      world:
+        minY: 0.0
+        maxY: 256.0
+      world_nether:
+        minY: 0.0
+        maxY: 256.0
+      world_the_end:
+        minY: 0.0
+        maxY: 256.0
+      Tree355:
+        minY: 0.0
+        maxY: 256.0
+  orange_bed:
+    enable: false
+    delay: 1200
+    period: 20
+    instantRegen: false
+    disableBlockDamage: false
+    particles:
+      blockRegen:
+        particle: heart
+        enable: false
+      blockToBeRegen:
+        particle: flame
+        enable: false
+    sound:
+      enable: false
+      sound: block_grass_place
+      volume: 1.0
+      pitch: 2.0
+    triggers:
+      world:
+        minY: 0.0
+        maxY: 256.0
+      world_nether:
+        minY: 0.0
+        maxY: 256.0
+      world_the_end:
+        minY: 0.0
+        maxY: 256.0
+      Tree355:
+        minY: 0.0
+        maxY: 256.0
+  pink_bed:
+    enable: false
+    delay: 1200
+    period: 20
+    instantRegen: false
+    disableBlockDamage: false
+    particles:
+      blockRegen:
+        particle: heart
+        enable: false
+      blockToBeRegen:
+        particle: flame
+        enable: false
+    sound:
+      enable: false
+      sound: block_grass_place
+      volume: 1.0
+      pitch: 2.0
+    triggers:
+      world:
+        minY: 0.0
+        maxY: 256.0
+      world_nether:
+        minY: 0.0
+        maxY: 256.0
+      world_the_end:
+        minY: 0.0
+        maxY: 256.0
+      Tree355:
+        minY: 0.0
+        maxY: 256.0
+  purple_bed:
+    enable: false
+    delay: 1200
+    period: 20
+    instantRegen: false
+    disableBlockDamage: false
+    particles:
+      blockRegen:
+        particle: heart
+        enable: false
+      blockToBeRegen:
+        particle: flame
+        enable: false
+    sound:
+      enable: false
+      sound: block_grass_place
+      volume: 1.0
+      pitch: 2.0
+    triggers:
+      world:
+        minY: 0.0
+        maxY: 256.0
+      world_nether:
+        minY: 0.0
+        maxY: 256.0
+      world_the_end:
+        minY: 0.0
+        maxY: 256.0
+      Tree355:
+        minY: 0.0
+        maxY: 256.0
+  red_bed:
+    enable: false
+    delay: 1200
+    period: 20
+    instantRegen: false
+    disableBlockDamage: false
+    particles:
+      blockRegen:
+        particle: heart
+        enable: false
+      blockToBeRegen:
+        particle: flame
+        enable: false
+    sound:
+      enable: false
+      sound: block_grass_place
+      volume: 1.0
+      pitch: 2.0
+    triggers:
+      world:
+        minY: 0.0
+        maxY: 256.0
+      world_nether:
+        minY: 0.0
+        maxY: 256.0
+      world_the_end:
+        minY: 0.0
+        maxY: 256.0
+      Tree355:
+        minY: 0.0
+        maxY: 256.0
+  white_bed:
+    enable: false
+    delay: 1200
+    period: 20
+    instantRegen: false
+    disableBlockDamage: false
+    particles:
+      blockRegen:
+        particle: heart
+        enable: false
+      blockToBeRegen:
+        particle: flame
+        enable: false
+    sound:
+      enable: false
+      sound: block_grass_place
+      volume: 1.0
+      pitch: 2.0
+    triggers:
+      world:
+        minY: 0.0
+        maxY: 256.0
+      world_nether:
+        minY: 0.0
+        maxY: 256.0
+      world_the_end:
+        minY: 0.0
+        maxY: 256.0
+      Tree355:
+        minY: 0.0
+        maxY: 256.0
+  yellow_bed:
+    enable: false
+    delay: 1200
+    period: 20
+    instantRegen: false
+    disableBlockDamage: false
+    particles:
+      blockRegen:
+        particle: heart
+        enable: false
+      blockToBeRegen:
+        particle: flame
+        enable: false
+    sound:
+      enable: false
+      sound: block_grass_place
+      volume: 1.0
+      pitch: 2.0
+    triggers:
+      world:
+        minY: 0.0
+        maxY: 256.0
+      world_nether:
+        minY: 0.0
+        maxY: 256.0
+      world_the_end:
+        minY: 0.0
+        maxY: 256.0
+      Tree355:
+        minY: 0.0
         maxY: 256.0
 other:
   enablePlugin: true
@@ -207,3 +796,4 @@ other:
     shiftGravityUp: true
     maxShiftGravityUp: 5
   NoPermMsg: '&c[TnTRegen] You do not have permission to use this command!'
+  enablePlayerSettings: false

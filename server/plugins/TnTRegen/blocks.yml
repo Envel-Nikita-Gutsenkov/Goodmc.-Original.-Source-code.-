@@ -110,13 +110,6 @@ activator_rail:
     doReplace: false
     replaceWith: activator_rail
   chance: 30
-air:
-  doPreventDamage: false
-  regen: true
-  replace:
-    doReplace: false
-    replaceWith: air
-  chance: 30
 allium:
   doPreventDamage: false
   regen: true
@@ -223,12 +216,26 @@ bedrock:
     doReplace: false
     replaceWith: bedrock
   chance: 30
+beehive:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: beehive
+  chance: 30
 beetroots:
   doPreventDamage: false
   regen: true
   replace:
     doReplace: false
     replaceWith: beetroots
+  chance: 30
+bee_nest:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: bee_nest
   chance: 30
 bell:
   doPreventDamage: false
@@ -746,6 +753,7 @@ bubble_coral_wall_fan:
 cactus:
   doPreventDamage: false
   regen: true
+  maxRegenHeight: 3
   replace:
     doReplace: false
     replaceWith: cactus
@@ -791,13 +799,6 @@ cauldron:
   replace:
     doReplace: false
     replaceWith: cauldron
-  chance: 30
-cave_air:
-  doPreventDamage: false
-  regen: true
-  replace:
-    doReplace: false
-    replaceWith: cave_air
   chance: 30
 chain_command_block:
   doPreventDamage: false
@@ -1950,6 +1951,20 @@ heavy_weighted_pressure_plate:
   replace:
     doReplace: false
     replaceWith: heavy_weighted_pressure_plate
+  chance: 30
+honeycomb_block:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: honeycomb_block
+  chance: 30
+honey_block:
+  doPreventDamage: false
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: honey_block
   chance: 30
 hopper:
   doPreventDamage: false
@@ -3148,13 +3163,6 @@ piston:
   replace:
     doReplace: false
     replaceWith: piston
-  chance: 30
-piston_head:
-  doPreventDamage: false
-  regen: true
-  replace:
-    doReplace: false
-    replaceWith: piston_head
   chance: 30
 player_head:
   doPreventDamage: false
@@ -4378,6 +4386,7 @@ structure_void:
 sugar_cane:
   doPreventDamage: false
   regen: true
+  maxRegenHeight: 3
   replace:
     doReplace: false
     replaceWith: sugar_cane
@@ -4416,13 +4425,6 @@ terracotta:
   replace:
     doReplace: false
     replaceWith: terracotta
-  chance: 30
-tnt:
-  doPreventDamage: false
-  regen: true
-  replace:
-    doReplace: false
-    replaceWith: tnt
   chance: 30
 torch:
   doPreventDamage: false
@@ -4494,13 +4496,6 @@ vine:
   replace:
     doReplace: false
     replaceWith: vine
-  chance: 30
-void_air:
-  doPreventDamage: false
-  regen: true
-  replace:
-    doReplace: false
-    replaceWith: void_air
   chance: 30
 wall_torch:
   doPreventDamage: false

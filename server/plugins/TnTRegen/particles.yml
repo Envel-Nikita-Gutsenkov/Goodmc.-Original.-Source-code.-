@@ -1,0 +1,72 @@
+mystical_purple:
+  displayName: "Mystical Purple"
+  blockRegen:
+    particles:
+      redstone:
+        count: 10
+        offset: 
+          x: 0.7
+          y: 0.7
+          z: 0.7
+        extra: 1
+        option:
+          color: red
+          size: 1
+  blockToBeRegen:
+    particles:
+      portal:
+        amount: 10
+        count: 5
+        offset:
+          x: 0.5
+          y: 0.5
+          z: 0.5
+        spawnOn: explosion
+        extra: 2
+      villager_happy:
+        amount: 1
+        count: 2
+        offset:
+          x: 1
+          y: 1
+          z: 1
+        extra: 0.5
+      flame:
+        amount: 5
+        offset:
+          x: 0.7
+          y: 0.7
+          z: 0.7
+        extra: 0.1
+      redstone:
+        count: 2
+        offset:
+          x: 0.5
+          y: 0.5
+          z: 0.5
+        spawnOn: next
+        option:
+          color: aqua
+          size: 1
+angry_pit:
+  displayName: "Angry Pit"
+  blockRegen:
+    particles:
+      flame:
+        amount: 1
+        count: 20
+        offset:
+          x: 0.0
+          y: 0.5
+          z: 0.0
+        extra: 0.1
+  blockToBeRegen:
+    particles:
+      lava:
+        amount: 2
+        count: 2
+        extra: 1
+      villager_angry:
+        amount: 1
+      sweep_attack:
+        amount: 1

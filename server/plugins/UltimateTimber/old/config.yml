@@ -5,6 +5,12 @@
 #                       ┃┗┻━┃┗┛┃┗┛┃┗┛┃┃┃┃┃┃┗━┛┃
 # ∙∙·▫▫ᵒᴼᵒ▫ₒₒ▫ᵒᴼᵒ▫ₒₒ▫ᵒᴼᵒ┗━━━┻━━┻━━┻━━┻┛┗┛┗┻━━━┛ᵒᴼᵒ▫ₒₒ▫ᵒᴼᵒ▫ₒₒ▫ᵒᴼᵒ▫▫·∙∙
 #
+#     ____ ___ __   __   __                __       ___________ __       ___
+#    |    |   \  |_/  |_|__| _____ _____ _/  |_  ___\__    ___/|__| _____\_ |__   ___________
+#    |    |   /  |\   __\  |/     \\__  \\   __\/ __ \|    |   |  |/     \| __ \_/ __ \_  __ \
+#    |    |  /|  |_|  | |  |  Y Y  \/ __ \|  | \  ___/|    |   |  |  Y Y  \ \_\ \  ___/|  | \/
+#    |______/ |____/__| |__|__|_|  (____  /__|  \___  |____|   |__|__|_|  /___  /\___  >__|
+
 # The type of server you are running in relation to this plugin
 # Do not change this value
 # Default: CURRENT
@@ -24,7 +30,7 @@ disabled-worlds:
 
 # The max number of logs that can be broken at one time
 # Default: 150
-max-logs-per-chop: 150
+max-logs-per-chop: 100
 
 # The minimum number of leaves required for something to be considered a tree
 # Default: 5
@@ -106,7 +112,7 @@ always-replant-sapling: false
 # Does nothing if replant-saplings is false
 # The time is in seconds and must be a postive whole number
 # Default: 3
-replant-saplings-cooldown: 2
+replant-saplings-cooldown: 0
 
 # Give fallen leaf blocks a chance to replant saplings when they hit the ground
 # Default: true
@@ -116,7 +122,7 @@ falling-blocks-replant-saplings: true
 # Does nothing if falling-blocks-replant-saplings is false
 # The chance is out of 100 and may contain decimals
 # Default: 1
-falling-blocks-replant-saplings-chance: 0.0005
+falling-blocks-replant-saplings-chance: 0.08
 
 # Make falling tree blocks deal damage to players if they get hit
 # Default: true
@@ -154,7 +160,7 @@ ignore-placed-blocks: true
 # The maximum number of blocks to keep track of in memory at once
 # Use a lower number if this starts to take up too much memory or trees start taking too long to detect
 # Default: 5000
-ignore-placed-blocks-memory-size: 5000
+ignore-placed-blocks-memory-size: 1000
 
 # Applies experience when using Jobs/mcMMO
 # Only does something if Jobs or mcMMO is installed
@@ -185,7 +191,7 @@ scatter-tree-blocks-on-ground: false
 # Multiple log and leaf types are allowed, only one sapling type is allowed
 # You can add your own custom tree types here, just add a new section
 trees:
-  forest_oak:
+  oak:
     logs:
       - OAK_LOG
       - STRIPPED_OAK_LOG
@@ -196,8 +202,8 @@ trees:
       - OAK_FENCE
     sapling: OAK_SAPLING
     plantable-soil: []
-    max-log-distance-from-trunk: 40
-    max-leaf-distance-from-log: 16
+    max-log-distance-from-trunk: 35
+    max-leaf-distance-from-log: 25
     search-for-leaves-diagonally: true
     drop-original-log: true
     drop-original-leaf: false
@@ -205,42 +211,13 @@ trees:
     leaf-loot:
       0:
         material: OAK_SAPLING
-        chance: 0.5
+        chance: 1
       1:
         material: APPLE
-        chance: 0.05
+        chance: 0.3
       2:
         material: STICK
-        chance: 2
-    entire-tree-loot: []
-    required-tools: []
-  forest_dark_oak:
-    logs:
-      - DARK_OAK_LOG
-      - STRIPPED_DARK_OAK_LOG
-      - DARK_OAK_WOOD
-      - STRIPPED_DARK_OAK_WOOD
-    leaves:
-      - OAK_LEAVES
-      - DARK_OAK_FENCE
-    sapling: OAK_SAPLING
-    plantable-soil: []
-    max-log-distance-from-trunk: 15
-    max-leaf-distance-from-log: 6
-    search-for-leaves-diagonally: true
-    drop-original-log: true
-    drop-original-leaf: false
-    log-loot: []
-    leaf-loot:
-      0:
-        material: DARK_OAK_SAPLING
-        chance: 0.5
-      1:
-        material: APPLE
-        chance: 0.05
-      2:
-        material: STICK
-        chance: 2.1
+        chance: 4
     entire-tree-loot: []
     required-tools: []
   spruce:
@@ -254,8 +231,8 @@ trees:
       - SPRUCE_FENCE
     sapling: SPRUCE_SAPLING
     plantable-soil: []
-    max-log-distance-from-trunk: 40
-    max-leaf-distance-from-log: 10
+    max-log-distance-from-trunk: 110
+    max-leaf-distance-from-log: 30
     search-for-leaves-diagonally: true
     drop-original-log: true
     drop-original-leaf: false
@@ -279,11 +256,12 @@ trees:
       - OAK_LEAVES
       - BIRCH_LEAVES
       - BIRCH_FENCE
+      - oak_fence
     sapling: BIRCH_SAPLING
     plantable-soil: []
-    max-log-distance-from-trunk: 15
-    max-leaf-distance-from-log: 10
-    search-for-leaves-diagonally: false
+    max-log-distance-from-trunk: 25
+    max-leaf-distance-from-log: 15
+    search-for-leaves-diagonally: true
     drop-original-log: true
     drop-original-leaf: false
     log-loot: []
@@ -368,9 +346,9 @@ trees:
       - OAK_FENCE
     sapling: DARK_OAK_SAPLING
     plantable-soil: []
-    max-log-distance-from-trunk: 15
+    max-log-distance-from-trunk: 20
     max-leaf-distance-from-log: 30
-    search-for-leaves-diagonally: false
+    search-for-leaves-diagonally: true
     drop-original-log: true
     drop-original-leaf: false
     log-loot: []
@@ -426,7 +404,36 @@ trees:
         chance: 25
     entire-tree-loot: []
     required-tools: []
-
+#custom goodmc trees
+  oak_fence:
+    logs:
+      - OAK_FENCE
+      - SPRUCE_FENCE
+    leaves:
+      - OAK_LEAVES
+    sapling: OAK_SAPLING
+    plantable-soil: []
+    max-log-distance-from-trunk: 10
+    max-leaf-distance-from-log: 4
+    search-for-leaves-diagonally: true
+    drop-original-log: false
+    drop-original-leaf: false
+    log-loot:
+      0:
+    material: OAK_LOG
+    chance: 6
+    leaf-loot:
+      0:
+        material: OAK_SAPLING
+        chance: 1
+      1:
+        material: APPLE
+        chance: 0.3
+      2:
+        material: STICK
+        chance: 4
+    entire-tree-loot: []
+    required-tools: []
 # All soil types that the tree type's saplings can be planted on
 global-plantable-soil:
   - GRASS_BLOCK
@@ -459,8 +466,8 @@ global-log-loot:
 # Valid command placeholders: %player%, %type%, %xPos%, %yPos%, %zPos%
 global-leaf-loot:
   0:
-    material: GOLDEN_APPLE
-    chance: 0
+    material: APPLE
+    chance: 0.01
 
 # Custom entire tree loot that is available for all tree types
 # The loot will be dropped only one time for the entire tree
@@ -480,3 +487,12 @@ global-required-tools:
   - IRON_AXE
   - GOLDEN_AXE
   - DIAMOND_AXE
+#
+#
+# ░░░░░░░░░░░░░░░░▄▓▄
+# ░░░░▄█▄░░░░░░░░▄▓▓▓▄
+# ░░▄█████▄░░░░░▄▓▓▓▓▓▄
+# ░▀██┼█┼██▀░░░▄▓▓▓▓▓▓▓▄
+# ▄▄███████▄▄▄▄▄▄▄▄█▄▄▄▄
+# Developed by Envel
+# Nikita Gutsenkov

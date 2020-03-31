@@ -24,21 +24,21 @@
 'Alpha Pigman Sword Drop Chance ': 1
 'Wind Volume - lower equals louder - ': 800
 'Wind Pitch - must be between 0 and 2 - ': 0
-'Low Y Value Wind ': 70
-'High Y Value Wind ': 200
+'Low Y Value Wind ': 10
+'High Y Value Wind ': 256
 'Netherrack Step Sound ': ENTITY_SLIME_SQUISH
 'Wither Potion Drop Chance ': 2
 'Haste Potion Drop Chance ': 2
 '::::::::::::::::::::::::::::::::::::': ''
-'All Structures Chance ': 0
-'Web Vine Chance ': 0
-'Mushroom Chance ': 0
-'Nether Spike Chance ': 0
-'Nether World Height ': 120
-'Coral Chance  ': 0
-'Rose Chance ': 0
-'Mushrooms Chance ': 0
-'Replace Netherrack Chance ': 0
+'All Structures Chance ': 2
+'Web Vine Chance ': 3
+'Mushroom Chance ': 3
+'Nether Spike Chance ': 1
+'Nether World Height ': 256
+'Coral Chance  ': 15
+'Rose Chance ': 5
+'Mushrooms Chance ': 2
+'Replace Netherrack Chance ': 5
 ':::::::::::::::::::::::::::::::::::::': ''
 'Spawn Molten ': true
 'Spawn Fireball ': true
