@@ -27,11 +27,9 @@
 #
 saplings:
   oak:
-  - OAK_TREE_1
-  - OAK_TREE_2
-  - OAK_TREE_3
-  - OAK_TREE_4
-  - OAK_TREE_5
+  - gmc_newoaktree_1
+  - gmc_newoaktree_2
+  - gmc_newoaktree_3
   - BIG_OAK_TREE_1
   - BIG_OAK_TREE_2
   - BIG_OAK_TREE_3
@@ -42,22 +40,12 @@ saplings:
   - gmc_BIRCH_TREE_2
   - gmc_BIRCH_TREE_1
   pine:
-  - gmc_taiga
-  - gmc_taiga_0
-  - gmc_taiga_1
-  - gmc_taiga_2
-  - gmc_taiga_3
-  - gmc_taiga_4
-  - gmc_taiga_5
-  - gmc_taiga_6
-  - gmc_taiga_7
-  - gmc_taiga_8
-  - gmc_taiga_9
-  - gmc_taiga_10
-  - gmc_taiga_11
-  - gmc_taiga_13
-  - gmc_taiga_15
-  - gmc_taiga_16
+  - gmc_newspruce_1
+  - gmc_newspruce_2
+  - gmc_newspruce_3
+  - gmc_newspruce_4
+  - gmc_newspruce_5
+  - gmc_newspruce_6
   jungle:
   - SHEMATIC_gmc_jungle_v2
   - SHEMATIC_gmc_jungle_1_v2
@@ -69,7 +57,11 @@ saplings:
   - SHEMATIC_gmc_jungle_7_v2
   - SHEMATIC_gmc_jungle_8_v2
   dark:
-  - gmc_dark_oak
+  - gmc_newhillsdarkoak_1
+  - gmc_newhillsdarkoak_2
+  - gmc_newhillsdarkoak_3
+  - gmc_newhillsdarkoak_4
+  - gmc_newhillsdarkoak_5
   - gmc_dark_oak_0
   - gmc_dark_oak_1
   - gmc_dark_oak_2
@@ -84,7 +76,7 @@ saplings:
   - gmc_savanna_4
   - gmc_savanna_5
 grow:
-  replaceBlocks: true
+  replaceBlocks: false
 #
 #
 # ░░░░░░░░░░░░░░░░▄▓▄

@@ -101,10 +101,10 @@ blocks:
     max: 120
   cobblestone:
     min: 0
-    chance: 15.0
+    chance: 450.0
     spawn:
-      min: 5
-      max: 15
+      min: 1
+      max: 2
     material: minecraft:cobblestone
     max: 256
   granite:

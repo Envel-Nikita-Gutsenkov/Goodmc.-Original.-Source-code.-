@@ -713,6 +713,7 @@ list:
       - ' '
       - '&8- &7The war took'
       - '  &5~{time}'
+# НЕ ПЕРЕВОДИТЬ // отключено
 wars:
   message:
     noaccess:

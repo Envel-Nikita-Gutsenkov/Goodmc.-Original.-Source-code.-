@@ -2064,6 +2064,7 @@ gui:
         - '&e{players}'
         material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZThiOGM2YTQ2ZDg3Y2Y4NmE1NWRmMjE0Y2Y4NGJmNDVjY2EyNWVkYjlhNjc2ZTk2MzY0ZGQ2YTZlZWEyMzViMyJ9fX0=
         slot: 16
+# НЕ ПЕРЕВОДИТЬ // отключено
       war:
         name: '&8> &6War Stats'
         lore:
@@ -2082,6 +2083,7 @@ gui:
         material: GRAY_STAINED_GLASS_PANE
         from: 1
         to: 45
+# Далее нужен перевод
   settingss:
     title: '&8Выбор настроек'
     size: 27
@@ -2124,6 +2126,7 @@ gui:
         - '  &7поселение.'
         material: IRON_HELMET
         slot: 12
+# НЕ ПЕРЕВОДИТЬ // отключено
       taxes:
         name: '&bTaxes'
         lore:

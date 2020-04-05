@@ -1,0 +1,19 @@
+caves:
+  cave:
+    '3':
+      octaves: 1
+      amplitude: 1
+      frequency: 1
+    '4':
+      max_noise: 128
+      frequency: 2
+    '5':
+      heights:
+        '1': 64
+        '2': 32
+        '3': 16
+      radius: 3
+      iterations: 2
+  spawnrate: 50
+  type: 5
+  enabled: true
