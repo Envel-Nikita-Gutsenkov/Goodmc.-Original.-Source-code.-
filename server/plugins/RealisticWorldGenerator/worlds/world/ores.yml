@@ -85,10 +85,10 @@ blocks:
     max: 120
   diamond:
     min: 0
-    chance: 4.0
+    chance: 3.0
     spawn:
       min: 1
-      max: 8
+      max: 6
     material: minecraft:diamond_ore
     max: 16
   polished-granite:
@@ -101,10 +101,10 @@ blocks:
     max: 120
   cobblestone:
     min: 0
-    chance: 450.0
+    chance: 1250.0
     spawn:
       min: 1
-      max: 2
+      max: 1
     material: minecraft:cobblestone
     max: 256
   granite:
@@ -157,7 +157,7 @@ blocks:
     max: 16
   emerald:
     min: 0
-    chance: 0.5
+    chance: 0.3
     spawn:
       min: 1
       max: 1

@@ -1762,41 +1762,62 @@ biomes:
     trees:
       chance:
         weight: 1.0
-        random: 1.0E7
+        random: 660000.0
         min: 0.0
-        max: 23330.0
+        max: 1333.0
       trees:
-      - gmc_icetree::10000
-      - gmc_icetree_0::10000
-      - gmc_icetree_1::4000
-      - gmc_icetree_2::4000
-      - gmc_icetree_3::10000
-      - gmc_icetree_4:10000
-      - gmc_icetree_5::10000
+      - gmc_icetree::1.0
+      - gmc_icetree_0::1.0
+      - gmc_icetree_1::1.0
+      - gmc_icetree_2::1.0
+      - gmc_icetree_3::1.0
+      - gmc_icetree_4:1.0
+      - gmc_icetree_5::1.0
     structures:
       chance:
         weight: 1.0
-        random: 1.0E7
+        random: 100000.0
         min: 0.0
-        max: 15.0
+        max: 6.0
       structures:
-      - gmc_iglu_2::500000
+      - gmc_iglu_2::1.0
     layer:
       '1':
       - minecraft:packed_ice;100
-      - minecraft:snow_block;5
-      - minecraft:ice;30
+      - minecraft:snow_block;20
+      - minecraft:ice;60
       '2':
-      - minecraft:packed_ice;50
-      - minecraft:snow_block;5
-      - minecraft:ice;30
+      - minecraft:packed_ice;100
+      - minecraft:snow_block;10
+      - minecraft:ice;40
       '3':
-      - minecraft:packed_ice;50
+      - minecraft:packed_ice;100
+      - minecraft:snow_block;5
       - minecraft:ice;30
       '4':
-      - minecraft:packed_ice;50
+      - minecraft:packed_ice;100
+      - minecraft:snow_block;1
       - minecraft:ice;30
       '5':
+      - minecraft:stone;30
+      - minecraft:dirt;90
+      - minecraft:andesite;8
+      - minecraft:granite;8
+      - minecraft:snow_block;10
+      - minecraft:packed_ice;5
+      '6':
+      - minecraft:stone;40
+      - minecraft:dirt;60
+      - minecraft:andesite;10
+      - minecraft:granite;10
+      - minecraft:snow_block;5
+      - minecraft:packed_ice;2
+      '7':
+      - minecraft:stone;70
+      - minecraft:dirt;20
+      - minecraft:andesite;15
+      - minecraft:granite;15
+      '8':
       - minecraft:stone;120
       - minecraft:dirt;2
       - minecraft:andesite;25
@@ -2127,26 +2148,24 @@ biomes:
     trees:
       chance:
         weight: 1.0
-        random: 1.0E7
+        random: 660000.0
         min: 0.0
-        max: 45000.0
+        max: 2333.0
       trees:
-      - gmc_snowspruce::4000
-      - gmc_snowspruce_0::4000
-      - gmc_snowspruce_1::4000
+      - gmc_snowspruce::1
+      - gmc_snowspruce_0::1
+      - gmc_snowspruce_1::1
     structures:
       chance:
         weight: 1.0
-        random: 1.0E7
+        random: 0
         min: 0.0
-        max: 600.0
-      structures:
-      - DUNGEON::6
+        max: 0.0
+      structures: []
     layer:
       '1':
       - minecraft:snow_block;300
       - minecraft:packed_ice;15
-      - minecraft:ice;10
       '2':
       - minecraft:snow_block;600
       - minecraft:packed_ice;20
@@ -2171,26 +2190,24 @@ biomes:
     trees:
       chance:
         weight: 1.0
-        random: 1.0E7
+        random: 660000.0
         min: 0.0
-        max: 35000.0
+        max: 2333.0
       trees:
-      - gmc_snowspruce::4000
-      - gmc_snowspruce_0::4000
-      - gmc_snowspruce_1::4000
+      - gmc_snowspruce::1
+      - gmc_snowspruce_0::1
+      - gmc_snowspruce_1::1
     structures:
       chance:
         weight: 1.0
-        random: 1.0E7
+        random: 0
         min: 0.0
-        max: 600.0
-      structures:
-      - DUNGEON::6
+        max: 0.0
+      structures: []
     layer:
       '1':
       - minecraft:snow_block;300
       - minecraft:packed_ice;15
-      - minecraft:ice;10
       '2':
       - minecraft:snow_block;600
       - minecraft:packed_ice;20
@@ -2215,26 +2232,24 @@ biomes:
     trees:
       chance:
         weight: 1.0
-        random: 1.0E7
+        random: 660000.0
         min: 0.0
-        max: 30000.0
+        max: 2333.0
       trees:
-      - gmc_snowspruce::4000
-      - gmc_snowspruce_0::4000
-      - gmc_snowspruce_1::4000
+      - gmc_snowspruce::1
+      - gmc_snowspruce_0::1
+      - gmc_snowspruce_1::1
     structures:
       chance:
         weight: 1.0
-        random: 1.0E7
+        random: 0
         min: 0.0
-        max: 600.0
-      structures:
-      - DUNGEON::6
+        max: 0.0
+      structures: []
     layer:
       '1':
       - minecraft:snow_block;300
       - minecraft:packed_ice;15
-      - minecraft:ice;10
       '2':
       - minecraft:snow_block;600
       - minecraft:packed_ice;20
