@@ -278,28 +278,22 @@ biomes:
         weight: 1.0
         random: 1.0E7
         min: 0.0
-        max: 46000.0
+        max: 48000.0
       trees:
-      - gmc_newdarkoak_1::4000
-      - gmc_newdarkoak_2::4000
-      - gmc_newdarkoak_3_1::4000
-      - gmc_newdarkoak_4::4000
-      - gmc_newdarkoak_5::4000
-#      - gmc_newoaktree_2_forgen_1::4000
-#      - gmc_newoaktree_1::4000
-#      - gmc_newoaktree_3::4000
-#      - gmc_newbigoaktree_1::1000
-#      - gmc_newbigoaktree_2::1000
-#      - gmc_newbigoaktree_3::1000
-      - gmc_newoak_1_1::2000
-      - gmc_newoak_2_3::2000
-      - gmc_newoak_3_2::2000
-      - gmc_newoak_4_2::2000
-      - gmc_newoak_5_1::6000
-      - gmc_newoak_6_3::6000
-      - gmc_newoak_7_3::6000
-      - gmc_newoak_8_6::5000
-      - gmc_newoak_9_2::1000
+      - gmc_newdarkoak_1::4
+      - gmc_newdarkoak_2::4
+      - gmc_newdarkoak_3_1::4
+      - gmc_newdarkoak_4::4
+      - gmc_newdarkoak_5::4
+      - gmc_newoak_1_1::2
+      - gmc_newoak_2_3::2
+      - gmc_newoak_3_2::2
+      - gmc_newoak_4_2::2
+      - gmc_newoak_5_1::6
+      - gmc_newoak_6_3::6
+      - gmc_newoak_7_3::6
+      - gmc_newoak_8_6::5
+      - gmc_newoak_9_2::1
     structures:
       chance:
         weight: 1.0
@@ -352,26 +346,20 @@ biomes:
         min: 0.0
         max: 48000.0
       trees:
-      - gmc_newdarkoak_1::4000
-      - gmc_newdarkoak_2::4000
-      - gmc_newdarkoak_3_1::4000
-      - gmc_newdarkoak_4::4000
-      - gmc_newdarkoak_5::4000
-#      - gmc_newoaktree_2_forgen_1::4000
-#      - gmc_newoaktree_1::4000
-#      - gmc_newoaktree_3::4000
-#      - gmc_newbigoaktree_1::1000
-#      - gmc_newbigoaktree_2::1000
-#      - gmc_newbigoaktree_3::1000
-      - gmc_newoak_1_1::2000
-      - gmc_newoak_2_3::2000
-      - gmc_newoak_3_2::2000
-      - gmc_newoak_4_2::2000
-      - gmc_newoak_5_1::6000
-      - gmc_newoak_6_3::6000
-      - gmc_newoak_7_3::6000
-      - gmc_newoak_8_6::5000
-      - gmc_newoak_9_2::1000
+      - gmc_newdarkoak_1::4
+      - gmc_newdarkoak_2::4
+      - gmc_newdarkoak_3_1::4
+      - gmc_newdarkoak_4::4
+      - gmc_newdarkoak_5::4
+      - gmc_newoak_1_1::2
+      - gmc_newoak_2_3::2
+      - gmc_newoak_3_2::2
+      - gmc_newoak_4_2::2
+      - gmc_newoak_5_1::6
+      - gmc_newoak_6_3::6
+      - gmc_newoak_7_3::6
+      - gmc_newoak_8_6::5
+      - gmc_newoak_9_2::1
     structures:
       chance:
         weight: 1.0
@@ -1540,20 +1528,19 @@ biomes:
       - gmc_cactus_3::20000
       - gmc_cactus_2::22000
       - gmc_cactus_1::20000
-      - gmc_desert_tree::200
-      - gmc_desert_tree_0::200
-      - gmc_desert_tree_1::200
-      - gmc_desert_tree_2::200
+      - gmc_desert_tree::300
+      - gmc_desert_tree_0::300
+      - gmc_desert_tree_1::300
+      - gmc_desert_tree_2::300
     structures:
       chance:
         weight: 1.0
         random: 1.0E7
         min: 0.0
-        max: 2000.0
+        max: 9000.0
       structures:
       - PYRAMID::10
       - DESERT_TEMPLE_1::10
-      - DUNGEON::10
       - DESERT_RESERVOIR::10
       - gmc_skull::700
       - gmc_skull_0::700
@@ -1606,11 +1593,10 @@ biomes:
         weight: 1.0
         random: 1.0E7
         min: 0.0
-        max: 2000.0
+        max: 9000.0
       structures:
       - PYRAMID::10
       - DESERT_TEMPLE_1::10
-      - DUNGEON::10
       - DESERT_RESERVOIR::10
       - gmc_skull::700
       - gmc_skull_0::700
@@ -1663,11 +1649,10 @@ biomes:
         weight: 1.0
         random: 1.0E7
         min: 0.0
-        max: 2000.0
+        max: 9000.0
       structures:
       - PYRAMID::10
       - DESERT_TEMPLE_1::10
-      - DUNGEON::10
       - DESERT_RESERVOIR::10
       - gmc_skull::700
       - gmc_skull_0::700
@@ -1844,6 +1829,12 @@ biomes:
       - gmc_BIRCH_TREE_3::2666
       - gmc_BIRCH_TREE_2::2666
       - gmc_BIRCH_TREE_1::2666
+      - gmc_newoaktree_2_forgen_1::50
+      - gmc_newoaktree_1::50
+      - gmc_newoaktree_3::50
+      - gmc_newbigoaktree_1::50
+      - gmc_newbigoaktree_2::50
+      - gmc_newbigoaktree_3::50
     structures:
       chance:
         weight: 1.0
@@ -1899,6 +1890,12 @@ biomes:
       - gmc_BIRCH_TREE_3::2666
       - gmc_BIRCH_TREE_2::2666
       - gmc_BIRCH_TREE_1::2666
+      - gmc_newoaktree_2_forgen_1::50
+      - gmc_newoaktree_1::50
+      - gmc_newoaktree_3::50
+      - gmc_newbigoaktree_1::50
+      - gmc_newbigoaktree_2::50
+      - gmc_newbigoaktree_3::50
     structures:
       chance:
         weight: 1.0
@@ -2174,9 +2171,23 @@ biomes:
       - minecraft:packed_ice;10
       '4':
       - minecraft:snow_block;600
+      - minecraft:packed_ice;5
       '5':
-      - minecraft:snow_block;200
+      - minecraft:snow_block;300
       - minecraft:stone;120
+      - minecraft:andesite;45
+      - minecraft:granite;45
+      - minecraft:packed_ice;10
+      '6':
+      - minecraft:snow_block;150
+      - minecraft:stone;120
+      - minecraft:packed_ice;10
+      - minecraft:andesite;45
+      - minecraft:granite;45
+      '7':
+      - minecraft:snow_block;50
+      - minecraft:stone;120
+      - minecraft:packed_ice;3
       - minecraft:andesite;45
       - minecraft:granite;45
   COLD_TAIGA_HILLS:
@@ -2190,7 +2201,7 @@ biomes:
     trees:
       chance:
         weight: 1.0
-        random: 660000.0
+        random: 630000.0
         min: 0.0
         max: 2333.0
       trees:
@@ -2216,9 +2227,23 @@ biomes:
       - minecraft:packed_ice;10
       '4':
       - minecraft:snow_block;600
+      - minecraft:packed_ice;5
       '5':
-      - minecraft:snow_block;200
+      - minecraft:snow_block;300
       - minecraft:stone;120
+      - minecraft:andesite;45
+      - minecraft:granite;45
+      - minecraft:packed_ice;10
+      '6':
+      - minecraft:snow_block;150
+      - minecraft:stone;120
+      - minecraft:packed_ice;10
+      - minecraft:andesite;45
+      - minecraft:granite;45
+      '7':
+      - minecraft:snow_block;50
+      - minecraft:stone;120
+      - minecraft:packed_ice;3
       - minecraft:andesite;45
       - minecraft:granite;45
   COLD_TAIGA_MOUNTAINS:
@@ -2232,7 +2257,7 @@ biomes:
     trees:
       chance:
         weight: 1.0
-        random: 660000.0
+        random: 630000.0
         min: 0.0
         max: 2333.0
       trees:

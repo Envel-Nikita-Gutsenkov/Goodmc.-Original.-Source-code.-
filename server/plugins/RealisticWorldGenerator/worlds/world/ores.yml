@@ -37,7 +37,7 @@ blocks:
     max: 120
   clay:
     min: 0
-    chance: 20.0
+    chance: 0.0
     spawn:
       min: 4
       max: 20
@@ -69,7 +69,7 @@ blocks:
     max: 256
   moss:
     min: 0
-    chance: 5.0
+    chance: 0.0
     spawn:
       min: 1
       max: 5
@@ -85,7 +85,7 @@ blocks:
     max: 120
   diamond:
     min: 0
-    chance: 3.0
+    chance: 1.5
     spawn:
       min: 1
       max: 6
@@ -109,15 +109,15 @@ blocks:
     max: 256
   granite:
     min: 0
-    chance: 211.0
+    chance: 50.0
     spawn:
       min: 5
-      max: 15
+      max: 40
     material: minecraft:granite
     max: 256
   iron:
     min: 0
-    chance: 40.0
+    chance: 25.0
     spawn:
       min: 4
       max: 9
@@ -125,15 +125,15 @@ blocks:
     max: 67
   coal:
     min: 0
-    chance: 70.0
+    chance: 45.0
     spawn:
       min: 4
-      max: 17
+      max: 16
     material: minecraft:coal_ore
     max: 128
   lapis:
     min: 0
-    chance: 4.0
+    chance: 3.0
     spawn:
       min: 4
       max: 7
@@ -149,7 +149,7 @@ blocks:
     max: 256
   redstone:
     min: 0
-    chance: 25.0
+    chance: 18.0
     spawn:
       min: 4
       max: 8
@@ -157,7 +157,7 @@ blocks:
     max: 16
   emerald:
     min: 0
-    chance: 0.3
+    chance: 0.05
     spawn:
       min: 1
       max: 1
@@ -165,9 +165,9 @@ blocks:
     max: 32
   diorite:
     min: 0
-    chance: 196.0
+    chance: 60.0
     spawn:
       min: 5
-      max: 15
+      max: 35
     material: minecraft:diorite
     max: 256

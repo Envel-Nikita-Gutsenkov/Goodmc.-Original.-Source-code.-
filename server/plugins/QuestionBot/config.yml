@@ -1,17 +1,13 @@
-#                       ┏━━━┓╋╋╋╋╋╋╋┏┳━┓┏━┳━━━┓
-#                       ┃┏━┓┃╋╋╋╋╋╋╋┃┃┃┗┛┃┃┏━┓┃
-#                       ┃┃╋┗╋━━┳━━┳━┛┃┏┓┏┓┃┃╋┗┛
-#                       ┃┃┏━┫┏┓┃┏┓┃┏┓┃┃┃┃┃┃┃╋┏┓
-#                       ┃┗┻━┃┗┛┃┗┛┃┗┛┃┃┃┃┃┃┗━┛┃
-# ∙∙·▫▫ᵒᴼᵒ▫ₒₒ▫ᵒᴼᵒ▫ₒₒ▫ᵒᴼᵒ┗━━━┻━━┻━━┻━━┻┛┗┛┗┻━━━┛ᵒᴼᵒ▫ₒₒ▫ᵒᴼᵒ▫ₒₒ▫ᵒᴼᵒ▫▫·∙∙
-#
-#QuestionBot
-#Filter out phrases and questions from chat and msgs whilst sending them a response
-#The is no need to write most variations of a phrase like "can i be op" and "may i be op"
-#as the plugin will recognize that "can" and "may" are interchangeable
-#Also words like "please" or "really" that add empathises to the sentance but do not add meaning
-#are not needed. The plugin will recognize that "can i have op" and "can i have op please" are the same.
-#If a variation of a phrase does get through the filter just add that variation as a new question.
+# ~~~~~~QuestionBot Config~~~~~~~
+# By beastman1101
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Filter out phrases and questions from chat and msgs whilst sending them a response
+# The is no need to write most variations of a phrase like "can i be op" and "may i be op"
+# as the plugin will recognize that "can" and "may" are interchangeable
+# Also words like "please" or "really" that add empathises to the sentance but do not add meaning
+# are not needed. The plugin will recognize that "can i have op" and "can i have op please" are the same.
+# If a variation of a phrase does get through the filter just add that variation as a new question.
+# Put a * next to the question number to kick someone for asking the question like this --> - 1:*op me
 MsgCommands:
 - /whisper
 - /tell
@@ -23,17 +19,9 @@ MsgCommandNoUsernameArgs:
 - /minecraft:me
 - /r
 - /reply
-#Make sure the number of the question matches the answer you want the server to reply with.
-#You can use the same answer number for multiple question if you
-#plan to answer different questions which a generic answer like "No!"
 CancelTheirQuestionBeingSent: true
 BlockQuestionsBeingAskedInMsgs: true
 BlockQuestionsBeingAskedInChat: true
-#Put a * next to the question number to kick someone for asking the question / saying a phrase
-#The kick reason will be the answer to the question
-#Put the "*" here - 1:*op me
-#Not here - 1*:op me
-#or you will get an error
 Questions:
 - 1:дай оп
 - 1:дашь оп
@@ -46,7 +34,6 @@ Questions:
 - 1:хочу оп
 - 1:хочу гм
 - 1:админку
-- 1:креатив
 - 2:купить донат
 - 2:найти донат
 - 2:можно донат
@@ -103,26 +90,38 @@ Questions:
 - 12:когда был вайп
 - 12:был вайп
 - 12:будет вайп
-
+- 13:как выйти со спавна
+- 13:выход со спавна
+- 13:выйти со спавна
+- 13:покинуть спавна
 Answers:
-- '1:&f&lElena &c⒝⒪⒯ &f&l➛&f&7&o Отказано. Наш сервер не имеет доната и не выдает никаких преимуществ отдельным игрокам. Никаких оп, админок, креатива и т.д.'
-- '2:&f&lElena &c⒝⒪⒯ &f&l➛&f&7&o Наше сообщество существует уже более 8 лет и не имеет никакого доната и платных услуг!'
-- '3:&f&lElena &c⒝⒪⒯ &f&l➛&f&7&o Привет, друг! Наш сайт https://goodmc.ru Дискорд https://discord.gg/Cg5AU6c'
-- '4:&f&lElena &c⒝⒪⒯ &f&l➛&f&7&o Проект существует более 7 лет, данный сервер был запущен в ноябре 2018 года. Получил глобальное обновление с вайпом в апреле 2019. Больше вайпов не планируется.'
-- '5:&f&lElena &c⒝⒪⒯ &f&l➛&f&7&o Нашел дюп, баг или др. проблему? Срочно пиши нам! Почта команды поддержки alert@goodmc.ru Дискорд https://discord.gg/Cg5AU6c Форум https://goodmc.ru'
-- '6:&f&lElena &c⒝⒪⒯ &f&l➛&f&7&o Загриферили? Срочно пиши нам! Почта команды поддержки alert@goodmc.ru Дискорд https://discord.gg/Cg5AU6c Форум https://goodmc.ru'
-- '7:&f&lElena &c⒝⒪⒯ &f&l➛&f&7&o Друг! Информация по приватам написана в руководстве - книга при первом входе или на форуме: https://bit.ly/2JIomwX'
-- '8:&f&lElena &c⒝⒪⒯ &f&l➛&f&7&o Правила сервера /rules или на нашем сайте https://goodmc.ru/rules'
-- '9:&f&lElena &c⒝⒪⒯ &f&l➛&f&7&o Привет! Я - Елена и я бот! Меня создали для помощи игрокам и разгрузки администрации от часто задаваемых вопросов! Я постоянно совершенствуюсь и учуть решать все большее количество ваших проблем! Просто попробуй задать вопрос в чате. Возможно, я смогу на него ответить.'
-- '10:&f&lElena &c⒝⒪⒯ &f&l➛&f&7&o Удалить чанк в поселении можо написав /l menu и выбрав требуемый чанк. Остались еще вопросы? Почта команды поддержки alert@goodmc.ru Дискорд https://discord.gg/Cg5AU6c Форум https://goodmc.ru'
-- '11:&f&lElena &c⒝⒪⒯ &f&l➛&f&7&o К сожалению, для повышения интереса к игре, а так же в ходе голосования, возможность телепортации к точкам домов была удалена.'
-- '12:&f&lElena &c⒝⒪⒯ &f&l➛&f&7&o Привет! Основной мир обычно не вайпается. Вайпы дополнительных миров выполняются по графику: https://bit.ly/2JImX9F'
-#
-# ░░░░░░░░░░░░░░░░▄▓▄
-# ░░░░▄█▄░░░░░░░░▄▓▓▓▄
-# ░░▄█████▄░░░░░▄▓▓▓▓▓▄
-# ░▀██┼█┼██▀░░░▄▓▓▓▓▓▓▓▄
-# ▄▄███████▄▄▄▄▄▄▄▄█▄▄▄▄
-# Developed by Envel
-# Nikita Gutsenkov
-# Ngucenkov@yandex.ru
+- 1:&f&lElena &c⒝⒪⒯ &f&l➛&f&7&o Отказано. Наш сервер не имеет доната и не выдает никаких
+  преимуществ отдельным игрокам. Никаких оп, админок, креатива и т.д.
+- 2:&f&lElena &c⒝⒪⒯ &f&l➛&f&7&o Наше сообщество существует уже более 8 лет и не имеет
+  никакого доната и платных услуг!
+- 3:&f&lElena &c⒝⒪⒯ &f&l➛&f&7&o Привет, друг! Наш сайт https://goodmc.ru Дискорд https://discord.gg/Cg5AU6c
+- 4:&f&lElena &c⒝⒪⒯ &f&l➛&f&7&o Проект существует более 7 лет, данный сервер был запущен
+  в ноябре 2018 года. Получил глобальное обновление с вайпом в апреле 2019. Больше
+  вайпов не планируется.
+- 5:&f&lElena &c⒝⒪⒯ &f&l➛&f&7&o Нашел дюп, баг или др. проблему? Срочно пиши нам!
+  Почта команды поддержки alert@goodmc.ru Дискорд https://discord.gg/Cg5AU6c Форум
+  https://goodmc.ru
+- 6:&f&lElena &c⒝⒪⒯ &f&l➛&f&7&o Загриферили? Срочно пиши нам! Почта команды поддержки
+  alert@goodmc.ru Дискорд https://discord.gg/Cg5AU6c Форум https://goodmc.ru
+- '7:&f&lElena &c⒝⒪⒯ &f&l➛&f&7&o Друг! Информация по приватам написана в руководстве
+  - книга при первом входе или на форуме: https://bit.ly/2JIomwX'
+- 8:&f&lElena &c⒝⒪⒯ &f&l➛&f&7&o Правила сервера /rules или на нашем сайте https://goodmc.ru/rules
+- 9:&f&lElena &c⒝⒪⒯ &f&l➛&f&7&o Привет! Я - Елена и я бот! Меня создали для помощи
+  игрокам и разгрузки администрации от часто задаваемых вопросов! Я постоянно совершенствуюсь
+  и учуть решать все большее количество ваших проблем! Просто попробуй задать вопрос
+  в чате. Возможно, я смогу на него ответить.
+- 10:&f&lElena &c⒝⒪⒯ &f&l➛&f&7&o Удалить чанк в поселении можо написав /l menu и выбрав
+  требуемый чанк. Остались еще вопросы? Почта команды поддержки alert@goodmc.ru Дискорд
+  https://discord.gg/Cg5AU6c Форум https://goodmc.ru
+- 11:&f&lElena &c⒝⒪⒯ &f&l➛&f&7&o К сожалению, для повышения интереса к игре, а так
+  же в ходе голосования, возможность телепортации к точкам домов была удалена.
+- '12:&f&lElena &c⒝⒪⒯ &f&l➛&f&7&o Привет! Основной мир обычно не вайпается. Вайпы
+  дополнительных миров выполняются по графику: https://bit.ly/2JImX9F'
+- 13:&f&lElena &c⒝⒪⒯ &f&l➛&f&7&o Привет! Спавн представляет собой парящий остров над
+  океаном. Достаточно спрыгнуть вниз! Возможно, ты подумал, что такая красивая красивая
+  генерация относится к спавну? Нет :)
