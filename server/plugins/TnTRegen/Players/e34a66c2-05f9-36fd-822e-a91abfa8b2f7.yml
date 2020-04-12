@@ -1,0 +1,314 @@
+entity:
+  fireball:
+    particles:
+      blockRegen:
+        particle: heart
+        enable: true
+      blockToBeRegen:
+        particle: flame
+        enable: true
+    sound:
+      enable: true
+      sound: block_grass_place
+      volume: 1.0
+      pitch: 2.0
+  small_fireball:
+    particles:
+      blockRegen:
+        particle: heart
+        enable: true
+      blockToBeRegen:
+        particle: flame
+        enable: true
+    sound:
+      enable: true
+      sound: block_grass_place
+      volume: 1.0
+      pitch: 2.0
+  wither_skull:
+    particles:
+      blockRegen:
+        particle: heart
+        enable: true
+      blockToBeRegen:
+        particle: flame
+        enable: true
+    sound:
+      enable: true
+      sound: block_grass_place
+      volume: 1.0
+      pitch: 2.0
+  primed_tnt:
+    particles:
+      blockRegen:
+        particle: heart
+        enable: true
+      blockToBeRegen:
+        particle: flame
+        enable: true
+    sound:
+      enable: true
+      sound: block_grass_place
+      volume: 1.0
+      pitch: 2.0
+  dragon_fireball:
+    particles:
+      blockRegen:
+        particle: heart
+        enable: true
+      blockToBeRegen:
+        particle: flame
+        enable: true
+    sound:
+      enable: true
+      sound: block_grass_place
+      volume: 1.0
+      pitch: 2.0
+  minecart_tnt:
+    particles:
+      blockRegen:
+        particle: heart
+        enable: true
+      blockToBeRegen:
+        particle: flame
+        enable: true
+    sound:
+      enable: true
+      sound: block_grass_place
+      volume: 1.0
+      pitch: 2.0
+  creeper:
+    particles:
+      blockRegen:
+        particle: heart
+        enable: true
+      blockToBeRegen:
+        particle: flame
+        enable: true
+    sound:
+      enable: true
+      sound: block_grass_place
+      volume: 1.0
+      pitch: 2.0
+  ender_crystal:
+    particles:
+      blockRegen:
+        particle: heart
+        enable: true
+      blockToBeRegen:
+        particle: flame
+        enable: true
+    sound:
+      enable: true
+      sound: block_grass_place
+      volume: 1.0
+      pitch: 2.0
+block:
+  black_bed:
+    particles:
+      blockRegen:
+        particle: heart
+        enable: true
+      blockToBeRegen:
+        particle: flame
+        enable: true
+    sound:
+      enable: true
+      sound: block_grass_place
+      volume: 1.0
+      pitch: 2.0
+  blue_bed:
+    particles:
+      blockRegen:
+        particle: heart
+        enable: true
+      blockToBeRegen:
+        particle: flame
+        enable: true
+    sound:
+      enable: true
+      sound: block_grass_place
+      volume: 1.0
+      pitch: 2.0
+  brown_bed:
+    particles:
+      blockRegen:
+        particle: heart
+        enable: true
+      blockToBeRegen:
+        particle: flame
+        enable: true
+    sound:
+      enable: true
+      sound: block_grass_place
+      volume: 1.0
+      pitch: 2.0
+  cyan_bed:
+    particles:
+      blockRegen:
+        particle: heart
+        enable: true
+      blockToBeRegen:
+        particle: flame
+        enable: true
+    sound:
+      enable: true
+      sound: block_grass_place
+      volume: 1.0
+      pitch: 2.0
+  gray_bed:
+    particles:
+      blockRegen:
+        particle: heart
+        enable: true
+      blockToBeRegen:
+        particle: flame
+        enable: true
+    sound:
+      enable: true
+      sound: block_grass_place
+      volume: 1.0
+      pitch: 2.0
+  green_bed:
+    particles:
+      blockRegen:
+        particle: heart
+        enable: true
+      blockToBeRegen:
+        particle: flame
+        enable: true
+    sound:
+      enable: true
+      sound: block_grass_place
+      volume: 1.0
+      pitch: 2.0
+  light_blue_bed:
+    particles:
+      blockRegen:
+        particle: heart
+        enable: true
+      blockToBeRegen:
+        particle: flame
+        enable: true
+    sound:
+      enable: true
+      sound: block_grass_place
+      volume: 1.0
+      pitch: 2.0
+  light_gray_bed:
+    particles:
+      blockRegen:
+        particle: heart
+        enable: true
+      blockToBeRegen:
+        particle: flame
+        enable: true
+    sound:
+      enable: true
+      sound: block_grass_place
+      volume: 1.0
+      pitch: 2.0
+  lime_bed:
+    particles:
+      blockRegen:
+        particle: heart
+        enable: true
+      blockToBeRegen:
+        particle: flame
+        enable: true
+    sound:
+      enable: true
+      sound: block_grass_place
+      volume: 1.0
+      pitch: 2.0
+  magenta_bed:
+    particles:
+      blockRegen:
+        particle: heart
+        enable: true
+      blockToBeRegen:
+        particle: flame
+        enable: true
+    sound:
+      enable: true
+      sound: block_grass_place
+      volume: 1.0
+      pitch: 2.0
+  orange_bed:
+    particles:
+      blockRegen:
+        particle: heart
+        enable: true
+      blockToBeRegen:
+        particle: flame
+        enable: true
+    sound:
+      enable: true
+      sound: block_grass_place
+      volume: 1.0
+      pitch: 2.0
+  pink_bed:
+    particles:
+      blockRegen:
+        particle: heart
+        enable: true
+      blockToBeRegen:
+        particle: flame
+        enable: true
+    sound:
+      enable: true
+      sound: block_grass_place
+      volume: 1.0
+      pitch: 2.0
+  purple_bed:
+    particles:
+      blockRegen:
+        particle: heart
+        enable: true
+      blockToBeRegen:
+        particle: flame
+        enable: true
+    sound:
+      enable: true
+      sound: block_grass_place
+      volume: 1.0
+      pitch: 2.0
+  red_bed:
+    particles:
+      blockRegen:
+        particle: heart
+        enable: true
+      blockToBeRegen:
+        particle: flame
+        enable: true
+    sound:
+      enable: true
+      sound: block_grass_place
+      volume: 1.0
+      pitch: 2.0
+  white_bed:
+    particles:
+      blockRegen:
+        particle: heart
+        enable: true
+      blockToBeRegen:
+        particle: flame
+        enable: true
+    sound:
+      enable: true
+      sound: block_grass_place
+      volume: 1.0
+      pitch: 2.0
+  yellow_bed:
+    particles:
+      blockRegen:
+        particle: heart
+        enable: true
+      blockToBeRegen:
+        particle: flame
+        enable: true
+    sound:
+      enable: true
+      sound: block_grass_place
+      volume: 1.0
+      pitch: 2.0

@@ -1,11 +1,4 @@
-#                       ┏━━━┓╋╋╋╋╋╋╋┏┳━┓┏━┳━━━┓
-#                       ┃┏━┓┃╋╋╋╋╋╋╋┃┃┃┗┛┃┃┏━┓┃
-#                       ┃┃╋┗╋━━┳━━┳━┛┃┏┓┏┓┃┃╋┗┛
-#                       ┃┃┏━┫┏┓┃┏┓┃┏┓┃┃┃┃┃┃┃╋┏┓
-#                       ┃┗┻━┃┗┛┃┗┛┃┗┛┃┃┃┃┃┃┗━┛┃
-# ∙∙·▫▫ᵒᴼᵒ▫ₒₒ▫ᵒᴼᵒ▫ₒₒ▫ᵒᴼᵒ┗━━━┻━━┻━━┻━━┻┛┗┛┗┻━━━┛ᵒᴼᵒ▫ₒₒ▫ᵒᴼᵒ▫ₒₒ▫ᵒᴼᵒ▫▫·∙∙
-#
-## FirstJoinPlus Configuration -- Configuration Help: http://dev.bukkit.org/bukkit-plugins/firstjoinplus/ #
+# FirstJoinPlus Configuration -- Configuration Help: http://dev.bukkit.org/bukkit-plugins/firstjoinplus/ #
 settings:
   allow-automatic-updating: false
   every-join-is-first-join: false
@@ -24,19 +17,14 @@ on-first-join:
     launch-firework:
       enabled: false
   first-join-kit:
-    enabled: false
+    enabled: true
     items:
-    - wood_sword
-    - wood_pickaxe
-    - wood_spade
-    - wood_axe
-    - bread:5
+    - cookie:1
   give-written-books:
     enabled: true
     book-files:
     - hello.txt
     - rules.txt
-    - lands.txt
   give-experience:
     enabled: false
     level-amount: 0
@@ -54,7 +42,8 @@ on-first-join:
   run-console-commands:
     enabled: true
     commands:
-    - w %player_name Неуязвимость будет действовать 10 минут. 
+    - w %player_name Неуязвимость будет действовать 10 минут.
+    - lp user %player_name permission settemp essentials.spawn false 2h global
   apply-potion-effects:
     enabled: false
     effects:
@@ -85,12 +74,3 @@ other-messages:
   kick-message:
     enabled: false
     message: '%none'
-#
-# ░░░░░░░░░░░░░░░░▄▓▄
-# ░░░░▄█▄░░░░░░░░▄▓▓▓▄
-# ░░▄█████▄░░░░░▄▓▓▓▓▓▄
-# ░▀██┼█┼██▀░░░▄▓▓▓▓▓▓▓▄
-# ▄▄███████▄▄▄▄▄▄▄▄█▄▄▄▄
-# Developed by Envel
-# Nikita Gutsenkov
-# Ngucenkov@yandex.ru

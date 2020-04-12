@@ -1,0 +1,103 @@
+#############################
+#      RandomSpawnPlus      #
+#       Version 3.0.0       #
+#        by @89apt89        #
+#############################
+
+### General ###
+
+# Don't touch this!
+config-version: 1
+
+# What world to respawn players in?
+respawn-world: world
+
+# The spawn range RandomSpawnPlus will look within.
+spawn-range:
+  max-x: 2000
+  min-x: -2000
+  max-z: 2000
+  min-z: -2000
+
+# Will RandomSpawnPlus block spawns that will put the player in water?
+block-water-spawns: true
+
+# Will RandomSpawnPlus block spawns that will put the player in lava?
+block-lava-spawns: true
+
+# Will print lots of info to console! Only use if you know what you are doing :P
+debug-mode: false
+
+# Blocks that the player should be able to spawn on (should be used for blocks that have little to no collision)
+# Please use POST-FLATTENING 1.13+ block IDs - https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
+safe-blocks:
+  - 'ACACIA_SAPLING'
+  - 'BIRCH_SAPLING'
+  - 'DARK_OAK_SAPLING'
+  - 'JUNGLE_SAPLING'
+  - 'OAK_SAPLING'
+  - 'SPRUCE_SAPLING'
+  - 'SNOW'
+  - 'BLACK_CARPET'
+  - 'BLUE_CARPET'
+  - 'BROWN_CARPET'
+  - 'CYAN_CARPET'
+  - 'GRAY_CARPET'
+  - 'GREEN_CARPET'
+  - 'LIGHT_BLUE_CARPET'
+  - 'LIGHT_GRAY_CARPET'
+  - 'LIME_CARPET'
+  - 'MAGENTA_CARPET'
+  - 'ORANGE_CARPET'
+  - 'PINK_CARPET'
+  - 'PURPLE_CARPET'
+  - 'RED_CARPET'
+  - 'WHITE_CARPET'
+  - 'YELLOW_CARPET'
+  - 'BROWN_MUSHROOM'
+  - 'RED_MUSHROOM'
+
+# Blocks that the player shouldn't be able to spawn on
+# Please use POST-FLATTENING 1.13+ block IDs - https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
+# Will have priority over safe-blocks, but try not to have conflicts :)
+unsafe-blocks:
+  - 'VINE'
+
+### Random Spawn ###
+
+# Enable the random spawning feature? (disable this if you just want /wild)
+randomspawn-enabled: true
+
+# Will RandomSpawnPlus give players random spawns on death?
+on-death: true
+
+# Will RandomSpawnPlus give players random spawns on first join?
+on-first-join: true
+
+# Will RandomSpawnPlus send the players to their bed spawn on death?
+spawn-at-bed: true
+
+# Will RandomSpawnPlus only random spawn players if they have the `randomspawnplus.randomspawn` permission node?
+use-permission-node: false
+
+# Essentials integration: teleport to home instead of random spawn on-death
+essentials-home-teleport: false
+
+# Should RandomSpawnPlus set the user's Essentials home 'home' on first-join random spawn?
+essentials-home-on-first-spawn: false
+
+### Spawn Cacher ###
+
+# Should RandomSpawnPlus use the spawn caching feature? WARNING: If disabled, locations may take a VERY long time to find.
+enable-spawn-cacher: true
+
+# How many locations should RandomSpawnPlus aim to keep cached?
+spawn-cache-target: 150
+
+### /wild ###
+wild-enabled: false
+
+# In seconds, how long between /wild uses?
+# Set to 0 to disable.
+# Set to -1 to blow up everything.
+wild-cooldown: 300

@@ -52,6 +52,30 @@ entity:
       Tree355:
         minY: 0.0
         maxY: 256.0
+      desert_trees:
+        minY: 0.0
+        maxY: 256.0
+      Rockworldgrid:
+        minY: 0.0
+        maxY: 256.0
+      eli:
+        minY: 0.0
+        maxY: 256.0
+      level4:
+        minY: 0.0
+        maxY: 256.0
+      level01:
+        minY: 0.0
+        maxY: 256.0
+      level3:
+        minY: 0.0
+        maxY: 256.0
+      level2:
+        minY: 0.0
+        maxY: 256.0
+      rgd:
+        minY: 0.0
+        maxY: 256.0
   small_fireball:
     enable: false
     delay: 1200
@@ -81,6 +105,30 @@ entity:
         minY: 0.0
         maxY: 256.0
       Tree355:
+        minY: 0.0
+        maxY: 256.0
+      desert_trees:
+        minY: 0.0
+        maxY: 256.0
+      Rockworldgrid:
+        minY: 0.0
+        maxY: 256.0
+      eli:
+        minY: 0.0
+        maxY: 256.0
+      level4:
+        minY: 0.0
+        maxY: 256.0
+      level01:
+        minY: 0.0
+        maxY: 256.0
+      level3:
+        minY: 0.0
+        maxY: 256.0
+      level2:
+        minY: 0.0
+        maxY: 256.0
+      rgd:
         minY: 0.0
         maxY: 256.0
   wither_skull:
@@ -114,6 +162,30 @@ entity:
       Tree355:
         minY: 0.0
         maxY: 256.0
+      desert_trees:
+        minY: 0.0
+        maxY: 256.0
+      Rockworldgrid:
+        minY: 0.0
+        maxY: 256.0
+      eli:
+        minY: 0.0
+        maxY: 256.0
+      level4:
+        minY: 0.0
+        maxY: 256.0
+      level01:
+        minY: 0.0
+        maxY: 256.0
+      level3:
+        minY: 0.0
+        maxY: 256.0
+      level2:
+        minY: 0.0
+        maxY: 256.0
+      rgd:
+        minY: 0.0
+        maxY: 256.0
   primed_tnt:
     enable: false
     delay: 1200
@@ -143,6 +215,30 @@ entity:
         minY: 0.0
         maxY: 256.0
       Tree355:
+        minY: 0.0
+        maxY: 256.0
+      desert_trees:
+        minY: 0.0
+        maxY: 256.0
+      Rockworldgrid:
+        minY: 0.0
+        maxY: 256.0
+      eli:
+        minY: 0.0
+        maxY: 256.0
+      level4:
+        minY: 0.0
+        maxY: 256.0
+      level01:
+        minY: 0.0
+        maxY: 256.0
+      level3:
+        minY: 0.0
+        maxY: 256.0
+      level2:
+        minY: 0.0
+        maxY: 256.0
+      rgd:
         minY: 0.0
         maxY: 256.0
   dragon_fireball:
@@ -176,6 +272,30 @@ entity:
       Tree355:
         minY: 0.0
         maxY: 256.0
+      desert_trees:
+        minY: 0.0
+        maxY: 256.0
+      Rockworldgrid:
+        minY: 0.0
+        maxY: 256.0
+      eli:
+        minY: 0.0
+        maxY: 256.0
+      level4:
+        minY: 0.0
+        maxY: 256.0
+      level01:
+        minY: 0.0
+        maxY: 256.0
+      level3:
+        minY: 0.0
+        maxY: 256.0
+      level2:
+        minY: 0.0
+        maxY: 256.0
+      rgd:
+        minY: 0.0
+        maxY: 256.0
   minecart_tnt:
     enable: false
     delay: 1200
@@ -205,6 +325,30 @@ entity:
         minY: 0.0
         maxY: 256.0
       Tree355:
+        minY: 0.0
+        maxY: 256.0
+      desert_trees:
+        minY: 0.0
+        maxY: 256.0
+      Rockworldgrid:
+        minY: 0.0
+        maxY: 256.0
+      eli:
+        minY: 0.0
+        maxY: 256.0
+      level4:
+        minY: 0.0
+        maxY: 256.0
+      level01:
+        minY: 0.0
+        maxY: 256.0
+      level3:
+        minY: 0.0
+        maxY: 256.0
+      level2:
+        minY: 0.0
+        maxY: 256.0
+      rgd:
         minY: 0.0
         maxY: 256.0
   creeper:
@@ -238,6 +382,30 @@ entity:
       Tree355:
         minY: 0.0
         maxY: 256.0
+      desert_trees:
+        minY: 0.0
+        maxY: 256.0
+      Rockworldgrid:
+        minY: 0.0
+        maxY: 256.0
+      eli:
+        minY: 0.0
+        maxY: 256.0
+      level4:
+        minY: 0.0
+        maxY: 256.0
+      level01:
+        minY: 0.0
+        maxY: 256.0
+      level3:
+        minY: 0.0
+        maxY: 256.0
+      level2:
+        minY: 0.0
+        maxY: 256.0
+      rgd:
+        minY: 0.0
+        maxY: 256.0
   ender_crystal:
     enable: false
     delay: 1200
@@ -267,6 +435,30 @@ entity:
         minY: 0.0
         maxY: 256.0
       Tree355:
+        minY: 0.0
+        maxY: 256.0
+      desert_trees:
+        minY: 0.0
+        maxY: 256.0
+      Rockworldgrid:
+        minY: 0.0
+        maxY: 256.0
+      eli:
+        minY: 0.0
+        maxY: 256.0
+      level4:
+        minY: 0.0
+        maxY: 256.0
+      level01:
+        minY: 0.0
+        maxY: 256.0
+      level3:
+        minY: 0.0
+        maxY: 256.0
+      level2:
+        minY: 0.0
+        maxY: 256.0
+      rgd:
         minY: 0.0
         maxY: 256.0
 block:
@@ -323,6 +515,30 @@ block:
       Tree355:
         minY: 0.0
         maxY: 256.0
+      desert_trees:
+        minY: 0.0
+        maxY: 256.0
+      Rockworldgrid:
+        minY: 0.0
+        maxY: 256.0
+      eli:
+        minY: 0.0
+        maxY: 256.0
+      level4:
+        minY: 0.0
+        maxY: 256.0
+      level01:
+        minY: 0.0
+        maxY: 256.0
+      level3:
+        minY: 0.0
+        maxY: 256.0
+      level2:
+        minY: 0.0
+        maxY: 256.0
+      rgd:
+        minY: 0.0
+        maxY: 256.0
   blue_bed:
     enable: false
     delay: 1200
@@ -352,6 +568,30 @@ block:
         minY: 0.0
         maxY: 256.0
       Tree355:
+        minY: 0.0
+        maxY: 256.0
+      desert_trees:
+        minY: 0.0
+        maxY: 256.0
+      Rockworldgrid:
+        minY: 0.0
+        maxY: 256.0
+      eli:
+        minY: 0.0
+        maxY: 256.0
+      level4:
+        minY: 0.0
+        maxY: 256.0
+      level01:
+        minY: 0.0
+        maxY: 256.0
+      level3:
+        minY: 0.0
+        maxY: 256.0
+      level2:
+        minY: 0.0
+        maxY: 256.0
+      rgd:
         minY: 0.0
         maxY: 256.0
   brown_bed:
@@ -385,6 +625,30 @@ block:
       Tree355:
         minY: 0.0
         maxY: 256.0
+      desert_trees:
+        minY: 0.0
+        maxY: 256.0
+      Rockworldgrid:
+        minY: 0.0
+        maxY: 256.0
+      eli:
+        minY: 0.0
+        maxY: 256.0
+      level4:
+        minY: 0.0
+        maxY: 256.0
+      level01:
+        minY: 0.0
+        maxY: 256.0
+      level3:
+        minY: 0.0
+        maxY: 256.0
+      level2:
+        minY: 0.0
+        maxY: 256.0
+      rgd:
+        minY: 0.0
+        maxY: 256.0
   cyan_bed:
     enable: false
     delay: 1200
@@ -414,6 +678,30 @@ block:
         minY: 0.0
         maxY: 256.0
       Tree355:
+        minY: 0.0
+        maxY: 256.0
+      desert_trees:
+        minY: 0.0
+        maxY: 256.0
+      Rockworldgrid:
+        minY: 0.0
+        maxY: 256.0
+      eli:
+        minY: 0.0
+        maxY: 256.0
+      level4:
+        minY: 0.0
+        maxY: 256.0
+      level01:
+        minY: 0.0
+        maxY: 256.0
+      level3:
+        minY: 0.0
+        maxY: 256.0
+      level2:
+        minY: 0.0
+        maxY: 256.0
+      rgd:
         minY: 0.0
         maxY: 256.0
   gray_bed:
@@ -447,6 +735,30 @@ block:
       Tree355:
         minY: 0.0
         maxY: 256.0
+      desert_trees:
+        minY: 0.0
+        maxY: 256.0
+      Rockworldgrid:
+        minY: 0.0
+        maxY: 256.0
+      eli:
+        minY: 0.0
+        maxY: 256.0
+      level4:
+        minY: 0.0
+        maxY: 256.0
+      level01:
+        minY: 0.0
+        maxY: 256.0
+      level3:
+        minY: 0.0
+        maxY: 256.0
+      level2:
+        minY: 0.0
+        maxY: 256.0
+      rgd:
+        minY: 0.0
+        maxY: 256.0
   green_bed:
     enable: false
     delay: 1200
@@ -476,6 +788,30 @@ block:
         minY: 0.0
         maxY: 256.0
       Tree355:
+        minY: 0.0
+        maxY: 256.0
+      desert_trees:
+        minY: 0.0
+        maxY: 256.0
+      Rockworldgrid:
+        minY: 0.0
+        maxY: 256.0
+      eli:
+        minY: 0.0
+        maxY: 256.0
+      level4:
+        minY: 0.0
+        maxY: 256.0
+      level01:
+        minY: 0.0
+        maxY: 256.0
+      level3:
+        minY: 0.0
+        maxY: 256.0
+      level2:
+        minY: 0.0
+        maxY: 256.0
+      rgd:
         minY: 0.0
         maxY: 256.0
   light_blue_bed:
@@ -509,6 +845,30 @@ block:
       Tree355:
         minY: 0.0
         maxY: 256.0
+      desert_trees:
+        minY: 0.0
+        maxY: 256.0
+      Rockworldgrid:
+        minY: 0.0
+        maxY: 256.0
+      eli:
+        minY: 0.0
+        maxY: 256.0
+      level4:
+        minY: 0.0
+        maxY: 256.0
+      level01:
+        minY: 0.0
+        maxY: 256.0
+      level3:
+        minY: 0.0
+        maxY: 256.0
+      level2:
+        minY: 0.0
+        maxY: 256.0
+      rgd:
+        minY: 0.0
+        maxY: 256.0
   light_gray_bed:
     enable: false
     delay: 1200
@@ -538,6 +898,30 @@ block:
         minY: 0.0
         maxY: 256.0
       Tree355:
+        minY: 0.0
+        maxY: 256.0
+      desert_trees:
+        minY: 0.0
+        maxY: 256.0
+      Rockworldgrid:
+        minY: 0.0
+        maxY: 256.0
+      eli:
+        minY: 0.0
+        maxY: 256.0
+      level4:
+        minY: 0.0
+        maxY: 256.0
+      level01:
+        minY: 0.0
+        maxY: 256.0
+      level3:
+        minY: 0.0
+        maxY: 256.0
+      level2:
+        minY: 0.0
+        maxY: 256.0
+      rgd:
         minY: 0.0
         maxY: 256.0
   lime_bed:
@@ -571,6 +955,30 @@ block:
       Tree355:
         minY: 0.0
         maxY: 256.0
+      desert_trees:
+        minY: 0.0
+        maxY: 256.0
+      Rockworldgrid:
+        minY: 0.0
+        maxY: 256.0
+      eli:
+        minY: 0.0
+        maxY: 256.0
+      level4:
+        minY: 0.0
+        maxY: 256.0
+      level01:
+        minY: 0.0
+        maxY: 256.0
+      level3:
+        minY: 0.0
+        maxY: 256.0
+      level2:
+        minY: 0.0
+        maxY: 256.0
+      rgd:
+        minY: 0.0
+        maxY: 256.0
   magenta_bed:
     enable: false
     delay: 1200
@@ -600,6 +1008,30 @@ block:
         minY: 0.0
         maxY: 256.0
       Tree355:
+        minY: 0.0
+        maxY: 256.0
+      desert_trees:
+        minY: 0.0
+        maxY: 256.0
+      Rockworldgrid:
+        minY: 0.0
+        maxY: 256.0
+      eli:
+        minY: 0.0
+        maxY: 256.0
+      level4:
+        minY: 0.0
+        maxY: 256.0
+      level01:
+        minY: 0.0
+        maxY: 256.0
+      level3:
+        minY: 0.0
+        maxY: 256.0
+      level2:
+        minY: 0.0
+        maxY: 256.0
+      rgd:
         minY: 0.0
         maxY: 256.0
   orange_bed:
@@ -633,6 +1065,30 @@ block:
       Tree355:
         minY: 0.0
         maxY: 256.0
+      desert_trees:
+        minY: 0.0
+        maxY: 256.0
+      Rockworldgrid:
+        minY: 0.0
+        maxY: 256.0
+      eli:
+        minY: 0.0
+        maxY: 256.0
+      level4:
+        minY: 0.0
+        maxY: 256.0
+      level01:
+        minY: 0.0
+        maxY: 256.0
+      level3:
+        minY: 0.0
+        maxY: 256.0
+      level2:
+        minY: 0.0
+        maxY: 256.0
+      rgd:
+        minY: 0.0
+        maxY: 256.0
   pink_bed:
     enable: false
     delay: 1200
@@ -662,6 +1118,30 @@ block:
         minY: 0.0
         maxY: 256.0
       Tree355:
+        minY: 0.0
+        maxY: 256.0
+      desert_trees:
+        minY: 0.0
+        maxY: 256.0
+      Rockworldgrid:
+        minY: 0.0
+        maxY: 256.0
+      eli:
+        minY: 0.0
+        maxY: 256.0
+      level4:
+        minY: 0.0
+        maxY: 256.0
+      level01:
+        minY: 0.0
+        maxY: 256.0
+      level3:
+        minY: 0.0
+        maxY: 256.0
+      level2:
+        minY: 0.0
+        maxY: 256.0
+      rgd:
         minY: 0.0
         maxY: 256.0
   purple_bed:
@@ -695,6 +1175,30 @@ block:
       Tree355:
         minY: 0.0
         maxY: 256.0
+      desert_trees:
+        minY: 0.0
+        maxY: 256.0
+      Rockworldgrid:
+        minY: 0.0
+        maxY: 256.0
+      eli:
+        minY: 0.0
+        maxY: 256.0
+      level4:
+        minY: 0.0
+        maxY: 256.0
+      level01:
+        minY: 0.0
+        maxY: 256.0
+      level3:
+        minY: 0.0
+        maxY: 256.0
+      level2:
+        minY: 0.0
+        maxY: 256.0
+      rgd:
+        minY: 0.0
+        maxY: 256.0
   red_bed:
     enable: false
     delay: 1200
@@ -724,6 +1228,30 @@ block:
         minY: 0.0
         maxY: 256.0
       Tree355:
+        minY: 0.0
+        maxY: 256.0
+      desert_trees:
+        minY: 0.0
+        maxY: 256.0
+      Rockworldgrid:
+        minY: 0.0
+        maxY: 256.0
+      eli:
+        minY: 0.0
+        maxY: 256.0
+      level4:
+        minY: 0.0
+        maxY: 256.0
+      level01:
+        minY: 0.0
+        maxY: 256.0
+      level3:
+        minY: 0.0
+        maxY: 256.0
+      level2:
+        minY: 0.0
+        maxY: 256.0
+      rgd:
         minY: 0.0
         maxY: 256.0
   white_bed:
@@ -757,6 +1285,30 @@ block:
       Tree355:
         minY: 0.0
         maxY: 256.0
+      desert_trees:
+        minY: 0.0
+        maxY: 256.0
+      Rockworldgrid:
+        minY: 0.0
+        maxY: 256.0
+      eli:
+        minY: 0.0
+        maxY: 256.0
+      level4:
+        minY: 0.0
+        maxY: 256.0
+      level01:
+        minY: 0.0
+        maxY: 256.0
+      level3:
+        minY: 0.0
+        maxY: 256.0
+      level2:
+        minY: 0.0
+        maxY: 256.0
+      rgd:
+        minY: 0.0
+        maxY: 256.0
   yellow_bed:
     enable: false
     delay: 1200
@@ -786,6 +1338,30 @@ block:
         minY: 0.0
         maxY: 256.0
       Tree355:
+        minY: 0.0
+        maxY: 256.0
+      desert_trees:
+        minY: 0.0
+        maxY: 256.0
+      Rockworldgrid:
+        minY: 0.0
+        maxY: 256.0
+      eli:
+        minY: 0.0
+        maxY: 256.0
+      level4:
+        minY: 0.0
+        maxY: 256.0
+      level01:
+        minY: 0.0
+        maxY: 256.0
+      level3:
+        minY: 0.0
+        maxY: 256.0
+      level2:
+        minY: 0.0
+        maxY: 256.0
+      rgd:
         minY: 0.0
         maxY: 256.0
 other:

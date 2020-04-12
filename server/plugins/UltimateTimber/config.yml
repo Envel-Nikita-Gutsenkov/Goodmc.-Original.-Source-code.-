@@ -205,13 +205,13 @@ trees:
     leaf-loot:
       0:
         material: OAK_SAPLING
-        chance: 0.5
+        chance: 0.4
       1:
         material: APPLE
-        chance: 0.05
+        chance: 0.06
       2:
         material: STICK
-        chance: 2
+        chance: 1.4
     entire-tree-loot: []
     required-tools: []
   forest_dark_oak:
@@ -234,13 +234,13 @@ trees:
     leaf-loot:
       0:
         material: DARK_OAK_SAPLING
-        chance: 0.5
+        chance: 0.4
       1:
         material: APPLE
-        chance: 0.05
+        chance: 0.04
       2:
         material: STICK
-        chance: 2.1
+        chance: 1.8
     entire-tree-loot: []
     required-tools: []
   spruce:
@@ -279,52 +279,22 @@ trees:
       - OAK_LEAVES
       - BIRCH_LEAVES
       - BIRCH_FENCE
+      - OAK_FENCE
     sapling: BIRCH_SAPLING
     plantable-soil: []
-    max-log-distance-from-trunk: 15
+    max-log-distance-from-trunk: 25
     max-leaf-distance-from-log: 10
-    search-for-leaves-diagonally: false
+    search-for-leaves-diagonally: true
     drop-original-log: true
     drop-original-leaf: false
     log-loot: []
     leaf-loot:
       0:
         material: BIRCH_SAPLING
-        chance: 2
+        chance: 0.7
       1:
         material: STICK
-        chance: 4
-    entire-tree-loot: []
-    required-tools: []
-  jungle:
-    logs:
-      - JUNGLE_LOG
-      - STRIPPED_JUNGLE_LOG
-      - JUNGLE_WOOD
-      - STRIPPED_JUNGLE_WOOD
-    leaves:
-      - JUNGLE_LEAVES
-      - VINE
-      - JUNGLE_FENCE
-      - OAK_FENCE
-    sapling: JUNGLE_SAPLING
-    plantable-soil: []
-    max-log-distance-from-trunk: 30
-    max-leaf-distance-from-log: 30
-    search-for-leaves-diagonally: false
-    drop-original-log: true
-    drop-original-leaf: false
-    log-loot: []
-    leaf-loot:
-      0:
-        material: JUNGLE_SAPLING
-        chance: 0.8
-      1:
-        material: STICK
-        chance: 4
-      2:
-        material: VINE
-        chance: 3
+        chance: 1.9
     entire-tree-loot: []
     required-tools: []
   acacia:
@@ -350,10 +320,10 @@ trees:
     leaf-loot:
       0:
         material: ACACIA_SAPLING
-        chance: 0.5
+        chance: 0.05
       1:
         material: STICK
-        chance: 4
+        chance: 3
     entire-tree-loot: []
     required-tools: []
   dark_oak:
@@ -364,8 +334,7 @@ trees:
       - STRIPPED_DARK_OAK_WOOD
     leaves:
       - DARK_OAK_LEAVES
-      - DARK_OAK_FENCE
-      - OAK_FENCE
+      - BIRCH_LEAVES
     sapling: DARK_OAK_SAPLING
     plantable-soil: []
     max-log-distance-from-trunk: 15
@@ -377,13 +346,13 @@ trees:
     leaf-loot:
       0:
         material: DARK_OAK_SAPLING
-        chance: 2
+        chance: 0.5
       1:
         material: APPLE
-        chance: 0.2
+        chance: 0.05
       2:
         material: STICK
-        chance: 4
+        chance: 1.5
     entire-tree-loot: []
     required-tools: []
   brown_mushroom:

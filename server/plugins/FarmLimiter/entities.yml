@@ -1,0 +1,85 @@
+# Here you can find a list of valid entity types.
+# It updates automatically.
+
+valid-living-entity-types:
+- elder guardian
+- wither skeleton
+- stray
+- husk
+- zombie villager
+- skeleton horse
+- zombie horse
+- donkey
+- mule
+- evoker
+- vex
+- vindicator
+- illusioner
+- creeper
+- skeleton
+- spider
+- giant
+- zombie
+- slime
+- ghast
+- pig zombie
+- enderman
+- cave spider
+- silverfish
+- blaze
+- magma cube
+- ender dragon
+- wither
+- bat
+- witch
+- endermite
+- guardian
+- shulker
+- pig
+- sheep
+- cow
+- chicken
+- squid
+- wolf
+- mushroom cow
+- snowman
+- ocelot
+- iron golem
+- horse
+- rabbit
+- polar bear
+- llama
+- parrot
+- villager
+- turtle
+- phantom
+- cod
+- salmon
+- pufferfish
+- tropical fish
+- drowned
+- dolphin
+- cat
+- panda
+- pillager
+- ravager
+- trader llama
+- wandering trader
+- fox
+- bee
+valid-other-entity-types:
+- dropped item
+- experience orb
+- leash hitch
+- painting
+- item frame
+- armor stand
+- minecart command
+- boat
+- minecart
+- minecart chest
+- minecart furnace
+- minecart tnt
+- minecart hopper
+- minecart mob spawner
+- ender crystal
