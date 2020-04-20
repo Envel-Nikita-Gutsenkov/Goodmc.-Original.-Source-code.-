@@ -1,6 +1,6 @@
 customization:
   one_biome:
-    biome: LUKEWARM_OCEAN
+    biome: JUNGLE
     enabled: false
   tree_spawning:
     allowed_blocks:
@@ -9,9 +9,6 @@ customization:
     - COARSE_DIRT
     - PODZOL
     - SAND
-    - snow_block
-    - packed_ice
-    - ice
   flat_spawn:
     radius: 40
     fading: 20

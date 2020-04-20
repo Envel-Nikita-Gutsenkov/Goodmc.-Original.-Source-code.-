@@ -1,3 +1,30 @@
+#                       ┏━━━┓╋╋╋╋╋╋╋┏┳━┓┏━┳━━━┓
+#                       ┃┏━┓┃╋╋╋╋╋╋╋┃┃┃┗┛┃┃┏━┓┃
+#                       ┃┃╋┗╋━━┳━━┳━┛┃┏┓┏┓┃┃╋┗┛
+#                       ┃┃┏━┫┏┓┃┏┓┃┏┓┃┃┃┃┃┃┃╋┏┓
+#                       ┃┗┻━┃┗┛┃┗┛┃┗┛┃┃┃┃┃┃┗━┛┃
+# ∙∙·▫▫ᵒᴼᵒ▫ₒₒ▫ᵒᴼᵒ▫ₒₒ▫ᵒᴼᵒ┗━━━┻━━┻━━┻━━┻┛┗┛┗┻━━━┛ᵒᴼᵒ▫ₒₒ▫ᵒᴼᵒ▫ₒₒ▫ᵒᴼᵒ▫▫·∙∙
+#
+# --- EN ---
+#
+# This configuration is developed on GoodMC.ru
+# GoodMC is a non-commercial game server project.
+# May contain structures that are protected by copyright.
+#
+# Please indicate to the players that the generation belongs to GoodMC for the purpose of gratitude.
+#
+# Have a nice game!
+#
+#  --- RU ---
+#
+# Эта конфигурация пренадлежит GoodMC.ru
+# GoodMC - некоммерческий проект игровых серверов.
+# Структуры могут быть защищены авторским правом.
+# 
+# Пожалуйста, указывайте игрокам принадлежность генерации к GoodMC в целях благодарности.
+#
+# Приятной игры!
+#
 ores:
   veins:
     type: 1
@@ -101,7 +128,7 @@ blocks:
     max: 120
   cobblestone:
     min: 0
-    chance: 1250.0
+    chance: 1100.0
     spawn:
       min: 1
       max: 1
@@ -171,3 +198,13 @@ blocks:
       max: 35
     material: minecraft:diorite
     max: 256
+#
+#
+# ░░░░░░░░░░░░░░░░▄▓▄
+# ░░░░▄█▄░░░░░░░░▄▓▓▓▄
+# ░░▄█████▄░░░░░▄▓▓▓▓▓▄
+# ░▀██┼█┼██▀░░░▄▓▓▓▓▓▓▓▄
+# ▄▄███████▄▄▄▄▄▄▄▄█▄▄▄▄
+# Developed by Envel
+# Nikita Gutsenkov
+# n.gucenkov@gmail.com

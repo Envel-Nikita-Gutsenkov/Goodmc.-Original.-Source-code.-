@@ -14,6 +14,6 @@ caves:
         '3': 16
       radius: 3
       iterations: 2
-  spawnrate: 5
+  spawnrate: 50
   type: 5
   enabled: true
