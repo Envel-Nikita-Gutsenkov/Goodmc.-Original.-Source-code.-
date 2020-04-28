@@ -10,8 +10,9 @@
 # IRC: #spigot @ irc.spi.gt ( http://www.spigotmc.org/pages/irc/ )
 # Forums: http://www.spigotmc.org/
 
-config-version: 11
+config-version: 12
 settings:
+  log-villager-deaths: false
   save-user-cache-on-stop-only: false
   sample-count: 12
   bungeecord: true
@@ -19,26 +20,31 @@ settings:
   player-shuffle: 0
   user-cache-size: 1000
   moved-wrongly-threshold: 100.0625
-  moved-too-quickly-multiplier: 300.0
-  timeout-time: 300
+  moved-too-quickly-multiplier: 3000.0
+  timeout-time: 90
   restart-on-crash: true
   restart-script: ./start.sh
   netty-threads: 4
   debug: false
   attribute:
     maxHealth:
-      max: 4048.0
+      max: 8048.0
     movementSpeed:
       max: 4048.0
     attackDamage:
-      max: 4048.0
+      max: 548.0
 messages:
-  whitelist: Доступ к GoodMC Original ограничен. Скорее всего, ведутся технические работы. Попробуй зайти позже... Поддержка alert@goodmc.ru Мы в дискорд https://discord.gg/Cg5AU6c
+  whitelist: Доступ к GoodMC Original ограничен. Скорее всего, ведутся технические
+    работы. Попробуй зайти позже... Поддержка alert@goodmc.ru Мы в дискорд https://discord.gg/Cg5AU6c
   unknown-command: Неизвестная команда О_о
-  server-full: Сервер черезмерно переполнен! Попробуй зайти позже. Поддержка alert@goodmc.ru Мы в дискорд https://discord.gg/Cg5AU6c
-  outdated-client: Устаревший клиент! Используй версию 1.13.2. Поддержка alert@goodmc.ru Мы в дискорд https://discord.gg/Cg5AU6c
-  outdated-server: Слишком новый клиент! Используй версию 1.13.2. Поддержка alert@goodmc.ru Мы в дискорд https://discord.gg/Cg5AU6c
-  restart: Перезагрузка сервера или что-то пошло не так. Попробуй зайти через несколько минут... Поддержка alert@goodmc.ru Мы в дискорд https://discord.gg/Cg5AU6c
+  server-full: Сервер черезмерно переполнен! Попробуй зайти позже. Поддержка alert@goodmc.ru
+    Мы в дискорд https://discord.gg/Cg5AU6c
+  outdated-client: Устаревший клиент! Используй версию 1.15.2. Поддержка alert@goodmc.ru
+    Мы в дискорд https://discord.gg/Cg5AU6c
+  outdated-server: Слишком новый клиент! Используй версию 1.15.2. Поддержка alert@goodmc.ru
+    Мы в дискорд https://discord.gg/Cg5AU6c
+  restart: Перезагрузка сервера или что-то пошло не так. Попробуй зайти через несколько
+    минут... Поддержка alert@goodmc.ru Мы в дискорд https://discord.gg/Cg5AU6c
 stats:
   disable-saving: false
   forced-stats: {}
@@ -60,6 +66,10 @@ advancements:
   - minecraft:story/disabled
 world-settings:
   default:
+    view-distance: default
+    trident-despawn-rate: 1200
+    seed-outpost: 165745296
+    seed-endcity: 10387313
     verbose: false
     mob-spawn-range: 8
     hopper-amount: 1
@@ -78,7 +88,6 @@ world-settings:
     item-despawn-rate: 8000
     enable-zombie-pigmen-portal-spawns: true
     wither-spawn-sound-radius: 0
-    view-distance: 3
     arrow-despawn-rate: 1200
     hanging-tick-frequency: 100
     zombie-aggressive-towards-villager: true
@@ -88,6 +97,9 @@ world-settings:
       exp: 3.0
       item: 2.5
     growth:
+      bamboo-modifier: 100
+      sweetberry-modifier: 100
+      kelp-modifier: 100
       cactus-modifier: 100
       cane-modifier: 100
       melon-modifier: 100
@@ -102,6 +114,7 @@ world-settings:
       vine-modifier: 100
       cocoa-modifier: 100
     entity-activation-range:
+      raiders: 48
       animals: 32
       monsters: 32
       misc: 16
@@ -123,7 +136,7 @@ world-settings:
       regen-exhaustion: 8.0
       swim-multiplier: 0.2
       sprint-multiplier: 0.1
-      other-multiplier: 0.0
+      other-multiplier: 0.01
     max-tick-time:
       tile: 50
       entity: 50
@@ -148,7 +161,7 @@ world-settings:
     item-despawn-rate: 8000
     enable-zombie-pigmen-portal-spawns: true
     wither-spawn-sound-radius: 0
-    view-distance: 3
+    view-distance: 8
     arrow-despawn-rate: 1200
     hanging-tick-frequency: 100
     zombie-aggressive-towards-villager: true
@@ -158,19 +171,19 @@ world-settings:
       exp: 6.0
       item: 3.5
     growth:
-      cactus-modifier: 300
-      cane-modifier: 300
-      melon-modifier: 300
-      mushroom-modifier: 300
-      pumpkin-modifier: 300
-      sapling-modifier: 300
-      beetroot-modifier: 300
-      carrot-modifier: 300
-      potato-modifier: 300
-      wheat-modifier: 300
-      netherwart-modifier: 150
-      vine-modifier: 300
-      cocoa-modifier: 300
+      cactus-modifier: 100
+      cane-modifier: 100
+      melon-modifier: 100
+      mushroom-modifier: 100
+      pumpkin-modifier: 100
+      sapling-modifier: 100
+      beetroot-modifier: 100
+      carrot-modifier: 100
+      potato-modifier: 100
+      wheat-modifier: 100
+      netherwart-modifier: 300
+      vine-modifier: 100
+      cocoa-modifier: 100
     entity-activation-range:
       animals: 8
       monsters: 32
@@ -187,12 +200,12 @@ world-settings:
       hopper-transfer: 24
       hopper-check: 24
     hunger:
-      jump-walk-exhaustion: 0.11
-      jump-sprint-exhaustion: 0.31
-      combat-exhaustion: 0.31
-      regen-exhaustion: 8.5
-      swim-multiplier: 0.21
-      sprint-multiplier: 0.21
+      jump-walk-exhaustion: 0.1
+      jump-sprint-exhaustion: 0.3
+      combat-exhaustion: 0.2
+      regen-exhaustion: 8.0
+      swim-multiplier: 0.2
+      sprint-multiplier: 0.1
       other-multiplier: 0.01
     max-tick-time:
       tile: 50
@@ -218,7 +231,7 @@ world-settings:
     item-despawn-rate: 8000
     enable-zombie-pigmen-portal-spawns: true
     wither-spawn-sound-radius: 0
-    view-distance: 3
+    view-distance: 10
     arrow-despawn-rate: 1200
     hanging-tick-frequency: 100
     zombie-aggressive-towards-villager: true
@@ -228,19 +241,19 @@ world-settings:
       exp: 6.0
       item: 3.5
     growth:
-      cactus-modifier: 300
-      cane-modifier: 300
-      melon-modifier: 300
-      mushroom-modifier: 300
-      pumpkin-modifier: 300
-      sapling-modifier: 300
-      beetroot-modifier: 300
-      carrot-modifier: 300
-      potato-modifier: 300
-      wheat-modifier: 300
-      netherwart-modifier: 150
-      vine-modifier: 300
-      cocoa-modifier: 300
+      cactus-modifier: 100
+      cane-modifier: 100
+      melon-modifier: 100
+      mushroom-modifier: 100
+      pumpkin-modifier: 100
+      sapling-modifier: 100
+      beetroot-modifier: 100
+      carrot-modifier: 100
+      potato-modifier: 100
+      wheat-modifier: 100
+      netherwart-modifier: 100
+      vine-modifier: 100
+      cocoa-modifier: 100
     entity-activation-range:
       animals: 8
       monsters: 32
@@ -257,12 +270,12 @@ world-settings:
       hopper-transfer: 24
       hopper-check: 24
     hunger:
-      jump-walk-exhaustion: 0.11
-      jump-sprint-exhaustion: 0.31
-      combat-exhaustion: 0.31
-      regen-exhaustion: 8.5
-      swim-multiplier: 0.21
-      sprint-multiplier: 0.21
+      jump-walk-exhaustion: 0.1
+      jump-sprint-exhaustion: 0.3
+      combat-exhaustion: 0.2
+      regen-exhaustion: 8.0
+      swim-multiplier: 0.2
+      sprint-multiplier: 0.1
       other-multiplier: 0.01
     max-tick-time:
       tile: 50
@@ -288,7 +301,7 @@ world-settings:
     item-despawn-rate: 8000
     enable-zombie-pigmen-portal-spawns: true
     wither-spawn-sound-radius: 0
-    view-distance: 3
+    view-distance: 8
     arrow-despawn-rate: 1200
     hanging-tick-frequency: 100
     zombie-aggressive-towards-villager: true
@@ -298,19 +311,19 @@ world-settings:
       exp: 6.0
       item: 3.5
     growth:
-      cactus-modifier: 300
-      cane-modifier: 300
-      melon-modifier: 300
-      mushroom-modifier: 300
-      pumpkin-modifier: 300
-      sapling-modifier: 300
-      beetroot-modifier: 300
-      carrot-modifier: 300
-      potato-modifier: 300
-      wheat-modifier: 300
-      netherwart-modifier: 150
-      vine-modifier: 300
-      cocoa-modifier: 300
+      cactus-modifier: 100
+      cane-modifier: 100
+      melon-modifier: 100
+      mushroom-modifier: 100
+      pumpkin-modifier: 100
+      sapling-modifier: 100
+      beetroot-modifier: 100
+      carrot-modifier: 100
+      potato-modifier: 100
+      wheat-modifier: 100
+      netherwart-modifier: 100
+      vine-modifier: 100
+      cocoa-modifier: 100
     entity-activation-range:
       animals: 8
       monsters: 32
@@ -333,9 +346,11 @@ world-settings:
       regen-exhaustion: 8.0
       swim-multiplier: 0.2
       sprint-multiplier: 0.1
-      other-multiplier: 0.0
+      other-multiplier: 0.01
     max-tick-time:
       tile: 50
       entity: 50
     squid-spawn-range:
       min: 45.0
+  worldeditregentempworld:
+    verbose: false

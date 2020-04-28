@@ -13,91 +13,116 @@
 command-block-overrides: []
 ignore-vanilla-permissions: false
 aliases:
-    ban:
-    - "essentials:ban $$1 $2-"
-    - "essentials:banip $$1 $2-"
-    - "say Прекращен доступ к серверам GoodMC для $$1"
-    pl:
-    - []
-    restart:
-    - []
-    plugins:
-    - []
-    version:
-    - []
-    ver:
-    - []
-    plugin:
-    - []
-    about:
-    - []
-    eabout:
-    - []
-    '?':
-    - []
-    about:
-    - []
-    bukkit:about:
-    - []
-    bukkit:help:
-    - []
-    bukkit:?:
-    - []
-    bukkit:me:
-    - []
-    bukkit:pl:
-    - []
-    bukkit:plugins:
-    - []
-    bukkit:ver:
-    - []
-    bukkit:version:
-    - []
-    bukkit:ehelp:
-    - []
-    bu:
-    - []
-    buk:
-    - []
-    bukk:
-    - []
-    bukki:
-    - []
-    bukkit:
-    - []
-    bukkit:p:
-    - []
-    bukkit:plu:
-    - []
-    bukkit:plug:
-    - []
-    bukkit:plugi:
-    - []
-    bukkit:plugin:
-    - []
-    help:
-    - []
-    icanhasbukkit:
-    - []
-    icanhasspigot:
-    - []
-    info:
-    - []
-    pl:
-    - []
-    eabout:
-    - []
-    plugins:
-    - []
-    ver:
-    - []
-    version:
-    - []
-    mc:help:
-    - []
-    minecraft:help:
-    - []
-    essentials:help:
-    - []
-    essentials:ehelp:
-    - []
+  ban:
+  - ultimatemoderation:ban $$1 $2-
+  - essentials:banip $$1 $2-
+  - say Прекращен доступ к серверам GoodMC для $$1
+  unban:
+  - ultimatemoderation:unban $$1
+  - essentials:unbanip $$1
+  - essentials:unban $$1
+  eban:
+  - ultimatemoderation:ban $$1 гриферство
+  - essentials:banip $$1 гриферство
+  - say Прекращен доступ к серверам GoodMC для $$1
+  - co rollback p:$$1 r:#global t:999d
+  c rename:
+  - c name $$1
+  c remove:
+  - c kick $$1
+  c delete:
+  - c kick $$1
+  c create:
+  - c claim
+  чат выйти:
+  - staffchat leave
+  чат:
+  - staffchat $$1
+  private leave:
+  - staffchat leave
+  chat l:
+  - staffchat leave
+  private l:
+  - staffchat leave
+  chat:
+  - staffchat $$1
+  private:
+  - staffchat $$1
+  mod:
+  - um
+  moderation:
+  - um
+  admin:
+  - um
+  restart:
+  - []
+  plugin:
+  - []
+  '?':
+  - []
+  about:
+  - []
+  bukkit:about:
+  - []
+  bukkit:help:
+  - []
+  bukkit:?:
+  - []
+  bukkit:me:
+  - []
+  bukkit:pl:
+  - []
+  bukkit:plugins:
+  - []
+  bukkit:ver:
+  - []
+  bukkit:version:
+  - []
+  bukkit:ehelp:
+  - []
+  bu:
+  - []
+  buk:
+  - []
+  bukk:
+  - []
+  bukki:
+  - []
+  bukkit:
+  - []
+  bukkit:p:
+  - []
+  bukkit:plu:
+  - []
+  bukkit:plug:
+  - []
+  bukkit:plugi:
+  - []
+  bukkit:plugin:
+  - []
+  help:
+  - []
+  icanhasbukkit:
+  - []
+  icanhasspigot:
+  - []
+  info:
+  - []
+  pl:
+  - []
+  eabout:
+  - []
+  plugins:
+  - []
+  ver:
+  - []
+  version:
+  - []
+  mc:help:
+  - []
+  minecraft:help:
+  - []
+  essentials:help:
+  - []
+  essentials:ehelp:
+  - []
