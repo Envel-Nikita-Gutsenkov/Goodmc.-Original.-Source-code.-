@@ -2,6 +2,7 @@ caves:
   cave:
     '3':
       octaves: 1
+      lava-lavel: 6
       amplitude: 1
       frequency: 1
     '4':
@@ -13,7 +14,7 @@ caves:
         '2': 32
         '3': 16
       radius: 3
-      iterations: 2
+      iterations: 1
   spawnrate: 50
   type: 5
   enabled: true

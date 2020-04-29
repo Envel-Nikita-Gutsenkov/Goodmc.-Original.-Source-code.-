@@ -1,31 +1,18 @@
-#                       ┏━━━┓╋╋╋╋╋╋╋┏┳━┓┏━┳━━━┓
-#                       ┃┏━┓┃╋╋╋╋╋╋╋┃┃┃┗┛┃┃┏━┓┃
-#                       ┃┃╋┗╋━━┳━━┳━┛┃┏┓┏┓┃┃╋┗┛
-#                       ┃┃┏━┫┏┓┃┏┓┃┏┓┃┃┃┃┃┃┃╋┏┓
-#                       ┃┗┻━┃┗┛┃┗┛┃┗┛┃┃┃┃┃┃┗━┛┃
-# ∙∙·▫▫ᵒᴼᵒ▫ₒₒ▫ᵒᴼᵒ▫ₒₒ▫ᵒᴼᵒ┗━━━┻━━┻━━┻━━┻┛┗┛┗┻━━━┛ᵒᴼᵒ▫ₒₒ▫ᵒᴼᵒ▫ₒₒ▫ᵒᴼᵒ▫▫·∙∙
-#
-# --- EN ---
-#
-# This configuration is developed on GoodMC.ru
-# GoodMC is a non-commercial game server project.
-# May contain structures that are protected by copyright.
-#
-# Please indicate to the players that the generation belongs to GoodMC for the purpose of gratitude.
-#
-# Have a nice game!
-#
-#  --- RU ---
-#
-# Эта конфигурация пренадлежит GoodMC.ru
-# GoodMC - некоммерческий проект игровых серверов.
-# Структуры могут быть защищены авторским правом.
-# 
-# Пожалуйста, указывайте игрокам принадлежность генерации к GoodMC в целях благодарности.
-#
-# Приятной игры!
-#
+grow:
+  replaceBlocks: false
 saplings:
+  pine:
+  - gmc_newspruce_1
+  - gmc_newspruce_2
+  - gmc_newspruce_3
+  - gmc_newspruce_4
+  - gmc_newspruce_5
+  - gmc_newspruce_6
+  birch:
+  - gmc_BIRCH_TREE_4
+  - gmc_BIRCH_TREE_3
+  - gmc_BIRCH_TREE_2
+  - gmc_BIRCH_TREE_1
   oak:
   - gmc_newoaktree_1
   - gmc_newoaktree_2
@@ -34,28 +21,6 @@ saplings:
   - BIG_OAK_TREE_2
   - BIG_OAK_TREE_3
   - BIG_OAK_TREE_4
-  birch:
-  - gmc_BIRCH_TREE_4
-  - gmc_BIRCH_TREE_3
-  - gmc_BIRCH_TREE_2
-  - gmc_BIRCH_TREE_1
-  pine:
-  - gmc_newspruce_1
-  - gmc_newspruce_2
-  - gmc_newspruce_3
-  - gmc_newspruce_4
-  - gmc_newspruce_5
-  - gmc_newspruce_6
-  jungle:
-  - SHEMATIC_gmc_jungle_v2
-  - SHEMATIC_gmc_jungle_1_v2
-  - SHEMATIC_gmc_jungle_2_v2
-  - SHEMATIC_gmc_jungle_3_v2
-  - SHEMATIC_gmc_jungle_4_v2
-  - SHEMATIC_gmc_jungle_5_v2
-  - SHEMATIC_gmc_jungle_6_v2
-  - SHEMATIC_gmc_jungle_7_v2
-  - SHEMATIC_gmc_jungle_8_v2
   dark:
   - gmc_newhillsdarkoak_1
   - gmc_newhillsdarkoak_2
@@ -75,15 +40,13 @@ saplings:
   - gmc_savanna_3
   - gmc_savanna_4
   - gmc_savanna_5
-grow:
-  replaceBlocks: false
-#
-#
-# ░░░░░░░░░░░░░░░░▄▓▄
-# ░░░░▄█▄░░░░░░░░▄▓▓▓▄
-# ░░▄█████▄░░░░░▄▓▓▓▓▓▄
-# ░▀██┼█┼██▀░░░▄▓▓▓▓▓▓▓▄
-# ▄▄███████▄▄▄▄▄▄▄▄█▄▄▄▄
-# Developed by Envel
-# Nikita Gutsenkov
-# n.gucenkov@gmail.com
+  jungle:
+  - SHEMATIC_gmc_jungle_v2
+  - SHEMATIC_gmc_jungle_1_v2
+  - SHEMATIC_gmc_jungle_2_v2
+  - SHEMATIC_gmc_jungle_3_v2
+  - SHEMATIC_gmc_jungle_4_v2
+  - SHEMATIC_gmc_jungle_5_v2
+  - SHEMATIC_gmc_jungle_6_v2
+  - SHEMATIC_gmc_jungle_7_v2
+  - SHEMATIC_gmc_jungle_8_v2

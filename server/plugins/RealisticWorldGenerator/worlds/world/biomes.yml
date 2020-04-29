@@ -4,27 +4,6 @@
 #                       ┃┃┏━┫┏┓┃┏┓┃┏┓┃┃┃┃┃┃┃╋┏┓
 #                       ┃┗┻━┃┗┛┃┗┛┃┗┛┃┃┃┃┃┃┗━┛┃
 # ∙∙·▫▫ᵒᴼᵒ▫ₒₒ▫ᵒᴼᵒ▫ₒₒ▫ᵒᴼᵒ┗━━━┻━━┻━━┻━━┻┛┗┛┗┻━━━┛ᵒᴼᵒ▫ₒₒ▫ᵒᴼᵒ▫ₒₒ▫ᵒᴼᵒ▫▫·∙∙
-#
-# --- EN ---
-#
-# This configuration is developed on GoodMC.ru
-# GoodMC is a non-commercial game server project.
-# May contain structures that are protected by copyright.
-#
-# Please indicate to the players that the generation belongs to GoodMC for the purpose of gratitude.
-#
-# Have a nice game!
-#
-#  --- RU ---
-#
-# Эта конфигурация принадлежит GoodMC.ru
-# GoodMC - некоммерческий проект игровых серверов.
-# Структуры могут быть защищены авторским правом.
-# 
-# Пожалуйста, указывайте игрокам принадлежность генерации к GoodMC в целях благодарности.
-#
-# Приятной игры!
-#
 biomes:
   JUNGLE:
     overlay:
@@ -43,7 +22,7 @@ biomes:
         weight: 1.0
         random: 1.0E7
         min: 0.0
-        max: 155000.0
+        max: 165000.0
       trees:
       - gmc_jungle_v2::4076
       - gmc_jungle_1_v2::4076
@@ -104,6 +83,10 @@ biomes:
       - minecraft:dirt;10
       - minecraft:diorite;25
       - minecraft:granite;25
+    overlay_water:
+      chance: 100
+      blocks:
+      - minecraft:lily_pad;10
   JUNGLE_HILLS:
     overlay:
       chance: 2
@@ -122,7 +105,7 @@ biomes:
         weight: 1.0
         random: 1.0E7
         min: 0.0
-        max: 145000.0
+        max: 165000.0
       trees:
       - gmc_jungle_v2::4076
       - gmc_jungle_1_v2::4076
@@ -183,6 +166,10 @@ biomes:
       - minecraft:dirt;10
       - minecraft:diorite;25
       - minecraft:granite;25
+    overlay_water:
+      chance: 100
+      blocks:
+      - minecraft:lily_pad;10
   JUNGLE_MOUNTAINS:
     overlay:
       chance: 2
@@ -200,7 +187,7 @@ biomes:
         weight: 1.0
         random: 1.0E7
         min: 0.0
-        max: 145000.0
+        max: 165000.0
       trees:
       - gmc_jungle_v2::4076
       - gmc_jungle_1_v2::4076
@@ -261,6 +248,10 @@ biomes:
       - minecraft:dirt;10
       - minecraft:diorite;25
       - minecraft:granite;25
+    overlay_water:
+      chance: 100
+      blocks:
+      - minecraft:lily_pad;10
   FOREST:
     overlay:
       chance: 4
@@ -327,6 +318,10 @@ biomes:
       - minecraft:dirt;2
       - minecraft:andesite;25
       - minecraft:granite;25
+    overlay_water:
+      chance: 100
+      blocks:
+      - minecraft:lily_pad;10
   FOREST_HILLS:
     overlay:
       chance: 4
@@ -394,6 +389,10 @@ biomes:
       - minecraft:dirt;2
       - minecraft:andesite;25
       - minecraft:granite;25
+    overlay_water:
+      chance: 100
+      blocks:
+      - minecraft:lily_pad;10
   SWAMPLAND:
     overlay:
       chance: 2
@@ -433,7 +432,7 @@ biomes:
       - gmc_waterforswamp_2_3::2
     layer:
       '1':
-      - minecraft:dark_oak_leaves;50 
+      - minecraft:dark_oak_leaves;50
       - minecraft:coarse_dirt;15
       - minecraft:mycelium;10
       - minecraft:grass_block[snowy=false];118
@@ -471,6 +470,10 @@ biomes:
       - minecraft:dirt;2
       - minecraft:andesite;25
       - minecraft:granite;25
+    overlay_water:
+      chance: 100
+      blocks:
+      - minecraft:lily_pad;10
   SWAMPLAND_HILLS:
     overlay:
       chance: 2
@@ -510,7 +513,7 @@ biomes:
       - gmc_waterforswamp_2_3::2
     layer:
       '1':
-      - minecraft:dark_oak_leaves;50 
+      - minecraft:dark_oak_leaves;50
       - minecraft:coarse_dirt;15
       - minecraft:mycelium;10
       - minecraft:grass_block[snowy=false];118
@@ -548,6 +551,10 @@ biomes:
       - minecraft:dirt;2
       - minecraft:andesite;25
       - minecraft:granite;25
+    overlay_water:
+      chance: 100
+      blocks:
+      - minecraft:lily_pad;10
   BEACH:
     overlay:
       chance: 3
@@ -629,6 +636,10 @@ biomes:
       - minecraft:granite;10
       - minecraft:diorite;10
       - minecraft:andesite;10
+    overlay_water:
+      chance: 100
+      blocks:
+      - minecraft:lily_pad;10
   COLD_BEACH:
     overlay:
       chance: 3
@@ -694,6 +705,10 @@ biomes:
       - minecraft:granite;10
       - minecraft:diorite;10
       - minecraft:andesite;10
+    overlay_water:
+      chance: 100
+      blocks:
+      - minecraft:lily_pad;10
   OCEAN:
     overlay:
       chance: 8
@@ -757,6 +772,10 @@ biomes:
       - minecraft:granite;10
       - minecraft:diorite;10
       - minecraft:andesite;10
+    overlay_water:
+      chance: 200
+      blocks:
+      - minecraft:lily_pad;10
   LUKEWARM_OCEAN:
     overlay:
       chance: 7
@@ -841,6 +860,9 @@ biomes:
       - minecraft:granite;10
       - minecraft:diorite;10
       - minecraft:andesite;10
+    overlay_water:
+      chance: 0
+      blocks: []
   WARM_OCEAN:
     overlay:
       chance: 6
@@ -925,6 +947,9 @@ biomes:
       - minecraft:granite;10
       - minecraft:diorite;10
       - minecraft:andesite;10
+    overlay_water:
+      chance: 0
+      blocks: []
   COLD_OCEAN:
     overlay:
       chance: 12
@@ -998,6 +1023,9 @@ biomes:
       - minecraft:granite;10
       - minecraft:diorite;10
       - minecraft:andesite;10
+    overlay_water:
+      chance: 0
+      blocks: []
   FROZEN_OCEAN:
     overlay:
       chance: 12
@@ -1071,6 +1099,9 @@ biomes:
       - minecraft:granite;10
       - minecraft:diorite;10
       - minecraft:andesite;10
+    overlay_water:
+      chance: 0
+      blocks: []
   DEEP_OCEAN:
     overlay:
       chance: 8
@@ -1135,6 +1166,9 @@ biomes:
       - minecraft:granite;10
       - minecraft:diorite;10
       - minecraft:andesite;10
+    overlay_water:
+      chance: 0
+      blocks: []
   DEEP_LUKEWARM_OCEAN:
     overlay:
       chance: 5
@@ -1240,6 +1274,9 @@ biomes:
       - minecraft:granite;10
       - minecraft:diorite;10
       - minecraft:andesite;10
+    overlay_water:
+      chance: 5
+      blocks: []
   DEEP_WARM_OCEAN:
     overlay:
       chance: 5
@@ -1345,6 +1382,9 @@ biomes:
       - minecraft:granite;10
       - minecraft:diorite;10
       - minecraft:andesite;10
+    overlay_water:
+      chance: 5
+      blocks: []
   DEEP_COLD_OCEAN:
     overlay:
       chance: 12
@@ -1419,6 +1459,9 @@ biomes:
       - minecraft:granite;10
       - minecraft:diorite;10
       - minecraft:andesite;10
+    overlay_water:
+      chance: 5
+      blocks: []
   DEEP_FROZEN_OCEAN:
     overlay:
       chance: 12
@@ -1513,6 +1556,9 @@ biomes:
       - minecraft:granite;10
       - minecraft:diorite;10
       - minecraft:andesite;10
+    overlay_water:
+      chance: 5
+      blocks: []
   DESERT:
     overlay:
       chance: 100
@@ -1569,6 +1615,10 @@ biomes:
       - minecraft:granite;10
       - minecraft:diorite;10
       - minecraft:andesite;10
+    overlay_water:
+      chance: 100
+      blocks:
+      - minecraft:lily_pad;10
   DESERT_HILLS:
     overlay:
       chance: 100
@@ -1625,6 +1675,10 @@ biomes:
       - minecraft:granite;10
       - minecraft:diorite;10
       - minecraft:andesite;10
+    overlay_water:
+      chance: 100
+      blocks:
+      - minecraft:lily_pad;10
   DESERT_MOUNTAINS:
     overlay:
       chance: 100
@@ -1681,6 +1735,10 @@ biomes:
       - minecraft:granite;10
       - minecraft:diorite;10
       - minecraft:andesite;10
+    overlay_water:
+      chance: 100
+      blocks:
+      - minecraft:lily_pad;10
   PLAINS:
     overlay:
       chance: 4
@@ -1739,6 +1797,10 @@ biomes:
       - minecraft:dirt;2
       - minecraft:andesite;25
       - minecraft:granite;25
+    overlay_water:
+      chance: 100
+      blocks:
+      - minecraft:lily_pad;10
   ICE_PLAINS:
     overlay:
       chance: 5
@@ -1807,6 +1869,10 @@ biomes:
       - minecraft:dirt;2
       - minecraft:andesite;25
       - minecraft:granite;25
+    overlay_water:
+      chance: 100
+      blocks:
+      - minecraft:lily_pad;10
   BIRCH_FOREST:
     overlay:
       chance: 5
@@ -1868,6 +1934,10 @@ biomes:
       - minecraft:dirt;2
       - minecraft:andesite;25
       - minecraft:granite;25
+    overlay_water:
+      chance: 100
+      blocks:
+      - minecraft:lily_pad;10
   BIRCH_FOREST_HILLS:
     overlay:
       chance: 6
@@ -1930,6 +2000,10 @@ biomes:
       - minecraft:dirt;2
       - minecraft:andesite;25
       - minecraft:granite;25
+    overlay_water:
+      chance: 100
+      blocks:
+      - minecraft:lily_pad;10
   TAIGA:
     overlay:
       chance: 3
@@ -1949,7 +2023,7 @@ biomes:
         weight: 1.0
         random: 1.0E7
         min: 0.0
-        max: 93000.0
+        max: 110000.0
       trees:
       - gmc_newspruce_1::5000
       - gmc_newspruce_2::5000
@@ -1998,6 +2072,10 @@ biomes:
       - minecraft:dirt;2
       - minecraft:andesite;25
       - minecraft:granite;25
+    overlay_water:
+      chance: 100
+      blocks:
+      - minecraft:lily_pad;10
   TAIGA_HILLS:
     overlay:
       chance: 3
@@ -2017,7 +2095,7 @@ biomes:
         weight: 1.0
         random: 1.0E7
         min: 0.0
-        max: 93000.0
+        max: 110000.0
       trees:
       - gmc_newspruce_1::5000
       - gmc_newspruce_2::5000
@@ -2066,6 +2144,10 @@ biomes:
       - minecraft:dirt;2
       - minecraft:andesite;25
       - minecraft:granite;25
+    overlay_water:
+      chance: 100
+      blocks:
+      - minecraft:lily_pad;10
   TAIGA_MOUNTAINS:
     overlay:
       chance: 3
@@ -2085,7 +2167,7 @@ biomes:
         weight: 1.0
         random: 1.0E7
         min: 0.0
-        max: 93000.0
+        max: 110000.0
       trees:
       - gmc_newspruce_1::5000
       - gmc_newspruce_2::5000
@@ -2134,6 +2216,10 @@ biomes:
       - minecraft:dirt;2
       - minecraft:andesite;25
       - minecraft:granite;25
+    overlay_water:
+      chance: 100
+      blocks:
+      - minecraft:lily_pad;10
   COLD_TAIGA:
     overlay:
       chance: 1
@@ -2190,6 +2276,10 @@ biomes:
       - minecraft:packed_ice;3
       - minecraft:andesite;45
       - minecraft:granite;45
+    overlay_water:
+      chance: 100
+      blocks:
+      - minecraft:lily_pad;10
   COLD_TAIGA_HILLS:
     overlay:
       chance: 1
@@ -2246,6 +2336,10 @@ biomes:
       - minecraft:packed_ice;3
       - minecraft:andesite;45
       - minecraft:granite;45
+    overlay_water:
+      chance: 100
+      blocks:
+      - minecraft:lily_pad;10
   COLD_TAIGA_MOUNTAINS:
     overlay:
       chance: 1
@@ -2288,6 +2382,10 @@ biomes:
       - minecraft:stone;120
       - minecraft:andesite;45
       - minecraft:granite;45
+    overlay_water:
+      chance: 100
+      blocks:
+      - minecraft:lily_pad;10
   EXTREME_HILLS:
     overlay:
       chance: 6
@@ -2346,6 +2444,10 @@ biomes:
       - minecraft:dirt;2
       - minecraft:andesite;25
       - minecraft:granite;25
+    overlay_water:
+      chance: 100
+      blocks:
+      - minecraft:lily_pad;10
   EXTREME_MOUNTAINS:
     overlay:
       chance: 6
@@ -2403,6 +2505,10 @@ biomes:
       - minecraft:dirt;2
       - minecraft:andesite;25
       - minecraft:granite;25
+    overlay_water:
+      chance: 100
+      blocks:
+      - minecraft:lily_pad;10
   SAVANNA:
     overlay:
       chance: 2
@@ -2461,6 +2567,10 @@ biomes:
       - minecraft:dirt;2
       - minecraft:andesite;25
       - minecraft:granite;25
+    overlay_water:
+      chance: 100
+      blocks:
+      - minecraft:lily_pad;10
   SAVANNA_HILLS:
     overlay:
       chance: 2
@@ -2519,6 +2629,10 @@ biomes:
       - minecraft:dirt;2
       - minecraft:andesite;25
       - minecraft:granite;25
+    overlay_water:
+      chance: 100
+      blocks:
+      - minecraft:lily_pad;10
   DEATH_LAND:
     overlay:
       chance: 15
@@ -2600,13 +2714,7 @@ biomes:
       '17':
       - minecraft:stone;60
       - minecraft:terracotta;20
-#
-#
-# ░░░░░░░░░░░░░░░░▄▓▄
-# ░░░░▄█▄░░░░░░░░▄▓▓▓▄
-# ░░▄█████▄░░░░░▄▓▓▓▓▓▄
-# ░▀██┼█┼██▀░░░▄▓▓▓▓▓▓▓▄
-# ▄▄███████▄▄▄▄▄▄▄▄█▄▄▄▄
-# Developed by Envel
-# Nikita Gutsenkov
-# n.gucenkov@gmail.com
+    overlay_water:
+      chance: 100
+      blocks:
+      - minecraft:lily_pad;10
