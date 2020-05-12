@@ -2,13 +2,19 @@ positioning:
   position: OVERWORLD
   minY: 256
   maxY: 256
-version: '1.0'
+version: '1.1'
 schematic:
   minecraftVersion: v1_13
   version: '1.1'
   basement:
     build: true
     block: minecraft:stone_bricks
+  spawners:
+    enabled: true
+    list:
+    - CAVE_SPIDER
+    - OCELOT
+    - SKELETON
 blocks:
   '-7_2_8': minecraft:structure_void
   '-8_0_8': minecraft:stone_brick_stairs[facing=north,half=bottom,shape=outer_left,waterlogged=true]

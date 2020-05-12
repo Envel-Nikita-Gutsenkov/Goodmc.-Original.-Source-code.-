@@ -1,4 +1,6 @@
 customization:
+  mob_spawning:
+    enabled: true
   one_biome:
     biome: JUNGLE
     enabled: false
@@ -15,6 +17,9 @@ customization:
     - ice
   ocean:
     block: minecraft:water[level=0]
+  biomes:
+    replaced:
+      BEACH: BEACH
   flat_spawn:
     radius: 40
     fading: 20

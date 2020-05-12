@@ -1,15 +1,5 @@
-good2:
-- gmc_d_underground2_5
-- gmc_d_tower_3
-VillageHouse1:
-- VILLAGE_HOUSE_A
-- VILLAGE_HOUSE_1_C
-- VILLAGE_HOUSE_1_B
-- VILLAGE_HOUSE_1_A
-- VILLAGE_HOUSE_B
-- VILLAGE_HOUSE_C
-- VILLAGE_HOUSE_D
-- VILLAGE_HOUSE_1_D
+de1:
+- gmc_DESERT_TEMPLE_2
 Pyramid1:
 - PYRAMID
 VillageBackery1:
@@ -19,8 +9,19 @@ VillageBackery1:
 - VILLAGE_BACKERY_A
 DesertTemple1:
 - DESERT_TEMPLE_1
-simple1:
-- gmc_d_tower_2
+j2:
+- gmc_JUNGLE_TEMPLE_1
+de2:
+- gmc_DESERT_TEMPLE_1
+j1:
+- gmc_JUNGLE_TEMPLE_2_1
+s1:
+- testchest
+VillageHouse1:
+- VILLAGE_HOUSE_1_C
+- VILLAGE_HOUSE_1_B
+- VILLAGE_HOUSE_1_A
+- VILLAGE_HOUSE_1_D
 JungleTemple1:
 - JUNGLE_TEMPLE_1
 Dungeon1:
