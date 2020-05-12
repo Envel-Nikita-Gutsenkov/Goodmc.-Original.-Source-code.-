@@ -2,18 +2,18 @@
 
 general:
   nametag:
-    prefix: '&8[&6UltimateTimber&8] '
-  nopermission: '&cYou don''t have permission for that!'
+    prefix: '&f[Измельчитель деревьев] '
+  nopermission: '&fУ вас недостаточно прав.'
 # Command Messages
 command:
   reload:
-    description: '&8 - &a/ut reload &7 - Reloads the config.'
-    reloaded: '&7Configuration and locale files have been reloaded.'
+    description: '&8 - &a/ut reload &7 - Перезагрузка конфигурации.'
+    reloaded: '&fКонфигурация и локальные файлы были перезагружены.'
   toggle:
-    description: '&8 - &a/ut toggle &7 - Toggles your chopping mode'
-    enabled: '&7Chopping Mode: &aEnabled'
-    disabled: '&7Chopping Mode: &cDisabled'
+    description: '&f - &a/ut toggle &f - Включить/выключить режим измельчения.'
+    enabled: '&fРежим измельчения: &aВключен'
+    disabled: '&fРежим измельчения: &cВыключен'
 # Event Messages
 event:
   'on':
-    cooldown: '&eYou are on cooldown and cannot topple trees right now.'
+    cooldown: '&fВы не можете срубать деревья так часто.'

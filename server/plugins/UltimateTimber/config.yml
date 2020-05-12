@@ -193,6 +193,7 @@ trees:
       - STRIPPED_OAK_WOOD
     leaves:
       - OAK_LEAVES
+      - DARK_OAK_FENCE
       - OAK_FENCE
     sapling: OAK_SAPLING
     plantable-soil: []
@@ -223,6 +224,7 @@ trees:
     leaves:
       - OAK_LEAVES
       - DARK_OAK_FENCE
+      - OAK_FENCE
     sapling: OAK_SAPLING
     plantable-soil: []
     max-log-distance-from-trunk: 15
