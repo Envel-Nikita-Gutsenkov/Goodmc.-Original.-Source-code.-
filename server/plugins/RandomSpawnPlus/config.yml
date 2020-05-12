@@ -14,10 +14,10 @@ respawn-world: world
 
 # The spawn range RandomSpawnPlus will look within.
 spawn-range:
-  max-x: 2000
-  min-x: -2000
-  max-z: 2000
-  min-z: -2000
+  max-x: 1600
+  min-x: -1600
+  max-z: 1600
+  min-z: -1600
 
 # Will RandomSpawnPlus block spawns that will put the player in water?
 block-water-spawns: true

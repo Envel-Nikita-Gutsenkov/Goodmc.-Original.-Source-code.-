@@ -1,13 +1,13 @@
 # -------------------------------------------------------------------------------------------
 # 
-#  Your file has been automatically updated at 09.08.2019 14:57:54
-#  to ChatControl 8.0.7
+#  Your file has been automatically updated at 12.04.2020 18:35:45
+#  to ChatControl 8.6.4
 # 
 #  Unfortunatelly, due to how Bukkit saves all .yml files, it was not possible
 #  preserve the documentation comments in your file. We apologize.
 # 
 #  If you'd like to view the default file, you can either:
-#  a) Open the ChatControl-8.0.7.jar with a WinRar or similar
+#  a) Open the ChatControl-8.6.4.jar with a WinRar or similar
 #  b) or, visit: https://github.com/kangarko/ChatControl/wiki
 # 
 # -------------------------------------------------------------------------------------------
@@ -26,6 +26,14 @@ Anti_Bot:
   - (f+(\W|\d|_)*u+(\W|\d|_)*c+(\W|\d|_)*k+(\W|\d|_)*)
   - bitch
   - asshole
+  Join_Flood:
+    Enabled: false
+    Join_Threshold: 5 seconds
+    Min_Players: 5
+    Min_Equal_Messages: 4
+    Commands:
+    - "/kick {player} &4You have been kicked because your message \nmatched the message\
+      \ of recently joined player(s)."
 Anti_Caps:
   Enabled: true
   Enabled_In_Commands: false
@@ -55,6 +63,9 @@ Anti_Spam:
     Limit:
       Period: 10 seconds
       Max_Commands: 8
+      Whitelist_Limit:
+      - chatcontrol
+      - chc
     Delay_Points:
       Warn_Set: fastmessages
       Amount: 3 - {delay}
@@ -81,6 +92,9 @@ Anti_Spam:
     Limit:
       Period: 10 seconds
       Max_Messages: 4
+      Points:
+        Warn_Set: fastmessages
+        Amount: 3
     Parrot:
       Enabled: false
       Delay: 20 ticks
@@ -161,11 +175,13 @@ Admin_Chat:
   Log_To_Console: false
   Write_To_File: false
   Discord_Channel: admin
+  Shortcut: none
 Bungee_Chat:
   Enabled_By_Default: false
   Log_To_Console: false
   Write_To_File: false
   Discord_Channel: global
+  Shortcut: '!'
 Private_Messages:
   Enabled: false
   Bungee: false
@@ -180,6 +196,7 @@ Private_Messages:
     Enabled: true
     Prefix: '#'
     End: end
+    Start_For_Empty_Tell_Command: false
   Aliases:
     Tell:
     - tell
@@ -195,6 +212,7 @@ Private_Messages:
     - nopm
   Format_Sender: Private_Message_Sender
   Format_Receiver: Private_Message_Receiver
+  Reply_Change_Timeout: 3 seconds
 Toggle_Broadcast:
   Enabled: false
   Aliases:
@@ -388,9 +406,8 @@ Spy:
   - /whisper
   - /r
   - /reply
-BungeeCords:
-  Enabled: false
-  Prefix: '&8[&5Bungee/{server_name}&8] &7'
+  Format_Sign: '&8SPY: &7 [{location}] {player} placed a sign: [&8{text}&7]'
+  Format_TownyChat: '&8[&5spy&8] &7[{townychat_channel}] &7{player}: &7{message}'
 MySQL:
   Enabled: false
   Aggressive: false
@@ -425,4 +442,9 @@ Notify_Updates: false
 Notify_Promotions: false
 Debug: []
 Serialization: ''
-Version: 22
+Version: 24
+Bungee_Server_Name: undefined
+Regex_Unicode: true
+BungeeCord:
+  Enabled: false
+  Prefix: '&8[&5Bungee/{server_name}&8] &7'

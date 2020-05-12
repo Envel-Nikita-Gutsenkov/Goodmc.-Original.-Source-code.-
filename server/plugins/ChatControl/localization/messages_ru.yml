@@ -1,20 +1,20 @@
 # -------------------------------------------------------------------------------------------
 # 
-#  Your file has been automatically updated at 09.08.2019 14:57:54
-#  to ChatControl 8.0.7
+#  Your file has been automatically updated at 12.04.2020 18:35:45
+#  to ChatControl 8.6.4
 # 
 #  Unfortunatelly, due to how Bukkit saves all .yml files, it was not possible
 #  preserve the documentation comments in your file. We apologize.
 # 
 #  If you'd like to view the default file, you can either:
-#  a) Open the ChatControl-8.0.7.jar with a WinRar or similar
+#  a) Open the ChatControl-8.6.4.jar with a WinRar or similar
 #  b) or, visit: https://github.com/kangarko/ChatControl/wiki
 # 
 # -------------------------------------------------------------------------------------------
 
 Invalid:
   Handler: '&f✗ Обработчика с названием ''{handler}'' не существует!'
-  Import_File: '&f✗ Ошибка: Файла с именем {file} не существует!'
+  Import_File: '&f✗ Ошибка: Файла с именем messages_ru не существует!'
   Player: '&f✗ Игрок с ником ''{player}&f✗ '' не в игре!'
 Cannot:
   Chat_While_Muted: '&7Ты не можешь писать в чат,когда чат закрыт!'
@@ -131,6 +131,7 @@ Channels:
     &8{smooth_line}
   List_Format_Channel_Line: '&8 - &f{channel} &7({mode})&6'
   No_Plot: '&8&l! &cThere is no plot in this location. Your message could not be sent.'
+  Send_Require_Join: '&8&l! &cYou cannot write to a channel you are not joined into.'
 Private_Messages:
   No_Reply: '&f✗ You have no one to whom you can reply.'
   Afk_Warning: '&6{player} is afk and might not see your message.'
@@ -183,10 +184,6 @@ Commands:
 Usage:
   Fake_Command: /chatcontrol fake <&bjoin&f/&aleave&f/&ekick&f✗ > [Игрок]
   Calc_Command: /chatcontrol calc <expression> (например. 4 + 4 / 2)
-Update_Available: |-
-  &2Новая версия &3ChatControl&2'а доступна.
-  &2текущяя версия: &f{current}&2; новая версия: &f{new}
-  &2URL: &7https://www.spigotmc.org/resources/10258/.
 No_Permission: '&fНеизвестная команда О_о'
 Import_Finished: '&7импорт &2завершен&7. Проверь консоль для &bинформации&7.'
 Import_Failed: '&f✗ Не удачный импорт. Проверьте консоль. ошибка: {error}'
@@ -205,8 +202,6 @@ General:
   Player_Join: Игрок зашел
   Player_Quit: Игрок вышел
   Player_Kick: Игрок кикнут
-  Server_Prefix: '&8[&4Server&8]&f✗ '
-  Console: '&f✗ Сервер'
   Reason: '&7Причина: &f{reason}'
   Sign_At_Location: '[Табличка на {location}]'
   Sign: Табличка
@@ -219,3 +214,10 @@ General:
   Result: '&7Результат: &f{result}'
   Seconds: Секунда, Секунды
 Version: 1
+Server_Prefix: '&8[&4Server&8]&f✗ '
+Update:
+  Available: |-
+    &2Новая версия &3ChatControl&2'а доступна.
+    &2текущяя версия: &f{current}&2; новая версия: &f{new}
+    &2URL: &7https://www.spigotmc.org/resources/10258/.
+Console_Name: '&f✗ Сервер'

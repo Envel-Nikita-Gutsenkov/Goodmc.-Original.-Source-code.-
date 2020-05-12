@@ -9,7 +9,7 @@
 # Redistribution of this product is forbidden.
 
 # How often to check mob farms in seconds.
-check-interval: 300
+check-interval: 600
 
 broadcast:
   enable: false
@@ -23,17 +23,22 @@ rules:
   exclude: villager
   worlds: all
   distance: 3
-  max-amount: 30
+  max-amount: 15
 # A rule to avoid friendly mob farms, limit the mobs amount to 25.
 - entities: pig, cow, sheep, chicken
   worlds: all
   distance: 5
-  max-amount: 25
+  max-amount: 20
 # A rule for spawner grinders, max of 10 mobs of the same type in the same block.
 - entities: zombie, skeleton, spider, cave spider
   worlds: all
   distance: 1
-  max-amount: 10
+  max-amount: 15
+# Villagers sorry
+- entities: villager
+  worlds: all
+  distance: 5
+  max-amount: 20
 
 extra:
   # The rate of mobs that will successfully spawn from a nether portal.

@@ -6,9 +6,9 @@ logging-settings:
   log-info: false
 worlds:
   world:
-    min-night-speed-mult: 1.2
+    min-night-speed-mult: 2.6
     max-night-speed-mult: 8
-    night-speed-curve: 0.2
+    night-speed-curve: 0.6
     morning-sound: ENTITY_PLAYER_LEVELUP
     action-bar:
       title: '&f&o{SLEEPERS}/{TOTAL} спят, ускорение в {TIMESCALE} раз'

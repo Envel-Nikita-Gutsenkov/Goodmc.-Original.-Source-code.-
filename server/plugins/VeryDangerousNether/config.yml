@@ -1,0 +1,75 @@
+#+++++++++++++++++
+#+  N E T H E R  +
+#+  C O N F I G  +
+#+++++++++++++++++
+
+nm-enabled: true
+
+#Enable different additions in nether
+enable_ambient_sounds: true
+enable_better_fire: true
+nether_lightning: true
+soulsand_slowness: true
+netherrack_fires: true
+enable_custom_mobs: true
+enable_mean_ghasts: true
+enable_lava_burns: true
+enable_lava_placement: true
+enable_lava_spouts: true
+enable_falling_nether: true
+enable_nether_structures: true
+enable_alpha_pigman_sword_drop: true
+wither_potion_drops: true
+haste_potion_drops: true
+extended_wither_boss: false
+enderman_growl_replace_enderdragon_growl: false
+
+#Spawn rate/percentage chances
+lightning_chance: 5
+netherack_melting_chance: 3
+netherrack_fire_chance: 10
+mob_spawn_chance: 100
+falling_nether_chance: 1
+alpha_pigman_sword_drop_chance: 1
+wind_volume: 800 #-lower equals louder
+wind_pitch: 0 #-must be between 0 and 2
+low_y_value_wind: 70
+high_y_value_wind: 200
+netherrack_step_sound: ENTITY_SLIME_SQUISH
+wither_potion_drop_chance: 2
+haste_potion_drop_chance: 2
+
+#Structure spawn rate/percentage chance
+all_structures_chance: 55
+web_vine_chance: 30
+mushroom_chance: 25
+nether_spike_chance: 50
+nether_world_height: 256
+coral_chance: 20
+rose_chance: 10
+mushrooms_chance: 35
+replace_netherrack_chance: 30
+
+#Enable custom mobs
+spawn_molten: true
+spawn_fireball: true
+spawn_inferno: true
+spawn_old Shadow: true
+spawn_sherogath: true
+spawn_sadness: true
+spawn_necromancer: true
+spawn_alpha_pigman: true
+
+#Choose custom mob names
+molten: 'Молтен'
+fireball: 'Огненная сфера'
+inferno: 'Инферно'
+old_shadow: 'Старая тень'
+sherogath: 'Шерограф'
+sadness: 'Печаль'
+necromancer: 'Некромант'
+alpha_pigman: 'Альфа-свинозомби'
+
+#List of worlds the plugin is enabled in
+'enabled_worlds':
+  - world_nether

@@ -43,7 +43,7 @@ on-first-join:
     enabled: true
     commands:
     - w %player_name Неуязвимость будет действовать 10 минут.
-    - lp user %player_name permission settemp essentials.spawn false 2h global
+    - lp user %player_name permission settemp essentials.spawn false 2h
   apply-potion-effects:
     enabled: false
     effects:
