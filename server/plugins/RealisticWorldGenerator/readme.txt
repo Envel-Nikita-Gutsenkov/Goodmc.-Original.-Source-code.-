@@ -37,7 +37,7 @@
 # Configuration version: 2.4
 # Server: 4+GB RAM, 4+ cores
 # Others: It is recommended to use only on maps with the "large biomes" parameter.
-# Intended for use only after regeneration (https://www.spigotmc.org/resources/chunkmaster.71351/).
+# Intended for use only after pre-generation (https://www.spigotmc.org/resources/chunkmaster.71351/).
 #
 #
 # ░░░░░░░░░░░░░░░░▄▓▄
