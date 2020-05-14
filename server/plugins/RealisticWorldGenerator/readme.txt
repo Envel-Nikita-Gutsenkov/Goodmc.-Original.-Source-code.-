@@ -1,4 +1,4 @@
-#                       ┏━━━┓╋╋╋╋╋╋╋┏┳━┓┏━┳━━━┓
+ #                       ┏━━━┓╋╋╋╋╋╋╋┏┳━┓┏━┳━━━┓
 #                       ┃┏━┓┃╋╋╋╋╋╋╋┃┃┃┗┛┃┃┏━┓┃
 #                       ┃┃╋┗╋━━┳━━┳━┛┃┏┓┏┓┃┃╋┗┛
 #                       ┃┃┏━┫┏┓┃┏┓┃┏┓┃┃┃┃┃┃┃╋┏┓
@@ -35,8 +35,10 @@
 # Game version: 1.15.2
 # RWG version: 4.10
 # Configuration version: 2.4
-# Server: 3+GB RAM, 2+ cores
+# Server: 4+GB RAM, 4+ cores
 # Others: It is recommended to use only on maps with the "large biomes" parameter.
+# Intended for use only after regeneration (https://www.spigotmc.org/resources/chunkmaster.71351/?__cf_chl_jschl_tk__=2e04a981e0bff1409e1bcc05210950d823273f62-1589477094-0-AXf9_U5YAxSzceonXkgTsMyYRwIEpuD3VdqULIWWGBNUiJbHNST3mN3_eXOsdDkFP1jCBc7fRflrz7l69kTZz7Ja_pC3Q_gnyh_vf3d85y9htiqk9qo94U1wB2qF4TjRwlOrEsc3XnXxYXMF5lORrsdZlFpvvsHFwC0xletpP0xPHmla84344kmtZvWNJbxfQ4tfU9DZbORTfcFLqqtop9-GFzr9M7Icu7iIbleyUuvn43F4pwyWdIzUJJiET2IETbUUN6SQWeL0BbBnQsh3H-uxroas1PGw8zNz4S6ku-SERQJ8_WNNYj2zsCTVNCoLCA).
+#
 #
 # ░░░░░░░░░░░░░░░░▄▓▄
 # ░░░░▄█▄░░░░░░░░▄▓▓▓▄
