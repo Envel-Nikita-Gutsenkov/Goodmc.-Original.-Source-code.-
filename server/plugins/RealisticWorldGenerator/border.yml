@@ -1,7 +1,0 @@
-# RealisticWorld's WorldBorder let you block RWG from generating 
-# more chunks, than you really need! This World-Border can not pregenerate your world!
-border:
-  enabled: false
-  distance: 100
-  generate:
-    over: 10

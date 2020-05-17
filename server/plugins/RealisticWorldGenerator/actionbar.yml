@@ -1,8 +1,0 @@
-# RealisticWorld's ActionBar let you add a ActionBar to your users 
-# to show them, in which biome they're currently are!
-actionbar:
-  enabled: false
-  worlds:
-  - world
-  auto-add: false
-  biome-message: '&7Biome&8: &a&l%Biome%'

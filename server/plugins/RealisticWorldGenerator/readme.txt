@@ -34,7 +34,7 @@
 #
 # Game version: 1.15.2
 # RWG version: 4.10
-# Configuration version: 2.4
+# Configuration version: 2.5
 # Server: 4+GB RAM, 4+ cores
 # Others: It is recommended to use only on maps with the "large biomes" parameter.
 # Intended for use only after pre-generation (https://www.spigotmc.org/resources/chunkmaster.71351/).
