@@ -26,9 +26,9 @@
 # Приятной игры!
 #
 caves:
-  type: 5
+  type: 3
   enabled: true
-  spawnrate: 3000
+  spawnrate: 1000
   cave-3:
     frequenzy: 1
     octaves: 1

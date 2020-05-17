@@ -20,9 +20,9 @@ biomes:
     trees:
       chance:
         weight: 1.0
-        random: 1.0E7
+        random: 1.0E4
         min: 0.0
-        max: 155000.0
+        max: 400.0
       trees:
       - gmc_jungle_v2::4076
       - gmc_jungle_1_v2::4076
@@ -54,9 +54,8 @@ biomes:
         min: 0.0
         max: 20.0
       structures:
-      - JUNGLE_TEMPLE_1::20
-      - DUNGEON::20
-      - JUNGLE_TEMPLE_2::20
+      - gmc_JUNGLE_TEMPLE_1::20
+      - gmc_JUNGLE_TEMPLE_2_2::20
     layer:
       '1':
       - minecraft:coarse_dirt;15
@@ -117,9 +116,9 @@ biomes:
     trees:
       chance:
         weight: 1.0
-        random: 1.0E7
+        random: 1.0E4
         min: 0.0
-        max: 145000.0
+        max: 400.0
       trees:
       - gmc_jungle_v2::4076
       - gmc_jungle_1_v2::4076
@@ -151,9 +150,8 @@ biomes:
         min: 0.0
         max: 600.0
       structures:
-      - JUNGLE_TEMPLE_1::20
-      - DUNGEON::20
-      - JUNGLE_TEMPLE_2::20
+      - gmc_JUNGLE_TEMPLE_1::20
+      - gmc_JUNGLE_TEMPLE_2_2::20
     layer:
       '1':
       - minecraft:coarse_dirt;15
@@ -213,9 +211,9 @@ biomes:
     trees:
       chance:
         weight: 1.0
-        random: 1.0E7
+        random: 1.0E4
         min: 0.0
-        max: 145000.0
+        max: 400.0
       trees:
       - gmc_jungle_v2::4076
       - gmc_jungle_1_v2::4076
@@ -247,9 +245,8 @@ biomes:
         min: 0.0
         max: 600.0
       structures:
-      - JUNGLE_TEMPLE_1::20
-      - DUNGEON::20
-      - JUNGLE_TEMPLE_2::20
+      - gmc_JUNGLE_TEMPLE_1::20
+      - gmc_JUNGLE_TEMPLE_2_2::20
     layer:
       '1':
       - minecraft:coarse_dirt;15
@@ -333,8 +330,7 @@ biomes:
         random: 1.0E7
         min: 0.0
         max: 600.0
-      structures:
-      - DUNGEON::6
+      structures: []
     layer:
       '1':
       - minecraft:coarse_dirt;5
@@ -416,8 +412,7 @@ biomes:
         random: 1.0E7
         min: 0.0
         max: 600.0
-      structures:
-      - DUNGEON::6
+      structures: []
     layer:
       '1':
       - minecraft:coarse_dirt;15
@@ -666,8 +661,7 @@ biomes:
         random: 1.0E7
         min: 0.0
         max: 600.0
-      structures:
-      - DUNGEON::6
+      structures: []
     layer:
       '1':
       - minecraft:sand;200
@@ -759,8 +753,7 @@ biomes:
         random: 1.0E7
         min: 0.0
         max: 600.0
-      structures:
-      - DUNGEON::6
+      structures: []
     layer:
       '1':
       - minecraft:sand;200
@@ -1699,36 +1692,35 @@ biomes:
         weight: 1.0
         random: 1.0E7
         min: 0.0
-        max: 55000.0
-      trees:
-      - CORAL_RED_2::8000
-      - CORAL_RED_3::8000
-      - CORAL_RED_0::8000
-      - CORAL_RED_1::8000
-      - CORAL_MAGENTA_0::8000
-      - CORAL_MAGENTA_1::8000
-      - CORAL_MAGENTA_2::8000
-      - CORAL_BLUE_3::8000
-      - CORAL_MAGENTA_3::8000
-      - CORAL_BLUE_2::8000
-      - CORAL_BLUE_1::8000
-      - CORAL_BLUE_0::8000
-      - CORAL_YELLOW_0::8000
-      - CORAL_YELLOW_1::8000
-      - CORAL_YELLOW_2::8000
-      - CORAL_PINK_3::8000
-      - CORAL_YELLOW_3::8000
-      - CORAL_PINK_1::8000
-      - CORAL_PINK_2::8000
-      - CORAL_PINK_0::8000
+        max: 5.0
+      trees: []
     structures:
       chance:
         weight: 1.0
         random: 1.0E7
         min: 0.0
-        max: 80.0
+        max: 14000.0
       structures:
-      - UNDERWATER_TEMPLE_1::8
+      - UNDERWATER_TEMPLE_1::20
+      - gmc_ice::20000
+      - gmc_ice_0::20000
+      - gmc_ice_1::3000
+      - gmc_ice_2::20000
+      - gmc_ice_3::20000
+      - gmc_ice_4::20000
+      - gmc_ice_5::20000
+      - gmc_ice_6::5000
+      - gmc_ice_7::5000
+      - gmc_ice_8::20000
+      - gmc_ice_9::20000
+      - gmc_ice_10::3000
+      - gmc_ice_11::20000
+      - gmc_ice_12::2000
+      - gmc_ice_13::20000
+      - gmc_ice_14::20000
+      - gmc_ice_15::20000
+      - gmc_ice_16::20000
+      - gmc_ice_17::5000
     layer:
       '1':
       - minecraft:sand;150
@@ -1799,15 +1791,15 @@ biomes:
         weight: 1.0
         random: 1.0E7
         min: 0.0
-        max: 60000.0
+        max: 80000.0
       trees:
-      - gmc_cactus_3::20000
-      - gmc_cactus_2::22000
-      - gmc_cactus_1::20000
-      - gmc_desert_tree::300
-      - gmc_desert_tree_0::300
-      - gmc_desert_tree_1::300
-      - gmc_desert_tree_2::300
+      - gmc_cactus_3::22000
+      - gmc_cactus_2::24000
+      - gmc_cactus_1::22000
+      - gmc_desert_tree::200
+      - gmc_desert_tree_0::200
+      - gmc_desert_tree_1::200
+      - gmc_desert_tree_2::200
     structures:
       chance:
         weight: 1.0
@@ -1815,7 +1807,7 @@ biomes:
         min: 0.0
         max: 9000.0
       structures:
-      - gmc_DESERT_TEMPLE_1::20
+      - gmc_DESERT_TEMPLE_1_0::20
       - gmc_DESERT_TEMPLE_2::5
       - DESERT_RESERVOIR::60
       - gmc_skull::700
@@ -1867,11 +1859,11 @@ biomes:
         weight: 1.0
         random: 1.0E7
         min: 0.0
-        max: 60000.0
+        max: 80000.0
       trees:
-      - gmc_cactus_3::20000
-      - gmc_cactus_2::22000
-      - gmc_cactus_1::20000
+      - gmc_cactus_3::22000
+      - gmc_cactus_2::24000
+      - gmc_cactus_1::22000
       - gmc_desert_tree::200
       - gmc_desert_tree_0::200
       - gmc_desert_tree_1::200
@@ -1883,7 +1875,7 @@ biomes:
         min: 0.0
         max: 9000.0
       structures:
-      - gmc_DESERT_TEMPLE_1::20
+      - gmc_DESERT_TEMPLE_1_0::20
       - gmc_DESERT_TEMPLE_2::5
       - DESERT_RESERVOIR::60
       - gmc_skull::700
@@ -1935,11 +1927,11 @@ biomes:
         weight: 1.0
         random: 1.0E7
         min: 0.0
-        max: 60000.0
+        max: 80000.0
       trees:
-      - gmc_cactus_3::20000
-      - gmc_cactus_2::22000
-      - gmc_cactus_1::20000
+      - gmc_cactus_3::22000
+      - gmc_cactus_2::24000
+      - gmc_cactus_1::22000
       - gmc_desert_tree::200
       - gmc_desert_tree_0::200
       - gmc_desert_tree_1::200
@@ -1951,7 +1943,7 @@ biomes:
         min: 0.0
         max: 9000.0
       structures:
-      - gmc_DESERT_TEMPLE_1::20
+      - gmc_DESERT_TEMPLE_1_0::20
       - gmc_DESERT_TEMPLE_2::5
       - DESERT_RESERVOIR::60
       - gmc_skull::700
@@ -2007,7 +1999,7 @@ biomes:
       - minecraft:sunflower[half=lower];50
       - minecraft:tall_grass[half=lower];40
       - minecraft:rose_bush[half=lower];10
-      - minecraft:large_fern[half=lower];10
+      - minecraft:large_fern[half=lower];50
       - minecraft:lilac[half=lower];4
       - minecraft:peony[half=lower];4
     trees:
@@ -2015,16 +2007,20 @@ biomes:
         weight: 1.0
         random: 1.0E7
         min: 0.0
-        max: 666.0
-      trees: []
+        max: 1000.0
+      trees:
+      - gmc_plauntbush_1_0::1
+      - gmc_plauntbush_2::1
+      - gmc_plauntbush_3::1
+      - gmc_plauntbush_4::1
+      - gmc_plauntbush_5::1
     structures:
       chance:
         weight: 1.0
         random: 1.0E7
         min: 0.0
         max: 600.0
-      structures:
-      - DUNGEON::6
+      structures: []
     layer:
       '1':
       - minecraft:coarse_dirt;2
@@ -2113,25 +2109,42 @@ biomes:
       - minecraft:snow_block;1
       - minecraft:ice;30
       '5':
+      - minecraft:packed_ice;100
+      - minecraft:ice;30
+      - minecraft:cobblestone;1
+      '6':
+      - minecraft:packed_ice;200
+      - minecraft:ice;30
+      - minecraft:cobblestone;5
+      '7':
+      - minecraft:packed_ice;300
+      - minecraft:ice;30
+      - minecraft:cobblestone;10
+      '8':
+      - minecraft:packed_ice;400
+      - minecraft:ice;30
+      - minecraft:cobblestone;15
+      '9':
+      - minecraft:cobblestone;10
       - minecraft:stone;30
       - minecraft:dirt;90
       - minecraft:andesite;8
       - minecraft:granite;8
       - minecraft:snow_block;10
       - minecraft:packed_ice;5
-      '6':
+      '10':
       - minecraft:stone;40
       - minecraft:dirt;60
       - minecraft:andesite;10
       - minecraft:granite;10
       - minecraft:snow_block;5
       - minecraft:packed_ice;2
-      '7':
+      '11':
       - minecraft:stone;70
       - minecraft:dirt;20
       - minecraft:andesite;15
       - minecraft:granite;15
-      '8':
+      '12':
       - minecraft:stone;120
       - minecraft:dirt;2
       - minecraft:andesite;25
@@ -2166,7 +2179,7 @@ biomes:
         weight: 1.0
         random: 1.0E7
         min: 0.0
-        max: 55000.0
+        max: 50000.0
       trees:
       - gmc_BIRCH_TREE_5::800
       - gmc_BIRCH_TREE_4::2666
@@ -2185,8 +2198,7 @@ biomes:
         random: 1.0E7
         min: 0.0
         max: 600.0
-      structures:
-      - DUNGEON::6
+      structures: []
     layer:
       '1':
       - minecraft:coarse_dirt;10
@@ -2242,7 +2254,7 @@ biomes:
         weight: 1.0
         random: 1.0E7
         min: 0.0
-        max: 26660.0
+        max: 48000.0
       trees:
       - gmc_BIRCH_TREE_5::800
       - gmc_BIRCH_TREE_4::2666
@@ -2261,8 +2273,7 @@ biomes:
         random: 1.0E7
         min: 0.0
         max: 600.0
-      structures:
-      - DUNGEON::6
+      structures: []
     layer:
       '1':
       - minecraft:coarse_dirt;25
@@ -2321,9 +2332,9 @@ biomes:
     trees:
       chance:
         weight: 1.0
-        random: 1.0E7
+        random: 1.0E4
         min: 0.0
-        max: 95000.0
+        max: 190.0
       trees:
       - gmc_newspruce_1::5000
       - gmc_newspruce_2::5000
@@ -2345,8 +2356,7 @@ biomes:
         random: 1.0E7
         min: 0.0
         max: 600.0
-      structures:
-      - DUNGEON::6
+      structures: []
     layer:
       '1':
       - minecraft:coarse_dirt;20
@@ -2407,9 +2417,9 @@ biomes:
     trees:
       chance:
         weight: 1.0
-        random: 1.0E7
+        random: 1.0E4
         min: 0.0
-        max: 94000.0
+        max: 190.0
       trees:
       - gmc_newspruce_1::5000
       - gmc_newspruce_2::5000
@@ -2431,8 +2441,7 @@ biomes:
         random: 1.0E7
         min: 0.0
         max: 600.0
-      structures:
-      - DUNGEON::6
+      structures: []
     layer:
       '1':
       - minecraft:coarse_dirt;25
@@ -2493,9 +2502,9 @@ biomes:
     trees:
       chance:
         weight: 1.0
-        random: 1.0E7
+        random: 1.0E4
         min: 0.0
-        max: 94000.0
+        max: 190.0
       trees:
       - gmc_newspruce_1::5000
       - gmc_newspruce_2::5000
@@ -2517,8 +2526,7 @@ biomes:
         random: 1.0E7
         min: 0.0
         max: 600.0
-      structures:
-      - DUNGEON::6
+      structures: []
     layer:
       '1':
       - minecraft:coarse_dirt;20
@@ -2801,8 +2809,7 @@ biomes:
         random: 1.0E7
         min: 0.0
         max: 600.0
-      structures:
-      - DUNGEON::6
+      structures: []
     layer:
       '1':
       - minecraft:coarse_dirt;10
@@ -2874,8 +2881,7 @@ biomes:
         random: 1.0E7
         min: 0.0
         max: 600.0
-      structures:
-      - DUNGEON::6
+      structures: []
     layer:
       '1':
       - minecraft:grass_block[snowy=false];30
@@ -2947,8 +2953,7 @@ biomes:
         random: 1.0E7
         min: 0.0
         max: 600.0
-      structures:
-      - DUNGEON::6
+      structures: []
     layer:
       '1':
       - minecraft:coarse_dirt;10
@@ -3023,8 +3028,7 @@ biomes:
         random: 1.0E7
         min: 0.0
         max: 600.0
-      structures:
-      - DUNGEON::6
+      structures: []
     layer:
       '1':
       - minecraft:coarse_dirt;10
@@ -3095,8 +3099,7 @@ biomes:
         random: 1.0E7
         min: 0.0
         max: 600.0
-      structures:
-      - DUNGEON::6
+      structures: []
     layer:
       '1':
       - minecraft:grass_block[snowy=false];100

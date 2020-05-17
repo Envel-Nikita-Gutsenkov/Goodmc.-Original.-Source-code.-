@@ -1,6 +1,6 @@
 customization:
   mob_spawning:
-    enabled: true
+    enabled: false
   one_biome:
     biome: JUNGLE
     enabled: false

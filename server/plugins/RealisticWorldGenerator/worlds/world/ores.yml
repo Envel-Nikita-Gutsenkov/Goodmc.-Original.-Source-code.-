@@ -53,7 +53,7 @@ blocks:
     max: 120
   gold:
     min: 0
-    chance: 10.0
+    chance: 1.0
     spawn:
       min: 4
       max: 9
@@ -85,7 +85,7 @@ blocks:
     max: 120
   diamond:
     min: 0
-    chance: 1.5
+    chance: 0.8
     spawn:
       min: 1
       max: 6
@@ -117,7 +117,7 @@ blocks:
     max: 256
   iron:
     min: 0
-    chance: 25.0
+    chance: 15.0
     spawn:
       min: 4
       max: 9
@@ -125,7 +125,7 @@ blocks:
     max: 67
   coal:
     min: 0
-    chance: 45.0
+    chance: 25.0
     spawn:
       min: 4
       max: 16

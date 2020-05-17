@@ -2,7 +2,7 @@ caves:
   cave:
     '3':
       octaves: 1
-      lava-lavel: 6
+      lava-lavel: 12
       amplitude: 1
       frequency: 1
     '4':

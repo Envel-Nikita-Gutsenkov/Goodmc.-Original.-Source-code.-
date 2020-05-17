@@ -12,9 +12,11 @@ DesertTemple1:
 j2:
 - gmc_JUNGLE_TEMPLE_1
 de2:
+- gmc_DESERT_TEMPLE_1_0
 - gmc_DESERT_TEMPLE_1
 j1:
 - gmc_JUNGLE_TEMPLE_2_1
+- gmc_JUNGLE_TEMPLE_2_2
 s1:
 - testchest
 VillageHouse1:
