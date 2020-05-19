@@ -377,14 +377,17 @@ biomes:
     overlay:
       chance: 4
       blocks:
-      - minecraft:poppy;10
-      - minecraft:dandelion;5
-      - minecraft:grass;85
-      - minecraft:fern;55
-      - minecraft:oak_leaves[distance=7,persistent=true];18
-      - minecraft:oxeye_daisy;5
-      - minecraft:azure_bluet;5
-      - minecraft:cornflower;2
+      - minecraft:beetroots[age=3];1
+      - minecraft:potatoes[age=7];1
+      - minecraft:carrots[age=7];1
+      - minecraft:poppy;1000
+      - minecraft:dandelion;500
+      - minecraft:grass;8500
+      - minecraft:fern;5500
+      - minecraft:oak_leaves[distance=7,persistent=true];1800
+      - minecraft:oxeye_daisy;500
+      - minecraft:azure_bluet;500
+      - minecraft:cornflower;200
     trees:
       chance:
         weight: 1.0
@@ -1987,7 +1990,7 @@ biomes:
       - RABBIT::0.25
   PLAINS:
     overlay:
-      chance: 4
+      chance: 3
       blocks:
       - minecraft:orange_tulip;50
       - minecraft:pink_tulip;50
@@ -1997,9 +2000,9 @@ biomes:
       - minecraft:fern;500
       - minecraft:melon;2
       - minecraft:sunflower[half=lower];50
-      - minecraft:tall_grass[half=lower];40
+      - minecraft:tall_grass[half=lower];100
       - minecraft:rose_bush[half=lower];10
-      - minecraft:large_fern[half=lower];50
+      - minecraft:large_fern[half=lower];80
       - minecraft:lilac[half=lower];4
       - minecraft:peony[half=lower];4
     trees:

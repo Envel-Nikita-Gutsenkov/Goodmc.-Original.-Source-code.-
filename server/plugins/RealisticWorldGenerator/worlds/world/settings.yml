@@ -25,3 +25,11 @@ customization:
     fading: 20
     enabled: false
     height: 70
+  decay:
+    radius:
+      X: 7
+      y: 4
+      Z: 7
+  sugarcane:
+    spawn: true
+    chance: 7

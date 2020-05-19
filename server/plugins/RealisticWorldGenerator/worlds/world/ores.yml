@@ -2,6 +2,8 @@ ores:
   veins:
     type: 1
     enabled: true
+  base:
+    block: minecraft:stone
 blocks:
   polished-diorite:
     min: 0
