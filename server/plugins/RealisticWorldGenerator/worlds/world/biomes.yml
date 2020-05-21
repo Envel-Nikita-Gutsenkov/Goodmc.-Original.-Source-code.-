@@ -329,8 +329,11 @@ biomes:
         weight: 1.0
         random: 1.0E7
         min: 0.0
-        max: 600.0
-      structures: []
+        max: 50.0
+      structures:
+      - gmc_st_newbuild1::1
+      - gmc_st_newbuild2::1
+      - gmc_st_newbuild3::1
     layer:
       '1':
       - minecraft:coarse_dirt;5
@@ -414,8 +417,11 @@ biomes:
         weight: 1.0
         random: 1.0E7
         min: 0.0
-        max: 600.0
-      structures: []
+        max: 50.0
+      structures:
+      - gmc_st_newbuild1::1
+      - gmc_st_newbuild2::1
+      - gmc_st_newbuild3::1
     layer:
       '1':
       - minecraft:coarse_dirt;15
@@ -2024,7 +2030,10 @@ biomes:
         min: 0.0
         max: 800.0
       structures:
-      - gmc_bee_1::1
+      - gmc_bee_1::500
+      - gmc_st_newbuild1::1
+      - gmc_st_newbuild2::1
+      - gmc_st_newbuild3::1
     layer:
       '1':
       - minecraft:coarse_dirt;2
@@ -2201,8 +2210,11 @@ biomes:
         weight: 1.0
         random: 1.0E7
         min: 0.0
-        max: 600.0
-      structures: []
+        max: 50.0
+      structures:
+      - gmc_st_newbuild1::1
+      - gmc_st_newbuild2::1
+      - gmc_st_newbuild3::1
     layer:
       '1':
       - minecraft:coarse_dirt;10
@@ -2276,8 +2288,11 @@ biomes:
         weight: 1.0
         random: 1.0E7
         min: 0.0
-        max: 600.0
-      structures: []
+        max: 50.0
+      structures:
+      - gmc_st_newbuild1::1
+      - gmc_st_newbuild2::1
+      - gmc_st_newbuild3::1
     layer:
       '1':
       - minecraft:coarse_dirt;25
@@ -3102,8 +3117,11 @@ biomes:
         weight: 1.0
         random: 1.0E7
         min: 0.0
-        max: 600.0
-      structures: []
+        max: 50.0
+      structures:
+      - gmc_st_newbuild1::1
+      - gmc_st_newbuild2::1
+      - gmc_st_newbuild3::1
     layer:
       '1':
       - minecraft:grass_block[snowy=false];100
