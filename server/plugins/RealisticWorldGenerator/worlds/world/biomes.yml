@@ -2022,8 +2022,9 @@ biomes:
         weight: 1.0
         random: 1.0E7
         min: 0.0
-        max: 600.0
-      structures: []
+        max: 800.0
+      structures:
+      - gmc_bee_1::1
     layer:
       '1':
       - minecraft:coarse_dirt;2
@@ -2093,7 +2094,7 @@ biomes:
         min: 0.0
         max: 6.0
       structures:
-      - gmc_iglu_2::1.0
+      - gmc_iglu_3::1.0
     layer:
       '1':
       - minecraft:packed_ice;100
