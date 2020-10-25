@@ -253,7 +253,7 @@ Packets:
 Rules:
   Verbose: false
   Bungee: false
-  Chat: false
+  Chat: true
   Commands: false
   Packets: false
   Signs:

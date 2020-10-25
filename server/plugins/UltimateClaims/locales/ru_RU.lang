@@ -108,7 +108,7 @@ interface:
   members:
     title: Поселенцы
     statslore: '&7Всего нас: &6%totalmembers%&7.|&7Поселенцев: &6%members%&7.'
-    skulllore: '&7Роль: &a%role%|&7Время участия: &b%playtime%|&7Поселенец уже: &d%membersince%'
+    skulllore: '&7Роль: &a%role%|&7Время участия: &6%playtime%|&7Поселенец уже: &6%membersince%'
     changetypetitle: '&7Изменить тип'
     changetypelore: '&7Текущий: &d%current%|&7Жми для изменения.'
     statstitle: '&7Статистика'
@@ -126,6 +126,7 @@ interface:
     mobkilltitle: '&7Убивать животных'
     redstonetitle: '&7Доступ к механизмам'
     doorstitle: '&7Открывать двери'
+    tradingtitle: '&7Торговля'
   bans:
     title: Враги
     infotitle: '&7Информация'
@@ -135,7 +136,7 @@ interface:
     title: Настройки
     hostilemobspawningtitle: '&6&lЗащитить от злых существ'
     firespreadtitle: '&6&lМагия не даст распространяться огню'
-    pvptitle: '&6&lРазрешить войну'
+    pvptitle: '&6&lРазрешить войну (ПВП)'
     mobgriefingtitle: '&6&lЗащитить от грабежа злыми существами'
     leafdecaytitle: '&6&lДолжна ли опадать листва'
   recipe:

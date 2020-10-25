@@ -1,4 +1,12 @@
-version: 14
+#┏━━━┓╋╋╋╋╋╋╋┏┳━┓┏━┳━━━┓
+#┃┏━┓┃╋╋╋╋╋╋╋┃┃┃┗┛┃┃┏━┓┃
+#┃┃╋┗╋━━┳━━┳━┛┃┏┓┏┓┃┃╋┗┛
+#┃┃┏━┫┏┓┃┏┓┃┏┓┃┃┃┃┃┃┃╋┏┓
+#┃┗┻━┃┗┛┃┗┛┃┗┛┃┃┃┃┃┃┗━┛┃
+#┗━━━┻━━┻━━┻━━┻┛┗┛┗┻━━━┛
+#
+# Version of this configuration file
+version: 18
 
 # NOTE: Chances
 # All the chances are in percents
@@ -10,16 +18,45 @@ version: 14
 # "Blank worlds" doesn't means "worlds:" - use "worlds: []"
 
 # NOTE: Ticks
-# Plugin utilizes it's own tick system which is based on vanilla one
+# Plugin utilizes its own tick system which is based on vanilla one
 # WORLD tick is 6300 vanilla ticks (about 5 minutes 15 seconds)
+# PLAYER tick is 800 vanilla ticks (about 40 seconds)
 # ENTITY tick is 4 vanilla ticks (about 200 milliseconds)
+
+# NOTE: Per-version
+# 1.13+ Materials(ignore LEGACY) https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+# -1.12 Materials https://helpch.at/docs/1.12.2/index.html?org/bukkit/Material.html
+# 1.13+ Sounds https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html
+# -1.12 Sounds https://helpch.at/docs/1.12.2/index.html?org/bukkit/Sound.html
+
+#
+# Some plugin integrations
+#
+integration:
+  # For disabling some features in specific regions
+  # Available options: worldguard, worldguard-flagless, griefprevention, griefprevention-flagless, none
+  mode: none
+
+  # WorldGuard flags:
+  # dc-entity-grief (magma monster, lava creeper)
+  # dc-block-change (cave-ins, caves aging)
+  # dc-player-effect (ambient sounds, hypoxia)
+
+  # `griefprevention` mode requires GriefPreventionFlags plugin. You don't need it for `griefprevention-flagless`
+  # GriefPreventionFlags flags:
+  # DCNoEntityGrief (magma monster, lava creeper)
+  # DCNoBlockChange (cave-ins, caves aging)
+  # DCNoPlayerEffect (ambient sounds, hypoxia)
+
+  # Invert checks by default
+  invert: false
 
 #
 # Cave-related things
 #
 caverns:
 
-  # Cave-ins - blocks may fall down when mining
+  # Cave-Ins - blocks may fall down when mining
   ins:
     # List of worlds where cave-in may appear
     worlds:
@@ -38,24 +75,29 @@ caverns:
     radius: 2
     # Maximal Y where cave-in may appear
     y-max: 25
+    # Give player effects on cave-in?
+    blast-effect: true
+    # Play explosion sound on cave-in?
+    blast-sound: true
 
-  # Ambient sounds - special sound may be played underground
+  # Ambient Sounds - special sound may be played underground
   ambient:
     # List of worlds where ambient sounds can be played
     worlds:
       - world
       - mine
     # Chance of sound will be played
-    # Checking every WORLD tick
-    chance: 25
+    # Checking every PLAYER tick
+    chance: 6.35
     # Maximal Y where sound can be played
-    y-max: 50
+    y-max: 35
+    # Play sound in random location near player. 0 to play sound on player's location
+    near: 7
     # List of sounds to play - you can add more or remove some
-    # All the sounds can be found here https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html
     sounds:
       MUSIC_DRAGON:
         volume: 1
-        pitch: 0
+        pitch: 0.5
       MUSIC_NETHER:
         volume: 1
         pitch: 0.5
@@ -72,98 +114,96 @@ caverns:
         volume: 1
         pitch: 0.5
 
-  # Depth temperature - will cause player to move and dig slower
-  temperature:
-    # List of worlds where players can sense temperature
+  # Depth Hypoxia - will cause player to move and dig slower
+  hypoxia:
+    # List of worlds where players can sense hypoxia
     worlds:
       - world
+      - world_nether
       - mine
-    # Chance of player to sense high temperature
-    # Checking every ENTITY tick
-    chance: 0.05
-    # Maximal Y where players can sense temperature
-    y-max: 32
-    # Immunity to high temperature if player has one of these items in inventory
-    # All the materials can be found here (ignore LEGACY) https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
-    cold-items:
-      - POTION
-      - SPLASH_POTION
-      - SNOW
-      - SNOWBALL
-      - SNOW_BLOCK
-      - WATER_BUCKET
-      - ICE
-      - FROSTED_ICE
-      - PACKED_ICE
-    # Immunity to high temperature if player has fire resistance effect
-    fire-resistance: true
-    # Messages when player is feeling high temperature
+    # Chance of checking the player
+    # Checking every PLAYER tick
+    try-chance: 20
+    # Formula to calculate chance of activation. Supports integers, floats, -, +, *, /, ^, (, )
+    # Result should be between 0 and 1, where 0 is 0% and 1 is 100%
+    # Depth (0-1) - depth of player, where 1 is Y 0, and 0 is y-max(from config)
+    # Inventory (0-1) - inventory fullness, where 1 is full and 0 is empty; slot considered as full if it has maximal amount of item inside(like 1 iron pickaxe, 16 ender pearls or 64 dirt)
+    # For 2.1.9 behavior use "(depth+inventory)/2"
+    chance-formula: "depth*inventory"
+    # Limit maximal and minimal chance of activation. Set `chance-max` 100 to disable
+    chance-min: 10
+    chance-max: 90
+    # Maximal Y where players can sense lack of air
+    y-max: 35
+    # Use actionbar instead of chat to show messages
+    actionbar: true
+    # Messages when player is feeling lack of air
     messages:
-      - "&f➦Ух, жарко здесь. Я лучше принесу что-нибудь в следующий раз, чтобы охладиться..."
-      - "&f➦Здесь действительно жарко."
-      - "&f➦Мне понадобится что-нибудь, чтобы охладиться в следующий раз."
-      - "&f➦Здесь жарко или только мне кажется?"
-      - "&f➦Мне действительно нужен лёд. Очень жарко из-за лавы."
-      - "&f➦Кажется, нужно было брать с собой воду."
+      - "&fУх, жарко здесь."
+      - "&fМне нужно больше воздуха."
+      - "&fЗдесь действительно душно."
+      - "&fЗдесь жарко или только мне кажется?"
+      - "&fЕсли я не выйду на поверхность, мне может стать хуже."
+      - "&fСлишком душно и тяжелый инвентарь."
+      - "&fЕсли освободить инвентарь - мне станет легче."
 
-  # Caves aging - over time caves will get some vines and rocks
+  # Caves Aging - over time caves will get some vines and rocks
   aging:
     # List of worlds where aging will be processed
     worlds:
-      - world
       - mine
     # Chance of caves near player will be affected
     # Checking every WORLD tick
-    chance: 320
+    chance: 5
     # Radius of cave aging near player
     # In chunks (+1 where the player is)
     radius: 3
     # Maximal Y where aging will be processed
-    y-max: 40
+    y-max: 35
     # Chance of block will be affected
-    change-chance: 2.5
+    change-chance: 1.5
     # Maximal light level of block (0-15)
-    # WARNING: Can cause lags if not 0. This option checks every side of block to check if there's some light
-    max-light-level: 0
-    # Schedule all the changes instead of instant chunk change. Can boost performance
-    # Time in ticks. 0 to disable. It's better to stay at 4 ticks.
-    schedule-timer: 0
+    # WARNING: Can cause lags if > 0. This option checks every horizontal side of block to check if there's some light
+    max-light-level: 2
+    # Vanilla ticks between chunk changes. Larger value - better performance, but slower process
+    # Large values(60+) are not recommended
+    schedule-timer: 4
+    # Force chunk loading if chunk was unloaded during scheduled aging. Disable if it's too intensive for your server
+    force-load: false
+    # Maximal percentage of aged blocks per chunk
     percentage: 5
     # List of materials that are affected by aging
-    # All the materials can be found here (ignore LEGACY) https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
     replace-blocks:
       - STONE
       - ANDESITE
-      - DIORITE
-      - GRANITE
       - COBBLESTONE
-      - MOSSY_COBBLESTONE
       - COBBLESTONE_WALL
-    # List of coordinates of chunks that should be ignored
-    # To get chunk coordinates just divide your coordinates by 16 and ignore remainder(or use command)
-    # "-1,-1" variant is allowed(just one chunk)
-    # Worlds are case-sensitive!
+      - MOSSY_COBBLESTONE
     # What to do with replace-blocks?
     age-types:
       vines: true
       rocks: true
       mushrooms: true
       replace: true
-    # world:
-    #  - "-1,-1 1,1"
-    #  - "10,24"
-    # second_world:
-    #  - "0,0"
+    # Replace torch on caves aging. Not affected by `change-chance`
+    torch-remove-chance: 40
+    # List of coordinates of chunks that should be ignored
+    # To get chunk coordinates just divide your coordinates by 16 and ignore remainder(or use command)
+    # "-1,-1" variant is allowed(just one chunk)
+    # Worlds are case-sensitive!
     skip-chunks:
-      world:
-        - "-1,-1 1,1"
+    #  world:
+    #   - "-1,-1 1,1"
+    #   - "10,24"
+    #  second_world:
+    #   - "0,0"
 
 #
 # Generator-related things
 #
 generator:
 
-  # Force DangerousCaves' generator to wait for other plugins (other generators)
+  # Force Dangerous Caves' generator to wait for other plugins (other generators)
   wait-other: true
 
   # Chance of custom structure generations in chunk
@@ -178,7 +218,6 @@ generator:
     - mine
 
   # Items in generated chests
-  # All the materials can be found here (ignore LEGACY) https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
   chest-items:
     - OAK_PLANKS
     - TORCH
@@ -251,7 +290,7 @@ generator:
     boulders: 1
     buildings: 1
 
-  # Chance of spawning a mimic inside custom structure with chests
+  # Chance of spawning a mimic inside of custom structure with chests
   mimic-chance: 10
 
 #
@@ -260,19 +299,37 @@ generator:
 mobs:
 
   # Chance of spawning custom mob instead of vanilla one
-  try-chance: 35
+  try-chance: 25
 
   # World where mob can spawn(and work as it's intended to work)
   worlds:
     - world
     - mine
 
-  # Minimal and maximal Y where custom mobs can spawn
+  # Minimal and maximal Y coordinate where custom mobs can spawn
   y-min: 4
-  y-max: 45
+  y-max: 35
 
+  # (Paper only) Use PreCreatureSpawnEvent when trying to spawn mobs. More performance-friendly, but a bit less accurate
+  use-prespawn: false
+  
   # Block renaming with name-tags
   restrict-rename: false
+
+  # Only these mobs will be replaced
+  replace-mobs:
+    - ZOMBIE
+    - HUSK
+    - SKELETON
+    - STRAY
+    - CREEPER
+    - SPIDER
+    - WITCH
+    - ENDERMAN
+
+  # Add metadata "DangerousCaves" when mob is spawned. Useful for some plugins like SAML.
+  # Not sure, but can cause memory leak, so disabled by default
+  add-metadata: false
 
   # List of *default* custom mobs
   # To disable names just live it blank, like
@@ -280,8 +337,10 @@ mobs:
   # Larger priority - larger chance in comparison with others. Set to 0 to disable
   # Chance formula - (mob_priority)/(total_priority)
 
+  # Alpha Spider
+  # Spawns cave-spiders as minions and covers player in cobweb
   alpha-spider:
-    priority: 10
+    priority: 18
     health: 40
     name: "Мутировавший паук"
     # When spider is damaged
@@ -289,19 +348,22 @@ mobs:
     # When spider is damaged
     minion-chance: 6.67
 
+  # Crying Bat
+  # Just screams and eventually dies
   crying-bat:
-    priority: 20
-    health: 20
+    priority: 18
     name: "Плачущая летучая мышь"
     # Every ENTITY tick
     cry-chance: 3.33
-    # If cry was successful. Every ENTITY tick
+    # Every ENTITY tick if cry was successful
     death-chance: 20
 
+  # Dead Miner
+  # Placing torches when it's too dark and drops some items when damaged
   dead-miner:
-    priority: 10
-    health: 30
+    priority: 18
     name: "Мертвый шахтёр"
+    health: 35
     # Get your custom head here https://minecraft-heads.com/
     # Just copy a "Value" (with =)
     head-value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzE5MzdiY2Q1YmVlYWEzNDI0NDkxM2YyNzc1MDVlMjlkMmU2ZmIzNWYyZTIzY2E0YWZhMmI2NzY4ZTM5OGQ3MyJ9fX0="
@@ -309,8 +371,12 @@ mobs:
     place-torches: true
     # Place redstone torches instead of normal?
     red-torches: false
+    # Don't place torches if Dead Miner has player as a target
+    without-target: false
+    # Cooldown in seconds between torches placing. Useful for preventing torch farms. Set to 0 to disable
+    torches-cooldown: 30
     # When Dead Miner is damaged
-    drop-chance: 10
+    drop-chance: 30
     # Materials list
     drop-items:
       - COBBLESTONE
@@ -318,73 +384,122 @@ mobs:
       - COAL
       - TORCH
 
+  # Hexed Armor
+  # When attacks gives player all its armor
   hexed-armor:
-    priority: 8
+    priority: 6
     name: "Околдованная броня"
+    health: 30
+    # Add binding curse to armor
+    binding-curse: true
     # When player is attacked
-    apply-chance: 5
+    apply-chance: 25
 
+  # Hungering Darkness
+  # Spawns in the dark and kills player if there's no light
   hungering-darkness:
-    priority: 20
+    priority: 15
     name: ""
     # Kill the entity on light?
-    remove-on-light: true
+    remove-on-light: false
+    # Is night vision effect considered as light?
+    night-vision: false
     # When player is attacked
-    damage: 200
+    damage: 20
 
+  # Lava Creeper
+  # When blows up creates a crater with magma, obsidian and lava
   lava-creeper:
-    priority: 15
+    priority: 8
     name: "Лавовый крипер"
+    health: 20
     # When Lava Creeper is damaged. In ticks
     fire-touch: 10
     # Radius in blocks
     radius: 4
     # Chance that the block will be changed
-    change-chance: 30
+    change-chance: 50
     block-chances:
       fire: 33.33
       magma_block: 25
       obsidian: 20
       lava: 16.67
 
+  # Magma Monster
+  # Leaves a trail of magma on its way
   magma-monster:
-    priority: 15
+    priority: 4
     name: "Магмовый монстр"
+    health: 20
+    # If monster is extinguished it will receive damage
+    extinguished-damage: false
     # Placing fire. Every ENTITY tick
     fire-chance: 7.14
     # Placing magma-blocks. Every ENTITY tick
     magma-chance: 3.57
 
+  # Smoke Demon
+  # Creates a smoke and gives wither effect
   smoke-demon:
     priority: 20
     name: ""
+    health: 20
     # Radius in blocks
     harm-radius: 3
 
+  # TNT Creeper
+  # Spawns additional TNT when explodes and creates small explosion when damaged
   tnt-creeper:
     priority: 15
     name: "Крипер с динамитом"
+    health: 20
     # Amount of TNT to spawn after explosion
     tnt-amount: 2
     # When TNT Creeper is damaged
     explosion-chance: 33.33
 
+  # Watcher
+  # Just jumpscares a player
   watcher:
-    priority: 2
+    priority: 4
     name: "ዜάচለਠ∂ǻ⍡℮Ꮑ৮"
     health: 40
     # Get your custom head here https://minecraft-heads.com/
     # Just copy a "Value" (with =)
     head-value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDI5MzhmMjQxZDc0NDMzZjcyZjVjMzljYjgzYThlNWZmN2UxNzdiYTdjYjQyODY5ZGI2NGUzMDc5MTAyYmZjNSJ9fX0="
 
+  # Mimic
+  # Becomes a chest when it has no target
   mimic:
-    priority: 4
+    priority: 0
     name: "ℳนᶆӥᶄ"
+    health: 35
+    # List of dropped materials after death
     drop-items:
       - BOOK
       - SADDLE
       - OAK_PLANKS
       - TORCH
       - COAL
-      - GOLDEN_APPLE
       - COBWEB
+
+  # Cave Golem
+  # Has strong attack, can be damaged only with pickaxe, drops its head on death
+  cave-golem:
+    priority: 1
+    health: 40
+    name: "Пещерный голем"
+    # Give Cave Golem slowness effect
+    slowness: true
+    # When Cave Golem is attacking give its victim slowness, nausea and blindness effects
+    distract-attack: true
+    # Damage multiplier when Cave Golem is attacking
+    damage-modifier: 2.0
+    # Damage multiplier when player is attacking Cave Golem without pickaxe
+    nonpickaxe-modifier: 0.07
+    # These blocks will be on Cave Golem's head and will be dropped after death
+    variants:
+      - COAL_ORE
+      - IRON_ORE
+      - GOLD_ORE
+      - LAPIS_ORE

@@ -1,0 +1,157 @@
+# General Messages
+
+general:
+  nametag:
+    prefix: '&8[&6UltimateClaims&8]'
+  word:
+    none: none
+  claim:
+    defaultname: il claim di %name%
+    powercell:
+      low: '&cPotenza troppo bassa!'
+      message: ' &7Rimangono &6%time%.'
+    dissolve: '&7Il tuo claim &6%claim% &7è stato dissolto.'
+    returnfunds: '&a%amount% ti sono stati rimborsati.'
+  notanumber: '&4%value% &cnon è un numero'
+  notenoughfunds: '&cNon hai fondi a sufficenza.'
+  powercellrecipe: '&6Ricetta per una powercell'
+  interface:
+    exit: '&cEsci'
+    back: '&cIndietro'
+    next: '&cPagina successiva'
+    previous: '&cPagina precedente'
+    current: '&7al momento: &6%current%&7.'
+# Command Messages
+command:
+  general:
+    notapartclaim: '&cnon fai parte di questo claim o non esiste.'
+    noclaim: '&cdevi essere in un claim per farlo.'
+    noplayer: '&cil giocatore non esiste o non è online.'
+    notinclaim: '&cQuel giocatore non è nel tuo claim.'
+    claimed: '&cQuesto chunk è gia stato claimato.'
+    notclaimed: '&cQuesto chunk non è claimato.'
+    notyourclaim: '&cQuesto chunk è stato claimato da qualcun altro.'
+  invite:
+    invited: '&7Seo stato invitato a entrare in &6%claim%&7. Usa &6/c accept &7per accettare l''invito.'
+    invite: '&7Hai invitato &6%name% &7a entrare nel tuo claim&7.'
+    notself: '&cNon ti puoi auto-invitare.'
+    already: '&cQuesto giocatore è gia un membro.'
+    alreadyinvited: '&cquesto giocatore ha un invito attivo.'
+  addmember:
+    added: '&7Sei stato aggiunto a &6%claim%&7.'
+    add: '&7Hai aggiunto &6%name% &7al tuo claim&7.'
+  kick:
+    kicked: '&cSei stato cacciato dal claim &4%claim%&c.'
+    kick: '&7Hai cacciato &6%name% &7dal claim &6%claim%&7.'
+    notself: '&7non puoi cacciare te stesso.'
+  uan:
+    notself: '&7Non puoi bannare te stesso.'
+  ban:
+    banned: '&cSei stato bannato dal claim &4%claim%&c.'
+    ban: '&7Hai bannato &6%name% &7dal claim &6%claim%&7.'
+  unban:
+    unbanned: '&csei stato unbannato dal claim &4%claim%&c.'
+    unban: '&7Hai unbannato &6%name% &7dal claim &6%claim%&7.'
+    notself: '&7non puoi unbannare te stesso.'
+  accept:
+    none: '&cnon hai alcun invito da accettare.'
+    success: '&7sei ora un membro del claim %claim%&7.'
+    accepted: '&6%name% &7ha accettato il tuo invito.'
+    maxed: '&7Questo claim ha già raggiunto la capienza massima.'
+  claim:
+    success: '&7Hai claimato questo chunk per il tuo claim.'
+    nocell: '&cDevi creare una powercell se vuoi claimare altri chunk...'
+    noregion: '&cNon puoi claimare un luogo protetto!'
+    info: '&cHai &4%time% &cper creare una powercell prima che il tuo claim si dissolva... Per crearne una ti serve la ricetta che trovi a &6/c recipe&7. Piazzala al centro di una chest nel tuo claim.'
+    nottouching: '&cPuoi solo claimare chunk che si toccano.'
+    toomany: '&cPuoi solo claimare &4%amount% &cchunks.'
+    disabledworld: '&cNon puoi farlo in questo mondo.'
+  unclaim:
+    success: '&7Hai unclaimato questo chunk.'
+    powercell: '&cnon puoi unclaimare il chunk che ha al suo interno una powercell. prima spostala.'
+  removeclaim:
+    success: '&7Hai rimosso il claim %claim%.'
+  leave:
+    youleft: '&7Hai abbandonato &6%claim%&7.'
+    left: '&6%player% &7Ha abbandonato &6%claim%&7.'
+    owner: '&cNon puoi abbandonare il tuo claim.'
+  lock:
+    locked: '&7Hai bloccato il tuo claim.'
+    unlocked: '&7Hai sbloccato il tuo claim.'
+  sethome:
+    set: '&7Hai posizionato una casa per il tuo claim.'
+  name:
+    set: '&7Il nome del tuo claim è ora %name%'
+  home:
+    none: '&cquesto claim non ha una casa posizionata...'
+    success: '&7Ti sei teletrasportato alla casa del tuo claim'
+  show:
+    start: '&7visualizzatore di Claim &2attivato.'
+    stop: '&7visualizzatore di Claim &cdisattivato.'
+# Interface Messages
+interface:
+  powercell:
+    economytitle: '&7Economia immagazzinata: &6%time%&7.'
+    economylore: '&7Clicca per depositare fondi.'
+    valuablestitle: '&7Oggetti immagazzinati: &6%time%&7.'
+    totaltitle: '&7Potenza totale: &6%time%&7.'
+    addfunds: '&7Inserisci una quantità da depositare.'
+    infotitle: '&5&lInfo'
+    infolore: '&7Hai &6%chunks% &7claimati|&7chunks e &6%members% &7members.'
+    banstitle: '&c&lBans'
+    banslore: '&7Visualizza i ban del tuo claim.'
+    memberstitle: '&9&lMembri'
+    memberslore: '&7Visualizza i membri dei tuoi claim.'
+    settingstitle: '&6&lImpostazioni'
+    settingslore: '&7Cambia le impostazioni dei tuoi claim.'
+  members:
+    title: Membri
+    statslore: '&7Membri Totali: &6%totalmembers%&7.|&7Membri massimi: &6%maxmembers%&7.|&7Membri: &6%members%&7.'
+    skulllore: '&7Ruolo: %role%|&7Tempo di gioco: &b%playtime%|&7Membro dal: &d%membersince%'
+    changetypetitle: '&7Cambia tipo'
+    changetypelore: '&7Attualmente: &d%current%|&7Clicca per cambiare tipo.'
+    statstitle: '&7Statistiche'
+    changesorttitle: '&7Cambia ordine'
+    changesortlore: '&7Attualmente: &d%current%|&7Clicca per cambiare ordine.'
+    visitorsettingstitle: '&9&lImpostazioni per visitatori'
+    visitorsettingslore: '&7Modifica le impostazioni per visitatori.'
+    membersettingstitle: '&5&lImpostazioni dei membri'
+    membersettingslore: '&7Cambia le impostazioni per i membri.'
+  permsettings:
+    title: Impostazioni di %role%
+    breaktitle: '&7rompi Blocco'
+    placetitle: '&7piazza Blocco'
+    interacttitle: '&7Interagisci'
+    mobkilltitle: '&Uccisione di mob'
+    redstonetitle: '&7Redstone'
+    doorstitle: '&7Porte'
+    tradingtitle: '&7Trading'
+  bans:
+    title: Bans
+    infotitle: '&7Info'
+    skulllore: '&7Clicca per sbannare.'
+    infolore: '&7Conto dei ban: &6%bancount%&7.'
+  settings:
+    title: Settings
+    hostilemobspawningtitle: '&6&lSpawning di mob ostili'
+    firespreadtitle: '&6&ldiffusione del fuoco'
+    pvptitle: '&6&lPVP'
+    mobgriefingtitle: '&6&lMob Griefing'
+    leafdecaytitle: '&6&lLe foglie cadono'
+  recipe:
+    title: Ricetta della powerc
+# Event Messages
+event:
+  general:
+    nopermission: '&cNon hai il permesso di farlo.'
+  invite:
+    expired: '&cIl tuo invito è scaduto...'
+  claim:
+    enter: '&7sei entrato nel claim &6%claim%&7.'
+    exit: '&7Sei uscito dal claim &6%claim%&7.'
+    locked: '&cUna forza magica non ti fa entrare...'
+  powercell:
+    success: '&7Hai creato una powercell. Riempila con del carburante per tenere il tuo claim claimato.'
+    failopen: '&cDevi essere il proprietario di questo claim per aprire la sua powercell.'
+    lowpower: '&cIl tuo claim &4%claim% &cha finito il suo potere!'
+    superpower: '&cIl tuo claim &4%claim% &cè ancora senza power e rischia di dissolversi!'

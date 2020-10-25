@@ -1,4 +1,4 @@
-# тест Основные сообщения
+# Основные сообщения
 
 general:
   nametag:
@@ -78,8 +78,6 @@ event:
     leave: '&7Вы вышли из канала %channel%&7.'
     nochannels: '&cВы не находитесь ни в каких каналах.'
     format: '&8(%channel%) &f&l%player% &f&l➛&7&o %message%'
-    allleave: '&6%player% &7покинул канал.'
-    alljoin: '&6%player% &7присоединился к каналу.'
   slowmode:
     wait: '&7До следующего сообщения: &6%delay% &7секунд.'
     done: '&7Временная задержка закончилась.'
@@ -186,7 +184,8 @@ gui:
     title: '&8%tonotes% > Заметки'
     create: '&6Создать заметку'
     remove: '&cНажми, чтобы удалить.'
-    type: Напиши свою заметку.
+    type: 
+Напиши свою заметку.
     createdon: '&7Создано для: &6%sent%&7.'
     createdby: '&7Создано(кем): &6%player%&7.'
   tickets:

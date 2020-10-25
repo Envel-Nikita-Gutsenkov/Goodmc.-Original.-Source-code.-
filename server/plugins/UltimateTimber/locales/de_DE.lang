@@ -1,0 +1,74 @@
+# General Messages
+
+general:
+  nametag:
+    prefix: '&7[&6EpicLevels&7]'
+  word:
+    enabled: Aktiviert
+    disabled: Deaktiviert
+event:
+  general:
+    nopermission: '&cDu hast keine Rechte diesen Befehl zu nutzen.'
+  mob:
+    killed: '&7Du hast ein &6%type% &7besiegt und &6%exp% Erfahrung&7 erhalten.'
+  player:
+    killed: '&7Du hast &6%name% &7besiegt und &6%exp% Erfahrung&7 erhalten.'
+    death:
+      broadcast: '&6%killed% &7wurde von &6%killer%&7 besiegt.'
+      message: '&7Du wurdest von &6%name% &7besiegt und hast &6%exp% Erfahrung&7 verloren.'
+  pvp:
+    deny: '&cDu kannst diesen Spieler nicht angreifen, da dein PVP Level unter dem Minimum liegt.'
+    denythem: '&cDu kannst diesen Spieler nicht angreifen, da sein PVP Level unter dem Minimum liegt.'
+  levelup:
+    announcement: '&6%player% &7ist zu Level &6%level%&7 aufgestiegen.'
+  antigrinder:
+    trigger: '&7Du hast &6%killed% &7in letzer Zeit zu oft besiegt und hast deshalb keine Erfahrung erhalten. Bitte warte etwas, bevor du diesen Spieler erneut besiegst.'
+  boost:
+    globalannounce: '&6%player% &7hat einen Booster (&6%multiplier%x&7) für alle für &6%duration%&7 aktiviert.'
+    globalsuccess: '&7Du hast einen globalen Booster mit einem Faktor von &6%multiplier% &7und einer Dauer von &6%duration%&7 erstellt.'
+    globalexpire: '&7Der globale Booster ist abgelaufen.'
+    announce: '&6%player% &7hat einen Booster (&6%multiplier%x&7) für dich für &6%duration%&7 aktiviert.'
+    success: '&7Du hast einen Booster für &6%player% &7mit einem Multiplikator von &6%multiplier% &7und einer Dauer von &6%duration%&7 erstellt.'
+    expire: '&7Dein Booster ist abgelaufen.'
+  killstreak:
+    broke: '&cDu hast &6%killed%s &7Killstreak von &6%streak%&7 beendet!'
+    broken: '&cDeine Killstreak endetete bei &4%streak%&c...'
+    brokenannounce: '&6%player% &7hat gerade &6%killed%s &7Killstreak von &6%streak%&7 beendet!'
+command:
+  removeexp:
+    success: '&7Du hast &6%amount% &7Erfahrung von &6%player% &7entfernt.'
+  addexp:
+    success: '&7Du hast &6%player% %amount% &7Erfahrung gegeben.'
+  general:
+    notonline: '&cDer Spieler mit dem Namen &4%name% &ckonnte nicht gefunden werden.'
+    notint: '&6%number%&7 ist keine Zahl.'
+  reset:
+    success: '&7Du hast &6%player% &7erfolgreich zurückgesetzt.'
+gui:
+  levels:
+    title: Zeige die %type%
+    toplevels: '&e&lHöchsten Level'
+    topmobs: '&a&lMeisten Monster Töter'
+    topplayers: '&c&lMeisten Spieler Mörder'
+    topkillstreaks: '&b&lGrößten Killstreaks'
+    search: '&6&lSuche'
+    sortingby: '&7Sortiert nach: &6%type%&7.'
+    you: '&8Klicke, um dich anzuzeigen.'
+    selected: '&6Ausgewählt'
+    name: '&e%position% &6&l%name%'
+    level: '&7Level %level%'
+    exp: '&7EXP: &6%exp%&7/&6%expnext%'
+    stats: '&6&lStatistiken'
+    totalkills: '&7Gesamte Kills: &6%kills%'
+    playerkills: '&7Spieler Kills: &6%kills%'
+    mobkills: '&7Monster Kills: &6%kills%'
+    deaths: '&7Tode: &6%deaths%'
+    kdr: '&7KDR: &6%kdr%'
+    killstreak: '&7Killstreak: &6%killstreak%'
+    bestkillstreak: '&7Höchster Killstreak: &6%killstreak%'
+    nametosearch: '&7Gebe einen Namen ein, um nach ihm zu suchen...'
+    noresults: Keine Ergebnisse gefunden...
+    levelstype: Level
+    mobkillstype: Monster Kills
+    playerkillstype: Spieler Kills
+    killstreakstype: Killstreaks

@@ -1,0 +1,169 @@
+######################################################
+# New messages added for UltimateClaims v1.2.7.      #
+#                                                    #
+# These translations were found untranslated, join   #
+# our translation Discord https://discord.gg/f7fpZEf #
+# to request an official update!                     #
+#                                                    #
+# general.word.none                                  #
+# command.claim.disabledworld                        #
+# command.removeclaim.success                        #
+# interface.permsettings.tradingtitle                #
+######################################################
+
+# General Messages
+general:
+  nametag:
+    prefix: '&8[&7Ultimate&cClaims&8]'
+  claim:
+    defaultname: '%name% Adlı claim.'
+    powercell:
+      low: '&cDüşük Güç!'
+      message: '&6%time% &7Kadar süren kaldı.'
+    dissolve: '&6%claim% &7Adlı claimin silindi.'
+    returnfunds: '&a%amount% kadar sana geri verildi.'
+  notanumber: '&cGirdiğiniz &4%value% &c değer bir sayı değil.'
+  notenoughfunds: '&cYeteri kadar paran yok.'
+  powercellrecipe: '&6Güç Hücresi Tarifi'
+  interface:
+    exit: '&cÇıkış'
+    back: '&cGeri'
+    next: '&cSonraki Sayfa'
+    previous: '&cÖnceki Sayfa'
+    current: '&7Şimdiki: &6%current%&7.'
+  word:
+    none: Yok
+# Command Messages
+command:
+  general:
+    notapartclaim: '&cBu claimin bir ğarçası değilsin ya da yok.'
+    noclaim: '&cBunu yapabilmek için bir claimde bulunmanız gerekmektedir.'
+    noplayer: '&cBöyle bir oyuncu bulunamadı veya aktif değil.'
+    notinclaim: '&cBu oyuncu claiminizde değil.'
+    claimed: '&cBu alan zaten claimlenmiş.'
+    notclaimed: '&cBu alan claimlenmemiş.'
+    notyourclaim: '&cBu alan başka bir kişi tarafından claimlenmiş.'
+  invite:
+    invited: '&6%claim%&7 Claimine katılmaya davet edildiniz. &6/c accept &7yazarak daveti kabul edebilirsiniz.'
+    invite: '&6%name% &7Adlı oyuncuyu claimine davet ettin&7.'
+    notself: '&cKendini davet edemezsin.'
+    already: '&cBu oyuncu zaten claiminde.'
+    alreadyinvited: '&cBu oyuncuya zaten bir davet göndermişsin.'
+  addmember:
+    added: '&6%claim%&7 Adlı claime eklendiniz.'
+    add: '&6%name% &7Adlı oyuncuyu &6%claim%&7 claimine ekledin&7.'
+  kick:
+    kicked: '&4%claim%&c Adlı claimden atıldın.'
+    kick: '&6%name% &7Adlı oyuncuyu &6%claim%&7 claiminden attın.'
+    notself: '&7Kendini atamazsın.'
+  uan:
+    notself: '&7Kendini yasaklayamazsın.'
+  ban:
+    banned: '&4%claim%&c Adlı claimden yasaklandın.'
+    ban: '&6%name% &7Adlı oyuncuyu &6%claim%&7 claiminden yasakladın.'
+  unban:
+    notself: '&7Kendi yasağını kaldıramazsın.'
+    unbanned: '&&4%claim%&c Adlı claimdeki yasağın kalktı.'
+    unban: '&6%name% &7adlı oyuncunun &6%claim%&7 claimindeki yasağını kaldırdın.'
+  accept:
+    none: '&cŞuan kabul edecek bir davetiniz bulunamadı.'
+    success: '%claim%&7 Claiminin bir üyesisin.'
+    accepted: '&6%name% &7Senin davetini kabul etti.'
+    maxed: '&7Claimine ekleyebileceğin üye sınırına ulaştın.'
+  claim:
+    success: '&7Başarılı bir şekilde claim attın.'
+    nocell: '&cBuraya claim atabilmek için güç bataryası gerekiyor...'
+    noregion: '&cBaşkasının claimini, claimleyemezsin!'
+    info: '&4%time% &csaniye içinde güç bataryası yapmazsan claimin silinecektir... Güç bataryasının yapımını görebilmek için &6/c recipe&7 yazabilirsin. Yapımda gösterilen eşyaları gösterildiği gibi sandığa koymanız gerekmektedir.'
+    nottouching: '&cSadece birbirine bağlantılı yerleri claimleyebilirsiniz.'
+    toomany: '&cSadece &4%amount% &ckadar  yer claimleyebilirsin.'
+    disabledworld: '&cBu dünyada claim yapamazsın.'
+  unclaim:
+    success: '&7Başarılı bir şekilde claimi kaldırdın.'
+    powercell: '&cBatarya''yı kaldırmadan claimini kaldıramazsın... Önce kaldırmayı dene.'
+  leave:
+    youleft: '&7Şu claimden ayrıldın &6%claim%&7.'
+    left: '&6%player% &7adlı oyuncu &6%claim% &7claimden ayrıldı.'
+    owner: '&cKendi claiminden ayrılamazsın.'
+  lock:
+    locked: '&7Claimini kilitledin artık diğer oyuncular giremez.'
+    unlocked: '&7Claiminin kilidini kaldırdın artık  diğer oyuncular girebilir.'
+  sethome:
+    set: '&7Claim için evini kaydettin.'
+  name:
+    set: '&7Claiminin adını değiştirdin yeni adı: %name%'
+  home:
+    none: '&cBöyle bir claim evin bulunamadı...'
+    success: '&7Evine ışınlandın.'
+  show:
+    start: '&7Claim gösterici &2açık.'
+    stop: '&7Claim gösterici &ckapalı.'
+  removeclaim:
+    success: '&6%claim% &7claimi sildin'
+# Interface Messages
+interface:
+  powercell:
+    economytitle: '&7Ekonomi deposu: &6%time%&7.'
+    economylore: '&7Para yatırmak için tıklayın.'
+    valuablestitle: '&7Eşya deposu: &6%time%&7.'
+    totaltitle: '&7Toplam güç: &6%time%&7.'
+    addfunds: '&7Yatırılacak tutarı girin.'
+    infotitle: '&5&lBilgi'
+    infolore: '&7Senin toplam &6%chunks% &7claimli alanın var|&7Claiminde &6%members% &7üye bulunuyor.'
+    banstitle: '&c&lYasaklamalar'
+    banslore: '&7Yasakladığın oyuncuları görebilirsin.'
+    memberstitle: '&9&lÜyeler'
+    memberslore: '&7Claimine eklediğin üyeleri görebilirsin.'
+    settingstitle: '&6&lAyarlar'
+    settingslore: '&7Claim ayarlarını değiştirebilirsin.'
+  members:
+    title: Üyeler
+    statslore: '&7Toplam Üye: &6%totalmembers%&7.|&7Maksimum Üye: &6%maxmembers%&7.|&7Üyeler: &6%members%&7.'
+    skulllore: '&7Rol: &a%role%|&7Oynama Süresi: &b%playtime%|&7Üyelik Tarihi: &d%membersince%'
+    changetypetitle: '&7Türü Değiştir'
+    changetypelore: '&7Şuanki: &d%current%|&7Türü değiştirmek için tıkla.'
+    statstitle: '&7Istatistikler'
+    changesorttitle: '&7Sıralamayı Değiştir'
+    changesortlore: '&7Şuanki: &d%current%|&7Sıralamayı değiştirmek için tıkla.'
+    visitorsettingstitle: '&9&lZiyaretçi Ayarları'
+    visitorsettingslore: '&7Ziyaretçi ayarlarını değiştirmek için tıkla.'
+    membersettingstitle: '&5&lÜye Ayarları'
+    membersettingslore: '&7Üye ayarlarını değiştirmek için tıkla.'
+  permsettings:
+    title: '%role% Ayarları'
+    breaktitle: '&7Blok Kırma'
+    placetitle: '&7Blok Koyma'
+    interacttitle: '&7Etkileşim'
+    mobkilltitle: '&7Mob Öldürme'
+    redstonetitle: '&7Redstone'
+    doorstitle: '&7Kapılar'
+    tradingtitle: '&7Takas'
+  bans:
+    title: Yasaklar
+    infotitle: '&7Bilgi'
+    skulllore: '&7Yasak kaldırmak için tıkla.'
+    infolore: '&7Yasaklamalar: &6%bancount%&7.'
+  settings:
+    title: Ayarlar
+    hostilemobspawningtitle: '&6&lZararlı Mob Doğması'
+    firespreadtitle: '&6&lAteş Yayılması'
+    pvptitle: '&6&lPVP'
+    mobgriefingtitle: '&6&lMobların Zarar Vermesi'
+    leafdecaytitle: '&6&lYaprakların Çürümesi'
+  recipe:
+    title: Güç Bataryası Yapımı
+# Event Messages
+event:
+  general:
+    nopermission: '&cBunu yapabilmek için yetkiniz bulunmamaktadır.'
+  invite:
+    expired: '&cDavetiyenizin süresi doldu...'
+  claim:
+    enter: '&6%claim%&7 Adlı claime girdin.'
+    exit: '&6%claim%&7 Adlı claimden çıktın.'
+    locked: '&cBüyülü bir güç girmeni engelledi...'
+  powercell:
+    success: '&7Güç bataryası oluşturuldu. Claimini kaybetmemek için güç bataryanı dolu tut.'
+    failopen: '&cGüç bataryasını sadece claim sahibi açabilir.'
+    lowpower: '&4%claim% &cadlı claiminin güç bataryası bitti!'
+    superpower: '&4%claim% &cadlı claiminin bataryası bitmek üzere dikkat et!'

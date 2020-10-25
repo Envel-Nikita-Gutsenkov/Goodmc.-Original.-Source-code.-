@@ -1,0 +1,74 @@
+# General Messages
+
+general:
+  nametag:
+    prefix: '&7[&6EpicLevels&7]'
+  word:
+    enabled: Aktif
+    disabled: Devredışı
+event:
+  general:
+    nopermission: '&cBu komutu kullanmak için yetkin yok.'
+  mob:
+    killed: '&6%type% &7öldürerek &6%exp% deneyim puanı kazandın.'
+  player:
+    killed: '&6%name% &7isimli oyuncuyu &6%hearts% &7canla öldürdün. &6%exp% &7deneyim puanı kazandın.'
+    death:
+      broadcast: '&c%killed%, &a%killer &7tarafından &6%hearts% &7canla öldürüldü.'
+      message: '&6%name% &7seni &6%hearts% &7canla öldürdü. &6%exp% &7deneyim puanı kazandı.'
+  pvp:
+    deny: '&cBu oyuncuya saldıramazsın çünkü minimum savaş seviyesinin altındasın.'
+    denythem: '&cBu oyuncuya saldıramazsın çünkü minimum savaş seviyesinin altında.'
+  levelup:
+    announcement: '&6%player% » &6%level% &7seviyesine yükseldi.'
+  antigrinder:
+    trigger: '&6%killed% &7isimli oyuncuyu çok fazla öldürdüğün için sana deneyim puanı vermeyecek. Bu oyuncuya saldırmadan önce biraz bekle.'
+  boost:
+    globalannounce: '&6%player% &7global güçlendirme aktif (&6%multiplier%x&7). Her kesin &6%duration% &7zamanı kaldı.'
+    globalsuccess: '&7Global güçlendirmeyi aktifleştirdin. Güç: &6%multiplier%x &7Süre: &6%duration%'
+    globalexpire: '&7Global güçlendirmenin süresi doldu.'
+    announce: '&6%player% &7güçlendirmeyi aktifleşdirdin (&6%multiplier%x&7). Kalan zaman &6%duration%&7.'
+    success: '&&6%player% &7için güçlendirmeyi aktifleşdirdin. Güç: &6%multiplier% &7Süre: &6%duration%&'
+    expire: '&7Güçlendirmenin süresi bitdi.'
+  killstreak:
+    broke: '&6%killed% &7isimli oyuncunun kombosunu bitirdin. Yaptığı kombo: &6%streak%'
+    broken: '&cKombon bitdi. Yaptığın kombo: &6%streak%'
+    brokenannounce: '&a%player% &c%killed% &7isimli oyuncunun kombosunu bitirdi. Yaptığı kombo: &6%streak%'
+command:
+  removeexp:
+    success: '&6%player% &7isimli oyuncudan &6%amount% &7deneyim puanı silindi.'
+  addexp:
+    success: '6%player% &7isimli oyuncuya &6%amount% &7deneyim puanı verildi.'
+  general:
+    notonline: '&6%name% &cisimli oyuncu bulunamadı.'
+    notint: '&6%number% &7bir sayı değil.'
+  reset:
+    success: '&6%player% &7isimli oyuncunun tüm istatisikleri silindi.'
+gui:
+  levels:
+    title: %type% gösteriliyor
+    toplevels: '&e&lEn iyi seviyeler'
+    topmobs: '&a&lEn çok canavar öldürenler'
+    topplayers: '&c&lEn çok oyuncu öldürenler'
+    topkillstreaks: '&b&lEn fazla kombo yapanlar'
+    search: '&6&lArama'
+    sortingby: '&7Sıralama türü: &6%type%&7.'
+    you: '&8Kendini görmek için tıkla.'
+    selected: '&6Seçildi'
+    name: '&e%position% &6&l%name%'
+    level: '&7Seviye %level%'
+    exp: '&7Deneyim: &6%exp%&7/&6%expnext%'
+    stats: '&6&lİstatistikler'
+    totalkills: '&7Toplam öldürmesi: &6%kills%'
+    playerkills: '&7Oyuncu öldürme: &6%kills%'
+    mobkills: '&7Canavar öldürme: &6%kills%'
+    deaths: '&7Ölümler: &6%deaths%'
+    kdr: '&7KDR: &6%kdr%'
+    killstreak: '&7Kombo: &6%killstreak%'
+    bestkillstreak: '&7En iyi kombolar: &6%killstreak%'
+    nametosearch: '&7Aramak için isim yaz...'
+    noresults: Sonuç bulunamadı...
+    levelstype: En çok seviye olanlar
+    mobkillstype: En çok canavar öldürenler
+    playerkillstype: En çok Oyuncu öldürenler
+    killstreakstype: En fazla Kombo Yapanlar

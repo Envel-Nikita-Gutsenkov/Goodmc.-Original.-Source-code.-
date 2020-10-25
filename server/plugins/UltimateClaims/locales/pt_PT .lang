@@ -1,0 +1,152 @@
+# General Messages
+general:
+  nametag:
+    prefix: '&8[&6UltimateClaims&8]'
+  word:
+    none: Nenhum
+  claim:
+    defaultname: Claim De %name%
+    powercell: '&6%time% &7Restante.'
+    low: '&cPoder Baixo!'
+    dissolve: '&7O Seu Claim &6%claim% &7Foi Dissolvido!'
+    returnfunds: '&a%amount% Foi Retornado Para Voce!'
+  notanumber: '&cA Entrada &4%value% &cNao É Um Numero!'
+  notenoughfunds: '&cVoce Nao Tem Fundos Suficientes!'
+  powercellrecipe: '&6Recipe De PowerCell!'
+  interface:
+    exit: '&cSair'
+    back: '&cVoltar'
+    next: '&cProxima Pagina'
+    previous: '&cPagina Anterior'
+    current: '&7Atualmente: &6%current%&7.'
+# Command Messages
+command:
+  general:
+    notapartclaim: '&cVoce Nao É Desse Claim Ou Nao Existe!'
+    noclaim: '&cVoce Precisa De Estar Num Claim Para Fazer Isso!'
+    noplayer: '&cEsse Player Nao Existe Ou Nao Esta Online!'
+    notinclaim: '&cEsse Player Nao Esta No Seu Claim!'
+    claimed: '&cEste Chunk Ja Esta Claimado!'
+    notclaimed: '&cEsta Chunk Nao Esta Claimada!'
+    notyourclaim: '&cEste Claim Esta Claimado Por Outra Pessoa!'
+  invite:
+    invited: '&7Voce Foi Convidado A Entrar Em &6%claim%&7. Use: &6/c accept &7Para Aceitar O Convite!'
+    invite: '&7Voce Convidou &6%name% &7Para Entrar No Seu Claim&7.'
+    notself: '&cVoce Nao Pode Convidar Voce Mesmo!'
+    already: '&cEsse Player Ja É Um Membro!.'
+    alreadyinvited: '&cEste Player Ja Tem Um Convite Enviado!'
+  addmember:
+    added: '&7Voce Foi Adicionado Ao Claim &6%claim%&7.'
+    add: '&7Voce Adicionou &6%name% &7Para Seu Claim!&7.'
+  kick:
+    kicked: '&cVoce Foi Expulso Do Claim &4%claim%&c.'
+    kick: '&7Voce Kickou &6%name% &7De &6%claim%&7.'
+    notself: '&7Voce Nao Pode Kickar Voce Mesmo!'
+  uan:
+    notself: '&7Voce Nao Pode Banir Voce Mesmo!'
+  ban:
+    banned: '&cVoce Foi Banido Do Claim &4%claim%&c.'
+    ban: '&7Voce Baniu &6%name% &7De &6%claim%&7.'
+  unban:
+    unbanned: '&cVoce Foi Desbanido De &4%claim%&c.'
+    unban: '&7Voce Desbaniu &6%name% &7De &6%claim%&7.'
+    notself: '&7Voce Nao Pode Desbanir Voce Mesmo!'
+  accept:
+    none: '&cVoce Nao Tem Nenhum Convite Para Aceitar'
+    success: '&7Voce Agora É Um Membro De %claim%&7.'
+    accepted: '&6%name% &7Aceitou O Seu Convite!'
+    maxed: '&7Este Claim Esta Na Sua Maxima Capacidade'
+  claim:
+    success: '&7Voce Claimou Este Chunk Para Seu Claim!'
+    nocell: '&cVoce Precisa Criar Uma PowerCell Antes De Poder Claimar Mais Chunks!'
+    noregion: '&cVoce Nao Pode Claimar Uma Zona Protegida!'
+    info: '&cVoce Tem &4%time% &cPara Criar Uma PowerCell Antes De Seu Claim Ser Dissolvido!Para Criar Um Voce Necessita De Construir O Recipe Encontrado No: &6/c recipe&7. Forme No Centro Num Bau No Seu Claim.'
+    nottouching: '&cVoce So Pode Claimar Chunks Que Estao Coladas Uma A Outra!'
+    toomany: '&cVoce So Pode Climar &4%amount% &cChunks!'
+    disabledworld: '&cVoce Nao Pode Fazer Isso Neste Mundo!'
+  unclaim:
+    success: '&7Voce Desclaimou Esta Chunk!'
+    powercell: '&cVoce Nao Pode Desclaimar Esta Chunk Pois Ela Tem Seu PowerCell! Mova Ele Primeiro!'
+  leave:
+    youleft: '&7Voce Saiu De &6%claim%&7.'
+    left: '&6%player% &7Saiu De &6%claim%&7.'
+    owner: '&cVoce Nao Pode Sair Do Seu Proprio Claim!.'
+  lock:
+    locked: '&7Voce Bloqueou Seu Clan!'
+    unlocked: '&7Voce Desbloqueou Seu Clan!'
+  sethome:
+    set: '&7Voce Setou A Home Do Seu Claim!'
+  name:
+    set: '&7O Nome Do Seu Claim Foi Mudado Para %name%'
+  home:
+    none: '&cEsse Claim Nao Tem Uma Home!'
+    success: '&7Voce Teleportou Para A Home Do Seu Claim!'
+  show:
+    start: '&7Visualizador De Claims: &2enabled.'
+    stop: '&7Visualizador De Claims: &cdisabled.'
+# Interface Messages
+interface:
+  powercell:
+    economytitle: '&7Economia Armazenada: &6%time%&7.'
+    economylore: '&7Clique Para Depositar Fundos!'
+    valuablestitle: '&7Itens Armazenados: &6%time%&7.'
+    totaltitle: '&7Energia Total: &6%time%&7.'
+    addfunds: '&7Digite Uma Quantidade A Depositar!'
+    infotitle: '&5&lInformacao'
+    infolore: '&7Voce Tem &6%chunks% &7Claimadas|&7chunks e &6%members% &7Membros.'
+    banstitle: '&c&lBans'
+    banslore: '&7Ver Os Bans Do Seu Claim!'
+    memberstitle: '&9&lMembros'
+    memberslore: '&7Ver Os Membros Do Seu Claim'
+    settingstitle: '&6&lDefenicoes'
+    settingslore: '&7Alterar As Defenicoes Do Claim.'
+  members:
+    title: Membros
+    statslore: '&7Membros Total: &6%totalmembers%&7.|&7Numero Maximo: &6%maxmembers%&7.|&7Membros: &6%members%&7.'
+    skulllore: '&7Cargo: &a%role%|&7Horas De Jogo: &b%playtime%|&7Membro Desde: &d%membersince%'
+    changetypetitle: '&7Tipo De Mudanca'
+    changetypelore: '&7Atualmente: &d%current%|&7Clique Paar.'
+    statstitle: '&7Estatisticas'
+    changesorttitle: '&7Alterar Ordenacao'
+    changesortlore: '&7Atualmente: &d%current%|&7Clique Para Alterar A Ordenacao!'
+    visitorsettingstitle: '&9&lDefinicoes De Visitantes'
+    visitorsettingslore: '&7Editar Defenicoes De Visitantes'
+    membersettingstitle: '&5&lDefenicoes De Membros'
+    membersettingslore: '&7Editar Defenicoes De Membros'
+  permsettings:
+    title: Defenicoes De %role%
+    breaktitle: '&7Quebramento De Blocos'
+    placetitle: '&7Colocamento De Blocos'
+    interacttitle: '&7Interagir'
+    mobkilltitle: '&7Matamento De Mobs'
+    redstonetitle: '&7Redstone'
+    doorstitle: '&7Portas'
+  bans:
+    title: Bans
+    infotitle: '&7Informacao'
+    skulllore: '&7Clique Para Desbanir'
+    infolore: '&7Contador De Bans: &6%bancount%&7.'
+  settings:
+    title: Defenicoes
+    hostilemobspawningtitle: '&6&lSpawn De  Mobs Hosteis'
+    firespreadtitle: '&6&lEspalhamento Do Fogo'
+    pvptitle: '&6&lPvP'
+    mobgriefingtitle: '&6&lGrief Dos Mobs'
+    leafdecaytitle: '&6&lCaimento Das Folhas'
+  recipe:
+    title: Recipe De PowerCell!
+# Event Messages
+event:
+  general:
+    nopermission: '&cVoce Nao Tem Permissao Para Fazer Isso!'
+  invite:
+    expired: '&cO Seu Convite Expirou!'
+  claim:
+    enter: '&7VOce Entrou No &6%claim%&7.'
+    exit: '&7Voce Saiu De &6%claim%&7.'
+    locked: '&cUma Fonte Magica Prevente Voce De Entrar!'
+  powercell:
+    success: '&7Voce Criou Uma PowerCell. Preencha Ela Com Combustivel Para Continuar Com Seu Claim Claimado!'
+    failopen: '&cVoce Precisa De Ser O Dono Deste Claim Para Abrir A PowerCell Dele!'
+    lowpower: '&cO Seu Claim &4%claim% &cEsta Sem Energia!'
+    superpower: '&cSeu Claim &4%claim% &cAinda Esta Sem Energia E Com Risco De Devolussao'

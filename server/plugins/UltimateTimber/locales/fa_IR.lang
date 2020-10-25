@@ -1,0 +1,74 @@
+# General Messages
+
+general:
+  nametag:
+    prefix: '&7[&6EpicLevels&7]'
+  word:
+    enabled: Enabled
+    disabled: Disabled
+event:
+  general:
+    nopermission: '&cShoma permission kafi baraye anjam in kar ra nadardid.'
+  mob:
+    killed: '&7Shoma &6%type% &7ra koshtid ba &6%exp% Experience&7 gereftid.'
+  player:
+    killed: '&7Shoma &6%name% &7ra ba &6%hearts% &7jon baqimande koshtid. &7va &6%exp% Experience&7 gereftid.'
+    death:
+      broadcast: '&6%killed% &7az &6%killer &7mord va &6%hearts% &7jon dasht.'
+      message: '&7Shoma ba &6%name% &7mordid ke &6%hearts% &7jon dasht left. &7&6%exp% experience list&7.'
+  pvp:
+    deny: '&cShoma nmitavanid in player ra bokoshid chon zir level PVP hastid.'
+    denythem: '&cShoma nmitavanid in player ra bokoshid chon in player zir level PVP ast.'
+  levelup:
+    announcement: '&6%player% &7be level &6%level%&7 erteqa yaft.'
+  antigrinder:
+    trigger: '&7Shoma &6%killed% &7ra kheyli koshteid va be hamin dalil exp daryaft nmikonid. Lotfan kami sarb konid va badan talash konid.'
+  boost:
+    globalannounce: '&6%player% &7boost hemgani ra faal kard (&6%multiplier%x&7) ta &6%duration%&7.'
+    globalsuccess: '&7Shoma yek boost hamegani ba multiplier &6%multiplier% &7dorost kardid. Meqdar zaman baqi : &6%duration%&7.'
+    globalexpire: '&7Boost hamegani monqazi shod.'
+    announce: '&6%player% &7boost baraye shoma faal kard (&6%multiplier%x&7) ta &6%duration%&7.'
+    success: '&7You created a boost for &6%player% &7with the multiplier of &6%multiplier% &7and the duration &6%duration%&7.'
+    expire: '&7Boost shoma monqazi shod.'
+  killstreak:
+    broke: '&cShoma killstreak &6%killed% &7ra shekastid. &7killstreak of &6%streak%&7!'
+    broken: '&cKillstreak shoma dar &4%streak%&c tamam shod'
+    brokenannounce: '&6%player% &7killstreak &6%killed%&7 ra shekast. &7killstreak of &6%streak%&7!'
+command:
+  removeexp:
+    success: '&7&6%amount% &7experience az &6%player% &7gerefte shod.'
+  addexp:
+    success: '&7&6%amount% &7experience be &6%player% &7dade shod.'
+  general:
+    notonline: '&cplayeri ba esme &4%name% &cpeyda nashod.'
+    notint: '&6%number%&7 adad nist.'
+  reset:
+    success: '&7Shoma &6%player%&7 ra reset kardid.'
+gui:
+  levels:
+    title: Bala tarin %type%
+    toplevels: '&e&lTop Levels'
+    topmobs: '&a&lTop Mob Killers'
+    topplayers: '&c&lTop Player Killers'
+    topkillstreaks: '&b&lTop Killstreaks'
+    search: '&6&lJosto jo'
+    sortingby: '&7Motatab sazi: &6%type%&7.'
+    you: '&8Click to go to you.'
+    selected: '&6Entekhab shode'
+    name: '&e%position% &6&l%name%'
+    level: '&7Level %level%'
+    exp: '&7EXP: &6%exp%&7/&6%expnext%'
+    stats: '&6&lEtekaat'
+    totalkills: '&7Tamam Kill ha: &6%kills%'
+    playerkills: '&7Player Kills: &6%kills%'
+    mobkills: '&7Mob Kills: &6%kills%'
+    deaths: '&7Deaths: &6%deaths%'
+    kdr: '&7KDR: &6%kdr%'
+    killstreak: '&7Killstreak: &6%killstreak%'
+    bestkillstreak: '&7Behtarin Killstreak: &6%killstreak%'
+    nametosearch: '&7Yek esm baraye jostojo entekhab konid ...'
+    noresults: Chizi yaft nashod...
+    levelstype: Levels
+    mobkillstype: Mob Kills
+    playerkillstype: Player Kills
+    killstreakstype: Killstreaks

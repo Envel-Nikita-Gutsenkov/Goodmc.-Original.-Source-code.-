@@ -1,0 +1,157 @@
+# General Messages
+
+general:
+  nametag:
+    prefix: '&8[&6UltimateClaims&8]'
+  word:
+    none: geen
+  claim:
+    defaultname: '%name%''s claim'
+    powercell:
+      low: '&cWeinig Energie!'
+      message: '&6%time% &7Resterend.'
+    dissolve: '&7Je claim &6%claim% &7is opgeheven.'
+    returnfunds: '&a%amount% is teruggegeven aan je.'
+  notanumber: '&4%value% &cis geen getal'
+  notenoughfunds: '&cJe hebt niet genoeg geld.'
+  powercellrecipe: '&6Powercell Recept'
+  interface:
+    exit: '&cVerlaten'
+    back: '&cTerug'
+    next: '&cVolgende Pagina'
+    previous: '&cVorige Pagina'
+    current: '&7Op dit moment: &6%current%&7.'
+# Command Messages
+command:
+  general:
+    notapartclaim: '&cJe maakt geen deel uit van deze claim of het bestaat niet.'
+    noclaim: '&cJe moet in een claim zijn om dit te kunnen doen.'
+    noplayer: '&cDie speler bestaat niet of is niet online.'
+    notinclaim: '&cDie speler is niet in jouw claim.'
+    claimed: '&cDeze chunk is al geclaimd.'
+    notclaimed: '&cDeze chunk is niet geclaimd.'
+    notyourclaim: '&cDeze chunk is geclaimd door iemand anders.'
+  invite:
+    invited: '&7Je bent uitgenodigd om lid te worden van &6%claim%&7. Gebruik &6/c accept &7om de uitnodiging te accepteren.'
+    invite: '&7Je hebt &6%name% &7uitgenodigd voor je claim&7.'
+    notself: '&cJe kunt jezelf niet uitnodigen.'
+    already: '&cDeze speler is al lid.'
+    alreadyinvited: '&cDeze speler heeft al een actieve uitnodiging.'
+  addmember:
+    added: '&7Je bent toegevoegd aan &6%claim%&7.'
+    add: '&7Je hebt &6%name% &7toegevoegd aan je claim&7.'
+  kick:
+    kicked: '&cJe bent uit &4%claim%&c gekickt.'
+    kick: '&7Je hebt &6%name% &7uit &6%claim%&7 gekickt.'
+    notself: '&7Je kunt jezelf niet kicken.'
+  uan:
+    notself: '&7Je kunt jezelf niet verbannen.'
+  ban:
+    banned: '&cJe bent verbannen uit &4%claim%&c.'
+    ban: '&7Je hebt &6%name% &7verbannen uit &6%claim%&7.'
+  unban:
+    unbanned: '&cJe ban voor &4%claim%&c is ingetrokken.'
+    unban: '&7Je hebt de ban van &6%name% &7voor &6%claim%&7 ingetrokken.'
+    notself: '&7Je kunt dit niet doen bij jezelf.'
+  accept:
+    none: '&cOp dit moment heb je geen uitnodigingen die je kunt accepteren.'
+    success: '&7Je bent nu lid van %claim%&7.'
+    accepted: '&6%name% &7heeft je uitnodiging geaccepteerd.'
+    maxed: '&7Deze claim heeft de maximale capaciteit bereikt.'
+  claim:
+    success: '&7Je hebt deze chunk geclaimd voor je claim.'
+    nocell: '&cJe moet een powercell maken voordat je meer land kan claimen...'
+    noregion: '&cJe kunt een beschermde regio niet claimen!'
+    info: '&cJe hebt &4%time% &com een powercell te maken voordat je claim wordt opgeheven... Om een powercell te maken, plaats je een kist binnen je claim en maak je het recept in het midden van de kist. Het recept kun je vinden met &6/c recipe&7.'
+    nottouching: '&cJe kunt alleen chunks claimen die naast elkaar liggen.'
+    toomany: '&cJe kunt maar &4%amount% &cchunks claimen.'
+    disabledworld: '&cJe kunt dit niet doen in deze wereld.'
+  unclaim:
+    success: '&7Je hebt je claim van deze chunk verwijderd.'
+    powercell: '&cJe kunt de chunk waar je powercell in staat niet verwijderen uit je claim... Verplaats hiervoor de powercell.'
+  removeclaim:
+    success: '&7Je hebt claim %claim% verwijderd.'
+  leave:
+    youleft: '&7Je hebt &6%claim%&7 verlaten.'
+    left: '&6%player% &7heeft &6%claim%&7 verlaten.'
+    owner: '&cJe kunt je eigen claim niet verlaten.'
+  lock:
+    locked: '&7Je hebt je claim afgesloten.'
+    unlocked: '&7Je hebt je claim geopend.'
+  sethome:
+    set: '&7Je hebt een home voor je claim ingesteld.'
+  name:
+    set: '&7De naam voor je claim is veranderd naar %name%'
+  home:
+    none: '&cEr is geen home ingesteld voor die claim...'
+    success: '&7Je bent geteleporteerd naar de home voor je claim.'
+  show:
+    start: '&7Claim visualisatie &2ingeschakeld.'
+    stop: '&7Claim visualisatie &cuitgeschakeld.'
+# Interface Messages
+interface:
+  powercell:
+    economytitle: '&7Economie opgeslagen: &6%time%&7.'
+    economylore: '&7Klik om geld te storten.'
+    valuablestitle: '&7Items opgeslagen: &6%time%&7.'
+    totaltitle: '&7Totale Energie: &6%time%&7.'
+    addfunds: '&7Voer een bedrag in om te storten.'
+    infotitle: '&5&lInfo'
+    infolore: '&7Je hebt &6%chunks% &7chunks|&7geclaimd en &6%members% &7leden.'
+    banstitle: '&c&lBans'
+    banslore: '&7Bekijk de bans van je claim.'
+    memberstitle: '&9&lLeden'
+    memberslore: '&7Bekijk de leden van je claim.'
+    settingstitle: '&6&lInstellingen'
+    settingslore: '&7Bekijk de instellingen van je claim.'
+  members:
+    title: Leden
+    statslore: '&7Totaal aantal leden: &6%totalmembers%&7.|&7Maximaal aantal leden: &6%maxmembers%&7.|&7Leden: &6%members%&7.'
+    skulllore: '&7Rol: &a%role%|&7Speeltijd: &b%playtime%|&7Lid sinds: &d%membersince%'
+    changetypetitle: '&7Verander Type'
+    changetypelore: '&7Op dit moment: &d%current%|&7Klik om type te veranderen.'
+    statstitle: '&7Statistieken'
+    changesorttitle: '&7Verander soort'
+    changesortlore: '&7Op dit moment: &d%current%|&7Klik om soort te veranderen.'
+    visitorsettingstitle: '&9&lBezoekers instellingen'
+    visitorsettingslore: '&7Bewerk instellingen voor bezoekers.'
+    membersettingstitle: '&5&lLeden instellingen'
+    membersettingslore: '&7Bewerk instellingen voor leden.'
+  permsettings:
+    title: '%role% Instellingen'
+    breaktitle: '&7Blokken breken'
+    placetitle: '&7Blokken plaatsen'
+    interacttitle: '&7Interactie'
+    mobkilltitle: '&7Mobs Vermoorden'
+    redstonetitle: '&7Redstone'
+    doorstitle: '&7Deuren'
+    tradingtitle: '&7Handelen'
+  bans:
+    title: Bans
+    infotitle: '&7Info'
+    skulllore: '&7Klik om ban in te trekken.'
+    infolore: '&7Ban aantal: &6%bancount%&7.'
+  settings:
+    title: Instellingen
+    hostilemobspawningtitle: '&6&lMonster Spawns'
+    firespreadtitle: '&6&lVuurverspreiding'
+    pvptitle: '&6&lPVP'
+    mobgriefingtitle: '&6&lMonster Grief'
+    leafdecaytitle: '&6&lBlad verdwijnt'
+  recipe:
+    title: Powercell Recept
+# Event Messages
+event:
+  general:
+    nopermission: '&cJe hebt geen toestemming om dat te doen.'
+  invite:
+    expired: '&cJe uitnodiging is verlopen...'
+  claim:
+    enter: '&7Je hebt &6%claim%&7 binnen getreden.'
+    exit: '&7Je hebt &6%claim%&7 verlaten.'
+    locked: '&cEen magische kracht laat je niet binnen...'
+  powercell:
+    success: '&7Je hebt een powercell gemaakt. Vul het om je land geclaimd te houden.'
+    failopen: '&cJe moet de eigenaar van deze claim zijn om de powercell te kunnen openen.'
+    lowpower: '&cJe claim &4%claim% &cheeft geen energie meer!'
+    superpower: '&cJe claim &4%claim% &cheeft nog steeds geen energie en wordt binnenkort opgeheven!'

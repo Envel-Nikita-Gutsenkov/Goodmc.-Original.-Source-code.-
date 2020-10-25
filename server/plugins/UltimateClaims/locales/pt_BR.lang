@@ -1,0 +1,157 @@
+# General Messages
+
+general:
+  nametag:
+    prefix: '&8[&6UltimateClaims&8]'
+  word:
+    none: none
+  claim:
+    defaultname: '%name%''s claim'
+    powercell:
+      low: '&cBaixo poder!'
+      message: '&6%time% &7Restante.'
+    dissolve: '&7Seu terreno &6%claim% &7foi deletado.'
+    returnfunds: '&a%amount% foi devolvido a você.'
+  notanumber: '&cA entrada &4%value% &cnão é um número'
+  notenoughfunds: '&cVocê não tem fundos suficientes.'
+  powercellrecipe: '&6Receita da célula de energia.'
+  interface:
+    exit: '&cSair'
+    back: '&cVoltar'
+    next: '&cPróxima Pagina'
+    previous: '&cPagina anterior'
+    current: '&7Atualmente: &6%current%&7.'
+# Command Messages
+command:
+  general:
+    notapartclaim: '&cVocê não faz parte desse terreno ou ele nao existe.'
+    noclaim: '&cVocê precisar estar em um terreno para fazer isso.'
+    noplayer: '&cEsse jogador não existe ou está offline'
+    notinclaim: '&cEsse jogador não está no seu terreno.'
+    claimed: '&cEsse pedaço ja foi reinvidicado.'
+    notclaimed: '&cEsse pedaço não foi reinvidicado.'
+    notyourclaim: '&cEsse pedaço foi reinvidicado por outro player.'
+  invite:
+    invited: '&7Você foi convidado para ser membro de &6%claim%&7. Use &6/c accept &7para aceitar o convite.'
+    invite: '&7Você convidou &6%name% &7para ser membro do seu terreno&7.'
+    notself: '&cNão pode convidar a si mesmo.'
+    already: '&cEsse jogador já é membro.'
+    alreadyinvited: '&cVocê já convidou esse jogador. Peça que ele aceite.'
+  addmember:
+    added: '&7Você foi adicionado como membro de &6%claim%&7.'
+    add: '&7Você adicionou &6%name% &7como membro do seu terreno&7.'
+  kick:
+    kicked: '&cVocê foi expulso do terreno &4%claim%&c.'
+    kick: '&7Você expulsou &6%name% &7do terreno &6%claim%&7.'
+    notself: '&7Você não pode expulsar a si mesmo.'
+  uan:
+    notself: '&7Não pode banir a si mesmo.'
+  ban:
+    banned: '&cVocê foi banido do terreno &4%claim%&c.'
+    ban: '&7Você baniu &6%name% &7do terreno &6%claim%&7.'
+  unban:
+    unbanned: '&cVocê foi desbanido do terreno &4%claim%&c.'
+    unban: '&7Você desbaniu &6%name% &7do terreno &6%claim%&7.'
+    notself: '&7Você não pode desbanir você mesmo.'
+  accept:
+    none: '&cVocê não tem nenhum convite para aceitar.'
+    success: '&7Você é um membro do terreno %claim%&7.'
+    accepted: '&6%name% &7aceitou seu convite.'
+    maxed: '&7Esse terreno ja atingiu o número máximo de membros.'
+  claim:
+    success: '&7Você reinvicidou esse pedaço de terra para seu terreno.'
+    nocell: '&cYou need to create a powercell before you can claim more land...'
+    noregion: '&cVocÊ não pode reinvidicar uma parte protegida.'
+    info: '&cYou have &4%time% &cto create a powercell before your claim is dissolved... To create one you need to construct the recipe which you can find at &6/c recipe&7. Form it in the center of a single chest within your claim.'
+    nottouching: '&cVocê só pode reinvidicar terrenos que estão lado a lado.'
+    toomany: '&cVocê só pode reinvidicar &4%amount% &cpedaços de terra.'
+    disabledworld: '&cVocê não pode fazer isso neste mundo.'
+  unclaim:
+    success: '&7Você abriu mão deste pedaço.'
+    powercell: '&cYou cannot unclaim the chunk holding your powercell... Please move it first.'
+  removeclaim:
+    success: '&7Você se desfez do terreno %claim%.'
+  leave:
+    youleft: '&7Você abandonou &6%claim%&7.'
+    left: '&6%player% &7abandonou &6%claim%&7.'
+    owner: '&cVocê é dono e não pode abandonar seu próprio terreno.'
+  lock:
+    locked: '&7Você trancou/bloqueou seu terreno.'
+    unlocked: '&7Você destrancou/desbloqueou seu terreno.'
+  sethome:
+    set: '&7Você setou home neste terreno.'
+  name:
+    set: '&7O Nome do seu terreno mudou para %name%'
+  home:
+    none: '&cAquele terreno não tem uma home setada...'
+    success: '&7Você se teleportou para a home do seu terreno.'
+  show:
+    start: '&7Visualizador de terrenos &2ativado.'
+    stop: '&7Visualizador de terrenos &cdesativado.'
+# Interface Messages
+interface:
+  powercell:
+    economytitle: '&7Banco: &6%time%&7.'
+    economylore: '&7Clique para depositar.'
+    valuablestitle: '&7Armazem: &6%time%&7.'
+    totaltitle: '&7Energia total: &6%time%&7.'
+    addfunds: '&7Digite uma quantidade para depositar.'
+    infotitle: '&5&lInformações'
+    infolore: '&7Você tem &6%chunks% &7reinvidicados|&7e &6%members% &7membros.'
+    banstitle: '&c&lBanidos'
+    banslore: '&7Veja jogadores banidos dos seus terrenos.'
+    memberstitle: '&9&lMembros'
+    memberslore: '&7Veja os membros dos seus terrenos.'
+    settingstitle: '&6&lOpções'
+    settingslore: '&7Mude as opções/configurações dos seus terrenos.'
+  members:
+    title: Membros
+    statslore: '&7Total de membros: &6%totalmembers%&7.|&7Maximo de membros: &6%maxmembers%&7.|&7Membros: &6%members%&7.'
+    skulllore: '&7Cargo: &a%role%|&7Tempo de jogo: &b%playtime%|&7Membro desde: &d%membersince%'
+    changetypetitle: '&7Mudar tipo'
+    changetypelore: '&7Atualmente: &d%current%|&7Clique para trocar.'
+    statstitle: '&7Status'
+    changesorttitle: '&7Alterar classificação'
+    changesortlore: '&7Atualmente: &d%current%|&7Clique para alterar a classificação.'
+    visitorsettingstitle: '&9&lConfigurações de visitantes'
+    visitorsettingslore: '&7Editar configurações de visitantes.'
+    membersettingstitle: '&5&lConfigurações dos membros.'
+    membersettingslore: '&7Editar configurações dos membros.'
+  permsettings:
+    title: Configurações para %role%
+    breaktitle: '&7Blocos minerados'
+    placetitle: '&7Blocos colocados'
+    interacttitle: '&7Interagir'
+    mobkilltitle: '&7Mobs mortos'
+    redstonetitle: '&7Redstone'
+    doorstitle: '&7Portas'
+    tradingtitle: '&7Negociação'
+  bans:
+    title: Bans
+    infotitle: '&7Informações'
+    skulllore: '&7Clique para desbanir.'
+    infolore: '&7Número de banidos: &6%bancount%&7.'
+  settings:
+    title: Configurações
+    hostilemobspawningtitle: '&6&lMonstros hostis'
+    firespreadtitle: '&6&lPropagação do fogo'
+    pvptitle: '&6&lPVP'
+    mobgriefingtitle: '&6&lMob Griefing'
+    leafdecaytitle: '&6&lDecadência das folhas'
+  recipe:
+    title: Celular de energia - receita
+# Event Messages
+event:
+  general:
+    nopermission: '&cVocê não tem permissão para isso.'
+  invite:
+    expired: '&cSeu convite expirou...'
+  claim:
+    enter: '&7Você entrou no terreno &6%claim%&7.'
+    exit: '&7Você saiu do terreno &6%claim%&7.'
+    locked: '&cAlgo mágico está te impedindo de entrar no terreno.'
+  powercell:
+    success: '&7Você criou uma célula de energia. Abasteça a célula para manter seu terreno protegido.'
+    failopen: '&cVocê precisa ser o dono deste terreno para abrir uma célula de energia.'
+    lowpower: '&cSeu terreno &4%claim% &cestá sem energia!'
+    superpower: '&cSeu terreno &4%claim% &ccontinua sem energia e está correndo risco.'

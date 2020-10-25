@@ -14,10 +14,10 @@ then replace want to
 match \bgonna\b
 then replace going to
 
-# -------- Prevent asking for a rank
-match (can|may|would you like if) i (have|be|become|get|has) (op|admin|mod|builder)
-then warn &cCurrently, we are not looking for new staff.
-then deny
+# Прекратить использовать !
+match ^!
+then replace
+then warn &c➥ Не нужно ставить восклицательный знак перед сообщением.
 
 match (do|are) you (need|wish|looking for) (any|some|one|good) (op|ops|operators|admins|mods|builders|new people|ateam)
 then warn &cCurrently, we are not looking for new staff.

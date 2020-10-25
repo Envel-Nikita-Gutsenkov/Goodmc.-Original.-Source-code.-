@@ -1,0 +1,74 @@
+# The block you want to use as the shop.
+shopBlock: 'minecraft:barrel'
+
+# The block you want to open the stock GUI.
+stockBlock: 'minecraft:end_portal_frame'
+
+# Allows to open the stock GUI using /shop stock.
+enableStockCommand: false
+
+# Number of pages to have in the stock GUI.
+stockPages: 2
+
+# Amount of money needed to create a shop. 
+# Set to 0 to disable.
+createCost: 0.0
+
+# Amount of money returned when deleting a shop. 
+# Set to 0 to disable.
+returnAmount: 0.0
+
+# Amount of days of player inactivity before deleting theirs shops. 
+# Set to 0 to disable.
+maxInactiveDays: 14
+
+# Delete block on shop remove
+deleteBlock: false
+
+# Show particles in shop blocks
+showParticles: true
+
+# Require to set the trade-shop flag in the regions for it to work.
+# Only works if WorldGuard is installed.
+enableWorldGuardFlag: false
+
+# Set wether you want to use permission nodes or not.
+# (set to false if you don't have a permission plugin).
+usePermissions: false
+
+# Only works if usePermissions is set to false.
+# If it's set to true, then you'll need to edit the limit via permission nodes.
+# Set to -1 to disable the limite
+defaultShopLimit: 3
+
+
+#TRANSLATIONS
+noPermissions: "&fНеизвестная команда О_о"
+deleteShop: "&f⚖ Теперь нажми на бочку, из которой хочешь удалить магазин."
+createShop: "&f⚖ Теперь нажми на бочку, из которой хочешь создать магазин."
+shopNotOwned: "&f⚖ Это не твой магазин и редактировать его нельзя :(" 
+shopDeleted: "&f⚖ Магазин удален."
+shopCreated: "&f⚖ Магазин создан."
+shopLimit: "&f⚖ Наши юристы сказали, что создавать так много магазинов нельзя."
+noItems: "&f⚖ Недостаточно для торговли."
+noStock: "&f⚖ В магазине не достаточно товара."
+noStockNotify: "&f⚖ В одном из твоих магазинов закончился товар! &o(%s)"
+buy: "&f⚖ Куплено&8 %in &fза&8 %out&f."
+sell: "&f⚖ %p продано &8 %in &f за&8 %out&f."
+noMoney: "&f⚖ У тебя нет достаточно денег, чтобы создать магазин. Нужно хотя бы &o$"
+reload: "&f⚖ Перезагрузили конфигурацию и надеемся, что ничего не сломали."
+adminShop: "Редактирование своего магазина"
+normalShop: "Магазин %player%"
+sellTitle: "Продаем"
+buyTitle: "Продаем за"
+deleteTitle: "УДАЛИТЬ"
+createTitle: "СОЗДАТЬ"
+broadcastOn: "Уведомления включены"
+broadcastOff: "Уведомления выключены"
+createShopTitle: "Создание магазина"
+stockTitle: "Склад магазина"
+page: "Страница"
+buyAction: "КУПИТЬ"
+
+# Do not edit this
+configVersion: 1.6
