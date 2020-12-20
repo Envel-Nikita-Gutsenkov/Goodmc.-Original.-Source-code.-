@@ -7,13 +7,13 @@
 #
 # Registration
 registration:
-    disabled: '&f➥ Регистрация выключена!'
+    disabled: '&f➥ Регистрация была временно прекращена. Скорее всего это связано с черезмерной активностью новых игроков, попробуйте завтра. Поддержка alert@goodmc.ru Последние новости в дискорд https://discord.gg/Cg5AU6c'
     name_taken: '&f➥ Игрок уже зарегистрирован, смените ник :)'
-    register_request: '&f➥ Привет! Быстрая регистрация. Введи команду: &6/reg &6&oэлектронная_почта'
+    register_request: '&f➥ Привет! Не пугайся, сейчас быстро тебя зарегистрируем. Введи команду: &6/reg &6&oэлектронная_почта'
     command_usage: '&f➥ Для регистрации пиши команду: &6/reg &6&oэлектронная_почта&f. Неверный email - потеря аккаунта! Если возникли трудности, почитай инструкцию: https://bit.ly/30JHEbb'
-    reg_only: '&f➥ На сервер совершена ддос/бот атака! &fДля новых игроков временно вход воспрещен для снижения лагов на сервере! Уже через некоторое время Вы сможете зайти на сервер. Поддержка alert@goodmc.ru Последние новости в дискорд https://discord.gg/QFdHgW'
+    reg_only: '&f➥ На сервер совершена ддос/бот атака! &fДля новых игроков временно вход воспрещен для снижения лагов на сервере! Уже через некоторое время Вы сможете зайти на сервер. Поддержка alert@goodmc.ru Последние новости в дискорд https://discord.gg/Cg5AU6c'
     success: '&f➥ Успешная регистрация!'
-    kicked_admin_registered: '&f➥ Администратор зарегистрировал ваш аккаунт. Пожалуйста, войдите снова! Поддержка alert@goodmc.ru Последние новости в дискорд https://discord.gg/QFdHgW'
+    kicked_admin_registered: '&f➥ Администратор зарегистрировал ваш аккаунт. Пожалуйста, войдите снова! Поддержка alert@goodmc.ru Последние новости в дискорд https://discord.gg/Cg5AU6c'
 # Password errors on registration
 password:
     match_error: '&f➥ Пароли не совпадают! Cтрока должна содержать хотя бы одно число, буквы в нижнем и верхнем регистре, и длину не менее 6 символов.'
@@ -23,11 +23,11 @@ password:
     wrong_length: '&f➥ Ваш пароль не достигает минимальной длины 6 символов или привышает максимальную 128 символов!'
 # Login
 login:
-    command_usage: '&f➥ Авторизуйся: &6/login &6&oпароль&f. Если ты только что зарегистрировался, пароль придет на почту, указанную при регистрации. Если вошел в первый раз - значит аккаунт занят.'
-    wrong_password: '&f➥ Неправильный пароль! Если забыл пароль, в помощь команда &6/email recovery &6&oтвоя_электронная_почта&f. Не стоит пытаться взломать аккаунт или вспомнить пароль множеством попыток. Это приведет к блокировке IP. Поддержка alert@goodmc.ru Последние новости в дискорд https://discord.gg/QFdHgW'
+    command_usage: '&f➥ Авторизуйся: &6/l &6&oпароль&f. Если ты только что зарегистрировался, пароль придет на почту, указанную при регистрации. Если вошел в первый раз - значит аккаунт занят.'
+    wrong_password: '&f➥ Неправильный пароль! Если забыл пароль, в помощь команда &6/email recovery &6&oтвоя_электронная_почта&f. Не стоит пытаться взломать аккаунт или вспомнить пароль множеством попыток. Это приведет к блокировке IP. Поддержка alert@goodmc.ru Последние новости в дискорд https://discord.gg/Cg5AU6c'
     success: '&f➥ Верно!'
-    login_request: '&f➥ Авторизуйся: &6/login &6&oпароль'
-    timeout_error: '&f➥ Время авторизации вышло. Только зарегистрировался? Проверь почту, на нее придет пароль. Забыл пароль? Пиши команду &6/email recovery &6&oтвоя_электронная_почта&f. Если ник не зарегистрирован еще на сервере, пропиши &6/reg &6&oэлектронная_почта&f. Поддержка alert@goodmc.ru Последние новости в дискорд https://discord.gg/QFdHgW'
+    login_request: '&f➥ Авторизуйся: &6/l &6&oпароль'
+    timeout_error: '&f➥ Время авторизации вышло. Только зарегистрировался? Проверь почту, на нее придет пароль. Забыл пароль? Пиши команду &6/email recovery &6&oтвоя_электронная_почта&f. Если ник не зарегистрирован еще на сервере, пропиши &6/reg &6&oэлектронная_почта&f. Поддержка alert@goodmc.ru Последние новости в дискорд https://discord.gg/Cg5AU6c'
 # Errors
 error:
     denied_command: '&f➥ Для использования этой команды, вы должны авторизоваться! Помощь в регистрации https://bit.ly/30JHEbb'
@@ -35,15 +35,15 @@ error:
     unregistered_user: '&f➥ Данный игрок не найден в базе данных!'
     not_logged_in: '&f➥ Ты не в игре!'
     no_permission: '&fКоманды не существует О_о'
-    unexpected_error: '&f➥ Что-то пошло не так... Свяжись с администратором, пишите в поддержку alert@goodmc.ru Дискорд https://discord.gg/QFdHgW Помощь в регистрации https://bit.ly/30JHEbb'
-    max_registration: '&f➥ Вы превысили максимальное число регистраций на IP! Поддержка alert@goodmc.ru Последние новости в дискорд https://discord.gg/QFdHgW'
+    unexpected_error: '&f➥ Что-то пошло не так... Свяжись с администратором, пишите в поддержку alert@goodmc.ru Дискорд https://discord.gg/Cg5AU6c Помощь в регистрации https://bit.ly/30JHEbb'
+    max_registration: '&f➥ Вы превысили максимальное число регистраций на IP! Поддержка alert@goodmc.ru Последние новости в дискорд https://discord.gg/Cg5AU6c'
     logged_in: '&f➥ Пароль вводить не нужно!'
-    kick_for_vip: '&fЧерезмерная заполненность сервера, попробуй войти позже. Поддержка alert@goodmc.ru Последние новости в дискорд https://discord.gg/QFdHgW'
+    kick_for_vip: '&fЧерезмерная заполненность сервера, попробуй войти позже. Поддержка alert@goodmc.ru Последние новости в дискорд https://discord.gg/Cg5AU6c'
     kick_unresolved_hostname: '&cПроизошла ошибка: неразрешенное имя узла игрока!'
-    tempban_max_logins: '&f➥ Временно прекращен доступ к серверам GoodMC за то, что пытались войти слишком много раз. Поддержка alert@goodmc.ru Последние новости в дискорд https://discord.gg/QFdHgW'
+    tempban_max_logins: '&f➥ Временно прекращен доступ к серверам GoodMC за то, что пытались войти слишком много раз. Поддержка alert@goodmc.ru Последние новости в дискорд https://discord.gg/Cg5AU6c'
 # AntiBot
 antibot:
-    kick_antibot: '&c☠ Критическая защита GoodMC: &fНа сервер совершена ддос/бот атака, для новых игроков временно вход воспрещен для снижения лагов на сервере! Уже через некоторое время Вы сможете зайти на сервер. Поддержка alert@goodmc.ru Последние новости в дискорд https://discord.gg/QFdHgW'
+    kick_antibot: '&c☠ Критическая защита GoodMC: &fНа сервер совершена ддос/бот атака, для новых игроков временно вход воспрещен для снижения лагов на сервере! Уже через некоторое время Вы сможете зайти на сервер. Поддержка alert@goodmc.ru Последние новости в дискорд https://discord.gg/Cg5AU6c'
     auto_enabled: '&c☠ Критическая защита GoodMC: &fAntiBot-режим автоматически включен из-за DDOS-атаки. Некоторое время вход с пиратской версии игры будет недоступен!'
     auto_disabled: '&c☠ Критическая защита GoodMC: &fAntiBot-режим автоматически отключен после &7%m &fмин. Надеюсь, атака закончилась.'
 # Unregister
@@ -52,7 +52,7 @@ unregister:
     command_usage: '&f➥ Используйте: &6/unregister &6&oпароль'
 # Other messages
 misc:
-    account_not_activated: '&f➥ Отлично, теперь проверь почту для получения пароля. Ты получишь пароль от имени original@goodmc.ru на почту, которую указал. Не пришло? Подожди еще немного, загляни в папку "спам", пиши в поддержку! Поддержка alert@goodmc.ru Последние новости в дискорд https://discord.gg/QFdHgW'
+    account_not_activated: '&f➥ Отлично, теперь проверь почту для получения пароля. Ты получишь пароль от имени original@goodmc.ru на почту, которую указал. Не пришло? Подожди еще немного, загляни в папку "спам", пиши в поддержку! Поддержка alert@goodmc.ru Последние новости в дискорд https://discord.gg/Cg5AU6c'
     password_changed: '&f➥ Пароль был изменён!'
     logout: '&f➥ Вы успешно вышли!'
     reload: '&f➥ Конфигурация и база данных были перезагружены!'
@@ -65,40 +65,40 @@ session:
     invalid_session: '&f➥ Сессия истекла! Пароль нужно ввести снова.'
 # Error messages when joining
 on_join_validation:
-    same_ip_online: '&fИгрок с таким же IP уже играет на сервере! Поддержка alert@goodmc.ru Последние новости в дискорд https://discord.gg/QFdHgW'
-    same_nick_online: '&fИгрок уже играет с таким ником на сервере или же просто перезайди через минутку :) Поддержка alert@goodmc.ru Последние новости в дискорд https://discord.gg/QFdHgW'
-    name_length: '&fВаш ник слишком короткий или слишком длинный! Поддержка alert@goodmc.ru Последние новости в дискорд https://discord.gg/QFdHgW'
-    characters_in_name: '&fВаш ник содержит недопустимые символы. Допустимые символы: %valid_chars Поддержка alert@goodmc.ru Последние новости в дискорд https://discord.gg/QFdHgW'
-    kick_full_server: '&fСервер заполен, зайдите чуть позже. Поддержка alert@goodmc.ru Последние новости в дискорд https://discord.gg/QFdHgW'
-    country_banned: '&fУпс! Мы заблокировали доступ к серверу с Вашей страны :( Пожалуйста, напишите, мы добавим вас. Поддержка alert@goodmc.ru Последние новости в дискорд https://discord.gg/QFdHgW'
-    not_owner_error: '&fВы не являетесь владельцем этого ника. Пожалуйста, смените ваш ник! Поддержка alert@goodmc.ru Последние новости в дискорд https://discord.gg/QFdHgW'
-    invalid_name_case: '&fВы должны зайти на сервер с ником &f%valid, а зашли с &f%invalid. Поддержка alert@goodmc.ru Последние новости в дискорд https://discord.gg/QFdHgW'
-    quick_command: 'Вы вводили команды слишком часто! Пожалуйста заходите снова и вводите команды помедленнее. Поддержка alert@goodmc.ru Последние новости в дискорд https://discord.gg/QFdHgW'
+    same_ip_online: '&fИгрок с таким же IP уже играет на сервере! Поддержка alert@goodmc.ru Последние новости в дискорд https://discord.gg/Cg5AU6c'
+    same_nick_online: '&fИгрок уже играет с таким ником на сервере или же просто перезайди через минутку :) Поддержка alert@goodmc.ru Последние новости в дискорд https://discord.gg/Cg5AU6c'
+    name_length: '&fВаш ник слишком короткий или слишком длинный! Поддержка alert@goodmc.ru Последние новости в дискорд https://discord.gg/Cg5AU6c'
+    characters_in_name: '&fВаш ник содержит недопустимые символы. Допустимые символы: %valid_chars Поддержка alert@goodmc.ru Последние новости в дискорд https://discord.gg/Cg5AU6c'
+    kick_full_server: '&fСервер заполен, зайдите чуть позже. Поддержка alert@goodmc.ru Последние новости в дискорд https://discord.gg/Cg5AU6c'
+    country_banned: '&fУпс! Мы заблокировали доступ к серверу с Вашей страны :( Пожалуйста, напишите, мы добавим вас. Поддержка alert@goodmc.ru Последние новости в дискорд https://discord.gg/Cg5AU6c'
+    not_owner_error: '&fВы не являетесь владельцем этого ника. Пожалуйста, смените ваш ник! Поддержка alert@goodmc.ru Последние новости в дискорд https://discord.gg/Cg5AU6c'
+    invalid_name_case: '&fВы должны зайти на сервер с ником &f%valid, а зашли с &f%invalid. Поддержка alert@goodmc.ru Последние новости в дискорд https://discord.gg/Cg5AU6c'
+    quick_command: 'Вы вводили команды слишком часто! Пожалуйста заходите снова и вводите команды помедленнее. Поддержка alert@goodmc.ru Последние новости в дискорд https://discord.gg/Cg5AU6c'
 # Email
 email:
     add_email_request: '&f➥ Пожалуйста, добавьте свой Email, введя: &f/email add &8[&fВаш Email&8] &8[&fВаш Email&8]'
     usage_email_add: '&f➥ Использование: &f/email add &8[&fВаш Email&8] &8[&fВаш Email&8]'
     usage_email_change: '&f➥ Использование: &f/email change &8[&fСтарый Email&8] &8[&fНовый Email&8]'
-    new_email_invalid: '&f➥ Недействительный новый Email! Обычно причиной этому является &cФЕЙКОВЫЙ или НЕПОДДЕРЖИВАЕМЫЙ email&f. Попробуй ввести почту gmail (google) или yandex. Попробуй ввести домен &o.com &f. Например: &o/reg goodmc@gmail.com &f. Если возникли трудности, почитай инструкцию: &ohttps://u.to/XxvRFA Поддержка alert@goodmc.ru Последние новости в дискорд https://discord.gg/QFdHgW'
-    old_email_invalid: '&f➥ Недействительный старый Email! Поддержка alert@goodmc.ru Последние новости в дискорд https://discord.gg/QFdHgW'
-    invalid: '&f➥ Недействительный Email! Обычно причиной этому является &cФЕЙКОВЫЙ или НЕПОДДЕРЖИВАЕМЫЙ email&f. Попробуй ввести почту gmail (google) или yandex. Попробуй ввести домен &o.com &f. Например: &o/reg goodmc@gmail.com &f. Если возникли трудности, почитай инструкцию: &ohttps://u.to/XxvRFA Поддержка alert@goodmc.ru Последние новости в дискорд https://discord.gg/QFdHgW'
+    new_email_invalid: '&f➥ Недействительный новый Email! Обычно причиной этому является &cФЕЙКОВЫЙ или НЕПОДДЕРЖИВАЕМЫЙ email&f. Попробуй ввести почту gmail (google) или yandex. Попробуй ввести домен &o.com &f. Например: &o/reg goodmc@gmail.com &f. Если возникли трудности, почитай инструкцию: &ohttps://u.to/XxvRFA Поддержка alert@goodmc.ru Последние новости в дискорд https://discord.gg/Cg5AU6c'
+    old_email_invalid: '&f➥ Недействительный старый Email! Поддержка alert@goodmc.ru Последние новости в дискорд https://discord.gg/Cg5AU6c'
+    invalid: '&f➥ Недействительный Email! Обычно причиной этому является &cФЕЙКОВЫЙ или НЕПОДДЕРЖИВАЕМЫЙ email&f. Попробуй ввести почту gmail (google) или yandex. Попробуй ввести домен &o.com &f. Например: &o/reg goodmc@gmail.com &f. Если возникли трудности, почитай инструкцию: &ohttps://u.to/XxvRFA Поддержка alert@goodmc.ru Последние новости в дискорд https://discord.gg/Cg5AU6c'
     added: '&f➥ Email добавлен!'
     add_not_allowed: '&cДобавление электронной почты не было разрешено.'
-    request_confirmation: '&f➥ Подтвердите ваш Email! Поддержка alert@goodmc.ru Последние новости в дискорд https://discord.gg/QFdHgW'
-    changed: '&f➥ Email изменен! Поддержка alert@goodmc.ru Последние новости в дискорд https://discord.gg/QFdHgW'
+    request_confirmation: '&f➥ Подтвердите ваш Email! Поддержка alert@goodmc.ru Последние новости в дискорд https://discord.gg/Cg5AU6c'
+    changed: '&f➥ Email изменен! Поддержка alert@goodmc.ru Последние новости в дискорд https://discord.gg/Cg5AU6c'
     change_not_allowed: '&cИзменение электронной почты не было разрешено.'
     email_show: '&f➥ Ваш текущий Email адрес: &f%email'
-    no_email_for_account: '&f➥ Email адрес не был привязан к этому аккаунту! Поддержка alert@goodmc.ru Последние новости в дискорд https://discord.gg/QFdHgW'
-    already_used: '&f➥ Этот адрес Email уже используется! МУЛЬТИАККАУНТЫ ЗАПРЕЩЕНЫ! Поддержка alert@goodmc.ru Последние новости в дискорд https://discord.gg/QFdHgW'
-    incomplete_settings: '&f➥ Не все необходимые параметры установлены для отправки электронной почты. Пожалуйста, обратитесь к администратору. Поддержка alert@goodmc.ru Последние новости в дискорд https://discord.gg/QFdHgW'
-    send_failure: '&f➥ Email не может быть отправлено! Пожалуйста, обратитесь к администратору. Поддержка alert@goodmc.ru Последние новости в дискорд https://discord.gg/QFdHgW'
-    change_password_expired: '&f➥ Вы больше не можете изменить свой пароль этой командой. Поддержка alert@goodmc.ru Последние новости в дискорд https://discord.gg/QFdHgW'
-    email_cooldown_error: '&f➥ На email уже было отправлено. Вы должны подождать &f%time&8, прежде чем вы сможете отправить. Поддержка alert@goodmc.ru Последние новости в дискорд https://discord.gg/QFdHgW'
+    no_email_for_account: '&f➥ Email адрес не был привязан к этому аккаунту! Поддержка alert@goodmc.ru Последние новости в дискорд https://discord.gg/Cg5AU6c'
+    already_used: '&f➥ Этот адрес Email уже используется! МУЛЬТИАККАУНТЫ ЗАПРЕЩЕНЫ! Поддержка alert@goodmc.ru Последние новости в дискорд https://discord.gg/Cg5AU6c'
+    incomplete_settings: '&f➥ Не все необходимые параметры установлены для отправки электронной почты. Пожалуйста, обратитесь к администратору. Поддержка alert@goodmc.ru Последние новости в дискорд https://discord.gg/Cg5AU6c'
+    send_failure: '&f➥ Email не может быть отправлено! Пожалуйста, обратитесь к администратору. Поддержка alert@goodmc.ru Последние новости в дискорд https://discord.gg/Cg5AU6c'
+    change_password_expired: '&f➥ Вы больше не можете изменить свой пароль этой командой. Поддержка alert@goodmc.ru Последние новости в дискорд https://discord.gg/Cg5AU6c'
+    email_cooldown_error: '&f➥ На email уже было отправлено письмо. Вы должны подождать &f%time&8, прежде чем вы сможете отправить. Поддержка alert@goodmc.ru Последние новости в дискорд https://discord.gg/Cg5AU6c'
 # Password recovery by email
 recovery:
     forgot_password_hint: '&f➥ Забыл пароль? Восстанови через почту: &6/email recovery &6&oтвоя_электронная_почта&f.'
     command_usage: '&f➥ Забыл пароль? Восстанови через почту: &6/email recovery &6&oтвоя_электронная_почта&f.'
-    email_sent: '&f➥ Восстановительное письмо отправлено! Проверьте вашу почту! Поддержка alert@goodmc.ru Последние новости в дискорд https://discord.gg/QFdHgW'
+    email_sent: '&f➥ Восстановительное письмо отправлено! Проверьте вашу почту! Поддержка alert@goodmc.ru Последние новости в дискорд https://discord.gg/Cg5AU6c'
     code:
         code_sent: '&f➥ Код восстановления для сброса пароля был отправлен на Email.'
         incorrect: '&f➥ Код восстановления не является правильным! &7Используй &6/email recovery &6&oтвоя_электронная_почта&f, чтобы сгенерировать новый.'
@@ -108,13 +108,13 @@ recovery:
 # Captcha
 captcha:
     usage_captcha: '&f➥ Используй: &f/captcha &6&oкапча'
-    wrong_captcha: '&f➥ Неверная капча, используй: &f/captcha &6&oкапча Поддержка alert@goodmc.ru Последние новости в дискорд https://discord.gg/QFdHgW'
+    wrong_captcha: '&f➥ Неверная капча, используй: &f/captcha &6&oкапча Поддержка alert@goodmc.ru Последние новости в дискорд https://discord.gg/Cg5AU6c'
     valid_captcha: '&7➥ Капча успешно введена!'
     captcha_for_registration: 'Чтобы зарегистрироваться, решите каптчу используя команду: «/captcha %captcha_code»'
     register_captcha_valid: '&2Вы успешно решили каптчу! Теперь вы можете зарегистрироваться командой «/register»'
 # Verification code
 verification:
-    code_required: '&6Эта команда чувствительна и требует подтверждения электронной почты! Проверьте свою почту и следуйте инструкциям в письме.'
+    code_required: '&6Эта команда чувствительна и требует подтверждения электронной почты! Проверьте свою почту и следуйте инструкциям в письме. После подтверждения введите команду заново.'
     command_usage: '&fИспользование: /verification &6&oкод'
     incorrect_code: '&fНеверный код, используйте /verification &6&oкод&f, подставив код из полученного письма.'
     success: '&fВаша личность подтверждена! Теперь можно выполнять все чувствительные команды в текущем сеансе!'

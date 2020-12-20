@@ -1,4 +1,10 @@
-# General Messages
+###############################################
+# New messages added for UltimateTimber v2.2. #
+#                                             #
+# command.give.not-a-player                   #
+# command.give.given                          #
+# command.give.no-axe                         #
+###############################################
 
 general:
   nametag:
@@ -13,6 +19,10 @@ command:
     description: '&f - &a/ut toggle &f - Включить/выключить режим измельчения.'
     enabled: '&fРежим измельчения: &aВключен'
     disabled: '&fРежим измельчения: &cВыключен'
+  give:
+    not-a-player: '&cNot a player.'
+    given: '&fGiven to player &a%player%'
+    no-axe: '&cAxe could not be loaded.'
 # Event Messages
 event:
   'on':

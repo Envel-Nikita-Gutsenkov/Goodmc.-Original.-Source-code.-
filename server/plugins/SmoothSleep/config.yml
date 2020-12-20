@@ -44,7 +44,7 @@ worlds:
       enabled: true
       sleep-title: '&b{12H}:{MIN} {MER_UPPER}'
       sleep-subtitle: ''
-      morning-title: '&aХорошего дня, {USERNAME}!'
+      morning-title: '&aХорошего дня!'
       morning-subtitle: ''
       stay-ticks: 40
       fade-ticks: 60
@@ -66,4 +66,65 @@ worlds:
           LUCK:
             duration: 3600
             amplifier: 0
+  mine:
+    min-night-speed-mult: 2.6
+    max-night-speed-mult: 8
+    night-speed-curve: 0.6
+    morning-sound: ENTITY_PLAYER_LEVELUP
+    action-bar:
+      title: '&f&o{SLEEPERS}/{TOTAL} спят, ускорение в {TIMESCALE} раз'
+      enabled: true
+      show-if-awake: false
+    morning-particle-options:
+      particle: VILLAGER_HAPPY
+      amount: 30
+      radius: 4
+      enabled: true
+      delay-ticks: 5
+      pattern: RANDOM
+    clear-weather-when-morning: false
+    instant-day-if-all-sleeping: false
+    essentials-settings:
+      ignore-afk: true
+      ignore-vanish: true
+    replenish-settings:
+      heal-negative-statuses: true
+      hours-to-heal-negative: 3
+      heal-positive-statuses: false
+      hours-to-heal-positive: 3
+      ticks-per-feed: 1500
+      ticks-per-heal: 1000
+      feed-amount: -1.8
+      heal-amount: 1
+      heal-awake: false
+      feed-awake: false
+      add-saturation: true
+      max-saturation: 1.0
+      saturation-amount: 1.0
+    titles:
+      enabled: true
+      sleep-title: '&b{12H}:{MIN} {MER_UPPER}'
+      sleep-subtitle: ''
+      morning-title: '&aХорошего дня!'
+      morning-subtitle: ''
+      stay-ticks: 40
+      fade-ticks: 60
+    boss-bar:
+      enabled: false
+      show-if-awake: true
+      color: BLUE
+      title: '&a{SLEEPERS}/{TOTAL} Sleeping &3- &b{12H}:{MIN} {MER_UPPER}'
+    accelerate-random-tick: true
+    max-random-tick: 1000
+    accelerate-weather: true
+    heal-slept-villagers: true
+    sleep-rewards:
+      potion-effects:
+        enabled: true
+        required-hours-sleep: 3
+        show-effect-particles: false
+        effects:
+          LUCK:
+            duration: 3600
+            amplifier: 0            
 update-notify-login: false

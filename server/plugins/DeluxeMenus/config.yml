@@ -1,0 +1,20 @@
+# DeluxeMenus 1.13.1-Release main configuration file
+# 
+# A full wiki on how to use this plugin can be found at:
+# https://github.com/help-chat/DeluxeMenus/wiki
+
+debug: false
+check_updates: false
+gui_menus:
+  chests:
+    file: chests.yml
+  guides:
+    file: guides.yml
+  actions:
+    file: actions.yml
+  gmc:
+    file: gmc.yml
+  settings:
+    file: settings.yml
+  mod:
+    file: mod.yml

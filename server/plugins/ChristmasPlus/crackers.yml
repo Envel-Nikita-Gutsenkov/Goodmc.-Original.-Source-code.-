@@ -1,0 +1,36 @@
+# Choose whether the christmas crackers feature should be enabled
+enable: false
+
+# List of all crackers
+crackers:
+  # Cracker name (will be used inside the /cracker command)
+  example:
+    # Cracker item, more info: https://docs.brcdev.net/#/item-meta
+    item: []
+    # Choose how many items should drop from each cracker (it's a random value between min and max values - they can be equal as well)
+    minDrops: 1
+    maxDrops: 3
+    # Items which will be dropped from crackers
+    drops:
+      # Drop ID, value doesn't matter but has to be unique
+      1:
+        # Type of dropped item, valid values are item/permission/command (enchantment isn't supported in crackers)
+        type: item
+        # Chance to get this drop (out of total of chances of all drop listed below, it DOESN'T HAVE to sum up to 1.0)
+        chance: 0.6
+        # Drop item, more info: https://docs.brcdev.net/#/item-meta
+        item:
+          material: APPLE
+          quantity: 16
+      2:
+        type: item
+        chance: 0.3
+        item:
+          material: GOLD_INGOT
+          quantity: 16
+      3:
+        type: item
+        chance: 0.1
+        item:
+          material: DIAMOND
+          quantity: 3

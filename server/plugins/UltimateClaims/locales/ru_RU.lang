@@ -134,11 +134,11 @@ interface:
     infolore: '&7Количество врагов: &6%bancount%&7.'
   settings:
     title: Настройки
-    hostilemobspawningtitle: '&6&lЗащитить от злых существ'
-    firespreadtitle: '&6&lМагия не даст распространяться огню'
+    hostilemobspawningtitle: '&6&lСпавн злых существ'
+    firespreadtitle: '&6&lРаспространение огня'
     pvptitle: '&6&lРазрешить войну (ПВП)'
-    mobgriefingtitle: '&6&lЗащитить от грабежа злыми существами'
-    leafdecaytitle: '&6&lДолжна ли опадать листва'
+    mobgriefingtitle: '&6&lГрабеж злыми существами'
+    leafdecaytitle: '&6&lОпадение листвы'
   recipe:
     title: Крафт
 # Event Messages
@@ -152,7 +152,7 @@ event:
     exit: '&7Покидаем &6%claim%'
     locked: '&cТебе нельзя сюда зайти...'
   powercell:
-    success: '&7УРА! Монумент готов!'
+    success: '&7Ура, Монумент готов!'
     failopen: '&cЯчейку управления поселением может открыть только руководитель.'
     lowpower: '&cМонумент поселения &4%claim% &cимеет мало энергии!'
     superpower: '&cМонумент нашего поселения &4%claim% &cвсе еще имеет мало энергии и оно скоро распадется!'

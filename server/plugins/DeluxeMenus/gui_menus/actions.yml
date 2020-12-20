@@ -1,0 +1,128 @@
+    menu_title: '&6&lДействия'
+    open_command:
+    - donations
+    - donate
+    - buy
+    size: 53
+    items:
+      '1':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGUxMzk1MjAyNWEyMzI0YTY2NmY3ZWRmNjUzNTgzMjVhYzYzYmFhMzc5OTAyZTM5MGZjMjcyMDE0NjMxOTNlNyJ9fX0=
+        slot: 20
+        display_name: '&e① &6Баланс'
+        lore:
+        - ''
+        - '&e Проверим количество'
+        - '&e твоих монеток.'
+        - ''
+        - '&e /money'
+        - ''
+        left_click_commands:
+        - '[player] money'
+        - '[close]'
+        right_click_commands:
+        - '[player] money'
+        - '[close]'
+      '2':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzVmZjI1MzIwYTg0MjUwOWI3ZWU1YTIzNjczZjY4NTI5MWM0NjcyYjgzNGQ5YjU3N2U4NjJhOTIwOTgzYzEwYiJ9fX0=
+        slot: 21
+        display_name: '&e② &6Открыть тикет'
+        lore:
+        - ''
+        - '&e Откроем интерфейс'
+        - '&e для обращения к'
+        - '&e модераторам.'
+        - ''
+        - '&e /ticket'
+        - ''
+        left_click_commands:
+        - '[player] ticket'
+        right_click_commands:
+        - '[player] ticket'
+      '3':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTRkYWU1MDc2NTcyZmMzMWNmYzdmY2RhMGZkNWI3ZWJmNGFlMWQ1NmE5YjYyNWJkNTU2ZGYxZjA5NWU5YTc3ZiJ9fX0=
+        slot: 22
+        display_name: '&e③ &6Спавн '
+        lore:
+        - ''
+        - '&e Отправим тебя'
+        - '&e на спавн.'
+        - '&e Не двигайся.'
+        - ''
+        - '&e /spawn'
+        - ''
+        left_click_commands:
+        - '[close]'
+        - '[player] spawn'
+        right_click_commands:
+        - '[close]'
+        - '[player] spawn'
+      '4':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjE2YWNlYTBiMjk3NjEyMmUzY2Y1YWZhNjIyMGNhMTU1MTc2MWFkMGJjNTRmYTBkNmVjZWQxMDU0ODIzY2FjMiJ9fX0=
+        slot: 23
+        display_name: '&e④ &6 Скины'
+        lore:
+        - ''
+        - '&e Откроем меню'
+        - '&e скинов.'
+        - ''
+        - '&e /skin menu'
+        - ''
+        left_click_commands:
+        - '[player] skin menu'
+        right_click_commands:
+        - '[player] skin menu'
+      '5':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDI3MmZlNTExMjRmZGUyOTczNDU2MzkzZGU3YTFlYjhjMTA3NzQ1MWU3NDEyOTlhZTg4NThiMzkwNzE2ZTgwZSJ9fX0=
+        slot: 24
+        display_name: '&e⑤ &6 '
+        lore:
+        - ''
+      '7':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZhNjA1MWY3ZjZmNDM5ZDhmMjE0YzIzNGU4ZTJjNDc3NjMwMDUyNDMyZTQyNjA3ZjA0MDRiODQwYjUzY2VhYiJ9fX0=
+        slot: 30
+        display_name: '&e⑥ &6 '
+        lore:
+        - ''
+      '8':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGJhNTc3ZmZiOWJlYzkwY2YwMDcxZDMzNjllYjU2ODA3MTIzMjI2Y2JiZDNkYWM1YjQ1NjNjOWVkMzI5M2UzNCJ9fX0=
+        slot: 32
+        display_name: '&e⑦ &6 '  
+        lore:
+        - ''    
+      '9':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2FmNTk3NzZmMmYwMzQxMmM3YjU5NDdhNjNhMGNmMjgzZDUxZmU2NWFjNmRmN2YyZjg4MmUwODM0NDU2NWU5In19fQ==
+        permission: 'gmc.gui.moderator' 
+        display_name: '&e⑧ &6Модерация'
+        left_click_commands:
+        - '[openguimenu] mod'
+        right_click_commands:
+        - '[openguimenu] mod'
+        stack: '1'
+        enchanted: 'false'
+        slot: 31  
+      '6':
+        material: book
+        slot: 4
+        display_name: '&6&lИнформация'
+        lore:
+        - ''
+        - '&6▶ &fЗдесь можно выполнить'
+        - '&e   наиболее популярные &fкоманды.'
+        - '&f   Посмотрим какие?'
+        - ''        
+      Panels:
+        material: orange_stained_glass_pane
+        display_name: '&cНазад'
+        left_click_commands:
+        - '[openguimenu] gmc'
+        right_click_commands:
+        - '[openguimenu] gmc'
+        slots:
+        - 2
+        - 3
+        - 5
+        - 6
+        - 45
+        - 46
+        - 52
+        - 53    

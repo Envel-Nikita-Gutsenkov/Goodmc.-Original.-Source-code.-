@@ -1,0 +1,833 @@
+# Name of the advent calendar inventory
+inventoryName: "&2&lРождественский календарь"
+# Number of days in the advent calendar
+days: 28
+# Choose whether the day number should be displayed as the item quantity in advent calendar GUI
+displayDayNumber: true
+# Choose whether players should be able to claim gifts from previous days they haven't claimed yet
+allowClaimingUnclaimedGifts: false
+# Choose whether it should be broadcasted globally when someone claims their gift
+broadcastClaimedInfo: false
+# Choose whether players should be notified about not claimed gifts when joining the server
+notifyUponLogin: false
+# Choose whether single or multiple gift groups should be given. Eg. when player is eligible to receive default & donor gifts, they receive only donor one (which has higher priority)
+giveSingleGifts: false
+# Maximal amount of enchantments which can be applied to an item (it applies to enchantment gifts)
+maxEnchantments: 3
+# Choose whether advent calendar windows should be displayed in shuffled order
+shuffleWindows: false
+# Choose whether windows should have 1 slot padding from each side of advent calendar for nicer display
+windowsPadding: true
+# Choose whether windows should be glass panes with random colors, regardless of placeholders settings below
+windowsRandomColorGlassPanes: false
+# Item to fill the empty slots of calendar with
+fillItem:
+  material: GRAY_STAINED_GLASS_PANE
+  name: " "
+placeholders:
+  # Item placeholder for already claimed gifts
+  claimed:
+    material: GREEN_STAINED_GLASS_PANE
+    # %day% is the placeholder for the day number
+    name: "&2&lДень %day%"
+    lore:
+      - "&8Уже получено."
+  # Item placeholder for gifts which weren't claimed but can be
+  unclaimed:
+    material: LIME_STAINED_GLASS_PANE
+    name: "&a&lДень %day%"
+    lore:
+      - "&8Нажми для получения!"
+  # Item placeholder for gifts which weren't claimed and can't be
+  expired:
+    material: YELLOW_STAINED_GLASS_PANE
+    name: "&c&lДень %day%"
+    lore:
+      - "&8Время истекло!"
+  # Item placeholder for today's gift
+  current:
+    material: LIME_STAINED_GLASS_PANE
+    name: "&a&lДень %day%"
+    lore:
+      - "&8Нажми для получения!"
+  # Item placeholder for gifts from upcoming days
+  upcoming:
+    material: RED_STAINED_GLASS_PANE
+    name: "&c&lДень %day%"
+    lore:
+      - "&8Не получено."
+  # Item placeholder for not configured gifts
+  unavailable:
+    material: RED_STAINED_GLASS_PANE
+    name: "&c&lДень %day%"
+    lore:
+      - "&8Недоступно."
+# Gift priorities. The format is PRIORITY:NAME (the name is used in the section below). Basically the higher priority, the earlier player will be checked for the christmasplus.adventcalendar.gift.NAME permissions. "default" is necessary and will be given to all players without any additional permission.
+# Example: with 1: default and 2: donor the player will be checked for christmasplus.adventcalendar.gift.donor first, if they don't have it they will receive the "default" one
+giftsPriorities:
+  1: default
+gifts:
+# Готово
+  14:
+    default:
+      multiple:
+        1:
+          type: item
+          item:
+            material: GOLD_INGOT
+            quantity: 5
+        2:
+          type: item
+          item:
+            material: DIAMOND
+            quantity: 1
+        3:
+          type: item
+          item:
+            material: DIAMOND_SWORD
+            amount: 1
+            enchantments:
+              - SHARPNESS:2
+              - LOOTING:1
+              - VANISHING_CURSE:1
+        4:
+          type: item
+          item:
+            material: CAKE
+            quantity: 1
+        5:
+          type: item
+          item:
+            material: COOKIE
+            quantity: 4
+# Готово
+  15:
+    default:
+      multiple:
+        1:
+          type: item
+          item:
+            material: IRON_INGOT
+            quantity: 8
+        2:
+          type: item
+          item:
+            material: EMERALD
+            quantity: 1
+        3:
+          type: item
+          item:
+            material: GOLD_INGOT
+            quantity: 3
+        4:
+          type: item
+          item:
+            material: CAKE
+            quantity: 1
+        5:
+          type: item
+          item:
+            material: COOKIE
+            quantity: 4
+# Готово
+  16:
+    default:
+      multiple:
+        1:
+          type: item
+          item:
+            material: SPRUCE_LEAVES
+            quantity: 64
+        2:
+          type: item
+          item:
+            material: SPRUCE_LOG
+            quantity: 16
+        3:
+          type: item
+          item:
+            material: DIAMOND
+            quantity: 2
+        4:
+          type: item
+          item:
+            material: CAKE
+            quantity: 1
+        5:
+          type: item
+          item:
+            material: COOKIE
+            quantity: 5
+        6:
+          type: item
+          item:
+            material: YELLOW_WOOL
+            quantity: 3
+        7:
+          type: item
+          item:
+            material: GREEN_WOOL
+            quantity: 3
+        8:
+          type: item
+          item:
+            material: RED_WOOL
+            quantity: 3
+        5:
+          type: command
+          commands:
+              - "me %PLAYER%, настало время построить елку. Поторопись, осталось не так много времени :)"
+  # Готово
+  17:
+    default:
+      multiple:
+        1:
+          type: item
+          item:
+            material: SHULKER_SHELL
+            quantity: 1
+        2:
+          type: command
+          commands:
+              - "me %PLAYER%, собирай подарки каждый день, чтобы получить от 1 до 3 шалкеров!"
+        3:
+          type: item
+          item:
+            material: CAKE
+            quantity: 1
+        4:
+          type: item
+          item:
+            material: COOKIE
+            quantity: 2
+        5:
+          type: item
+          item:
+            material: GOLD_INGOT
+            quantity: 2
+        6:
+          type: item
+          item:
+            material: DIAMOND
+            quantity: 1
+# Готово
+  18:
+    default:
+      multiple:
+        1:
+          type: item
+          item:
+            material: SNOWBALL
+            quantity: 16
+        2:
+          type: item
+          item:
+            material: IRON_HELMET
+            amount: 1
+            enchantments:
+              - PROTECTION_ENVIRONMENTAL:2
+              - VANISHING_CURSE:1
+              - BINDING_CURSE:1
+        3:
+          type: item
+          item:
+            material: GOLD_INGOT
+            quantity: 4
+        4:
+          type: item
+          item:
+            material: POTION
+            quantity: 1
+            potion:
+              type: LUCK
+        5:
+          type: item
+          item:
+            material: CAKE
+            quantity: 1
+        6:
+          type: item
+          item:
+            material: COOKIE
+            quantity: 4
+# Готово
+  19:
+    default:
+      multiple:
+        1:
+          type: item
+          item:
+            material: SNOW_BLOCK
+            quantity: 16
+        2:
+          type: item
+          item:
+            material: CARVED_PUMPKIN
+            quantity: 3
+        3:
+          type: item
+          item:
+            material: ENCHANTED_BOOK
+            amount: 1
+            enchantments:
+              - PROTECTION_ENVIRONMENTAL:2
+        4:
+          type: command
+          commands:
+              - "me %PLAYER%, как тебе идея сделать несколько снеговиков?"
+        5:
+          type: item
+          item:
+            material: CAKE
+            quantity: 1
+        6:
+          type: item
+          item:
+            material: COOKIE
+            quantity: 4
+# Готово
+  20:
+    default:
+      multiple:
+        1:
+          type: item
+          item:
+            material: DIAMOND
+            quantity: 2
+        2:
+          type: item
+          item:
+            material: IRON_INGOT
+            quantity: 7
+        3:
+          type: item
+          item:
+            material: GOLD_INGOT
+            quantity: 8
+        4:
+          type: item
+          item:
+            material: ENCHANTED_BOOK
+            amount: 1
+            enchantments:
+              - KNOCKBACK:1
+        5:
+          type: item
+          item:
+            material: CAKE
+            quantity: 1
+        6:
+          type: item
+          item:
+            material: COOKIE
+            quantity: 4
+# Готово
+  21:
+    default:
+      multiple:
+        1:
+          type: item
+          item:
+            material: PUMPKIN_PIE
+            quantity: 2
+        2:
+          type: item
+          item:
+            material: IRON_CHESTPLATE
+            amount: 1
+            enchantments:
+              - PROTECTION_ENVIRONMENTAL:1
+              - THORNS:1
+              - VANISHING_CURSE:1
+              - BINDING_CURSE:1
+        3:
+          type: item
+          item:
+            material: APPLE
+            quantity: 3
+        4:
+          type: item
+          item:
+            material: CAKE
+            quantity: 1
+        5:
+          type: item
+          item:
+            material: COOKIE
+            quantity: 4
+        6:
+          type: item
+          item:
+            material: DIAMOND
+            quantity: 1
+# Готово
+  22:
+    default:
+      multiple:
+        1:
+          type: item
+          item:
+            material: FISHING_ROD
+            quantity: 1
+        2:
+          type: item
+          item:
+            material: ENCHANTED_BOOK
+            amount: 1
+            enchantments:
+              - FORTUNE:1
+        3:
+          type: command
+          commands:
+              - "me %PLAYER%, давай наловим рыбы к Новому Году!"
+        4:
+          type: item
+          item:
+            material: CAKE
+            quantity: 1
+        5:
+          type: item
+          item:
+            material: COOKIE
+            quantity: 4
+        6:
+          type: item
+          item:
+            material: GOLD_INGOT
+            quantity: 8
+        7:
+          type: item
+          item:
+            material: ENDER_PEARL
+            quantity: 2
+# Готово
+  23:
+    default:
+      multiple:
+        1:
+          type: item
+          item:
+            material: EMERALD
+            quantity: 3
+        2:
+          type: item
+          item:
+            material: GOLDEN_APPLE
+            quantity: 1
+        3:
+          type: item
+          item:
+            material: POTION
+            quantity: 1
+            potion:
+              type: JUMP
+        4:
+          type: item
+          item:
+            material: CAKE
+            quantity: 1
+        5:
+          type: item
+          item:
+            material: COOKIE
+            quantity: 4
+        6:
+          type: item
+          item:
+            material: RABBIT_STEW
+            quantity: 1
+        7:
+          type: item
+          item:
+            material: IRON_INGOT
+            quantity: 4
+# Готово
+  24:
+    default:
+      multiple:
+        1:
+          type: item
+          item:
+            material: APPLE
+            quantity: 6
+        2:
+          type: item
+          item:
+            material: SADDLE
+            quantity: 1
+        3:
+          type: item
+          item:
+            material: GOLDEN_HORSE_ARMOR
+            quantity: 1
+        4:
+          type: item
+          item:
+            material: LEAD
+            quantity: 1
+        5:
+          type: command
+          commands:
+              - "me %PLAYER%, пора заводить новых друзей, найди лошадь и приручи ее! Она точно пригодится тебе в следующем году."
+        6:
+          type: item
+          item:
+            material: CAKE
+            quantity: 1
+        7:
+          type: item
+          item:
+            material: COOKIE
+            quantity: 8
+        8:
+          type: item
+          item:
+            material: GOLDEN_APPLE
+            quantity: 1
+  25:
+    default:
+      multiple:
+        1:
+          type: item
+          item:
+            material: IRON_INGOT
+            quantity: 12
+        2:
+          type: item
+          item:
+            material: POTION
+            quantity: 1
+            potion:
+              type: INSTANT_HEAL
+        3:
+          type: item
+          item:
+            material: GOLD_INGOT
+            quantity: 4
+        4:
+          type: command
+          commands:
+              - "me %PLAYER%, почему бы не украсить свои постройки к Новому Году?"
+        5:
+          type: item
+          item:
+            material: CAKE
+            quantity: 1
+        6:
+          type: item
+          item:
+            material: COOKIE
+            quantity: 4
+        7:
+          type: item
+          item:
+            material: YELLOW_WOOL
+            quantity: 3
+        8:
+          type: item
+          item:
+            material: GREEN_WOOL
+            quantity: 3
+        9:
+          type: item
+          item:
+            material: LIME_WOOL
+            quantity: 3
+        10:
+          type: item
+          item:
+            material: MAGENTA_WOOL
+            quantity: 3
+        11:
+          type: item
+          item:
+            material: ORANGE_WOOL
+            quantity: 3
+        12:
+          type: item
+          item:
+            material: RED_WOOL
+            quantity: 3
+  26:
+    default:
+      multiple:
+        1:
+          type: item
+          item:
+            material: GOLDEN_APPLE
+            quantity: 1
+        2:
+          type: item
+          item:
+            material: GOLD_INGOT
+            quantity: 3
+        3:
+          type: item
+          item:
+            material: IRON_INGOT
+            quantity: 6
+        4:
+          type: item
+          item:
+            material: SHULKER_SHELL
+            quantity: 1
+        5:
+          type: item
+          item:
+            material: CAKE
+            quantity: 1
+        6:
+          type: item
+          item:
+            material: COOKIE
+            quantity: 6
+        7:
+          type: item
+          item:
+            material: DIAMOND
+            quantity: 2
+        2:
+          type: item
+          item:
+            material: IRON_PICKAXE
+            amount: 1
+            enchantments:
+              - DIG_SPEED:2
+              - LOOT_BONUS_BLOCKS:1
+  # Готово
+  27:
+    default:
+      multiple:
+        1:
+          type: item
+          item:
+            material: GOLD_INGOT
+            quantity: 8
+        2:
+          type: item
+          item:
+            material: ENCHANTED_BOOK
+            amount: 1
+            enchantments:
+              - LOOT_BONUS_BLOCKS:1
+              - DIG_SPEED:2
+        3:
+          type: command
+          commands:
+              - "me Специально для тебя - новогодний фейерверк, %PLAYER%!"
+        4:
+          type: item
+          item:
+            material: CAKE
+            quantity: 1
+        5:
+          type: item
+          item:
+            material: COOKIE
+            quantity: 16
+        6:
+          type: item
+          item:
+            material: FIREWORK_ROCKET
+            amount: 6
+            damage: 0
+            quantity: 32
+            fireworkPower: 2
+            fireworkEffects:
+              1:
+                type: Ball_Large
+                colors:
+                 - PINK
+                 - CYAN
+                 - MAGENTA
+                fadeColors:
+                 - RED
+                 - ORANGE
+                flicker: true
+        7:
+          type: item
+          item:
+            material: FIREWORK_ROCKET
+            amount: 6
+            damage: 0
+            quantity: 32
+            fireworkPower: 2
+            fireworkEffects:
+              1:
+                type: Burst
+                colors:
+                 - YELLOW
+                 - MAGENTA
+                fadeColors:
+                 - GREEN
+                 - YELLOW
+                flicker: false
+              2:
+                type: Ball_Large
+                colors:
+                 - YELLOW
+                 - CYAN
+                 - BLUE
+                flicker: false
+                trail: false
+        8:
+          type: item
+          item:
+            material: FIREWORK_ROCKET
+            amount: 6
+            damage: 0
+            quantity: 32
+            fireworkPower: 3
+            fireworkEffects:
+              1:
+                type: Ball
+                colors:
+                 - PINK
+                 - ORANGE
+                fadeColors:
+                 - WHITE
+                 - RED
+                flicker: false
+              2:
+                type: Ball_Large
+                colors:
+                 - GREEN
+                 - LIME
+                 - WHITE
+                flicker: false
+                trail: false
+        9:
+          type: item
+          item:
+            material: DIAMOND
+            quantity: 2
+  # Готово
+  28:
+    default:
+      multiple:
+        1:
+          type: item
+          item:
+            material: DIAMOND
+            quantity: 3
+        2:
+          type: item
+          item:
+            material: FIREWORK_ROCKET
+            amount: 8
+            quantity: 32
+            damage: 0
+            fireworkPower: 2
+            fireworkEffects:
+              1:
+                type: BURST
+                colors:
+                 - MAGENTA
+                 - LIME
+                 - BROWN
+                fadeColors:
+                 - BLUE
+                flicker: true
+              2:
+                type: STAR
+                colors:
+                 - RED
+                 - YELLOW
+                flicker: true
+                trail: true
+        3:
+          type: item
+          item:
+            material: FIREWORK_ROCKET
+            amount: 6
+            damage: 0
+            quantity: 32
+            fireworkPower: 3
+            fireworkEffects:
+              1:
+                type: Ball
+                colors:
+                 - MAGENTA
+                 - LIME
+                 - YELLOW
+                fadeColors:
+                 - BLUE
+                flicker: true
+              2:
+                type: Ball_Large
+                colors:
+                 - GREEN
+                 - RED
+                flicker: false
+                trail: false
+        4:
+          type: item
+          item:
+            material: FIREWORK_ROCKET
+            amount: 6
+            damage: 0
+            quantity: 32
+            fireworkPower: 3
+            fireworkEffects:
+              1:
+                type: Ball_Large
+                colors:
+                 - PINK
+                 - CYAN
+                 - YELLOW
+                fadeColors:
+                 - BLUE
+                flicker: true
+              2:
+                type: Burst
+                colors:
+                 - LIGHT_BLUE
+                flicker: false
+                trail: false
+        5:
+          type: item
+          item:
+            material: FIREWORK_ROCKET
+            amount: 6
+            damage: 0
+            quantity: 16
+            fireworkPower: 2
+            fireworkEffects:
+              1:
+                type: Creeper
+                colors:
+                 - GREEN
+                fadeColors:
+                 - LIME
+                flicker: true
+        6:
+          type: command
+          commands:
+              - "me Держи еще немного ракет, %PLAYER%!"
+        7:
+          type: item
+          item:
+            material: CAKE
+            quantity: 1
+        8:
+          type: item
+          item:
+            material: COOKIE
+            quantity: 18
+        9:
+          type: item
+          item:
+            material: ENCHANTED_BOOK
+            amount: 1
+            enchantments:
+              - MENDING:1
+              - VANISHING_CURSE:1
+              - DURABILITY:2
+        10:
+          type: item
+          item:
+            material: ENCHANTED_BOOK
+            amount: 1
+            enchantments:
+              - PROTECTION_FIRE:2
+              - THORNS:2

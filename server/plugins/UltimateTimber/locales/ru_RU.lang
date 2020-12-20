@@ -1,13 +1,18 @@
 ######################################################
-# New messages added for UltimateTimber v2.0.6.      #
+# New messages added for UltimateTimber v2.2.        #
 #                                                    #
 # These translations were found untranslated, join   #
 # our translation Discord https://discord.gg/f7fpZEf #
 # to request an official update!                     #
 #                                                    #
-# event.killstreak.broke                             #
-# event.killstreak.broken                            #
-# event.killstreak.brokenannounce                    #
+# prefix                                             #
+# no-permission                                      #
+# command-reload-description                         #
+# command-reload-reloaded                            #
+# command-toggle-description                         #
+# command-toggle-enabled                             #
+# command-toggle-disabled                            #
+# on-cooldown                                        #
 ######################################################
 
 general:
@@ -82,3 +87,11 @@ gui:
     mobkillstype: Ð£Ð±Ð¸Ð¹Ñ?Ñ?Ð²Ð¾ Ð¼Ð¾Ð±Ð¾Ð²
     playerkillstype: Ð£Ð±Ð¸Ð¹Ñ?Ñ?Ð²Ð¾ Ð¸Ð³Ñ?Ð¾ÐºÐ¾Ð²
     killstreakstype: Ð¡ÐµÑ?Ð¸Ð¸ Ñ?Ð±Ð¸Ð¹Ñ?Ñ?Ð²
+prefix: '&8[&6UltimateTimber&8] '
+no-permission: '&cÐ£ Ð²Ð°Ñ? Ð½ÐµÐ´Ð¾Ñ?Ñ?Ð°Ñ?Ð¾Ñ?Ð½Ð¾ Ð¿Ñ?Ð°Ð².'
+command-reload-description: Ð?ÐµÑ?ÐµÐ·Ð°Ð³Ñ?Ñ?Ð·ÐºÐ° ÐºÐ¾Ð½Ñ?Ð¸Ð³Ñ?Ñ?Ð°Ñ?Ð¸Ð¸.
+command-reload-reloaded: '&7Ð?Ð¾Ð½Ñ?Ð¸Ð³Ñ?Ñ?Ð°Ñ?Ð¸Ñ? Ð¸ Ð»Ð¾ÐºÐ°Ð»Ñ?Ð½Ñ?Ðµ Ñ?Ð°Ð¹Ð»Ñ? Ð±Ñ?Ð»Ð¸ Ð¿ÐµÑ?ÐµÐ·Ð°Ð³Ñ?Ñ?Ð¶ÐµÐ½Ñ?.'
+command-toggle-description: Ð?ÐºÐ»Ñ?Ñ?Ð¸Ñ?Ñ?/Ð²Ñ?ÐºÐ»Ñ?Ñ?Ð¸Ñ?Ñ? Ñ?ÐµÐ¶Ð¸Ð¼ Ð¸Ð·Ð¼ÐµÐ»Ñ?Ñ?ÐµÐ½Ð¸Ñ?.
+command-toggle-enabled: '&7Ð ÐµÐ¶Ð¸Ð¼ Ð¸Ð·Ð¼ÐµÐ»Ñ?Ñ?ÐµÐ½Ð¸Ñ?: &aÐ?ÐºÐ»Ñ?Ñ?ÐµÐ½'
+command-toggle-disabled: '&7Ð ÐµÐ¶Ð¸Ð¼ Ð¸Ð·Ð¼ÐµÐ»Ñ?Ñ?ÐµÐ½Ð¸Ñ?: &cÐ?Ñ?ÐºÐ»Ñ?Ñ?ÐµÐ½'
+on-cooldown: '&eÐ¡Ñ?Ð°Ð±Ð¾Ñ?Ð°Ð» ÐºÑ?Ð»Ð´Ð°Ñ?Ð½, Ð²Ñ? Ð½Ðµ Ð¼Ð¾Ð¶ÐµÑ?Ðµ Ñ?Ñ?Ñ?Ð±Ð¸Ñ?Ñ? Ð´ÐµÑ?ÐµÐ²Ð¾ Ð¿Ñ?Ñ?Ð¼Ð¾ Ñ?ÐµÐ¹Ñ?Ð°Ñ?.'

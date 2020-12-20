@@ -54,7 +54,7 @@ change-displayname: true
 # This setting is ignored if EssentialsChat.jar is used, and defaults to 'true'.
 # The value of change-displayname (above) has to be true.
 # Do not edit this setting unless you know what you are doing!
-#add-prefix-suffix: false
+add-prefix-suffix: false
 
 # When this option is enabled, player prefixes will be shown in the playerlist.
 # This feature only works for Minecraft version 1.8 and higher.
@@ -83,7 +83,7 @@ teleport-delay: 6
 
 # The delay, in seconds, a player can't be attacked by other players after they have been teleported by a command.
 # This will also prevent the player attacking other players.
-teleport-invulnerability: 10
+teleport-invulnerability: 100
 
 # Whether to make all teleportations go to the center of the block; where the x and z coordinates decimal become .5
 teleport-to-center: true
@@ -230,9 +230,9 @@ pastebin-createkit: false
 enabledSigns:
   - color
   - balance
-  #- buy
+  - buy
   #- sell
-  #- trade
+  - trade
   #- free
   #- disposal
   - warp
@@ -294,7 +294,7 @@ debug: false
 # For example, to set language to English, set locale to en, to use the file "messages_en.properties".
 # Don't forget to remove the # in front of the line.
 # For more information, visit http://wiki.ess3.net/wiki/Locale
-#locale: en
+locale: ru
 
 # Turn off god mode when people leave the server.
 remove-god-on-disconnect: true
@@ -309,7 +309,7 @@ auto-afk: 900
 # After this timeout in seconds, the user will be kicked from the server.
 # essentials.afk.kickexempt node overrides this feature.
 # Set to -1 for no timeout.
-auto-afk-kick: 14500
+auto-afk-kick: -1
 
 # Set this to true, if you want to freeze the player, if the player is AFK.
 # Other players or monsters can't push the player out of AFK mode then.
@@ -433,7 +433,7 @@ world-time-permissions: false
 # Note: If you have a command that starts with ^, then you can escape it using backslash (\). e.g. \^command: 123
 command-cooldowns:
   cleanlight: 300
-#  '*': 5 # 5 Second cooldown on all commands
+  spawn: 21600
 
 # Whether command cooldowns should be persistent past server shutdowns
 command-cooldown-persistence: true
@@ -587,26 +587,15 @@ chat:
   # For more information of chat formatting, check out the wiki: http://wiki.ess3.net/wiki/Chat_Formatting
   # For EssentialsX changes, take a look at the EssentialsX wiki: https://github.com/EssentialsX/Essentials/wiki
 
-  format: '&f&l{DISPLAYNAME} &f&l➛&7&o {MESSAGE}'
+  format: '&f&l{DISPLAYNAME} {SUFFIX}&f&l➛&7&o {MESSAGE}'
   #format: '&7[{GROUP}]&r {DISPLAYNAME}&7:&r {MESSAGE}' &f&lElena &f&l➛ &7&oПривет! Это тестовое сообщение
   #format: '&7{PREFIX}&r {DISPLAYNAME}&r &7{SUFFIX}&r: {MESSAGE}'
   # &f#&7#&a#&2#&b#&3#&9#&d#&c#&6#&e#
 
   group-formats:
-    Default: '&f&l{DISPLAYNAME} &f&l➛&7&o {MESSAGE}'
+    Default: '&f&l{DISPLAYNAME} {SUFFIX} &f&l➛&7&o {MESSAGE}'
     administrator: '&f&l{DISPLAYNAME} &c⒜ &f&l➛&7&o {MESSAGE}'
-    moderator: '&f&l{DISPLAYNAME} &c⒨ &f&l➛&7&o {MESSAGE}'
-    via9: '&f&l{DISPLAYNAME} &c&o❤ &f&l➛&7&o {MESSAGE}'
-    via11: '&f&l{DISPLAYNAME} &e&o❤ &f&l➛&7&o {MESSAGE}'
-    via5: '&f&l{DISPLAYNAME} &b&o❤ &f&l➛&7&o {MESSAGE}'
-    via1: '&f&l{DISPLAYNAME} &f&o❤ &f&l➛&7&o {MESSAGE}'
-    via8: '&f&l{DISPLAYNAME} &d&o❤ &f&l➛&7&o {MESSAGE}'
-    via3: '&f&l{DISPLAYNAME} &a&o❤ &f&l➛&7&o {MESSAGE}'
-    via4: '&f&l{DISPLAYNAME} &2&o❤ &f&l➛&7&o {MESSAGE}'
-    via6: '&f&l{DISPLAYNAME} &3&o❤ &f&l➛&7&o {MESSAGE}'
-    via10: '&f&l{DISPLAYNAME} &6&o❤ &f&l➛&7&o {MESSAGE}'
-    via2: '&f&l{DISPLAYNAME} &7&o❤ &f&l➛&7&o {MESSAGE}'
-    via7: '&f&l{DISPLAYNAME} &9&o❤ &f&l➛&7&o {MESSAGE}'
+    moderator: '&f&l{DISPLAYNAME} &2⒨ &f&l➛&7&o {MESSAGE}'
 
   # If you are using group formats make sure to remove the '#' to allow the setting to be read.
 

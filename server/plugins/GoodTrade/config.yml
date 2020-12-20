@@ -1,74 +1,206 @@
-# The block you want to use as the shop.
+#                       ┏━━━┓╋╋╋╋╋╋╋┏┳━┓┏━┳━━━┓
+#                       ┃┏━┓┃╋╋╋╋╋╋╋┃┃┃┗┛┃┃┏━┓┃
+#                       ┃┃╋┗╋━━┳━━┳━┛┃┏┓┏┓┃┃╋┗┛
+#                       ┃┃┏━┫┏┓┃┏┓┃┏┓┃┃┃┃┃┃┃╋┏┓
+#                       ┃┗┻━┃┗┛┃┗┛┃┗┛┃┃┃┃┃┃┗━┛┃
+# ∙∙·▫▫ᵒᴼᵒ▫ₒₒ▫ᵒᴼᵒ▫ₒₒ▫ᵒᴼᵒ┗━━━┻━━┻━━┻━━┻┛┗┛┗┻━━━┛ᵒᴼᵒ▫ₒₒ▫ᵒᴼᵒ▫ₒₒ▫ᵒᴼᵒ▫▫·∙∙
+#
 shopBlock: 'minecraft:barrel'
 
-# The block you want to open the stock GUI.
+# The block you want to open the stock GUI
+# Stock GUI will be activated only by left clicking
 stockBlock: 'minecraft:end_portal_frame'
 
-# Allows to open the stock GUI using /shop stock.
+# Allows the use of shop blocks. Setting to false will disable players using specified shop block to open shop GUI
+# WARNING: Setting to false will allow breaking of existing shop blocks without deleting shop!
+enableShopBlock: true
+
+# Enable more than 1 shop block adding unlimited blocks listed below if true
+# WARNING: Removing previously set blocks from this list will allow breaking of existing shop blocks without deleting shop!
+multipleShopBlocks: false
+shopBlockList:
+  - minecraft:chest
+  - minecraft:crafting_table
+
+# Allows the use of stock blocks. Setting to false will disable players using specified stock block to open stock GUI
+enableStockBlock: true
+
+# Enable more than 1 stock block adding unlimited blocks listed below if true
+multipleStockBlocks: false
+stockBlockList:
+  - minecraft:ender_chest
+  - minecraft:jukebox
+
+# Disable creating shops in worlds listed below if true
+disableShopInWorld: true
+disabledWorldList:
+  - world_nether
+  - world_the_end
+
+# This enables admin shops that don't need stock. Created by typing /shop adminshop, requires ishop.admin permission
+enableAdminShop: false
+
+# Enable clickable chest item in self owned shop gui that will access stock
+enableStockAccessFromShopGUI: false
+
+# Allows players to access the stock GUI by typing /shop stock
+# Players with ishop.stock permission will bypass if disabled
 enableStockCommand: false
 
-# Number of pages to have in the stock GUI.
+# Number of pages to have in the stock GUI
 stockPages: 2
 
-# Amount of money needed to create a shop. 
-# Set to 0 to disable.
+# Enable sending of messages when players have purchased or sold item(s) from shops
+enableShopNotifications: true
+
+# Enable sending of missed sold item(s) from shops by using command /shop sold
+enableShopSoldMessage: true
+
+# Enable sending of message when player connects if items have been sold while offline
+enableSoldNotificationOnJoin: true
+
+# Only send sold notification 1 time when players first connects until they use /shop sold clear or server restarts
+onlyNotifySoldOnceUntilClear: true
+
+# Delay time in seconds after connecting to notify player of '/shop sold'
+soldNotificationsDelayTime: 50
+
+# Automatically clear shop sold list when player reaches end of list
+autoClearSoldListOnLast: false
+
+# Enable sending of messages to shop owners if item(s) are out of stock when players try to purchase
+enableOutOfStockMessages: true
+
+# Time in seconds before shop owner receives another message about being out of stock when someone tries to buy item(s)
+noStockCooldown: 600
+
+# Require player to own at least 1 shop to access stock
+mustOwnShopForStock: true
+
+# Amount of money needed to create a shop
+# Set to 0 to disable
 createCost: 0.0
 
-# Amount of money returned when deleting a shop. 
-# Set to 0 to disable.
+# Amount of money returned when deleting a shop
+# Set to 0 to disable
 returnAmount: 0.0
 
-# Amount of days of player inactivity before deleting theirs shops. 
-# Set to 0 to disable.
+# Amount of days a player is inactive before deleting their shops
+# Set to 0 to disable
 maxInactiveDays: 14
 
-# Delete block on shop remove
+# Delete block that the shop is located at when deleting a shop
 deleteBlock: false
 
-# Show particles in shop blocks
+# Show particle effects on active shop blocks
 showParticles: true
 
-# Require to set the trade-shop flag in the regions for it to work.
-# Only works if WorldGuard is installed.
+# Required to set the ishop flag in the regions for it to work
+# Only works if WorldGuard is installed
 enableWorldGuardFlag: false
 
-# Set wether you want to use permission nodes or not.
-# (set to false if you don't have a permission plugin).
+# Set whether you want to use permission nodes or not
+# Setting to false will allow any player to create a shop up to defaultShopLimit
+# Set to true if you have a permission plugin
 usePermissions: false
 
-# Only works if usePermissions is set to false.
-# If it's set to true, then you'll need to edit the limit via permission nodes.
-# Set to -1 to disable the limite
-defaultShopLimit: 3
+# Only works if usePermissions is set to false
+# If it's set to true, then you'll need to edit the limit via permission nodes for example; ishop.create.limit.5
+# Set to -1 to disable shop limit
+defaultShopLimit: 5
 
+# Allow everyone to remotely manage their own player shops using "/shop manage <id>" command
+remoteManage: false
 
-#TRANSLATIONS
-noPermissions: "&fНеизвестная команда О_о"
-deleteShop: "&f⚖ Теперь нажми на бочку, из которой хочешь удалить магазин."
-createShop: "&f⚖ Теперь нажми на бочку, из которой хочешь создать магазин."
-shopNotOwned: "&f⚖ Это не твой магазин и редактировать его нельзя :(" 
-shopDeleted: "&f⚖ Магазин удален."
-shopCreated: "&f⚖ Магазин создан."
-shopLimit: "&f⚖ Наши юристы сказали, что создавать так много магазинов нельзя."
-noItems: "&f⚖ Недостаточно для торговли."
-noStock: "&f⚖ В магазине не достаточно товара."
-noStockNotify: "&f⚖ В одном из твоих магазинов закончился товар! &o(%s)"
+# Allow everyone to use "/shop view <id>" command to view other players shop remotely
+remoteShopping: false
+
+# Allow everyone to use "/shop list <player>" command to view full list of given players shops with location
+publicListCommand: false
+
+# Allow everyone to use "/shop shops" command to view all found player shops
+publicShopListCommand: false
+
+# This will show admin shops when using "/shop shops" -- Requires server restart if config option changed!
+adminShopPublic: false
+
+# Setting this to false will hide shops that player owns when using command "/shop shops"
+publicShopListShowsOwned: false
+
+# Allow shop owners and admins to place item frames and signs on shop blocks when sneaking
+placeItemFrameSigns: true
+
+# Setting to true will protect shop blocks from explosions
+protectShopBlocksFromExplosions: true
+
+# Customizable Messages
+adminShop: "Магическая торговая ячейка #%id"
+adminShopDisabled: "&cМагические торговые ячейки отключены!"
+broadcastOff: "⚖ Уведомления выключены"
+broadcastOn: "⚖ Уведомления включены"
 buy: "&f⚖ Куплено&8 %in &fза&8 %out&f."
-sell: "&f⚖ %p продано &8 %in &f за&8 %out&f."
-noMoney: "&f⚖ У тебя нет достаточно денег, чтобы создать магазин. Нужно хотя бы &o$"
-reload: "&f⚖ Перезагрузили конфигурацию и надеемся, что ничего не сломали."
-adminShop: "Редактирование своего магазина"
-normalShop: "Магазин %player%"
-sellTitle: "Продаем"
-buyTitle: "Продаем за"
-deleteTitle: "УДАЛИТЬ"
-createTitle: "СОЗДАТЬ"
-broadcastOn: "Уведомления включены"
-broadcastOff: "Уведомления выключены"
-createShopTitle: "Создание магазина"
-stockTitle: "Склад магазина"
-page: "Страница"
 buyAction: "КУПИТЬ"
+buyTitle: "Продаем за"
+buyTitle2: "Продаем за"
+createShopTitle: "Создание торговой ячейки"
+deleteTitle: "&cУДАЛИТЬ"
+createTitle: "&aСОЗДАТЬ"
+disabledShopBlock: "⚖ Невозможно создать местоположение магазина, если блоки торговой ячейки отключены!"
+existingShop: "⚖ Невозможно создать торговую ячейку там, где уже находится торговая ячейка!"
+foundShops: "⚖ Найдено&a %shops &6торговых точек у игрока:&a %p"
+location: "⚖ Торговая ячейка&a %id находится XYZ: "
+noItems: "&f⚖ Недостаточно ресурсов для торговли."
+noMoney: "&f⚖ У тебя нет достаточно денег, чтобы создать торговую ячейку. Нужно хотя бы &o$"
+noPermissions: "&fНеизвестная команда О_о"
+noPlayerFound: "⚖ Игрок не найден!"
+noPlayerShop: "⚖ Имя игрока не существует! Что ты от меня хочешь?!"
+noRemoteManage: "⚖ Удаленное управление отключено!"
+noRemoteShops: "⚖ Удаленное управление отключено!"
+normalShop: "Торговая ячейка %player% #%id"
+noShopFound: "⚖ Торговых ячеек не найдено!"
+noShopStock: "⚖ Склад недоступен, так как вы ничего не продаете."
+noStock: "⚖ Товар отсутствует на складе."
+noStockNotify: "⚖ В твоей торговой ячейке закончился товар: (%s)"
+page: "Страница"
+playerInventoryFull: "⚖ Ваш инвентарь полон. Покупка отменена."
+playerShopCreated: "⚖ Создали торговую ячейку %p"
+reload: "&f⚖ Перезагрузили конфигурацию и надеемся, что ничего не сломали."
+sell: "&f⚖ %p продано &8 %in &f за&8 %out&f."
+sellTitle: "Продаем"
+sellTitle2: "Продаем"
+shopBusy: "⚖ Торговая ячейка в настоящее время занята, попробуй еще раз в ближайшее время!"
+shopCreated: "⚖ Торговая ячейка была создана!"
+shopDeleted: "⚖ Торговая ячейка была удалена!"
+shopIDDeleted: "⚖ Торговая ячейка %id была удалена!"
+shopIntegerError: "⚖ Номер торговой ячейки должен быть целым числом больше 0!"
+shopLimit: "&f⚖ Наши юристы сказали, что создавать так много торговых ячеек нельзя."
+shopNotOwned: "&f⚖ Это не твоя торговую точку и редактировать ее нельзя :("
+stockCommandDisabled: "⚖ Команда /shop stock отключена!"
+stockTitle: "Склад торговой ячейки"
+targetMismatch: "⚖ Сначала установи бочку, после чего напиши эту команду."
+clickManage: "&eУправление"
+clickShop: "&eТорговая ячейка"
+listAdminShop: "⚖ Все магические торговые ячейки:"
+noAdminShopsFound: "⚖ Не найдено магических торговых ячеек!"
+noShopBlock: "&cERROR GoodTrade: shopBlock cannot be empty! Reverting to default"
+noStockBlock: "&cERROR GoodTrade: stockBlock cannot be empty! Reverting to default"
+notPlayer: "⚖ Только игроки могут использовать этму команду..."
+shopListTitle: "Список торговых ячеек"
+shopNumber: "Торговая ячейка %player #%id"
+shopListDisabled: "⚖ Список торговых ячеек отключен!"
+adminShopNumber: "Магическая торговая ячейка #%id"
+noStockButton: "Товар отсутствует на складе"
+stockIntegerError: "&cERROR GoodTrade: Stock page must be an integer greater than 0!"
+soldClear: "⚖ Список проданных товаров магазина был очищен"
+soldCommandDisabled: "⚖ Команда /shop sold отключена!"
+soldHeader: "⚖ Пока тебя не было, мы продали товары (Страница %p):"
+soldIntegerError: "&cERROR GoodTrade: Sold page must be an integer greater than 0!"
+soldJoinNotify: "&fВведи &a/shop sold&f для просмотра проданных товаров или &a/shop sold clear &fдля очистки."
+soldNothing: "⚖ Мы ничего не продали, пока тебя не было."
+soldPages: "&7Страница %p"
+soldPagesNext: " &7>> &6Дальше"
+soldPagesPrevious: "&6Назад &7<< "
+disabledWorld: "⚖ Этот мир опасен и никто не посещает его. Мне не нужна здесь торговая ячейка..."
 
-# Do not edit this
-configVersion: 1.6
+# Do not edit this!
+configVersion: 2.7

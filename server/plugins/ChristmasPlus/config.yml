@@ -1,0 +1,80 @@
+database:
+  # Database backend type, can be set to mysql or sqlite
+  type: sqlite
+  # MySQL database host
+  mySQLHost: localhost
+  # MySQL connection port number
+  mySQLPort: 3306
+  # MySQL database name
+  mySQLDatabase: db
+  # MySQL database user
+  mySQLUser: root
+  # MySQL user's password
+  mySQLPassword: ""
+  # MySQL table names
+  tableNames:
+    players: "players"
+    temp: "temp"
+santaClausEvent:
+  # Name of the santa claus entity
+  santaName: "&cСанта-Клаус"
+  # Username whose skin will be used for santa claus. Basically you can use whatever you want, here are some with the santa claus skin set: http://i.imgur.com/ULQ0rXf.png
+  # IMPORTANT: THIS PLAYER CAN'T BE ONLINE ON THE SERVER! It's recommended to use on of these listed above.
+  santaSkin: "santa"
+  # Choose whether santa should leave a nice snow trail behind him
+  enableSnowTrail: true
+  # Snow trail updater task interval (in ticks), the lower = the nicer effect but lower performance
+  snowTrailUpdateInterval: 10
+  # Choose whether santa should drop christmas gifts (configured below in the gifts section)
+  enableGiftsDrop: false
+  # Choose whether gifts should be dropped in random directions instead of where the santa is looking at (true = random, false = santa's direction)
+  giftsDropRandomDirection: false
+  # Interval between dropping a gift (in seconds)
+  giftsDropInterval: 3000
+  # Default duration of the santa event (in seconds), it is used when the duration isn't specified in the /christmas start santa [time] command
+  defaultDuration: 300
+  # Gifts which will be dropped by santa
+  gifts:
+    # Gift ID, value doesn't matter but has to be unique
+    1:
+      # Chance to drop this gift (out of total of chances of all gifts listed below, it DOESN'T HAVE to sum up to 1.0)
+      chance: 0.6
+      # Gift item, more info: https://docs.brcdev.net/#/item-meta
+      item:
+        material: APPLE
+        quantity: 1
+    2:
+      chance: 0.3
+      item:
+        material: GOLD_INGOT
+        quantity: 1
+    3:
+      chance: 0.3
+      item:
+        material: IRON_INGOT
+        quantity: 1
+    4:
+      chance: 0.001
+      item:
+        material: DIAMOND
+        quantity: 1
+  # Choose whether chunk where's Santa's about to spawn should be force-loaded, it may be performance-heavy but useful for bigger worlds
+  forceChunkLoad: true
+  # Locations of Santa's random spawns and their chances (optional). More info in the plugin description
+  locations: { }
+snow:
+  # Choose whether snow particle effect will be enabled
+  enable: false
+  # Choose the snow level. There are 5 levels (1-5)
+  level: 1
+  # Choose worlds to disable snow effect in (set to [] for none)
+  disableInWorlds:
+    - world_nether
+# Choose sounds for certain player actions. Full list is available at https://docs.brcdev.net/#/sounds
+sounds:
+  ADVENT_CALENDAR_OPEN: UI_BUTTON_CLICK
+  ADVENT_CALENDAR_CLAIM: UI_BUTTON_CLICK
+  ADVENT_CALENDAR_CANNOTCLAIM: UI_BUTTON_CLICK
+  CRACKER_OPEN: ENTITY_GENERIC_EXPLODE
+  SANTA_SPAWN: ENTITY_EXPERIENCE_ORB_PICKUP
+  SANTA_DESPAWN: ENTITY_EXPERIENCE_ORB_PICKUP

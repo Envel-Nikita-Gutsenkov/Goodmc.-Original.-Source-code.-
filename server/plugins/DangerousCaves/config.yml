@@ -6,7 +6,7 @@
 #┗━━━┻━━┻━━┻━━┻┛┗┛┗┻━━━┛
 #
 # Version of this configuration file
-version: 18
+version: 22
 
 # NOTE: Chances
 # All the chances are in percents
@@ -58,6 +58,7 @@ caverns:
 
   # Cave-Ins - blocks may fall down when mining
   ins:
+    enabled: true
     # List of worlds where cave-in may appear
     worlds:
       - world
@@ -82,6 +83,7 @@ caverns:
 
   # Ambient Sounds - special sound may be played underground
   ambient:
+    enabled: true
     # List of worlds where ambient sounds can be played
     worlds:
       - world
@@ -116,6 +118,7 @@ caverns:
 
   # Depth Hypoxia - will cause player to move and dig slower
   hypoxia:
+    enabled: true
     # List of worlds where players can sense hypoxia
     worlds:
       - world
@@ -149,6 +152,7 @@ caverns:
 
   # Caves Aging - over time caves will get some vines and rocks
   aging:
+    enabled: true
     # List of worlds where aging will be processed
     worlds:
       - mine
@@ -202,7 +206,7 @@ caverns:
 # Generator-related things
 #
 generator:
-
+  enabled: true
   # Force Dangerous Caves' generator to wait for other plugins (other generators)
   wait-other: true
 
@@ -297,7 +301,7 @@ generator:
 # Mob-related things
 #
 mobs:
-
+  enabled: true
   # Chance of spawning custom mob instead of vanilla one
   try-chance: 25
 
@@ -311,11 +315,13 @@ mobs:
   y-max: 35
 
   # (Paper only) Use PreCreatureSpawnEvent when trying to spawn mobs. More performance-friendly, but a bit less accurate
-  use-prespawn: false
-  
+  use-prespawn: true
+
   # Block renaming with name-tags
   restrict-rename: false
 
+  # Maximal light level where mobs can spawn. Vanilla level for monsters is 7. Set to 16 or more to disable
+  max-light-level: 7
   # Only these mobs will be replaced
   replace-mobs:
     - ZOMBIE
@@ -383,7 +389,7 @@ mobs:
       - DIRT
       - COAL
       - TORCH
-
+    death-sound: true
   # Hexed Armor
   # When attacks gives player all its armor
   hexed-armor:
@@ -446,6 +452,7 @@ mobs:
     health: 20
     # Radius in blocks
     harm-radius: 3
+    max-light: 4
 
   # TNT Creeper
   # Spawns additional TNT when explodes and creates small explosion when damaged
@@ -461,7 +468,7 @@ mobs:
   # Watcher
   # Just jumpscares a player
   watcher:
-    priority: 4
+    priority: 6
     name: "ዜάচለਠ∂ǻ⍡℮Ꮑ৮"
     health: 40
     # Get your custom head here https://minecraft-heads.com/
@@ -487,7 +494,7 @@ mobs:
   # Has strong attack, can be damaged only with pickaxe, drops its head on death
   cave-golem:
     priority: 1
-    health: 40
+    health: 20
     name: "Пещерный голем"
     # Give Cave Golem slowness effect
     slowness: true
@@ -503,3 +510,4 @@ mobs:
       - IRON_ORE
       - GOLD_ORE
       - LAPIS_ORE
+    spawn-from-block: 0.5

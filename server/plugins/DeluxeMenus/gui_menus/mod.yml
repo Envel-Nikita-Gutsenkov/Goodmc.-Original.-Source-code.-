@@ -1,0 +1,88 @@
+    menu_title: '&c&lМодерация'
+    open_command:
+    - modgui
+    size: 5
+    items:
+      '0':
+        material: bedrock
+        slot: 0
+        view_requirement:
+          requirements:
+            complete:
+             type: has permission
+             permission: 'gmc.gui.moderator'
+        display_name: '&6Открыть интерфейс модератора'
+        lore:
+        - ''
+        - '&e Откроем интерфейс'
+        - '&e модерации - тикеты,'
+        - '&e репорты, история.'
+        - ''
+        - '&e /um'
+        - ''
+        left_click_commands:
+        - '[player] um'
+        right_click_commands:
+        - '[player] um'
+      '1':
+        material: barrier
+        slot: 1
+        view_requirement:
+          requirements:
+            complete:
+             type: has permission
+             permission: 'gmc.gui.hardaction.1'
+        display_name: '&6Очистить инспектор'
+        lore:
+        - ''
+        - '&e Запускайте время от'
+        - '&e времени. Достаточно'
+        - '&e раз в месяц - два.'
+        - ''
+        - '&e Очистит старые логи'
+        - '&e и освободит много места.'
+        - ''
+        - ''
+        - '&e ЛКМ - серьезная очистка.'
+        - ''
+        - '&e ПКМ - слабая очистка'
+        - ''
+        left_click_commands:
+        - '[console] co purge t:730d #optimize'
+        - '[console] lp user %player_name% permission settemp gmc.gui.hardaction.1 false 1h'
+        - '[message]&6➦ Что-то запустили.'
+        - '[close]'
+        right_click_commands:
+        - '[console] co purge t:90d a:click'
+        - '[console] lp user %player_name% permission settemp gmc.gui.hardaction.1 false 1h'
+        - '[message]&6➦ Что-то запустили.'
+        - '[close]'
+      '2':
+        material: tnt
+        slot: 2
+        view_requirement:
+          requirements:
+            complete:
+             type: has permission
+             permission: 'gmc.gui.hardaction.2'
+        display_name: '&6Рестарт сервера'
+        lore:
+        - ''
+        - '&e Перезагрузим сервер в'
+        - '&e экстренных случаях.'
+        - ''
+        - '&e ВНИМАНИЕ! Не используйте'
+        - '&e этот пункт, сервер умеет'
+        - '&e перезагружаться сам время'
+        - '&e от времени.'
+        - ''
+        left_click_commands:
+        - '[console] lp user %player_name% permission settemp gmc.gui.hardaction.2 false 1h'
+        - '[console] asw restart'
+        - '[message]&6➦ Что-то запустили.'
+        - '[close]'
+        right_click_commands:
+        - '[console] lp user %player_name% permission settemp gmc.gui.hardaction.2 false 1h'
+        - '[console] asw restart'
+        - '[message]&6➦ Что-то запустили.'
+        - '[close]'

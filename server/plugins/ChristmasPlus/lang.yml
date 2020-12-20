@@ -1,0 +1,103 @@
+PREFIX: '&cНовогодний эвент &a> '
+LANG:
+  CONSOLE: Санта-Клаус
+TIME:
+  NOW: сейчас
+  LESSTHAN: менее чем %time%
+  YEARS:
+    SINGULAR: год
+    PLURAL: лет
+  MONTHS:
+    SINGULAR: месяц
+    PLURAL: месяцев
+  WEEKS:
+    SINGULAR: неделя
+    PLURAL: недель
+  DAYS:
+    SINGULAR: день
+    PLURAL: дней
+  HOURS:
+    SINGULAR: час
+    PLURAL: часов
+  MINUTES:
+    SINGULAR: минута
+    PLURAL: минут
+  SECONDS:
+    SINGULAR: секунда
+    PLURAL: секунд
+MSG:
+  INGAMEONLY: This command can be used only in the game.
+  ERROR: An error occured when executing this command.
+  NOACCESS: You don't have access to do this.
+  PLAYERONLY: This command can be used only in the game.
+  INVALIDTIME: Invalid time format specified.
+  INVALIDPLAYER: Invalid player name specified.
+  INVALIDAMOUNT: Invalid amount specified.
+  USAGE:
+    CHRISTMAS: 'Invalid command usage. Correct usage: /christmas <start|stop|reload>'
+    CRACKER: 'Invalid command usage. Correct usage: /cracker <list|get|give>'
+    SUBCOMMAND: 'Invalid command usage. Correct usage: %usage%'
+  CRACKER:
+    DISABLED: Crackers are disabled by administrator.
+    INVALIDCRACKER: Invalid cracker specified.
+    LIST: 'Available crackers: %crackers%'
+    GET:
+      SINGLEONLY: You can get only one cracker at a time.
+      RECEIVED: You received %amount% x %cracker%.
+    GIVE:
+      GIVEN: You gave %amount% x %cracker% to %player%.
+      GIVENBY: You received %amount% x %cracker%.
+  CHSRISTMAS:
+    INVALIDEVENT: Invalid event name specified.
+  CHRISTMAS:
+    SANTA:
+      NOLIBSDIGUISES: Santa event is disabled due to no LibsDisguises plugin found.
+      INVALIDLOCATION: Invalid or missing santa spawn location specified.
+      GIFT: Санта только что уронил подарок!
+    RELOAD:
+      RELOADED: Configuration reloaded!
+    START:
+      ALREADYRUNNING: The %event% event is already in progress.
+      NORANDOMLOCATIONS: Can't start the event in random locations. There are no locations
+        set in config.yml.
+      SANTA:
+        STARTED:
+          STARTED: You have started the Santa Claus event for %time%.
+          BROADCAST: Санта ждет вас в мире %world% на координатах x=%x%, y=%y%, z=%z%,
+            и будет там еще %time%.
+    STOP:
+      NOTRUNNING: The %event% event isn't running.
+      SANTA:
+        STOPPED:
+          STOPPED: You have stopped the Santa Claus event.
+          BROADCAST: Санта отошел, он увидит вас в следующий раз!
+  ADVENTCALENDAR:
+    CANTCLAIM:
+      EXPIRED: Ты не можешь получить подарки прошлых дней. Заходи в игру каждый день,
+        чтобы больше ничего не пропустить!
+      UPCOMING: Этот подарок еще не доступен.
+      CLAIMED: Ты уже получал этот подарок.
+      UNAVAILABLE: Этот подарок не доступен.
+    CLAIM:
+      ENCHANT:
+        CANNOTAPPLY: Enchantment %enchantment% cannot be applied to the item you're
+          holding.
+        ALREADYAPPLIED: This item already has %enchantment% applied.
+        MAX: This item already has the maximum amount of enchantments (%amount%).
+      ITEM:
+        FULLINVENTORY: У тебя недостаточно свободного места в инвентаре.
+      PERMISSION:
+        DISABLED: Permissions are disabled, please contact an administrator.
+        ALREADYHAVE: You already have the %permission% permission.
+      CLAIMED: Подарок получен, приходи завтра :)
+      CLAIMEDBROADCAST: '%player% has claimed the advent calendar day %day% gift.'
+    NOTIFICATION: You haven't claimed today's gift from the advent calendar.
+    NOTDECEMBER: Ты можешь претендовать на подарки только в декабре.
+    RESET:
+      PLAYER:
+        ALL: You have reset the advent calendar for %player%.
+        DAY: You have reset day %day% in advent calendar for %player%.
+    TEST:
+      ENABLED: You have enabled testing mode of advent calendar for yourself. Use
+        the same command again to disable it.
+      DISABLED: You have disabled testing mode of advent calendar for yourself.

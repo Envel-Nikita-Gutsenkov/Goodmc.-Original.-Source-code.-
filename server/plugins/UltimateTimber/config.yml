@@ -348,7 +348,7 @@ trees:
     leaf-loot:
       0:
         material: DARK_OAK_SAPLING
-        chance: 0.5
+        chance: 0.9
       1:
         material: APPLE
         chance: 0.05
