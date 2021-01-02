@@ -1,0 +1,54 @@
+Main:
+
+  # The anchor name tag used on the item and in the hologram.
+  Name Tag: '&5Пространственный якорь &8(&7{REMAINING}&8)'
+
+  # The lore on the anchor item. '&7Поставь его в чанке,|&7чтобы держать чанк|&7загруженным до тех пор,|&7пока не закончится время...'
+  Anchor Lore: '&7Поставь его в чанке, чтобы|&7держать чанк загруженным|&7до тех пор, пока не|&7закончится время...'
+
+  # The material an anchor is represented with?
+  Anchor Block Material: ANVIL
+
+  # Should players be able to add time to their anchors
+  # by using economy?
+  Add Time With Economy: true
+
+  # The cost in economy to add 30 minutes to an anchor.
+  Economy Cost: 2.0
+
+  # Should players be able to add time to their anchors
+  # by using experience?
+  Add Time With XP: true
+
+  # The cost in experience to add 30 minutes to an anchor.
+  XP Cost: 5
+
+  # Should players be able to break anchors?
+  Allow Anchor Breaking: true
+
+  # Toggle holograms showing above anchors.
+  Holograms: true
+
+  # Which economy plugin should be used?
+  # Supported plugins you have installed: "".
+  Economy: Vault
+
+Interfaces:
+
+  # Item to be displayed as the icon for economy upgrades.
+  Economy Icon: SUNFLOWER
+
+  # Item to be displayed as the icon for XP upgrades.
+  XP Icon: EXPERIENCE_BOTTLE
+
+  Glass Type 1: GRAY_STAINED_GLASS_PANE
+
+  Glass Type 2: BLUE_STAINED_GLASS_PANE
+
+  Glass Type 3: LIGHT_BLUE_STAINED_GLASS_PANE
+
+System:
+
+  # The enabled language file.
+  # More language files (if available) can be found in the plugins data folder.
+  Language Mode: ru_RU

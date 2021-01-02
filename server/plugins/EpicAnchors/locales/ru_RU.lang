@@ -1,0 +1,31 @@
+# Основные сообщения
+
+general:
+  nametag:
+    prefix: '&8[&6Пространственные якори&8]'
+  word:
+    infinite: Бесконечный
+# Сообщения интерфейса
+interface:
+  button:
+    addtimewithxp: '&aДобавить 30 минут за опыт'
+    addtimewithxplore: '&7Стоимость: &a%cost% Уровней'
+    addtimewitheconomy: '&aДобавить 30 минут за валюту'
+    addtimewitheconomylore: '&7Стоимость: &a$%cost%'
+    infinite: '&cНе удается обновить бесконечный якорь!'
+  anchor:
+    title: '&5Пространственный якорь'
+    smalltitle: '&5Пространственный якорь'
+# Сообщение команд
+command:
+  give:
+    success: '&7Вы получили Якорь для чанков.'
+  show:
+    start: '&7Якорный визуализатор &2включен.'
+    stop: '&7Якорный визуализатор &cвыключен.'
+# Сообщения событий
+event:
+  general:
+    nopermission: '&cУ вас недостаточно прав.'
+  upgrade:
+    cannotafford: '&cК сожалению, такого ресурса у вас нет.'
