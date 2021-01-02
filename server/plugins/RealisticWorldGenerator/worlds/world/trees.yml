@@ -1,5 +1,5 @@
 grow:
-  replaceBlocks: false
+  replaceBlocks: true
 saplings:
   pine:
   - gmc_newspruce_1
@@ -8,6 +8,11 @@ saplings:
   - gmc_newspruce_4
   - gmc_newspruce_5
   - gmc_newspruce_6
+  - gmc_newbigspruce_1
+  - gmc_newbigspruce_2
+  - gmc_newbigspruce_3
+  - gmc_newbigspruce_4
+  - gmc_newbigspruce_5
   birch:
   - gmc_BIRCH_TREE_4
   - gmc_BIRCH_TREE_3
@@ -21,6 +26,9 @@ saplings:
   - BIG_OAK_TREE_2
   - BIG_OAK_TREE_3
   - BIG_OAK_TREE_4
+  - gmc_newbigoaktree_3
+  - gmc_newbigoaktree_2
+  - gmc_newbigoaktree_1
   dark:
   - gmc_newhillsdarkoak_1
   - gmc_newhillsdarkoak_2
