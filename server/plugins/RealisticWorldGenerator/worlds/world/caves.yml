@@ -1,27 +1,68 @@
 caves:
+  water_caves:
+    enabled: true
+  types:
+  - 7
   cave:
+    '1':
+      lava:
+        min: 5
+        max: 22
+      chance:
+        random: 500
+        one: 45
+        two: 5
+      airhits:
+        min: 10
+        max: 70
+      radius:
+        min: 1
+        max: 4
+    '2':
+      lava:
+        min: 5
+        max: 22
+      chance:
+        random: 500
+        one: 3
+      length:
+        min: 50
+        max: 150
     '3':
       octaves: 1
       lava-lavel: 12
       amplitude: 1
+      lava: 6
       frequency: 1
     '4':
       max_noise: 128
+      lava: 7
+      max_height: 4
       frequency: 2
     '5':
+      lava: 7
       heights:
         '1': 64
         '2': 32
         '3': 16
+      fill_block: minecraft:air
       radius: 3
       iterations: 1
     '6':
+      lava: 7
       heights:
         '1': 64
         '2': 32
         '3': 16
+      fill_block: minecraft:air
       radius: 3
       iterations: 2
+    '7':
+      lava: 7
+      amplitude: 8192.0
+      density: 0.7
+      scale: 0.08
+      frequency: 0.025
   spawnrate: 50
   type: 5
   enabled: true

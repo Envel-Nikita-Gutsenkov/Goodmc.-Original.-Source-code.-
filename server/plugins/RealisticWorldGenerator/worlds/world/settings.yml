@@ -1,3 +1,11 @@
+mobs:
+  vanilla: false
+strongholds:
+  schematics:
+  - STRONGHOLD
+  enabled: true
+  height:
+    min: 15
 customization:
   mob_spawning:
     enabled: false
@@ -17,6 +25,8 @@ customization:
     - ice
   ocean:
     block: minecraft:water[level=0]
+  bedrock:
+    flat: false
   biomes:
     replaced:
       BEACH: BEACH
@@ -33,3 +43,51 @@ customization:
   sugarcane:
     spawn: true
     chance: 7
+biomes:
+  replaced:
+    BEACH: BEACH
+  default_minecraft: false
+decay:
+  radius:
+    X: 7
+    y: 8
+    Z: 7
+mineshaft:
+  default-weight: 1.0
+  default:
+  - MineshaftDefault::1.0
+  dark:
+  - MineshaftDefault::1.0
+  spruce:
+  - MineshaftDefault::1.0
+rtp:
+  radius:
+    X: 5000
+    Z: 5000
+sugarcane:
+  spawn: true
+  chance: 7
+mob_spawning:
+  enabled: true
+one_biome:
+  biome: JUNGLE
+  enabled: false
+tree_spawning:
+  allowed_blocks:
+  - GRASS_BLOCK
+  - DIRT
+  - COARSE_DIRT
+  - PODZOL
+  - SAND
+  - SNOW_BLOCK
+  - PACKED_ICE
+  - ICE
+ocean:
+  block: minecraft:water[level=0]
+bedrock:
+  flat: false
+flat_spawn:
+  radius: 40
+  fading: 20
+  enabled: false
+  height: 70

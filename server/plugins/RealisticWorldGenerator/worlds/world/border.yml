@@ -1,0 +1,4 @@
+border:
+  behind: 10
+  radius: 100
+  enabled: false

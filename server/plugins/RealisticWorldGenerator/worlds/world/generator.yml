@@ -157,7 +157,12 @@ generators:
       frequency: 1.0
       height: 0.5
   generate:
-    villages: true
+    villages:
+      chance: 19
+      enabled: true
+    mineshafts:
+      chance: 16
+      enabled: false
   sea:
     level: 64
   height:

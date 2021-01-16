@@ -20,7 +20,7 @@ biomes:
     trees:
       chance:
         weight: 1.0
-        random: 1.0E4
+        random: 10000.0
         min: 0.0
         max: 400.0
       trees:
@@ -89,17 +89,10 @@ biomes:
     entities:
       chance:
         weight: 1.0
-        random: 16.0
+        random: 0.0
         min: 0.0
         max: 1.0
-      entities:
-      - CHICKEN::5.0
-      - PIG::5.0
-      - SHEEP::6.0
-      - COW::4.0
-      - PANDA::0.1
-      - OCELOT::0.4
-      - PARROT::0.3
+      entities: []
   JUNGLE_HILLS:
     overlay:
       chance: 2
@@ -112,11 +105,10 @@ biomes:
       - minecraft:tall_grass;2100
       - minecraft:large_fern;2100
       - minecraft:blue_orchid;100
-      - minecraft:bamboo_sapling;100
     trees:
       chance:
         weight: 1.0
-        random: 1.0E4
+        random: 10000.0
         min: 0.0
         max: 400.0
       trees:
@@ -185,17 +177,10 @@ biomes:
     entities:
       chance:
         weight: 1.0
-        random: 16.0
+        random: 0.0
         min: 0.0
         max: 1.0
-      entities:
-      - CHICKEN::5.0
-      - PIG::5.0
-      - SHEEP::6.0
-      - COW::4.0
-      - PANDA::0.1
-      - OCELOT::0.4
-      - PARROT::0.3
+      entities: []
   JUNGLE_MOUNTAINS:
     overlay:
       chance: 2
@@ -211,7 +196,7 @@ biomes:
     trees:
       chance:
         weight: 1.0
-        random: 1.0E4
+        random: 10000.0
         min: 0.0
         max: 400.0
       trees:
@@ -280,17 +265,10 @@ biomes:
     entities:
       chance:
         weight: 1.0
-        random: 16.0
+        random: 0.0
         min: 0.0
         max: 1.0
-      entities:
-      - CHICKEN::5.0
-      - PIG::5.0
-      - SHEEP::6.0
-      - COW::4.0
-      - PANDA::0.1
-      - OCELOT::0.4
-      - PARROT::0.3
+      entities: []
   FOREST:
     overlay:
       chance: 4
@@ -306,9 +284,9 @@ biomes:
     trees:
       chance:
         weight: 1.0
-        random: 1.0E7
+        random: 10000.0
         min: 0.0
-        max: 48000.0
+        max: 100.0
       trees:
       - gmc_newdarkoak_1::4
       - gmc_newdarkoak_2::4
@@ -366,16 +344,10 @@ biomes:
     entities:
       chance:
         weight: 1.0
-        random: 16.0
+        random: 0.0
         min: 0.0
         max: 1.0
-      entities:
-      - CHICKEN::5.0
-      - PIG::5.0
-      - SHEEP::6.0
-      - COW::4.0
-      - RABBIT::0.2
-      - WOLF::0.5
+      entities: []
   FOREST_HILLS:
     overlay:
       chance: 4
@@ -394,9 +366,9 @@ biomes:
     trees:
       chance:
         weight: 1.0
-        random: 1.0E7
+        random: 10000.0
         min: 0.0
-        max: 48000.0
+        max: 100.0
       trees:
       - gmc_newdarkoak_1::4
       - gmc_newdarkoak_2::4
@@ -455,16 +427,10 @@ biomes:
     entities:
       chance:
         weight: 1.0
-        random: 16.0
+        random: 0.0
         min: 0.0
         max: 1.0
-      entities:
-      - CHICKEN::5.0
-      - PIG::5.0
-      - SHEEP::6.0
-      - COW::4.0
-      - RABBIT::0.2
-      - WOLF::0.5
+      entities: []
   SWAMPLAND:
     overlay:
       chance: 2
@@ -549,14 +515,10 @@ biomes:
     entities:
       chance:
         weight: 1.0
-        random: 16.0
+        random: 0.0
         min: 0.0
         max: 1.0
-      entities:
-      - CHICKEN::5.0
-      - PIG::5.0
-      - SHEEP::6.0
-      - COW::4.0
+      entities: []
   SWAMPLAND_HILLS:
     overlay:
       chance: 2
@@ -641,14 +603,10 @@ biomes:
     entities:
       chance:
         weight: 1.0
-        random: 16.0
+        random: 0.0
         min: 0.0
         max: 1.0
-      entities:
-      - CHICKEN::5.0
-      - PIG::5.0
-      - SHEEP::6.0
-      - COW::4.0
+      entities: []
   BEACH:
     overlay:
       chance: 3
@@ -736,12 +694,10 @@ biomes:
     entities:
       chance:
         weight: 1.0
-        random: 16.0
+        random: 0.0
         min: 0.0
         max: 1.0
-      entities:
-      - TURTLE::0.8
-      - SQUID::0.8
+      entities: []
   COLD_BEACH:
     overlay:
       chance: 3
@@ -813,12 +769,10 @@ biomes:
     entities:
       chance:
         weight: 1.0
-        random: 16.0
+        random: 0.0
         min: 0.0
         max: 1.0
-      entities:
-      - TURTLE::0.8
-      - SQUID::0.8
+      entities: []
   OCEAN:
     overlay:
       chance: 8
@@ -889,13 +843,10 @@ biomes:
     entities:
       chance:
         weight: 1.0
-        random: 16.0
+        random: 0.0
         min: 0.0
         max: 1.0
-      entities:
-      - DOLPHIN::0.7
-      - COD::0.75
-      - SQUID::0.8
+      entities: []
   LUKEWARM_OCEAN:
     overlay:
       chance: 7
@@ -986,17 +937,10 @@ biomes:
     entities:
       chance:
         weight: 1.0
-        random: 16.0
+        random: 0.0
         min: 0.0
         max: 1.0
-      entities:
-      - DOLPHIN::0.7
-      - COD::0.75
-      - SQUID::0.8
-      - DOLPHIN::0.7
-      - COD::0.75
-      - SALMON::0.26
-      - PUFFERFISH::0.25
+      entities: []
   WARM_OCEAN:
     overlay:
       chance: 6
@@ -1087,14 +1031,10 @@ biomes:
     entities:
       chance:
         weight: 1.0
-        random: 16.0
+        random: 0.0
         min: 0.0
         max: 1.0
-      entities:
-      - DOLPHIN::0.7
-      - COD::0.75
-      - SQUID::0.8
-      - DOLPHIN::0.7
+      entities: []
   COLD_OCEAN:
     overlay:
       chance: 12
@@ -1174,15 +1114,10 @@ biomes:
     entities:
       chance:
         weight: 1.0
-        random: 16.0
+        random: 0.0
         min: 0.0
         max: 1.0
-      entities:
-      - DOLPHIN::0.7
-      - COD::0.75
-      - SQUID::0.8
-      - COD::0.75
-      - SALMON::0.26
+      entities: []
   FROZEN_OCEAN:
     overlay:
       chance: 12
@@ -1262,17 +1197,10 @@ biomes:
     entities:
       chance:
         weight: 1.0
-        random: 16.0
+        random: 0.0
         min: 0.0
         max: 1.0
-      entities:
-      - DOLPHIN::0.7
-      - COD::0.75
-      - SQUID::0.8
-      - COD::0.75
-      - SALMON::0.26
-      - POLAR_BEAR::0.5
-      - RABBIT::0.25
+      entities: []
   DEEP_OCEAN:
     overlay:
       chance: 8
@@ -1343,13 +1271,10 @@ biomes:
     entities:
       chance:
         weight: 1.0
-        random: 16.0
+        random: 0.0
         min: 0.0
         max: 1.0
-      entities:
-      - DOLPHIN::0.7
-      - COD::0.75
-      - SQUID::0.8
+      entities: []
   DEEP_LUKEWARM_OCEAN:
     overlay:
       chance: 5
@@ -1461,17 +1386,10 @@ biomes:
     entities:
       chance:
         weight: 1.0
-        random: 16.0
+        random: 0.0
         min: 0.0
         max: 1.0
-      entities:
-      - DOLPHIN::0.7
-      - COD::0.75
-      - SQUID::0.8
-      - DOLPHIN::0.7
-      - COD::0.75
-      - SALMON::0.26
-      - PUFFERFISH::0.25
+      entities: []
   DEEP_WARM_OCEAN:
     overlay:
       chance: 5
@@ -1583,14 +1501,10 @@ biomes:
     entities:
       chance:
         weight: 1.0
-        random: 16.0
+        random: 0.0
         min: 0.0
         max: 1.0
-      entities:
-      - DOLPHIN::0.7
-      - COD::0.75
-      - SQUID::0.8
-      - DOLPHIN::0.7
+      entities: []
   DEEP_COLD_OCEAN:
     overlay:
       chance: 12
@@ -1671,15 +1585,10 @@ biomes:
     entities:
       chance:
         weight: 1.0
-        random: 16.0
+        random: 0.0
         min: 0.0
         max: 1.0
-      entities:
-      - DOLPHIN::0.7
-      - COD::0.75
-      - SQUID::0.8
-      - COD::0.75
-      - SALMON::0.26
+      entities: []
   DEEP_FROZEN_OCEAN:
     overlay:
       chance: 12
@@ -1779,17 +1688,10 @@ biomes:
     entities:
       chance:
         weight: 1.0
-        random: 16.0
+        random: 0.0
         min: 0.0
         max: 1.0
-      entities:
-      - DOLPHIN::0.7
-      - COD::0.75
-      - SQUID::0.8
-      - COD::0.75
-      - SALMON::0.26
-      - POLAR_BEAR::0.5
-      - RABBIT::0.25
+      entities: []
   DESERT:
     overlay:
       chance: 100
@@ -1853,11 +1755,10 @@ biomes:
     entities:
       chance:
         weight: 1.0
-        random: 16.0
+        random: 0.0
         min: 0.0
         max: 1.0
-      entities:
-      - RABBIT::0.25
+      entities: []
   DESERT_HILLS:
     overlay:
       chance: 100
@@ -1921,11 +1822,10 @@ biomes:
     entities:
       chance:
         weight: 1.0
-        random: 16.0
+        random: 0.0
         min: 0.0
         max: 1.0
-      entities:
-      - RABBIT::0.25
+      entities: []
   DESERT_MOUNTAINS:
     overlay:
       chance: 100
@@ -1989,11 +1889,10 @@ biomes:
     entities:
       chance:
         weight: 1.0
-        random: 16.0
+        random: 0.0
         min: 0.0
         max: 1.0
-      entities:
-      - RABBIT::0.25
+      entities: []
   PLAINS:
     overlay:
       chance: 3
@@ -2010,6 +1909,7 @@ biomes:
       - minecraft:rose_bush[half=lower];10
       - minecraft:large_fern[half=lower];80
       - minecraft:lilac[half=lower];4
+      - minecraft:wheat;3
       - minecraft:peony[half=lower];4
     trees:
       chance:
@@ -2039,7 +1939,6 @@ biomes:
       - minecraft:coarse_dirt;2
       - minecraft:podzol[snowy=false];5
       - minecraft:grass_block[snowy=false];120
-      - minecraft:farmland[moisture=0];3
       '2':
       - minecraft:stone;30
       - minecraft:dirt;90
@@ -2067,16 +1966,10 @@ biomes:
     entities:
       chance:
         weight: 1.0
-        random: 16.0
+        random: 0.0
         min: 0.0
         max: 1.0
-      entities:
-      - CHICKEN::5.0
-      - PIG::5.0
-      - SHEEP::6.0
-      - COW::4.0
-      - HORSE::0.4
-      - DONKEY::0.05
+      entities: []
   ICE_PLAINS:
     overlay:
       chance: 5
@@ -2169,14 +2062,10 @@ biomes:
     entities:
       chance:
         weight: 1.0
-        random: 16.0
+        random: 0.0
         min: 0.0
         max: 1.0
-      entities:
-      - RABBIT::0.25
-      - POLAR_BEAR::0.1
-      - FOX::0.8
-      - WOLF::0.8
+      entities: []
   BIRCH_FOREST:
     overlay:
       chance: 5
@@ -2192,7 +2081,7 @@ biomes:
         weight: 1.0
         random: 1.0E7
         min: 0.0
-        max: 50000.0
+        max: 51000.0
       trees:
       - gmc_BIRCH_TREE_5::800
       - gmc_BIRCH_TREE_4::2666
@@ -2247,14 +2136,10 @@ biomes:
     entities:
       chance:
         weight: 1.0
-        random: 16.0
+        random: 0.0
         min: 0.0
         max: 1.0
-      entities:
-      - CHICKEN::5.0
-      - PIG::5.0
-      - SHEEP::6.0
-      - COW::4.0
+      entities: []
   BIRCH_FOREST_HILLS:
     overlay:
       chance: 6
@@ -2270,7 +2155,7 @@ biomes:
         weight: 1.0
         random: 1.0E7
         min: 0.0
-        max: 48000.0
+        max: 49000.0
       trees:
       - gmc_BIRCH_TREE_5::800
       - gmc_BIRCH_TREE_4::2666
@@ -2326,14 +2211,10 @@ biomes:
     entities:
       chance:
         weight: 1.0
-        random: 16.0
+        random: 0.0
         min: 0.0
         max: 1.0
-      entities:
-      - CHICKEN::5.0
-      - PIG::5.0
-      - SHEEP::6.0
-      - COW::4.0
+      entities: []
   TAIGA:
     overlay:
       chance: 3
@@ -2351,9 +2232,9 @@ biomes:
     trees:
       chance:
         weight: 1.0
-        random: 1.0E4
+        random: 10000.0
         min: 0.0
-        max: 190.0
+        max: 210.0
       trees:
       - gmc_newspruce_1::5000
       - gmc_newspruce_2::5000
@@ -2408,17 +2289,10 @@ biomes:
     entities:
       chance:
         weight: 1.0
-        random: 16.0
+        random: 0.0
         min: 0.0
         max: 1.0
-      entities:
-      - CHICKEN::5.0
-      - PIG::5.0
-      - SHEEP::6.0
-      - COW::4.0
-      - RABBIT::0.25
-      - FOX::0.8
-      - WOLF::0.8
+      entities: []
   TAIGA_HILLS:
     overlay:
       chance: 3
@@ -2436,9 +2310,9 @@ biomes:
     trees:
       chance:
         weight: 1.0
-        random: 1.0E4
+        random: 10000.0
         min: 0.0
-        max: 190.0
+        max: 210.0
       trees:
       - gmc_newspruce_1::5000
       - gmc_newspruce_2::5000
@@ -2493,17 +2367,10 @@ biomes:
     entities:
       chance:
         weight: 1.0
-        random: 16.0
+        random: 0.0
         min: 0.0
         max: 1.0
-      entities:
-      - CHICKEN::5.0
-      - PIG::5.0
-      - SHEEP::6.0
-      - COW::4.0
-      - RABBIT::0.25
-      - FOX::0.8
-      - WOLF::0.8
+      entities: []
   TAIGA_MOUNTAINS:
     overlay:
       chance: 3
@@ -2521,9 +2388,9 @@ biomes:
     trees:
       chance:
         weight: 1.0
-        random: 1.0E4
+        random: 10000.0
         min: 0.0
-        max: 190.0
+        max: 210.0
       trees:
       - gmc_newspruce_1::5000
       - gmc_newspruce_2::5000
@@ -2578,17 +2445,10 @@ biomes:
     entities:
       chance:
         weight: 1.0
-        random: 16.0
+        random: 0.0
         min: 0.0
         max: 1.0
-      entities:
-      - CHICKEN::5.0
-      - PIG::5.0
-      - SHEEP::6.0
-      - COW::4.0
-      - RABBIT::0.25
-      - FOX::0.8
-      - WOLF::0.8
+      entities: []
   COLD_TAIGA:
     overlay:
       chance: 1
@@ -2652,17 +2512,10 @@ biomes:
     entities:
       chance:
         weight: 1.0
-        random: 16.0
+        random: 0.0
         min: 0.0
         max: 1.0
-      entities:
-      - CHICKEN::5.0
-      - PIG::5.0
-      - SHEEP::6.0
-      - COW::4.0
-      - RABBIT::0.25
-      - FOX::0.8
-      - WOLF::0.8
+      entities: []
   COLD_TAIGA_HILLS:
     overlay:
       chance: 1
@@ -2726,17 +2579,10 @@ biomes:
     entities:
       chance:
         weight: 1.0
-        random: 16.0
+        random: 0.0
         min: 0.0
         max: 1.0
-      entities:
-      - CHICKEN::5.0
-      - PIG::5.0
-      - SHEEP::6.0
-      - COW::4.0
-      - RABBIT::0.25
-      - FOX::0.8
-      - WOLF::0.8
+      entities: []
   COLD_TAIGA_MOUNTAINS:
     overlay:
       chance: 1
@@ -2786,17 +2632,10 @@ biomes:
     entities:
       chance:
         weight: 1.0
-        random: 16.0
+        random: 0.0
         min: 0.0
         max: 1.0
-      entities:
-      - CHICKEN::5.0
-      - PIG::5.0
-      - SHEEP::6.0
-      - COW::4.0
-      - RABBIT::0.25
-      - FOX::0.8
-      - WOLF::0.8
+      entities: []
   EXTREME_HILLS:
     overlay:
       chance: 6
@@ -2807,19 +2646,17 @@ biomes:
     trees:
       chance:
         weight: 1.0
-        random: 1.0E7
+        random: 10000.0
         min: 0.0
-        max: 5000.0
+        max: 120.0
       trees:
-      - gmc_dark_oak::4000
-      - gmc_dark_oak_0::4000
-      - gmc_dark_oak_1::4000
-      - gmc_dark_oak_2::4000
-      - gmc_dark_oak_3::4000
-      - gmc_dark_oak_4::4000
+      - gmc_dark_oak::8000
+      - gmc_dark_oak_0::8000
+      - gmc_dark_oak_1::8000
+      - gmc_dark_oak_2::8000
+      - gmc_dark_oak_3::8000
+      - gmc_dark_oak_4::8000
       - OAK_TREE_4::4000
-      - OAK_TREE_3::4000
-      - OAK_TREE_5::4000
       - OAK_TREE_2::4000
       - OAK_TREE_1::4000
     structures:
@@ -2861,15 +2698,10 @@ biomes:
     entities:
       chance:
         weight: 1.0
-        random: 16.0
+        random: 0.0
         min: 0.0
         max: 1.0
-      entities:
-      - CHICKEN::5.0
-      - PIG::5.0
-      - SHEEP::6.0
-      - COW::4.0
-      - LLAMA::0.5
+      entities: []
   EXTREME_MOUNTAINS:
     overlay:
       chance: 6
@@ -2933,15 +2765,10 @@ biomes:
     entities:
       chance:
         weight: 1.0
-        random: 16.0
+        random: 0.0
         min: 0.0
         max: 1.0
-      entities:
-      - CHICKEN::5.0
-      - PIG::5.0
-      - SHEEP::6.0
-      - COW::4.0
-      - LLAMA::0.5
+      entities: []
   SAVANNA:
     overlay:
       chance: 2
@@ -3006,17 +2833,10 @@ biomes:
     entities:
       chance:
         weight: 1.0
-        random: 16.0
+        random: 0.0
         min: 0.0
         max: 1.0
-      entities:
-      - CHICKEN::5.0
-      - PIG::5.0
-      - SHEEP::6.0
-      - COW::4.0
-      - LLAMA::0.8
-      - HORSE::0.1
-      - DONKEY::0.025
+      entities: []
   SAVANNA_HILLS:
     overlay:
       chance: 2
@@ -3081,17 +2901,10 @@ biomes:
     entities:
       chance:
         weight: 1.0
-        random: 16.0
+        random: 0.0
         min: 0.0
         max: 1.0
-      entities:
-      - CHICKEN::5.0
-      - PIG::5.0
-      - SHEEP::6.0
-      - COW::4.0
-      - LLAMA::0.8
-      - HORSE::0.1
-      - DONKEY::0.025
+      entities: []
   DEATH_LAND:
     overlay:
       chance: 15
@@ -3182,7 +2995,325 @@ biomes:
     entities:
       chance:
         weight: 1.0
+        random: 0.0
+        min: 0.0
+        max: 1.0
+      entities: []
+  DARK_OAK_FOREST:
+    overlay:
+      chance: 6
+      blocks:
+      - minecraft:grass;60
+      - minecraft:fern;20
+      - minecraft:brown_mushroom;2
+      - minecraft:red_mushroom;2
+    overlay_water:
+      chance: 100
+      blocks:
+      - minecraft:lily_pad;10
+    trees:
+      chance:
+        weight: 1.0
+        random: 10000.0
+        min: 0.0
+        max: 110.0
+      trees:
+      - gmc_dark_oak::4000
+      - gmc_dark_oak_0::4000
+      - gmc_dark_oak_1::4000
+      - gmc_dark_oak_2::4000
+      - gmc_dark_oak_3::4000
+      - gmc_dark_oak_4::4000
+      - OAK_TREE_4::4000
+      - OAK_TREE_2::4000
+      - OAK_TREE_1::4000
+    structures:
+      chance:
+        weight: 1.0
+        random: 100000.0
+        min: 0.0
+        max: 6.0
+      structures: []
+    entities:
+      chance:
+        weight: 1.0
         random: 16.0
+        min: 0.0
+        max: 1.0
+      entities: []
+    layer:
+      '1':
+      - minecraft:coarse_dirt;15
+      - minecraft:podzol[snowy=false];50
+      - minecraft:grass_block[snowy=false];120
+      '2':
+      - minecraft:stone;30
+      - minecraft:dirt;90
+      - minecraft:andesite;8
+      - minecraft:granite;8
+      '3':
+      - minecraft:stone;40
+      - minecraft:dirt;60
+      - minecraft:andesite;10
+      - minecraft:granite;10
+      '4':
+      - minecraft:stone;70
+      - minecraft:dirt;20
+      - minecraft:andesite;15
+      - minecraft:granite;15
+      '5':
+      - minecraft:stone;120
+      - minecraft:dirt;2
+      - minecraft:andesite;25
+      - minecraft:granite;25
+  DARK_OAK_FOREST_HILLS:
+    overlay:
+      chance: 6
+      blocks:
+      - minecraft:grass;60
+      - minecraft:fern;20
+      - minecraft:brown_mushroom;2
+      - minecraft:red_mushroom;2
+    overlay_water:
+      chance: 100
+      blocks:
+      - minecraft:lily_pad;10
+    trees:
+      chance:
+        weight: 1.0
+        random: 10000.0
+        min: 0.0
+        max: 120.0
+      trees:
+      - gmc_dark_oak::4000
+      - gmc_dark_oak_0::4000
+      - gmc_dark_oak_1::4000
+      - gmc_dark_oak_2::4000
+      - gmc_dark_oak_3::4000
+      - gmc_dark_oak_4::4000
+      - OAK_TREE_4::4000
+      - OAK_TREE_2::4000
+      - OAK_TREE_1::4000
+    structures:
+      chance:
+        weight: 1.0
+        random: 100000.0
+        min: 0.0
+        max: 6.0
+      structures: []
+    entities:
+      chance:
+        weight: 1.0
+        random: 16.0
+        min: 0.0
+        max: 1.0
+      entities: []
+    layer:
+      '1':
+      - minecraft:coarse_dirt;15
+      - minecraft:podzol[snowy=false];50
+      - minecraft:grass_block[snowy=false];120
+      '2':
+      - minecraft:stone;30
+      - minecraft:dirt;90
+      - minecraft:andesite;8
+      - minecraft:granite;8
+      '3':
+      - minecraft:stone;40
+      - minecraft:dirt;60
+      - minecraft:andesite;10
+      - minecraft:granite;10
+      '4':
+      - minecraft:stone;70
+      - minecraft:dirt;20
+      - minecraft:andesite;15
+      - minecraft:granite;15
+      '5':
+      - minecraft:stone;120
+      - minecraft:dirt;2
+      - minecraft:andesite;25
+      - minecraft:granite;25
+  BAMBOO_JUNGLE:
+    overlay:
+      chance: 2
+      blocks:
+      - minecraft:poppy;100
+      - minecraft:dandelion;50
+      - minecraft:grass;5000
+      - minecraft:fern;500
+      - minecraft:jungle_leaves[distance=7,persistent=true];2500
+      - minecraft:tall_grass;2100
+      - minecraft:large_fern;2100
+      - minecraft:blue_orchid;100
+      - minecraft:bamboo_sapling;500
+    trees:
+      chance:
+        weight: 1.0
+        random: 10000.0
+        min: 0.0
+        max: 400.0
+      trees:
+      - gmc_jungle_v2::4076
+      - gmc_jungle_1_v2::4076
+      - gmc_jungle_2_v2::4076
+      - BAMBOO_1::3000.0
+      - BAMBOO_2::3000.0
+      - BAMBOO_3::3000.0
+      - gmc_jungle_3_v2::4076
+      - gmc_jungle_4_v2::4076
+      - gmc_jungle_5_v2::4076
+      - gmc_jungle_6_v2::4076
+      - gmc_jungle_7_v2::4076
+      - gmc_jungle_8_v2::4076
+      - gmc_jungle_a_v2::4076
+      - gmc_jungle_a_0_v2::3076
+      - gmc_jungle_a_1_v2:3076
+      - gmc_jungle_k::10076
+      - gmc_jungle_k_0::10076
+      - gmc_jungle_k_1::10076
+      - gmc_jungle_k_2::10076
+      - gmc_jungle_k_3::10076
+      - gmc_jungle_k_4::10076
+      - gmc_stone_jungle_4::1076
+      - gmc_stone_jungle_5::1076
+      - gmc_stone_jungle_6::1076
+      - gmc_stone_jungle_7::1076
+      - gmc_stone_jungle_8::1076
+    structures:
+      chance:
+        weight: 1.0
+        random: 1.0E7
+        min: 0.0
+        max: 600.0
+      structures:
+      - gmc_JUNGLE_TEMPLE_1::20
+      - gmc_JUNGLE_TEMPLE_2_2::20
+    layer:
+      '1':
+      - minecraft:coarse_dirt;15
+      - minecraft:terracotta;5
+      - minecraft:grass_block[snowy=false];170
+      - minecraft:diorite;2
+      '2':
+      - minecraft:stone;30
+      - minecraft:dirt;110
+      - minecraft:diorite;8
+      - minecraft:granite;8
+      '3':
+      - minecraft:stone;40
+      - minecraft:dirt;80
+      - minecraft:diorite;10
+      - minecraft:granite;10
+      '4':
+      - minecraft:stone;70
+      - minecraft:dirt;40
+      - minecraft:diorite;15
+      - minecraft:granite;15
+      '5':
+      - minecraft:stone;120
+      - minecraft:dirt;10
+      - minecraft:diorite;25
+      - minecraft:granite;25
+    overlay_water:
+      chance: 100
+      blocks:
+      - minecraft:lily_pad;10
+    entities:
+      chance:
+        weight: 1.0
+        random: 0.0
+        min: 0.0
+        max: 1.0
+      entities: []
+  BAMBOO_JUNGLE_HILLS:
+    overlay:
+      chance: 2
+      blocks:
+      - minecraft:poppy;100
+      - minecraft:dandelion;50
+      - minecraft:grass;5000
+      - minecraft:fern;500
+      - minecraft:jungle_leaves[distance=7,persistent=true];2500
+      - minecraft:tall_grass;2100
+      - minecraft:large_fern;2100
+      - minecraft:blue_orchid;100
+      - minecraft:bamboo_sapling;500
+    trees:
+      chance:
+        weight: 1.0
+        random: 10000.0
+        min: 0.0
+        max: 400.0
+      trees:
+      - gmc_jungle_v2::4076
+      - gmc_jungle_1_v2::4076
+      - BAMBOO_1::4000.0
+      - BAMBOO_2::4000.0
+      - BAMBOO_3::4000.0
+      - gmc_jungle_2_v2::4076
+      - gmc_jungle_3_v2::4076
+      - gmc_jungle_4_v2::4076
+      - gmc_jungle_5_v2::4076
+      - gmc_jungle_6_v2::4076
+      - gmc_jungle_7_v2::4076
+      - gmc_jungle_8_v2::4076
+      - gmc_jungle_a_v2::4076
+      - gmc_jungle_a_0_v2::3076
+      - gmc_jungle_a_1_v2:3076
+      - gmc_jungle_k::10076
+      - gmc_jungle_k_0::10076
+      - gmc_jungle_k_1::10076
+      - gmc_jungle_k_2::10076
+      - gmc_jungle_k_3::10076
+      - gmc_jungle_k_4::10076
+      - gmc_stone_jungle_4::1076
+      - gmc_stone_jungle_5::1076
+      - gmc_stone_jungle_6::1076
+      - gmc_stone_jungle_7::1076
+      - gmc_stone_jungle_8::1076
+    structures:
+      chance:
+        weight: 1.0
+        random: 1.0E7
+        min: 0.0
+        max: 600.0
+      structures:
+      - gmc_JUNGLE_TEMPLE_1::20
+      - gmc_JUNGLE_TEMPLE_2_2::20
+    layer:
+      '1':
+      - minecraft:coarse_dirt;15
+      - minecraft:terracotta;5
+      - minecraft:grass_block[snowy=false];170
+      - minecraft:diorite;2
+      '2':
+      - minecraft:stone;30
+      - minecraft:dirt;110
+      - minecraft:diorite;8
+      - minecraft:granite;8
+      '3':
+      - minecraft:stone;40
+      - minecraft:dirt;80
+      - minecraft:diorite;10
+      - minecraft:granite;10
+      '4':
+      - minecraft:stone;70
+      - minecraft:dirt;40
+      - minecraft:diorite;15
+      - minecraft:granite;15
+      '5':
+      - minecraft:stone;120
+      - minecraft:dirt;10
+      - minecraft:diorite;25
+      - minecraft:granite;25
+    overlay_water:
+      chance: 100
+      blocks:
+      - minecraft:lily_pad;10
+    entities:
+      chance:
+        weight: 1.0
+        random: 0.0
         min: 0.0
         max: 1.0
       entities: []

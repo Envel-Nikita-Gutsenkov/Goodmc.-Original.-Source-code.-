@@ -1,18 +1,51 @@
 grow:
   replaceBlocks: true
+  enabled: true
+replacement:
+  blocks:
+    acacia_fence:
+      material: ACACIA_FENCE
+      replace_material: AIR
+    jungle_fence:
+      material: JUNGLE_FENCE
+      replace_material: AIR
+    birch_fence:
+      material: BIRCH_FENCE
+      replace_material: AIR
+    oak_fence:
+      material: OAK_FENCE
+      replace_material: AIR
+    nether_brick_fence:
+      material: NETHER_BRICK_FENCE
+      replace_material: AIR
+    spruce_fence:
+      material: SPRUCE_FENCE
+      replace_material: AIR
+    dark_oak_fence:
+      material: DARK_OAK_FENCE
+      replace_material: AIR
+  trees:
+  - OAK_TREE_1
+  - OAK_TREE_2
+  - OAK_TREE_3
+  - OAK_TREE_4
+  - OAK_TREE_5
+  enabled: true
 saplings:
   pine:
-  - gmc_newspruce_1
-  - gmc_newspruce_2
-  - gmc_newspruce_3
-  - gmc_newspruce_4
-  - gmc_newspruce_5
-  - gmc_newspruce_6
-  - gmc_newbigspruce_1
-  - gmc_newbigspruce_2
-  - gmc_newbigspruce_3
-  - gmc_newbigspruce_4
-  - gmc_newbigspruce_5
+    normal:
+    - gmc_newspruce_1
+    - gmc_newspruce_2
+    - gmc_newspruce_3
+    - gmc_newspruce_4
+    - gmc_newspruce_5
+    - gmc_newspruce_6
+    giant:
+    - gmc_newbigspruce_1
+    - gmc_newbigspruce_2
+    - gmc_newbigspruce_3
+    - gmc_newbigspruce_4
+    - gmc_newbigspruce_5
   birch:
   - gmc_BIRCH_TREE_4
   - gmc_BIRCH_TREE_3
@@ -30,16 +63,18 @@ saplings:
   - gmc_newbigoaktree_2
   - gmc_newbigoaktree_1
   dark:
-  - gmc_newhillsdarkoak_1
-  - gmc_newhillsdarkoak_2
-  - gmc_newhillsdarkoak_3
-  - gmc_newhillsdarkoak_4
-  - gmc_newhillsdarkoak_5
-  - gmc_dark_oak_0
-  - gmc_dark_oak_1
-  - gmc_dark_oak_2
-  - gmc_dark_oak_3
-  - gmc_dark_oak_4
+    normal:
+    - gmc_dark_oak_0
+    - gmc_dark_oak_1
+    - gmc_dark_oak_2
+    - gmc_dark_oak_3
+    - gmc_dark_oak_4
+    giant:
+    - gmc_newhillsdarkoak_1
+    - gmc_newhillsdarkoak_2
+    - gmc_newhillsdarkoak_3
+    - gmc_newhillsdarkoak_4
+    - gmc_newhillsdarkoak_5
   acacia:
   - gmc_savanna
   - gmc_savanna_0
@@ -49,12 +84,26 @@ saplings:
   - gmc_savanna_4
   - gmc_savanna_5
   jungle:
-  - SHEMATIC_gmc_jungle_v2
-  - SHEMATIC_gmc_jungle_1_v2
-  - SHEMATIC_gmc_jungle_2_v2
-  - SHEMATIC_gmc_jungle_3_v2
-  - SHEMATIC_gmc_jungle_4_v2
-  - SHEMATIC_gmc_jungle_5_v2
-  - SHEMATIC_gmc_jungle_6_v2
-  - SHEMATIC_gmc_jungle_7_v2
-  - SHEMATIC_gmc_jungle_8_v2
+    normal:
+    - SHEMATIC_gmc_jungle_v2
+    - SHEMATIC_gmc_jungle_1_v2
+    - SHEMATIC_gmc_jungle_2_v2
+    - SHEMATIC_gmc_jungle_3_v2
+    - SHEMATIC_gmc_jungle_4_v2
+    - SHEMATIC_gmc_jungle_5_v2
+    - SHEMATIC_gmc_jungle_6_v2
+    - SHEMATIC_gmc_jungle_7_v2
+    - SHEMATIC_gmc_jungle_8_v2
+    giant:
+    - gmc_jungle_a_v2::4076
+    - gmc_jungle_a_0_v2::3076
+    - gmc_jungle_a_1_v2:3076
+    - SHEMATIC_gmc_jungle_v2
+    - SHEMATIC_gmc_jungle_1_v2
+    - SHEMATIC_gmc_jungle_2_v2
+    - SHEMATIC_gmc_jungle_3_v2
+    - SHEMATIC_gmc_jungle_4_v2
+    - SHEMATIC_gmc_jungle_5_v2
+    - SHEMATIC_gmc_jungle_6_v2
+    - SHEMATIC_gmc_jungle_7_v2
+    - SHEMATIC_gmc_jungle_8_v2
