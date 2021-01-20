@@ -11,7 +11,7 @@
 # GoodMC is a non-commercial game server project.
 # May contain structures that are protected by copyright.
 #
-# Please indicate to the players that the generation belongs to GoodMC for the purpose of gratitude.
+# **This is the free version only thanks to your donations: http://www.donationalerts.ru/r/momai **
 #
 # Have a nice game!
 #
@@ -21,8 +21,7 @@
 # GoodMC - некоммерческий проект игровых серверов.
 # Структуры могут быть защищены авторским правом.
 #
-# Пожалуйста, указывайте игрокам принадлежность генерации к GoodMC в целях благодарности.
-#
+# **Конфигурация бесплатна только благодаря вашим пожертвованиям: http://www.donationalerts.ru/r/momai **
 # Платная техническая поддержка n.gucenkov@gmail.com
 #
 # RWG используется вместе с проприетарными плагинами и текстурами,
@@ -32,9 +31,9 @@
 #
 # --- !!! SPECIFICATIONS !!! ---
 #
-# Game version: 1.16.4
-# RWG version: 4.25.5
-# Configuration version: 2.7 ALPHA
+# Game version: 1.16.5
+# RWG version: 4.25.8
+# Configuration version: 2.7.2 ALPHA
 # Server: 4+GB RAM, 4+ cores
 # Others: It is recommended to use only on maps with the "large biomes" parameter.
 # Intended for use only after pre-generation on SPIGOT (https://www.spigotmc.org/resources/worldborder.60905/).
