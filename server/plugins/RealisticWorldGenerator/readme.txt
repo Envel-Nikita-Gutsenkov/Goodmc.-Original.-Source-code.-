@@ -1,49 +1,41 @@
-# ┏━━━┓╋╋╋╋╋╋╋┏┳━┓┏━┳━━━┓
-# ┃┏━┓┃╋╋╋╋╋╋╋┃┃┃┗┛┃┃┏━┓┃
-# ┃┃╋┗╋━━┳━━┳━┛┃┏┓┏┓┃┃╋┗┛
-# ┃┃┏━┫┏┓┃┏┓┃┏┓┃┃┃┃┃┃┃╋┏┓
-# ┃┗┻━┃┗┛┃┗┛┃┗┛┃┃┃┃┃┃┗━┛┃
-# ┗━━━┻━━┻━━┻━━┻┛┗┛┗┻━━━┛
-#
-# --- EN ---
-#
-# This configuration is developed on GoodMC.ru
-# GoodMC is a non-commercial game server project.
-# May contain structures that are protected by copyright.
-#
-# **This is the free version only thanks to your donations: http://www.donationalerts.ru/r/momai **
-#
-# Have a nice game!
-#
-#  --- RU ---
-#
-# Эта конфигурация принадлежит GoodMC.ru
-# GoodMC - некоммерческий проект игровых серверов.
-# Структуры могут быть защищены авторским правом.
-#
-# **Конфигурация бесплатна только благодаря вашим пожертвованиям: http://www.donationalerts.ru/r/momai **
-# Платная техническая поддержка n.gucenkov@gmail.com
-#
-# RWG используется вместе с проприетарными плагинами и текстурами,
-# так что результат будет отличаться от наших серверов и скриншотов.
-#
-# Приятной игры!
-#
-# --- !!! SPECIFICATIONS !!! ---
-#
-# Game version: 1.16.5
-# RWG version: 4.25.8
-# Configuration version: 2.7.2 ALPHA
-# Server: 4+GB RAM, 4+ cores
-# Others: It is recommended to use only on maps with the "large biomes" parameter.
-# Intended for use only after pre-generation on SPIGOT (https://www.spigotmc.org/resources/worldborder.60905/).
-#
-#
-# ░░░░░░░░░░░░░░░░▄▓▄
-# ░░░░▄█▄░░░░░░░░▄▓▓▓▄
-# ░░▄█████▄░░░░░▄▓▓▓▓▓▄
-# ░▀██┼█┼██▀░░░▄▓▓▓▓▓▓▓▄
-# ▄▄███████▄▄▄▄▄▄▄▄█▄▄▄▄
-# Developed by Envel
-# Nikita Gutsenkov
-# n.gucenkov@gmail.com
+#OLD!
+#OLD! New: https://github.com/Envel-Nikita-Gutsenkov/GoodMC-Original-RealisticWorld-Epic-Config
+#OLD!
+
+# English
+
+ This configuration is developed on GoodMC.ru
+ GoodMC is a non-commercial game server project.
+
+ This is the free version only thanks to your donations: http://www.donationalerts.ru/r/momai
+
+**Get new versions faster, as well as incredible dungeons, additional content, settings for UltimateTimber and SmoothTimber, installation support, and more: http://mjpg.ru/buyoriginalrwg**
+
+ Have a nice game!
+
+#  Русский
+
+ Эта конфигурация принадлежит GoodMC.ru
+ GoodMC - некоммерческий проект игровых серверов.
+
+ Конфигурация бесплатна только благодаря вашим пожертвованиям: http://www.donationalerts.ru/r/momai
+
+ **Получите новые версии быстрее, а так же невероятные данжи, дополнительный контент, настройки для UltimateTimber и SmoothTimber, поддержку по установке и многое другое: http://mjpg.ru/buyoriginalrwg**
+
+ Приятной игры!
+
+# SPECIFICATIONS for free version
+|  |  |
+| ------ | ------ |
+| Game version | 1.16.5 |
+| RWG version | 4.25.8 |
+| Configuration version | free 2.7 ALPHA |
+| Server | 4+GB RAM, 4+ cores |
+| World settings | "large biomes" parameter |
+|Server core| Spigot|
+|Pregen plugin| Worldborder |
+
+License
+----
+
+GNU GPL v3
