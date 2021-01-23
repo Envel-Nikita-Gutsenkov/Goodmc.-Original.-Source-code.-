@@ -16,6 +16,18 @@
 #                          
 # Have a nice game!
 
+'ZOMBIFIED_PIGLIN health ': -2
+'ZOMBIFIED_PIGLIN damage ': -2
+'HOGLIN health ': -2
+'HOGLIN damage ': -2
+'PIGLIN health ': -2
+'PIGLIN damage ': -2
+'STRIDER health ': -2
+'STRIDER damage ': -2
+'ZOGLIN health ': -2
+'ZOGLIN damage ': -2
+'PIGLIN_BRUTE health ': -2
+'PIGLIN_BRUTE damage ': -2
 'BEE health ': -2
 'BEE damage ': -2
 'CAT health ': 30

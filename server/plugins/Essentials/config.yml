@@ -62,7 +62,7 @@ add-prefix-suffix: false
 #add-prefix-in-playerlist: true
 
 # When this option is enabled, player suffixes will be shown in the playerlist.
-# This feature only works for Minecraft version 1.8 and higher. 
+# This feature only works for Minecraft version 1.8 and higher.
 # This value of change-playerlist has to be true
 #add-suffix-in-playerlist: true
 
@@ -118,7 +118,7 @@ item-spawn-blacklist:
 permission-based-item-spawn: false
 
 # Mob limit on the /spawnmob command per execution.
-spawnmob-limit: 50
+spawnmob-limit: 5
 
 # Shall we notify users when using /lightning?
 warn-on-smite: true
@@ -330,7 +330,7 @@ cancel-afk-on-interact: true
 # Disable this to reduce server lag.
 cancel-afk-on-move: true
 
-# Set the player's list name when they are AFK. This is none by default which specifies that Essentials 
+# Set the player's list name when they are AFK. This is none by default which specifies that Essentials
 # should not interfere with the AFK player's list name.
 # You may use color codes, use {USERNAME} the player's name or {PLAYER} for the player's displayname.
 afk-list-name: "none"
@@ -400,11 +400,11 @@ mails-per-minute: 1000
 # Set to -1 to disable, and essentials.tempban.unlimited can be used to override.
 max-tempban-time: -1
 
-# Changes /reply functionality. If true, /r goes to the person you messaged last, otherwise the first person that messaged you. 
+# Changes /reply functionality. If true, /r goes to the person you messaged last, otherwise the first person that messaged you.
 # If false, /r goes to the last person that messaged you.
 last-message-reply-recipient: true
 
-# If last-message-reply-recipient is true, this specifies the duration, in seconds, that would need to elapse for the 
+# If last-message-reply-recipient is true, this specifies the duration, in seconds, that would need to elapse for the
 # reply-recipient to update when receiving a message.
 # Default is 180 (3 minutes)
 last-message-reply-recipient-timeout: 180
@@ -513,9 +513,9 @@ command-costs:
   #kit-tools: 1500
 
 # Set this to a currency symbol you want to use.
-# Remember, if you want to use special characters in this document, 
+# Remember, if you want to use special characters in this document,
 # such as accented letters, you MUST save the file as UTF-8, not ANSI.
-currency-symbol: ' M'
+currency-symbol: ' m '
 
 # Set the maximum amount of money a player can have.
 # The amount is always limited to 10 trillion because of the limitations of a java double.
@@ -531,7 +531,7 @@ economy-log-enabled: false
 # Use this option to force superperms-based permissions handler regardless of detected installed perms plugin.
 # This is useful if you want superperms-based permissions (with wildcards) for custom permissions plugins.
 # If you wish to use EssentialsX' built-in permissions using the `player-commands` section above, set this to false.
-# Default is true. 
+# Default is true.
 use-bukkit-permissions: true
 
 # Minimum acceptable amount to be used in /pay.
@@ -594,8 +594,8 @@ chat:
 
   group-formats:
     Default: '&f&l{DISPLAYNAME} {SUFFIX} &f&l➛&7&o {MESSAGE}'
-    administrator: '&f&l{DISPLAYNAME} &c⒜ &f&l➛&7&o {MESSAGE}'
-    moderator: '&f&l{DISPLAYNAME} &2⒨ &f&l➛&7&o {MESSAGE}'
+    administrator: '&f&l{DISPLAYNAME}{SUFFIX} &f&l➛&7&o {MESSAGE}'
+    moderator: '&f&l{DISPLAYNAME}{SUFFIX} &f&l➛&7&o {MESSAGE}'
 
   # If you are using group formats make sure to remove the '#' to allow the setting to be read.
 
@@ -749,7 +749,7 @@ protect:
   blacklist:
 
     # Which blocks should people be prevented from placing?
-    placement: 
+    placement:
 
     # Which items should people be prevented from using?
     usage: 327
@@ -806,7 +806,7 @@ respawn-at-home: true
 spawn-on-join: false
 # The following value of `guests` states that all players in group `guests` will be teleported to spawn when joining.
 #spawn-on-join: guests
-# The following list value states that all players in group `guests` and `admin` are to be teleported to spawn when joining. 
+# The following list value states that all players in group `guests` and `admin` are to be teleported to spawn when joining.
 #spawn-on-join:
 #- guests
 #- admin
@@ -819,4 +819,3 @@ spawn-on-join: false
 # Developed by Envel
 # Nikita Gutsenkov
 # Ngucenkov@yandex.ru
-

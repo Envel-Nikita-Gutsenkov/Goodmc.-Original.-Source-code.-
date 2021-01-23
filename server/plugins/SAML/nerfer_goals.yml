@@ -1,0 +1,165 @@
+# Don't change this!
+version: 1
+
+# +--------------------------------------------------------------------------------------------------------------------+
+# |  Pathfinder goal toggling                                                                                         |
+# +--------------------------------------------------------------------------------------------------------------------+
+# section-begin: pathfinder_goal_toggling
+
+# Here you can specify exactly which pathfinder goals should be enabled for a 'nerfed' mob.
+# You can specify per entity type, group or classification:
+#   * See here for a list of entity types: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/EntityType.html
+#   * For specifying per group you must prefix with 'group.', e.g. 'group.example_group'.
+#   * Entity classifications include: ambient, animal, fish, flying, monster, raider, watermob
+# The order is important in these settings, for example: In the below,
+#   * Anything in the group 'example_group' would have PathfinderGoalExample disabled.
+#   * If they were not in the group 'example_group' but they were a watermob then the goal would *not* be disabled.
+#   * If they were neither a watermob or in the group 'example_group' then the goal would be disabled.
+PathfinderGoalExample:
+  group.example_group: false
+  watermob: true
+  default: false
+
+# If a pathfinder goal isn't specified here, should it be enabled by default?
+unspecified:
+  default: true
+
+# The following goal names are subject to change with any given version, as they are based on deobfuscated class names.
+
+PathfinderGoalArrowAttack:
+
+PathfinderGoalAvoidTarget:
+
+PathfinderGoalBeg:
+
+PathfinderGoalBowShoot:
+
+PathfinderGoalBreakDoor:
+
+PathfinderGoalBreath:
+
+PathfinderGoalBreed:
+
+PathfinderGoalCatSitOnBed:
+
+PathfinderGoalCrossbowAttack:
+
+PathfinderGoalDefendVillage:
+
+PathfinderGoalDoorInteract:
+
+PathfinderGoalEatTile:
+
+PathfinderGoalFishSchool:
+
+PathfinderGoalFleeSun:
+
+# Setting this to false will cause mobs to drown!
+PathfinderGoalFloat:
+  default: true
+
+PathfinderGoalFollowBoat:
+
+PathfinderGoalFollowEntity:
+
+PathfinderGoalFollowOwner:
+
+PathfinderGoalFollowOwnerParrot:
+
+PathfinderGoalFollowParent:
+
+PathfinderGoalGotoTarget:
+
+PathfinderGoalHorseTrap:
+
+PathfinderGoalHurtByTarget:
+
+PathfinderGoalInteract:
+
+PathfinderGoalJumpOnBlock:
+
+PathfinderGoalLeapAtTarget:
+
+PathfinderGoalLLamaFollow:
+
+PathfinderGoalLookAtPlayer:
+
+PathfinderGoalLookAtTradingPlayer:
+
+PathfinderGoalMeleeAttack:
+
+PathfinderGoalMoveThroughVillage:
+
+PathfinderGoalMoveTowardsRestriction:
+
+PathfinderGoalMoveTowardsTarget:
+
+PathfinderGoalNearestAttackableTarget:
+
+PathfinderGoalNearestAttackableTargetWitch:
+
+PathfinderGoalNearestHealableRaider:
+
+PathfinderGoalNearestVillage:
+
+PathfinderGoalOcelotAttack:
+
+PathfinderGoalOfferFlower:
+
+PathfinderGoalOwnerHurtByTarget:
+
+PathfinderGoalOwnerHurtTarget:
+
+PathfinderGoalPanic:
+
+PathfinderGoalPerch:
+
+PathfinderGoalRaid:
+
+PathfinderGoalRandomFly:
+  default: false
+
+PathfinderGoalRandomLookaround:
+
+PathfinderGoalRandomStroll:
+  default: false
+
+PathfinderGoalRandomStrollLand:
+  default: false
+
+PathfinderGoalRandomSwim:
+  default: false
+
+PathfinderGoalRandomTargetNonTamed:
+
+PathfinderGoalRemoveBlock:
+
+PathfinderGoalRestrictSun:
+
+PathfinderGoalSit:
+
+PathfinderGoalStrollVillage:
+
+PathfinderGoalSwell:
+
+PathfinderGoalTame:
+
+PathfinderGoalTempt:
+
+PathfinderGoalTradeWithPlayer:
+
+PathfinderGoalUseItem:
+
+PathfinderGoalWater:
+
+PathfinderGoalWaterJump:
+
+PathfinderGoalZombieAttack:
+
+# This is the Pillager's patrol goal
+EntityMonsterPatrolling.a:
+
+# This is the Zombie's turtle egg smashing goal
+EntityZombie.a:
+
+# section-end

@@ -1,0 +1,63 @@
+#------------------------------------
+#
+# BloodInMinecraft Plugin V7.5 (do /bimconfighelp to have help with this file)
+#
+#
+#Config File
+#
+#Commands:
+#
+#- /bim (info about plugin version and other command)
+#- /bim reload (reload config file and plugin to change particles)
+#- /bimconfighelp (help with config.yml)
+#- /bloodplayers set (id block for the blood with players) (set 0 to disable)
+#- /bloodmobs set (id block for the blood with mobs) (set 0 to disable)
+#- /amountbloodplayers set (amount of particle for players)
+#- /amountbloodmobs set (amount of particle)
+#
+#------------------------------------
+#
+#To found the id for blood particle take a block (like redstone block = REDSTONE_BLOCK or slimeblock = SLIME_BLOCK) and change block name if you want and do /bim reload
+#-
+#List of id blocks : https://minecraft-ids.grahamedgecombe.com/
+#Please Now use only name id not numerical id thanks :)
+#-
+#to reload config do /bim reload or if you need help send me a pm on spigot (https://www.spigotmc.org/members/yanisssch91.285669/).
+#
+#--------------------
+#Now from V4 you can choose the blood particle for player and also for mobs
+#To disable blood particle change to AIR
+#-
+Mobs: REDSTONE_BLOCK
+Human: REDSTONE_BLOCK
+#-
+#Now from V7.2 you can choose the amount blood particle for player and also for mobs
+#Becareful avoid to put more than 100 to avoid client lag ^^
+#I Advise you between 10 and 30 ;)
+HumanAmountParticle: 20
+MobsAmountParticle: 20
+#--------------------
+#From v5.3 you can disable blood on some world
+#-
+blood-disabled-worlds:
+  - disabledworld
+  - noblood
+#-
+#--------------------
+#From v7.3 you can disable blood when player wearing parts of armor
+#-
+#Set true to turn on this
+no-blood-when-wearing-armor: false
+#Check which part weared avoid blood (you can choose multiple)
+no-blood-when-wearing-helmet: true
+no-blood-when-wearing-chestplate: true
+no-blood-when-wearing-leggings: true
+no-blood-when-wearing-boots: true
+#-
+#--------------------
+#From v7.5 you can disable blood when player wis blocking
+#-
+#Set true to turn on this
+no-blood-when-blocking: true
+#-
+#--------------------

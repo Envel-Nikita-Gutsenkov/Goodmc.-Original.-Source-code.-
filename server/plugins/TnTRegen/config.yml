@@ -21,6 +21,20 @@ entity:
       defaultWorld:
         minY: 0.0
         maxY: 256.0
+      world:
+        minY: 0.0
+        maxY: 256.0
+      world_nether:
+        minY: 0.0
+        maxY: 256.0
+      world_the_end:
+        minY: 0.0
+        maxY: 256.0
+      mine:
+        minY: 0.0
+        maxY: 256.0
+    blockDamage: 1
+    checkRadius: 5
   fireball:
     enable: false
     delay: 1200
@@ -76,6 +90,14 @@ entity:
       rgd:
         minY: 0.0
         maxY: 256.0
+      level5:
+        minY: 0.0
+        maxY: 256.0
+      mine:
+        minY: 0.0
+        maxY: 256.0
+    blockDamage: 1
+    checkRadius: 5
   small_fireball:
     enable: false
     delay: 1200
@@ -131,6 +153,14 @@ entity:
       rgd:
         minY: 0.0
         maxY: 256.0
+      level5:
+        minY: 0.0
+        maxY: 256.0
+      mine:
+        minY: 0.0
+        maxY: 256.0
+    blockDamage: 1
+    checkRadius: 5
   wither_skull:
     enable: false
     delay: 1200
@@ -186,6 +216,14 @@ entity:
       rgd:
         minY: 0.0
         maxY: 256.0
+      level5:
+        minY: 0.0
+        maxY: 256.0
+      mine:
+        minY: 0.0
+        maxY: 256.0
+    blockDamage: 1
+    checkRadius: 5
   primed_tnt:
     enable: false
     delay: 1200
@@ -241,6 +279,14 @@ entity:
       rgd:
         minY: 0.0
         maxY: 256.0
+      level5:
+        minY: 0.0
+        maxY: 256.0
+      mine:
+        minY: 0.0
+        maxY: 256.0
+    blockDamage: 1
+    checkRadius: 5
   dragon_fireball:
     enable: false
     delay: 1200
@@ -296,6 +342,14 @@ entity:
       rgd:
         minY: 0.0
         maxY: 256.0
+      level5:
+        minY: 0.0
+        maxY: 256.0
+      mine:
+        minY: 0.0
+        maxY: 256.0
+    blockDamage: 1
+    checkRadius: 5
   minecart_tnt:
     enable: false
     delay: 1200
@@ -351,6 +405,14 @@ entity:
       rgd:
         minY: 0.0
         maxY: 256.0
+      level5:
+        minY: 0.0
+        maxY: 256.0
+      mine:
+        minY: 0.0
+        maxY: 256.0
+    blockDamage: 1
+    checkRadius: 5
   creeper:
     enable: true
     delay: 4200
@@ -406,6 +468,14 @@ entity:
       rgd:
         minY: 0.0
         maxY: 256.0
+      level5:
+        minY: 0.0
+        maxY: 256.0
+      mine:
+        minY: 0.0
+        maxY: 256.0
+    blockDamage: 1
+    checkRadius: 5
   ender_crystal:
     enable: false
     delay: 1200
@@ -461,6 +531,77 @@ entity:
       rgd:
         minY: 0.0
         maxY: 256.0
+      level5:
+        minY: 0.0
+        maxY: 256.0
+      mine:
+        minY: 0.0
+        maxY: 256.0
+    blockDamage: 1
+    checkRadius: 5
+  ender_dragon:
+    enable: false
+    delay: 1200
+    period: 20
+    instantRegen: false
+    disableBlockDamage: false
+    blockDamage: 1
+    checkRadius: 5
+    particles:
+      blockRegen:
+        particle: heart
+        enable: false
+      blockToBeRegen:
+        particle: flame
+        enable: false
+    sound:
+      enable: false
+      sound: block_grass_place
+      volume: 1.0
+      pitch: 2.0
+    triggers:
+      world:
+        minY: 0.0
+        maxY: 256.0
+      world_nether:
+        minY: 0.0
+        maxY: 256.0
+      world_the_end:
+        minY: 0.0
+        maxY: 256.0
+  wither:
+    enable: false
+    delay: 1200
+    period: 20
+    instantRegen: false
+    disableBlockDamage: false
+    blockDamage: 1
+    checkRadius: 5
+    particles:
+      blockRegen:
+        particle: heart
+        enable: false
+      blockToBeRegen:
+        particle: flame
+        enable: false
+    sound:
+      enable: false
+      sound: block_grass_place
+      volume: 1.0
+      pitch: 2.0
+    triggers:
+      world:
+        minY: 0.0
+        maxY: 256.0
+      world_nether:
+        minY: 0.0
+        maxY: 256.0
+      world_the_end:
+        minY: 0.0
+        maxY: 256.0
+      mine:
+        minY: 0.0
+        maxY: 256.0
 block:
   default:
     enable: false
@@ -484,6 +625,20 @@ block:
       defaultWorld:
         minY: 0.0
         maxY: 256.0
+      world:
+        minY: 0.0
+        maxY: 256.0
+      world_nether:
+        minY: 0.0
+        maxY: 256.0
+      world_the_end:
+        minY: 0.0
+        maxY: 256.0
+      mine:
+        minY: 0.0
+        maxY: 256.0
+    blockDamage: 1
+    checkRadius: 5
   black_bed:
     enable: false
     delay: 1200
@@ -539,6 +694,14 @@ block:
       rgd:
         minY: 0.0
         maxY: 256.0
+      level5:
+        minY: 0.0
+        maxY: 256.0
+      mine:
+        minY: 0.0
+        maxY: 256.0
+    blockDamage: 1
+    checkRadius: 5
   blue_bed:
     enable: false
     delay: 1200
@@ -594,6 +757,14 @@ block:
       rgd:
         minY: 0.0
         maxY: 256.0
+      level5:
+        minY: 0.0
+        maxY: 256.0
+      mine:
+        minY: 0.0
+        maxY: 256.0
+    blockDamage: 1
+    checkRadius: 5
   brown_bed:
     enable: false
     delay: 1200
@@ -649,6 +820,14 @@ block:
       rgd:
         minY: 0.0
         maxY: 256.0
+      level5:
+        minY: 0.0
+        maxY: 256.0
+      mine:
+        minY: 0.0
+        maxY: 256.0
+    blockDamage: 1
+    checkRadius: 5
   cyan_bed:
     enable: false
     delay: 1200
@@ -704,6 +883,14 @@ block:
       rgd:
         minY: 0.0
         maxY: 256.0
+      level5:
+        minY: 0.0
+        maxY: 256.0
+      mine:
+        minY: 0.0
+        maxY: 256.0
+    blockDamage: 1
+    checkRadius: 5
   gray_bed:
     enable: false
     delay: 1200
@@ -759,6 +946,14 @@ block:
       rgd:
         minY: 0.0
         maxY: 256.0
+      level5:
+        minY: 0.0
+        maxY: 256.0
+      mine:
+        minY: 0.0
+        maxY: 256.0
+    blockDamage: 1
+    checkRadius: 5
   green_bed:
     enable: false
     delay: 1200
@@ -814,6 +1009,14 @@ block:
       rgd:
         minY: 0.0
         maxY: 256.0
+      level5:
+        minY: 0.0
+        maxY: 256.0
+      mine:
+        minY: 0.0
+        maxY: 256.0
+    blockDamage: 1
+    checkRadius: 5
   light_blue_bed:
     enable: false
     delay: 1200
@@ -869,6 +1072,14 @@ block:
       rgd:
         minY: 0.0
         maxY: 256.0
+      level5:
+        minY: 0.0
+        maxY: 256.0
+      mine:
+        minY: 0.0
+        maxY: 256.0
+    blockDamage: 1
+    checkRadius: 5
   light_gray_bed:
     enable: false
     delay: 1200
@@ -924,6 +1135,14 @@ block:
       rgd:
         minY: 0.0
         maxY: 256.0
+      level5:
+        minY: 0.0
+        maxY: 256.0
+      mine:
+        minY: 0.0
+        maxY: 256.0
+    blockDamage: 1
+    checkRadius: 5
   lime_bed:
     enable: false
     delay: 1200
@@ -979,6 +1198,14 @@ block:
       rgd:
         minY: 0.0
         maxY: 256.0
+      level5:
+        minY: 0.0
+        maxY: 256.0
+      mine:
+        minY: 0.0
+        maxY: 256.0
+    blockDamage: 1
+    checkRadius: 5
   magenta_bed:
     enable: false
     delay: 1200
@@ -1034,6 +1261,14 @@ block:
       rgd:
         minY: 0.0
         maxY: 256.0
+      level5:
+        minY: 0.0
+        maxY: 256.0
+      mine:
+        minY: 0.0
+        maxY: 256.0
+    blockDamage: 1
+    checkRadius: 5
   orange_bed:
     enable: false
     delay: 1200
@@ -1089,6 +1324,14 @@ block:
       rgd:
         minY: 0.0
         maxY: 256.0
+      level5:
+        minY: 0.0
+        maxY: 256.0
+      mine:
+        minY: 0.0
+        maxY: 256.0
+    blockDamage: 1
+    checkRadius: 5
   pink_bed:
     enable: false
     delay: 1200
@@ -1144,6 +1387,14 @@ block:
       rgd:
         minY: 0.0
         maxY: 256.0
+      level5:
+        minY: 0.0
+        maxY: 256.0
+      mine:
+        minY: 0.0
+        maxY: 256.0
+    blockDamage: 1
+    checkRadius: 5
   purple_bed:
     enable: false
     delay: 1200
@@ -1199,6 +1450,14 @@ block:
       rgd:
         minY: 0.0
         maxY: 256.0
+      level5:
+        minY: 0.0
+        maxY: 256.0
+      mine:
+        minY: 0.0
+        maxY: 256.0
+    blockDamage: 1
+    checkRadius: 5
   red_bed:
     enable: false
     delay: 1200
@@ -1254,6 +1513,14 @@ block:
       rgd:
         minY: 0.0
         maxY: 256.0
+      level5:
+        minY: 0.0
+        maxY: 256.0
+      mine:
+        minY: 0.0
+        maxY: 256.0
+    blockDamage: 1
+    checkRadius: 5
   white_bed:
     enable: false
     delay: 1200
@@ -1309,6 +1576,14 @@ block:
       rgd:
         minY: 0.0
         maxY: 256.0
+      level5:
+        minY: 0.0
+        maxY: 256.0
+      mine:
+        minY: 0.0
+        maxY: 256.0
+    blockDamage: 1
+    checkRadius: 5
   yellow_bed:
     enable: false
     delay: 1200
@@ -1364,6 +1639,14 @@ block:
       rgd:
         minY: 0.0
         maxY: 256.0
+      level5:
+        minY: 0.0
+        maxY: 256.0
+      mine:
+        minY: 0.0
+        maxY: 256.0
+    blockDamage: 1
+    checkRadius: 5
 other:
   enablePlugin: true
   forceBlockToRegen: false
@@ -1373,3 +1656,4 @@ other:
     maxShiftGravityUp: 5
   NoPermMsg: '&c[TnTRegen] You do not have permission to use this command!'
   enablePlayerSettings: false
+  showDiscordLink: true

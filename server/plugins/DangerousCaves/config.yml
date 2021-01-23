@@ -158,7 +158,7 @@ caverns:
       - mine
     # Chance of caves near player will be affected
     # Checking every WORLD tick
-    chance: 5
+    chance: 4
     # Radius of cave aging near player
     # In chunks (+1 where the player is)
     radius: 3
@@ -168,14 +168,14 @@ caverns:
     change-chance: 1.5
     # Maximal light level of block (0-15)
     # WARNING: Can cause lags if > 0. This option checks every horizontal side of block to check if there's some light
-    max-light-level: 2
+    max-light-level: 1
     # Vanilla ticks between chunk changes. Larger value - better performance, but slower process
     # Large values(60+) are not recommended
     schedule-timer: 4
     # Force chunk loading if chunk was unloaded during scheduled aging. Disable if it's too intensive for your server
     force-load: false
     # Maximal percentage of aged blocks per chunk
-    percentage: 5
+    percentage: 3
     # List of materials that are affected by aging
     replace-blocks:
       - STONE
@@ -404,7 +404,7 @@ mobs:
   # Hungering Darkness
   # Spawns in the dark and kills player if there's no light
   hungering-darkness:
-    priority: 15
+    priority: 16
     name: ""
     # Kill the entity on light?
     remove-on-light: false
@@ -457,7 +457,7 @@ mobs:
   # TNT Creeper
   # Spawns additional TNT when explodes and creates small explosion when damaged
   tnt-creeper:
-    priority: 15
+    priority: 18
     name: "Крипер с динамитом"
     health: 20
     # Amount of TNT to spawn after explosion
@@ -468,7 +468,7 @@ mobs:
   # Watcher
   # Just jumpscares a player
   watcher:
-    priority: 6
+    priority: 8
     name: "ዜάচለਠ∂ǻ⍡℮Ꮑ৮"
     health: 40
     # Get your custom head here https://minecraft-heads.com/
@@ -494,7 +494,7 @@ mobs:
   # Has strong attack, can be damaged only with pickaxe, drops its head on death
   cave-golem:
     priority: 1
-    health: 20
+    health: 10
     name: "Пещерный голем"
     # Give Cave Golem slowness effect
     slowness: true

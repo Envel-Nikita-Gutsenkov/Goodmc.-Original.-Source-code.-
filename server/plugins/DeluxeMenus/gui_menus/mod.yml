@@ -1,4 +1,9 @@
     menu_title: '&c&lМодерация'
+    open_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: gmc.gui.moderator
     open_command:
     - modgui
     size: 5
@@ -53,7 +58,7 @@
         - '[message]&6➦ Что-то запустили.'
         - '[close]'
         right_click_commands:
-        - '[console] co purge t:90d a:click'
+        - '[console] co purge t:120d a:click'
         - '[console] lp user %player_name% permission settemp gmc.gui.hardaction.1 false 1h'
         - '[message]&6➦ Что-то запустили.'
         - '[close]'
@@ -78,11 +83,11 @@
         - ''
         left_click_commands:
         - '[console] lp user %player_name% permission settemp gmc.gui.hardaction.2 false 1h'
-        - '[console] asw restart'
+        - '[console] stop'
         - '[message]&6➦ Что-то запустили.'
         - '[close]'
         right_click_commands:
         - '[console] lp user %player_name% permission settemp gmc.gui.hardaction.2 false 1h'
-        - '[console] asw restart'
+        - '[console] stop'
         - '[message]&6➦ Что-то запустили.'
         - '[close]'

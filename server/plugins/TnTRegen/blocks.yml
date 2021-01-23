@@ -5,6 +5,7 @@ acacia_button:
     doReplace: false
     replaceWith: acacia_button
   chance: 30
+  durability: 1
 acacia_door:
   doPreventDamage: false
   regen: true
@@ -12,6 +13,7 @@ acacia_door:
     doReplace: false
     replaceWith: acacia_door
   chance: 30
+  durability: 1
 acacia_fence:
   doPreventDamage: false
   regen: true
@@ -19,6 +21,7 @@ acacia_fence:
     doReplace: false
     replaceWith: acacia_fence
   chance: 30
+  durability: 1
 acacia_fence_gate:
   doPreventDamage: false
   regen: true
@@ -26,6 +29,7 @@ acacia_fence_gate:
     doReplace: false
     replaceWith: acacia_fence_gate
   chance: 30
+  durability: 1
 acacia_leaves:
   doPreventDamage: false
   regen: true
@@ -33,6 +37,7 @@ acacia_leaves:
     doReplace: false
     replaceWith: acacia_leaves
   chance: 30
+  durability: 1
 acacia_log:
   doPreventDamage: false
   regen: true
@@ -40,6 +45,7 @@ acacia_log:
     doReplace: false
     replaceWith: acacia_log
   chance: 30
+  durability: 1
 acacia_planks:
   doPreventDamage: false
   regen: true
@@ -47,6 +53,7 @@ acacia_planks:
     doReplace: false
     replaceWith: acacia_planks
   chance: 30
+  durability: 1
 acacia_pressure_plate:
   doPreventDamage: false
   regen: true
@@ -54,6 +61,7 @@ acacia_pressure_plate:
     doReplace: false
     replaceWith: acacia_pressure_plate
   chance: 30
+  durability: 1
 acacia_sapling:
   doPreventDamage: false
   regen: true
@@ -61,6 +69,7 @@ acacia_sapling:
     doReplace: false
     replaceWith: acacia_sapling
   chance: 30
+  durability: 1
 acacia_sign:
   doPreventDamage: false
   regen: true
@@ -68,6 +77,7 @@ acacia_sign:
     doReplace: false
     replaceWith: acacia_sign
   chance: 30
+  durability: 1
 acacia_slab:
   doPreventDamage: false
   regen: true
@@ -75,6 +85,7 @@ acacia_slab:
     doReplace: false
     replaceWith: acacia_slab
   chance: 30
+  durability: 1
 acacia_stairs:
   doPreventDamage: false
   regen: true
@@ -82,6 +93,7 @@ acacia_stairs:
     doReplace: false
     replaceWith: acacia_stairs
   chance: 30
+  durability: 1
 acacia_trapdoor:
   doPreventDamage: false
   regen: true
@@ -89,6 +101,7 @@ acacia_trapdoor:
     doReplace: false
     replaceWith: acacia_trapdoor
   chance: 30
+  durability: 1
 acacia_wall_sign:
   doPreventDamage: false
   regen: true
@@ -96,6 +109,7 @@ acacia_wall_sign:
     doReplace: false
     replaceWith: acacia_wall_sign
   chance: 30
+  durability: 1
 acacia_wood:
   doPreventDamage: false
   regen: true
@@ -103,6 +117,7 @@ acacia_wood:
     doReplace: false
     replaceWith: acacia_wood
   chance: 30
+  durability: 1
 activator_rail:
   doPreventDamage: false
   regen: true
@@ -110,6 +125,7 @@ activator_rail:
     doReplace: false
     replaceWith: activator_rail
   chance: 30
+  durability: 1
 allium:
   doPreventDamage: false
   regen: true
@@ -117,6 +133,7 @@ allium:
     doReplace: false
     replaceWith: allium
   chance: 30
+  durability: 1
 andesite:
   doPreventDamage: false
   regen: true
@@ -124,6 +141,7 @@ andesite:
     doReplace: false
     replaceWith: andesite
   chance: 30
+  durability: 1
 andesite_slab:
   doPreventDamage: false
   regen: true
@@ -131,6 +149,7 @@ andesite_slab:
     doReplace: false
     replaceWith: andesite_slab
   chance: 30
+  durability: 1
 andesite_stairs:
   doPreventDamage: false
   regen: true
@@ -138,6 +157,7 @@ andesite_stairs:
     doReplace: false
     replaceWith: andesite_stairs
   chance: 30
+  durability: 1
 andesite_wall:
   doPreventDamage: false
   regen: true
@@ -145,6 +165,7 @@ andesite_wall:
     doReplace: false
     replaceWith: andesite_wall
   chance: 30
+  durability: 1
 anvil:
   doPreventDamage: false
   regen: true
@@ -152,6 +173,7 @@ anvil:
     doReplace: false
     replaceWith: anvil
   chance: 30
+  durability: -1
 attached_melon_stem:
   doPreventDamage: false
   regen: true
@@ -159,6 +181,7 @@ attached_melon_stem:
     doReplace: false
     replaceWith: attached_melon_stem
   chance: 30
+  durability: 1
 attached_pumpkin_stem:
   doPreventDamage: false
   regen: true
@@ -166,6 +189,7 @@ attached_pumpkin_stem:
     doReplace: false
     replaceWith: attached_pumpkin_stem
   chance: 30
+  durability: 1
 azure_bluet:
   doPreventDamage: false
   regen: true
@@ -173,6 +197,7 @@ azure_bluet:
     doReplace: false
     replaceWith: azure_bluet
   chance: 30
+  durability: 1
 bamboo:
   doPreventDamage: false
   regen: true
@@ -180,6 +205,7 @@ bamboo:
     doReplace: false
     replaceWith: bamboo
   chance: 30
+  durability: 1
 bamboo_sapling:
   doPreventDamage: false
   regen: true
@@ -187,6 +213,7 @@ bamboo_sapling:
     doReplace: false
     replaceWith: bamboo_sapling
   chance: 30
+  durability: 1
 barrel:
   doPreventDamage: false
   regen: true
@@ -195,6 +222,7 @@ barrel:
     doReplace: false
     replaceWith: barrel
   chance: 30
+  durability: 1
 barrier:
   doPreventDamage: false
   regen: true
@@ -202,6 +230,7 @@ barrier:
     doReplace: false
     replaceWith: barrier
   chance: 30
+  durability: -1
 beacon:
   doPreventDamage: false
   regen: true
@@ -209,6 +238,7 @@ beacon:
     doReplace: false
     replaceWith: beacon
   chance: 30
+  durability: 1
 bedrock:
   doPreventDamage: false
   regen: true
@@ -216,6 +246,7 @@ bedrock:
     doReplace: false
     replaceWith: bedrock
   chance: 30
+  durability: -1
 beehive:
   doPreventDamage: false
   regen: true
@@ -223,6 +254,7 @@ beehive:
     doReplace: false
     replaceWith: beehive
   chance: 30
+  durability: 1
 beetroots:
   doPreventDamage: false
   regen: true
@@ -230,6 +262,7 @@ beetroots:
     doReplace: false
     replaceWith: beetroots
   chance: 30
+  durability: 1
 bee_nest:
   doPreventDamage: false
   regen: true
@@ -237,6 +270,7 @@ bee_nest:
     doReplace: false
     replaceWith: bee_nest
   chance: 30
+  durability: 1
 bell:
   doPreventDamage: false
   regen: true
@@ -244,6 +278,7 @@ bell:
     doReplace: false
     replaceWith: bell
   chance: 30
+  durability: 1
 birch_button:
   doPreventDamage: false
   regen: true
@@ -251,6 +286,7 @@ birch_button:
     doReplace: false
     replaceWith: birch_button
   chance: 30
+  durability: 1
 birch_door:
   doPreventDamage: false
   regen: true
@@ -258,6 +294,7 @@ birch_door:
     doReplace: false
     replaceWith: birch_door
   chance: 30
+  durability: 1
 birch_fence:
   doPreventDamage: false
   regen: true
@@ -265,6 +302,7 @@ birch_fence:
     doReplace: false
     replaceWith: birch_fence
   chance: 30
+  durability: 1
 birch_fence_gate:
   doPreventDamage: false
   regen: true
@@ -272,6 +310,7 @@ birch_fence_gate:
     doReplace: false
     replaceWith: birch_fence_gate
   chance: 30
+  durability: 1
 birch_leaves:
   doPreventDamage: false
   regen: true
@@ -279,6 +318,7 @@ birch_leaves:
     doReplace: false
     replaceWith: birch_leaves
   chance: 30
+  durability: 1
 birch_log:
   doPreventDamage: false
   regen: true
@@ -286,6 +326,7 @@ birch_log:
     doReplace: false
     replaceWith: birch_log
   chance: 30
+  durability: 1
 birch_planks:
   doPreventDamage: false
   regen: true
@@ -293,6 +334,7 @@ birch_planks:
     doReplace: false
     replaceWith: birch_planks
   chance: 30
+  durability: 1
 birch_pressure_plate:
   doPreventDamage: false
   regen: true
@@ -300,6 +342,7 @@ birch_pressure_plate:
     doReplace: false
     replaceWith: birch_pressure_plate
   chance: 30
+  durability: 1
 birch_sapling:
   doPreventDamage: false
   regen: true
@@ -307,6 +350,7 @@ birch_sapling:
     doReplace: false
     replaceWith: birch_sapling
   chance: 30
+  durability: 1
 birch_sign:
   doPreventDamage: false
   regen: true
@@ -314,6 +358,7 @@ birch_sign:
     doReplace: false
     replaceWith: birch_sign
   chance: 30
+  durability: 1
 birch_slab:
   doPreventDamage: false
   regen: true
@@ -321,6 +366,7 @@ birch_slab:
     doReplace: false
     replaceWith: birch_slab
   chance: 30
+  durability: 1
 birch_stairs:
   doPreventDamage: false
   regen: true
@@ -328,6 +374,7 @@ birch_stairs:
     doReplace: false
     replaceWith: birch_stairs
   chance: 30
+  durability: 1
 birch_trapdoor:
   doPreventDamage: false
   regen: true
@@ -335,6 +382,7 @@ birch_trapdoor:
     doReplace: false
     replaceWith: birch_trapdoor
   chance: 30
+  durability: 1
 birch_wall_sign:
   doPreventDamage: false
   regen: true
@@ -342,6 +390,7 @@ birch_wall_sign:
     doReplace: false
     replaceWith: birch_wall_sign
   chance: 30
+  durability: 1
 birch_wood:
   doPreventDamage: false
   regen: true
@@ -349,6 +398,7 @@ birch_wood:
     doReplace: false
     replaceWith: birch_wood
   chance: 30
+  durability: 1
 black_banner:
   doPreventDamage: false
   regen: true
@@ -356,6 +406,7 @@ black_banner:
     doReplace: false
     replaceWith: black_banner
   chance: 30
+  durability: 1
 black_bed:
   doPreventDamage: false
   regen: true
@@ -363,6 +414,7 @@ black_bed:
     doReplace: false
     replaceWith: black_bed
   chance: 30
+  durability: 1
 black_carpet:
   doPreventDamage: false
   regen: true
@@ -370,6 +422,7 @@ black_carpet:
     doReplace: false
     replaceWith: black_carpet
   chance: 30
+  durability: 1
 black_concrete:
   doPreventDamage: false
   regen: true
@@ -377,6 +430,7 @@ black_concrete:
     doReplace: false
     replaceWith: black_concrete
   chance: 30
+  durability: 1
 black_concrete_powder:
   doPreventDamage: false
   regen: true
@@ -384,6 +438,7 @@ black_concrete_powder:
     doReplace: false
     replaceWith: black_concrete_powder
   chance: 30
+  durability: 1
 black_glazed_terracotta:
   doPreventDamage: false
   regen: true
@@ -391,6 +446,7 @@ black_glazed_terracotta:
     doReplace: false
     replaceWith: black_glazed_terracotta
   chance: 30
+  durability: 1
 black_shulker_box:
   doPreventDamage: false
   regen: true
@@ -398,6 +454,7 @@ black_shulker_box:
     doReplace: false
     replaceWith: black_shulker_box
   chance: 30
+  durability: 1
 black_stained_glass:
   doPreventDamage: false
   regen: true
@@ -405,6 +462,7 @@ black_stained_glass:
     doReplace: false
     replaceWith: black_stained_glass
   chance: 30
+  durability: 1
 black_stained_glass_pane:
   doPreventDamage: false
   regen: true
@@ -412,6 +470,7 @@ black_stained_glass_pane:
     doReplace: false
     replaceWith: black_stained_glass_pane
   chance: 30
+  durability: 1
 black_terracotta:
   doPreventDamage: false
   regen: true
@@ -419,6 +478,7 @@ black_terracotta:
     doReplace: false
     replaceWith: black_terracotta
   chance: 30
+  durability: 1
 black_wall_banner:
   doPreventDamage: false
   regen: true
@@ -426,6 +486,7 @@ black_wall_banner:
     doReplace: false
     replaceWith: black_wall_banner
   chance: 30
+  durability: 1
 black_wool:
   doPreventDamage: false
   regen: true
@@ -433,6 +494,7 @@ black_wool:
     doReplace: false
     replaceWith: black_wool
   chance: 30
+  durability: 1
 blast_furnace:
   doPreventDamage: false
   regen: true
@@ -441,6 +503,7 @@ blast_furnace:
     doReplace: false
     replaceWith: blast_furnace
   chance: 30
+  durability: 1
 blue_banner:
   doPreventDamage: false
   regen: true
@@ -448,6 +511,7 @@ blue_banner:
     doReplace: false
     replaceWith: blue_banner
   chance: 30
+  durability: 1
 blue_bed:
   doPreventDamage: false
   regen: true
@@ -455,6 +519,7 @@ blue_bed:
     doReplace: false
     replaceWith: blue_bed
   chance: 30
+  durability: 1
 blue_carpet:
   doPreventDamage: false
   regen: true
@@ -462,6 +527,7 @@ blue_carpet:
     doReplace: false
     replaceWith: blue_carpet
   chance: 30
+  durability: 1
 blue_concrete:
   doPreventDamage: false
   regen: true
@@ -469,6 +535,7 @@ blue_concrete:
     doReplace: false
     replaceWith: blue_concrete
   chance: 30
+  durability: 1
 blue_concrete_powder:
   doPreventDamage: false
   regen: true
@@ -476,6 +543,7 @@ blue_concrete_powder:
     doReplace: false
     replaceWith: blue_concrete_powder
   chance: 30
+  durability: 1
 blue_glazed_terracotta:
   doPreventDamage: false
   regen: true
@@ -483,6 +551,7 @@ blue_glazed_terracotta:
     doReplace: false
     replaceWith: blue_glazed_terracotta
   chance: 30
+  durability: 1
 blue_ice:
   doPreventDamage: false
   regen: true
@@ -490,6 +559,7 @@ blue_ice:
     doReplace: false
     replaceWith: blue_ice
   chance: 30
+  durability: 1
 blue_orchid:
   doPreventDamage: false
   regen: true
@@ -497,6 +567,7 @@ blue_orchid:
     doReplace: false
     replaceWith: blue_orchid
   chance: 30
+  durability: 1
 blue_shulker_box:
   doPreventDamage: false
   regen: true
@@ -504,6 +575,7 @@ blue_shulker_box:
     doReplace: false
     replaceWith: blue_shulker_box
   chance: 30
+  durability: 1
 blue_stained_glass:
   doPreventDamage: false
   regen: true
@@ -511,6 +583,7 @@ blue_stained_glass:
     doReplace: false
     replaceWith: blue_stained_glass
   chance: 30
+  durability: 1
 blue_stained_glass_pane:
   doPreventDamage: false
   regen: true
@@ -518,6 +591,7 @@ blue_stained_glass_pane:
     doReplace: false
     replaceWith: blue_stained_glass_pane
   chance: 30
+  durability: 1
 blue_terracotta:
   doPreventDamage: false
   regen: true
@@ -525,6 +599,7 @@ blue_terracotta:
     doReplace: false
     replaceWith: blue_terracotta
   chance: 30
+  durability: 1
 blue_wall_banner:
   doPreventDamage: false
   regen: true
@@ -532,6 +607,7 @@ blue_wall_banner:
     doReplace: false
     replaceWith: blue_wall_banner
   chance: 30
+  durability: 1
 blue_wool:
   doPreventDamage: false
   regen: true
@@ -539,6 +615,7 @@ blue_wool:
     doReplace: false
     replaceWith: blue_wool
   chance: 30
+  durability: 1
 bone_block:
   doPreventDamage: false
   regen: true
@@ -546,6 +623,7 @@ bone_block:
     doReplace: false
     replaceWith: bone_block
   chance: 30
+  durability: 1
 bookshelf:
   doPreventDamage: false
   regen: true
@@ -553,6 +631,7 @@ bookshelf:
     doReplace: false
     replaceWith: bookshelf
   chance: 30
+  durability: 1
 brain_coral:
   doPreventDamage: false
   regen: true
@@ -560,6 +639,7 @@ brain_coral:
     doReplace: false
     replaceWith: brain_coral
   chance: 30
+  durability: 1
 brain_coral_block:
   doPreventDamage: false
   regen: true
@@ -567,6 +647,7 @@ brain_coral_block:
     doReplace: false
     replaceWith: brain_coral_block
   chance: 30
+  durability: 1
 brain_coral_fan:
   doPreventDamage: false
   regen: true
@@ -574,6 +655,7 @@ brain_coral_fan:
     doReplace: false
     replaceWith: brain_coral_fan
   chance: 30
+  durability: 1
 brain_coral_wall_fan:
   doPreventDamage: false
   regen: true
@@ -581,6 +663,7 @@ brain_coral_wall_fan:
     doReplace: false
     replaceWith: brain_coral_wall_fan
   chance: 30
+  durability: 1
 brewing_stand:
   doPreventDamage: false
   regen: true
@@ -589,6 +672,7 @@ brewing_stand:
     doReplace: false
     replaceWith: brewing_stand
   chance: 30
+  durability: 1
 bricks:
   doPreventDamage: false
   regen: true
@@ -596,6 +680,7 @@ bricks:
     doReplace: false
     replaceWith: bricks
   chance: 30
+  durability: 1
 brick_slab:
   doPreventDamage: false
   regen: true
@@ -603,6 +688,7 @@ brick_slab:
     doReplace: false
     replaceWith: brick_slab
   chance: 30
+  durability: 1
 brick_stairs:
   doPreventDamage: false
   regen: true
@@ -610,6 +696,7 @@ brick_stairs:
     doReplace: false
     replaceWith: brick_stairs
   chance: 30
+  durability: 1
 brick_wall:
   doPreventDamage: false
   regen: true
@@ -617,6 +704,7 @@ brick_wall:
     doReplace: false
     replaceWith: brick_wall
   chance: 30
+  durability: 1
 brown_banner:
   doPreventDamage: false
   regen: true
@@ -624,6 +712,7 @@ brown_banner:
     doReplace: false
     replaceWith: brown_banner
   chance: 30
+  durability: 1
 brown_bed:
   doPreventDamage: false
   regen: true
@@ -631,6 +720,7 @@ brown_bed:
     doReplace: false
     replaceWith: brown_bed
   chance: 30
+  durability: 1
 brown_carpet:
   doPreventDamage: false
   regen: true
@@ -638,6 +728,7 @@ brown_carpet:
     doReplace: false
     replaceWith: brown_carpet
   chance: 30
+  durability: 1
 brown_concrete:
   doPreventDamage: false
   regen: true
@@ -645,6 +736,7 @@ brown_concrete:
     doReplace: false
     replaceWith: brown_concrete
   chance: 30
+  durability: 1
 brown_concrete_powder:
   doPreventDamage: false
   regen: true
@@ -652,6 +744,7 @@ brown_concrete_powder:
     doReplace: false
     replaceWith: brown_concrete_powder
   chance: 30
+  durability: 1
 brown_glazed_terracotta:
   doPreventDamage: false
   regen: true
@@ -659,6 +752,7 @@ brown_glazed_terracotta:
     doReplace: false
     replaceWith: brown_glazed_terracotta
   chance: 30
+  durability: 1
 brown_mushroom:
   doPreventDamage: false
   regen: true
@@ -666,6 +760,7 @@ brown_mushroom:
     doReplace: false
     replaceWith: brown_mushroom
   chance: 30
+  durability: 1
 brown_mushroom_block:
   doPreventDamage: false
   regen: true
@@ -673,6 +768,7 @@ brown_mushroom_block:
     doReplace: false
     replaceWith: brown_mushroom_block
   chance: 30
+  durability: 1
 brown_shulker_box:
   doPreventDamage: false
   regen: true
@@ -680,6 +776,7 @@ brown_shulker_box:
     doReplace: false
     replaceWith: brown_shulker_box
   chance: 30
+  durability: 1
 brown_stained_glass:
   doPreventDamage: false
   regen: true
@@ -687,6 +784,7 @@ brown_stained_glass:
     doReplace: false
     replaceWith: brown_stained_glass
   chance: 30
+  durability: 1
 brown_stained_glass_pane:
   doPreventDamage: false
   regen: true
@@ -694,6 +792,7 @@ brown_stained_glass_pane:
     doReplace: false
     replaceWith: brown_stained_glass_pane
   chance: 30
+  durability: 1
 brown_terracotta:
   doPreventDamage: false
   regen: true
@@ -701,6 +800,7 @@ brown_terracotta:
     doReplace: false
     replaceWith: brown_terracotta
   chance: 30
+  durability: 1
 brown_wall_banner:
   doPreventDamage: false
   regen: true
@@ -708,6 +808,7 @@ brown_wall_banner:
     doReplace: false
     replaceWith: brown_wall_banner
   chance: 30
+  durability: 1
 brown_wool:
   doPreventDamage: false
   regen: true
@@ -715,6 +816,7 @@ brown_wool:
     doReplace: false
     replaceWith: brown_wool
   chance: 30
+  durability: 1
 bubble_column:
   doPreventDamage: false
   regen: true
@@ -722,6 +824,7 @@ bubble_column:
     doReplace: false
     replaceWith: bubble_column
   chance: 30
+  durability: 1
 bubble_coral:
   doPreventDamage: false
   regen: true
@@ -729,6 +832,7 @@ bubble_coral:
     doReplace: false
     replaceWith: bubble_coral
   chance: 30
+  durability: 1
 bubble_coral_block:
   doPreventDamage: false
   regen: true
@@ -736,6 +840,7 @@ bubble_coral_block:
     doReplace: false
     replaceWith: bubble_coral_block
   chance: 30
+  durability: 1
 bubble_coral_fan:
   doPreventDamage: false
   regen: true
@@ -743,6 +848,7 @@ bubble_coral_fan:
     doReplace: false
     replaceWith: bubble_coral_fan
   chance: 30
+  durability: 1
 bubble_coral_wall_fan:
   doPreventDamage: false
   regen: true
@@ -750,6 +856,7 @@ bubble_coral_wall_fan:
     doReplace: false
     replaceWith: bubble_coral_wall_fan
   chance: 30
+  durability: 1
 cactus:
   doPreventDamage: false
   regen: true
@@ -758,6 +865,7 @@ cactus:
     doReplace: false
     replaceWith: cactus
   chance: 30
+  durability: 1
 cake:
   doPreventDamage: false
   regen: true
@@ -765,6 +873,7 @@ cake:
     doReplace: false
     replaceWith: cake
   chance: 30
+  durability: 1
 campfire:
   doPreventDamage: false
   regen: true
@@ -772,6 +881,7 @@ campfire:
     doReplace: false
     replaceWith: campfire
   chance: 30
+  durability: 1
 carrots:
   doPreventDamage: false
   regen: true
@@ -779,6 +889,7 @@ carrots:
     doReplace: false
     replaceWith: carrots
   chance: 30
+  durability: 1
 cartography_table:
   doPreventDamage: false
   regen: true
@@ -786,6 +897,7 @@ cartography_table:
     doReplace: false
     replaceWith: cartography_table
   chance: 30
+  durability: 1
 carved_pumpkin:
   doPreventDamage: false
   regen: true
@@ -793,6 +905,7 @@ carved_pumpkin:
     doReplace: false
     replaceWith: carved_pumpkin
   chance: 30
+  durability: 1
 cauldron:
   doPreventDamage: false
   regen: true
@@ -800,6 +913,7 @@ cauldron:
     doReplace: false
     replaceWith: cauldron
   chance: 30
+  durability: 1
 chain_command_block:
   doPreventDamage: false
   regen: true
@@ -807,6 +921,7 @@ chain_command_block:
     doReplace: false
     replaceWith: chain_command_block
   chance: 30
+  durability: -1
 chest:
   doPreventDamage: false
   regen: true
@@ -815,6 +930,7 @@ chest:
     doReplace: false
     replaceWith: chest
   chance: 30
+  durability: 1
 chipped_anvil:
   doPreventDamage: false
   regen: true
@@ -822,6 +938,7 @@ chipped_anvil:
     doReplace: false
     replaceWith: chipped_anvil
   chance: 30
+  durability: 1
 chiseled_quartz_block:
   doPreventDamage: false
   regen: true
@@ -829,6 +946,7 @@ chiseled_quartz_block:
     doReplace: false
     replaceWith: chiseled_quartz_block
   chance: 30
+  durability: 1
 chiseled_red_sandstone:
   doPreventDamage: false
   regen: true
@@ -836,6 +954,7 @@ chiseled_red_sandstone:
     doReplace: false
     replaceWith: chiseled_red_sandstone
   chance: 30
+  durability: 1
 chiseled_sandstone:
   doPreventDamage: false
   regen: true
@@ -843,6 +962,7 @@ chiseled_sandstone:
     doReplace: false
     replaceWith: chiseled_sandstone
   chance: 30
+  durability: 1
 chiseled_stone_bricks:
   doPreventDamage: false
   regen: true
@@ -850,6 +970,7 @@ chiseled_stone_bricks:
     doReplace: false
     replaceWith: chiseled_stone_bricks
   chance: 30
+  durability: 1
 chorus_flower:
   doPreventDamage: false
   regen: true
@@ -857,6 +978,7 @@ chorus_flower:
     doReplace: false
     replaceWith: chorus_flower
   chance: 30
+  durability: 1
 chorus_plant:
   doPreventDamage: false
   regen: true
@@ -864,6 +986,7 @@ chorus_plant:
     doReplace: false
     replaceWith: chorus_plant
   chance: 30
+  durability: 1
 clay:
   doPreventDamage: false
   regen: true
@@ -871,6 +994,7 @@ clay:
     doReplace: false
     replaceWith: clay
   chance: 30
+  durability: 1
 coal_block:
   doPreventDamage: false
   regen: true
@@ -878,6 +1002,7 @@ coal_block:
     doReplace: false
     replaceWith: coal_block
   chance: 30
+  durability: 1
 coal_ore:
   doPreventDamage: false
   regen: true
@@ -885,6 +1010,7 @@ coal_ore:
     doReplace: false
     replaceWith: coal_ore
   chance: 30
+  durability: 1
 coarse_dirt:
   doPreventDamage: false
   regen: true
@@ -892,6 +1018,7 @@ coarse_dirt:
     doReplace: false
     replaceWith: coarse_dirt
   chance: 30
+  durability: 1
 cobblestone:
   doPreventDamage: false
   regen: true
@@ -899,6 +1026,7 @@ cobblestone:
     doReplace: false
     replaceWith: cobblestone
   chance: 30
+  durability: 1
 cobblestone_slab:
   doPreventDamage: false
   regen: true
@@ -906,6 +1034,7 @@ cobblestone_slab:
     doReplace: false
     replaceWith: cobblestone_slab
   chance: 30
+  durability: 1
 cobblestone_stairs:
   doPreventDamage: false
   regen: true
@@ -913,6 +1042,7 @@ cobblestone_stairs:
     doReplace: false
     replaceWith: cobblestone_stairs
   chance: 30
+  durability: 1
 cobblestone_wall:
   doPreventDamage: false
   regen: true
@@ -920,6 +1050,7 @@ cobblestone_wall:
     doReplace: false
     replaceWith: cobblestone_wall
   chance: 30
+  durability: 1
 cobweb:
   doPreventDamage: false
   regen: true
@@ -927,6 +1058,7 @@ cobweb:
     doReplace: false
     replaceWith: cobweb
   chance: 30
+  durability: 1
 cocoa:
   doPreventDamage: false
   regen: true
@@ -934,6 +1066,7 @@ cocoa:
     doReplace: false
     replaceWith: cocoa
   chance: 30
+  durability: 1
 command_block:
   doPreventDamage: false
   regen: true
@@ -941,6 +1074,7 @@ command_block:
     doReplace: false
     replaceWith: command_block
   chance: 30
+  durability: -1
 comparator:
   doPreventDamage: false
   regen: true
@@ -948,6 +1082,7 @@ comparator:
     doReplace: false
     replaceWith: comparator
   chance: 30
+  durability: 1
 composter:
   doPreventDamage: false
   regen: true
@@ -955,6 +1090,7 @@ composter:
     doReplace: false
     replaceWith: composter
   chance: 30
+  durability: 1
 conduit:
   doPreventDamage: false
   regen: true
@@ -962,6 +1098,7 @@ conduit:
     doReplace: false
     replaceWith: conduit
   chance: 30
+  durability: 1
 cornflower:
   doPreventDamage: false
   regen: true
@@ -969,6 +1106,7 @@ cornflower:
     doReplace: false
     replaceWith: cornflower
   chance: 30
+  durability: 1
 cracked_stone_bricks:
   doPreventDamage: false
   regen: true
@@ -976,6 +1114,7 @@ cracked_stone_bricks:
     doReplace: false
     replaceWith: cracked_stone_bricks
   chance: 30
+  durability: 1
 crafting_table:
   doPreventDamage: false
   regen: true
@@ -983,6 +1122,7 @@ crafting_table:
     doReplace: false
     replaceWith: crafting_table
   chance: 30
+  durability: 1
 creeper_head:
   doPreventDamage: false
   regen: true
@@ -990,6 +1130,7 @@ creeper_head:
     doReplace: false
     replaceWith: creeper_head
   chance: 30
+  durability: 1
 creeper_wall_head:
   doPreventDamage: false
   regen: true
@@ -997,6 +1138,7 @@ creeper_wall_head:
     doReplace: false
     replaceWith: creeper_wall_head
   chance: 30
+  durability: 1
 cut_red_sandstone:
   doPreventDamage: false
   regen: true
@@ -1004,6 +1146,7 @@ cut_red_sandstone:
     doReplace: false
     replaceWith: cut_red_sandstone
   chance: 30
+  durability: 1
 cut_red_sandstone_slab:
   doPreventDamage: false
   regen: true
@@ -1011,6 +1154,7 @@ cut_red_sandstone_slab:
     doReplace: false
     replaceWith: cut_red_sandstone_slab
   chance: 30
+  durability: 1
 cut_sandstone:
   doPreventDamage: false
   regen: true
@@ -1018,6 +1162,7 @@ cut_sandstone:
     doReplace: false
     replaceWith: cut_sandstone
   chance: 30
+  durability: 1
 cut_sandstone_slab:
   doPreventDamage: false
   regen: true
@@ -1025,6 +1170,7 @@ cut_sandstone_slab:
     doReplace: false
     replaceWith: cut_sandstone_slab
   chance: 30
+  durability: 1
 cyan_banner:
   doPreventDamage: false
   regen: true
@@ -1032,6 +1178,7 @@ cyan_banner:
     doReplace: false
     replaceWith: cyan_banner
   chance: 30
+  durability: 1
 cyan_bed:
   doPreventDamage: false
   regen: true
@@ -1039,6 +1186,7 @@ cyan_bed:
     doReplace: false
     replaceWith: cyan_bed
   chance: 30
+  durability: 1
 cyan_carpet:
   doPreventDamage: false
   regen: true
@@ -1046,6 +1194,7 @@ cyan_carpet:
     doReplace: false
     replaceWith: cyan_carpet
   chance: 30
+  durability: 1
 cyan_concrete:
   doPreventDamage: false
   regen: true
@@ -1053,6 +1202,7 @@ cyan_concrete:
     doReplace: false
     replaceWith: cyan_concrete
   chance: 30
+  durability: 1
 cyan_concrete_powder:
   doPreventDamage: false
   regen: true
@@ -1060,6 +1210,7 @@ cyan_concrete_powder:
     doReplace: false
     replaceWith: cyan_concrete_powder
   chance: 30
+  durability: 1
 cyan_glazed_terracotta:
   doPreventDamage: false
   regen: true
@@ -1067,6 +1218,7 @@ cyan_glazed_terracotta:
     doReplace: false
     replaceWith: cyan_glazed_terracotta
   chance: 30
+  durability: 1
 cyan_shulker_box:
   doPreventDamage: false
   regen: true
@@ -1074,6 +1226,7 @@ cyan_shulker_box:
     doReplace: false
     replaceWith: cyan_shulker_box
   chance: 30
+  durability: 1
 cyan_stained_glass:
   doPreventDamage: false
   regen: true
@@ -1081,6 +1234,7 @@ cyan_stained_glass:
     doReplace: false
     replaceWith: cyan_stained_glass
   chance: 30
+  durability: 1
 cyan_stained_glass_pane:
   doPreventDamage: false
   regen: true
@@ -1088,6 +1242,7 @@ cyan_stained_glass_pane:
     doReplace: false
     replaceWith: cyan_stained_glass_pane
   chance: 30
+  durability: 1
 cyan_terracotta:
   doPreventDamage: false
   regen: true
@@ -1095,6 +1250,7 @@ cyan_terracotta:
     doReplace: false
     replaceWith: cyan_terracotta
   chance: 30
+  durability: 1
 cyan_wall_banner:
   doPreventDamage: false
   regen: true
@@ -1102,6 +1258,7 @@ cyan_wall_banner:
     doReplace: false
     replaceWith: cyan_wall_banner
   chance: 30
+  durability: 1
 cyan_wool:
   doPreventDamage: false
   regen: true
@@ -1109,6 +1266,7 @@ cyan_wool:
     doReplace: false
     replaceWith: cyan_wool
   chance: 30
+  durability: 1
 damaged_anvil:
   doPreventDamage: false
   regen: true
@@ -1116,6 +1274,7 @@ damaged_anvil:
     doReplace: false
     replaceWith: damaged_anvil
   chance: 30
+  durability: 1
 dandelion:
   doPreventDamage: false
   regen: true
@@ -1123,6 +1282,7 @@ dandelion:
     doReplace: false
     replaceWith: dandelion
   chance: 30
+  durability: 1
 dark_oak_button:
   doPreventDamage: false
   regen: true
@@ -1130,6 +1290,7 @@ dark_oak_button:
     doReplace: false
     replaceWith: dark_oak_button
   chance: 30
+  durability: 1
 dark_oak_door:
   doPreventDamage: false
   regen: true
@@ -1137,6 +1298,7 @@ dark_oak_door:
     doReplace: false
     replaceWith: dark_oak_door
   chance: 30
+  durability: 1
 dark_oak_fence:
   doPreventDamage: false
   regen: true
@@ -1144,6 +1306,7 @@ dark_oak_fence:
     doReplace: false
     replaceWith: dark_oak_fence
   chance: 30
+  durability: 1
 dark_oak_fence_gate:
   doPreventDamage: false
   regen: true
@@ -1151,6 +1314,7 @@ dark_oak_fence_gate:
     doReplace: false
     replaceWith: dark_oak_fence_gate
   chance: 30
+  durability: 1
 dark_oak_leaves:
   doPreventDamage: false
   regen: true
@@ -1158,6 +1322,7 @@ dark_oak_leaves:
     doReplace: false
     replaceWith: dark_oak_leaves
   chance: 30
+  durability: 1
 dark_oak_log:
   doPreventDamage: false
   regen: true
@@ -1165,6 +1330,7 @@ dark_oak_log:
     doReplace: false
     replaceWith: dark_oak_log
   chance: 30
+  durability: 1
 dark_oak_planks:
   doPreventDamage: false
   regen: true
@@ -1172,6 +1338,7 @@ dark_oak_planks:
     doReplace: false
     replaceWith: dark_oak_planks
   chance: 30
+  durability: 1
 dark_oak_pressure_plate:
   doPreventDamage: false
   regen: true
@@ -1179,6 +1346,7 @@ dark_oak_pressure_plate:
     doReplace: false
     replaceWith: dark_oak_pressure_plate
   chance: 30
+  durability: 1
 dark_oak_sapling:
   doPreventDamage: false
   regen: true
@@ -1186,6 +1354,7 @@ dark_oak_sapling:
     doReplace: false
     replaceWith: dark_oak_sapling
   chance: 30
+  durability: 1
 dark_oak_sign:
   doPreventDamage: false
   regen: true
@@ -1193,6 +1362,7 @@ dark_oak_sign:
     doReplace: false
     replaceWith: dark_oak_sign
   chance: 30
+  durability: 1
 dark_oak_slab:
   doPreventDamage: false
   regen: true
@@ -1200,6 +1370,7 @@ dark_oak_slab:
     doReplace: false
     replaceWith: dark_oak_slab
   chance: 30
+  durability: 1
 dark_oak_stairs:
   doPreventDamage: false
   regen: true
@@ -1207,6 +1378,7 @@ dark_oak_stairs:
     doReplace: false
     replaceWith: dark_oak_stairs
   chance: 30
+  durability: 1
 dark_oak_trapdoor:
   doPreventDamage: false
   regen: true
@@ -1214,6 +1386,7 @@ dark_oak_trapdoor:
     doReplace: false
     replaceWith: dark_oak_trapdoor
   chance: 30
+  durability: 1
 dark_oak_wall_sign:
   doPreventDamage: false
   regen: true
@@ -1221,6 +1394,7 @@ dark_oak_wall_sign:
     doReplace: false
     replaceWith: dark_oak_wall_sign
   chance: 30
+  durability: 1
 dark_oak_wood:
   doPreventDamage: false
   regen: true
@@ -1228,6 +1402,7 @@ dark_oak_wood:
     doReplace: false
     replaceWith: dark_oak_wood
   chance: 30
+  durability: 1
 dark_prismarine:
   doPreventDamage: false
   regen: true
@@ -1235,6 +1410,7 @@ dark_prismarine:
     doReplace: false
     replaceWith: dark_prismarine
   chance: 30
+  durability: 1
 dark_prismarine_slab:
   doPreventDamage: false
   regen: true
@@ -1242,6 +1418,7 @@ dark_prismarine_slab:
     doReplace: false
     replaceWith: dark_prismarine_slab
   chance: 30
+  durability: 1
 dark_prismarine_stairs:
   doPreventDamage: false
   regen: true
@@ -1249,6 +1426,7 @@ dark_prismarine_stairs:
     doReplace: false
     replaceWith: dark_prismarine_stairs
   chance: 30
+  durability: 1
 daylight_detector:
   doPreventDamage: false
   regen: true
@@ -1256,6 +1434,7 @@ daylight_detector:
     doReplace: false
     replaceWith: daylight_detector
   chance: 30
+  durability: 1
 dead_brain_coral:
   doPreventDamage: false
   regen: true
@@ -1263,6 +1442,7 @@ dead_brain_coral:
     doReplace: false
     replaceWith: dead_brain_coral
   chance: 30
+  durability: 1
 dead_brain_coral_block:
   doPreventDamage: false
   regen: true
@@ -1270,6 +1450,7 @@ dead_brain_coral_block:
     doReplace: false
     replaceWith: dead_brain_coral_block
   chance: 30
+  durability: 1
 dead_brain_coral_fan:
   doPreventDamage: false
   regen: true
@@ -1277,6 +1458,7 @@ dead_brain_coral_fan:
     doReplace: false
     replaceWith: dead_brain_coral_fan
   chance: 30
+  durability: 1
 dead_brain_coral_wall_fan:
   doPreventDamage: false
   regen: true
@@ -1284,6 +1466,7 @@ dead_brain_coral_wall_fan:
     doReplace: false
     replaceWith: dead_brain_coral_wall_fan
   chance: 30
+  durability: 1
 dead_bubble_coral:
   doPreventDamage: false
   regen: true
@@ -1291,6 +1474,7 @@ dead_bubble_coral:
     doReplace: false
     replaceWith: dead_bubble_coral
   chance: 30
+  durability: 1
 dead_bubble_coral_block:
   doPreventDamage: false
   regen: true
@@ -1298,6 +1482,7 @@ dead_bubble_coral_block:
     doReplace: false
     replaceWith: dead_bubble_coral_block
   chance: 30
+  durability: 1
 dead_bubble_coral_fan:
   doPreventDamage: false
   regen: true
@@ -1305,6 +1490,7 @@ dead_bubble_coral_fan:
     doReplace: false
     replaceWith: dead_bubble_coral_fan
   chance: 30
+  durability: 1
 dead_bubble_coral_wall_fan:
   doPreventDamage: false
   regen: true
@@ -1312,6 +1498,7 @@ dead_bubble_coral_wall_fan:
     doReplace: false
     replaceWith: dead_bubble_coral_wall_fan
   chance: 30
+  durability: 1
 dead_bush:
   doPreventDamage: false
   regen: true
@@ -1319,6 +1506,7 @@ dead_bush:
     doReplace: false
     replaceWith: dead_bush
   chance: 30
+  durability: 1
 dead_fire_coral:
   doPreventDamage: false
   regen: true
@@ -1326,6 +1514,7 @@ dead_fire_coral:
     doReplace: false
     replaceWith: dead_fire_coral
   chance: 30
+  durability: 1
 dead_fire_coral_block:
   doPreventDamage: false
   regen: true
@@ -1333,6 +1522,7 @@ dead_fire_coral_block:
     doReplace: false
     replaceWith: dead_fire_coral_block
   chance: 30
+  durability: 1
 dead_fire_coral_fan:
   doPreventDamage: false
   regen: true
@@ -1340,6 +1530,7 @@ dead_fire_coral_fan:
     doReplace: false
     replaceWith: dead_fire_coral_fan
   chance: 30
+  durability: 1
 dead_fire_coral_wall_fan:
   doPreventDamage: false
   regen: true
@@ -1347,6 +1538,7 @@ dead_fire_coral_wall_fan:
     doReplace: false
     replaceWith: dead_fire_coral_wall_fan
   chance: 30
+  durability: 1
 dead_horn_coral:
   doPreventDamage: false
   regen: true
@@ -1354,6 +1546,7 @@ dead_horn_coral:
     doReplace: false
     replaceWith: dead_horn_coral
   chance: 30
+  durability: 1
 dead_horn_coral_block:
   doPreventDamage: false
   regen: true
@@ -1361,6 +1554,7 @@ dead_horn_coral_block:
     doReplace: false
     replaceWith: dead_horn_coral_block
   chance: 30
+  durability: 1
 dead_horn_coral_fan:
   doPreventDamage: false
   regen: true
@@ -1368,6 +1562,7 @@ dead_horn_coral_fan:
     doReplace: false
     replaceWith: dead_horn_coral_fan
   chance: 30
+  durability: 1
 dead_horn_coral_wall_fan:
   doPreventDamage: false
   regen: true
@@ -1375,6 +1570,7 @@ dead_horn_coral_wall_fan:
     doReplace: false
     replaceWith: dead_horn_coral_wall_fan
   chance: 30
+  durability: 1
 dead_tube_coral:
   doPreventDamage: false
   regen: true
@@ -1382,6 +1578,7 @@ dead_tube_coral:
     doReplace: false
     replaceWith: dead_tube_coral
   chance: 30
+  durability: 1
 dead_tube_coral_block:
   doPreventDamage: false
   regen: true
@@ -1389,6 +1586,7 @@ dead_tube_coral_block:
     doReplace: false
     replaceWith: dead_tube_coral_block
   chance: 30
+  durability: 1
 dead_tube_coral_fan:
   doPreventDamage: false
   regen: true
@@ -1396,6 +1594,7 @@ dead_tube_coral_fan:
     doReplace: false
     replaceWith: dead_tube_coral_fan
   chance: 30
+  durability: 1
 dead_tube_coral_wall_fan:
   doPreventDamage: false
   regen: true
@@ -1403,6 +1602,7 @@ dead_tube_coral_wall_fan:
     doReplace: false
     replaceWith: dead_tube_coral_wall_fan
   chance: 30
+  durability: 1
 detector_rail:
   doPreventDamage: false
   regen: true
@@ -1410,6 +1610,7 @@ detector_rail:
     doReplace: false
     replaceWith: detector_rail
   chance: 30
+  durability: 1
 diamond_block:
   doPreventDamage: false
   regen: true
@@ -1417,6 +1618,7 @@ diamond_block:
     doReplace: false
     replaceWith: diamond_block
   chance: 30
+  durability: 1
 diamond_ore:
   doPreventDamage: false
   regen: true
@@ -1424,6 +1626,7 @@ diamond_ore:
     doReplace: false
     replaceWith: diamond_ore
   chance: 30
+  durability: 1
 diorite:
   doPreventDamage: false
   regen: true
@@ -1431,6 +1634,7 @@ diorite:
     doReplace: false
     replaceWith: diorite
   chance: 30
+  durability: 1
 diorite_slab:
   doPreventDamage: false
   regen: true
@@ -1438,6 +1642,7 @@ diorite_slab:
     doReplace: false
     replaceWith: diorite_slab
   chance: 30
+  durability: 1
 diorite_stairs:
   doPreventDamage: false
   regen: true
@@ -1445,6 +1650,7 @@ diorite_stairs:
     doReplace: false
     replaceWith: diorite_stairs
   chance: 30
+  durability: 1
 diorite_wall:
   doPreventDamage: false
   regen: true
@@ -1452,6 +1658,7 @@ diorite_wall:
     doReplace: false
     replaceWith: diorite_wall
   chance: 30
+  durability: 1
 dirt:
   doPreventDamage: false
   regen: true
@@ -1459,6 +1666,7 @@ dirt:
     doReplace: false
     replaceWith: dirt
   chance: 30
+  durability: 1
 dispenser:
   doPreventDamage: false
   regen: true
@@ -1467,6 +1675,7 @@ dispenser:
     doReplace: false
     replaceWith: dispenser
   chance: 30
+  durability: 1
 dragon_egg:
   doPreventDamage: false
   regen: true
@@ -1474,6 +1683,7 @@ dragon_egg:
     doReplace: false
     replaceWith: dragon_egg
   chance: 30
+  durability: 1
 dragon_head:
   doPreventDamage: false
   regen: true
@@ -1481,6 +1691,7 @@ dragon_head:
     doReplace: false
     replaceWith: dragon_head
   chance: 30
+  durability: 1
 dragon_wall_head:
   doPreventDamage: false
   regen: true
@@ -1488,6 +1699,7 @@ dragon_wall_head:
     doReplace: false
     replaceWith: dragon_wall_head
   chance: 30
+  durability: 1
 dried_kelp_block:
   doPreventDamage: false
   regen: true
@@ -1495,6 +1707,7 @@ dried_kelp_block:
     doReplace: false
     replaceWith: dried_kelp_block
   chance: 30
+  durability: 1
 dropper:
   doPreventDamage: false
   regen: true
@@ -1503,6 +1716,7 @@ dropper:
     doReplace: false
     replaceWith: dropper
   chance: 30
+  durability: 1
 emerald_block:
   doPreventDamage: false
   regen: true
@@ -1510,6 +1724,7 @@ emerald_block:
     doReplace: false
     replaceWith: emerald_block
   chance: 30
+  durability: 1
 emerald_ore:
   doPreventDamage: false
   regen: true
@@ -1517,6 +1732,7 @@ emerald_ore:
     doReplace: false
     replaceWith: emerald_ore
   chance: 30
+  durability: 1
 enchanting_table:
   doPreventDamage: false
   regen: true
@@ -1524,6 +1740,7 @@ enchanting_table:
     doReplace: false
     replaceWith: enchanting_table
   chance: 30
+  durability: -1
 ender_chest:
   doPreventDamage: false
   regen: true
@@ -1531,6 +1748,7 @@ ender_chest:
     doReplace: false
     replaceWith: ender_chest
   chance: 30
+  durability: -1
 end_gateway:
   doPreventDamage: false
   regen: true
@@ -1538,6 +1756,7 @@ end_gateway:
     doReplace: false
     replaceWith: end_gateway
   chance: 30
+  durability: -1
 end_portal:
   doPreventDamage: false
   regen: true
@@ -1545,6 +1764,7 @@ end_portal:
     doReplace: false
     replaceWith: end_portal
   chance: 30
+  durability: -1
 end_portal_frame:
   doPreventDamage: false
   regen: true
@@ -1552,6 +1772,7 @@ end_portal_frame:
     doReplace: false
     replaceWith: end_portal_frame
   chance: 30
+  durability: -1
 end_rod:
   doPreventDamage: false
   regen: true
@@ -1559,6 +1780,7 @@ end_rod:
     doReplace: false
     replaceWith: end_rod
   chance: 30
+  durability: 1
 end_stone:
   doPreventDamage: false
   regen: true
@@ -1566,6 +1788,7 @@ end_stone:
     doReplace: false
     replaceWith: end_stone
   chance: 30
+  durability: 1
 end_stone_bricks:
   doPreventDamage: false
   regen: true
@@ -1573,6 +1796,7 @@ end_stone_bricks:
     doReplace: false
     replaceWith: end_stone_bricks
   chance: 30
+  durability: 1
 end_stone_brick_slab:
   doPreventDamage: false
   regen: true
@@ -1580,6 +1804,7 @@ end_stone_brick_slab:
     doReplace: false
     replaceWith: end_stone_brick_slab
   chance: 30
+  durability: 1
 end_stone_brick_stairs:
   doPreventDamage: false
   regen: true
@@ -1587,6 +1812,7 @@ end_stone_brick_stairs:
     doReplace: false
     replaceWith: end_stone_brick_stairs
   chance: 30
+  durability: 1
 end_stone_brick_wall:
   doPreventDamage: false
   regen: true
@@ -1594,6 +1820,7 @@ end_stone_brick_wall:
     doReplace: false
     replaceWith: end_stone_brick_wall
   chance: 30
+  durability: 1
 farmland:
   doPreventDamage: false
   regen: true
@@ -1601,6 +1828,7 @@ farmland:
     doReplace: false
     replaceWith: farmland
   chance: 30
+  durability: 1
 fern:
   doPreventDamage: false
   regen: true
@@ -1608,6 +1836,7 @@ fern:
     doReplace: false
     replaceWith: fern
   chance: 30
+  durability: 1
 fire:
   doPreventDamage: false
   regen: true
@@ -1615,6 +1844,7 @@ fire:
     doReplace: false
     replaceWith: fire
   chance: 30
+  durability: 1
 fire_coral:
   doPreventDamage: false
   regen: true
@@ -1622,6 +1852,7 @@ fire_coral:
     doReplace: false
     replaceWith: fire_coral
   chance: 30
+  durability: 1
 fire_coral_block:
   doPreventDamage: false
   regen: true
@@ -1629,6 +1860,7 @@ fire_coral_block:
     doReplace: false
     replaceWith: fire_coral_block
   chance: 30
+  durability: 1
 fire_coral_fan:
   doPreventDamage: false
   regen: true
@@ -1636,6 +1868,7 @@ fire_coral_fan:
     doReplace: false
     replaceWith: fire_coral_fan
   chance: 30
+  durability: 1
 fire_coral_wall_fan:
   doPreventDamage: false
   regen: true
@@ -1643,6 +1876,7 @@ fire_coral_wall_fan:
     doReplace: false
     replaceWith: fire_coral_wall_fan
   chance: 30
+  durability: 1
 fletching_table:
   doPreventDamage: false
   regen: true
@@ -1650,6 +1884,7 @@ fletching_table:
     doReplace: false
     replaceWith: fletching_table
   chance: 30
+  durability: 1
 flower_pot:
   doPreventDamage: false
   regen: true
@@ -1657,6 +1892,7 @@ flower_pot:
     doReplace: false
     replaceWith: flower_pot
   chance: 30
+  durability: 1
 frosted_ice:
   doPreventDamage: false
   regen: true
@@ -1664,6 +1900,7 @@ frosted_ice:
     doReplace: false
     replaceWith: frosted_ice
   chance: 30
+  durability: 1
 furnace:
   doPreventDamage: false
   regen: true
@@ -1672,6 +1909,7 @@ furnace:
     doReplace: false
     replaceWith: furnace
   chance: 30
+  durability: 1
 glass:
   doPreventDamage: false
   regen: true
@@ -1679,6 +1917,7 @@ glass:
     doReplace: false
     replaceWith: glass
   chance: 30
+  durability: 1
 glass_pane:
   doPreventDamage: false
   regen: true
@@ -1686,6 +1925,7 @@ glass_pane:
     doReplace: false
     replaceWith: glass_pane
   chance: 30
+  durability: 1
 glowstone:
   doPreventDamage: false
   regen: true
@@ -1693,6 +1933,7 @@ glowstone:
     doReplace: false
     replaceWith: glowstone
   chance: 30
+  durability: 1
 gold_block:
   doPreventDamage: false
   regen: true
@@ -1700,6 +1941,7 @@ gold_block:
     doReplace: false
     replaceWith: gold_block
   chance: 30
+  durability: 1
 gold_ore:
   doPreventDamage: false
   regen: true
@@ -1707,6 +1949,7 @@ gold_ore:
     doReplace: false
     replaceWith: gold_ore
   chance: 30
+  durability: 1
 granite:
   doPreventDamage: false
   regen: true
@@ -1714,6 +1957,7 @@ granite:
     doReplace: false
     replaceWith: granite
   chance: 30
+  durability: 1
 granite_slab:
   doPreventDamage: false
   regen: true
@@ -1721,6 +1965,7 @@ granite_slab:
     doReplace: false
     replaceWith: granite_slab
   chance: 30
+  durability: 1
 granite_stairs:
   doPreventDamage: false
   regen: true
@@ -1728,6 +1973,7 @@ granite_stairs:
     doReplace: false
     replaceWith: granite_stairs
   chance: 30
+  durability: 1
 granite_wall:
   doPreventDamage: false
   regen: true
@@ -1735,6 +1981,7 @@ granite_wall:
     doReplace: false
     replaceWith: granite_wall
   chance: 30
+  durability: 1
 grass:
   doPreventDamage: false
   regen: true
@@ -1742,6 +1989,7 @@ grass:
     doReplace: false
     replaceWith: grass
   chance: 30
+  durability: 1
 grass_block:
   doPreventDamage: false
   regen: true
@@ -1749,6 +1997,7 @@ grass_block:
     doReplace: false
     replaceWith: grass_block
   chance: 30
+  durability: 1
 grass_path:
   doPreventDamage: false
   regen: true
@@ -1756,6 +2005,7 @@ grass_path:
     doReplace: false
     replaceWith: grass_path
   chance: 30
+  durability: 1
 gravel:
   doPreventDamage: false
   regen: true
@@ -1763,6 +2013,7 @@ gravel:
     doReplace: false
     replaceWith: gravel
   chance: 30
+  durability: 1
 gray_banner:
   doPreventDamage: false
   regen: true
@@ -1770,6 +2021,7 @@ gray_banner:
     doReplace: false
     replaceWith: gray_banner
   chance: 30
+  durability: 1
 gray_bed:
   doPreventDamage: false
   regen: true
@@ -1777,6 +2029,7 @@ gray_bed:
     doReplace: false
     replaceWith: gray_bed
   chance: 30
+  durability: 1
 gray_carpet:
   doPreventDamage: false
   regen: true
@@ -1784,6 +2037,7 @@ gray_carpet:
     doReplace: false
     replaceWith: gray_carpet
   chance: 30
+  durability: 1
 gray_concrete:
   doPreventDamage: false
   regen: true
@@ -1791,6 +2045,7 @@ gray_concrete:
     doReplace: false
     replaceWith: gray_concrete
   chance: 30
+  durability: 1
 gray_concrete_powder:
   doPreventDamage: false
   regen: true
@@ -1798,6 +2053,7 @@ gray_concrete_powder:
     doReplace: false
     replaceWith: gray_concrete_powder
   chance: 30
+  durability: 1
 gray_glazed_terracotta:
   doPreventDamage: false
   regen: true
@@ -1805,6 +2061,7 @@ gray_glazed_terracotta:
     doReplace: false
     replaceWith: gray_glazed_terracotta
   chance: 30
+  durability: 1
 gray_shulker_box:
   doPreventDamage: false
   regen: true
@@ -1812,6 +2069,7 @@ gray_shulker_box:
     doReplace: false
     replaceWith: gray_shulker_box
   chance: 30
+  durability: 1
 gray_stained_glass:
   doPreventDamage: false
   regen: true
@@ -1819,6 +2077,7 @@ gray_stained_glass:
     doReplace: false
     replaceWith: gray_stained_glass
   chance: 30
+  durability: 1
 gray_stained_glass_pane:
   doPreventDamage: false
   regen: true
@@ -1826,6 +2085,7 @@ gray_stained_glass_pane:
     doReplace: false
     replaceWith: gray_stained_glass_pane
   chance: 30
+  durability: 1
 gray_terracotta:
   doPreventDamage: false
   regen: true
@@ -1833,6 +2093,7 @@ gray_terracotta:
     doReplace: false
     replaceWith: gray_terracotta
   chance: 30
+  durability: 1
 gray_wall_banner:
   doPreventDamage: false
   regen: true
@@ -1840,6 +2101,7 @@ gray_wall_banner:
     doReplace: false
     replaceWith: gray_wall_banner
   chance: 30
+  durability: 1
 gray_wool:
   doPreventDamage: false
   regen: true
@@ -1847,6 +2109,7 @@ gray_wool:
     doReplace: false
     replaceWith: gray_wool
   chance: 30
+  durability: 1
 green_banner:
   doPreventDamage: false
   regen: true
@@ -1854,6 +2117,7 @@ green_banner:
     doReplace: false
     replaceWith: green_banner
   chance: 30
+  durability: 1
 green_bed:
   doPreventDamage: false
   regen: true
@@ -1861,6 +2125,7 @@ green_bed:
     doReplace: false
     replaceWith: green_bed
   chance: 30
+  durability: 1
 green_carpet:
   doPreventDamage: false
   regen: true
@@ -1868,6 +2133,7 @@ green_carpet:
     doReplace: false
     replaceWith: green_carpet
   chance: 30
+  durability: 1
 green_concrete:
   doPreventDamage: false
   regen: true
@@ -1875,6 +2141,7 @@ green_concrete:
     doReplace: false
     replaceWith: green_concrete
   chance: 30
+  durability: 1
 green_concrete_powder:
   doPreventDamage: false
   regen: true
@@ -1882,6 +2149,7 @@ green_concrete_powder:
     doReplace: false
     replaceWith: green_concrete_powder
   chance: 30
+  durability: 1
 green_glazed_terracotta:
   doPreventDamage: false
   regen: true
@@ -1889,6 +2157,7 @@ green_glazed_terracotta:
     doReplace: false
     replaceWith: green_glazed_terracotta
   chance: 30
+  durability: 1
 green_shulker_box:
   doPreventDamage: false
   regen: true
@@ -1896,6 +2165,7 @@ green_shulker_box:
     doReplace: false
     replaceWith: green_shulker_box
   chance: 30
+  durability: 1
 green_stained_glass:
   doPreventDamage: false
   regen: true
@@ -1903,6 +2173,7 @@ green_stained_glass:
     doReplace: false
     replaceWith: green_stained_glass
   chance: 30
+  durability: 1
 green_stained_glass_pane:
   doPreventDamage: false
   regen: true
@@ -1910,6 +2181,7 @@ green_stained_glass_pane:
     doReplace: false
     replaceWith: green_stained_glass_pane
   chance: 30
+  durability: 1
 green_terracotta:
   doPreventDamage: false
   regen: true
@@ -1917,6 +2189,7 @@ green_terracotta:
     doReplace: false
     replaceWith: green_terracotta
   chance: 30
+  durability: 1
 green_wall_banner:
   doPreventDamage: false
   regen: true
@@ -1924,6 +2197,7 @@ green_wall_banner:
     doReplace: false
     replaceWith: green_wall_banner
   chance: 30
+  durability: 1
 green_wool:
   doPreventDamage: false
   regen: true
@@ -1931,6 +2205,7 @@ green_wool:
     doReplace: false
     replaceWith: green_wool
   chance: 30
+  durability: 1
 grindstone:
   doPreventDamage: false
   regen: true
@@ -1938,6 +2213,7 @@ grindstone:
     doReplace: false
     replaceWith: grindstone
   chance: 30
+  durability: 1
 hay_block:
   doPreventDamage: false
   regen: true
@@ -1945,6 +2221,7 @@ hay_block:
     doReplace: false
     replaceWith: hay_block
   chance: 30
+  durability: 1
 heavy_weighted_pressure_plate:
   doPreventDamage: false
   regen: true
@@ -1952,6 +2229,7 @@ heavy_weighted_pressure_plate:
     doReplace: false
     replaceWith: heavy_weighted_pressure_plate
   chance: 30
+  durability: 1
 honeycomb_block:
   doPreventDamage: false
   regen: true
@@ -1959,6 +2237,7 @@ honeycomb_block:
     doReplace: false
     replaceWith: honeycomb_block
   chance: 30
+  durability: 1
 honey_block:
   doPreventDamage: false
   regen: true
@@ -1966,6 +2245,7 @@ honey_block:
     doReplace: false
     replaceWith: honey_block
   chance: 30
+  durability: 1
 hopper:
   doPreventDamage: false
   regen: true
@@ -1974,6 +2254,7 @@ hopper:
     doReplace: false
     replaceWith: hopper
   chance: 30
+  durability: 1
 horn_coral:
   doPreventDamage: false
   regen: true
@@ -1981,6 +2262,7 @@ horn_coral:
     doReplace: false
     replaceWith: horn_coral
   chance: 30
+  durability: 1
 horn_coral_block:
   doPreventDamage: false
   regen: true
@@ -1988,6 +2270,7 @@ horn_coral_block:
     doReplace: false
     replaceWith: horn_coral_block
   chance: 30
+  durability: 1
 horn_coral_fan:
   doPreventDamage: false
   regen: true
@@ -1995,6 +2278,7 @@ horn_coral_fan:
     doReplace: false
     replaceWith: horn_coral_fan
   chance: 30
+  durability: 1
 horn_coral_wall_fan:
   doPreventDamage: false
   regen: true
@@ -2002,6 +2286,7 @@ horn_coral_wall_fan:
     doReplace: false
     replaceWith: horn_coral_wall_fan
   chance: 30
+  durability: 1
 ice:
   doPreventDamage: false
   regen: true
@@ -2009,6 +2294,7 @@ ice:
     doReplace: false
     replaceWith: ice
   chance: 30
+  durability: 1
 infested_chiseled_stone_bricks:
   doPreventDamage: false
   regen: true
@@ -2016,6 +2302,7 @@ infested_chiseled_stone_bricks:
     doReplace: false
     replaceWith: infested_chiseled_stone_bricks
   chance: 30
+  durability: 1
 infested_cobblestone:
   doPreventDamage: false
   regen: true
@@ -2023,6 +2310,7 @@ infested_cobblestone:
     doReplace: false
     replaceWith: infested_cobblestone
   chance: 30
+  durability: 1
 infested_cracked_stone_bricks:
   doPreventDamage: false
   regen: true
@@ -2030,6 +2318,7 @@ infested_cracked_stone_bricks:
     doReplace: false
     replaceWith: infested_cracked_stone_bricks
   chance: 30
+  durability: 1
 infested_mossy_stone_bricks:
   doPreventDamage: false
   regen: true
@@ -2037,6 +2326,7 @@ infested_mossy_stone_bricks:
     doReplace: false
     replaceWith: infested_mossy_stone_bricks
   chance: 30
+  durability: 1
 infested_stone:
   doPreventDamage: false
   regen: true
@@ -2044,6 +2334,7 @@ infested_stone:
     doReplace: false
     replaceWith: infested_stone
   chance: 30
+  durability: 1
 infested_stone_bricks:
   doPreventDamage: false
   regen: true
@@ -2051,6 +2342,7 @@ infested_stone_bricks:
     doReplace: false
     replaceWith: infested_stone_bricks
   chance: 30
+  durability: 1
 iron_bars:
   doPreventDamage: false
   regen: true
@@ -2058,6 +2350,7 @@ iron_bars:
     doReplace: false
     replaceWith: iron_bars
   chance: 30
+  durability: 1
 iron_block:
   doPreventDamage: false
   regen: true
@@ -2065,6 +2358,7 @@ iron_block:
     doReplace: false
     replaceWith: iron_block
   chance: 30
+  durability: 1
 iron_door:
   doPreventDamage: false
   regen: true
@@ -2072,6 +2366,7 @@ iron_door:
     doReplace: false
     replaceWith: iron_door
   chance: 30
+  durability: 1
 iron_ore:
   doPreventDamage: false
   regen: true
@@ -2079,6 +2374,7 @@ iron_ore:
     doReplace: false
     replaceWith: iron_ore
   chance: 30
+  durability: 1
 iron_trapdoor:
   doPreventDamage: false
   regen: true
@@ -2086,6 +2382,7 @@ iron_trapdoor:
     doReplace: false
     replaceWith: iron_trapdoor
   chance: 30
+  durability: 1
 jack_o_lantern:
   doPreventDamage: false
   regen: true
@@ -2093,6 +2390,7 @@ jack_o_lantern:
     doReplace: false
     replaceWith: jack_o_lantern
   chance: 30
+  durability: 1
 jigsaw:
   doPreventDamage: false
   regen: true
@@ -2100,6 +2398,7 @@ jigsaw:
     doReplace: false
     replaceWith: jigsaw
   chance: 30
+  durability: 1
 jukebox:
   doPreventDamage: false
   regen: true
@@ -2107,6 +2406,7 @@ jukebox:
     doReplace: false
     replaceWith: jukebox
   chance: 30
+  durability: 1
 jungle_button:
   doPreventDamage: false
   regen: true
@@ -2114,6 +2414,7 @@ jungle_button:
     doReplace: false
     replaceWith: jungle_button
   chance: 30
+  durability: 1
 jungle_door:
   doPreventDamage: false
   regen: true
@@ -2121,6 +2422,7 @@ jungle_door:
     doReplace: false
     replaceWith: jungle_door
   chance: 30
+  durability: 1
 jungle_fence:
   doPreventDamage: false
   regen: true
@@ -2128,6 +2430,7 @@ jungle_fence:
     doReplace: false
     replaceWith: jungle_fence
   chance: 30
+  durability: 1
 jungle_fence_gate:
   doPreventDamage: false
   regen: true
@@ -2135,6 +2438,7 @@ jungle_fence_gate:
     doReplace: false
     replaceWith: jungle_fence_gate
   chance: 30
+  durability: 1
 jungle_leaves:
   doPreventDamage: false
   regen: true
@@ -2142,6 +2446,7 @@ jungle_leaves:
     doReplace: false
     replaceWith: jungle_leaves
   chance: 30
+  durability: 1
 jungle_log:
   doPreventDamage: false
   regen: true
@@ -2149,6 +2454,7 @@ jungle_log:
     doReplace: false
     replaceWith: jungle_log
   chance: 30
+  durability: 1
 jungle_planks:
   doPreventDamage: false
   regen: true
@@ -2156,6 +2462,7 @@ jungle_planks:
     doReplace: false
     replaceWith: jungle_planks
   chance: 30
+  durability: 1
 jungle_pressure_plate:
   doPreventDamage: false
   regen: true
@@ -2163,6 +2470,7 @@ jungle_pressure_plate:
     doReplace: false
     replaceWith: jungle_pressure_plate
   chance: 30
+  durability: 1
 jungle_sapling:
   doPreventDamage: false
   regen: true
@@ -2170,6 +2478,7 @@ jungle_sapling:
     doReplace: false
     replaceWith: jungle_sapling
   chance: 30
+  durability: 1
 jungle_sign:
   doPreventDamage: false
   regen: true
@@ -2177,6 +2486,7 @@ jungle_sign:
     doReplace: false
     replaceWith: jungle_sign
   chance: 30
+  durability: 1
 jungle_slab:
   doPreventDamage: false
   regen: true
@@ -2184,6 +2494,7 @@ jungle_slab:
     doReplace: false
     replaceWith: jungle_slab
   chance: 30
+  durability: 1
 jungle_stairs:
   doPreventDamage: false
   regen: true
@@ -2191,6 +2502,7 @@ jungle_stairs:
     doReplace: false
     replaceWith: jungle_stairs
   chance: 30
+  durability: 1
 jungle_trapdoor:
   doPreventDamage: false
   regen: true
@@ -2198,6 +2510,7 @@ jungle_trapdoor:
     doReplace: false
     replaceWith: jungle_trapdoor
   chance: 30
+  durability: 1
 jungle_wall_sign:
   doPreventDamage: false
   regen: true
@@ -2205,6 +2518,7 @@ jungle_wall_sign:
     doReplace: false
     replaceWith: jungle_wall_sign
   chance: 30
+  durability: 1
 jungle_wood:
   doPreventDamage: false
   regen: true
@@ -2212,6 +2526,7 @@ jungle_wood:
     doReplace: false
     replaceWith: jungle_wood
   chance: 30
+  durability: 1
 kelp:
   doPreventDamage: false
   regen: true
@@ -2219,6 +2534,7 @@ kelp:
     doReplace: false
     replaceWith: kelp
   chance: 30
+  durability: 1
 kelp_plant:
   doPreventDamage: false
   regen: true
@@ -2226,6 +2542,7 @@ kelp_plant:
     doReplace: false
     replaceWith: kelp_plant
   chance: 30
+  durability: 1
 ladder:
   doPreventDamage: false
   regen: true
@@ -2233,6 +2550,7 @@ ladder:
     doReplace: false
     replaceWith: ladder
   chance: 30
+  durability: 1
 lantern:
   doPreventDamage: false
   regen: true
@@ -2240,6 +2558,7 @@ lantern:
     doReplace: false
     replaceWith: lantern
   chance: 30
+  durability: 1
 lapis_block:
   doPreventDamage: false
   regen: true
@@ -2247,6 +2566,7 @@ lapis_block:
     doReplace: false
     replaceWith: lapis_block
   chance: 30
+  durability: 1
 lapis_ore:
   doPreventDamage: false
   regen: true
@@ -2254,6 +2574,7 @@ lapis_ore:
     doReplace: false
     replaceWith: lapis_ore
   chance: 30
+  durability: 1
 large_fern:
   doPreventDamage: false
   regen: true
@@ -2261,6 +2582,7 @@ large_fern:
     doReplace: false
     replaceWith: large_fern
   chance: 30
+  durability: 1
 lava:
   doPreventDamage: false
   regen: true
@@ -2268,6 +2590,7 @@ lava:
     doReplace: false
     replaceWith: lava
   chance: 30
+  durability: 1
 lectern:
   doPreventDamage: false
   regen: true
@@ -2275,6 +2598,7 @@ lectern:
     doReplace: false
     replaceWith: lectern
   chance: 30
+  durability: 1
 lever:
   doPreventDamage: false
   regen: true
@@ -2282,6 +2606,7 @@ lever:
     doReplace: false
     replaceWith: lever
   chance: 30
+  durability: 1
 light_blue_banner:
   doPreventDamage: false
   regen: true
@@ -2289,6 +2614,7 @@ light_blue_banner:
     doReplace: false
     replaceWith: light_blue_banner
   chance: 30
+  durability: 1
 light_blue_bed:
   doPreventDamage: false
   regen: true
@@ -2296,6 +2622,7 @@ light_blue_bed:
     doReplace: false
     replaceWith: light_blue_bed
   chance: 30
+  durability: 1
 light_blue_carpet:
   doPreventDamage: false
   regen: true
@@ -2303,6 +2630,7 @@ light_blue_carpet:
     doReplace: false
     replaceWith: light_blue_carpet
   chance: 30
+  durability: 1
 light_blue_concrete:
   doPreventDamage: false
   regen: true
@@ -2310,6 +2638,7 @@ light_blue_concrete:
     doReplace: false
     replaceWith: light_blue_concrete
   chance: 30
+  durability: 1
 light_blue_concrete_powder:
   doPreventDamage: false
   regen: true
@@ -2317,6 +2646,7 @@ light_blue_concrete_powder:
     doReplace: false
     replaceWith: light_blue_concrete_powder
   chance: 30
+  durability: 1
 light_blue_glazed_terracotta:
   doPreventDamage: false
   regen: true
@@ -2324,6 +2654,7 @@ light_blue_glazed_terracotta:
     doReplace: false
     replaceWith: light_blue_glazed_terracotta
   chance: 30
+  durability: 1
 light_blue_shulker_box:
   doPreventDamage: false
   regen: true
@@ -2331,6 +2662,7 @@ light_blue_shulker_box:
     doReplace: false
     replaceWith: light_blue_shulker_box
   chance: 30
+  durability: 1
 light_blue_stained_glass:
   doPreventDamage: false
   regen: true
@@ -2338,6 +2670,7 @@ light_blue_stained_glass:
     doReplace: false
     replaceWith: light_blue_stained_glass
   chance: 30
+  durability: 1
 light_blue_stained_glass_pane:
   doPreventDamage: false
   regen: true
@@ -2345,6 +2678,7 @@ light_blue_stained_glass_pane:
     doReplace: false
     replaceWith: light_blue_stained_glass_pane
   chance: 30
+  durability: 1
 light_blue_terracotta:
   doPreventDamage: false
   regen: true
@@ -2352,6 +2686,7 @@ light_blue_terracotta:
     doReplace: false
     replaceWith: light_blue_terracotta
   chance: 30
+  durability: 1
 light_blue_wall_banner:
   doPreventDamage: false
   regen: true
@@ -2359,6 +2694,7 @@ light_blue_wall_banner:
     doReplace: false
     replaceWith: light_blue_wall_banner
   chance: 30
+  durability: 1
 light_blue_wool:
   doPreventDamage: false
   regen: true
@@ -2366,6 +2702,7 @@ light_blue_wool:
     doReplace: false
     replaceWith: light_blue_wool
   chance: 30
+  durability: 1
 light_gray_banner:
   doPreventDamage: false
   regen: true
@@ -2373,6 +2710,7 @@ light_gray_banner:
     doReplace: false
     replaceWith: light_gray_banner
   chance: 30
+  durability: 1
 light_gray_bed:
   doPreventDamage: false
   regen: true
@@ -2380,6 +2718,7 @@ light_gray_bed:
     doReplace: false
     replaceWith: light_gray_bed
   chance: 30
+  durability: 1
 light_gray_carpet:
   doPreventDamage: false
   regen: true
@@ -2387,6 +2726,7 @@ light_gray_carpet:
     doReplace: false
     replaceWith: light_gray_carpet
   chance: 30
+  durability: 1
 light_gray_concrete:
   doPreventDamage: false
   regen: true
@@ -2394,6 +2734,7 @@ light_gray_concrete:
     doReplace: false
     replaceWith: light_gray_concrete
   chance: 30
+  durability: 1
 light_gray_concrete_powder:
   doPreventDamage: false
   regen: true
@@ -2401,6 +2742,7 @@ light_gray_concrete_powder:
     doReplace: false
     replaceWith: light_gray_concrete_powder
   chance: 30
+  durability: 1
 light_gray_glazed_terracotta:
   doPreventDamage: false
   regen: true
@@ -2408,6 +2750,7 @@ light_gray_glazed_terracotta:
     doReplace: false
     replaceWith: light_gray_glazed_terracotta
   chance: 30
+  durability: 1
 light_gray_shulker_box:
   doPreventDamage: false
   regen: true
@@ -2415,6 +2758,7 @@ light_gray_shulker_box:
     doReplace: false
     replaceWith: light_gray_shulker_box
   chance: 30
+  durability: 1
 light_gray_stained_glass:
   doPreventDamage: false
   regen: true
@@ -2422,6 +2766,7 @@ light_gray_stained_glass:
     doReplace: false
     replaceWith: light_gray_stained_glass
   chance: 30
+  durability: 1
 light_gray_stained_glass_pane:
   doPreventDamage: false
   regen: true
@@ -2429,6 +2774,7 @@ light_gray_stained_glass_pane:
     doReplace: false
     replaceWith: light_gray_stained_glass_pane
   chance: 30
+  durability: 1
 light_gray_terracotta:
   doPreventDamage: false
   regen: true
@@ -2436,6 +2782,7 @@ light_gray_terracotta:
     doReplace: false
     replaceWith: light_gray_terracotta
   chance: 30
+  durability: 1
 light_gray_wall_banner:
   doPreventDamage: false
   regen: true
@@ -2443,6 +2790,7 @@ light_gray_wall_banner:
     doReplace: false
     replaceWith: light_gray_wall_banner
   chance: 30
+  durability: 1
 light_gray_wool:
   doPreventDamage: false
   regen: true
@@ -2450,6 +2798,7 @@ light_gray_wool:
     doReplace: false
     replaceWith: light_gray_wool
   chance: 30
+  durability: 1
 light_weighted_pressure_plate:
   doPreventDamage: false
   regen: true
@@ -2457,6 +2806,7 @@ light_weighted_pressure_plate:
     doReplace: false
     replaceWith: light_weighted_pressure_plate
   chance: 30
+  durability: 1
 lilac:
   doPreventDamage: false
   regen: true
@@ -2464,6 +2814,7 @@ lilac:
     doReplace: false
     replaceWith: lilac
   chance: 30
+  durability: 1
 lily_of_the_valley:
   doPreventDamage: false
   regen: true
@@ -2471,6 +2822,7 @@ lily_of_the_valley:
     doReplace: false
     replaceWith: lily_of_the_valley
   chance: 30
+  durability: 1
 lily_pad:
   doPreventDamage: false
   regen: true
@@ -2478,6 +2830,7 @@ lily_pad:
     doReplace: false
     replaceWith: lily_pad
   chance: 30
+  durability: 1
 lime_banner:
   doPreventDamage: false
   regen: true
@@ -2485,6 +2838,7 @@ lime_banner:
     doReplace: false
     replaceWith: lime_banner
   chance: 30
+  durability: 1
 lime_bed:
   doPreventDamage: false
   regen: true
@@ -2492,6 +2846,7 @@ lime_bed:
     doReplace: false
     replaceWith: lime_bed
   chance: 30
+  durability: 1
 lime_carpet:
   doPreventDamage: false
   regen: true
@@ -2499,6 +2854,7 @@ lime_carpet:
     doReplace: false
     replaceWith: lime_carpet
   chance: 30
+  durability: 1
 lime_concrete:
   doPreventDamage: false
   regen: true
@@ -2506,6 +2862,7 @@ lime_concrete:
     doReplace: false
     replaceWith: lime_concrete
   chance: 30
+  durability: 1
 lime_concrete_powder:
   doPreventDamage: false
   regen: true
@@ -2513,6 +2870,7 @@ lime_concrete_powder:
     doReplace: false
     replaceWith: lime_concrete_powder
   chance: 30
+  durability: 1
 lime_glazed_terracotta:
   doPreventDamage: false
   regen: true
@@ -2520,6 +2878,7 @@ lime_glazed_terracotta:
     doReplace: false
     replaceWith: lime_glazed_terracotta
   chance: 30
+  durability: 1
 lime_shulker_box:
   doPreventDamage: false
   regen: true
@@ -2527,6 +2886,7 @@ lime_shulker_box:
     doReplace: false
     replaceWith: lime_shulker_box
   chance: 30
+  durability: 1
 lime_stained_glass:
   doPreventDamage: false
   regen: true
@@ -2534,6 +2894,7 @@ lime_stained_glass:
     doReplace: false
     replaceWith: lime_stained_glass
   chance: 30
+  durability: 1
 lime_stained_glass_pane:
   doPreventDamage: false
   regen: true
@@ -2541,6 +2902,7 @@ lime_stained_glass_pane:
     doReplace: false
     replaceWith: lime_stained_glass_pane
   chance: 30
+  durability: 1
 lime_terracotta:
   doPreventDamage: false
   regen: true
@@ -2548,6 +2910,7 @@ lime_terracotta:
     doReplace: false
     replaceWith: lime_terracotta
   chance: 30
+  durability: 1
 lime_wall_banner:
   doPreventDamage: false
   regen: true
@@ -2555,6 +2918,7 @@ lime_wall_banner:
     doReplace: false
     replaceWith: lime_wall_banner
   chance: 30
+  durability: 1
 lime_wool:
   doPreventDamage: false
   regen: true
@@ -2562,6 +2926,7 @@ lime_wool:
     doReplace: false
     replaceWith: lime_wool
   chance: 30
+  durability: 1
 loom:
   doPreventDamage: false
   regen: true
@@ -2569,6 +2934,7 @@ loom:
     doReplace: false
     replaceWith: loom
   chance: 30
+  durability: 1
 magenta_banner:
   doPreventDamage: false
   regen: true
@@ -2576,6 +2942,7 @@ magenta_banner:
     doReplace: false
     replaceWith: magenta_banner
   chance: 30
+  durability: 1
 magenta_bed:
   doPreventDamage: false
   regen: true
@@ -2583,6 +2950,7 @@ magenta_bed:
     doReplace: false
     replaceWith: magenta_bed
   chance: 30
+  durability: 1
 magenta_carpet:
   doPreventDamage: false
   regen: true
@@ -2590,6 +2958,7 @@ magenta_carpet:
     doReplace: false
     replaceWith: magenta_carpet
   chance: 30
+  durability: 1
 magenta_concrete:
   doPreventDamage: false
   regen: true
@@ -2597,6 +2966,7 @@ magenta_concrete:
     doReplace: false
     replaceWith: magenta_concrete
   chance: 30
+  durability: 1
 magenta_concrete_powder:
   doPreventDamage: false
   regen: true
@@ -2604,6 +2974,7 @@ magenta_concrete_powder:
     doReplace: false
     replaceWith: magenta_concrete_powder
   chance: 30
+  durability: 1
 magenta_glazed_terracotta:
   doPreventDamage: false
   regen: true
@@ -2611,6 +2982,7 @@ magenta_glazed_terracotta:
     doReplace: false
     replaceWith: magenta_glazed_terracotta
   chance: 30
+  durability: 1
 magenta_shulker_box:
   doPreventDamage: false
   regen: true
@@ -2618,6 +2990,7 @@ magenta_shulker_box:
     doReplace: false
     replaceWith: magenta_shulker_box
   chance: 30
+  durability: 1
 magenta_stained_glass:
   doPreventDamage: false
   regen: true
@@ -2625,6 +2998,7 @@ magenta_stained_glass:
     doReplace: false
     replaceWith: magenta_stained_glass
   chance: 30
+  durability: 1
 magenta_stained_glass_pane:
   doPreventDamage: false
   regen: true
@@ -2632,6 +3006,7 @@ magenta_stained_glass_pane:
     doReplace: false
     replaceWith: magenta_stained_glass_pane
   chance: 30
+  durability: 1
 magenta_terracotta:
   doPreventDamage: false
   regen: true
@@ -2639,6 +3014,7 @@ magenta_terracotta:
     doReplace: false
     replaceWith: magenta_terracotta
   chance: 30
+  durability: 1
 magenta_wall_banner:
   doPreventDamage: false
   regen: true
@@ -2646,6 +3022,7 @@ magenta_wall_banner:
     doReplace: false
     replaceWith: magenta_wall_banner
   chance: 30
+  durability: 1
 magenta_wool:
   doPreventDamage: false
   regen: true
@@ -2653,6 +3030,7 @@ magenta_wool:
     doReplace: false
     replaceWith: magenta_wool
   chance: 30
+  durability: 1
 magma_block:
   doPreventDamage: false
   regen: true
@@ -2660,6 +3038,7 @@ magma_block:
     doReplace: false
     replaceWith: magma_block
   chance: 30
+  durability: 1
 melon:
   doPreventDamage: false
   regen: true
@@ -2667,6 +3046,7 @@ melon:
     doReplace: false
     replaceWith: melon
   chance: 30
+  durability: 1
 melon_stem:
   doPreventDamage: false
   regen: true
@@ -2674,6 +3054,7 @@ melon_stem:
     doReplace: false
     replaceWith: melon_stem
   chance: 30
+  durability: 1
 mossy_cobblestone:
   doPreventDamage: false
   regen: true
@@ -2681,6 +3062,7 @@ mossy_cobblestone:
     doReplace: false
     replaceWith: mossy_cobblestone
   chance: 30
+  durability: 1
 mossy_cobblestone_slab:
   doPreventDamage: false
   regen: true
@@ -2688,6 +3070,7 @@ mossy_cobblestone_slab:
     doReplace: false
     replaceWith: mossy_cobblestone_slab
   chance: 30
+  durability: 1
 mossy_cobblestone_stairs:
   doPreventDamage: false
   regen: true
@@ -2695,6 +3078,7 @@ mossy_cobblestone_stairs:
     doReplace: false
     replaceWith: mossy_cobblestone_stairs
   chance: 30
+  durability: 1
 mossy_cobblestone_wall:
   doPreventDamage: false
   regen: true
@@ -2702,6 +3086,7 @@ mossy_cobblestone_wall:
     doReplace: false
     replaceWith: mossy_cobblestone_wall
   chance: 30
+  durability: 1
 mossy_stone_bricks:
   doPreventDamage: false
   regen: true
@@ -2709,6 +3094,7 @@ mossy_stone_bricks:
     doReplace: false
     replaceWith: mossy_stone_bricks
   chance: 30
+  durability: 1
 mossy_stone_brick_slab:
   doPreventDamage: false
   regen: true
@@ -2716,6 +3102,7 @@ mossy_stone_brick_slab:
     doReplace: false
     replaceWith: mossy_stone_brick_slab
   chance: 30
+  durability: 1
 mossy_stone_brick_stairs:
   doPreventDamage: false
   regen: true
@@ -2723,6 +3110,7 @@ mossy_stone_brick_stairs:
     doReplace: false
     replaceWith: mossy_stone_brick_stairs
   chance: 30
+  durability: 1
 mossy_stone_brick_wall:
   doPreventDamage: false
   regen: true
@@ -2730,6 +3118,7 @@ mossy_stone_brick_wall:
     doReplace: false
     replaceWith: mossy_stone_brick_wall
   chance: 30
+  durability: 1
 moving_piston:
   doPreventDamage: false
   regen: true
@@ -2737,6 +3126,7 @@ moving_piston:
     doReplace: false
     replaceWith: moving_piston
   chance: 30
+  durability: 1
 mushroom_stem:
   doPreventDamage: false
   regen: true
@@ -2744,6 +3134,7 @@ mushroom_stem:
     doReplace: false
     replaceWith: mushroom_stem
   chance: 30
+  durability: 1
 mycelium:
   doPreventDamage: false
   regen: true
@@ -2751,6 +3142,7 @@ mycelium:
     doReplace: false
     replaceWith: mycelium
   chance: 30
+  durability: 1
 netherrack:
   doPreventDamage: false
   regen: true
@@ -2758,6 +3150,7 @@ netherrack:
     doReplace: false
     replaceWith: netherrack
   chance: 30
+  durability: 1
 nether_bricks:
   doPreventDamage: false
   regen: true
@@ -2765,6 +3158,7 @@ nether_bricks:
     doReplace: false
     replaceWith: nether_bricks
   chance: 30
+  durability: 1
 nether_brick_fence:
   doPreventDamage: false
   regen: true
@@ -2772,6 +3166,7 @@ nether_brick_fence:
     doReplace: false
     replaceWith: nether_brick_fence
   chance: 30
+  durability: 1
 nether_brick_slab:
   doPreventDamage: false
   regen: true
@@ -2779,6 +3174,7 @@ nether_brick_slab:
     doReplace: false
     replaceWith: nether_brick_slab
   chance: 30
+  durability: 1
 nether_brick_stairs:
   doPreventDamage: false
   regen: true
@@ -2786,6 +3182,7 @@ nether_brick_stairs:
     doReplace: false
     replaceWith: nether_brick_stairs
   chance: 30
+  durability: 1
 nether_brick_wall:
   doPreventDamage: false
   regen: true
@@ -2793,6 +3190,7 @@ nether_brick_wall:
     doReplace: false
     replaceWith: nether_brick_wall
   chance: 30
+  durability: 1
 nether_portal:
   doPreventDamage: false
   regen: true
@@ -2800,6 +3198,7 @@ nether_portal:
     doReplace: false
     replaceWith: nether_portal
   chance: 30
+  durability: 1
 nether_quartz_ore:
   doPreventDamage: false
   regen: true
@@ -2807,6 +3206,7 @@ nether_quartz_ore:
     doReplace: false
     replaceWith: nether_quartz_ore
   chance: 30
+  durability: 1
 nether_wart:
   doPreventDamage: false
   regen: true
@@ -2814,6 +3214,7 @@ nether_wart:
     doReplace: false
     replaceWith: nether_wart
   chance: 30
+  durability: 1
 nether_wart_block:
   doPreventDamage: false
   regen: true
@@ -2821,6 +3222,7 @@ nether_wart_block:
     doReplace: false
     replaceWith: nether_wart_block
   chance: 30
+  durability: 1
 note_block:
   doPreventDamage: false
   regen: true
@@ -2828,6 +3230,7 @@ note_block:
     doReplace: false
     replaceWith: note_block
   chance: 30
+  durability: 1
 oak_button:
   doPreventDamage: false
   regen: true
@@ -2835,6 +3238,7 @@ oak_button:
     doReplace: false
     replaceWith: oak_button
   chance: 30
+  durability: 1
 oak_door:
   doPreventDamage: false
   regen: true
@@ -2842,6 +3246,7 @@ oak_door:
     doReplace: false
     replaceWith: oak_door
   chance: 30
+  durability: 1
 oak_fence:
   doPreventDamage: false
   regen: true
@@ -2849,6 +3254,7 @@ oak_fence:
     doReplace: false
     replaceWith: oak_fence
   chance: 30
+  durability: 1
 oak_fence_gate:
   doPreventDamage: false
   regen: true
@@ -2856,6 +3262,7 @@ oak_fence_gate:
     doReplace: false
     replaceWith: oak_fence_gate
   chance: 30
+  durability: 1
 oak_leaves:
   doPreventDamage: false
   regen: true
@@ -2863,6 +3270,7 @@ oak_leaves:
     doReplace: false
     replaceWith: oak_leaves
   chance: 30
+  durability: 1
 oak_log:
   doPreventDamage: false
   regen: true
@@ -2870,6 +3278,7 @@ oak_log:
     doReplace: false
     replaceWith: oak_log
   chance: 30
+  durability: 1
 oak_planks:
   doPreventDamage: false
   regen: true
@@ -2877,6 +3286,7 @@ oak_planks:
     doReplace: false
     replaceWith: oak_planks
   chance: 30
+  durability: 1
 oak_pressure_plate:
   doPreventDamage: false
   regen: true
@@ -2884,6 +3294,7 @@ oak_pressure_plate:
     doReplace: false
     replaceWith: oak_pressure_plate
   chance: 30
+  durability: 1
 oak_sapling:
   doPreventDamage: false
   regen: true
@@ -2891,6 +3302,7 @@ oak_sapling:
     doReplace: false
     replaceWith: oak_sapling
   chance: 30
+  durability: 1
 oak_sign:
   doPreventDamage: false
   regen: true
@@ -2898,6 +3310,7 @@ oak_sign:
     doReplace: false
     replaceWith: oak_sign
   chance: 30
+  durability: 1
 oak_slab:
   doPreventDamage: false
   regen: true
@@ -2905,6 +3318,7 @@ oak_slab:
     doReplace: false
     replaceWith: oak_slab
   chance: 30
+  durability: 1
 oak_stairs:
   doPreventDamage: false
   regen: true
@@ -2912,6 +3326,7 @@ oak_stairs:
     doReplace: false
     replaceWith: oak_stairs
   chance: 30
+  durability: 1
 oak_trapdoor:
   doPreventDamage: false
   regen: true
@@ -2919,6 +3334,7 @@ oak_trapdoor:
     doReplace: false
     replaceWith: oak_trapdoor
   chance: 30
+  durability: 1
 oak_wall_sign:
   doPreventDamage: false
   regen: true
@@ -2926,6 +3342,7 @@ oak_wall_sign:
     doReplace: false
     replaceWith: oak_wall_sign
   chance: 30
+  durability: 1
 oak_wood:
   doPreventDamage: false
   regen: true
@@ -2933,6 +3350,7 @@ oak_wood:
     doReplace: false
     replaceWith: oak_wood
   chance: 30
+  durability: 1
 observer:
   doPreventDamage: false
   regen: true
@@ -2940,6 +3358,7 @@ observer:
     doReplace: false
     replaceWith: observer
   chance: 30
+  durability: 1
 obsidian:
   doPreventDamage: false
   regen: true
@@ -2947,6 +3366,7 @@ obsidian:
     doReplace: false
     replaceWith: obsidian
   chance: 30
+  durability: -1
 orange_banner:
   doPreventDamage: false
   regen: true
@@ -2954,6 +3374,7 @@ orange_banner:
     doReplace: false
     replaceWith: orange_banner
   chance: 30
+  durability: 1
 orange_bed:
   doPreventDamage: false
   regen: true
@@ -2961,6 +3382,7 @@ orange_bed:
     doReplace: false
     replaceWith: orange_bed
   chance: 30
+  durability: 1
 orange_carpet:
   doPreventDamage: false
   regen: true
@@ -2968,6 +3390,7 @@ orange_carpet:
     doReplace: false
     replaceWith: orange_carpet
   chance: 30
+  durability: 1
 orange_concrete:
   doPreventDamage: false
   regen: true
@@ -2975,6 +3398,7 @@ orange_concrete:
     doReplace: false
     replaceWith: orange_concrete
   chance: 30
+  durability: 1
 orange_concrete_powder:
   doPreventDamage: false
   regen: true
@@ -2982,6 +3406,7 @@ orange_concrete_powder:
     doReplace: false
     replaceWith: orange_concrete_powder
   chance: 30
+  durability: 1
 orange_glazed_terracotta:
   doPreventDamage: false
   regen: true
@@ -2989,6 +3414,7 @@ orange_glazed_terracotta:
     doReplace: false
     replaceWith: orange_glazed_terracotta
   chance: 30
+  durability: 1
 orange_shulker_box:
   doPreventDamage: false
   regen: true
@@ -2996,6 +3422,7 @@ orange_shulker_box:
     doReplace: false
     replaceWith: orange_shulker_box
   chance: 30
+  durability: 1
 orange_stained_glass:
   doPreventDamage: false
   regen: true
@@ -3003,6 +3430,7 @@ orange_stained_glass:
     doReplace: false
     replaceWith: orange_stained_glass
   chance: 30
+  durability: 1
 orange_stained_glass_pane:
   doPreventDamage: false
   regen: true
@@ -3010,6 +3438,7 @@ orange_stained_glass_pane:
     doReplace: false
     replaceWith: orange_stained_glass_pane
   chance: 30
+  durability: 1
 orange_terracotta:
   doPreventDamage: false
   regen: true
@@ -3017,6 +3446,7 @@ orange_terracotta:
     doReplace: false
     replaceWith: orange_terracotta
   chance: 30
+  durability: 1
 orange_tulip:
   doPreventDamage: false
   regen: true
@@ -3024,6 +3454,7 @@ orange_tulip:
     doReplace: false
     replaceWith: orange_tulip
   chance: 30
+  durability: 1
 orange_wall_banner:
   doPreventDamage: false
   regen: true
@@ -3031,6 +3462,7 @@ orange_wall_banner:
     doReplace: false
     replaceWith: orange_wall_banner
   chance: 30
+  durability: 1
 orange_wool:
   doPreventDamage: false
   regen: true
@@ -3038,6 +3470,7 @@ orange_wool:
     doReplace: false
     replaceWith: orange_wool
   chance: 30
+  durability: 1
 oxeye_daisy:
   doPreventDamage: false
   regen: true
@@ -3045,6 +3478,7 @@ oxeye_daisy:
     doReplace: false
     replaceWith: oxeye_daisy
   chance: 30
+  durability: 1
 packed_ice:
   doPreventDamage: false
   regen: true
@@ -3052,6 +3486,7 @@ packed_ice:
     doReplace: false
     replaceWith: packed_ice
   chance: 30
+  durability: 1
 peony:
   doPreventDamage: false
   regen: true
@@ -3059,6 +3494,7 @@ peony:
     doReplace: false
     replaceWith: peony
   chance: 30
+  durability: 1
 petrified_oak_slab:
   doPreventDamage: false
   regen: true
@@ -3066,6 +3502,7 @@ petrified_oak_slab:
     doReplace: false
     replaceWith: petrified_oak_slab
   chance: 30
+  durability: 1
 pink_banner:
   doPreventDamage: false
   regen: true
@@ -3073,6 +3510,7 @@ pink_banner:
     doReplace: false
     replaceWith: pink_banner
   chance: 30
+  durability: 1
 pink_bed:
   doPreventDamage: false
   regen: true
@@ -3080,6 +3518,7 @@ pink_bed:
     doReplace: false
     replaceWith: pink_bed
   chance: 30
+  durability: 1
 pink_carpet:
   doPreventDamage: false
   regen: true
@@ -3087,6 +3526,7 @@ pink_carpet:
     doReplace: false
     replaceWith: pink_carpet
   chance: 30
+  durability: 1
 pink_concrete:
   doPreventDamage: false
   regen: true
@@ -3094,6 +3534,7 @@ pink_concrete:
     doReplace: false
     replaceWith: pink_concrete
   chance: 30
+  durability: 1
 pink_concrete_powder:
   doPreventDamage: false
   regen: true
@@ -3101,6 +3542,7 @@ pink_concrete_powder:
     doReplace: false
     replaceWith: pink_concrete_powder
   chance: 30
+  durability: 1
 pink_glazed_terracotta:
   doPreventDamage: false
   regen: true
@@ -3108,6 +3550,7 @@ pink_glazed_terracotta:
     doReplace: false
     replaceWith: pink_glazed_terracotta
   chance: 30
+  durability: 1
 pink_shulker_box:
   doPreventDamage: false
   regen: true
@@ -3115,6 +3558,7 @@ pink_shulker_box:
     doReplace: false
     replaceWith: pink_shulker_box
   chance: 30
+  durability: 1
 pink_stained_glass:
   doPreventDamage: false
   regen: true
@@ -3122,6 +3566,7 @@ pink_stained_glass:
     doReplace: false
     replaceWith: pink_stained_glass
   chance: 30
+  durability: 1
 pink_stained_glass_pane:
   doPreventDamage: false
   regen: true
@@ -3129,6 +3574,7 @@ pink_stained_glass_pane:
     doReplace: false
     replaceWith: pink_stained_glass_pane
   chance: 30
+  durability: 1
 pink_terracotta:
   doPreventDamage: false
   regen: true
@@ -3136,6 +3582,7 @@ pink_terracotta:
     doReplace: false
     replaceWith: pink_terracotta
   chance: 30
+  durability: 1
 pink_tulip:
   doPreventDamage: false
   regen: true
@@ -3143,6 +3590,7 @@ pink_tulip:
     doReplace: false
     replaceWith: pink_tulip
   chance: 30
+  durability: 1
 pink_wall_banner:
   doPreventDamage: false
   regen: true
@@ -3150,6 +3598,7 @@ pink_wall_banner:
     doReplace: false
     replaceWith: pink_wall_banner
   chance: 30
+  durability: 1
 pink_wool:
   doPreventDamage: false
   regen: true
@@ -3157,6 +3606,7 @@ pink_wool:
     doReplace: false
     replaceWith: pink_wool
   chance: 30
+  durability: 1
 piston:
   doPreventDamage: false
   regen: true
@@ -3164,6 +3614,7 @@ piston:
     doReplace: false
     replaceWith: piston
   chance: 30
+  durability: 1
 player_head:
   doPreventDamage: false
   regen: true
@@ -3171,6 +3622,7 @@ player_head:
     doReplace: false
     replaceWith: player_head
   chance: 30
+  durability: 1
 player_wall_head:
   doPreventDamage: false
   regen: true
@@ -3178,6 +3630,7 @@ player_wall_head:
     doReplace: false
     replaceWith: player_wall_head
   chance: 30
+  durability: 1
 podzol:
   doPreventDamage: false
   regen: true
@@ -3185,6 +3638,7 @@ podzol:
     doReplace: false
     replaceWith: podzol
   chance: 30
+  durability: 1
 polished_andesite:
   doPreventDamage: false
   regen: true
@@ -3192,6 +3646,7 @@ polished_andesite:
     doReplace: false
     replaceWith: polished_andesite
   chance: 30
+  durability: 1
 polished_andesite_slab:
   doPreventDamage: false
   regen: true
@@ -3199,6 +3654,7 @@ polished_andesite_slab:
     doReplace: false
     replaceWith: polished_andesite_slab
   chance: 30
+  durability: 1
 polished_andesite_stairs:
   doPreventDamage: false
   regen: true
@@ -3206,6 +3662,7 @@ polished_andesite_stairs:
     doReplace: false
     replaceWith: polished_andesite_stairs
   chance: 30
+  durability: 1
 polished_diorite:
   doPreventDamage: false
   regen: true
@@ -3213,6 +3670,7 @@ polished_diorite:
     doReplace: false
     replaceWith: polished_diorite
   chance: 30
+  durability: 1
 polished_diorite_slab:
   doPreventDamage: false
   regen: true
@@ -3220,6 +3678,7 @@ polished_diorite_slab:
     doReplace: false
     replaceWith: polished_diorite_slab
   chance: 30
+  durability: 1
 polished_diorite_stairs:
   doPreventDamage: false
   regen: true
@@ -3227,6 +3686,7 @@ polished_diorite_stairs:
     doReplace: false
     replaceWith: polished_diorite_stairs
   chance: 30
+  durability: 1
 polished_granite:
   doPreventDamage: false
   regen: true
@@ -3234,6 +3694,7 @@ polished_granite:
     doReplace: false
     replaceWith: polished_granite
   chance: 30
+  durability: 1
 polished_granite_slab:
   doPreventDamage: false
   regen: true
@@ -3241,6 +3702,7 @@ polished_granite_slab:
     doReplace: false
     replaceWith: polished_granite_slab
   chance: 30
+  durability: 1
 polished_granite_stairs:
   doPreventDamage: false
   regen: true
@@ -3248,6 +3710,7 @@ polished_granite_stairs:
     doReplace: false
     replaceWith: polished_granite_stairs
   chance: 30
+  durability: 1
 poppy:
   doPreventDamage: false
   regen: true
@@ -3255,6 +3718,7 @@ poppy:
     doReplace: false
     replaceWith: poppy
   chance: 30
+  durability: 1
 potatoes:
   doPreventDamage: false
   regen: true
@@ -3262,6 +3726,7 @@ potatoes:
     doReplace: false
     replaceWith: potatoes
   chance: 30
+  durability: 1
 potted_acacia_sapling:
   doPreventDamage: false
   regen: true
@@ -3269,6 +3734,7 @@ potted_acacia_sapling:
     doReplace: false
     replaceWith: potted_acacia_sapling
   chance: 30
+  durability: 1
 potted_allium:
   doPreventDamage: false
   regen: true
@@ -3276,6 +3742,7 @@ potted_allium:
     doReplace: false
     replaceWith: potted_allium
   chance: 30
+  durability: 1
 potted_azure_bluet:
   doPreventDamage: false
   regen: true
@@ -3283,6 +3750,7 @@ potted_azure_bluet:
     doReplace: false
     replaceWith: potted_azure_bluet
   chance: 30
+  durability: 1
 potted_bamboo:
   doPreventDamage: false
   regen: true
@@ -3290,6 +3758,7 @@ potted_bamboo:
     doReplace: false
     replaceWith: potted_bamboo
   chance: 30
+  durability: 1
 potted_birch_sapling:
   doPreventDamage: false
   regen: true
@@ -3297,6 +3766,7 @@ potted_birch_sapling:
     doReplace: false
     replaceWith: potted_birch_sapling
   chance: 30
+  durability: 1
 potted_blue_orchid:
   doPreventDamage: false
   regen: true
@@ -3304,6 +3774,7 @@ potted_blue_orchid:
     doReplace: false
     replaceWith: potted_blue_orchid
   chance: 30
+  durability: 1
 potted_brown_mushroom:
   doPreventDamage: false
   regen: true
@@ -3311,6 +3782,7 @@ potted_brown_mushroom:
     doReplace: false
     replaceWith: potted_brown_mushroom
   chance: 30
+  durability: 1
 potted_cactus:
   doPreventDamage: false
   regen: true
@@ -3318,6 +3790,7 @@ potted_cactus:
     doReplace: false
     replaceWith: potted_cactus
   chance: 30
+  durability: 1
 potted_cornflower:
   doPreventDamage: false
   regen: true
@@ -3325,6 +3798,7 @@ potted_cornflower:
     doReplace: false
     replaceWith: potted_cornflower
   chance: 30
+  durability: 1
 potted_dandelion:
   doPreventDamage: false
   regen: true
@@ -3332,6 +3806,7 @@ potted_dandelion:
     doReplace: false
     replaceWith: potted_dandelion
   chance: 30
+  durability: 1
 potted_dark_oak_sapling:
   doPreventDamage: false
   regen: true
@@ -3339,6 +3814,7 @@ potted_dark_oak_sapling:
     doReplace: false
     replaceWith: potted_dark_oak_sapling
   chance: 30
+  durability: 1
 potted_dead_bush:
   doPreventDamage: false
   regen: true
@@ -3346,6 +3822,7 @@ potted_dead_bush:
     doReplace: false
     replaceWith: potted_dead_bush
   chance: 30
+  durability: 1
 potted_fern:
   doPreventDamage: false
   regen: true
@@ -3353,6 +3830,7 @@ potted_fern:
     doReplace: false
     replaceWith: potted_fern
   chance: 30
+  durability: 1
 potted_jungle_sapling:
   doPreventDamage: false
   regen: true
@@ -3360,6 +3838,7 @@ potted_jungle_sapling:
     doReplace: false
     replaceWith: potted_jungle_sapling
   chance: 30
+  durability: 1
 potted_lily_of_the_valley:
   doPreventDamage: false
   regen: true
@@ -3367,6 +3846,7 @@ potted_lily_of_the_valley:
     doReplace: false
     replaceWith: potted_lily_of_the_valley
   chance: 30
+  durability: 1
 potted_oak_sapling:
   doPreventDamage: false
   regen: true
@@ -3374,6 +3854,7 @@ potted_oak_sapling:
     doReplace: false
     replaceWith: potted_oak_sapling
   chance: 30
+  durability: 1
 potted_orange_tulip:
   doPreventDamage: false
   regen: true
@@ -3381,6 +3862,7 @@ potted_orange_tulip:
     doReplace: false
     replaceWith: potted_orange_tulip
   chance: 30
+  durability: 1
 potted_oxeye_daisy:
   doPreventDamage: false
   regen: true
@@ -3388,6 +3870,7 @@ potted_oxeye_daisy:
     doReplace: false
     replaceWith: potted_oxeye_daisy
   chance: 30
+  durability: 1
 potted_pink_tulip:
   doPreventDamage: false
   regen: true
@@ -3395,6 +3878,7 @@ potted_pink_tulip:
     doReplace: false
     replaceWith: potted_pink_tulip
   chance: 30
+  durability: 1
 potted_poppy:
   doPreventDamage: false
   regen: true
@@ -3402,6 +3886,7 @@ potted_poppy:
     doReplace: false
     replaceWith: potted_poppy
   chance: 30
+  durability: 1
 potted_red_mushroom:
   doPreventDamage: false
   regen: true
@@ -3409,6 +3894,7 @@ potted_red_mushroom:
     doReplace: false
     replaceWith: potted_red_mushroom
   chance: 30
+  durability: 1
 potted_red_tulip:
   doPreventDamage: false
   regen: true
@@ -3416,6 +3902,7 @@ potted_red_tulip:
     doReplace: false
     replaceWith: potted_red_tulip
   chance: 30
+  durability: 1
 potted_spruce_sapling:
   doPreventDamage: false
   regen: true
@@ -3423,6 +3910,7 @@ potted_spruce_sapling:
     doReplace: false
     replaceWith: potted_spruce_sapling
   chance: 30
+  durability: 1
 potted_white_tulip:
   doPreventDamage: false
   regen: true
@@ -3430,6 +3918,7 @@ potted_white_tulip:
     doReplace: false
     replaceWith: potted_white_tulip
   chance: 30
+  durability: 1
 potted_wither_rose:
   doPreventDamage: false
   regen: true
@@ -3437,6 +3926,7 @@ potted_wither_rose:
     doReplace: false
     replaceWith: potted_wither_rose
   chance: 30
+  durability: 1
 powered_rail:
   doPreventDamage: false
   regen: true
@@ -3444,6 +3934,7 @@ powered_rail:
     doReplace: false
     replaceWith: powered_rail
   chance: 30
+  durability: 1
 prismarine:
   doPreventDamage: false
   regen: true
@@ -3451,6 +3942,7 @@ prismarine:
     doReplace: false
     replaceWith: prismarine
   chance: 30
+  durability: 1
 prismarine_bricks:
   doPreventDamage: false
   regen: true
@@ -3458,6 +3950,7 @@ prismarine_bricks:
     doReplace: false
     replaceWith: prismarine_bricks
   chance: 30
+  durability: 1
 prismarine_brick_slab:
   doPreventDamage: false
   regen: true
@@ -3465,6 +3958,7 @@ prismarine_brick_slab:
     doReplace: false
     replaceWith: prismarine_brick_slab
   chance: 30
+  durability: 1
 prismarine_brick_stairs:
   doPreventDamage: false
   regen: true
@@ -3472,6 +3966,7 @@ prismarine_brick_stairs:
     doReplace: false
     replaceWith: prismarine_brick_stairs
   chance: 30
+  durability: 1
 prismarine_slab:
   doPreventDamage: false
   regen: true
@@ -3479,6 +3974,7 @@ prismarine_slab:
     doReplace: false
     replaceWith: prismarine_slab
   chance: 30
+  durability: 1
 prismarine_stairs:
   doPreventDamage: false
   regen: true
@@ -3486,6 +3982,7 @@ prismarine_stairs:
     doReplace: false
     replaceWith: prismarine_stairs
   chance: 30
+  durability: 1
 prismarine_wall:
   doPreventDamage: false
   regen: true
@@ -3493,6 +3990,7 @@ prismarine_wall:
     doReplace: false
     replaceWith: prismarine_wall
   chance: 30
+  durability: 1
 pumpkin:
   doPreventDamage: false
   regen: true
@@ -3500,6 +3998,7 @@ pumpkin:
     doReplace: false
     replaceWith: pumpkin
   chance: 30
+  durability: 1
 pumpkin_stem:
   doPreventDamage: false
   regen: true
@@ -3507,6 +4006,7 @@ pumpkin_stem:
     doReplace: false
     replaceWith: pumpkin_stem
   chance: 30
+  durability: 1
 purple_banner:
   doPreventDamage: false
   regen: true
@@ -3514,6 +4014,7 @@ purple_banner:
     doReplace: false
     replaceWith: purple_banner
   chance: 30
+  durability: 1
 purple_bed:
   doPreventDamage: false
   regen: true
@@ -3521,6 +4022,7 @@ purple_bed:
     doReplace: false
     replaceWith: purple_bed
   chance: 30
+  durability: 1
 purple_carpet:
   doPreventDamage: false
   regen: true
@@ -3528,6 +4030,7 @@ purple_carpet:
     doReplace: false
     replaceWith: purple_carpet
   chance: 30
+  durability: 1
 purple_concrete:
   doPreventDamage: false
   regen: true
@@ -3535,6 +4038,7 @@ purple_concrete:
     doReplace: false
     replaceWith: purple_concrete
   chance: 30
+  durability: 1
 purple_concrete_powder:
   doPreventDamage: false
   regen: true
@@ -3542,6 +4046,7 @@ purple_concrete_powder:
     doReplace: false
     replaceWith: purple_concrete_powder
   chance: 30
+  durability: 1
 purple_glazed_terracotta:
   doPreventDamage: false
   regen: true
@@ -3549,6 +4054,7 @@ purple_glazed_terracotta:
     doReplace: false
     replaceWith: purple_glazed_terracotta
   chance: 30
+  durability: 1
 purple_shulker_box:
   doPreventDamage: false
   regen: true
@@ -3556,6 +4062,7 @@ purple_shulker_box:
     doReplace: false
     replaceWith: purple_shulker_box
   chance: 30
+  durability: 1
 purple_stained_glass:
   doPreventDamage: false
   regen: true
@@ -3563,6 +4070,7 @@ purple_stained_glass:
     doReplace: false
     replaceWith: purple_stained_glass
   chance: 30
+  durability: 1
 purple_stained_glass_pane:
   doPreventDamage: false
   regen: true
@@ -3570,6 +4078,7 @@ purple_stained_glass_pane:
     doReplace: false
     replaceWith: purple_stained_glass_pane
   chance: 30
+  durability: 1
 purple_terracotta:
   doPreventDamage: false
   regen: true
@@ -3577,6 +4086,7 @@ purple_terracotta:
     doReplace: false
     replaceWith: purple_terracotta
   chance: 30
+  durability: 1
 purple_wall_banner:
   doPreventDamage: false
   regen: true
@@ -3584,6 +4094,7 @@ purple_wall_banner:
     doReplace: false
     replaceWith: purple_wall_banner
   chance: 30
+  durability: 1
 purple_wool:
   doPreventDamage: false
   regen: true
@@ -3591,6 +4102,7 @@ purple_wool:
     doReplace: false
     replaceWith: purple_wool
   chance: 30
+  durability: 1
 purpur_block:
   doPreventDamage: false
   regen: true
@@ -3598,6 +4110,7 @@ purpur_block:
     doReplace: false
     replaceWith: purpur_block
   chance: 30
+  durability: 1
 purpur_pillar:
   doPreventDamage: false
   regen: true
@@ -3605,6 +4118,7 @@ purpur_pillar:
     doReplace: false
     replaceWith: purpur_pillar
   chance: 30
+  durability: 1
 purpur_slab:
   doPreventDamage: false
   regen: true
@@ -3612,6 +4126,7 @@ purpur_slab:
     doReplace: false
     replaceWith: purpur_slab
   chance: 30
+  durability: 1
 purpur_stairs:
   doPreventDamage: false
   regen: true
@@ -3619,6 +4134,7 @@ purpur_stairs:
     doReplace: false
     replaceWith: purpur_stairs
   chance: 30
+  durability: 1
 quartz_block:
   doPreventDamage: false
   regen: true
@@ -3626,6 +4142,7 @@ quartz_block:
     doReplace: false
     replaceWith: quartz_block
   chance: 30
+  durability: 1
 quartz_pillar:
   doPreventDamage: false
   regen: true
@@ -3633,6 +4150,7 @@ quartz_pillar:
     doReplace: false
     replaceWith: quartz_pillar
   chance: 30
+  durability: 1
 quartz_slab:
   doPreventDamage: false
   regen: true
@@ -3640,6 +4158,7 @@ quartz_slab:
     doReplace: false
     replaceWith: quartz_slab
   chance: 30
+  durability: 1
 quartz_stairs:
   doPreventDamage: false
   regen: true
@@ -3647,6 +4166,7 @@ quartz_stairs:
     doReplace: false
     replaceWith: quartz_stairs
   chance: 30
+  durability: 1
 rail:
   doPreventDamage: false
   regen: true
@@ -3654,6 +4174,7 @@ rail:
     doReplace: false
     replaceWith: rail
   chance: 30
+  durability: 1
 redstone_block:
   doPreventDamage: false
   regen: true
@@ -3661,6 +4182,7 @@ redstone_block:
     doReplace: false
     replaceWith: redstone_block
   chance: 30
+  durability: 1
 redstone_lamp:
   doPreventDamage: false
   regen: true
@@ -3668,6 +4190,7 @@ redstone_lamp:
     doReplace: false
     replaceWith: redstone_lamp
   chance: 30
+  durability: 1
 redstone_ore:
   doPreventDamage: false
   regen: true
@@ -3675,6 +4198,7 @@ redstone_ore:
     doReplace: false
     replaceWith: redstone_ore
   chance: 30
+  durability: 1
 redstone_torch:
   doPreventDamage: false
   regen: true
@@ -3682,6 +4206,7 @@ redstone_torch:
     doReplace: false
     replaceWith: redstone_torch
   chance: 30
+  durability: 1
 redstone_wall_torch:
   doPreventDamage: false
   regen: true
@@ -3689,6 +4214,7 @@ redstone_wall_torch:
     doReplace: false
     replaceWith: redstone_wall_torch
   chance: 30
+  durability: 1
 redstone_wire:
   doPreventDamage: false
   regen: true
@@ -3696,6 +4222,7 @@ redstone_wire:
     doReplace: false
     replaceWith: redstone_wire
   chance: 30
+  durability: 1
 red_banner:
   doPreventDamage: false
   regen: true
@@ -3703,6 +4230,7 @@ red_banner:
     doReplace: false
     replaceWith: red_banner
   chance: 30
+  durability: 1
 red_bed:
   doPreventDamage: false
   regen: true
@@ -3710,6 +4238,7 @@ red_bed:
     doReplace: false
     replaceWith: red_bed
   chance: 30
+  durability: 1
 red_carpet:
   doPreventDamage: false
   regen: true
@@ -3717,6 +4246,7 @@ red_carpet:
     doReplace: false
     replaceWith: red_carpet
   chance: 30
+  durability: 1
 red_concrete:
   doPreventDamage: false
   regen: true
@@ -3724,6 +4254,7 @@ red_concrete:
     doReplace: false
     replaceWith: red_concrete
   chance: 30
+  durability: 1
 red_concrete_powder:
   doPreventDamage: false
   regen: true
@@ -3731,6 +4262,7 @@ red_concrete_powder:
     doReplace: false
     replaceWith: red_concrete_powder
   chance: 30
+  durability: 1
 red_glazed_terracotta:
   doPreventDamage: false
   regen: true
@@ -3738,6 +4270,7 @@ red_glazed_terracotta:
     doReplace: false
     replaceWith: red_glazed_terracotta
   chance: 30
+  durability: 1
 red_mushroom:
   doPreventDamage: false
   regen: true
@@ -3745,6 +4278,7 @@ red_mushroom:
     doReplace: false
     replaceWith: red_mushroom
   chance: 30
+  durability: 1
 red_mushroom_block:
   doPreventDamage: false
   regen: true
@@ -3752,6 +4286,7 @@ red_mushroom_block:
     doReplace: false
     replaceWith: red_mushroom_block
   chance: 30
+  durability: 1
 red_nether_bricks:
   doPreventDamage: false
   regen: true
@@ -3759,6 +4294,7 @@ red_nether_bricks:
     doReplace: false
     replaceWith: red_nether_bricks
   chance: 30
+  durability: 1
 red_nether_brick_slab:
   doPreventDamage: false
   regen: true
@@ -3766,6 +4302,7 @@ red_nether_brick_slab:
     doReplace: false
     replaceWith: red_nether_brick_slab
   chance: 30
+  durability: 1
 red_nether_brick_stairs:
   doPreventDamage: false
   regen: true
@@ -3773,6 +4310,7 @@ red_nether_brick_stairs:
     doReplace: false
     replaceWith: red_nether_brick_stairs
   chance: 30
+  durability: 1
 red_nether_brick_wall:
   doPreventDamage: false
   regen: true
@@ -3780,6 +4318,7 @@ red_nether_brick_wall:
     doReplace: false
     replaceWith: red_nether_brick_wall
   chance: 30
+  durability: 1
 red_sand:
   doPreventDamage: false
   regen: true
@@ -3787,6 +4326,7 @@ red_sand:
     doReplace: false
     replaceWith: red_sand
   chance: 30
+  durability: 1
 red_sandstone:
   doPreventDamage: false
   regen: true
@@ -3794,6 +4334,7 @@ red_sandstone:
     doReplace: false
     replaceWith: red_sandstone
   chance: 30
+  durability: 1
 red_sandstone_slab:
   doPreventDamage: false
   regen: true
@@ -3801,6 +4342,7 @@ red_sandstone_slab:
     doReplace: false
     replaceWith: red_sandstone_slab
   chance: 30
+  durability: 1
 red_sandstone_stairs:
   doPreventDamage: false
   regen: true
@@ -3808,6 +4350,7 @@ red_sandstone_stairs:
     doReplace: false
     replaceWith: red_sandstone_stairs
   chance: 30
+  durability: 1
 red_sandstone_wall:
   doPreventDamage: false
   regen: true
@@ -3815,6 +4358,7 @@ red_sandstone_wall:
     doReplace: false
     replaceWith: red_sandstone_wall
   chance: 30
+  durability: 1
 red_shulker_box:
   doPreventDamage: false
   regen: true
@@ -3822,6 +4366,7 @@ red_shulker_box:
     doReplace: false
     replaceWith: red_shulker_box
   chance: 30
+  durability: 1
 red_stained_glass:
   doPreventDamage: false
   regen: true
@@ -3829,6 +4374,7 @@ red_stained_glass:
     doReplace: false
     replaceWith: red_stained_glass
   chance: 30
+  durability: 1
 red_stained_glass_pane:
   doPreventDamage: false
   regen: true
@@ -3836,6 +4382,7 @@ red_stained_glass_pane:
     doReplace: false
     replaceWith: red_stained_glass_pane
   chance: 30
+  durability: 1
 red_terracotta:
   doPreventDamage: false
   regen: true
@@ -3843,6 +4390,7 @@ red_terracotta:
     doReplace: false
     replaceWith: red_terracotta
   chance: 30
+  durability: 1
 red_tulip:
   doPreventDamage: false
   regen: true
@@ -3850,6 +4398,7 @@ red_tulip:
     doReplace: false
     replaceWith: red_tulip
   chance: 30
+  durability: 1
 red_wall_banner:
   doPreventDamage: false
   regen: true
@@ -3857,6 +4406,7 @@ red_wall_banner:
     doReplace: false
     replaceWith: red_wall_banner
   chance: 30
+  durability: 1
 red_wool:
   doPreventDamage: false
   regen: true
@@ -3864,6 +4414,7 @@ red_wool:
     doReplace: false
     replaceWith: red_wool
   chance: 30
+  durability: 1
 repeater:
   doPreventDamage: false
   regen: true
@@ -3871,6 +4422,7 @@ repeater:
     doReplace: false
     replaceWith: repeater
   chance: 30
+  durability: 1
 repeating_command_block:
   doPreventDamage: false
   regen: true
@@ -3878,6 +4430,7 @@ repeating_command_block:
     doReplace: false
     replaceWith: repeating_command_block
   chance: 30
+  durability: -1
 rose_bush:
   doPreventDamage: false
   regen: true
@@ -3885,6 +4438,7 @@ rose_bush:
     doReplace: false
     replaceWith: rose_bush
   chance: 30
+  durability: 1
 sand:
   doPreventDamage: false
   regen: true
@@ -3892,6 +4446,7 @@ sand:
     doReplace: false
     replaceWith: sand
   chance: 30
+  durability: 1
 sandstone:
   doPreventDamage: false
   regen: true
@@ -3899,6 +4454,7 @@ sandstone:
     doReplace: false
     replaceWith: sandstone
   chance: 30
+  durability: 1
 sandstone_slab:
   doPreventDamage: false
   regen: true
@@ -3906,6 +4462,7 @@ sandstone_slab:
     doReplace: false
     replaceWith: sandstone_slab
   chance: 30
+  durability: 1
 sandstone_stairs:
   doPreventDamage: false
   regen: true
@@ -3913,6 +4470,7 @@ sandstone_stairs:
     doReplace: false
     replaceWith: sandstone_stairs
   chance: 30
+  durability: 1
 sandstone_wall:
   doPreventDamage: false
   regen: true
@@ -3920,6 +4478,7 @@ sandstone_wall:
     doReplace: false
     replaceWith: sandstone_wall
   chance: 30
+  durability: 1
 scaffolding:
   doPreventDamage: false
   regen: true
@@ -3927,6 +4486,7 @@ scaffolding:
     doReplace: false
     replaceWith: scaffolding
   chance: 30
+  durability: 1
 seagrass:
   doPreventDamage: false
   regen: true
@@ -3934,6 +4494,7 @@ seagrass:
     doReplace: false
     replaceWith: seagrass
   chance: 30
+  durability: 1
 sea_lantern:
   doPreventDamage: false
   regen: true
@@ -3941,6 +4502,7 @@ sea_lantern:
     doReplace: false
     replaceWith: sea_lantern
   chance: 30
+  durability: 1
 sea_pickle:
   doPreventDamage: false
   regen: true
@@ -3948,6 +4510,7 @@ sea_pickle:
     doReplace: false
     replaceWith: sea_pickle
   chance: 30
+  durability: 1
 shulker_box:
   doPreventDamage: false
   regen: true
@@ -3955,6 +4518,7 @@ shulker_box:
     doReplace: false
     replaceWith: shulker_box
   chance: 30
+  durability: 1
 skeleton_skull:
   doPreventDamage: false
   regen: true
@@ -3962,6 +4526,7 @@ skeleton_skull:
     doReplace: false
     replaceWith: skeleton_skull
   chance: 30
+  durability: 1
 skeleton_wall_skull:
   doPreventDamage: false
   regen: true
@@ -3969,6 +4534,7 @@ skeleton_wall_skull:
     doReplace: false
     replaceWith: skeleton_wall_skull
   chance: 30
+  durability: 1
 slime_block:
   doPreventDamage: false
   regen: true
@@ -3976,6 +4542,7 @@ slime_block:
     doReplace: false
     replaceWith: slime_block
   chance: 30
+  durability: 1
 smithing_table:
   doPreventDamage: false
   regen: true
@@ -3983,6 +4550,7 @@ smithing_table:
     doReplace: false
     replaceWith: smithing_table
   chance: 30
+  durability: 1
 smoker:
   doPreventDamage: false
   regen: true
@@ -3991,6 +4559,7 @@ smoker:
     doReplace: false
     replaceWith: smoker
   chance: 30
+  durability: 1
 smooth_quartz:
   doPreventDamage: false
   regen: true
@@ -3998,6 +4567,7 @@ smooth_quartz:
     doReplace: false
     replaceWith: smooth_quartz
   chance: 30
+  durability: 1
 smooth_quartz_slab:
   doPreventDamage: false
   regen: true
@@ -4005,6 +4575,7 @@ smooth_quartz_slab:
     doReplace: false
     replaceWith: smooth_quartz_slab
   chance: 30
+  durability: 1
 smooth_quartz_stairs:
   doPreventDamage: false
   regen: true
@@ -4012,6 +4583,7 @@ smooth_quartz_stairs:
     doReplace: false
     replaceWith: smooth_quartz_stairs
   chance: 30
+  durability: 1
 smooth_red_sandstone:
   doPreventDamage: false
   regen: true
@@ -4019,6 +4591,7 @@ smooth_red_sandstone:
     doReplace: false
     replaceWith: smooth_red_sandstone
   chance: 30
+  durability: 1
 smooth_red_sandstone_slab:
   doPreventDamage: false
   regen: true
@@ -4026,6 +4599,7 @@ smooth_red_sandstone_slab:
     doReplace: false
     replaceWith: smooth_red_sandstone_slab
   chance: 30
+  durability: 1
 smooth_red_sandstone_stairs:
   doPreventDamage: false
   regen: true
@@ -4033,6 +4607,7 @@ smooth_red_sandstone_stairs:
     doReplace: false
     replaceWith: smooth_red_sandstone_stairs
   chance: 30
+  durability: 1
 smooth_sandstone:
   doPreventDamage: false
   regen: true
@@ -4040,6 +4615,7 @@ smooth_sandstone:
     doReplace: false
     replaceWith: smooth_sandstone
   chance: 30
+  durability: 1
 smooth_sandstone_slab:
   doPreventDamage: false
   regen: true
@@ -4047,6 +4623,7 @@ smooth_sandstone_slab:
     doReplace: false
     replaceWith: smooth_sandstone_slab
   chance: 30
+  durability: 1
 smooth_sandstone_stairs:
   doPreventDamage: false
   regen: true
@@ -4054,6 +4631,7 @@ smooth_sandstone_stairs:
     doReplace: false
     replaceWith: smooth_sandstone_stairs
   chance: 30
+  durability: 1
 smooth_stone:
   doPreventDamage: false
   regen: true
@@ -4061,6 +4639,7 @@ smooth_stone:
     doReplace: false
     replaceWith: smooth_stone
   chance: 30
+  durability: 1
 smooth_stone_slab:
   doPreventDamage: false
   regen: true
@@ -4068,6 +4647,7 @@ smooth_stone_slab:
     doReplace: false
     replaceWith: smooth_stone_slab
   chance: 30
+  durability: 1
 snow:
   doPreventDamage: false
   regen: true
@@ -4075,6 +4655,7 @@ snow:
     doReplace: false
     replaceWith: snow
   chance: 30
+  durability: 1
 snow_block:
   doPreventDamage: false
   regen: true
@@ -4082,6 +4663,7 @@ snow_block:
     doReplace: false
     replaceWith: snow_block
   chance: 30
+  durability: 1
 soul_sand:
   doPreventDamage: false
   regen: true
@@ -4089,6 +4671,7 @@ soul_sand:
     doReplace: false
     replaceWith: soul_sand
   chance: 30
+  durability: 1
 spawner:
   doPreventDamage: false
   regen: true
@@ -4096,6 +4679,7 @@ spawner:
     doReplace: false
     replaceWith: spawner
   chance: 30
+  durability: 1
 sponge:
   doPreventDamage: false
   regen: true
@@ -4103,6 +4687,7 @@ sponge:
     doReplace: false
     replaceWith: sponge
   chance: 30
+  durability: 1
 spruce_button:
   doPreventDamage: false
   regen: true
@@ -4110,6 +4695,7 @@ spruce_button:
     doReplace: false
     replaceWith: spruce_button
   chance: 30
+  durability: 1
 spruce_door:
   doPreventDamage: false
   regen: true
@@ -4117,6 +4703,7 @@ spruce_door:
     doReplace: false
     replaceWith: spruce_door
   chance: 30
+  durability: 1
 spruce_fence:
   doPreventDamage: false
   regen: true
@@ -4124,6 +4711,7 @@ spruce_fence:
     doReplace: false
     replaceWith: spruce_fence
   chance: 30
+  durability: 1
 spruce_fence_gate:
   doPreventDamage: false
   regen: true
@@ -4131,6 +4719,7 @@ spruce_fence_gate:
     doReplace: false
     replaceWith: spruce_fence_gate
   chance: 30
+  durability: 1
 spruce_leaves:
   doPreventDamage: false
   regen: true
@@ -4138,6 +4727,7 @@ spruce_leaves:
     doReplace: false
     replaceWith: spruce_leaves
   chance: 30
+  durability: 1
 spruce_log:
   doPreventDamage: false
   regen: true
@@ -4145,6 +4735,7 @@ spruce_log:
     doReplace: false
     replaceWith: spruce_log
   chance: 30
+  durability: 1
 spruce_planks:
   doPreventDamage: false
   regen: true
@@ -4152,6 +4743,7 @@ spruce_planks:
     doReplace: false
     replaceWith: spruce_planks
   chance: 30
+  durability: 1
 spruce_pressure_plate:
   doPreventDamage: false
   regen: true
@@ -4159,6 +4751,7 @@ spruce_pressure_plate:
     doReplace: false
     replaceWith: spruce_pressure_plate
   chance: 30
+  durability: 1
 spruce_sapling:
   doPreventDamage: false
   regen: true
@@ -4166,6 +4759,7 @@ spruce_sapling:
     doReplace: false
     replaceWith: spruce_sapling
   chance: 30
+  durability: 1
 spruce_sign:
   doPreventDamage: false
   regen: true
@@ -4173,6 +4767,7 @@ spruce_sign:
     doReplace: false
     replaceWith: spruce_sign
   chance: 30
+  durability: 1
 spruce_slab:
   doPreventDamage: false
   regen: true
@@ -4180,6 +4775,7 @@ spruce_slab:
     doReplace: false
     replaceWith: spruce_slab
   chance: 30
+  durability: 1
 spruce_stairs:
   doPreventDamage: false
   regen: true
@@ -4187,6 +4783,7 @@ spruce_stairs:
     doReplace: false
     replaceWith: spruce_stairs
   chance: 30
+  durability: 1
 spruce_trapdoor:
   doPreventDamage: false
   regen: true
@@ -4194,6 +4791,7 @@ spruce_trapdoor:
     doReplace: false
     replaceWith: spruce_trapdoor
   chance: 30
+  durability: 1
 spruce_wall_sign:
   doPreventDamage: false
   regen: true
@@ -4201,6 +4799,7 @@ spruce_wall_sign:
     doReplace: false
     replaceWith: spruce_wall_sign
   chance: 30
+  durability: 1
 spruce_wood:
   doPreventDamage: false
   regen: true
@@ -4208,6 +4807,7 @@ spruce_wood:
     doReplace: false
     replaceWith: spruce_wood
   chance: 30
+  durability: 1
 sticky_piston:
   doPreventDamage: false
   regen: true
@@ -4215,6 +4815,7 @@ sticky_piston:
     doReplace: false
     replaceWith: sticky_piston
   chance: 30
+  durability: 1
 stone:
   doPreventDamage: false
   regen: true
@@ -4222,6 +4823,7 @@ stone:
     doReplace: false
     replaceWith: stone
   chance: 30
+  durability: 1
 stonecutter:
   doPreventDamage: false
   regen: true
@@ -4229,6 +4831,7 @@ stonecutter:
     doReplace: false
     replaceWith: stonecutter
   chance: 30
+  durability: 1
 stone_bricks:
   doPreventDamage: false
   regen: true
@@ -4236,6 +4839,7 @@ stone_bricks:
     doReplace: false
     replaceWith: stone_bricks
   chance: 30
+  durability: 1
 stone_brick_slab:
   doPreventDamage: false
   regen: true
@@ -4243,6 +4847,7 @@ stone_brick_slab:
     doReplace: false
     replaceWith: stone_brick_slab
   chance: 30
+  durability: 1
 stone_brick_stairs:
   doPreventDamage: false
   regen: true
@@ -4250,6 +4855,7 @@ stone_brick_stairs:
     doReplace: false
     replaceWith: stone_brick_stairs
   chance: 30
+  durability: 1
 stone_brick_wall:
   doPreventDamage: false
   regen: true
@@ -4257,6 +4863,7 @@ stone_brick_wall:
     doReplace: false
     replaceWith: stone_brick_wall
   chance: 30
+  durability: 1
 stone_button:
   doPreventDamage: false
   regen: true
@@ -4264,6 +4871,7 @@ stone_button:
     doReplace: false
     replaceWith: stone_button
   chance: 30
+  durability: 1
 stone_pressure_plate:
   doPreventDamage: false
   regen: true
@@ -4271,6 +4879,7 @@ stone_pressure_plate:
     doReplace: false
     replaceWith: stone_pressure_plate
   chance: 30
+  durability: 1
 stone_slab:
   doPreventDamage: false
   regen: true
@@ -4278,6 +4887,7 @@ stone_slab:
     doReplace: false
     replaceWith: stone_slab
   chance: 30
+  durability: 1
 stone_stairs:
   doPreventDamage: false
   regen: true
@@ -4285,6 +4895,7 @@ stone_stairs:
     doReplace: false
     replaceWith: stone_stairs
   chance: 30
+  durability: 1
 stripped_acacia_log:
   doPreventDamage: false
   regen: true
@@ -4292,6 +4903,7 @@ stripped_acacia_log:
     doReplace: false
     replaceWith: stripped_acacia_log
   chance: 30
+  durability: 1
 stripped_acacia_wood:
   doPreventDamage: false
   regen: true
@@ -4299,6 +4911,7 @@ stripped_acacia_wood:
     doReplace: false
     replaceWith: stripped_acacia_wood
   chance: 30
+  durability: 1
 stripped_birch_log:
   doPreventDamage: false
   regen: true
@@ -4306,6 +4919,7 @@ stripped_birch_log:
     doReplace: false
     replaceWith: stripped_birch_log
   chance: 30
+  durability: 1
 stripped_birch_wood:
   doPreventDamage: false
   regen: true
@@ -4313,6 +4927,7 @@ stripped_birch_wood:
     doReplace: false
     replaceWith: stripped_birch_wood
   chance: 30
+  durability: 1
 stripped_dark_oak_log:
   doPreventDamage: false
   regen: true
@@ -4320,6 +4935,7 @@ stripped_dark_oak_log:
     doReplace: false
     replaceWith: stripped_dark_oak_log
   chance: 30
+  durability: 1
 stripped_dark_oak_wood:
   doPreventDamage: false
   regen: true
@@ -4327,6 +4943,7 @@ stripped_dark_oak_wood:
     doReplace: false
     replaceWith: stripped_dark_oak_wood
   chance: 30
+  durability: 1
 stripped_jungle_log:
   doPreventDamage: false
   regen: true
@@ -4334,6 +4951,7 @@ stripped_jungle_log:
     doReplace: false
     replaceWith: stripped_jungle_log
   chance: 30
+  durability: 1
 stripped_jungle_wood:
   doPreventDamage: false
   regen: true
@@ -4341,6 +4959,7 @@ stripped_jungle_wood:
     doReplace: false
     replaceWith: stripped_jungle_wood
   chance: 30
+  durability: 1
 stripped_oak_log:
   doPreventDamage: false
   regen: true
@@ -4348,6 +4967,7 @@ stripped_oak_log:
     doReplace: false
     replaceWith: stripped_oak_log
   chance: 30
+  durability: 1
 stripped_oak_wood:
   doPreventDamage: false
   regen: true
@@ -4355,6 +4975,7 @@ stripped_oak_wood:
     doReplace: false
     replaceWith: stripped_oak_wood
   chance: 30
+  durability: 1
 stripped_spruce_log:
   doPreventDamage: false
   regen: true
@@ -4362,6 +4983,7 @@ stripped_spruce_log:
     doReplace: false
     replaceWith: stripped_spruce_log
   chance: 30
+  durability: 1
 stripped_spruce_wood:
   doPreventDamage: false
   regen: true
@@ -4369,6 +4991,7 @@ stripped_spruce_wood:
     doReplace: false
     replaceWith: stripped_spruce_wood
   chance: 30
+  durability: 1
 structure_block:
   doPreventDamage: false
   regen: true
@@ -4376,6 +4999,7 @@ structure_block:
     doReplace: false
     replaceWith: structure_block
   chance: 30
+  durability: -1
 structure_void:
   doPreventDamage: false
   regen: true
@@ -4383,6 +5007,7 @@ structure_void:
     doReplace: false
     replaceWith: structure_void
   chance: 30
+  durability: 1
 sugar_cane:
   doPreventDamage: false
   regen: true
@@ -4391,6 +5016,7 @@ sugar_cane:
     doReplace: false
     replaceWith: sugar_cane
   chance: 30
+  durability: 1
 sunflower:
   doPreventDamage: false
   regen: true
@@ -4398,6 +5024,7 @@ sunflower:
     doReplace: false
     replaceWith: sunflower
   chance: 30
+  durability: 1
 sweet_berry_bush:
   doPreventDamage: false
   regen: true
@@ -4405,6 +5032,7 @@ sweet_berry_bush:
     doReplace: false
     replaceWith: sweet_berry_bush
   chance: 30
+  durability: 1
 tall_grass:
   doPreventDamage: false
   regen: true
@@ -4412,6 +5040,7 @@ tall_grass:
     doReplace: false
     replaceWith: tall_grass
   chance: 30
+  durability: 1
 tall_seagrass:
   doPreventDamage: false
   regen: true
@@ -4419,6 +5048,7 @@ tall_seagrass:
     doReplace: false
     replaceWith: tall_seagrass
   chance: 30
+  durability: 1
 terracotta:
   doPreventDamage: false
   regen: true
@@ -4426,6 +5056,7 @@ terracotta:
     doReplace: false
     replaceWith: terracotta
   chance: 30
+  durability: 1
 torch:
   doPreventDamage: false
   regen: true
@@ -4433,6 +5064,7 @@ torch:
     doReplace: false
     replaceWith: torch
   chance: 30
+  durability: 1
 trapped_chest:
   doPreventDamage: false
   regen: true
@@ -4441,6 +5073,7 @@ trapped_chest:
     doReplace: false
     replaceWith: trapped_chest
   chance: 30
+  durability: 1
 tripwire:
   doPreventDamage: false
   regen: true
@@ -4448,6 +5081,7 @@ tripwire:
     doReplace: false
     replaceWith: tripwire
   chance: 30
+  durability: 1
 tripwire_hook:
   doPreventDamage: false
   regen: true
@@ -4455,6 +5089,7 @@ tripwire_hook:
     doReplace: false
     replaceWith: tripwire_hook
   chance: 30
+  durability: 1
 tube_coral:
   doPreventDamage: false
   regen: true
@@ -4462,6 +5097,7 @@ tube_coral:
     doReplace: false
     replaceWith: tube_coral
   chance: 30
+  durability: 1
 tube_coral_block:
   doPreventDamage: false
   regen: true
@@ -4469,6 +5105,7 @@ tube_coral_block:
     doReplace: false
     replaceWith: tube_coral_block
   chance: 30
+  durability: 1
 tube_coral_fan:
   doPreventDamage: false
   regen: true
@@ -4476,6 +5113,7 @@ tube_coral_fan:
     doReplace: false
     replaceWith: tube_coral_fan
   chance: 30
+  durability: 1
 tube_coral_wall_fan:
   doPreventDamage: false
   regen: true
@@ -4483,6 +5121,7 @@ tube_coral_wall_fan:
     doReplace: false
     replaceWith: tube_coral_wall_fan
   chance: 30
+  durability: 1
 turtle_egg:
   doPreventDamage: false
   regen: true
@@ -4490,6 +5129,7 @@ turtle_egg:
     doReplace: false
     replaceWith: turtle_egg
   chance: 30
+  durability: 1
 vine:
   doPreventDamage: false
   regen: true
@@ -4497,6 +5137,7 @@ vine:
     doReplace: false
     replaceWith: vine
   chance: 30
+  durability: 1
 wall_torch:
   doPreventDamage: false
   regen: true
@@ -4504,6 +5145,7 @@ wall_torch:
     doReplace: false
     replaceWith: wall_torch
   chance: 30
+  durability: 1
 water:
   doPreventDamage: false
   regen: true
@@ -4511,6 +5153,7 @@ water:
     doReplace: false
     replaceWith: water
   chance: 30
+  durability: 1
 wet_sponge:
   doPreventDamage: false
   regen: true
@@ -4518,6 +5161,7 @@ wet_sponge:
     doReplace: false
     replaceWith: wet_sponge
   chance: 30
+  durability: 1
 wheat:
   doPreventDamage: false
   regen: true
@@ -4525,6 +5169,7 @@ wheat:
     doReplace: false
     replaceWith: wheat
   chance: 30
+  durability: 1
 white_banner:
   doPreventDamage: false
   regen: true
@@ -4532,6 +5177,7 @@ white_banner:
     doReplace: false
     replaceWith: white_banner
   chance: 30
+  durability: 1
 white_bed:
   doPreventDamage: false
   regen: true
@@ -4539,6 +5185,7 @@ white_bed:
     doReplace: false
     replaceWith: white_bed
   chance: 30
+  durability: 1
 white_carpet:
   doPreventDamage: false
   regen: true
@@ -4546,6 +5193,7 @@ white_carpet:
     doReplace: false
     replaceWith: white_carpet
   chance: 30
+  durability: 1
 white_concrete:
   doPreventDamage: false
   regen: true
@@ -4553,6 +5201,7 @@ white_concrete:
     doReplace: false
     replaceWith: white_concrete
   chance: 30
+  durability: 1
 white_concrete_powder:
   doPreventDamage: false
   regen: true
@@ -4560,6 +5209,7 @@ white_concrete_powder:
     doReplace: false
     replaceWith: white_concrete_powder
   chance: 30
+  durability: 1
 white_glazed_terracotta:
   doPreventDamage: false
   regen: true
@@ -4567,6 +5217,7 @@ white_glazed_terracotta:
     doReplace: false
     replaceWith: white_glazed_terracotta
   chance: 30
+  durability: 1
 white_shulker_box:
   doPreventDamage: false
   regen: true
@@ -4574,6 +5225,7 @@ white_shulker_box:
     doReplace: false
     replaceWith: white_shulker_box
   chance: 30
+  durability: 1
 white_stained_glass:
   doPreventDamage: false
   regen: true
@@ -4581,6 +5233,7 @@ white_stained_glass:
     doReplace: false
     replaceWith: white_stained_glass
   chance: 30
+  durability: 1
 white_stained_glass_pane:
   doPreventDamage: false
   regen: true
@@ -4588,6 +5241,7 @@ white_stained_glass_pane:
     doReplace: false
     replaceWith: white_stained_glass_pane
   chance: 30
+  durability: 1
 white_terracotta:
   doPreventDamage: false
   regen: true
@@ -4595,6 +5249,7 @@ white_terracotta:
     doReplace: false
     replaceWith: white_terracotta
   chance: 30
+  durability: 1
 white_tulip:
   doPreventDamage: false
   regen: true
@@ -4602,6 +5257,7 @@ white_tulip:
     doReplace: false
     replaceWith: white_tulip
   chance: 30
+  durability: 1
 white_wall_banner:
   doPreventDamage: false
   regen: true
@@ -4609,6 +5265,7 @@ white_wall_banner:
     doReplace: false
     replaceWith: white_wall_banner
   chance: 30
+  durability: 1
 white_wool:
   doPreventDamage: false
   regen: true
@@ -4616,6 +5273,7 @@ white_wool:
     doReplace: false
     replaceWith: white_wool
   chance: 30
+  durability: 1
 wither_rose:
   doPreventDamage: false
   regen: true
@@ -4623,6 +5281,7 @@ wither_rose:
     doReplace: false
     replaceWith: wither_rose
   chance: 30
+  durability: 1
 wither_skeleton_skull:
   doPreventDamage: false
   regen: true
@@ -4630,6 +5289,7 @@ wither_skeleton_skull:
     doReplace: false
     replaceWith: wither_skeleton_skull
   chance: 30
+  durability: 1
 wither_skeleton_wall_skull:
   doPreventDamage: false
   regen: true
@@ -4637,6 +5297,7 @@ wither_skeleton_wall_skull:
     doReplace: false
     replaceWith: wither_skeleton_wall_skull
   chance: 30
+  durability: 1
 yellow_banner:
   doPreventDamage: false
   regen: true
@@ -4644,6 +5305,7 @@ yellow_banner:
     doReplace: false
     replaceWith: yellow_banner
   chance: 30
+  durability: 1
 yellow_bed:
   doPreventDamage: false
   regen: true
@@ -4651,6 +5313,7 @@ yellow_bed:
     doReplace: false
     replaceWith: yellow_bed
   chance: 30
+  durability: 1
 yellow_carpet:
   doPreventDamage: false
   regen: true
@@ -4658,6 +5321,7 @@ yellow_carpet:
     doReplace: false
     replaceWith: yellow_carpet
   chance: 30
+  durability: 1
 yellow_concrete:
   doPreventDamage: false
   regen: true
@@ -4665,6 +5329,7 @@ yellow_concrete:
     doReplace: false
     replaceWith: yellow_concrete
   chance: 30
+  durability: 1
 yellow_concrete_powder:
   doPreventDamage: false
   regen: true
@@ -4672,6 +5337,7 @@ yellow_concrete_powder:
     doReplace: false
     replaceWith: yellow_concrete_powder
   chance: 30
+  durability: 1
 yellow_glazed_terracotta:
   doPreventDamage: false
   regen: true
@@ -4679,6 +5345,7 @@ yellow_glazed_terracotta:
     doReplace: false
     replaceWith: yellow_glazed_terracotta
   chance: 30
+  durability: 1
 yellow_shulker_box:
   doPreventDamage: false
   regen: true
@@ -4686,6 +5353,7 @@ yellow_shulker_box:
     doReplace: false
     replaceWith: yellow_shulker_box
   chance: 30
+  durability: 1
 yellow_stained_glass:
   doPreventDamage: false
   regen: true
@@ -4693,6 +5361,7 @@ yellow_stained_glass:
     doReplace: false
     replaceWith: yellow_stained_glass
   chance: 30
+  durability: 1
 yellow_stained_glass_pane:
   doPreventDamage: false
   regen: true
@@ -4700,6 +5369,7 @@ yellow_stained_glass_pane:
     doReplace: false
     replaceWith: yellow_stained_glass_pane
   chance: 30
+  durability: 1
 yellow_terracotta:
   doPreventDamage: false
   regen: true
@@ -4707,6 +5377,7 @@ yellow_terracotta:
     doReplace: false
     replaceWith: yellow_terracotta
   chance: 30
+  durability: 1
 yellow_wall_banner:
   doPreventDamage: false
   regen: true
@@ -4714,6 +5385,7 @@ yellow_wall_banner:
     doReplace: false
     replaceWith: yellow_wall_banner
   chance: 30
+  durability: 1
 yellow_wool:
   doPreventDamage: false
   regen: true
@@ -4721,6 +5393,7 @@ yellow_wool:
     doReplace: false
     replaceWith: yellow_wool
   chance: 30
+  durability: 1
 zombie_head:
   doPreventDamage: false
   regen: true
@@ -4728,10 +5401,684 @@ zombie_head:
     doReplace: false
     replaceWith: zombie_head
   chance: 30
+  durability: 1
 zombie_wall_head:
   doPreventDamage: false
   regen: true
   replace:
     doReplace: false
     replaceWith: zombie_wall_head
+  chance: 30
+  durability: 1
+default:
+  doPreventDamage: false
+  durability: 1
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: default
+  chance: 30
+crimson_nylium:
+  doPreventDamage: false
+  durability: 1
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: crimson_nylium
+  chance: 30
+warped_nylium:
+  doPreventDamage: false
+  durability: 1
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: warped_nylium
+  chance: 30
+crimson_planks:
+  doPreventDamage: false
+  durability: 1
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: crimson_planks
+  chance: 30
+warped_planks:
+  doPreventDamage: false
+  durability: 1
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: warped_planks
+  chance: 30
+nether_gold_ore:
+  doPreventDamage: false
+  durability: 1
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: nether_gold_ore
+  chance: 30
+crimson_stem:
+  doPreventDamage: false
+  durability: 1
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: crimson_stem
+  chance: 30
+warped_stem:
+  doPreventDamage: false
+  durability: 1
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: warped_stem
+  chance: 30
+stripped_crimson_stem:
+  doPreventDamage: false
+  durability: 1
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: stripped_crimson_stem
+  chance: 30
+stripped_warped_stem:
+  doPreventDamage: false
+  durability: 1
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: stripped_warped_stem
+  chance: 30
+stripped_crimson_hyphae:
+  doPreventDamage: false
+  durability: 1
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: stripped_crimson_hyphae
+  chance: 30
+stripped_warped_hyphae:
+  doPreventDamage: false
+  durability: 1
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: stripped_warped_hyphae
+  chance: 30
+crimson_hyphae:
+  doPreventDamage: false
+  durability: 1
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: crimson_hyphae
+  chance: 30
+warped_hyphae:
+  doPreventDamage: false
+  durability: 1
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: warped_hyphae
+  chance: 30
+crimson_fungus:
+  doPreventDamage: false
+  durability: 1
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: crimson_fungus
+  chance: 30
+warped_fungus:
+  doPreventDamage: false
+  durability: 1
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: warped_fungus
+  chance: 30
+crimson_roots:
+  doPreventDamage: false
+  durability: 1
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: crimson_roots
+  chance: 30
+warped_roots:
+  doPreventDamage: false
+  durability: 1
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: warped_roots
+  chance: 30
+nether_sprouts:
+  doPreventDamage: false
+  durability: 1
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: nether_sprouts
+  chance: 30
+weeping_vines:
+  doPreventDamage: false
+  durability: 1
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: weeping_vines
+  chance: 30
+twisting_vines:
+  doPreventDamage: false
+  durability: 1
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: twisting_vines
+  chance: 30
+crimson_slab:
+  doPreventDamage: false
+  durability: 1
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: crimson_slab
+  chance: 30
+warped_slab:
+  doPreventDamage: false
+  durability: 1
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: warped_slab
+  chance: 30
+crimson_pressure_plate:
+  doPreventDamage: false
+  durability: 1
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: crimson_pressure_plate
+  chance: 30
+warped_pressure_plate:
+  doPreventDamage: false
+  durability: 1
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: warped_pressure_plate
+  chance: 30
+polished_blackstone_pressure_plate:
+  doPreventDamage: false
+  durability: 1
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: polished_blackstone_pressure_plate
+  chance: 30
+crimson_fence:
+  doPreventDamage: false
+  durability: 1
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: crimson_fence
+  chance: 30
+warped_fence:
+  doPreventDamage: false
+  durability: 1
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: warped_fence
+  chance: 30
+soul_soil:
+  doPreventDamage: false
+  durability: 1
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: soul_soil
+  chance: 30
+basalt:
+  doPreventDamage: false
+  durability: 1
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: basalt
+  chance: 30
+polished_basalt:
+  doPreventDamage: false
+  durability: 1
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: polished_basalt
+  chance: 30
+soul_torch:
+  doPreventDamage: false
+  durability: 1
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: soul_torch
+  chance: 30
+crimson_trapdoor:
+  doPreventDamage: false
+  durability: 1
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: crimson_trapdoor
+  chance: 30
+warped_trapdoor:
+  doPreventDamage: false
+  durability: 1
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: warped_trapdoor
+  chance: 30
+chain:
+  doPreventDamage: false
+  durability: 1
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: chain
+  chance: 30
+crimson_fence_gate:
+  doPreventDamage: false
+  durability: 1
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: crimson_fence_gate
+  chance: 30
+warped_fence_gate:
+  doPreventDamage: false
+  durability: 1
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: warped_fence_gate
+  chance: 30
+cracked_nether_bricks:
+  doPreventDamage: false
+  durability: 1
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: cracked_nether_bricks
+  chance: 30
+chiseled_nether_bricks:
+  doPreventDamage: false
+  durability: 1
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: chiseled_nether_bricks
+  chance: 30
+crimson_stairs:
+  doPreventDamage: false
+  durability: 1
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: crimson_stairs
+  chance: 30
+warped_stairs:
+  doPreventDamage: false
+  durability: 1
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: warped_stairs
+  chance: 30
+blackstone_wall:
+  doPreventDamage: false
+  durability: 1
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: blackstone_wall
+  chance: 30
+polished_blackstone_wall:
+  doPreventDamage: false
+  durability: 1
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: polished_blackstone_wall
+  chance: 30
+polished_blackstone_brick_wall:
+  doPreventDamage: false
+  durability: 1
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: polished_blackstone_brick_wall
+  chance: 30
+crimson_button:
+  doPreventDamage: false
+  durability: 1
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: crimson_button
+  chance: 30
+warped_button:
+  doPreventDamage: false
+  durability: 1
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: warped_button
+  chance: 30
+polished_blackstone_button:
+  doPreventDamage: false
+  durability: 1
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: polished_blackstone_button
+  chance: 30
+quartz_bricks:
+  doPreventDamage: false
+  durability: 1
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: quartz_bricks
+  chance: 30
+warped_wart_block:
+  doPreventDamage: false
+  durability: 1
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: warped_wart_block
+  chance: 30
+crimson_door:
+  doPreventDamage: false
+  durability: 1
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: crimson_door
+  chance: 30
+warped_door:
+  doPreventDamage: false
+  durability: 1
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: warped_door
+  chance: 30
+crimson_sign:
+  doPreventDamage: false
+  durability: 1
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: crimson_sign
+  chance: 30
+warped_sign:
+  doPreventDamage: false
+  durability: 1
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: warped_sign
+  chance: 30
+soul_lantern:
+  doPreventDamage: false
+  durability: 1
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: soul_lantern
+  chance: 30
+soul_campfire:
+  doPreventDamage: false
+  durability: 1
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: soul_campfire
+  chance: 30
+shroomlight:
+  doPreventDamage: false
+  durability: 1
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: shroomlight
+  chance: 30
+lodestone:
+  doPreventDamage: false
+  durability: 1
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: lodestone
+  chance: 30
+netherite_block:
+  doPreventDamage: false
+  durability: 1
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: netherite_block
+  chance: 30
+ancient_debris:
+  doPreventDamage: false
+  durability: 1
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: ancient_debris
+  chance: 30
+target:
+  doPreventDamage: false
+  durability: 1
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: target
+  chance: 30
+crying_obsidian:
+  doPreventDamage: false
+  durability: 1
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: crying_obsidian
+  chance: 30
+blackstone:
+  doPreventDamage: false
+  durability: 1
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: blackstone
+  chance: 30
+blackstone_slab:
+  doPreventDamage: false
+  durability: 1
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: blackstone_slab
+  chance: 30
+blackstone_stairs:
+  doPreventDamage: false
+  durability: 1
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: blackstone_stairs
+  chance: 30
+gilded_blackstone:
+  doPreventDamage: false
+  durability: 1
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: gilded_blackstone
+  chance: 30
+polished_blackstone:
+  doPreventDamage: false
+  durability: 1
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: polished_blackstone
+  chance: 30
+polished_blackstone_slab:
+  doPreventDamage: false
+  durability: 1
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: polished_blackstone_slab
+  chance: 30
+polished_blackstone_stairs:
+  doPreventDamage: false
+  durability: 1
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: polished_blackstone_stairs
+  chance: 30
+chiseled_polished_blackstone:
+  doPreventDamage: false
+  durability: 1
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: chiseled_polished_blackstone
+  chance: 30
+polished_blackstone_bricks:
+  doPreventDamage: false
+  durability: 1
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: polished_blackstone_bricks
+  chance: 30
+polished_blackstone_brick_slab:
+  doPreventDamage: false
+  durability: 1
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: polished_blackstone_brick_slab
+  chance: 30
+polished_blackstone_brick_stairs:
+  doPreventDamage: false
+  durability: 1
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: polished_blackstone_brick_stairs
+  chance: 30
+cracked_polished_blackstone_bricks:
+  doPreventDamage: false
+  durability: 1
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: cracked_polished_blackstone_bricks
+  chance: 30
+respawn_anchor:
+  doPreventDamage: false
+  durability: 1
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: respawn_anchor
+  chance: 30
+soul_fire:
+  doPreventDamage: false
+  durability: 1
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: soul_fire
+  chance: 30
+soul_wall_torch:
+  doPreventDamage: false
+  durability: 1
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: soul_wall_torch
+  chance: 30
+weeping_vines_plant:
+  doPreventDamage: false
+  durability: 1
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: weeping_vines_plant
+  chance: 30
+twisting_vines_plant:
+  doPreventDamage: false
+  durability: 1
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: twisting_vines_plant
+  chance: 30
+crimson_wall_sign:
+  doPreventDamage: false
+  durability: 1
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: crimson_wall_sign
+  chance: 30
+warped_wall_sign:
+  doPreventDamage: false
+  durability: 1
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: warped_wall_sign
+  chance: 30
+potted_crimson_fungus:
+  doPreventDamage: false
+  durability: 1
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: potted_crimson_fungus
+  chance: 30
+potted_warped_fungus:
+  doPreventDamage: false
+  durability: 1
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: potted_warped_fungus
+  chance: 30
+potted_crimson_roots:
+  doPreventDamage: false
+  durability: 1
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: potted_crimson_roots
+  chance: 30
+potted_warped_roots:
+  doPreventDamage: false
+  durability: 1
+  regen: true
+  replace:
+    doReplace: false
+    replaceWith: potted_warped_roots
   chance: 30

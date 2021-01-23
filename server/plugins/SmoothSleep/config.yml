@@ -23,9 +23,7 @@ worlds:
       pattern: RANDOM
     clear-weather-when-morning: false
     instant-day-if-all-sleeping: false
-    essentials-settings:
-      ignore-afk: true
-      ignore-vanish: true
+    essentials-settings: {}
     replenish-settings:
       heal-negative-statuses: true
       hours-to-heal-negative: 3
@@ -53,6 +51,7 @@ worlds:
       show-if-awake: true
       color: BLUE
       title: '&a{SLEEPERS}/{TOTAL} Sleeping &3- &b{12H}:{MIN} {MER_UPPER}'
+      style: SOLID
     accelerate-random-tick: true
     max-random-tick: 1000
     accelerate-weather: true
@@ -66,6 +65,10 @@ worlds:
           LUCK:
             duration: 3600
             amplifier: 0
+    compatibility-settings:
+      ignore-afk: true
+      ignore-vanish: true
+    all-sleeping-speed-mult: 30.0
   mine:
     min-night-speed-mult: 2.6
     max-night-speed-mult: 8
@@ -84,9 +87,7 @@ worlds:
       pattern: RANDOM
     clear-weather-when-morning: false
     instant-day-if-all-sleeping: false
-    essentials-settings:
-      ignore-afk: true
-      ignore-vanish: true
+    essentials-settings: {}
     replenish-settings:
       heal-negative-statuses: true
       hours-to-heal-negative: 3
@@ -114,6 +115,7 @@ worlds:
       show-if-awake: true
       color: BLUE
       title: '&a{SLEEPERS}/{TOTAL} Sleeping &3- &b{12H}:{MIN} {MER_UPPER}'
+      style: SOLID
     accelerate-random-tick: true
     max-random-tick: 1000
     accelerate-weather: true
@@ -126,5 +128,9 @@ worlds:
         effects:
           LUCK:
             duration: 3600
-            amplifier: 0            
+            amplifier: 0
+    compatibility-settings:
+      ignore-afk: true
+      ignore-vanish: true
+    all-sleeping-speed-mult: 30.0
 update-notify-login: false

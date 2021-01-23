@@ -1,0 +1,157 @@
+# General Messages
+
+general:
+  nametag:
+    prefix: '&8[&6UltimateClaims&8]'
+  word:
+    none: inget
+  claim:
+    defaultname: '%name%''s claim'
+    powercell:
+      low: '&cLåg kraft!'
+      message: '&6%time% &7Återstår.'
+    dissolve: '&7Din claim &6%claim% &7har lösts upp.'
+    returnfunds: '&a%amount% har återlämnats till dig.'
+  notanumber: '&4%value% &cär inte ett nummer'
+  notenoughfunds: '&cDu har inte tillräckligt med pengar.'
+  powercellrecipe: '&6Powercell-recept'
+  interface:
+    exit: '&cGå ut'
+    back: '&cTillbaka'
+    next: '&cNästa Sida'
+    previous: '&cFörra Sidan'
+    current: '&7Nuvarande: &6%current%&7.'
+# Command Messages
+command:
+  general:
+    notapartclaim: '&cDu är inte en del av den claimen eller så finns den inte.'
+    noclaim: '&cDu måste vara på en claim för att göra detta.'
+    noplayer: '&cDen spelaren finns inte eller är inte online.'
+    notinclaim: '&cDen spelaren är inte i din claim.'
+    claimed: '&cDen här chunken är redan claimad.'
+    notclaimed: '&cDenna chunken är inte claimad.'
+    notyourclaim: '&cDenna chunken är claimad av någon annan.'
+  invite:
+    invited: '&7Du har blivit inbjuden att gå med &6%claim%&7. Använd &6/c accept &7för att acceptera inbjudan.'
+    invite: '&7Du har bjudit in &6%name% &7att gå med i din claim&7.'
+    notself: '&cDu kan inte bjuda in dig själv.'
+    already: '&cDen här spelaren är redan en medlem.'
+    alreadyinvited: '&cDen här spelaren har redan en aktiv inbjudan.'
+  addmember:
+    added: '&7Du har lagts till i &6%claim%&7.'
+    add: '&7Du har lagt till &6%name% &7till din claim&7.'
+  kick:
+    kicked: '&cDu har blivit sparkad från &4%claim%&c.'
+    kick: '&7Du sparkade &6%name% &7från &6%claim%&7.'
+    notself: '&7Du kan inte sparka dig själv.'
+  uan:
+    notself: '&7Du kan inte bannlysa dig själv.'
+  ban:
+    banned: '&cDu har blivit bannlyst från &4%claim%&c.'
+    ban: '&7Du bannlyste &6%name% &7från &6%claim%&7.'
+  unban:
+    unbanned: '&cDin bannlysning från &4%claim%&c har blivit borttagen.'
+    unban: '&7Du tog bort bannlysningen för &6%name% &7från &6%claim%&7.'
+    notself: '&7Du kan inte bannlysa dig själv.'
+  accept:
+    none: '&cDu har för närvarande inga inbjudningar att acceptera.'
+    success: '&7Du är nu medlem av %claim%&7.'
+    accepted: '&6%name% &7accepterade din inbjudan.'
+    maxed: '&7Denna claimen har sin maximala kapacitet.'
+  claim:
+    success: '&7Du claimade denna chunken till din claim.'
+    nocell: '&cDu måste skapa en powercell innan du kan claima mer mark...'
+    noregion: '&cDu kan inte claima på ett skyddat område!'
+    info: '&cDu har &4%time% &catt skapa en powercell innan din claim upplöses... För att skapa ett måste du konstruera receptet som du kan hitta på &6/c recipe&7. Forma den i mitten av en enda kista i din claim.'
+    nottouching: '&cDu kan bara göra claima chunks som berör varandra.'
+    toomany: '&cDu kan bara claima &4%amount% &cchunks.'
+    disabledworld: '&cDu kan inte göra det i den här världen.'
+  unclaim:
+    success: '&7Du hävdade den här chunken.'
+    powercell: '&cDu kan inte hävda chunken när du håller i din powercell... Flytta den först.'
+  removeclaim:
+    success: '&7Du har tagit bort claimen %claim%.'
+  leave:
+    youleft: '&7Du lämnade &6%claim%&7.'
+    left: '&6%player% &7lämnade &6%claim%&7.'
+    owner: '&cDu kan inte lämna din egna claim.'
+  lock:
+    locked: '&7Du låste din claim.'
+    unlocked: '&7Du låste upp din claim.'
+  sethome:
+    set: '&7Du ställde in hemmet för din claim.'
+  name:
+    set: '&7Namnet på din claim ändrades till %name%'
+  home:
+    none: '&cDen claimed har inte ett hem satt...'
+    success: '&7Du teleporterade till din claims hem.'
+  show:
+    start: '&7Claim visualiserare &2aktiverad.'
+    stop: '&7Claim visualiserare &cinaktiverad.'
+# Interface Messages
+interface:
+  powercell:
+    economytitle: '&7Ekonomi lagras: &6%time%&7.'
+    economylore: '&7Klicka för att sätta in pengar.'
+    valuablestitle: '&7Objekt lagrade: &6%time%&7.'
+    totaltitle: '&7Total kraft: &6%time%&7.'
+    addfunds: '&7Ange ett belopp att deponera.'
+    infotitle: '&5&lInfo'
+    infolore: '&7Du har &6%chunks% &7claimade|&7chunks och &6%members% &7medlemmar.'
+    banstitle: '&c&lBannlysningar'
+    banslore: '&7Visa dina claims bannlysningar.'
+    memberstitle: '&9&lMedlemmar'
+    memberslore: '&7Visa dina claims medlemmar.'
+    settingstitle: '&6&lInställningar'
+    settingslore: '&7Ändra din claims inställningar.'
+  members:
+    title: Medlemmar
+    statslore: '&7Totala Medlemmar: &6%totalmembers%&7.|&7Max Medlemmar: &6%maxmembers%&7.|&7Medlemmar: &6%members%&7.'
+    skulllore: '&7Roll: &a%role%|&7Speltid: &b%playtime%|&7Medlemm sedan: &d%membersince%'
+    changetypetitle: '&7Ändra typ'
+    changetypelore: '&7För närvarande: &d%current%|&7Klicka för att ändra typ.'
+    statstitle: '&7Statistik'
+    changesorttitle: '&7Ändra sortering'
+    changesortlore: '&7För närvarande: &d%current%|&7Klicka för att ändra typ.'
+    visitorsettingstitle: '&9&lBesökarinställningar'
+    visitorsettingslore: '&7Redigera inställningar för besökare.'
+    membersettingstitle: '&5&lMedleminställningar'
+    membersettingslore: '&7Redigera inställningar för medlemmar.'
+  permsettings:
+    title: '%role% inställningar'
+    breaktitle: '&7Ta sönder block'
+    placetitle: '&7Placera blocks'
+    interacttitle: '&7Interagera'
+    mobkilltitle: '&7Mobs Dödande'
+    redstonetitle: '&7Rödsten'
+    doorstitle: '&7Dörrar'
+    tradingtitle: '&7Handel'
+  bans:
+    title: Bannlysningra
+    infotitle: '&7Info'
+    skulllore: '&7Klicka föra tt ta bort bannlysning.'
+    infolore: '&7Bannlysningar: &6%bancount%&7.'
+  settings:
+    title: Inställningar
+    hostilemobspawningtitle: '&6&lFientliga mob spawning'
+    firespreadtitle: '&6&lEldspridning'
+    pvptitle: '&6&lPVP'
+    mobgriefingtitle: '&6&lMob Griefing'
+    leafdecaytitle: '&6&lBlad förmultning'
+  recipe:
+    title: Powercell-recept
+# Event Messages
+event:
+  general:
+    nopermission: '&cDu har inte rättigheter att utföra kommandot.'
+  invite:
+    expired: '&cDin inbjudan har gått ut...'
+  claim:
+    enter: '&7Du har kommit in i &6%claim%&7.'
+    exit: '&7Du har lämnat &6%claim%&7.'
+    locked: '&cEn magisk kraft hindrar dig från att komma in...'
+  powercell:
+    success: '&7Du skapade en powercell. Fyll på det med bränsle för att behålla din claim.'
+    failopen: '&cDu måste vara ägare på denna claimen  för att öppna sin powercell.'
+    lowpower: '&cDin claim &4%claim% &char slut på ström!'
+    superpower: '&cDin claim &4%claim% &cär fortfarande utan kraft och löper risk för upplösning!'

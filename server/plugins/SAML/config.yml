@@ -1,0 +1,373 @@
+# Don't change this!
+version: 8
+
+# !! Please do not edit the lines containing 'section-begin' or 'section-end'. These are for updating the config !!
+
+# +--------------------------------------------------------------------------------------------------------------------+
+# |  Features                                                                                                          |
+# +--------------------------------------------------------------------------------------------------------------------+
+# section-begin: features
+
+# Do you want a config file with more options to generate?
+#   * Most of the options in the advanced_config.yml just allow you to specify some of the settings in the 'Gameplay
+#     settings' section per entity type.
+use-advanced-config: false
+
+# Should we be running a freeze task at all times that will freeze mobs as specified in the ?
+#   * You can define in the 'Passive freeze parameters' section exactly what should or should not be frozen/nerfed.
+#   * This is intended to be used to freeze or nerf large animal farms in which the mobs don't really require AI.
+enable-passive-freeze-task: true
+
+# If the above is enabled, every how many ticks should we run this task?
+ticks-per-passive-freeze-task: 1200
+
+# Should we run a separate freeze task that will freeze certain mobs when the TPS drops below a certain threshold?
+#   * You can define in the 'TPS freeze parameters' section exactly what will be frozen/nerfed in this task and when it
+#     will activate.
+#   * The idea is that it should be more aggressive than the passive freezing task so that you are sacrificing mob AI
+#     to regain your TPS.
+enable-tps-freeze-task: true
+
+# If the above is enabled, every how many ticks should we run this task?
+ticks-per-tps-freeze-task: 1200
+
+# section-end
+# +--------------------------------------------------------------------------------------------------------------------+
+# |  Frozen chunk cache settings                                                                                       |
+# +--------------------------------------------------------------------------------------------------------------------+
+# section-begin: frozen_chunk_cache_settings
+
+# Should we keep a list of chunks containing frozen mobs so that we may be able to unfreeze them if the plugin doesn't
+# shut down correctly?
+#   * Keep this as true if you think you'll uninstall this plugin at some point. This will allow you to unfreeze all the
+#     frozen mobs in your world easily.
+keep-frozen-chunk-cache: true
+
+# On startup, should we unfreeze mobs which were not unfrozen previously?
+#   * Warning: this operation loads chunks and therefore can cause a lot of lag.
+unfreeze-cached-chunks-on-startup: false
+
+# Every how many ticks should we unfreeze these mobs?
+ticks-per-cached-chunk-unfreeze: 5
+
+# Do you use Paper? If so, do you want the above task (the cache unfreezing task) to run in a more efficient manner?
+use-paper-get-chunk-async: false
+
+# section-end
+# +--------------------------------------------------------------------------------------------------------------------+
+# |  Passive freeze parameters                                                                                         |
+# +--------------------------------------------------------------------------------------------------------------------+
+# section-begin: passive_freeze_parameters
+
+# Which groups of mobs should be frozen when we run a passive freeze task?
+passive-freeze-groups:
+#  - dense_animal_farm
+
+# Which groups of mobs should we never freeze when running a passive freeze task?
+passive-freeze-exclude-groups:
+
+# Which groups of mobs should be nerfed when we run a passive freeze task?
+passive-nerf-groups:
+  - animal_farm
+
+# Which groups of mobs should we never nerf when running a passive freeze task?
+passive-nerf-exclude-groups:
+#  - dense_animal_farm
+
+# Should we unfreeze/unnerf mobs that were previously passively frozen/nerfed if they are no longer in the groups
+# specified above?
+#   * For example: if a cow was frozen because it was in a large mob farm, if the above is true it will be unfrozen if
+#     every other mob in that farm were to be killed.
+passive-do-cleanup: true
+
+# Should we send a message to the console when when starting/completing a passive freeze task?
+#   * The messages can be specified in the messages.yml file.
+passive-freeze-broadcast-to-console: false
+
+# Should we send a message to players with the permission 'saml.notify' when starting/completing a passive freeze task?
+#   * The messages can be specified in the messages.yml file.
+passive-freeze-broadcast-to-ops: false
+
+# section-end
+# +--------------------------------------------------------------------------------------------------------------------+
+# |  Tps freeze parameters                                                                                             |
+# +--------------------------------------------------------------------------------------------------------------------+
+# section-begin: passive_freeze_parameters
+
+# Which groups of mobs should be frozen when we run a TPS freeze task?
+tps-freeze-groups:
+  - default_group # <- see the 'Default group settings' section to tweak how this group works.
+  - lag_causers
+#  - default_singular # <- just freeze everything!
+
+# Which groups of mobs should we never freeze when we run a TPS freeze task?
+tps-freeze-exclude-groups:
+
+# Which groups of mobs should be nerfed when we run a TPS freeze task?
+tps-nerf-groups:
+
+# Which groups of mobs should we never nerf when running a TPS freeze task?
+tps-nerf-exclude-groups:
+
+# When the server's TPS drops below this, we will start freezing mobs.
+tps-freezing-threshold: 18.5
+
+# When the server's TPS rises above this, we will begin unfreezing mobs again.
+#   * This should be higher than the tps-freezing-threshold!
+tps-unfreezing-threshold: 19.5
+
+# At least how many standard deviations should the tps be away from the tps-unfreezing-threshold before we start
+# unfreezing mobs?
+#   * The standard deviation of the TPS is effectively a measure of stability. This setting enables the plugin to only
+#     unfreeze mobs when the TPS is reasonably stable.
+#   * A higher confidence range means we require more stability.
+#   * It's best to keep this value in the range of 1 to 5.
+tps-unfreeze-confidence-range: 2.5
+
+# At most how many mobs should be unfrozen in any given operation?
+tps-unfreeze-limit: 40
+
+# How much should certain types of mobs contribute to the unfreeze limit above?
+#   * If not specified, a mob will contribute 1 to the unfreeze limit by default.
+#   * For an example of how this works: If pillagers have a weight of 10 and the unfreeze limit is 40, then at most 4
+#     pillagers will be unfrozen as 4 * 10 = 40.
+#   * The unfreeze limit will never be overshot; so if the unfreeze limit was 40, for example, and chickens had a weight
+#     of 41, then chickens would never be unfrozen.
+tps-unfreeze-weights:
+  PILLAGER: 8
+  VILLAGER: 4
+  fish: 2
+
+# What is the minimum amount of time (in milliseconds) that we should wait after freezing a mob before unfreezing it?
+tps-minimum-freeze-time: 300000
+
+# Should we unfreeze/unnerf mobs that were previously affected by a TPS freeze, but in their current state would not be
+# affected?
+#   * This is less important than with the passive freeze task, as mobs frozen/nerfed by the TPS freeze task will be
+#     unfrozen/unnerfed when the TPS rises.
+tps-do-cleanp: false
+
+# Should we send a message to the console when when starting/completing a TPS freeze task?
+#   * The messages can be specified in the messages.yml file.
+tps-freeze-broadcast-to-console: true
+
+# Should we send a message to players with the permission 'saml.notify' when starting/completing a TPS freeze task?
+#   * The messages can be specified in the messages.yml file.
+tps-freeze-broadcast-to-ops: false
+
+# section-end
+# +--------------------------------------------------------------------------------------------------------------------+
+# |  TPS calculator settings                                                                                           |
+# +--------------------------------------------------------------------------------------------------------------------+
+# section-begin: tps_calculator_settings
+
+# Over how many ticks should we calculate the TPS?
+tps-sample-size: 900
+
+# We use a weighted average for the TPS such that it better reflects the current state of the server. What factor should
+# we use for scaling?
+tps-weighting-factor: 0.995
+
+# We average the TPS over some amount of time so it's not affected by momentary lag spikes. Over how many ticks should
+# we average the TPS?
+tps-smoothing-sample-size: 400
+
+# Should we use the built-in Minecraft TPS instead?
+#   * If set to true the tps-sample-size setting will not do anything. The sample size will be fixed to one minute (1200
+#     ticks).
+use-nms-tps: false
+
+# Every how many ticks should we take a sample of the TPS for calculating the standard deviation?
+tps-deviation-sample-rate: 50
+
+# How many samples of the TPS should we include in the calculation of the standard deviation?
+#   * It is recommended that this value is such that (tps-deviation-sample-rate)*(tps-deviation-sample-size) is roughly
+#     equal to 2*(ticks-per-operation).
+tps-deviation-sample-size: 24
+
+# section-end
+# +--------------------------------------------------------------------------------------------------------------------+
+# |  Generic freeze parameters                                                                                         |
+# +--------------------------------------------------------------------------------------------------------------------+
+# section-begin: generic_freeze_parameters
+
+# How long (in milliseconds) should the freezing operation be allowed to take?
+#   * If this is set too high there may be noticeable lag spikes when we freeze mobs (unless you have use-async-grouping
+#     set to true).
+#   * If this is set too low it may not have enough time to group all the entities.
+#   * If you have use-async-grouping set to false it's best to set this below 500 to avoid noticeable lag spikes.
+maximum-operation-time: 5000
+
+# Should we run the mob grouping algorithm asynchronously?
+#   * Having this set to true will mean the server won't hang when running a freeze.
+#   * There's no real reason to have this set to false; the only reason this option is here is in case the async
+#     grouping is causing errors.
+use-async-grouping: true
+
+# section-end
+# +--------------------------------------------------------------------------------------------------------------------+
+# |  Default group settings                                                                                            |
+# +--------------------------------------------------------------------------------------------------------------------+
+# section-begin: default_group_settings
+
+# If there are any more than the group-minimum-size number of mobs within group-maximum-radius of each other this will
+# constitute a group of mobs.
+group-minimum-size: 10
+group-maximum-radius: 8.0
+
+# Should we only group mobs of the same type?
+#   * If this is set to true then a collection consisting of 2 horses, 3 pigs and 4 cows won't constitute a group, but a
+#     collection of 10 chickens would.
+#   * This is a good option if you only really want farms to be frozen.
+group-require-same-type: false
+
+# Should we scale the maximum radius and minimum size required of a group depending on how much the server is lagging?
+group-use-smart-scaling: true
+
+# If we do scale the maximum radius and minimum size, what are the limits at which we should scale them no-further?
+group-minimum-scaled-size: 5
+group-maximum-scaled-radius: 20
+
+# At what ratio of the TPS freezing threshold to current TPS should the limits above be reached?
+#   * I.e. when the TPS reaches minimum-scale-tps-ratio * tps-freezing-threshold the minimum size and maximum radius of
+#     the groups will be the above values.
+group-minimum-scale-tps-ratio: 0.50
+
+# section-end
+# +--------------------------------------------------------------------------------------------------------------------+
+# |  Compatibility settings                                                                                            |
+# +--------------------------------------------------------------------------------------------------------------------+
+# section-begin: compatibility_settings
+
+# We will never ignore mobs with metadata on this list.
+#   * Plugins can add metadata to entities that allows other plugins to identify them with that plugin.
+#   * If SAML interferes with some other plugin's entities, please ask that plugin's developer to add identifying
+#     metadata to them.
+ignore-metadata:
+  - Elitemob  # This ignores elite mobs from the plugin EliteMobs.
+  - Elitemobs_NPC # This ignores NPCs from the plugin EliteMobs.
+  - infernalMetadata # This ignores infernal mobs from the plugin InfernalMobs.
+  - NPC # This ignores NPCs from the plugin Citizens.
+  - shopkeeper # This ignores shopkeepers from the plugin Shopkeepers.
+  - mythicmob
+#  - Supermob  # This ignores super mobs from the plugin EliteMobs.
+
+# We will never run a freeze these worlds.
+ignore-world:
+  - example_world_the_end
+
+# Should we only unfreeze mobs which have been tagged by SAML (i.e. mobs we are sure that we have frozen)?
+#   * Keep this option as true if you use another plugin that freezes mobs, or if you summon in mobs with the 'NoAI'
+#     tag.
+#   * Note that for versions before 1.14 there is no way of keeping metadata across server restarts, so if this option
+#     is set to true and some SAML-frozen entities remain frozen after a server restart, SAML will not unfreeze them.
+only-unfreeze-tagged: true
+
+# Should we unfreeze mobs when the chunk they are in is unloaded?
+unfreeze-on-unload: true
+
+# Should we unfreeze all the loaded mobs when the plugin shuts down?
+unfreeze-on-shutdown: true
+
+# section-end
+# +--------------------------------------------------------------------------------------------------------------------+
+# |  Gameplay settings                                                                                                 |
+# +--------------------------------------------------------------------------------------------------------------------+
+# section-begin: gameplay_settings
+
+# Should we stop mobs from targeting mobs that are frozen?
+#   * This is mostly concerned with preventing mobs from attacking frozen mobs.
+prevent-targeting-frozen: true
+
+# Should we stop mobs from being able to damage frozen mobs?
+prevent-damaging-frozen: true
+
+# Should we stop players from being able to damage frozen mobs?
+prevent-player-damaging-frozen: false
+
+# Should we unfreeze mobs when interacted with by a player?
+unfreeze-on-interact: true
+
+# Below what TPS should we ignore the option above and not unfreeze mobs that are interacted with?
+#   * Set to 0 to disable this option.
+unfreeze-on-interact-tps-threshold: 0
+
+# Should we unfreeze mobs when they take damage?
+unfreeze-on-damage: true
+
+# Below what TPS should we ignore the option above and not unfreeze mobs that take damage?
+#   * Set to 0 to disable this option.
+unfreeze-on-damage-tps-threshold: 0
+
+# Should tamed mobs (cats, dogs, horses, etc.) never be frozen?
+ignore-tamed: true
+
+# Below what TPS should we ignore the option above and start freezing mobs that are tamed?
+#   * Set to 0 to disable this option.
+ignore-tamed-tps-threshold: 0
+
+# Should we ignore mobs named with a name tag?
+ignore-named: true
+
+# Below what TPS should we ignore the option above and start freezing mobs that are named?
+#   * Set to 0 to disable this option.
+ignore-named-tps-threshold: 0
+
+# Should we ignore mobs that are leashed?
+ignore-leashed: true
+
+# Below what TPS should we ignore the option above and stop ignoring mobs that are leashed?
+#   * Set to 0 to disable this option.
+ignore-leashed-tps-threshold: 0
+
+# Should we ignore mobs that are in love mode (breeding mode)?
+ignore-love-mode: true
+
+# Below what TPS should we ignore the option above and stop ignoring mobs that are in love mode?
+#   * Set to 0 to disable this option.
+ignore-love-mode-tps-threshold: 0
+
+# At what distance (in blocks) should we ignore mobs that are within that distance of a player?
+#   * Note that this is quite an expensive check. If you have a lot of players it may make the freezing operation last
+#     significantly longer.
+#   * Set to 0 to disable this option.
+ignore-player-proximity: 0
+
+# Below what TPS should we ignore the option above and stop ignoring mobs that are close to players?
+#   * Set to 0 to disable this option.
+ignore-player-proximity-tps-threshold: 0
+
+# For what age in (in ticks) should we ignore mobs that are younger than that age?
+#   * This option effectively allows you to ignore recently spawned mobs. It is good for preventing certain types of
+#     farms or grinders clogging up.
+#   * Set to 0 to disable this option.
+ignore-younger-than-ticks: 600
+
+# Below what TPS should we ignore the option above and stop ignoring mobs of any given age?
+#   * Set to 0 to disable this option.
+ignore-younger-than-ticks-tps-threshold: 0
+
+# Should we ignore mobs that are targeting players (e.g. mobs attacking a player)?
+ignore-target-player: true
+
+# Below what TPS should we ignore the option above and stop ignoring mobs that are targeting a player?
+#   * Set to 0 to disable this option.
+ignore-target-player-tps-threshold: 0
+
+# We will ignore mobs whose type is on this list.
+#   * See https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/EntityType.html for a list of types.
+#   * This is CaSE SenSiTIVe!
+never-freeze:
+  - PILLAGER
+  - VINDICATOR
+  - VEX
+  - WITCH
+  - RAVAGER
+  - ILLUSIONER
+  - EVOKER
+
+# Below what TPS should we ignore the option above and stop ignoring mobs with type on this list?
+#   * Set to 0 to disable this option.
+never-freeze-tps-threshold: 0
+
+# section-end

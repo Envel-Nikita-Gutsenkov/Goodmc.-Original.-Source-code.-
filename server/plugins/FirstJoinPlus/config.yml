@@ -19,7 +19,7 @@ on-first-join:
   first-join-kit:
     enabled: true
     items:
-    - cookie:1
+    - cookie:6
   give-written-books:
     enabled: true
     book-files:
@@ -42,18 +42,18 @@ on-first-join:
   run-console-commands:
     enabled: true
     commands:
-    - w %player_name Неуязвимость будет действовать 10 минут.
-    - lp user %player_name permission settemp essentials.spawn false 2h
+    - title %player_name times 80 400 60
+    - 'title %player_name subtitle {"text":"\u041f\u043e\u043c\u043d\u0438: \u0433\u0440\u0438\u0444\u0435\u0440\u0438\u0442\u044c
+      \u0443 \u043d\u0430\u0441 \u0437\u0430\u043f\u0440\u0435\u0449\u0435\u043d\u043e.","color":"gold"}'
+    - title %player_name title {"text":"GoodMC Original","color":"dark_green"}
   apply-potion-effects:
     enabled: false
     effects:
     - SPEED:1:15
   send-messages:
-    enabled: false
+    enabled: true
     messages:
-    - '&2Welcome to our server, %player_name! Customize this message in the FirstJoinPlus
-      configuration.'
-    - '&6http://dev.bukkit.org/server-mods/firstjoinplus/'
+    - '&2Неуязвимость будет действовать 10 минут.'
   reset-state:
     enabled: false
   teleport:
