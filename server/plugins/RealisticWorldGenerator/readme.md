@@ -1,6 +1,4 @@
-#OLD!
-#OLD! New: https://github.com/Envel-Nikita-Gutsenkov/GoodMC-Original-RealisticWorld-Epic-Config
-#OLD!
+# OLD! New: https://github.com/Envel-Nikita-Gutsenkov/GoodMC-Original-RealisticWorld-Epic-Config
 
 # English
 
