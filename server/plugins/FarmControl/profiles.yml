@@ -1,7 +1,6 @@
 # Please visit https://github.com/froobynooby/FarmControl/wiki/Profiles for help with making profiles.
 
 profiles:
-  # Remove random movements and disable collisions of mobs in animal farms
   soft-nerf-animal-farms:
     group:
       types:
@@ -12,7 +11,6 @@ profiles:
       - remove-random-movement
       - disable-collisions
 
-  # Remove the awareness of mobs in animal farms
   hard-nerf-animal-farms:
     group:
       types:
@@ -23,7 +21,6 @@ profiles:
       - remove-awareness
       - disable-collisions
 
-  # Remove the AI of mobs in animal farms
   freeze-animal-farms:
     group:
       types:
@@ -34,18 +31,16 @@ profiles:
       - remove-ai
       - disable-collisions
 
-  # No more than 20 animals (all of the same type) within close proximity
   trim-animal-farms:
     group:
       types:
         - "category:animal"
-      count: 21
+      count: 20
       distance: 5
       pure: true
     actions:
       - kill
 
-  # No more than 50 animals (all of the same type) sparsely placed (within 160 blocks of each other)
   trim-sparse-animal-farms:
     group:
       types:
@@ -56,12 +51,49 @@ profiles:
     actions:
       - kill
 
-  # No more than 10 villagers per chunk
+  trim-villager-lag:
+    group:
+      types:
+        - "villager"
+      count: 10
+      distance: same-chunk
+    actions:
+      - remove-ai
+      - disable-collisions
+
   trim-villager-chunks:
     group:
       types:
         - "villager"
-      count: 15
+      count: 20
       distance: same-chunk
     actions:
-      - kill
+      - remove
+
+  trim-monster-chunks:
+    group:
+      types:
+        - "category:monster"
+      count: 40
+      distance: same-chunk
+    actions:
+      - remove
+
+  trim-monster-farms:
+    group:
+      types:
+        - "category:monster"
+      count: 10
+      distance: 10
+    actions:
+      - remove-ai
+      - disable-collisions
+
+  trim-monster-lag:
+    group:
+      types:
+        - "category:monster"
+      count: 25
+      distance: 50
+    actions:
+      - remove-ai

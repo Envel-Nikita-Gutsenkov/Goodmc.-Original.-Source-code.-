@@ -7,7 +7,7 @@ version: 4
 
 # Set this to true to enable the plugin. The plugin is initially disabled so that you can make changes to the config
 # appropriate to your server.
-enabled: false
+enabled: true
 
 # How should we determine whether the view distance needs adjusting? Accepts three values:
 #  * proactive : Adjust the view distance so that the player-loaded chunk count is always below a set threshold.

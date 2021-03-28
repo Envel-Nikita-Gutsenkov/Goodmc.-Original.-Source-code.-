@@ -18,8 +18,11 @@ world-settings:
       # These profiles are constantly run.
       proactive:
         - soft-nerf-animal-farms
-      #  - trim-animal-farms
-      #  - trim-sparse-animal-farms
+        - trim-animal-farms
+        - trim-villager-chunks
+        - trim-monster-chunks
+        - trim-monster-farms
+        - trim-villager-lag
 
       # These profiles only run when the server is performing poorly and are progressively undone as performance
       # improves (as defined under the reactive-mode-settings).
@@ -27,8 +30,9 @@ world-settings:
       #    rather than try to mitigate it. That said, there are some reasonable use cases for this mode, such as
       #    allowing your players to keep larger farms at the cost of nerfing them when performance begins to degrade.
       reactive:
-      #  - hard-nerf-animal-farms
-      #  - freeze-animal-farms
+        - hard-nerf-animal-farms
+        - freeze-animal-farms
+        - trim-monster-lag
 
     # These settings concern the reactive mode for triggering profile check / action cycles.
     reactive-mode-settings:

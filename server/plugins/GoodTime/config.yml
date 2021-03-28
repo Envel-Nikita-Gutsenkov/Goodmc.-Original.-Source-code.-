@@ -8,5 +8,5 @@ world_the_end:
   Day: 1.0
   Night: 1.0
 mine:
-  Day: 1.5
-  Night: 1.5
+  Day: 0.5
+  Night: 0.5

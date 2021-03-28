@@ -25,11 +25,11 @@ extended_wither_boss: false
 enderman_growl_replace_enderdragon_growl: false
 
 #Spawn rate/percentage chances
-lightning_chance: 0.008
+lightning_chance: 0.01
 netherack_melting_chance: 3
 netherrack_fire_chance: 10
 mob_spawn_chance: 50
-falling_nether_chance: 0.03
+falling_nether_chance: 0.09
 alpha_pigman_sword_drop_chance: 1
 wind_volume: 800 #-lower equals louder
 wind_pitch: 0 #-must be between 0 and 2
