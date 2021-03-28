@@ -83,7 +83,7 @@ profiles:
     group:
       types:
         - "category:monster"
-      count: 10
+      count: 20
       distance: 10
     actions:
       - remove-ai
